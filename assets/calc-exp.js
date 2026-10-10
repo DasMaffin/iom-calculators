@@ -484,7 +484,6 @@
       const pct = (g) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
       const needsOf = (p) => p.steps.slice(0, -1).map(st => C[st.i].name);
       const levelText = (p) => `${levels[p.target]} → ${levels[p.target] + 1}`;
-      const noEffect = packages.filter(p => !p.affectsExp && p.steps.length === 1).map(p => C[p.target].name);
       let pick;
       if (top && top[key] > 0) {
         const needs = needsOf(top.p);
@@ -500,23 +499,7 @@
       }
       box.replaceChildren(
         pick,
-        el("h3", { text: "All options right now, best first" }),
-        el("p", { class: "muted small", text: `Each row is one alternative you could buy instead: one more level of that upgrade (plus any locked upgrades before it), and the exp/min you'd get. It's not a buying order: after you buy one, the rest change, so press ✓ Bought to re-rank. Now: ${fmt(base)} exp/min.` }),
-        el("div", { class: "table-wrap" },
-          el("table", { class: "calc-table" },
-            el("thead", {}, el("tr", {}, ...["#", "If you buy", "Needs first", "Points", "Exp/min after", "Gain", "Gain/point"].map(h => el("th", { text: h })))),
-            el("tbody", {}, ...rows.map((r, idx) => {
-              const needs = needsOf(r.p);
-              return el("tr", { class: r === top && r[key] > 0 ? "best" : "" },
-                el("td", { text: String(idx + 1) }),
-                el("td", { text: `${C[r.p.target].name} ${levelText(r.p)}` }),
-                el("td", { text: needs.length ? `${needs.length} upgrade${needs.length === 1 ? "" : "s"}` : "—", title: needs.length ? needs.join(", ") : null, class: needs.length ? "has-tip" : null }),
-                el("td", { text: r.p.cost.toLocaleString() }),
-                el("td", { text: r.best ? fmt(r.best.xpm) : "0" }),
-                el("td", { text: r.gain > 0 ? "+" + fmt(r.gain) + pct(r.gain) : "≈ 0" }),
-                el("td", { text: r.gain > 0 ? fmt(r.perPoint) : "≈ 0" }));
-            })))),
-        noEffect.length ? el("p", { class: "muted small", text: `No effect on exp: ${noEffect.join(", ")}.` }) : null
+        el("p", { class: "muted small", text: `Now: ${fmt(base)} exp/min.` })
       );
     }, () => {});
   }
