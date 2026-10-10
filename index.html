@@ -52,6 +52,7 @@
     </section>
 
     <section id="dashboard" hidden>
+      <div class="warnings" id="warnings" hidden></div>
       <div class="overview" id="overview"></div>
 
       <div class="toolbar card">
@@ -75,8 +76,8 @@
       <div id="sections"></div>
 
       <section class="card">
-        <h2>Not in this export yet</h2>
-        <p class="muted small">The wiki documents these systems, but the reference export (v2.2.30) doesn't have stats for them yet. Once your export includes them they show up in their section, or under <b>Other</b> if they're new.</p>
+        <h2>Not in the export</h2>
+        <p class="muted small">The export always contains the same stats, with 0 for anything you haven't unlocked yet. These systems are on the wiki but have no stats in the export (as of v2.2.30). If a future game update adds them, they appear in their section or under <b>Other</b>.</p>
         <ul class="notseen" id="notSeen"></ul>
       </section>
     </section>
@@ -86,7 +87,9 @@
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
+  <script src="assets/game-version.js"></script>
   <script src="assets/stat-catalog.js"></script>
+  <script src="assets/array-labels.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

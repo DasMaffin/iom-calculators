@@ -75,7 +75,7 @@
 
   // ---------- state ----------
   let data = null;          // the full export object { time, stats, version }
-  let ui = { open: {}, hideZero: false };
+  let ui = { open: {}, hideZero: true };
 
   try { ui = Object.assign(ui, JSON.parse(store.get(UI_KEY) || "{}")); } catch { /* ignore */ }
   const saveUi = () => store.set(UI_KEY, JSON.stringify(ui));
@@ -128,9 +128,50 @@
     return v === 0 || v === false;
   }
 
+  // "time" is a spreadsheet-style serial date: days since 1899-12-30, in the player's local time.
+  function exportDate(time) {
+    if (typeof time !== "number" || !isFinite(time) || time <= 0) return null;
+    const epoch = new Date(1899, 11, 30).getTime();
+    return new Date(epoch + time * 86400000);
+  }
+
+  function parseVersion(v) {
+    const m = /^v?(\d+(?:\.\d+)*)/.exec(String(v || "").trim());
+    return m ? m[1].split(".").map(Number) : null;
+  }
+
+  function compareVersions(a, b) {
+    for (let i = 0; i < Math.max(a.length, b.length); i++) {
+      const d = (a[i] || 0) - (b[i] || 0);
+      if (d) return d;
+    }
+    return 0;
+  }
+
+  function renderWarnings() {
+    const notes = [];
+    const mine = parseVersion(data.version);
+    const latest = parseVersion(IOM.LATEST_GAME_VERSION);
+    if (!data.version) {
+      notes.push("This export has no game version, so it may be from an old version of the game.");
+    } else if (mine && latest && compareVersions(mine, latest) < 0) {
+      notes.push(`Your export is from ${data.version}, but the latest known version is ${IOM.LATEST_GAME_VERSION}. Update the game and export again for accurate numbers.`);
+    }
+    const when = exportDate(data.time);
+    if (when) {
+      const days = (Date.now() - when.getTime()) / 86400000;
+      if (days > IOM.STALE_EXPORT_DAYS) {
+        notes.push(`This export is ${Math.floor(days)} days old (${when.toLocaleDateString()}). Export again for your current stats.`);
+      }
+    }
+    $("#warnings").replaceChildren(...notes.map(t => el("p", { class: "warning", role: "alert" }, "⚠️ " + t)));
+    $("#warnings").hidden = notes.length === 0;
+  }
+
   function render() {
     $("#dashboard").hidden = !data;
     if (!data) return;
+    renderWarnings();
     renderOverview();
     renderSections();
     renderNotSeen();
@@ -152,6 +193,14 @@
       tiles.push(el("div", { class: "tile" },
         el("div", { class: "t-label", text: "Game version" }),
         el("div", { class: "t-value", text: data.version })
+      ));
+    }
+    const when = exportDate(data.time);
+    if (when) {
+      tiles.push(el("div", { class: "tile" },
+        el("div", { class: "t-label", text: "Exported" }),
+        el("div", { class: "t-value", text: when.toLocaleDateString() }),
+        el("div", { class: "t-sub", text: when.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) })
       ));
     }
     $("#overview").replaceChildren(...tiles);
@@ -256,9 +305,16 @@
     // Build cells lazily the first time the block is opened.
     block.addEventListener("toggle", function build() {
       if (!block.open || block.querySelector(".array-grid")) return;
-      const grid = el("div", { class: "array-grid" });
+      const names = (IOM.ARRAY_LABELS || {})[key];
+      const grid = el("div", { class: "array-grid" + (names ? " labelled" : "") });
+      if (IOM.ARRAY_SOURCES && IOM.ARRAY_SOURCES[key]) {
+        block.append(el("p", { class: "muted small source" },
+          document.createTextNode("Names from the wiki: "),
+          el("a", { href: "https://shminer.miraheze.org/wiki/" + IOM.ARRAY_SOURCES[key], target: "_blank", rel: "noopener", text: IOM.ARRAY_SOURCES[key].replace(/_/g, " ") })
+        ));
+      }
       arr.forEach((val, i) => {
-        const cell = el("label", { class: "cell" + (val ? " nz" : "") });
+        const cell = el("label", { class: "cell" + (val ? " nz" : "") + (val === 0 ? " zero-cell" : "") });
         const input = el("input", { type: "text", inputmode: "decimal", value: rawText(val), "aria-label": `${key}[${i}]` });
         input.addEventListener("change", () => {
           const n = Number(input.value.trim());
@@ -266,11 +322,13 @@
           input.classList.remove("invalid");
           arr[i] = n;
           cell.classList.toggle("nz", n !== 0);
+          cell.classList.toggle("zero-cell", n === 0);
           meta.textContent = `${arr.filter(x => x !== 0).length}/${arr.length} set`;
           block.classList.toggle("zero", isEmpty(arr));
           saveData();
         });
-        cell.append(el("span", { text: "#" + i }), input);
+        const name = names && names[i];
+        cell.append(el("span", { title: name ? `${key}[${i}]` : null }, `#${i}`, name ? el("b", { text: " " + name }) : null), input);
         grid.append(cell);
       });
       block.append(grid);
@@ -292,11 +350,12 @@
     const q = $("#filterInput").value.trim().toLowerCase().replace(/\s+/g, "_");
     const qLabel = $("#filterInput").value.trim().toLowerCase();
     const hideZero = $("#hideZero").checked;
+    document.body.classList.toggle("hide-zero", hideZero);
     document.querySelectorAll("#sections .section").forEach(sec => {
       let visible = 0;
       sec.querySelectorAll("[data-key]").forEach(item => {
         const key = item.dataset.key;
-        const label = IOM.labelFor(key).toLowerCase();
+        const label = (IOM.labelFor(key) + " " + ((IOM.ARRAY_LABELS || {})[key] || []).join(" ")).toLowerCase();
         const match = !q || key.includes(q) || label.includes(qLabel);
         const show = match && !(hideZero && item.classList.contains("zero"));
         item.hidden = !show;

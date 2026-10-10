@@ -20,6 +20,7 @@ IOM.SECTIONS = [
   { id: "pets",      title: "Pets",                icon: "🐾", wiki: "Pets" },
   { id: "fishing",   title: "Fishing",             icon: "🎣", wiki: "Fishing" },
   { id: "statues",   title: "Statues",             icon: "🗿" },
+  { id: "archaeology", title: "Archaeology",       icon: "🏺", wiki: "Archaeology" },
   { id: "collections", title: "Upgrades & Collections", icon: "📦" },
   { id: "other",     title: "Other",               icon: "❔" }
 ];
@@ -27,6 +28,7 @@ IOM.SECTIONS = [
 // Ordered rules: first match wins.
 IOM.RULES = [
   [/^statue_/, "statues"],
+  [/^idols_array$/, "archaeology"],
   [/^(pet_|pets_)/, "pets"],
   [/^(fishing_|angler_)/, "fishing"],
   [/^is_drone_angler/, "fishing"],
@@ -71,15 +73,12 @@ IOM.LABELS = {
   star_triple_spawn_chance: "Star Triple Spawn Chance"
 };
 
-// Systems the wiki documents that are NOT in the reference export (v2.2.30, Obelisk 31).
-// Their stats will appear under their section (or "Other") automatically once your export has them.
+// Systems the wiki documents that have no stats in the export (checked against v2.2.20 and v2.2.30 exports).
 IOM.NOT_YET_SEEN = [
-  { name: "Arcanist", note: "Unlocks at Obelisk 70 — mana regen, spell power, spell duration, wizard chances (Disco, Flashbang, Blind, Party) and wizard loot multi.", wiki: "Arcanist" },
-  { name: "Archaeology", note: "Skills (Strength, Agility, Perception, Intellect, Luck, Divinity, Corruption), ascension upgrades and fragments.", wiki: "Archaeology" },
-  { name: "Fishing (active)", note: "Unlocks at Obelisk 37. Your export already has the fishing keys, all at 0 for now.", wiki: "Fishing" },
-  { name: "Black Hole", note: "World 3 — bonuses like Galactic Floor Chance and Void Portal Chance. Key black_hole_level is already exported.", wiki: "Stargazing" },
-  { name: "Prism / Void drones", note: "Void suit unlocks at Obelisk 23, Prism suit at Obelisk 64.", wiki: "Drones" },
-  { name: "Cards", note: "Standard, Gilded, Polychrome and Infernal card tiers.", wiki: "Cards" }
+  { name: "Arcanist", note: "Unlocks at Obelisk 70. Mana, spell power, spell duration, wizard chances and wizard loot multi.", wiki: "Arcanist" },
+  { name: "Archaeology (partly)", note: "Idols are exported (see the Archaeology section). Your archaeology level, stage, stamina, skills, upgrades and fragments are not.", wiki: "Archaeology" },
+  { name: "Cards", note: "Only fishing cards and the Infernal card multi are exported. Ore, vein, star and other card levels are not.", wiki: "Cards" },
+  { name: "Contract slots", note: "contracts_array is exported, but the wiki doesn't document what each slot means yet.", wiki: "Guides/Working_With_ExportStats" }
 ];
 
 IOM.sectionFor = function (key) {
@@ -94,6 +93,7 @@ const WORD_FIXES = {
 
 IOM.labelFor = function (key) {
   if (IOM.LABELS[key]) return IOM.LABELS[key];
+  if (IOM.STATUE_LABELS && IOM.STATUE_LABELS[key]) return IOM.STATUE_LABELS[key];
   let k = key.replace(/^is_/, "").replace(/_array$/, "");
   const words = k.split("_").map(w => WORD_FIXES[w] || (w.charAt(0).toUpperCase() + w.slice(1)));
   let label = words.join(" ").replace(/\bPercent\b/, "%");
