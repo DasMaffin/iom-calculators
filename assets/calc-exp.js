@@ -98,7 +98,18 @@
   const pct = (v) => Math.min(Math.max((v || 0) / 100, 0), 1);
 
   // ---------- model ----------
-  const oresOnFloor = (floor) => IOM.ORES.filter(o => floor >= o.min && floor <= o.max);
+  // Ores on a floor with their spawn share (wiki: 80%/20% on the first floor of a pair, 50%/50% on the next).
+  function oresOnFloor(floor) {
+    const split = IOM.FLOOR_ORES && IOM.FLOOR_ORES[floor];
+    if (split) return split.map(([name, w]) => Object.assign({ w }, IOM.ORES.find(o => o.name === name))).filter(o => o.name);
+    const list = IOM.ORES.filter(o => floor >= o.min && floor <= o.max);
+    return list.map(o => Object.assign({ w: 1 / list.length }, o));
+  }
+  function pickOre(list, rand) {
+    let r = rand();
+    for (const o of list) { if ((r -= o.w) <= 0) return o; }
+    return list[list.length - 1];
+  }
   const bombByName = (name) => (IOM.BOMBS || []).find(b => b.name === name) || null;
   const bombMult = (name) => IOM.bombSetup ? IOM.bombSetup.get(name) : { mult: (rawStats && rawStats.bomb_additional_multiplier) || 1, set: false };
   // Last floor of each world (wiki: Floors / Data-JSON-Zones).
@@ -143,7 +154,8 @@
     const drone = droneN ? {
       aps: DRONE_BASE_APS * (s.drone_attack_speed_percent || 0) / 100,
       dmg: (s.pickaxe_damage || 0) * (s.drone_damage_percent || 0) / 100,
-      triple: pct(s.drone_triple_damage_chance), rapid: pct(s.drone_rapid_fire_chance)
+      triple: pct(s.drone_triple_damage_chance), rapid: pct(s.drone_rapid_fire_chance),
+      chain: critChain(s, "pickaxe_")   // drones crit with the pickaxe's crit chances and damages
     } : null;
     const bombChain = critChain(s, "bomb_");
     const exp = expBombInfo(opts.raw);
@@ -175,7 +187,7 @@
     function spawn() {
       ores = [];
       for (let i = 0; i < count; i++) {
-        const o = floorOres[Math.floor(rand() * floorOres.length)];
+        const o = pickOre(floorOres, rand);
         ores.push({
           hp: o.mod === "health" && o.amt ? o.hp * (1 + o.amt / 100) : o.hp,
           xp: o.xp, marked: false, alive: true,
@@ -219,7 +231,10 @@
               }
               if (d.target < 0) break;
               const shots = rand() < drone.rapid ? 5 : 1;
-              for (let k = 0; k < shots; k++) hit(ores[d.target], drone.dmg * (rand() < drone.triple ? 3 : 1) * ores[d.target].dmgMod, 0);
+              for (let k = 0; k < shots; k++) {
+                const [tier, m] = roll(drone.chain, rand);
+                hit(ores[d.target], drone.dmg * m * (rand() < drone.triple ? 3 : 1) * ores[d.target].dmgMod, tier);
+              }
             }
           }
         }
@@ -345,7 +360,10 @@
   function buildForm(raw) {
     noteUpdaters.length = 0;
     const exp = expBombInfo(raw);
-    const pickBox = saveValues(PICK, "Pickaxe values from your save"); pickBox.hidden = !prefs.usePickaxe;
+    // Drones crit with the pickaxe's crit stats, so these values matter when either is on.
+    const pickBox = saveValues(PICK, "Pickaxe values from your save (also used for drone crits)");
+    const syncPick = () => { pickBox.hidden = !prefs.usePickaxe && !prefs.useDrones; };
+    syncPick();
     const droneBox = saveValues(DRONE, "Drone values from your save"); droneBox.hidden = !prefs.useDrones;
 
     $("#ce-form").replaceChildren(
@@ -353,10 +371,10 @@
         el("p", { class: "muted small", text: "Values come from the current save. Change any of them to try a what-if; nothing here is saved, and everything resets when you leave this page." }),
         el("button", { type: "button", class: "btn small", text: "↺ Reset to defaults", onclick: () => { IOM.calcExp.reset(); IOM.calcExp.render(currentData); } })),
       group("General", saveValues(GENERAL)),
-      group("Pickaxe", checkbox("usePickaxe", "Use pickaxe (assumes every swing hits every ore at once)", () => { pickBox.hidden = !prefs.usePickaxe; }), pickBox),
+      group("Pickaxe", checkbox("usePickaxe", "Use pickaxe (assumes every swing hits every ore at once)", syncPick), pickBox),
       group("Drones",
-        checkbox("useDrones", "Use drones", () => { droneBox.hidden = !prefs.useDrones; }),
-        el("p", { class: "muted small", text: "Each drone works on one ore at a time and moves to the next when it breaks; travel time is ignored. The wiki doesn't give drone radius or targeting, so ores in range of a drone's splash aren't counted." }),
+        checkbox("useDrones", "Use drones", () => { droneBox.hidden = !prefs.useDrones; syncPick(); }),
+        el("p", { class: "muted small", text: "Each drone works on one ore at a time and moves to the next when it breaks; travel time is ignored. Drones crit with your pickaxe crit chances and damages." }),
         droneBox),
       group("Bombs",
         bombSlot("auto", "Auto-Bomber (fires every 1.25 s)"),
