@@ -229,5 +229,26 @@
     };
   }
 
-  G.IOMSim = { simulate };
+  // True when floor f and f+1 share the same two ores (the first floor of a pair).
+  function firstOfPair(f) {
+    const a = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f], b = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f + 1];
+    return !!(a && b && a[0][0] === b[0][0] && a[1][0] === b[1][0]);
+  }
+
+  // Best floor for one set of stats: start at floor 1 and go up; stop once three floors in a row are at
+  // least 10% below the best (never on the first floor of a pair), or at lastFloor. Returns a small summary.
+  function search(s, cfg, lastFloor) {
+    let best = null, sinceBest = 0;
+    for (let f = 1; f <= lastFloor; f++) {
+      const e = simulate(f, s, cfg);
+      if (!e) continue;
+      const xpm = e.blocked ? 0 : e.xpm;
+      if (!best || xpm > best.xpm) { if (!e.blocked) best = { floor: e.floor, xpm: e.xpm, fpm: e.fpm }; sinceBest = 0; }
+      else if (xpm <= best.xpm * 0.9) { if (++sinceBest >= 3 && !firstOfPair(f)) break; }
+      else sinceBest = 0;
+    }
+    return { best };
+  }
+
+  G.IOMSim = { simulate, search, firstOfPair };
 })(typeof self !== "undefined" ? self : window);

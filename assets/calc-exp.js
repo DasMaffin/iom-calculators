@@ -133,12 +133,13 @@
         for (const w of workers) {
           if (w.busy || !queue.length) continue;
           const job = queue.shift(); w.busy = true; pending.set(job.id, job);
-          w.postMessage({ id: job.id, floor: job.floor, stats: job.stats, cfg: job.cfg });
+          w.postMessage({ id: job.id, kind: job.kind, floor: job.floor, lastFloor: job.lastFloor, stats: job.stats, cfg: job.cfg });
         }
       }
       pool = {
         size: n,
-        run(floor, stats, cfg) { return new Promise((resolve, reject) => { queue.push({ id: nextId++, floor, stats, cfg, resolve, reject }); drain(); }); },
+        run(floor, stats, cfg) { return new Promise((resolve, reject) => { queue.push({ id: nextId++, kind: "floor", floor, stats, cfg, resolve, reject }); drain(); }); },
+        search(stats, cfg, lastFloor) { return new Promise((resolve, reject) => { queue.push({ id: nextId++, kind: "search", lastFloor, stats, cfg, resolve, reject }); drain(); }); },
         clear() { queue.length = 0; }
       };
     } catch { pool = false; }
@@ -472,29 +473,50 @@
     const plan = [];   // { p, gain, xpm, levelFrom }
     let startXpm = null, baseXpm = null;
 
-    const sim = (statsObj, label) => searchFloors(statsObj, run, f => { status.textContent = `${label}… floor ${f}`; })
-      .then(r => (r.best ? r.best.xpm : 0));
+    // Whole searches for many stat sets at once: each worker takes one option, so all cores stay busy.
+    const lastFloor = WORLD_LAST_FLOOR[Math.max(1, Math.min(4, Math.round((rawStats && rawStats.worlds_unlocked) || 1)))];
+    const cfg = simConfig();
+    const workers = getPool();
+    function simMany(list, label) {
+      let done = 0;
+      const tick = () => { status.textContent = `${label}… ${done} of ${list.length}`; };
+      tick();
+      if (workers) {
+        return Promise.all(list.map(statsObj => workers.search(statsObj, cfg, lastFloor).then(r => { done++; tick(); return r.best ? r.best.xpm : 0; })))
+          .then(v => { if (run !== runId) throw new Error("cancelled"); return v; });
+      }
+      // No workers: one option per tick so the page stays responsive.
+      const out = [];
+      return new Promise((resolve, reject) => {
+        const step = () => {
+          if (run !== runId) { reject(new Error("cancelled")); return; }
+          if (out.length >= list.length) { resolve(out); return; }
+          const r = IOMSim.search(list[out.length], cfg, lastFloor); out.push(r.best ? r.best.xpm : 0); done++; tick();
+          setTimeout(step, 0);
+        };
+        step();
+      });
+    }
 
     const round = (n) => {
       const prefix = rounds > 1 ? `Round ${n} of ${rounds}: ` : "";
-      const base = baseXpm !== null ? Promise.resolve(baseXpm) : sim(st, prefix + "simulating your current setup");
-      return base.then(b => {
+      const options = contractPackages(levels).packages.filter(p => p.affectsExp);
+      const trials = options.map(p => {
+        const trial = Object.assign({}, st);
+        for (const step of p.steps) if (CONTRACT_EFFECTS[step.i]) CONTRACT_EFFECTS[step.i](trial, step.from);
+        return trial;
+      });
+      // The current setup (first round only; later rounds start from the previous pick) and every option, all at once.
+      const list = baseXpm === null ? [st, ...trials] : trials;
+      return simMany(list, `${prefix}simulating ${options.length} upgrade options`).then(xpms => {
+        const b = baseXpm === null ? xpms.shift() : baseXpm;
         if (startXpm === null) startXpm = b;
         baseXpm = b;
-        const options = contractPackages(levels).packages.filter(p => p.affectsExp);
-        const results = [];
-        const next = (k) => {
-          if (k >= options.length) return Promise.resolve();
-          const p = options[k];
-          const trial = Object.assign({}, st);
-          for (const step of p.steps) if (CONTRACT_EFFECTS[step.i]) CONTRACT_EFFECTS[step.i](trial, step.from);
-          return sim(trial, `${prefix}${C[p.target].name} (${k + 1} of ${options.length})`).then(xpm => {
-            const gain = Math.max(0, xpm - b);   // below zero is simulation noise: counts as 0
-            results.push({ p, xpm, gain, perPoint: gain / p.cost, trial });
-            return next(k + 1);
-          });
-        };
-        return next(0).then(() => {
+        const results = options.map((p, k) => {
+          const gain = Math.max(0, xpms[k] - b);   // below zero is simulation noise: counts as 0
+          return { p, xpm: xpms[k], gain, perPoint: gain / p.cost, trial: trials[k] };
+        });
+        return Promise.resolve().then(() => {
           results.sort((x, y) => y[key] - x[key]);
           const top = results[0];
           if (!top || top[key] <= 0) return false;
