@@ -50,9 +50,10 @@
   const root = document.getElementById("calcExp");
   if (!root || !window.IOM || !IOM.ORES) return;
 
+  // Nothing here is stored: values and assumptions reset when you leave the page or press Reset.
   let prefs = Object.assign({}, DEFAULTS);
-  try { Object.assign(prefs, JSON.parse(localStorage.getItem(PREF_KEY) || "{}")); } catch { /* defaults */ }
-  const savePrefs = () => { try { localStorage.setItem(PREF_KEY, JSON.stringify(prefs)); } catch { /* ignore */ } };
+  const savePrefs = () => {};
+  try { localStorage.removeItem("iom.calc.exp.v1"); localStorage.removeItem(PREF_KEY); } catch { /* ignore */ }
 
   let stats = null;        // values the calculator uses (copied from the save, editable here)
   let sourceKey = null;
@@ -308,7 +309,9 @@
     mode.addEventListener("change", () => { prefs.respawnMode = mode.value; savePrefs(); schedule(); });
 
     $("#ce-form").replaceChildren(
-      el("p", { class: "muted small", text: "Values come from the current save. Change any of them to try a what-if; they reset when you switch saves." }),
+      el("div", { class: "calc-intro" },
+        el("p", { class: "muted small", text: "Values come from the current save. Change any of them to try a what-if; nothing here is saved, and everything resets when you leave this page." }),
+        el("button", { type: "button", class: "btn small", text: "↺ Reset to defaults", onclick: () => { IOM.calcExp.reset(); IOM.calcExp.render(currentData); } })),
       group("General", fieldGrid(GENERAL)),
       group("Pickaxe", checkbox("usePickaxe", "Use pickaxe (assumes every swing hits every ore at once)", () => { pickBox.hidden = !prefs.usePickaxe; }), pickBox),
       group("Drones",
@@ -393,10 +396,14 @@
             el("td", { text: fmt(e.xpm) })))))));
   }
 
+  let currentData = null;
   IOM.calcExp = {
+    // Forget every what-if value and assumption; the next render starts from the save again.
+    reset() { sourceKey = null; prefs = Object.assign({}, DEFAULTS); },
     // Bomb setup changed on the Savefiles page.
     refresh() { if (stats) { noteUpdaters.forEach(f => f()); schedule(); } },
     render(data) {
+      currentData = data;
       if (!data || !data.stats) return;
       const key = JSON.stringify([data.time, data.version, data.stats.current_floor, data.stats.experience_multi, data.stats.pickaxe_damage]);
       if (key !== sourceKey) {

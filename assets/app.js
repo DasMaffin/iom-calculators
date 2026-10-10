@@ -196,7 +196,10 @@
     let view = currentView();
     if (NEEDS_DATA.has(view) && !data) view = "saves";   // greyed out until something is imported
     document.querySelectorAll("[data-view-panel]").forEach(p => { p.hidden = p.dataset.viewPanel !== view; });
-    if (view === "calc-exp" && IOM.calcExp) IOM.calcExp.render(data);
+    if (IOM.calcExp) {
+      if (view === "calc-exp") IOM.calcExp.render(data);
+      else IOM.calcExp.reset();          // what-if values never outlive the page
+    }
     document.querySelectorAll(".nav-item").forEach(a => {
       if (!a.dataset.view) return;
       const disabled = NEEDS_DATA.has(a.dataset.view) && !data;
