@@ -275,6 +275,12 @@
   }
   function group(title, ...children) { return el("fieldset", { class: "calc-group" }, el("legend", { text: title }), ...children); }
   function fieldGrid(fields) { return el("div", { class: "field-grid" }, ...fields.map(([k, l, st]) => numberInput(k, l, st))); }
+  // Values taken from the save, folded away by default so the choices above them stand out.
+  function saveValues(fields, label) {
+    return el("details", { class: "save-values" },
+      el("summary", { class: "small", text: `${label || "Values from your save"} (${fields.length})` }),
+      fieldGrid(fields));
+  }
   function bombSlot(slot, label) {
     const key = slot === "auto" ? "autoBomb" : "slowBomb";
     const select = el("select", { id: "ce-" + key },
@@ -299,8 +305,8 @@
   function buildForm(raw) {
     noteUpdaters.length = 0;
     const exp = expBombInfo(raw);
-    const pickBox = fieldGrid(PICK); pickBox.hidden = !prefs.usePickaxe;
-    const droneBox = fieldGrid(DRONE); droneBox.hidden = !prefs.useDrones;
+    const pickBox = saveValues(PICK, "Pickaxe values from your save"); pickBox.hidden = !prefs.usePickaxe;
+    const droneBox = saveValues(DRONE, "Drone values from your save"); droneBox.hidden = !prefs.useDrones;
     const mode = el("select", { id: "ce-mode" },
       el("option", { value: "after", text: "Wait starts after the floor is cleared" }),
       el("option", { value: "tick", text: "Fixed check every interval (like a bus timetable)" }));
@@ -311,7 +317,7 @@
       el("div", { class: "calc-intro" },
         el("p", { class: "muted small", text: "Values come from the current save. Change any of them to try a what-if; nothing here is saved, and everything resets when you leave this page." }),
         el("button", { type: "button", class: "btn small", text: "↺ Reset to defaults", onclick: () => { IOM.calcExp.reset(); IOM.calcExp.render(currentData); } })),
-      group("General", fieldGrid(GENERAL)),
+      group("General", saveValues(GENERAL)),
       group("Pickaxe", checkbox("usePickaxe", "Use pickaxe (assumes every swing hits every ore at once)", () => { pickBox.hidden = !prefs.usePickaxe; }), pickBox),
       group("Drones",
         checkbox("useDrones", "Use drones", () => { droneBox.hidden = !prefs.useDrones; }),
@@ -322,7 +328,7 @@
         bombSlot("slow", "Fire Slow / turtle (fires every 1.25 s)"),
         checkbox("fullBombs", "Assume full bombs (stored charges, so bombs fire every 1.25 s; off = only as fast as they recharge)"),
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
-        fieldGrid(BOMB)),
+        saveValues(BOMB, "Bomb values from your save")),
       group("Timing",
         el("div", { class: "field-grid" },
           el("label", { class: "field wide", for: "ce-mode" }, el("span", { text: "Respawn timing" }), mode),
