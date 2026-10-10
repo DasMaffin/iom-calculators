@@ -1,0 +1,14 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock the cards menu at Obelisk 15 and Unlock World 3.
+# Tap Floor Selection
+# Tap Floor 73
+# Tap Floor Selection
+# Tap Floor 73
+# Repeat!
+## You have a small chance to get the card each time you tap, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Floor 73 Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

@@ -1,0 +1,33 @@
+Page containing all of the guides currently available on the wiki. For other useful calculators, spreadsheets and simulators, see [[Calculators]] and [[External Resources]].
+
+===See the Guide that worth adding? Create one yourself here!===
+<div style="margin: 15px 0; float:left">
+<inputbox>
+type=create
+prefix=Guides/
+buttonlabel=Create new guide
+placeholder=Guide name
+width=30
+break = no
+</inputbox>
+</div>
+
+{{Clear}}
+== Available Guides ==
+{{#dpl:
+ |namespace = 0
+ |titleregexp = ^Guides/[^/]+$
+ |ordermethod = title
+ |order = ascending
+ |replaceintitle = /(Guides\/{{!}}Guide$)/,
+ |resultsheader = Currently available guides:
+}}
+
+== Planned Guides ==
+''Nothing right now - have some idea of what should be added? Reach us on [https://discord.gg/d7Qs3664wv wiki discord]!''
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

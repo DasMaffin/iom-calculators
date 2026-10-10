@@ -1,0 +1,235 @@
+{{Version|2.2.23}}
+[[File:Upgrades Button.png|frameless|left]]
+Upgrades can be purchased with bars and gold. You can unlock more upgrades by leveling up.
+
+Upgrades are lost when [[Prestige|prestiging]].
+
+{{clear|left}}
+==World Upgrades==
+<tabber class="sticky-header">
+World 1 Upgrades=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan=2 | Effect !! Bonus per level !! Max level<ref name=cap>including cap increase upgrades from level 75 and level 160</ref> !! Requirement !! Upgrade Cost Type
+|-
+|<div id="Upgrades_W1_UpgradePickaxe"/>[[File:Pickaxe_Cost.png]] || Upgrade Pickaxe || [[#Damage_Calculation|+? damage]] || 171 || Level 1 || ''varies''
+|-
+|<div id="Upgrades_W1_PickaxeRadius"/>[[File:Pickaxe Radius.png]] || Pickaxe Radius || +8% || 16 || Level 4 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeCritChance_1"/>[[File:Pickaxe Crit Chance.png]] || Pickaxe Crit Chance || +2% || 16 || Level 8 || [[File:Tin Bar.png|link=Ores#Tin]] + [[File:Copper Bar.png|link=Ores#Copper]]
+|-
+|<div id="Upgrades_W1_DoubleCraftChance"/>[[File:Double Craft Chance.png]] || Double [[Craft#Craft_Chance|Craft Chance]] || +2% || 16 || Level 12 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_TripleRockChance"/>[[File:Triple Rock Chance.png]] || Triple Rock Chance || +1% || 16 || Level 16 || [[File:Mithril Bar.png|link=Ores#Mithril]]
+|-
+|<div id="Upgrades_W1_BombDamage_1"/>[[File:Bomb Damage.png]] || Bomb Damage || +20% || 16 || Level 20 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_OreSellPrice"/>[[File:Ore Sell Price Multiplier.png]] || Ore Sell Price || +10% || 16 || Level 24 || [[File:Adamant Bar.png|link=Ores#Adamant]]
+|-
+|<div id="Upgrades_W1_PickaxeCritDamage_1"/>[[File:Pickaxe Crit Damage.png]] || Pickaxe Crit Damage || +5% || 11 || Level 28 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamage_1"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +10% || 16 || Level 32 || [[File:Runite Bar.png|link=Ores#Runite]]
+|-
+|<div id="Upgrades_W1_FreeBombChance"/>[[File:Free Bomb Chance.png]] || Free Bomb Chance || +1% || 16 || Level 36 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_UpgradeGoldPrices"/>[[File:Upgrade Gold Prices.png]] || Upgrade Gold Prices || -5% || 16 || Level 40 || [[File:Citrine Bar.png|link=Ores#Citrine]]
+|-
+|<div id="Upgrades_W1_PickaxeCritChance_2"/>[[File:Pickaxe Crit Chance.png]] || Pickaxe Crit Chance || +2% || 16 || Level 44 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamage_2"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +15% || 16 || Level 48 || [[File:Amethyst Bar.png|link=Ores#Amethyst]]
+|-
+|<div id="Upgrades_W1_PickaxeAttackSpeed_1"/>[[File:Pickaxe Attack Speed.png]] || Pickaxe Attack Speed || +2% || 16 || Level 52 || [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeCritDamage_2"/>[[File:Pickaxe Crit Damage.png]] || Pickaxe Crit Damage || +6% || 11 || Level 56 || [[File:Topaz Bar.png|link=Ores#Topaz]]
+|-
+|<div id="Upgrades_W1_BombRechargeRate"/>[[File:Bomb Recharge Speed.png]] || Bomb Recharge Rate || +1% || 16 || Level 60 || [[File:Obsidian Bar.png|link=Ores#Obsidian]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamage_3"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +20% || 16 || Level 62 || [[File:Demonite Bar.png|link=Ores#Demonite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_BombDamage_2"/>[[File:Bomb Damage.png]] || Bomb Damage || +40% || 16 || Level 65 || [[File:VR-Tin Bar.png|link=Ores#VR-Tin]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_BombCritDamage_1"/>[[File:Bomb Crit Damage.png]] || Bomb Crit Damage || +8% || 16 || Level 68 || [[File:VR-Amethyst Bar.png|link=Ores#VR-Amethyst]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeSuperCritChance"/>[[File:Pickaxe Super Crit Chance.png]] || Pickaxe Super Crit Chance || +1% || 16 || Level 70 || [[File:VR-Demonite Bar.png|link=Ores#VR-Demonite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeAttackSpeed_2"/>[[File:Pickaxe Attack Speed.png]] || Pickaxe Attack Speed || +2% || 16 || Level 72 || [[File:VR-ERROR Bar.png|link=Ores#VR-ERROR]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_IncreaseUpgradeCaps"/>[[File:Increase Upgrade Caps.png]] || Increase Upgrade Caps || +1 cap || 3 || Level 75 || [[File:Lunarium Bar.png|link=Ores#Lunarium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamage_4"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +28% || 16 || Level 78 || [[File:Earth-C-137 Bar.png|link=Ores#Earth-C-137]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_BombCritDamage_2"/>[[File:Bomb Crit Damage.png]] || Bomb Crit Damage || +12% || 16 || Level 80 || [[File:Meteorite Bar.png|link=Ores#Meteorite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeSuperCritDamage"/>[[File:Pickaxe Super Crit Damage.png]] || Pickaxe Super Crit Damage || +10% || 11 || Level 82 || [[File:Singularity Bar.png|link=Ores#Singularity]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeCritChance_3"/>[[File:Pickaxe Crit Chance.png]] || Pickaxe Crit Chance || +2% || 16 || Level 85 || [[File:Halium Bar.png|link=Ores#Halium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamage_5"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +35% || 21 || Level 88 || [[File:Blasphemite Bar.png|link=Ores#Blasphemite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_ObeliskArmor"/>[[File:Obelisk Armor Reduction.png]] || Obelisk Armor || -2% || 16 || Level 90 || [[File:Angelite Bar.png|link=Ores#Angelite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeUltraCritChance"/>[[File:Pickaxe Ultra Crit Chance.png]] || Pickaxe Ultra Crit Chance || +1% || 16 || Level 92 || [[File:Elysium Bar.png|link=Ores#Elysium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_MeterFillRate"/>[[File:Chest Meter Gain Multiplier.png]] || Meter Fill Rate || +2x || 16 || Level 95 || [[File:Enemite Bar.png|link=Ores#Enemite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_BombUltraCritChance"/>[[File:Bomb Ultra Crit Chance.png]] || Bomb Ultra Crit Chance || +1% || 16 || Level 98 || [[File:Beepboopium Bar.png|link=Ores#Beepboopium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_TripleCraftChance"/>[[File:Triple Craft Chance.png]] || Triple [[Craft#Craft_Chance|Craft Chance]] || +1% || 16 || Level 100 || [[File:Radion-73 Bar.png|link=Ores#Radion-73]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W1_PickaxeDamagePerCardOwned"/>[[File:Pickaxe Damage Per Card Owned.png]] || Pickaxe Damage Per Card Owned || +1% || 16 || Level 102 || [[File:Cranium Bar.png|link=Ores#Cranium]] + [[File:Gold Coin.png|link=Sell]]
+|}
+|-|
+World 2 Upgrades=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan=2 | Effect !! Bonus per level !! Max level <ref name=cap /> !! Requirement !! Upgrade Cost Type
+|-
+|<div id="Upgrades_W2_BombDamage_1"/>[[File:Bomb Damage.png]] || Bomb Damage || +25% || 50 || Level 105 || [[File:Lapis_Bar.png|link=Ores#Lapis]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeSuperCritChance"/>[[File:Pickaxe Super Crit Chance.png]] || Pickaxe Super Crit Chance || +1% || 21 || Level 110 || [[File:Quartz_Bar.png|link=Ores#Quartz]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_GoldenVeinChance"/>[[File:Golden Vein Chance.png]] || Golden Vein Chance || +0.50% || 16 || Level 115 || [[File:Glacialite_Bar.png|link=Ores#Glacialite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeDamagePerStatueOwned_1"/>[[File:Pickaxe Damage Per Statue Owned.png]] || Pickaxe Damage Per Statue Owned || +5% || 100 || Level 120 || [[File:Twinklestone_Bar.png|link=Ores#Twinklestone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_ExperienceGain"/>[[File:Experience Gain Multiplier.png]] || Experience Gain || +15% || 100 || Level 125 || [[File:Sandcasium_Bar.png|link=Ores#Sandcasium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeUltraCritChance"/>[[File:Pickaxe Ultra Crit Chance.png]] || Pickaxe Ultra Crit Chance || +1% || 16 || Level 130 || [[File:Clamite_Bar.png|link=Ores#Clamite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_BarOutputMultiplier"/>[[File:Bar Output Multiplier.png]] || Bar Output Multiplier|| +1% || 16 || Level 135 || [[File:Thunderstone_Bar.png|link=Ores#Thunderstone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeOmegaCritChance"/>[[File:Pickaxe Omega Crit Chance.png]] || Omega Crit Chance || +1% || 16 || Level 140 || [[File:Crabrock_Bar.png|link=Ores#Crabrock]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_BombUltraCritChance"/>[[File:Bomb Ultra Crit Chance.png]] || Bomb Ultra Crit Chance || +1% || 21 || Level 145 || [[File:Hailstone_Bar.png|link=Ores#Hailstone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_LootbugLootMulti"/>[[File:Lootbug Loot Multi.png]] || Lootbug Loot Multi || +1% || 21 || Level 150 || [[File:Frostbite_Bar.png|link=Ores#Frostbite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeDamagePerStatueOwned_2"/>[[File:Pickaxe Damage Per Statue Owned.png]] || Pickaxe Damage Per Statue Owned || +8% || 100 || Level 155 || [[File:Icebloom_Bar.png|link=Ores#Icebloom]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_IncreaseUpgradeCaps"/>[[File:Increase Upgrade Caps.png]] || Increase Upgrade Caps || +1 cap || 3 || Level 160 || [[File:Pinguinus_Bar.png|link=Ores#Pinguinus]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeDamage"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +0.02x || 50 || Level 165 || [[File:Macawrock_Bar.png|link=Ores#Macawrock]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_BombDamage_2"/>[[File:Bomb Damage.png]] || Bomb Damage || +0.02x || 50 || Level 170 || [[File:Cocore_Bar.png|link=Ores#Cocore]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_TripleContractChance"/>[[File:Triple Contract Point Chance.png]] || Triple Contract Chance || +0.50% || 20 || Level 175 || [[File:Rafflenium_Bar.png|link=Ores#Rafflenium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_10xSuperStarChance"/>[[File:Super Star 10x Spawn Chance.png]] || 10x Super Star Chance || +0.10% || 20 || Level 180 || [[File:Carnivorian_Bar.png|link=Ores#Carnivorian]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_FuelSaveChance"/>[[File:Fuel Save Chance.png]] || Fuel Save Chance || +0.15% || 50 || Level 185 || [[File:Infernite_Bar.png|link=Ores#Infernite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_PickaxeDamagePerPolyCard"/>[[File:Pickaxe Damage Per Poly Card.png]] || Pickaxe Damage Per Poly Card || +2% || 50 || Level 190 || [[File:Blood-Onyx_Bar.png|link=Ores#Blood-Onyx]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_RainbowVeinChance"/>[[File:Rainbow Vein Chance.png]] || Rainbow Vein Chance || +0.25% || 30 || Level 195 || [[File:Cyrogem_Bar.png|link=Ores#Cyrogem]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W2_RainbowFloorMulti"/>[[File:Rainbow Floor Multiplier.png]] || Rainbow Floor Multi || +0.50% || 40 || Level 200 || [[File:Pinnaclite_Bar.png|link=Ores#Pinnaclite]] + [[File:Gold Coin.png|link=Sell]]
+|}
+|-|
+World 3 Upgrades=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan=2 | Effect !! Bonus per level !! Max level <ref name=cap /> !! Requirement !! Upgrade Cost Type
+|-
+|<div id="Upgrades_W3_PickaxeDamage"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +0.04x || 50 || Level 205 || [[File:Omeletite_Bar.png|link=Ores#Omeletite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_BombDamage"/>[[File:Bomb Damage.png]] || Bomb Damage || +0.04x || 50 || Level 210 || [[File:Resinite_Bar.png|link=Ores#Resinite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_GoldenFloorMulti"/>[[File:Golden Floor Multiplier.png]] || Golden Floor Multi || +1% || 30 || Level 215 || [[File:Impactium_Bar.png|link=Ores#Impactium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_PetLevelChance"/>[[File:Pet Level Up Chance.png]] || Pet Level Chance || +0.12% || 50 || Level 220 || [[File:Tricerastone_Bar.png|link=Ores#Tricerastone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_10xCraftChance"/>[[File:10x Craft Chance.png]] || 10x [[Craft#Craft_Chance|Craft Chance]] || +0.10% || 50 || Level 225 || [[File:Duelysium_Bar.png|link=Ores#Duelysium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_BombOmegaCritChance"/>[[File:Bomb Omega Crit Chance.png]] || Bomb Omega Crit Chance || +1% || 50 || Level 230 || [[File:Arcusite_Bar.png|link=Ores#Arcusite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_GoldenVeinMulti"/>[[File:Golden Vein Multiplier.png]] || Golden Vein Multi || +1% || 50 || Level 235 || [[File:Phalanxite_Bar.png|link=Ores#Phalanxite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_GalacticRainbowChance"/>[[File:Galactic Rainbow Floor Chance.png]] || Galactic Rainbow Chance || +0.10% || 50 || Level 240 || [[File:Guardium_Bar.png|link=Ores#Guardium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_PickaxeAndBombDamage"/>[[File:Pickaxe and Bomb Damage.png]] || Pickaxe & Bomb Damage || +0.06x || 50 || Level 245 || [[File:Cognite Bar.png|link=Ores#Cognite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_GoldenOreMulti"/>[[File:Golden Ore Multiplier.png]] || Golden Ore Multi || +2% || 50 || Level 250 || [[File:Telophite Bar.png|link=Ores#Telophite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_StarSupergiantChance"/>[[File:Star Supergiant Chance.png]] || Star Supergiant Chance || +0.10% || 50 || Level 255 || [[File:Steamstone Bar.png|link=Ores#Steamstone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_BaseGameSpeed"/>[[File:Game Speed Multiplier.png]] || Base Game Speed || +0.10% || 50 || Level 260 || [[File:Equinine Bar.png|link=Ores#Equinine]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_FishingDroneBasePower"/>[[File:Fishing Drone Base Power.png]] || Fishing Drone Base Power || +0.10 || 50 || Level 265 || [[File:Dynamite Bar.png|link=Ores#Dynamite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_FuelDuration"/>[[File:Drone Fuel Duration Multiplier.png]] || Fuel Duration || +0.15% || 50 || Level 270 || [[File:Genevium Bar.png|link=Ores#Genevium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_SuperStarSupergiantMulti"/>[[File:Super Star Supergiant Multiplier.png]] || Super Star Supergiant Multi || +0.20% || 50 || Level 275 || [[File:Manhattite Bar.png|link=Ores#Manhattite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_RainbowVeinMulti"/>[[File:Rainbow Vein Multiplier.png]] || Rainbow Vein Multi || +2% || 50 || Level 280 || [[File:Rationium Bar.png|link=Ores#Rationium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_PetSkinLevelUpChance"/>[[File:Pet Skin Level Up Chance.png]] || Pet Skin Level Up Chance || +0.10% || 50 || Level 285 || [[File:Vaporium Bar.png|link=Ores#Vaporium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_PolychromeOreCardMulti"/>[[File:Poly Shard.png]] || Polychrome Ore Card Multi || +0.05x || 50 || Level 290 || [[File:Palmite Bar.png|link=Ores#Palmite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_100xCraftChance"/>[[File:100x Craft Chance.png]] || 100x [[Craft#Craft_Chance|Craft Chance]] || +0.03% || 50 || Level 295 || [[File:Ransomite Bar.png|link=Ores#Ransomite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W3_FreebieTimer"/>[[File:Freebie Cooldown.png]] || Freebie Timer || -1s || 50 || Level 300 || [[File:MVPD-1988 Bar.png|link=Ores#MVPD-1988]] + [[File:Gold Coin.png|link=Sell]]
+|}
+|-|
+World 4 Upgrades=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan=2 | Effect !! Bonus per level !! Max level <ref name=cap /> !! Requirement !! Upgrade Cost Type
+|-
+|<div id="Upgrades_W4_PickaxeDamage"/>[[File:Pickaxe Damage.png]] || Pickaxe Damage || +0.1x || 50 || Level 305 || [[File:Chronite Bar.png|link=Ores#Chronite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_BombDamage"/>[[File:Bomb Damage.png]] || Bomb Damage  || +0.1x || 50  || Level 310 || [[File:Hattium Bar.png|link=Ores#Hattium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_GalacticRainbowChance"/>[[File:Galactic Rainbow Floor Chance.png]] || Galactic Rainbow Chance  || +0.15% || 50  || Level 315 || [[File:Pishalvite Bar.png|link=Ores#Pishalvite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_VeinIncomeMultiplier"/>[[File:Vein Income Multiplier.png]] || Vein Income Multiplier  || +0.45% || 50  || Level 320 || [[File:Teatimium Bar.png|link=Ores#Teatimium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_StarSupergiantMulti"/>[[File:Star Supergiant Multiplier.png]] || Star Supergiant Multi || +0.30% || 50  || Level 325 || [[File:Rumium Bar.png|link=Ores#Rumium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_RainbowPortalMulti"/>[[File:Rainbow Void Portal Multiplier.png]] || Rainbow Portal Multi || +0.50% || 50  || Level 330 || [[File:Anchorium Bar.png|link=Ores#Anchorium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_LootfrogLootMulti"/>[[File:Lootfrog Loot Multiplier.png]] || Lootfrog Loot Multi || +0.40% || 50  || Level 335 || [[File:Mateyum Bar.png|link=Ores#Mateyum]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_SuperStonksChance"/>[[File:Super Stonks Chance.png]] || Super Stonks Chance || +0.02% || 50  || Level 340 || [[File:Hookite Bar.png|link=Ores#Hookite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_PickaxeAndBombDamage_1"/>[[File:Pickaxe and Bomb Damage.png]] || Pickaxe & Bomb Damage || +0.08x || 50  || Level 345 || [[File:Carpetite Bar.png|link=Ores#Carpetite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_GoldenVoidPortalChance"/>[[File:Golden Void Portal Chance.png]] || Golden Void Portal Chance || +0.10% || 50  || Level 350 || [[File:Djinnium Bar.png|link=Ores#Djinnium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_PrismaticFloorChance"/>[[File:Prismatic Galactic Floor Chance.png]] || Prismatic Floor Chance || +0.10% || 50  || Level 355 || [[File:Sinbadium Bar.png|link=Ores#Sinbadium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_PrismaticFloorMulti"/>[[File:Prismatic Galactic Floor Multi.png]] || Prismatic Floor Multi || +0.50% || 50  || Level 360 || [[File:Turbanite Bar.png|link=Ores#Turbanite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_PickaxeAndBombDamage_2"/>[[File:Pickaxe and Bomb Damage.png]]  || Pickaxe & Bomb Damage || +0.1x || 50 || Level 365 ||  [[File:Carriagum Bar.png|link=Ores#Carriagum]] + [[File: Gold Coin.png]]
+|-
+|<div id="Upgrades_W4_BigFrogChance"/>[[File:Big Lootfrog Chance.png]] || Big Frog Chance || +0.02% || 50 || Level 370 || [[File:Crystal-Rose Bar.png|link=Ores#Crystal-Rose]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_RainbowFloorMulti"/>[[File:Rainbow_Floor_Multiplier.png]] || Rainbow Floor Multi || +0.15% || 50 || Level 375 || [[File:Frogstone Bar.png|link=Ores#Frogstone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_VoidPortalChance"/>[[File:Void_Portal_Chance.png]] || Void Portal Chance || +0.1% || 50 || Level 380 || [[File:Slipperite Bar.png|link=Ores#Slipperite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_StarRadiantChance"/>[[File:Star_Radiant_Chance.png]] || Star Radiant Chance || +0.08% || 50 || Level 385 || [[File:Jellystone Bar.png|link=Ores#Jellystone]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_GalacticFloorMulti"/>[[File:Galactic_Rainbow_Floor_Multiplier.png]] || Galactic Floor Multi || +0.2% || 50 || Level 390 || [[File:Lollipopite Bar.png|link=Ores#Lollipopite]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_UltraStonksChance"/>[[File:Ultra_Stonks_Chance.png]] || Ultra Stonks Chance || +0.03% || 50 || Level 395 || [[File:Mintium Bar.png|link=Ores#Mintium]] + [[File:Gold Coin.png|link=Sell]]
+|-
+|<div id="Upgrades_W4_AllVoidPortalMultis"/>[[File:All_Void_Portal_Multis.png]] || All Void Portal Multis || +0.1% || 50 || Level 400 || [[File:Neopolium Bar.png|link=Ores#Neopolium]] + [[File:Gold Coin.png|link=Sell]]
+|}
+</tabber>
+===Damage Calculation===
+The Base Damage amount from "Upgrade Pickaxe" can be calculated with the following equation:<br>
+<math>\text{Base damage} \; = \; \frac{(\text{Level} + 1) \times (\text{Level} + 2)}{2}</math>​
+
+===Upgrade Cost===
+The cost of an upgrade scales linearly for the first ten levels, then with a linear times exponential formula for every level after.
+
+The cost of the first ten levels can be calculated with the following expression:
+
+<math>\text{Cost} \; = \; \text{Base cost} \times N</math>​
+
+Subsequently, the cost of levels 11 and onward can be calculated with this expression:
+
+<math>\text{Cost} \; = \; \text{Base cost} \times 1.3^{(N-10)} \times N</math>​
+
+==References==
+<references />
+
+==Navigation==
+{{Menu}}

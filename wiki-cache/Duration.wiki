@@ -1,0 +1,4 @@
+{{Disambiguation}}
+'''Duration''' may refer to:
+* [[Items#Item_Effects|Item duration]]
+* [[Drones#Coal_Upgrades|Fuel duration]]

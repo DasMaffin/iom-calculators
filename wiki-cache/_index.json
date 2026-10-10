@@ -1,0 +1,806 @@
+{
+  "source": "https://shminer.miraheze.org/w/api.php",
+  "fetched": "2026-10-10T13:03:31.386Z",
+  "pages": [
+    {
+      "title": "2x ore income",
+      "file": "2x_ore_income.wiki",
+      "updated": "2026-10-08T08:34:58Z"
+    },
+    {
+      "title": "Alex",
+      "file": "Alex.wiki",
+      "updated": "2026-08-06T21:30:31Z"
+    },
+    {
+      "title": "Arcanist",
+      "file": "Arcanist.wiki",
+      "updated": "2026-10-07T00:59:57Z"
+    },
+    {
+      "title": "Arcanist/Altar Costs",
+      "file": "Arcanist__Altar_Costs.wiki",
+      "updated": "2026-09-23T12:18:08Z"
+    },
+    {
+      "title": "Arcanist/Essence Upgrade Costs",
+      "file": "Arcanist__Essence_Upgrade_Costs.wiki",
+      "updated": "2026-09-22T13:54:49Z"
+    },
+    {
+      "title": "Arcanist/Exchange Upgrade Costs",
+      "file": "Arcanist__Exchange_Upgrade_Costs.wiki",
+      "updated": "2026-09-17T06:21:57Z"
+    },
+    {
+      "title": "Arcanist/Spell Potency Costs",
+      "file": "Arcanist__Spell_Potency_Costs.wiki",
+      "updated": "2026-10-03T01:46:01Z"
+    },
+    {
+      "title": "Archaeology",
+      "file": "Archaeology.wiki",
+      "updated": "2026-10-09T11:14:11Z"
+    },
+    {
+      "title": "Archaeology/Costs",
+      "file": "Archaeology__Costs.wiki",
+      "updated": "2026-09-28T18:56:00Z"
+    },
+    {
+      "title": "Archaeology/Stats",
+      "file": "Archaeology__Stats.wiki",
+      "updated": "2026-09-05T12:48:41Z"
+    },
+    {
+      "title": "Autoclicker",
+      "file": "Autoclicker.wiki",
+      "updated": "2026-09-10T20:49:17Z"
+    },
+    {
+      "title": "Banked",
+      "file": "Banked.wiki",
+      "updated": "2026-08-06T19:16:41Z"
+    },
+    {
+      "title": "Bombs",
+      "file": "Bombs.wiki",
+      "updated": "2026-10-05T02:29:26Z"
+    },
+    {
+      "title": "Buffs",
+      "file": "Buffs.wiki",
+      "updated": "2026-10-08T08:36:50Z"
+    },
+    {
+      "title": "Calculators",
+      "file": "Calculators.wiki",
+      "updated": "2026-09-19T14:44:59Z"
+    },
+    {
+      "title": "Cap",
+      "file": "Cap.wiki",
+      "updated": "2025-11-27T22:58:11Z"
+    },
+    {
+      "title": "Cards",
+      "file": "Cards.wiki",
+      "updated": "2026-10-08T10:09:45Z"
+    },
+    {
+      "title": "Cards/Card Effects",
+      "file": "Cards__Card_Effects.wiki",
+      "updated": "2026-08-04T09:47:41Z"
+    },
+    {
+      "title": "Cards/Card Effects/Archaeology",
+      "file": "Cards__Card_Effects__Archaeology.wiki",
+      "updated": "2026-09-20T03:02:21Z"
+    },
+    {
+      "title": "Cards/Card Effects/Bars",
+      "file": "Cards__Card_Effects__Bars.wiki",
+      "updated": "2026-08-02T22:04:22Z"
+    },
+    {
+      "title": "Cards/Card Effects/Bombs",
+      "file": "Cards__Card_Effects__Bombs.wiki",
+      "updated": "2026-08-02T22:04:23Z"
+    },
+    {
+      "title": "Cards/Card Effects/Drones",
+      "file": "Cards__Card_Effects__Drones.wiki",
+      "updated": "2026-09-20T03:04:24Z"
+    },
+    {
+      "title": "Cards/Card Effects/Essences",
+      "file": "Cards__Card_Effects__Essences.wiki",
+      "updated": "2026-10-05T22:45:32Z"
+    },
+    {
+      "title": "Cards/Card Effects/Fish",
+      "file": "Cards__Card_Effects__Fish.wiki",
+      "updated": "2026-08-02T22:04:24Z"
+    },
+    {
+      "title": "Cards/Card Effects/Legendary Fish",
+      "file": "Cards__Card_Effects__Legendary_Fish.wiki",
+      "updated": "2026-09-20T03:06:59Z"
+    },
+    {
+      "title": "Cards/Card Effects/Misc",
+      "file": "Cards__Card_Effects__Misc.wiki",
+      "updated": "2026-10-02T08:47:16Z"
+    },
+    {
+      "title": "Cards/Card Effects/Orbs",
+      "file": "Cards__Card_Effects__Orbs.wiki",
+      "updated": "2026-08-02T22:04:25Z"
+    },
+    {
+      "title": "Cards/Card Effects/Ores",
+      "file": "Cards__Card_Effects__Ores.wiki",
+      "updated": "2026-08-02T22:04:26Z"
+    },
+    {
+      "title": "Cards/Card Effects/Pets",
+      "file": "Cards__Card_Effects__Pets.wiki",
+      "updated": "2026-09-20T03:01:22Z"
+    },
+    {
+      "title": "Cards/Card Effects/Runes",
+      "file": "Cards__Card_Effects__Runes.wiki",
+      "updated": "2026-09-20T03:07:22Z"
+    },
+    {
+      "title": "Cards/Card Effects/Spells",
+      "file": "Cards__Card_Effects__Spells.wiki",
+      "updated": "2026-10-05T22:37:08Z"
+    },
+    {
+      "title": "Cards/Card Effects/Stars",
+      "file": "Cards__Card_Effects__Stars.wiki",
+      "updated": "2026-08-02T22:04:27Z"
+    },
+    {
+      "title": "Cards/Card Effects/Veins",
+      "file": "Cards__Card_Effects__Veins.wiki",
+      "updated": "2026-08-02T22:04:28Z"
+    },
+    {
+      "title": "Celio",
+      "file": "Celio.wiki",
+      "updated": "2026-08-06T21:29:11Z"
+    },
+    {
+      "title": "Challenges",
+      "file": "Challenges.wiki",
+      "updated": "2026-09-20T04:39:39Z"
+    },
+    {
+      "title": "Chests",
+      "file": "Chests.wiki",
+      "updated": "2026-09-29T08:22:25Z"
+    },
+    {
+      "title": "Cloud",
+      "file": "Cloud.wiki",
+      "updated": "2026-09-19T21:44:16Z"
+    },
+    {
+      "title": "Codes",
+      "file": "Codes.wiki",
+      "updated": "2026-10-06T20:23:40Z"
+    },
+    {
+      "title": "Construct",
+      "file": "Construct.wiki",
+      "updated": "2026-10-08T09:59:23Z"
+    },
+    {
+      "title": "Contracts",
+      "file": "Contracts.wiki",
+      "updated": "2026-09-21T09:53:56Z"
+    },
+    {
+      "title": "Craft",
+      "file": "Craft.wiki",
+      "updated": "2026-10-06T09:54:35Z"
+    },
+    {
+      "title": "Ctrl",
+      "file": "Ctrl.wiki",
+      "updated": "2026-09-17T17:39:28Z"
+    },
+    {
+      "title": "Data:JSON:Ore",
+      "file": "Data-JSON-Ore.wiki",
+      "updated": "2026-10-02T14:06:31Z"
+    },
+    {
+      "title": "Data:JSON:Zones",
+      "file": "Data-JSON-Zones.wiki",
+      "updated": "2026-10-02T11:21:08Z"
+    },
+    {
+      "title": "Debuffs",
+      "file": "Debuffs.wiki",
+      "updated": "2026-10-05T08:30:28Z"
+    },
+    {
+      "title": "Divine",
+      "file": "Divine.wiki",
+      "updated": "2026-10-07T04:54:21Z"
+    },
+    {
+      "title": "Drones",
+      "file": "Drones.wiki",
+      "updated": "2026-09-25T03:56:53Z"
+    },
+    {
+      "title": "Drones/Costs",
+      "file": "Drones__Costs.wiki",
+      "updated": "2026-09-17T11:23:39Z"
+    },
+    {
+      "title": "Duration",
+      "file": "Duration.wiki",
+      "updated": "2026-04-12T21:40:38Z"
+    },
+    {
+      "title": "Events",
+      "file": "Events.wiki",
+      "updated": "2026-09-30T23:24:00Z"
+    },
+    {
+      "title": "Events/Costs",
+      "file": "Events__Costs.wiki",
+      "updated": "2026-07-31T20:02:00Z"
+    },
+    {
+      "title": "External Resources",
+      "file": "External_Resources.wiki",
+      "updated": "2026-10-09T01:45:41Z"
+    },
+    {
+      "title": "Fairy",
+      "file": "Fairy.wiki",
+      "updated": "2026-06-15T20:23:05Z"
+    },
+    {
+      "title": "Fanq",
+      "file": "Fanq.wiki",
+      "updated": "2026-08-06T21:13:33Z"
+    },
+    {
+      "title": "Fishing",
+      "file": "Fishing.wiki",
+      "updated": "2026-10-03T15:03:46Z"
+    },
+    {
+      "title": "Floors",
+      "file": "Floors.wiki",
+      "updated": "2026-10-08T23:04:11Z"
+    },
+    {
+      "title": "Founder",
+      "file": "Founder.wiki",
+      "updated": "2026-10-10T01:59:07Z"
+    },
+    {
+      "title": "FrozenAra",
+      "file": "FrozenAra.wiki",
+      "updated": "2026-08-06T21:24:31Z"
+    },
+    {
+      "title": "Galaxy",
+      "file": "Galaxy.wiki",
+      "updated": "2026-09-21T05:05:34Z"
+    },
+    {
+      "title": "Gilded",
+      "file": "Gilded.wiki",
+      "updated": "2026-05-30T22:23:45Z"
+    },
+    {
+      "title": "Golden",
+      "file": "Golden.wiki",
+      "updated": "2025-12-29T07:26:54Z"
+    },
+    {
+      "title": "Guides",
+      "file": "Guides.wiki",
+      "updated": "2026-09-19T14:45:31Z"
+    },
+    {
+      "title": "Guides/Archaeology Guide",
+      "file": "Guides__Archaeology_Guide.wiki",
+      "updated": "2026-10-05T19:35:38Z"
+    },
+    {
+      "title": "Guides/Cards",
+      "file": "Guides__Cards.wiki",
+      "updated": "2026-09-20T16:29:08Z"
+    },
+    {
+      "title": "Guides/Cards/Alex",
+      "file": "Guides__Cards__Alex.wiki",
+      "updated": "2026-02-08T12:10:57Z"
+    },
+    {
+      "title": "Guides/Cards/AlexInfernal",
+      "file": "Guides__Cards__AlexInfernal.wiki",
+      "updated": "2026-04-25T22:23:54Z"
+    },
+    {
+      "title": "Guides/Cards/Bone",
+      "file": "Guides__Cards__Bone.wiki",
+      "updated": "2026-02-11T14:33:15Z"
+    },
+    {
+      "title": "Guides/Cards/Celios Hat",
+      "file": "Guides__Cards__Celios_Hat.wiki",
+      "updated": "2026-02-08T12:10:58Z"
+    },
+    {
+      "title": "Guides/Cards/Code",
+      "file": "Guides__Cards__Code.wiki",
+      "updated": "2026-02-08T12:10:58Z"
+    },
+    {
+      "title": "Guides/Cards/Fishing Rod",
+      "file": "Guides__Cards__Fishing_Rod.wiki",
+      "updated": "2026-02-12T12:44:48Z"
+    },
+    {
+      "title": "Guides/Cards/Fishing RodInfernal",
+      "file": "Guides__Cards__Fishing_RodInfernal.wiki",
+      "updated": "2026-04-30T22:30:14Z"
+    },
+    {
+      "title": "Guides/Cards/Floor 73",
+      "file": "Guides__Cards__Floor_73.wiki",
+      "updated": "2026-09-23T02:27:08Z"
+    },
+    {
+      "title": "Guides/Cards/FrozenAra",
+      "file": "Guides__Cards__FrozenAra.wiki",
+      "updated": "2026-02-08T12:10:58Z"
+    },
+    {
+      "title": "Guides/Cards/FrozenAraInfernal",
+      "file": "Guides__Cards__FrozenAraInfernal.wiki",
+      "updated": "2026-04-25T21:11:07Z"
+    },
+    {
+      "title": "Guides/Cards/Julk",
+      "file": "Guides__Cards__Julk.wiki",
+      "updated": "2026-02-08T12:05:09Z"
+    },
+    {
+      "title": "Guides/Cards/Relic",
+      "file": "Guides__Cards__Relic.wiki",
+      "updated": "2026-02-11T16:28:11Z"
+    },
+    {
+      "title": "Guides/Cards/RelicInfernal",
+      "file": "Guides__Cards__RelicInfernal.wiki",
+      "updated": "2026-04-26T11:43:17Z"
+    },
+    {
+      "title": "Guides/Cards/Store",
+      "file": "Guides__Cards__Store.wiki",
+      "updated": "2026-05-07T08:15:30Z"
+    },
+    {
+      "title": "Guides/Cards/StoreInfernal",
+      "file": "Guides__Cards__StoreInfernal.wiki",
+      "updated": "2026-04-30T15:47:51Z"
+    },
+    {
+      "title": "Guides/Cards/Tellacon",
+      "file": "Guides__Cards__Tellacon.wiki",
+      "updated": "2026-09-20T16:19:54Z"
+    },
+    {
+      "title": "Guides/Cards/Vydn",
+      "file": "Guides__Cards__Vydn.wiki",
+      "updated": "2026-03-23T19:00:13Z"
+    },
+    {
+      "title": "Guides/Cards/Yummy Pizza",
+      "file": "Guides__Cards__Yummy_Pizza.wiki",
+      "updated": "2026-06-29T16:45:30Z"
+    },
+    {
+      "title": "Guides/Cherry Bomb Guide",
+      "file": "Guides__Cherry_Bomb_Guide.wiki",
+      "updated": "2026-06-14T19:26:04Z"
+    },
+    {
+      "title": "Guides/DerSucher Noob Arch Guide",
+      "file": "Guides__DerSucher_Noob_Arch_Guide.wiki",
+      "updated": "2026-09-01T00:41:33Z"
+    },
+    {
+      "title": "Guides/Events Guide",
+      "file": "Guides__Events_Guide.wiki",
+      "updated": "2026-10-06T22:19:11Z"
+    },
+    {
+      "title": "Guides/Gem Spending Guide",
+      "file": "Guides__Gem_Spending_Guide.wiki",
+      "updated": "2026-10-10T06:09:31Z"
+    },
+    {
+      "title": "Guides/Grainbow Strategy",
+      "file": "Guides__Grainbow_Strategy.wiki",
+      "updated": "2026-08-24T12:41:25Z"
+    },
+    {
+      "title": "Guides/How to play on PC",
+      "file": "Guides__How_to_play_on_PC.wiki",
+      "updated": "2026-07-14T10:29:39Z"
+    },
+    {
+      "title": "Guides/Platinize Statues",
+      "file": "Guides__Platinize_Statues.wiki",
+      "updated": "2026-10-05T23:14:47Z"
+    },
+    {
+      "title": "Guides/Progression Guide",
+      "file": "Guides__Progression_Guide.wiki",
+      "updated": "2026-10-09T13:39:46Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats",
+      "file": "Guides__Working_With_ExportStats.wiki",
+      "updated": "2026-09-17T04:04:23Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats/example.json",
+      "file": "Guides__Working_With_ExportStats__example.json.wiki",
+      "updated": "2026-09-11T21:25:01Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats/SkillTreeMap",
+      "file": "Guides__Working_With_ExportStats__SkillTreeMap.wiki",
+      "updated": "2026-10-10T11:18:52Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats/World1Statues",
+      "file": "Guides__Working_With_ExportStats__World1Statues.wiki",
+      "updated": "2026-09-14T01:13:00Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats/World3Statues",
+      "file": "Guides__Working_With_ExportStats__World3Statues.wiki",
+      "updated": "2026-09-14T02:14:15Z"
+    },
+    {
+      "title": "Guides/Working With ExportStats/World4Statues",
+      "file": "Guides__Working_With_ExportStats__World4Statues.wiki",
+      "updated": "2026-09-14T02:17:23Z"
+    },
+    {
+      "title": "Items",
+      "file": "Items.wiki",
+      "updated": "2026-10-06T09:52:45Z"
+    },
+    {
+      "title": "Julk",
+      "file": "Julk.wiki",
+      "updated": "2026-08-06T21:23:03Z"
+    },
+    {
+      "title": "Jurassic",
+      "file": "Jurassic.wiki",
+      "updated": "2026-09-17T17:42:05Z"
+    },
+    {
+      "title": "Loot",
+      "file": "Loot.wiki",
+      "updated": "2025-12-08T22:45:51Z"
+    },
+    {
+      "title": "Lootbugs",
+      "file": "Lootbugs.wiki",
+      "updated": "2026-09-26T07:39:22Z"
+    },
+    {
+      "title": "Lootfrogs",
+      "file": "Lootfrogs.wiki",
+      "updated": "2026-10-08T15:11:59Z"
+    },
+    {
+      "title": "Lute",
+      "file": "Lute.wiki",
+      "updated": "2026-08-06T21:25:42Z"
+    },
+    {
+      "title": "Magma",
+      "file": "Magma.wiki",
+      "updated": "2026-07-31T20:28:13Z"
+    },
+    {
+      "title": "Obelisk",
+      "file": "Obelisk.wiki",
+      "updated": "2026-10-01T18:29:43Z"
+    },
+    {
+      "title": "Obelisk Miner Wiki",
+      "file": "Obelisk_Miner_Wiki.wiki",
+      "updated": "2026-09-14T18:39:50Z"
+    },
+    {
+      "title": "Offline",
+      "file": "Offline.wiki",
+      "updated": "2026-09-19T23:06:48Z"
+    },
+    {
+      "title": "Omega",
+      "file": "Omega.wiki",
+      "updated": "2026-09-09T18:46:17Z"
+    },
+    {
+      "title": "Omega crit chance",
+      "file": "Omega_crit_chance.wiki",
+      "updated": "2026-10-06T10:01:28Z"
+    },
+    {
+      "title": "Options",
+      "file": "Options.wiki",
+      "updated": "2026-10-07T04:37:56Z"
+    },
+    {
+      "title": "Options/Notation",
+      "file": "Options__Notation.wiki",
+      "updated": "2026-07-06T19:51:43Z"
+    },
+    {
+      "title": "Ores",
+      "file": "Ores.wiki",
+      "updated": "2026-10-01T10:49:36Z"
+    },
+    {
+      "title": "Pets",
+      "file": "Pets.wiki",
+      "updated": "2026-09-22T00:46:19Z"
+    },
+    {
+      "title": "Pins",
+      "file": "Pins.wiki",
+      "updated": "2026-09-19T23:21:02Z"
+    },
+    {
+      "title": "Prestige",
+      "file": "Prestige.wiki",
+      "updated": "2026-10-01T18:18:24Z"
+    },
+    {
+      "title": "Prestige/Costs",
+      "file": "Prestige__Costs.wiki",
+      "updated": "2026-10-05T08:18:30Z"
+    },
+    {
+      "title": "Prismatic",
+      "file": "Prismatic.wiki",
+      "updated": "2026-08-09T07:21:07Z"
+    },
+    {
+      "title": "Quest",
+      "file": "Quest.wiki",
+      "updated": "2025-12-20T00:18:08Z"
+    },
+    {
+      "title": "Rainbow",
+      "file": "Rainbow.wiki",
+      "updated": "2026-09-25T01:48:32Z"
+    },
+    {
+      "title": "Rainbow vein",
+      "file": "Rainbow_vein.wiki",
+      "updated": "2025-09-23T12:54:40Z"
+    },
+    {
+      "title": "Sell",
+      "file": "Sell.wiki",
+      "updated": "2026-09-25T11:24:38Z"
+    },
+    {
+      "title": "Skill-Tree",
+      "file": "Skill-Tree.wiki",
+      "updated": "2026-10-07T16:07:24Z"
+    },
+    {
+      "title": "Skill-Tree/data.json",
+      "file": "Skill-Tree__data.json.wiki",
+      "updated": "2026-10-01T09:46:21Z"
+    },
+    {
+      "title": "Skins",
+      "file": "Skins.wiki",
+      "updated": "2026-10-04T11:18:12Z"
+    },
+    {
+      "title": "Stargazing",
+      "file": "Stargazing.wiki",
+      "updated": "2026-10-07T16:06:03Z"
+    },
+    {
+      "title": "Stats",
+      "file": "Stats.wiki",
+      "updated": "2026-10-04T06:24:47Z"
+    },
+    {
+      "title": "Stats/Arcanist",
+      "file": "Stats__Arcanist.wiki",
+      "updated": "2026-10-01T08:27:09Z"
+    },
+    {
+      "title": "Stats/Arcanist-Unlisted",
+      "file": "Stats__Arcanist-Unlisted.wiki",
+      "updated": "2026-09-22T23:04:48Z"
+    },
+    {
+      "title": "Stats/Bombs",
+      "file": "Stats__Bombs.wiki",
+      "updated": "2026-10-05T02:31:41Z"
+    },
+    {
+      "title": "Stats/Bombs-Unlisted",
+      "file": "Stats__Bombs-Unlisted.wiki",
+      "updated": "2026-10-02T01:41:53Z"
+    },
+    {
+      "title": "Stats/Cards-Unlisted",
+      "file": "Stats__Cards-Unlisted.wiki",
+      "updated": "2026-10-03T00:02:13Z"
+    },
+    {
+      "title": "Stats/Chests",
+      "file": "Stats__Chests.wiki",
+      "updated": "2026-09-30T08:59:54Z"
+    },
+    {
+      "title": "Stats/Completion",
+      "file": "Stats__Completion.wiki",
+      "updated": "2026-09-19T21:15:41Z"
+    },
+    {
+      "title": "Stats/Contracts",
+      "file": "Stats__Contracts.wiki",
+      "updated": "2026-09-30T09:16:11Z"
+    },
+    {
+      "title": "Stats/Crafting",
+      "file": "Stats__Crafting.wiki",
+      "updated": "2026-09-29T08:53:16Z"
+    },
+    {
+      "title": "Stats/Drones",
+      "file": "Stats__Drones.wiki",
+      "updated": "2026-10-02T09:09:14Z"
+    },
+    {
+      "title": "Stats/Fishing",
+      "file": "Stats__Fishing.wiki",
+      "updated": "2026-10-01T03:21:19Z"
+    },
+    {
+      "title": "Stats/Lootbugs",
+      "file": "Stats__Lootbugs.wiki",
+      "updated": "2026-09-29T10:24:58Z"
+    },
+    {
+      "title": "Stats/Lootfrogs",
+      "file": "Stats__Lootfrogs.wiki",
+      "updated": "2026-10-01T03:41:35Z"
+    },
+    {
+      "title": "Stats/Misc",
+      "file": "Stats__Misc.wiki",
+      "updated": "2026-10-01T16:07:45Z"
+    },
+    {
+      "title": "Stats/Misc-Unlisted",
+      "file": "Stats__Misc-Unlisted.wiki",
+      "updated": "2026-09-23T14:37:23Z"
+    },
+    {
+      "title": "Stats/Obelisk",
+      "file": "Stats__Obelisk.wiki",
+      "updated": "2026-09-29T09:00:14Z"
+    },
+    {
+      "title": "Stats/Ore",
+      "file": "Stats__Ore.wiki",
+      "updated": "2026-10-01T01:43:51Z"
+    },
+    {
+      "title": "Stats/Pickaxe",
+      "file": "Stats__Pickaxe.wiki",
+      "updated": "2026-10-01T03:11:46Z"
+    },
+    {
+      "title": "Stats/Prestige",
+      "file": "Stats__Prestige.wiki",
+      "updated": "2026-09-29T09:38:54Z"
+    },
+    {
+      "title": "Stats/Stars",
+      "file": "Stats__Stars.wiki",
+      "updated": "2026-10-03T02:27:31Z"
+    },
+    {
+      "title": "Stats/Stickers-Unlisted",
+      "file": "Stats__Stickers-Unlisted.wiki",
+      "updated": "2026-10-01T09:24:55Z"
+    },
+    {
+      "title": "Stats/Veins",
+      "file": "Stats__Veins.wiki",
+      "updated": "2026-10-03T02:04:27Z"
+    },
+    {
+      "title": "Stickers",
+      "file": "Stickers.wiki",
+      "updated": "2026-09-20T04:53:29Z"
+    },
+    {
+      "title": "Store",
+      "file": "Store.wiki",
+      "updated": "2026-09-28T12:29:13Z"
+    },
+    {
+      "title": "Super shiny",
+      "file": "Super_shiny.wiki",
+      "updated": "2026-10-04T00:05:33Z"
+    },
+    {
+      "title": "Trout",
+      "file": "Trout.wiki",
+      "updated": "2026-08-06T20:10:52Z"
+    },
+    {
+      "title": "Ultra",
+      "file": "Ultra.wiki",
+      "updated": "2026-10-06T10:12:10Z"
+    },
+    {
+      "title": "Ultra crit",
+      "file": "Ultra_crit.wiki",
+      "updated": "2026-10-06T10:13:45Z"
+    },
+    {
+      "title": "Ultra crit chance",
+      "file": "Ultra_crit_chance.wiki",
+      "updated": "2026-10-07T04:59:16Z"
+    },
+    {
+      "title": "Upgrades",
+      "file": "Upgrades.wiki",
+      "updated": "2026-10-05T09:07:06Z"
+    },
+    {
+      "title": "Veins",
+      "file": "Veins.wiki",
+      "updated": "2026-10-08T23:04:42Z"
+    },
+    {
+      "title": "Vydn",
+      "file": "Vydn.wiki",
+      "updated": "2026-08-06T21:20:50Z"
+    },
+    {
+      "title": "Workshop",
+      "file": "Workshop.wiki",
+      "updated": "2026-09-20T05:06:16Z"
+    },
+    {
+      "title": "Workshop/Costs",
+      "file": "Workshop__Costs.wiki",
+      "updated": "2026-09-27T00:06:45Z"
+    }
+  ]
+}

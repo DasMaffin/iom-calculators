@@ -1,0 +1,11 @@
+Cherry Bombs create extra charges which can be used to fire other bombs. But which bomb should you use them on? Simple.
+
+# Early game, always use your cherry charges on Battery Bomb. Gaining bomb capacity is the single most important thing you can do for game advancement.
+# When your bomb capacity is high enough to no longer cap when you're offline (usually, 100k-ish), switch to using your cherry charges on Gem Bomb. Around this time, gems become a major bottleneck, and Gem Bomb will become your major source of them.
+# After you've bought the Obelisk Mincer skill and built the World 4 Nature statue, and bought all subsequent Workshop upgrades for Free Bomb Chance, Triple Cherry Chance, and D20 Charges, switch to using your cherry charges on D20 Bomb. You'll actually earn ''slightly more'' gems this way.
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

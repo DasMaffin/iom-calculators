@@ -1,0 +1,38 @@
+{| class="wikitable compact" style="text-align: center;"
+|+ World 4 Statues
+|-
+! rowspan="2" | Field !! rowspan="2" | Type !! rowspan="2" | Name !! rowspan="2" | Alias !! colspan="3" | Variants || rowspan="2" | Example
+|-
+! Normal !! Gilded !! Platinized
+|-
+!<syntaxhighlight lang="json" inline>"Statue_0_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Comfort || Lute || [[File:19_Statue_Comfort_Normal.png|24x24px]] || [[File:19_Statue_Comfort_Gilded.png|24x24px]] || {{NA| rowspan=9}} 
+| rowspan="9" | <syntaxhighlight lang="pycon">>>> print(json.stats.Statue_3_set3 > 0)
+False
+</syntaxhighlight>
+Signifying you don't have Fanq, get rekt nerd.
+|-
+!<syntaxhighlight lang="json" inline>"Statue_1_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Timekeeping || Karma || [[File:20_Statue_Timekeeping_Normal.png|24x24px]] || [[File:20_Statue_Timekeeping_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_2_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Combat || Sans || [[File:21_Statue_Combat_Normal.png|24x24px]] || [[File:21_Statue_Combat_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_3_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Nature || Fanq || [[File:22_Statue_Nature_Normal.png|24x24px]] || [[File:22_Statue_Nature_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_4_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Semblance || Vak || [[File:23_Statue_Semblance_Normal.png|24x24px]] || [[File:23_Statue_Semblance_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_5_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Crochet || Kripp || [[File:24_Statue_Crochet_Normal.png|24x24px]] || [[File:24_Statue_Crochet_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_6_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Antagonism || Loop || [[File:25_Statue_Antagonism_Normal.png|24x24px]] || [[File:25_Statue_Antagonism_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_7_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Fallacy || Berty || [[File:26_Statue_Fallacy_Normal.png|24x24px]] || [[File:26_Statue_Fallacy_Gilded.png|24x24px]]
+|-
+!<syntaxhighlight lang="json" inline>"Statue_8_set3"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Rodentia || Kromak || [[File:27_Statue_Rodentia_Normal.png|24x24px]] || [[File:27_Statue_Rodentia_Gilded.png|24x24px]]
+|}

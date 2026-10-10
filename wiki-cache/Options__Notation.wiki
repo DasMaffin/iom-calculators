@@ -1,0 +1,44 @@
+This table contains all the abbreviations currently used in the game.
+{| class="wikitable"
+! Abbreviation !! Name !! Scientific
+|-
+| 1k || Thousand || 1e3
+|-
+| 1m || Million || 1e6
+|-
+| 1b || Billion || 1e9
+|-
+| 1t || Trillion || 1e12
+|-
+| 1q || Quadrillion || 1e15
+|-
+| 1qi || Quintilian || 1e18
+|-
+| 1sx || Sextillion || 1e21
+|-
+| 1sp || Septillion || 1e24
+|-
+| 1oc || Octillion|| 1e27
+|-
+| 1no || Nonillion || 1e30
+|-
+| 1dc || Decillion || 1e33
+|-
+| 1udc || Undecillion || 1e36
+|-
+| 1ddc || Duodecillion || 1e39
+|-
+| 1tdc || Tredecillion || 1e42
+|-
+| 1qadc || Quattuordecillion || 1e45
+|-
+| 1qidc || Quindecillion|| 1e48
+|-
+| 1sxdc || Sexdecillion || 1e51
+|-
+| 1spdc || Septendecillion || 1e54
+|-
+| 1ocdc || Octodecillion || 1e57
+|-
+| 1nvdc || Novemdecillion || 1e60
+|}

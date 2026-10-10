@@ -1,0 +1,941 @@
+{{Version|2.2.23|0.95|
+* New Value Pack Order}}
+[[File:Store Button.png|frameless|left]]
+The store allows you to buy [[Store#Value_Packs|Value Packs]], [[Store#Perk_Bundles|Perk Bundles]], [[Store#Perks|Perks]], [[Store#Resource_Packs|Resource Packs]], [[Store#Gem_Unlocks|Gem Unlocks]], [[Store#Gem_Upgrades|Gem Upgrades]], and [[Store#Gem_Packs|Gem Packs]].
+
+{{clear|left}}
+== Freebie Pack ==
+The Freebie Pack is the primary method of earning {{Sprites|Gem||x20}}, {{Sprites|Item Chest|Chests#Item_Chests|x20}}, {{Sprites|Relic Chest|Chests#Relic_Chests|x20}}, and {{Sprites|Skill Bit|Skill-Tree|x20}}. All of these resources can also be earned from [[Events|Events]] and other game mechanisms, but the Freebie Pack is the biggest source over time.
+
+===Cooldown===
+The Freebie Pack can be claimed every 10 minutes by default (affected by game speed), but this cooldown can be [[Stats#tabber-Freebie_Cooldown|reduced]] down to 6 minutes and 4 seconds as a F2P player and 5 minutes and 4 seconds with IAPs.
+
+===Banking===
+The Freebie Pack can be "banked." Banking allows you to hold multiple Freebie Packs before needing to claim them, allowing you to wait longer in between claims without missing out on rewards. You can bank 2 Freebies by default, and this can be [[Stats#tabber-Banked_Freebie_Cap|increased]] to 184 as a F2P player and 304 with IAPs.
+
+===Gems===
+The Freebie Pack provides 5 gems by default; this can be [[Stats#tabber-Bonus_Gems_From_Freebie_Pack|increased]] to 86 as a F2P player and 116 with IAPs.
+
+===Item Chests===
+The Freebie Pack provides 1 [[Chests#Item_Chests|Item Chest]], and there are currently no ways to increase this.
+
+===Relic Chests===
+The Freebie Pack provides a 10% chance at a [[Chests#Relic_Chests|Relic Chest]]. This can be increased by:
+* +1% from the [[Skill-Tree|"Gems & Chests" Skill]]
+* The "[[Skill-Tree|Treasure Hunter]]" Skill
+** Gives +1% Freebie Relic Chance for every 250 regular [[Chests#Relic_Chests|Relic Chests]] you've already opened
+
+=== Bonus Relic Chest ===
+A secondary, independent roll is also made combining 
+* +15% from [[Chests#Relic_Chests|Relic Chest]] from the [[Store#Value_Packs|"Capitalist Bundle!" Value Pack]]
+* [[Cards#tabber-Misc|Relic Misc Card]] 1% for the base card, +1% for Gilding it, +1% for making the card Polychrome, and even further increases beyond that via Infernals.
+
+===Skill Bits===
+The Freebie Pack provides a 10% chance at a [[Skill-Tree|Skill Bit]]. 10 [[Skill-Tree|Skill Bits]] can be combined into 1 [[Skill-Tree|Skill Point]]. This can be increased by:
+*+1% from the platinized [[Construct#tabber-World_1_Platinized_Statues|Statue of Friendship]]
+*+1% from a [[Challenges#tabber-Regular_2|Regular Challenge Upgrade]]
+*+1% from the [[Store#Value_Packs|"Skill Surge Bundle" Value Pack]]
+
+===Misc===
+Some unlocks give a random chance to provide more loot: 
+* [[Stats#tabber-Instant_Refresh_Chance|Instant Refreshes]] instantly make the Freebie pack claimable again. The chance for an Instant Refresh maxes at 6% for F2P players, and 7% with IAPs.
+* The base/gilded/platinized [[Construct#Statues|Statue of Soprano]] provides a 0.5/0.75/1% chance for a [[Store#Gifts|Gift]] and a one in 50k/35/25k chance for 100 [[Store#Gifts|Gifts]]
+* [[Stats#tabber-Chance_For_Freebie_Jackpot|Freebie Jackpots]] roll freebies five times instead of once. The additional rolls cannot roll Jackpots themselves, nor can they roll Instant Refreshes, Gifts, or Stonks rewards. Freebie Jackpot Chance maxes at 11% for F2P players and 17% with IAPs.
+
+===Stonks===
+The [[Skill-Tree#Stonks|Stonks Skill]] provides a 1% chance for +200 gems, 1% for +20 [[Chests#Item_Chests|Item Chests]], and 1% for +10 [[Chests#Relic_Chests|Relic Chests]] by default. The [[Stats#tabber-Stonks_Chance|Stonks Chance]] can be increased by the [[Cards#tabber-Pets|Infernal Happy-Bot Pet Card]], as well as the [[Construct#World_4_Bonuses|Statue of Combat]]. Furthermore, the Stonks rewards can also be increased by the [[Stats#tabber-Stonks_Freebie_Multiplier|Stonks Freebie Multiplier]] as well as [[Stats#tabber-All_Stonks_Multiplier|All Stonks Multiplier]].
+
+===Super Stonks===
+The [[Stats#tabber-Super_Stonks_Chance|Super Stonks]] is an extra multiplier on top of regular Stonks and requires Stonks to be rolled in order to have a chance at rolling the Super Stonks. Super Stonks provides a base multiplier of x2, which can be further increased by the [[Stats#tabber-Super_Stonks_Multiplier|Super Stonks Multiplier]] as well as [[Stats#tabber-All_Stonks_Multiplier|All Stonks Multiplier]].<br>
+Super Stonks Chance needs to be unlocked. The first potential sources are [[Black hole|Black Hole 3]] or [[Challenges#tabber-Divine_2|Divine Challenge 7]].
+
+===Ultra Stonks===
+The [[Stats#tabber-Ultra_Stonks_Chance|Ultra Stonks]] is an extra multiplier on top of Super Stonks and requires Super Stonks to be rolled in order to have a chance at rolling the Ultra Stonks. Ultra Stonks provides a base multiplier of x25, which can be further increased by [[Stats#tabber-All_Stonks_Multiplier|All Stonks Multiplier]].<br>
+Ultra Stonks Chance needs to be unlocked. The first potential sources are [[Black hole|Black Hole 17]] or the [[Construct#World_4_Bonuses|Statue of Combat]].
+
+==Value Packs== 
+These bundles are in the order they appear in game. Purchasing {{Sprite|FounderIcon|Founder|16|Founder}} status allows you to see the next two Value Packs instead of only one. You can use the [[codes|code]] <code>{{Sprite|Misc Code||16|MOREVP}}</code>, <code>{{Sprite|Misc Code||16|MOREVPS}}</code>, or <code>{{Sprite|Misc Code||16|CHOICEPARALYSIS}}</code> to see 20. If you do not meet the requirements for a Value Pack then it is skipped and the next one in line is displayed. Once you meet the requirements, the skipped value pack will appear.
+
+{| class="wikitable lighttable sticky-header align-center-1"
+|+ New Value Packs added in [[Update:V2.2.20]]
+! colspan="2" | Bundle
+! Description
+! Unlocked
+|-
+|<div id="SpellslingerBundle"></div>[[File:Spellslinger_VP.png|x40px]]
+|Spellslinger Bundle!
+|
+* Spell Duration +10%<br>
+* Spell Level Up Chance +10%<br>
+* All Spell Power +5%<br>
+* Frogurt x 25 <br>
+{{Sprite|Divine Chest|Chests#Relic_Chests|16}} x 1<br>
+{{Sprite|Gem|Gems|16|Gems}} x 5250<br>
+{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425
+| ???
+|-
+|<div id="StargazingRadiantBundle"></div>[[File: Stargazing Radiant VP.png|40px]]
+|Stargazing Radiant Bundle!
+|
+* All Radiant Multis 5%<br>
+* Radiant Star Chance +2%<br>
+* Radiant Super Star Chance +2%<br>
+* Cosmic Candy x 25<br>
+{{Sprite|Divine Chest|Chests#Relic_Chests|16}} x 1<br>
+{{Sprite|Gem|Gems|16|Gems}} x 5250<br/>
+{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425
+|???
+|}
+
+{| class="wikitable lighttable sticky-header align-center-1"
+|+ New Value Packs added in [[Update:V2.2.1]]
+! colspan="2" | Bundle
+! Description
+! Unlocked
+|-
+|<div id="ArcanistBundle"></div>[[File:Arcanist VP.png|x40px]]
+|[[Arcanist]] Bundle!
+|
+{{Sprite|Shiny Essence Chance|Stats#Arcanist|16|Essence Shiny Chance}} +2%<br/>
+{{Sprite|Brittle Essence Chance|Stats#Arcanist|16|Essence Brittle Chance}} +2%<br/>
+{{Sprite|Rune Craft Multi|Stats#Arcanist|16|Rune Craft Multi}} +10%<br/>
+{{Sprite|Wizard Loot Multi|Stats#Arcanist|16|Wizard Loot Multi}} +10%<br/>
+{{Sprite|Divine Chest|Chests#Relic_Chests|16}} x 1<br/>
+{{Sprite|Gem|Gems|16|Gems}} x 5250<br/>
+{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425
+| {{Sprite|Obelisk Level 10||16|Obelisk Level}} 70
+|-
+|<div id="OmniportalBundle"></div>[[File:Omniportal VP.png|x40px]]
+|Omniportal Bundle!
+|
+{{Sprite|Galactic Void Portal Chance|Stats#Drones|16|Galactic Portal Chance}} +2%<br/>
+{{Sprite|Rainbow Void Portal Chance|Stats#Drones|16|Rainbow Portal Chance}} +2%<br/>
+{{Sprite|Golden Void Portal Chance|Stats#Drones|16|Golden Portal Chance}} +2%<br/>
+{{Sprite|All Void Portal Multis|Stats#Drones|16|All Void Portal Multis}} +2%<br/>
+{{Sprite|Divine Chest|Chests#Relic_Chests|16}} x 1<br/>
+{{Sprite|Gem|Gems|16|Gems}} x 5250<br/>
+{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425
+|{{Sprite|Galactic Void Portal Chance|Stats#Drones|16|Galactic Portal Chance}} >= 1%
+|-
+|<div id="ThreeQuarterBundle"></div>[[File:Three Quarter VP.png|x40px]]
+|Three Quarter Bundle!
+|
+{{Sprite|Banked Freebie Cap|Stats#Misc|16|Freebie Banked Cap}} 1.10x<br/>
+{{Sprite|Banked Lootbug Cap|Stats#Misc|16|Lootbug Banked Cap}} 1.10x<br/>
+{{Sprite|Bomb Recharge Speed|Stats#Misc|16|Bomb Recharge Rate}} 1.10x<br/>
+{{Sprite|Poly Card Multi|Stats#Unlisted|16|Poly Star Multi}} 1.10x<br/>
+{{Sprite|Divine Chest|Chests#Relic_Chests|16x16}} x 1<br/>
+{{Sprite|Gem|Gems|16|Gems}} x 5250<br/>
+{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425<br/>
+| {{Sprite|CheckboxIcon||16|Game Completion}} >= 75%
+|}
+
+{| class="wikitable lighttable sticky-header align-center-1"
+|+ New Value Packs added in [[Update:V2.1.1]]
+! colspan="2" | Bundle
+! Description
+! Unlocked
+|-
+|<div id="AscensionBundle"></div>[[File:ascension vp.png|x40px]]
+|[[Archaeology|Ascension]] Bundle!
+|
+*[[Archaeology]] Exp 1.15x
+*Crosshair Auto-Tap +5%
+*Loot Mod Chance +2%
+*Loot Mod Gain +10%
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*{{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} x 425
+|[[Obelisk|Obelisk]] Level 66
+|-
+|<div id="HalfWayBundle"></div>[[File:halfway vp.png|x40px]]
+|Half Way Bundle!
+|
+*Rainbow Floor Multi 1.10x
+*Novagiant Combo Multi 1.10x
+*Fishing Rod Multi 1.10x
+*Gems From Freebie +2
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4250}}
+*325 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|50% completion
+|}
+
+{| class="wikitable lighttable sticky-header align-center-1"
+|+ Value Packs
+! colspan="2" | Bundle
+! Description
+! Unlocked
+! VIP Points
+|-
+|<div id="PermanentDroneBundle"></div>[[File:permadrone vp.png|x40px]]
+|Unlocks Permanent [[Drones|Drone]]!
+|
+*{{gems|100}}
+*10 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*5 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Disappears if bought with gems
+|???
+|-
+|<div id="MegaBombBundle"></div>[[File:megabomb vp.png|x40px]]
+|Unlocks [[Bombs#tabber-MEGABOMB|MEGABOMB]]!
+|
+*{{gems|225}}
+*20 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*10 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Disappears if bought with gems
+|???
+|-
+|<div id="TransmuterBombBundle"></div>[[File:transmuter vp.png|x40px]]
+|Unlocks [[Bombs|Transmuter Bomb]]!
+|
+*{{gems|425}}
+*40 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*20 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Disappears if bought with gems
+|???
+|-
+|<div id="BatteryBombBundle"></div>[[File:battery vp.png|x40px]]
+|Unlocks [[Bombs|Battery Bomb]]!
+|
+*{{gems|875}}
+*85 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*40 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Disappears if bought with gems
+|???
+|-
+|<div id="SkillSurgeBundle"></div>[[File:skillsurgebundle vp.png|x40px]]
+|[[Skill-Tree|Skill]] Surge Bundle!
+|
+*+20 [[Skill-Tree|Skill Points]]!
+*+1% Freebie Pack [[Skill-Tree|Skill Bit]] Chance!
+*{{gems|1050}}
+*100 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*50 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|160
+|-
+|<div id="InvestmentBundle"></div>[[File:investment vp.png|x40px]]
+|Investment Package!
+|
+*+5% Chance to hit a Freebie Pack Jackpot!
+*{{gems|2150}}
+*175 {{Sprite|Item Chest|Chests#Item_chests|16|Item Chests}}
+*100 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|320
+|-
+|<div id="ProgressionBoosterBundle"></div>[[File:progressionbundle vp.png|x40px]]
+|Progression Booster Bundle!
+|
+*1.20x Golden Floor Multi
+*1.15x Vein Income Multi
+*1.10x Bomb Recharge
+*5% Triple Star Chance
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|3750}}
+*275 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 30
+|560
+|-
+|<div id="GottaGoFastBundle"></div>[[File:gofast vp.png|x40px]]
+|Gotta Go Fast Bundle! 
+|
+*+10% Game Speed
+*100x [[Chests#List_of_items|Blue Cow]]! (2x Speed Items)
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|4250}}
+*325 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|560
+|-
+|<div id="BomberExtraordinaireBundle"></div>[[File:bomberextraordinaire vp.png|x40px]]
+|Bomber Extraordinaire Bundle!
+|
+*1.10x Bomb Recharge Rate
+*1.10x Bomb Capacity
+*+5x [[Bombs#tabber-Bomb_of_Plenty|Plenty Bomb]] Multi
+*+10x [[Bombs#tabber-Transmuter_Bomb|Transmuter]] Multi
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|3750}}
+*275 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 30
+|560
+|-
+|<div id="StargazingSupernovaBundle"></div>[[File:stargazingbundle vp.png|x40px]]
+|[[Stargazing|Stargazing]] Supernova Bundle!
+|
+*+3% All Supernova Chances
+*1.10x All Supernova Multis
+*+3% Triple Star Chance
+*+3% Triple Super Star Chance
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3650}}
+*255 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} 
+|[[Obelisk|Obelisk]] Level 23
+|560
+|-
+|<div id="ArchaeologyBundle"></div>[[File:archbundle vp.png|x40px]]
+|[[Archaeology|Archaeology]] Bundle!
+|
+*1.25x Fragment Gain
+*+30 Idol Tokens
+*+1 Gem from Freebie Pack
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3750}}
+*275 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 30
+|560
+|-
+|<div id="BallerSkinBundle"></div>[[File:baller vp.png|x40px]]
+|Baller [[Skins|Skin]] Bundle!
+|
+*Unlocks the [[Skins#Skin_List|Baller Miner]] + [[Skins#Bag_Skins|Bag Skins!]]
+*Ore Sell Price 2.00x
+*Gems From Freebie +3
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4000}}
+*285 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|560
+|-
+|<div id="GoldenLootbugBundle"></div>[[File:goldenlootbug vp.png|x40px]]
+|Golden [[Lootbugs|Lootbug]] Bundle!
+|
+*20% to spawn a Golden [[Lootbugs|Lootbug]]!
+*Golden Lootbugs reduce gem cost to 0!
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3750}}
+*255 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} 
+|{{NA}}
+|560
+|-
+|<div id="CapitalistBundle"></div>[[File:capitalistbundle vp.png|x40px]]
+|Capitalist Bundle!
+|
+*+{{gems|2}} from Freebie Pack
+*+15% for Bonus [[Chests#Relic_Chests|Relic]] from Freebie!
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4250}}
+*325 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 19
+|560
+|-
+|<div id="VeinExtractorBundle"></div>[[File:veinextractor vp.png|x40px]]
+|[[Construct#Veins|Vein]] Extractor Bundle!
+|
+*1.15x [[Construct#Veins|Vein]] Income Multi
+*+5% Golden Vein Chance
+*+2% Rainbow Vein Chance
+*1.25x Golden Vein Multi
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3250}}
+*225 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 19
+|560
+|-
+|<div id="BankersBundle"></div>[[File:bankersbundle vp.png|x40px]]
+|Banker's Bundle!
+|
+*Banked Freebie Cap +3
+*Banked Lootbug Cap +3
+*Gems from Freebie +1
+*Freebie Jackpot Chance +1%
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3650}}
+*255 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} 
+|{{NA}}
+|560
+|-
+|<div id="PetTrainerBundle"></div>[[File:petbooster vp.png|x40px]]
+|[[Pets|Pet]] Trainer Bundle!
+|
+*Pet Level Up Chance 1.20x
+*Vein Spawn Rate 1.10x
+*Experience Gain 2.00x
+*Rainbow Floor Chance +1%
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3250}}, 225 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 17
+|560
+|-
+|<div id="GiftLoversBundle"></div>[[File:giftlover vp.png|x40px]]
+|Gift Lovers Bundle!
+|
+*+150 [[Store#Gifts|Gifts]]!
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Opened at least 100 [[Store#Gifts|Gifts]]
+|560
+|-
+|<div id="DoubleDivineBundle"></div>[[File:doubledivine vp.png|x40px]]
+|Double Divine Bundle!
+|
+*2 {{Sprite|Divine Chest|Chests#Relic_Chests|16|Divine Chest}}
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|4250}}
+*285 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|560
+|-
+|<div id="DivineChestBundle"></div>[[File:divinebundle vp.png|x40px]]
+|{{Sprite|Divine Chest|Chests#Relic_Chests|16}} Bundle!
+|
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3750}}
+*250 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|560
+|-
+|<div id="SkillPointsGaloreBundle"></div>[[File:skillpointsgalore vp.png|x40px]]
+|[[Skill-Tree|Skill Points]] Galore!
+|
+*100 [[Skill-Tree|Skill Points]]!
+*4 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3550}}
+*215 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}, 
+|[[Obelisk|Obelisk]] Level 4
+|560
+|-
+|<div id="BiggerBankersBundle"></div>[[File:biggerbanksbundle vp.png|x40px]]
+|Bigger Banker's Bundle!
+|
+*Banked Freebie Cap +5
+*Banked Lootbug Cap +5
+*Gems from Freebie +1
+*Freebie Instant Refresh +1%
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4250}}
+*285 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|{{NA}}
+|560
+|-
+|<div id="SingularityBundle"></div>[[File:singularity vp.png|x40px]]
+|Singularity Bundle!
+|
+*All Star Multi 1.10x
+*Star Supergiant Chance +3%
+*Novagiant Multi 1.10x
+*Super Star 10x Chance +3%
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*425 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 60
+|???
+|-
+|<div id="VoidOverdriveBundle"></div>[[File:voidoverdrive vp.png|x40px]]
+|Void Overdrive Bundle!
+|
+*Void Base Multi 1.10x
+*Golden Portal Multi 1.10x
+*Golden Portal Chance +2%
+*Fuel Duration 1.10x
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*425 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Golden Void Portal Chance >= 1%
+|???
+|-
+|<div id="FrogFrenzyBundle"></div>[[File:frogfrenzy vp.png|x40px]]
+|Frog Frenzy Bundle!
+|
+*Lootfrog Loot Multi x1.20
+*Triple Frog Chance +3%
+*Frog Capacity +2
+*15x Item: Frogspawn
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*425 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Black Hole 1
+|???
+|-
+|<div id="LegendaryHaulerBundle"></div>[[File:legendaryhauler vp.png|x40px]]
+|Legendary Hauler Bundle!
+|
+*5x Fishing Tick Chance +3%
+*Fish Income Multi 1.10x
+*Tier 2 Dock Power 1.10x
+*500x Item: Sushi
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*425 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Tier 2 Fishing Docks Unlocked
+|???
+|-
+|<div id="ChiefExecutiveBundle"></div>[[File:chiefexecutive vp.png|x40px]]
+|Chief Executive Bundle!
+|
+*Super Stonks Chance +2%
+*Super Stonks Multi 1.15x
+*Gems from Freebie +4
+*Banked Freebie Cap 1.10x
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|5250}}
+*425 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Super Stonks Chance >= 1%
+|???
+|-
+|<div id="PolychromePotencyBundle"></div>[[File:polychromepotency vp.png|x40px]]
+|[[Cards#Polychrome|Polychrome]] Potency Bundle!
+|
+*1.15x Poly Ore Multi
+*1.15x Poly Vein Multi
+*1.15x Poly Star Multi
+*1.15x Poly Fish Multi
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+||[[Obelisk|Obelisk]] Level 37<br>Unlocked [[Skill-Tree#Polychrome|This Is Gonna Take A While..]] skill
+|???
+|-
+|<div id="LootbugBonanzaBundle"></div>[[File:Lootbugbonanza vp.png|x40px]]
+|Lootbug Bonanza Bundle!
+|
+*1.20x Lootbug Loot Multiplier
+*+10 Banked Lootbug Capacity
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16|Divine Chest}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 32
+|???
+|-
+|<div id="FishersBundle"></div>[[File:fishingbundle vp.png|x40px]]
+|[[Fishing|Fisher]]'s Bundle!
+|
+*+10% Triple Fishing Tick Chance!
+*100x [[Fishing#Tier_2_Items|Sushi]]
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4500}}
+*325 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 37
+|???
+|-
+|<div id="GoldenOreBundle"></div>[[File:goldenorebundle vp.png|x40px]]
+|Golden Ore Bundle!
+|
+*+3% Golden Ore Chance
+*1.25x Golden Ore Multiplier!
+*3 {{Sprite|Mythic Chest|Chests#Relic_Chests|16|Mythic Chests}}
+*{{gems|3150}}
+*215 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Requires [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]]
+|???
+|-
+|<div id="StargazingSupergiantBundle"></div>[[File:supergiantbundle vp.png|x40px]]
+|[[Stargazing|Stargazing]] Supergiant Bundle!
+|
+*+3% All Supergiant Chances
+*1.10x Supergiant Multis
+*+3% Triple Star Chance
+*+1% 10x Super Star Chance
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16|Divine Chest}}
+*{{gems|4125}}
+*285 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|Requires [[Stats#tabber-Star_Supergiant_Chance|Star Supergiant Chance]]
+|???
+|-
+|<div id="CraftmasterBundle"></div>[[File:craftmasterbundle vp.png|x40px]]
+|Craftmaster Bundle!
+|
+*+1% 100x [[Craft Chance|Craft Chance]]
+*+2% 10x [[Craft Chance|Craft Chance]]
+*+5x Transmuter Multi
+*+5% Ore Income Multi
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4150}}
+*285 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}} 
+|[[Obelisk|Obelisk]] Level 35
+|???
+|-
+|<div id="InsiderTradingBundle"></div>[[File:superstonks vp.png|x40px]]
+|Insider Trading Bundle!
+|
+*Freebie [[Skill-Tree#Stonks|Stonks]] Procs Give 2x Loot!
+*+2 Banked Freebie Cap!
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 34<br>Unlocked [[Skill-Tree#Stonks|Stonks]] skill
+|???
+|-
+|<div id="AnglersBundle"></div>[[File:anglerbundle vp.png|x40px]]
+|[[Fishing|Angler]]'s Bundle!
+|
+*+6% Tiny [[Fishing#Notices|Notice]] Chance!
+*200x [[Fishing#Tier_2_Items|Sushi]]
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 39
+|???
+|-
+|<div id="DroneCatalystBundle"></div>[[File:dronecatalyst vp.png|x40px]]
+|[[Drones|Drone]] Catalyst Bundle!
+|
+*1.35x [[Drones#Drone_Fuel|Drone Exp Gain]]
+*1.10x [[Drones#Drone_Fuel|Fuel]] Duration
+*+1000 Drone Fuel!
+*1 {{Sprite|Divine Chest|Chests#Relic_Chests|16}}
+*{{gems|4550}}
+*355 {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|[[Obelisk|Obelisk]] Level 35
+|???
+|}
+
+==Limited Time== 
+While [[Events]] are active it is possible to buy up to 3 Event Bundles.
+These scale with constructed World Monuments.
+<tabber>
+World 1=
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Bundle
+! Content
+! Unlocked
+|-
+| [[File:EventBundle.png|x40px]] || Event Bundle
+| Contains {{Gems|1250}}, 100 [[File:Relic Chest.png|x16px]] [[Chests#Relic_Chests|Relic Chests]],<br>1 [[File:Mythic Chest.png|x16px]] [[Chests#Relic_Chests|Mythic Chest]], 25 [[File:Gift.png|x16px]] [[Store#Gifts|Gifts]].
+| Only during events
+|}
+|-|
+World 2=
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Bundle
+! Content
+! Unlocked
+|-
+| [[File:EventBundle.png|x40px]] || Event Bundle
+| Contains {{Gems|1250}}, 100 [[File:Relic Chest.png|x16px]] [[Chests#Relic_Chests|Relic Chests]],<br>1 [[File:Mythic Chest.png|x16px]] [[Chests#Relic_Chests|Mythic Chest]], 25 [[File:Gift.png|x16px]] [[Store#Gifts|Gifts]], 250 [[File:Fuel.png|x16px]] [[Drones#Drone_Fuel|Fuel]].
+| Only during events
+|}
+|-|
+World 3=
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Bundle
+! Content
+! Unlocked
+|-
+| [[File:EventBundle.png|x40px]] || Event Bundle
+| Contains {{Gems|1250}}, 100 [[File:Relic Chest.png|x16px]] [[Chests#Relic_Chests|Relic Chests]],<br>1 [[File:Mythic Chest.png|x16px]] [[Chests#Relic_Chests|Mythic Chest]], 25 [[File:Gift.png|x16px]] [[Store#Gifts|Gifts]], 500 [[File:Fuel.png|x16px]] [[Drones#Drone_Fuel|Fuel]],<br> 100 [[File:Sushi.png|x16px]] [[Items#Sushi|Sushi]].
+| Only during events
+|-|
+World 4=
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Bundle
+! Content
+! Unlocked
+|-
+| [[File:EventBundle.png|x40px]] || Event Bundle
+| Contains {{Gems|1250}}, 100 [[File:Relic Chest.png|x16px]] [[Chests#Relic_Chests|Relic Chests]],<br>1 [[File:Mythic Chest.png|x16px]] [[Chests#Relic_Chests|Mythic Chest]], 25 [[File:Gift.png|x16px]] [[Store#Gifts|Gifts]], 1500 [[File:Fuel.png|x16px]] [[Drones#Drone_Fuel|Fuel]],<br>250 [[File:Sushi.png|x16px]] [[Items#Sushi|Sushi]] and 10 [[File:Cosmic Candy.png|x16px]] [[Items#CosmicCandy|Cosmic Candy]].
+| Only during events
+|}
+</tabber>
+
+== Gifts ==
+
+Gifts are available from Freebies (after constructing a [[Construct#World_3_Bonuses|World 3 statue]]), In App Purchases, [[Codes]] and [[Events]].<br><br>An initial roll to randomly pick a base reward at equal odds occurs first, then all of the rare chances roll one after each other, later rolls replacing earlier ones.
+
+<tabber class="sticky-header">
+Base=
+{| class="wikitable sticky-header align-center-1"
+! # !! colspan="2" | Possible rolls !! Requirement
+|-
+| 1 || [[File:Relic Chest.png|32x32px]] || 3-5 [[Chests#Relic_Chests|Relic Chests]] || {{NA|rowspan=5}}
+|-
+| 2 || [[File:Relic Chest.png|32x32px]] || 5-10 [[Chests#Relic_Chests|Relic Chests]]
+|-
+| 3 || style="text-align:center;" | [[File:Gem.png|32x32px]] || 20-40 [[Gems]]
+|-
+| 4 || style="text-align:center;" | [[File:Gem.png|32x32px]] || 35-60 [[Gems]]
+|-
+| 5 || style="text-align:center;" | [[File:Skill Bit.png|32x32px]] || 2-5 [[Skill-Tree|Skill Bits]]
+|-
+| rowspan="2" | 6 || [[File:Chaos Totem.png|32x32px]] || 10-15 [[Items#ChaosTotem|Chaos Totem]] || [[Obelisk]] < 30
+|-
+| [[File:5x Fragment Gain Buff.png|32x32px]] || 10-15 Minutes 5x Fragment Gain || [[Obelisk]] ≥ 30
+|-
+| rowspan="2" | 7 || [[File:Primal Meat.png|32x32px]] || 6-12 [[Items#PrimalMeat|Primal Meat]] || [[Obelisk]] < 37
+|-
+| [[File:Sushi.png|32x32px]] || 4-6 [[Sushi]] || [[Obelisk]] ≥ 37
+|-
+| rowspan="2" | 8 || [[File:Charge Magnet.png|32x32px]] || 12-20 [[Items#ChargeMagnet|Charge Magnets]] || [[Obelisk]] < 37
+|-
+| [[File:5x_Fish_Tick_Chance.png|32x32px]] || 10-15 Minutes 5x Tick Chance || [[Obelisk]] ≥ 37
+|-
+| rowspan="2" | 9 || style="text-align:center;" | [[File:Blue Cow.png|32x32px]] || 2-4 [[Items#BlueCow|Blue Cow]] || [[Fishing]] not started
+|-
+| [[File:T2 Item Box.png|32x32px]] || 3-5 [[Items#Tier_2_items|Tier 2 Items]] || [[Fishing]] started
+|-
+| rowspan="2" | 10 || style="text-align:center;" | [[File:Game Speed Multiplier.png|32x32px]] || 20-45 Minutes 2x Game Speed || World ≤ 2
+|-
+| [[File:Cherry Bomb.png|32x32px]] || 1500-2750 [[Bombs#tabber-Cherry_Bomb|Cherry Bomb]] Charges || World ≥ 3
+|-
+| rowspan="2" | 11 || [[File:Item Chest.png|32x32px]] || 25-40 [[Chests#Item_Chests|Item Chests]] || Golden Ore Chance < 3%
+|-
+| [[File:Gold Flake Steak.png|32x32px]] || 1-2 [[Items#GoldFlakeSteak|Gold Flake Steaks]] || Golden Ore Chance ≥ 3%<ref name="goldenOreChance">Golden ore chance from Lasagna does not count</ref>
+|-
+| rowspan="2" | 12 || [[File:2x Ore Income Buff.png|32x32px]] || 60-120 Minutes 2x Ore Income || [[Obelisk]] < 60
+|-
+| [[File:Gem.png|32x32px]] || 90-150 [[Gems]] || [[Obelisk]] ≥ 60
+|}
+|-|
+Rare=
+{| class="wikitable lighttable sticky-header align-center-1 align-center-4 align-center-3"
+! colspan="2" | Possible rolls !! Requirement !! Chance
+|-
+|[[File:Star Spawn Rate Multiplier.png|32x32px]] || 120-180 minutes 2x [[Stargazing|Star]] Spawn Rate || 30 ≤ [[Obelisk|Obelisk]] ≤ 59 || 1/35
+|-
+|[[File:Gift.png|32x32px]] || 3 [[Gifts]] || {{NA|rowspan=2}} || 1/40
+|-
+|[[File:Gem.png|32x32px]] || 80-130 [[Gems]] || 1/45
+|-
+|[[File:T2 Item Box.png|32x32px]] || 6-12 [[Items#Tier_2_items|Tier 2 Items]] || [[Obelisk|Obelisk]] ≥ 37 || 1/37
+|-
+|[[File:Fuel.png|32x32px]] || [[Drones#Drone_Fuel|Drone Fuel]]<ref name="fuel mult">41 + round((Obelisk − 18) × 2) ± 10, with a minimum of 30</ref> || {{NA}} || 1/30
+|-
+|[[File:Idol Token.png|32x32px]] || 1-3 [[Archaeology#Idol_Token|Idol Tokens]] || [[Obelisk|Obelisk]] ≥ 30 || 1/33
+|-
+|[[File:Sushi.png|32x32px]] || 15-24 [[Fishing#Tier_2_Items|Sushi]] || [[Obelisk|Obelisk]] ≥ 37 || 1/45
+|-
+|[[File:Mythic Chest.png|32x32px]] || 1 [[Chests#Relic_Chests|Mythic Chest]] || {{NA}} || 1/100
+|-
+|[[File:Large_gem_pack.png|32x32px]] || 15k-25k [[Gems]] || [[Obelisk]] ≥ 60 || 1/25
+|-
+|[[File:Large Relic Chest.png|32x32px]] || 1k-2k Relic Chests || [[Obelisk]] ≥ 60 || 1/125
+|-
+|[[File:Frogspawn.png|32x32px]] || 1-3 [[Items#Frogspawn|Frogspawn]] || [[Stargazing#Black Hole|Black Hole]] ≥ 1 || 1/25
+|-
+|[[File:Cosmic Candy.png]] || 1-2 [[Items#CosmicCandy|Cosmic Candy]] || [[Obelisk]] ≥ 60 || 1/30
+|-
+|[[File:Gem Sticker.png]] || 1-2 [[Stickers]]<ref>Gems, Relics, Fuel, Skill Bits, Banked Freebies, and Banked Lootbugs Stickers are always in the pool. Cherry Charges Sticker is added if World 3 is unlocked, Sushi Sticker if Obelisk ≥ 37, Steak Sticker if Golden Ore Chance ≥ 3%, Candy Sticker if Obelisk ≥ 60, and Frogspawn + Golden Frog Chance Stickers if the Black Hole is unlocked.</ref> || [[Obelisk|Obelisk]] ≥ 3 || 1/85
+|-
+|[[File:Buttery Lobster.png]] || 1-2 [[Items#Tier_4_items|Buttery Lobster]]<ref name="Buttery Lobster">1/25 chance of being named "Luttery Bobster"</ref> || {{NA}} || 1/250
+|-
+|[[File:Sushi.png|32x32px]] || 50-60 [[Fishing#Tier_2_Items|Sushi]] || [[Obelisk|Obelisk]] ≥ 37 || 1/175
+|-
+|[[File:Huge gem pack.png|32x32px]] || {{FormatNumber|200000}} - {{FormatNumber|300000}} [[Gems]] || [[Obelisk|Obelisk]] ≥ 70 || 1/250
+|-
+|[[File:Forbidden Sushi.png]] || 1 [[Items#ForbiddenSushi|Forbidden Sushi]] || [[Obelisk]] ≥ 60 || 1/1000
+|-
+|[[File:00 Male Default.png|32x32px]] || 1 Miner [[Skins|Skin]]<ref>Miner Skin Duplicate protection drops the 80-130 Gem Bundle roll instead</ref> || {{NA|rowspan=3}} || 1/200
+|-
+|[[File:00 Male Default.png|32x32px]] || 1 Miner [[Skins#Gilded_Skins|Gilded Skin]]<ref name="duplicate protection">GIlded Skins require a base Skin. If no eligible Miner Skin exists, this roll is replaced by 25 Gifts. Those gifts are eligible for multipliers</ref> || 1/2000
+|-
+|[[File:Divine Chest.png|32x32px]] || 1 [[Chests#Relic_Chests|Divine Chest]] || <math>\frac{1}{50} \times \frac{1}{50} = \frac{1}{2500}</math>
+|}
+</tabber>
+<references/>
+
+{| class="wikitable align-center-2 align-center-3 align-center-4"
+|+ Multiplier Table
+! rowspan=2 colspan=2 | Drop Type || rowspan=2 | Base Multi || colspan=3 | Bonus at Obelisk Level  
+|-
+! 60 || 64 || 70 
+|-
+| [[File:Skill Bit.png|32x32px]] || Skill Bit ||  rowspan=3 | <math>\times 1 + \text{Obelisk Level} \times 0.08</math> ||<math>\times 2</math> || <math>\times 2</math> || <math>\times 3</math>
+|-
+| [[File:Relic Chest.png|32x32px]] || Relic || {{NA}} || <math>\times 3</math> || {{NA}}
+|-
+| [[File: Gem.png|32x32px]] || Gem || {{NA}} || <math>\times 5</math>|| {{NA}}
+|-
+| [[File:Large gem pack.png|32x32px]] || Gem Chest || <math>\times 1</math> || {{NA|colspan=2}} || <math>\times 2</math>
+|-
+| [[File:Idol Token.png|32x32px]] || Idol Tokens || <math>\times \text{Ascension Level} + 1</math> || {{NA|colspan=3}}
+|-
+| [[File: T2 Item Box.png|32x32px]] || T2 Items || <math>\times 1</math> || {{NA}} || 3 || {{NA}}
+|}
+Finally, the gift rolls for a loot multiplier (not applicable for [[Skins]]).
+
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2 align-center-3"
+|+ Stackable Multiplier Rolls
+! colspan=2 | Loot || Chance
+|-
+| [[File:Stonks.png]] || <math>\times 3</math> || <math>\frac{1}{20}</math>
+|-
+|  [[File:Super Stonks.png]]  || <math>\times 10</math> || <math>\frac{\text{numstickers} \times 0.5}{100}</math> 
+|-
+| [[File: Ultra Stonks Chance.png]] || <math>\times 50</math> || <math>\frac{1}{2500}</math> 
+|}
+
+Cherry charges are <math>\frac{\text{Obelisk Level} - 36}{6} \times \text{roll} + \text{round}\left(\frac{\text{Bomb Cap}}{100}\right)</math>
+
+Each of these rolls can stack, up to a total 1500x Loot Multiplier. Sticker rolls are capped at 150 Stickers (75% max chance).
+
+==Perks== 
+Perks allow you to buy them individually which gives you permanent buffs.
+
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Perk
+|-
+| [[File:2x Ore Income.png|x40px]] || 2x Ore Income
+|-
+| [[File:2x Prestige Point Income.png|x40px]] || 2x [[Prestige|Prestige]] Point Income
+|-
+| [[File:2x Bar Income.png|x40px]] || 2x Bar Income
+|-
+| [[File:3x Bomb Damage.png|x40px]] || 3x Bomb Damage
+|}
+
+==Perk Bundles== 
+Perk Bundles allow you to buy Perks in bundle form with bonus gems.
+
+{| class="wikitable lighttable align-center-1"
+! colspan="2" | Perk bundle
+! Bonus
+|-
+| [[File:2x Prestige Point Income.png|x40px]] & [[File:2x Ore Income.png|x40px]] || 2x Ore Income + 2x [[Prestige|Prestige]] Point Income || {{Gems|525}}
+|-
+| [[File:3x Bomb Damage.png|x40px]] & [[File:2x Bar Income.png|x40px]] || 2x Bar Income + 3x Bomb Damage || {{Gems|375}}
+|}
+
+==Founders Bundle== 
+{{See also|Founder}}
+After purchasing all Perk Bundles, the Founders Bundle will appear. It will include:
+
+*3500 Gems
+*250 [[Chests#Relic_Chests|Relic Chests]]
+*4 [[Chests#Relic_Chests|Mythic Chests]]
+*Founder Supply Drops
+*VIP Lounge Access
+*[[Bombs#tabber-Founders_Bomb|Founders Bomb]]
+*x1.25 Pickaxe Damage
+*x1.25 Bomb Damage
+*x1.25 Exp Gain
+*x1.10 Bomb Recharge Rate
+*10x [[Craft Chance]] +2%
+*+100 Bomb Capacity
+*-1 Min Cooldown Freebie Pack
+*Offline Cap 12 hours > 24 hours
+*Founders Stats Page + Badge
+*Founder Status Discord Rank
+
+==Resource Packs== 
+{| class="wikitable text-align-center align-left-2 align-left-4"
+! colspan=2 | Pack !! Cost !! Description
+|-
+|[[File:Freebie Pack.png|x40px]] || Freebie Pack
+|Free
+|
+*{{Gems|≥5}}
+*1x [[Chests#Item_Chests|Item Chest]]
+*Chances for a [[Chests#Relic_Chests|Relic Chest]] and a [[Store#Skill_Bits|Skill Bit]] (10% base rate).
+
+Initial cooldown is 10 minutes with 2 banked packs. Multiple upgrades make this a major source of resources. 
+
+Upgrades that affect Freebie rewards, cooldown, banked capacity and refresh rate include but are not limited to: Statues ([[Construct#Statues|Friendship]]) , Skill-tree ([[Skill-Tree#FreeThatsAGreatPrice|Free? That's A Great Price!]]), Cards ([[Cards#Card Effects|Freebie]]), IAP's ([[Founder|Founder Bundle]]), Challenge rewards ([[Challenges#Challenge_Rewards|Skill Bit %]]), 
+|-
+|[[File:Resource Pack.png|x40px]] || Resource Pack
+|{{Gems|150}}
+|
+*10x [[Chests#Item_Chests|Item Chests]]
+*3x [[Chests#Relic_Chests|Relic Chests]]
+*Handful of [[Prestige|Prestige]] points (based on your highest level ever and your [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]])
+|-
+|[[File:Large Resource Pack.png|x40px]] || Large Resource Pack
+|{{Gems|375}}
+|
+*30x [[Chests#Item_Chests|Item Chests]]
+*10x [[Chests#Relic_Chests|Relic Chests]]
+*Large amount of [[Prestige|Prestige]] points (based on your highest level ever and your [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]])
+|-
+|[[File:Skill Point Pack.png|x40px]] || [[Skill-Tree|Skill Point]] Pack
+|{{Gems|125}}
+|
+*Gives 1 [[Skill-Tree|Skill Point]].
+|-
+|<div id="MythicGiftPack"></div>[[File:Mythic Gift Pack.png|x40px]] || Mythic Gift Pack<ref>Unlimited if founder. Limited to 3 if not.</ref>
+|In App Purchase
+|
+*120x [[Chests#Relic_Chests|Relic Chests]]
+*20-25 [[Store#Gifts|Gifts]], depending on Founder Tier (No founder will always have 20)
+*1x [[Chests#Relic_Chests|Mythic Chest]]
+|}
+<references />
+
+==Gem Unlocks== 
+Gem Unlocks allow you to unlock an extra drone and three different types of bombs with your gems:
+
+*Permanent Drone
+**Gives an additional [[Drones|Drone]] that will automatically mine your ore even when you are offline.
+**Costs 200 gems.
+
+*Unlock Bomb: [[Bombs#tabber-MEGABOMB|MEGABOMB]]
+**Deals 25x damage to all ores on short cooldown
+**Costs 500 gems.
+
+*Unlock Bomb: [[Bombs#tabber-Transmuter_Bomb|Transmuter Bomb]]
+**Marks ores to drop bars, scales with rock size
+**Costs 750 gems.
+
+*Unlock Bomb: [[Bombs#tabber-Battery_Bomb|Battery Bomb]]
+**Charges 2 random bombs, 0.1% to increase all bomb caps by 1
+** Costs 1,000 gems.
+
+==Gem Upgrades== 
+Gem Upgrades allow you to purchase permanent buffs with gems. The table shows their base level cap; cap increases are available from the following sources:
+* +1/2/4 from the base/gilded/platinized [[Construct#World_1_Bonuses|Statue of Hygiene]]
+* +1/2/3 from the base/gilded/platinized [[Construct#World_3_Bonuses|Statue of Craftmanship]]
+* +1 per level of the [[Archaeology#tabber-Rare_Idols|Minos]] idol, up to +5
+
+{| class="wikitable text-align-center align-left-2 align-left-3"
+
+|+ List of Gem Upgrades
+|-
+! colspan=2 | Name
+! Buff
+! Base Max Level
+! Gem Cost
+|-
+| <div id="PickaxeDamage"></div>[[File:Pickaxe Damage.png]] || Pickaxe Damage
+| +0.20x per level
+| 10
+| {{Gems|200}}
+|-
+| <div id="BombDamageAndBombCapacity"></div>[[File:Bomb Capacity.png]] || Bomb Damage & Bomb Capacity
+| +20% damage per level<br> +10 capacity per level
+| 10
+| {{Gems|225}}
+|-
+| <div id="BankedFreebieCap"></div>[[File:Banked_Freebie_Cap.png]] || Banked Freebie Cap
+| +1 Freebie per level
+| 2
+| {{Gems|250}}
+|-
+| <div id="ChestMeterFillRate"></div>[[File:Chest_Meter_Gain_Multiplier.png]] || Chest Meter Fill Rate
+| 5x per level (multiplicative)
+| 5
+| {{Gems|300}}
+|-
+| <div id="ItemsContainedInChests"></div>[[File:Items Contained In Chests.png]] || Items Contained In Chests
+| +1 item per level
+| 5
+| {{Gems|650}}
+|-
+| <div id="OreSellPrice"></div>[[File:Ore_Sell_Price_Multiplier.png]] || Ore Sell Price
+| +100% per level
+| 2
+| {{Gems|850}}
+|}
+
+==Gem Packs==
+Gem Packs allows the purchase of gems using real life currency. The prices depend on the country and currency used.
+
+{| class="wikitable text-align-center align-left-2"
+|+ List of gem packs
+! colspan=2 | Pack 
+! Gems 
+! Bonus
+|-
+| [[File:Small gem pack.png|x40px]] || Small gem pack || {{Gems|75}} || {{NA}}
+|-
+| [[File:Medium gem pack.png|x40px]] || Medium gem pack || {{Gems|395}} || 6%<ref name=GemPack>Compared to gem amount of buying Small gem pack</ref>
+|-
+| [[File:Large gem pack.png|x40px]] || Large gem pack || {{Gems|1860}} || 24%<ref name=GemPack />
+|-
+| [[File:Huge gem pack.png|x40px]] || Huge gem pack || {{Gems|5250}} || 40%<ref name=GemPack/>
+|}
+<references />
+
+==Navigation==
+{{Menu}}

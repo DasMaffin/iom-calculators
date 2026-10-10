@@ -1,0 +1,112 @@
+<tabber>
+Free Craft Chance=
+{{Stat|Free Craft Chance|The chance for a craft to not consume ore.
+| '''Prestige'''<math>+</math> |A [[Prestige#Artifacts_T1_FreeCraftChance|Tier 1 Artifact]]
+}}
+|-|
+Double Craft Chance=
+{{Stat|Double Craft Chance|The chance for a craft to give 2x bars.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:ore Efficiency.png|16px]] [[Skill-Tree#OreEfficiency|Ore Efficiency]] Skill<math>+</math>
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_DoubleCraftChance|Double Craft Chance]]
+| '''Pets'''<math>+</math> |
+The [[File:Axolotl_Default.png|16px]] [[Pets#tabber-Axolotl_2|Axolotl Pet]]
+| '''Upgrades'''<math>+</math> |
+A {{Sprite|Gold Coin|Upgrades#Upgrades_W1_DoubleCraftChance||Gold Upgrade}} (Level 12)<math>+</math>
+}}
+|-|
+Triple Craft Chance=
+{{Stat|Triple Craft Chance|The chance for a craft to give 3x bars.
+| '''Prestige'''<math>+</math> |A [[Prestige#Artifacts_T1_TripleCraftChance|Tier 1 Artifact]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Hefty Hammers.png|16px]] [[Skill-Tree#HeftyHammers|Hefty Hammers]] Skill
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Radion-73 Bar|Upgrades#Upgrades_W1_TripleCraftChance||Radion-73 Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_TripleCraftChance|World 1: Triple Craft Chance]]
+}}
+|-|
+5x Craft Chance=
+{{Stat|5x Craft Chance|The chance for a craft to give 5x bars.
+| '''Relics'''<math>+</math> |
+[[File:Relic Chest.png|16px]] [[Chests#LegendaryRelic_5xCraftChance|Legendary 5x Craft Chance Relic]]
+}}
+|-|
+10x Craft Chance=
+{{Stat|10x Craft Chance|The chance for a craft to give 10x bars.
+| '''Store'''<math>+</math> |
+The [[File:craftmasterbundle vp.png|16px]] [[Store#CraftmasterBundle|Craftmaster Bundle]]<math>+</math>
+<br>The [[File:FounderIcon.png|16px]] [[Store#Founders Bundle|Founders Bundle]]<math>+</math>
+<br>The [[Store#FounderT3|Tier 3 Founder Perk]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Hefty Hammers.png|16px]] [[Skill-Tree#Skills|Hefty Hammers]] Skill
+<br>The [[File:i'm Running Out Of Creative Names.png|16px]] [[Skill-Tree#ImRunningOutOfCreativeNames|I'm Running Out Of Creative Names]] Skill
+| '''Fishing'''<math>+</math> |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_10xCraftChance|Tier 1 Notice: 10x Craft Chance]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Duelysium Bar|Upgrades#Upgrades_W3_10xCraftChance||Duelysium Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_10xCraftChance|World 1: 10x Craft Chance]]
+}}
+|-|
+20x Craft Chance=
+{{Stat|20x Craft Chance|The chance for a craft to give 20x bars.
+| '''Relics'''<math>+</math> |
+[[File:Mythic Chest.png|16px]] [[Chests#List of relics|Mythic 20x Craft Chance Relic]]
+}}
+|-|
+100x Craft Chance=
+{{Stat|100x Craft Chance|The chance for a craft to give 100x bars.
+| '''Store'''<math>+</math> |
+The [[File:craftmasterbundle vp.png|16px]] [[Store#CraftmasterBundle|Craftmaster Bundle]]<math>+</math>
+| '''Construct'''<math>+</math> |
+[[File:13 Statue Ignition Normal.png|16px]] [[Construct#Julk|World 3: Statue of Ignition]]
+| '''Stargazing'''<math>+</math> |
+[[File:Orion Full.png|16px]] [[Stargazing#Orion|Orion]]
+| '''Fishing'''<math>+</math> |
+[[File:Tier 2 Notice Token.png|16px]] [[Fishing#Upgrades_T2_100xCraftChance|Tier 2 Notice: 100x Craft Chance]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Ransomite Bar|Upgrades#Upgrades_W3_100xCraftChance||Ransomite Bar Upgrade}}
+}}
+|-|
+Bar Output Multiplier=
+{{Stat|Bar Output Multiplier|The multiplier applied to the number of bars you receive from sources of bar creation like crafting or Transmuter Bomb.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T4_BarOutputMultiplier|Tier 4 Artifact]]
+| '''Store''' |
+A [[Store#Perks|Perk]] or [[Store#Perk_Bundles|Perk Bundle]]
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Axolotl Icon.png}}[[Cards#CardEffects_Pets_Axolotl|Infernal Axolotl Pet Card]]
+<br>{{Card|cardType=Standard|cardImage=Volcano_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_Laviathan|Laviathan Legendary Fish Card]]
+| '''Upgrades''' |
+The {{Sprite|Thunderstone_Bar|Upgrades#Upgrades_W2_BarOutputMultiplier||Thunderstone Bar Upgrade}}
+| '''Floors''' |
+The [[File:Gilded Statue Icon.png|16px]] [[Floors#WQ28|28th World Quest Reward]]
+| '''Misc''' |
+An [[Offline#Offline_Penalties|Offline Penalty]]
+}}
+|-|
+Bar Cost Reduction=
+{{Stat|Bar Cost Reduction|The multiplier applied to the number of bars that Upgrades cost.
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_BarUpgradeCosts|Bar Upgrade Costs]]
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_UpgradeBarCost|World 1: Upgrade Bar Cost]]
+}}
+|-|
+Bar Craft Cost=
+{{Stat|Bar Craft Cost|The multiplier applied to the amount of ore required to craft a bar.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:more Ore More Problems.png|16px]] [[Skill-Tree#MoreOreMoreProblems|More Ore More Problems]] Skill<math>+</math>
+<br>The [[File:i'm Running Out Of Creative Names.png|16px]] [[Skill-Tree#ImRunningOutOfCreativeNames|I'm Running Out Of Creative Names]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_BarCraftCosts|Bar Craft Costs]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Axolotl Icon.png}}[[Cards#CardEffects_Pets_Axolotl|Axolotl Pet Card]]
+| '''Pets'''<math>+</math> |
+The [[File:Axolotl_Default.png|16px]] [[Pets#tabber-Axolotl_2|Axolotl Pet]]
+| '''Stargazing'''<math>+</math> |
+[[File:Aquarius Full.png|16px]] [[Stargazing#Aquarius|Aquarius]]
+}}
+</tabber>

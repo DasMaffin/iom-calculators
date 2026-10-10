@@ -1,0 +1,352 @@
+<tabber>Star Spawn Rate Multiplier=
+{{Stat|Star Spawn Rate Multiplier|
+The multiplier on the chance that a Star spawns when a floor is cleared. (Base: 1/50)
+| '''Drones''' |
+The [[File:Drone Starburst.png|16px]] [[Drones#Drone_Suit_Buffs|Fueled Starburst Suit]]<math>\times</math>
+<br>An [[Drones#ElixirDroneBuffs_2xStarSpawnRate|Elixir Drone Buff]] (Also from [[Store#Gifts|Gifts]], the [[Store#Founder Supply Drop|Founder Supply Drop]], and [[Lootbugs#Buffs|Lootbugs]])
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#List of relics|Legendary Star Spawn Rate Relic]]
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_StarSpawnRate|Star Spawn Rate]]
+| '''Pets''' |
+The [[File:Starfish_Skin.png|16px]] [[Pets#tabber-Starfish_2|Starfish Pet Skin]]
+| '''Stargazing''' |
+The [[File:Gemini Full.png|16px]] [[Stargazing#Gemini|Gemini]] Star<math>+</math>
+<br>A [[Stargazing#StarSpawnRateUpgrade|Stargazing Upgrade]]
+}}
+|-|
+Star Auto-Catch Chance=
+{{Stat|Star Auto-Catch Chance|
+The chance for a Star to be collected without needing to be tapped.
+| '''Drones'''<math>=</math> |
+The [[File:Drone Starburst.png|16px]] [[Drones#Drone_Suit_Buffs|Fueled Starburst Suit]]
+<br>An [[Drones#ElixirDroneBuffs_100PercentStarAutocatch|Elixir Drone Buff]] (Also from the [[Store#Founder Supply Drop|Founder Supply Drop]] and [[Lootbugs#Buffs|Lootbugs]])
+| '''Stargazing'''<math>+</math> |
+The [[File:Taurus Full.png|16px]] [[Stargazing#Taurus|Taurus]] Star<math>+</math>
+<br>A [[Stargazing#AutoCatchStarsUpgrade|Stargazing Upgrade]]
+|spriteOverride=Auto-Catch Chance
+}}
+|-|
+Star Double Spawn Chance=
+{{Stat|Star Double Spawn Chance|
+The chance for two Stars to appear when one spawns.
+| '''Stargazing'''<math>+</math> |
+A [[Stargazing#DoubleStarChanceUpgrade|Stargazing Upgrade]]
+}}
+|-|
+Star Triple Spawn Chance=
+{{Stat|Star Triple Spawn Chance|
+The chance for three Stars to appear when one spawns.
+| '''Drones'''<math>+</math> |
+The [[File:Drone Starburst.png|16px]] [[Drones#starburstDrone|Starburst Suit]]
+<br>The [[File:Drone Starburst.png|16px]] [[Drones#Drone_Suit_Upgrades|Starburst Suit Upgrade]]
+| '''Store'''<math>+</math> |
+The [[File:progressionbundle vp.png|16px]] [[Store#name|Progression Booster Bundle]]<math>+</math>
+<br>The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]<math>+</math>
+<br>The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]
+| '''Stargazing'''<math>+</math> |
+The [[File:Sagittarius Full.png|16px]] [[Stargazing#Sagittarius|Sagittarius]] Star
+| '''Fishing'''<math>+</math> |
+The [[File:Ocean_Legendary_Fish.png|16px]] [[Fishing#tabber-Megalodon|Megalodon]] [[File:Tribute Rank 1.png|16px]] First Tribute
+}}
+|-|
+Super Star Spawn Rate Multiplier=
+{{Stat|Super Star Spawn Rate Multiplier|
+The multiplier on the chance that a Super Star spawns when a Star spawns. (Base: 1/100)
+| '''Drones''' |
+An [[Drones#ElixirDroneBuffs_3xSuperStarSpawnRate|Elixir Drone Buff]]
+| '''Items''' |
+[[File:Primal Meat.png|16px]] [[Items#PrimalMeat|Primal Meat]] (Requires the [[File:Athena Idol.png|16px]] [[Archaeology#Athena|Athena]] Idol)<math>\times</math>
+<br>[[File:Ice Cream.png|16px]] [[Items#IceCream|Ice Cream]]
+| '''Challenges''' |
+[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_SuperStarSpawnRate|Extreme Challenge Upgrade]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Starfish Icon.png}}[[Cards#CardEffects_Pets_Starfish|Starfish Pet Card]]
+| '''Stargazing''' |
+The [[File:Virgo Full.png|16px]] [[Stargazing#Virgo|Virgo]] Star<math>+</math>
+<br>A [[Stargazing#SuperStarSpawnRateUpgrade|Stargazing Upgrade]]
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_SuperStarSpawnRate|World 2: Super Star Spawn Rate]]
+}}
+|-|
+Super Star Triple Chance=
+{{Stat|Super Star Triple Chance|
+The chance for three Super Stars to appear when one spawns.
+| '''Store'''<math>+</math> |
+The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]
+| '''Stargazing'''<math>+</math> |
+The [[File:Leo Full.png|16px]] [[Stargazing#Leo|Leo]] Star
+}}
+|-|
+Super Star 10x Spawn Chance=
+{{Stat|Super Star 10x Spawn Chance|
+The chance for ten Super Stars to appear when one spawns.
+| '''Store'''<math>+</math> |
+The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]<math>+</math>
+<br>The [[File:singularity vp.png|16px]] [[Store#SingularityBundle|Singularity Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Ctrl+C Ctrl+V Stars.png|16px]] [[Skill-Tree#CtrlCCtrlV|Ctrl+C Ctrl+V Stars]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Starfish_Default.png|16px]] [[Pets#tabber-Starfish_2|Starfish Pet]]
+| '''Stargazing'''<math>+</math> |
+A [[Stargazing#SuperStar10xChanceUpgrade|Stargazing Upgrade]]
+| '''Fishing'''<math>+</math> |
+The [[File:Ocean_Legendary_Fish.png|16px]] [[Fishing#tabber-Megalodon|Megalodon]] [[File:Tribute Rank .png|16px]] Second Tribute
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Carnivorian Bar|Upgrades#Upgrades_W2_10xSuperStarChance||Carnivorian Bar Upgrade}}
+}}
+|-|
+Star Supernova Chance=
+{{Stat|Star Supernova Chance|
+The chance for a Star to spawn as a Supernova.
+| '''Items'''<math>+</math> |
+[[File:Starfruit.png|16px]] [[Items#Starfruit|Starfruit]]
+| '''Relics'''<math>+</math> |
+[[File:Mythic Chest.png|16px]]  [[Chests#MythicRelic_StarSupernovaChance|Mythic Relic]]
+| '''Store'''<math>+</math> |
+The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]
+| '''Stargazing'''<math>+</math> |
+The [[File:Hercules Full.png|16px]] [[Stargazing#Hercules|Hercules]] Star<math>+</math>
+<br>A [[Stargazing#StarSupernovaChanceUpgrade|Stargazing Upgrade]]
+}}
+|-|
+Star Supernova Multiplier=
+{{Stat|Star Supernova Multiplier|
+The multiplier on the value of a Star when it is a Supernova. (Base: 10x)
+| '''Relics''' |
+[[File:Divine Chest.png|16px]] [[Chests#DivineRelic_SupernovaMultipliers|Divine Supernova Multipliers Relic]] (Adds to the base 10x multiplier)
+| '''Store''' |
+The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]
+| '''Skill-Tree''' |
+The [[File:Ctrl+F 'Stars'.png|16px]] [[Skill-Tree#CtrlF|Ctrl+F 'Stars']] Skill<math>\times</math>
+<br>The [[File:Ctrl+C Ctrl+V Stars.png|16px]] [[Skill-Tree#CtrlCCtrlV|Ctrl+C Ctrl+V Stars]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Ocean_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_Megalodon|Megalodon Legendary Fish Card]]
+| '''Pets''' |
+The [[File:Axolotl_Quest.png|16px]] [[Pets#tabber-Axolotl_2|Axolotl Pet Quest]]
+| '''Construct''' |
+[[File:14 Statue Warmth Normal.png|16px]] [[Construct#Satio|World 3: Statue of Warmth]] (Adds to the base 10x multiplier)
+| '''Archaeology''' |
+The [[File:Astraeus Idol.png|16px]] [[Archaeology#Astraeus|Astraeus]] Idol<math>\times</math>
+<br>The [[File:Pandora Idol.png|16px]] [[Archaeology#Pandora|Pandora]] Idol
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_StarSupernovaMultiplier|Tier 1 Notice: Star Supernova Multiplier]] (Adds to the base 10x multiplier)
+<br>The [[File:Ocean_Legendary_Fish.png|16px]] [[Fishing#tabber-Megalodon|Megalodon]] [[File:Tribute Rank 2.png|16px]] Second Tribute
+}}
+|-|
+Super Star Supernova Chance=
+{{Stat|Super Star Supernova Chance|
+The chance for a Super Star to spawn as a Supernova.
+| '''Store'''<math>+</math> |
+The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]
+| '''Pets'''<math>+</math> |
+The [[File:Starfish_Default.png|16px]] [[Pets#tabber-Starfish_2|Starfish Pet]]
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_SuperStarSupernovaChance|World 2: Super Star Supernova Chance]]
+}}
+|-|
+Super Star Supernova Multiplier=
+{{Stat|Super Star Supernova Multiplier|
+The multiplier on the value of a Super Star when it is a Supernova. (Base: 10x)
+| '''Relics''' |
+[[File:Divine Chest.png|16px]] [[Chests#DivineRelic_SupernovaMultipliers|Divine Supernova Multipliers Relic]] (Adds to the base 10x multiplier)
+| '''Store''' |
+The [[File:Stargazingbundle_vp.png|16px]] [[Store#StargazingSupernovaBundle|Stargazing Supernova Bundle]]
+| '''Skill-Tree''' |
+The [[File:Ctrl+F 'Stars'.png|16px]] [[Skill-Tree#CtrlF|Ctrl+F 'Stars']]" Skill
+| '''Construct''' |
+[[File:14 Statue Warmth Normal.png|16px]] [[Construct#Satio|World 3: Statue of Warmth]] (Adds to the base 10x multiplier)
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_SuperStarSupernovaMultiplier|Tier 1 Notice: Super Star Supernova Multi]]<math>\times</math>
+<br>The [[File:Ocean_Legendary_Fish.png|16px]] [[Fishing#tabber-Megalodon|Megalodon]] [[File:Tribute Rank 2.png|16px]] Second Tribute
+}}
+|-|
+Star Supergiant Chance=
+{{Stat|Star Supergiant Chance|
+The chance for a Star to spawn as a Supergiant.
+| '''Store'''<math>+</math> |
+The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]
+<br>The [[File:singularity vp.png|16px]] [[Store#SingularityBundle|Singularity Bundle]]
+| '''Skill-Tree''' |
+The [[File:why Are There Stars In My Mining Game.png|16px]] [[Skill-Tree#WhyAreThereStarsInMyMiningGame|Why Are There Stars In My Mining Game]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_StarSupergiantChance|Star Supergiant Chance]]
+| '''Stargazing'''<math>+</math> |A [[Stargazing#StarSupergiantChanceUpgrade|Stargazing Upgrade]]
+| '''Fishing'''<math>+</math> |
+[[File:Tier 2 Notice Token.png|16px]] [[Fishing#Upgrades_T2_StarSupergiantChance|Tier 2 Notice: Star Supergiant Chance]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Steamstone Bar|Upgrades#Upgrades_W3_StarSupergiantChance||Steamstone Bar Upgrade}}
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_StarSupergiantChance|World 3: Star Supergiant Chance]]
+}}
+|-|
+Star Supergiant Multiplier=
+{{Stat|Star Supergiant Multiplier|
+The multiplier on the value of a Star when it is a Supergiant. (Base: 3x)
+| '''Store''' |
+The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Drone Starburst Icon.png}}[[Cards#CardEffects_Drones_StarburstDrone|Infernal Starburst Drone Card]]
+| '''Construct''' |
+[[File:14 Statue Warmth Normal.png|16px]] [[Construct#Satio|World 3: Statue of Warmth]] (Adds to the base 10x multiplier)
+| '''Stargazing''' |
+A [[File:Super Star.png|16px]] [[Stargazing#SupergiantStarMultiplier_SSUpgrade|Super Star Upgrade]]
+| '''Archaeology''' |
+The [[File:Hyperion Idol.png|16px]] [[Archaeology#Hyperion|Hyperion]] Idol
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_StarSupergiantMulti|Star Supergiant Multi]] Exchange Upgrade
+| '''Upgrades''' |
+The {{Sprite|Rumium Bar|Upgrades#Upgrades_W4_StarSupergiantMulti||Rumium Bar Upgrade}}
+}}
+|-|
+Super Star Supergiant Chance=
+{{Stat|Super Star Supergiant Chance|
+The chance for a Super Star to spawn as a Supergiant.
+| '''Store'''<math>+</math> |
+The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]<math>+</math>
+<br>The [[File:singularity vp.png|16px]] [[Store#SingularityBundle|Singularity Bundle]]
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_SuperStarSupergiantChance|Super Star Supergiant Chance]]
+| '''Stargazing'''<math>+</math> |
+A [[Stargazing#SuperStarSupergiantChanceUpgrade|Stargazing Upgrade]]
+| '''Arcanist'''<math>+</math> |
+The [[File:Blue Giant.png|16px]] [[Arcanist#BlueGiant|Blue Giant]] spell's Active effect
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_SuperStarSupergiantChance|World 3: Super Star Supergiant Chance]]
+}}
+|-|
+Super Star Supergiant Multiplier=
+{{Stat|Super Star Supergiant Multiplier|
+The multiplier on the value of a Super Star when it is a Supergiant. (Base: 3x)
+| '''Store''' |
+The [[File:Supergiantbundle_vp.png|16px]] [[Store#StargazingSupergiantBundle|Stargazing Supergiant Bundle]]
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_SuperStarSupergiantMulti|Super Star Supergiant Multi]]
+| '''Construct''' |
+[[File:14 Statue Warmth Normal.png|16px]] [[Construct#Satio|World 3: Statue of Warmth]] (Adds to the base 10x multiplier)
+| '''Upgrades''' |
+The {{Sprite|Manhattite Bar|Upgrades#Upgrades_W3_SuperStarSupergiantMulti||Manhattite Bar Upgrade}}
+}}
+|-|
+Star Radiant Chance=
+{{Stat|Star Radiant Chance|
+The chance for a star to spawn as a Radiant Star.
+| '''Store'''<math>+</math> |
+The [[File:Stargazing_Radiant_VP.png|16px]] [[Store#StargazingRadiantBundle|Stargazing Radiant Bundle]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Infernal|cardImage=Starfish Icon.png}}[[Cards#CardEffects_Pets_Starfish|Infernal Starfish Pet Card]]
+| '''Construct'''<math>+</math> |
+[[File:20 Statue Timekeeping Normal.png|16px]] [[Construct#Karma|World 4: Statue of Timekeeping]] (Per each World 4 Statue)
+<br>[[File:26 Statue Fallacy Gilded.png|16px]] [[Construct#BertyGilded|World 4: Gilded Statue of Fallacy]] (Per each Gilded World 4 Statue)
+| '''Stargazing'''<math>+</math> |
+A [[File:Super Star.png|16px]] [[Stargazing#StarRadiantChance_SSUpgrade|Super Star Upgrade]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Prometheus Idol.png|16px]] [[Archaeology#Prometheus|Prometheus]] Idol
+| '''Arcanist'''<math>+</math> |
+The [[File:Radiancy.png|16px]] [[Arcanist#Radiancy|Radiancy]] spell's Active effect
+| '''Upgrades'''<math>+</math> |
+The [[File:Jellystone Bar.png|16px]] [[Upgrades#Upgrades_W4_StarRadiantChance|Jellystone Bar Upgrade]]
+| '''Fishing'''<math>+</math> |
+The [[File:Galaxy_Legendary_Fish.png|16px]] [[Fishing#tabber-Blackened_Basker|Blackened Basker]] [[File:Tribute_Rank_2.png|16px]] Second Tribute
+}}
+|-|
+Star Radiant Multiplier=
+{{Stat|Star Radiant Multi|
+The multiplier on the value of a star when it is a Radiant Star. (Base: 10x)
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_RadiantStarMultiplier|Radiant Star Multiplier]]
+| '''Construct''' |
+[[File:20 Statue Timekeeping Normal.png|16px]] [[Construct#Karma|World 4: Statue of Timekeeping]] (Per each World 4 Statue)
+| '''Stargazing''' |
+The [[File:Lynx Full.png|16px]] [[Stargazing#Lynx|Lynx]] Star
+<br>A [[Stargazing#StarRadiantMultiUpgrade|Stargazing Upgrade]]
+| '''Archaeology''' |
+The [[File:Prometheus Idol.png|16px]] [[Archaeology#Prometheus|Prometheus]] Idol
+| '''Arcanist'''<math>+</math> |
+The [[File:Radiancy.png|16px]] [[Arcanist#Radiancy|Radiancy]] spell's Passive effect
+| '''Floors'''<math>+</math> |
+The [[File:Telescope.png|16px]] [[Floors#WQ24|24th World Quest Reward]]
+}}
+|-|
+Super Star Radiant Chance=
+{{Stat|Super Star Radiant Chance|
+The chance for a Super Star to spawn as a Radiant Super Star.
+| '''Store'''<math>+</math> |
+The [[File:Stargazing_Radiant_VP.png|16px]] [[Store#StargazingRadiantBundle|Stargazing Radiant Bundle]]
+| '''Construct'''<math>+</math> |
+[[File:27 Statue Rodentia Normal.png|16px]] [[Construct#Kromak|World 4: Statue of Rodentia]]
+| '''Stargazing'''<math>+</math> |
+A [[Stargazing#SuperStarRadiantChanceUpgrade|Stargazing Upgrade]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Prometheus Idol.png|16px]] [[Archaeology#Prometheus|Prometheus]] Idol
+| '''Fishing'''<math>+</math> |
+The [[File:Galaxy_Legendary_Fish.png|16px]] [[Fishing#tabber-Blackened_Basker|Blackened Basker]] [[File:Tribute_Rank_1.png|16px]] First Tribute
+}}
+|-|
+Super Star Radiant Multiplier=
+{{Stat|Super Star Radiant Multi|
+The multiplier on the value of a Super Star when it is a Radiant Super Star. (Base: 10x)
+| '''Construct''' |
+[[File:20 Statue Timekeeping Normal.png|16px]] [[Construct#Karma|World 4: Statue of Timekeeping]] (Per each World 4 Statue)
+| '''Stargazing'''<math>+</math> |
+A [[Stargazing#SuperStarRadiantMultiUpgrade|Stargazing Upgrade]]
+| '''Archaeology''' |
+The [[File:Prometheus Idol.png|16px]] [[Archaeology#Prometheus|Prometheus]] Idol
+}}
+|-|
+All Star Multiplier=
+{{Stat|All Star Multiplier|
+The multiplier on the value of all Stars and Superstars.
+| '''Drones''' |
+The [[Drones#Drone_Suit_Buffs|Fueled Midas Suit]] (Requires the [[Fishing#Upgrades_T2_MidasDroneEnhancement|Midas Drone Enhancement Tier 2 Notice Upgrade]]
+| '''Items''' |
+[[File:Starfruit.png|16px]] [[Items#Starfruit|Starfruit]]<math>\times</math>
+<br>[[File:Cosmic Candy.png|16px]] [[Items#CosmicCandy|Cosmic Candy]]
+| '''Store''' |
+The [[File:singularity vp.png|16px]] [[Store#SingularityBundle|Singularity Bundle]]
+| '''Skill-Tree''' |
+The [[File:Leprechaun's Legacy.png|16px]] [[Skill-Tree#LeprechaunsLegacy|Leprechaun's Legacy]]" Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Super Star.png}}[[Cards#CardEffects_Misc_SuperStar|Super Star Misc Card]]
+| '''Construct''' |
+[[File:21 Statue Combat Gilded.png|16px]] [[Construct#SansGilded|World 4: Gilded Statue of Combat]]
+| '''Stargazing''' |
+The [[File:Scorpio Full.png|16px]] [[Stargazing#Scorpio|Scorpio]] Star<math>\times</math>
+<br>A [[Stargazing#AllStarMultiplierUpgrade|Stargazing Upgrade]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_AllStarMultiplier|Tier 1 Notice: All Star Multiplier]]<math>\times</math>
+<br>The [[File:Solaris Legendary Fish.png|16px]] [[Fishing#tabber-Melting_Gibbous|Melting Gibbous]] [[File:Tribute_Rank_1.png|16px]] First Tribute
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_AllStarMulti|All Star Multi]] Exchange Upgrade
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W4_AllStarMultiplier|World 4: All Star Multiplier]]
+| '''Misc''' |
+An [[Offline#Offline_Penalties|Offline Penalty]]
+}}
+|-|
+Novagiant Combo Multiplier=
+{{Stat|Novagiant Combo Multiplier|
+The multiplier on the value of Supergiant Supernova Stars and Super Stars.
+| '''Store''' |
+The [[File:singularity vp.png|16px]] [[Store#SingularityBundle|Singularity Bundle]]<math>\times</math>
+<br>The [[File:halfway vp.png|16px]] [[Store#HalfWayBundle|Half Way Bundle]]
+| '''Skill-Tree''' |
+The [[File:why Are There Stars In My Mining Game.png|16px]] [[Skill-Tree#WhyAreThereStarsInMyMiningGame|Why Are There Stars In My Mining Game]] Skill
+| '''Challenges''' |
+A [[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_NovagiantComboMulti|Novagiant Combo Multi]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Novagiant Combo.png}}[[Cards#CardEffects_Misc_NovagiantCombo|Novagiant Misc Card]]
+| '''Pets''' |
+The [[File:Starfish_Quest.png|16px]] [[Pets#tabber-Starfish_2|Starfish Pet Quest]]
+| '''Stargazing''' |
+A [[File:Super Star.png|16px]] [[Stargazing#NovagiantComboMultiplier_SSUpgrade|Super Star Upgrade]]
+<br>A [[Stargazing#NovagiantComboMultiUpgrade|Stargazing Upgrade]]
+| '''Floors''' |
+The [[File:Telescope.png|16px]] [[Floors#WQ5|5th World Quest Reward]]
+}}
+|-|
+Cosmic Candy Eaten=
+{{Stat|Cosmic Candy Eaten|
+The number of candy eaten. The effect caps at 250, but the Candy Eaten stat will keep increasing beyond that point.
+| '''Items''' |[[File:Cosmic Candy.png|16px]] [[Items#CosmicCandy|Cosmic Candy]]
+|spriteOverride=Candy Eaten}}</tabber>

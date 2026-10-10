@@ -1,0 +1,115 @@
+<tabber>
+Lootbug Spawn Rate Multiplier=
+{{Stat|Lootbug Spawn Rate Multiplier|Increases the rate at which Lootbugs appear.
+| '''Base''' |Once every 20 in-game minutes
+| '''Drones''' |
+[[File:Drone Bear.png|16px]] [[Drones#Drone_Suit_Buffs|Fueled Bomb Bear Drone]]
+| '''Items''' |
+[[File:Bread.png|16px]] [[Items#Bread|Bread]] (requires buff from [[File:Eros Idol.png|16px]] [[Archaeology#Eros|Eros]] idol)<math>\times</math>
+<br>[[File:Lootbug Lantern.png|16px]] [[Items#LootbugLantern|Lootbug Lantern]]
+| '''Challenges''' |
+[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_LootbugSpawnRate|Lootbug Spawn Rate]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Duck Icon.png}}[[Cards#CardEffects_Pets_Duck|Duck Card]]
+| '''Pets''' |
+The [[File:Duck_Default.png|16px]] [[Pets#tabber-Duck 3|Duck Pet]]
+| '''Stargazing''' |
+[[File:Sagittarius Full.png|16px]] [[Stargazing#Sagittarius|Sagittarius]]
+| '''Misc''' |
+Floors 113-114 with [[File:Hookite Ore.png|16px]] [[Ores#Hookite|Hookite Ore]]
+}}
+|-|
+Triple Lootbug Chance=
+{{Stat|Triple Lootbug Chance|The chance for 3 Lootbugs to appear when a spawn occurs.
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Whale Icon.png}}[[Cards#CardEffects_Pets_Whale|Whale Card]]
+| '''Pets'''<math>+</math> |
+The [[File:Whale_Default.png|16px]]  [[Pets#tabber-Whale_2|Whale Pet]]
+| '''Stargazing'''<math>+</math> |
+[[File:Libra Full.png|16px]] [[Stargazing#Libra|Libra]]
+| '''Skins'''<math>+</math> |
+The [[Skins#SkinReward11|11th Miner Skin Reward]]
+}}
+|-|
+Golden Lootbug Chance=
+{{Stat|Golden Lootbug Chance|The chance for the Lootbug purchasable loot to be free.
+| '''Store''' |
+The [[File:goldenlootbug vp.png|16px]] [[Store#GoldenLootbugBundle|Golden Lootbug Bundle]]
+<br>The [[File:FounderIcon.png|16px]] [[Store#FounderT5|Tier 5 Founder Perk]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Golden Lootbug Chance.png}}[[Cards#CardEffects_Misc_GoldenLootbug|Golden Lootbug Misc Card]]
+| '''Stargazing''' |
+[[File:Aquarius Full.png|16px]] [[Stargazing#Aquarius|Aquarius]]
+}}
+|-|
+Banked Lootbug Cap=
+{{Stat|Banked Lootbug Cap|How many Lootbugs you can keep in storage in addition to the one on screen.
+| '''Items'''<math>+</math> |
+[[File:Lootbug Lantern.png|16px]] [[Items#LootbugLantern|Lootbug Lantern]]
+| '''Store'''<math>+</math> |
+The [[File:Three Quarter VP.png|16px]] [[Store#ThreeQuarterBundle|Three Quarter Bundle]]
+<br>The [[File:Bankersbundle vp.png|16px]] [[Store#BankersBundle|Banker's Bundle]]
+<br>The [[File:biggerbanksbundle vp.png|16px]] [[Store#BiggerBankersBundle|Bigger Banker's Bundle]]
+<br>The [[File:lootbugbonanza vp.png|16px]] [[Store#LootbugBonanzaBundle|Lootbug Bonanza Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+[[File:saving For A Rainy Day.png|16px]] [[Skill-Tree#SavingForARainyDay|Saving For A Rainy Day]]<math>+</math>
+<br>[[File:anyone Up Lootin' They Bugs.png|16px]] [[Skill-Tree#AnyoneUpLootinTheyBugs|Anyone Up Lootin' They Bugs]]<math>+</math>
+| '''Pets'''<math>+</math> |
+[[File:Whale_Quest.png|16px]] [[Pets#tabber-Whale_2|Whale Pet Quest]]
+| '''Construct'''<math>+</math> |
+[[File:17 Statue Eastwood Normal.png|16px]] [[Construct#MLNW|World 3: Statue of Eastwood]]
+| '''Stargazing'''<math>+</math> |
+([[File:Ophiuchus Full.png|16px]] [[Stargazing#Ophiuchus|Ophiuchus]]<math>+</math>
+<br>[[File:Super Star.png|16px]] [[Stargazing#BankedFreebiesAndLootbugs_SSUpgrade|Super Star Upgrades]])
+<br>The [[File:BlackHole.png|16px]] [[Stargazing#BH8|8th Black Hole bonus]] (Multiplies everything)
+| '''Archaeology'''<math>+</math> |
+The [[File:Theseus_Idol.png|16px]] [[Archaeology#Theseus|Theseus]] Idol
+| '''Fishing'''<math>+</math> |
+The [[File:Sky_Legendary_Fish.png|16px]] [[Fishing#tabber-Storm_Serpent|Storm Serpent]] [[File:Tribute Rank 1.png|16px]] First Tribute
+|  '''Arcanist'''<math>+</math> |
+The [[File:Bug Magnet.png|16px]] [[Arcanist#BugMagnet|Bug Magnet]] spell's Passive effect
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_LootbugBankedCap|Exchange Upgrade]]
+|  '''Floors'''<math>+</math> |
+The [[File:Statue_Icon.png|16px]] [[Floors#WQ21|21st World Quest Reward]]
+|  '''Skins'''<math>\times</math> |
+The [[Skins#SkinReward21|21st Miner Skin Reward]]
+| '''Stickers'''<math>+</math> |
+The [[File:Lootbug Sticker.png|16px]] [[Stickers#LootbugStickerEffect|Banked Lootbug Sticker]]
+}}
+|-|
+Lootbug Gem Cost Reduction=
+{{Stat|Lootbug Gem Cost Reduction|The amount by which the gem cost of purchasable loot is reduced.
+| '''Skill-Tree'''<math>+</math> |
+[[File:saving For A Rainy Day.png|16px]] [[Skill-Tree#SavingForARainyDay|Saving For A Rainy Day]]
+| '''Pets'''<math>+</math> |
+The [[File:Whale_Skin.png|16px]] [[Pets#tabber-Whale_2|Whale Pet Skin]]
+| '''Skins'''<math>+</math> |
+The [[Skins#SkinReward6|6th Miner Skin Reward]]
+}}
+|-|
+Lootbug Loot Multiplier=
+{{Stat|Lootbug Loot Multiplier|The multiplier on Lootbug rewards. Rewards which multiply to non-integers but must be integers randomly give the integers on either side of the value.
+| '''Drones''' |
+The [[Drones#CoalUpgrades_LootbugLootMultiplier|Lootbug Loot Multi Coal Upgrade]]
+| '''Skill-Tree''' |
+[[File:anyone Up Lootin' They Bugs.png|16px]] [[Skill-Tree#AnyoneUpLootinTheyBugs|Anyone Up Lootin' They Bugs]]<math>+</math>
+| '''Store''' |
+The [[File:lootbugbonanza vp.png|16px]] [[Store#LootbugBonanzaBundle|Lootbug Bonanza Bundle]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Lootbug.png}}[[Cards#CardEffects_Misc_Lootbug|Lootbug Misc Card]]
+| '''Stargazing''' |
+A [[File:Super Star.png|16px]] [[Stargazing#LootbugLootMultiplier_SSUpgrade|Super Star Upgrade]]
+| '''Archaeology''' |
+The [[File:Theseus_Idol.png|16px]] [[Archaeology#Theseus|Theseus]] Idol
+| '''Fishing''' |
+The [[File:Sky_Legendary_Fish.png|16px]] [[Fishing#tabber-Storm_Serpent|Storm Serpent]] [[File:Tribute Rank 2.png|16px]] Second Tribute
+| '''Upgrades''' |
+A [[File:Frostbite_Bar.png|16px]] [[Upgrades#Upgrades_W2_LootbugLootMulti|Frostbite Bar Upgrade]]
+}}
+|-|
+Lanterns Used=
+{{Stat|Lanterns Used|The number of lootbug lanterns used. The effect caps at 25, but the Lanterns Used stat will keep increasing beyond that point.
+| '''Items''' |
+[[File:Lootbug Lantern.png|16px]] [[Items#LootbugLantern|Lootbug Lantern]]
+}}
+</tabber>

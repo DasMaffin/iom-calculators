@@ -1,0 +1,37 @@
+{| class="wikitable compact align-center-1 align-center-2 align-center-3 align-center-4 align-center-5
+|+ World 1 Statues
+|-
+! rowspan="2" | Field !! rowspan="2" | Type !! rowspan="2" | Name !! rowspan="2" | Alias !! colspan="3" | Variants || rowspan=2 | Example
+|-
+! Normal !! Gilded !! Platinized
+|-
+! <syntaxhighlight lang="json" inline>"Statue_0_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Rhythm || Xanz || [[File:1_Statue_Rhythm_Normal.png|24x24px]] || [[File:1_Statue_Rhythm_Gilded.png|24x24px]] || [[File:1_Statue_Rhythm_Platinized.png|24x24px]] || rowspan=9 | <syntaxhighlight lang="pycon">>>> json["stats"]["Statue_0_set1"]
+2
+</syntaxhighlight>
+signifying <code>GIlded</code>
+|-
+! <syntaxhighlight lang="json" inline>"Statue_1_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Awareness || Tor || [[File:2_Statue_Awareness_Normal.png|24x24px]] || [[File:2_Statue_Awareness_Gilded.png|24x24px]] || [[File:2_Statue_Awareness_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_2_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Slaying || Dark || [[File:3_Statue_Slaying_Normal.png|24x24px]] || [[File:3_Statue_Slaying_Gilded.png|24x24px]] || [[File:3_Statue_Slaying_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_3_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Appetite || Frozen || [[File:4_Statue_Appetite_Normal.png|24x24px]] || [[File:4_Statue_Appetite_Gilded.png|24x24px]] || [[File:4_Statue_Appetite_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_4_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Friendship || Caulwik || [[File:5_Statue_Friendship_Normal.png|24x24px]] || [[File:5_Statue_Friendship_Gilded.png|24x24px]] || [[File:5_Statue_Friendship_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_5_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Hygiene || Totefm || [[File:6_Statue_Hygiene_Normal.png|24x24px]] || [[File:6_Statue_Hygiene_Gilded.png|24x24px]] || [[File:6_Statue_Hygiene_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_6_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Artistry || Celio || [[File:7_Statue_Artistry_Normal.png|24x24px]] || [[File:7_Statue_Artistry_Gilded.png|24x24px]] || [[File:7_Statue_Artistry_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_7_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Randomness || Jolly || [[File:8_Statue_Randomness_Normal.png|24x24px]] || [[File:8_Statue_Randomness_Gilded.png|24x24px]] || [[File:8_Statue_Randomness_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_8_set1"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Childhood || Salutem || [[File:9_Statue_Childhood_Normal.png|24x24px]] || [[File:9_Statue_Childhood_Gilded.png|24x24px]] || [[File:9_Statue_Childhood_Platinized.png|24x24px]]
+|}

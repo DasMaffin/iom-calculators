@@ -1,0 +1,36 @@
+{| class="wikitable compact" style="text-align: center;"
+|+ World 3 Statues
+|-
+! rowspan="2" | Field !! rowspan="2" | Type !! rowspan="2" | Name !! rowspan="2" | Alias !! colspan="3" | Variants || rowspan=2 | Example
+|-
+! Normal !! Gilded !! Platinized 
+|-
+! <syntaxhighlight lang="json" inline>"Statue_0_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Craftmanship || Vydn || [[File:10_Statue_Craftmanship_Normal.png|24x24px]] || [[File:10_Statue_Craftmanship_Gilded.png|24x24px]] || [[File:10_Statue_Craftmanship_Platinized.png|24x24px]] || rowspan=9 | <syntaxhighlight lang="pycon">>>> json["stats"]["Statue_7_set2"]
+3</syntaxhighlight>
+signifying statue 7 (the 8th one) is Platinized
+|-
+! <syntaxhighlight lang="json" inline>"Statue_1_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Propulsion || Guard || [[File:11_Statue_Propulsion_Normal.png|24x24px]] || [[File:11_Statue_Propulsion_Gilded.png|24x24px]] || [[File:11_Statue_Propulsion_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_2_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Safety || Zuiqang || [[File:12_Statue_Safety_Normal.png|24x24px]] || [[File:12_Statue_Safety_Gilded.png|24x24px]] || [[File:12_Statue_Safety_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_3_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Ignition || Julk || [[File:13_Statue_Ignition_Normal.png|24x24px]] || [[File:13_Statue_Ignition_Gilded.png|24x24px]] || [[File:13_Statue_Ignition_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_4_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Warmth || Satio || [[File:14_Statue_Warmth_Normal.png|24x24px]] || [[File:14_Statue_Warmth_Gilded.png|24x24px]] || [[File:14_Statue_Warmth_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_5_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Feline || Iseburg || [[File:15_Statue_Feline_Normal.png|24x24px]] || [[File:15_Statue_Feline_Gilded.png|24x24px]] || [[File:15_Statue_Feline_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_6_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Affluence || Kohanu || [[File:16_Statue_Affluence_Normal.png|24x24px]] || [[File:16_Statue_Affluence_Gilded.png|24x24px]] || [[File:16_Statue_Affluence_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_7_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Eastwood || MLNW || [[File:17_Statue_Eastwood_Normal.png|24x24px]] || [[File:17_Statue_Eastwood_Gilded.png|24x24px]] || [[File:17_Statue_Eastwood_Platinized.png|24x24px]]
+|-
+! <syntaxhighlight lang="json" inline>"Statue_8_set2"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>Integer</syntaxhighlight> || Statue of Soprano || Praed || [[File:18_Statue_Soprano_Normal.png|24x24px]] || [[File:18_Statue_Soprano_Gilded.png|24x24px]] || [[File:18_Statue_Soprano_Platinized.png|24x24px]]
+|}

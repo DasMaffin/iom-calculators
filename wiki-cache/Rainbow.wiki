@@ -1,0 +1,16 @@
+{{Disambiguation}}
+'''Rainbow''' may refer to:
+* [[Stats#tabber-Rainbow_Floor_Chance|Rainbow Floor Chance]]
+* [[Stats#tabber-Rainbow_Floor_Multiplier|Rainbow Floor Multiplier]]
+* [[Stats#tabber-Galactic_Rainbow_Floor_Chance|Galactic Rainbow Floor Chance]]
+* [[Stats#tabber-Galactic_Rainbow_Floor_Multiplier|Galactic Rainbow Floor Multiplier]]
+* [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Chance|Prismatic Galactic Rainbow Floor Chance]]
+* [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Multi|Prismatic Galactic Rainbow Floor Multiplier]]
+* [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]]
+* [[Stats#tabber-Rainbow_Vein_Multiplier|Rainbow Vein Multiplier]]
+* [[Stats#tabber-Rainbow_Void_Portal_Chance|Rainbow Void Portal Chance]]
+* [[Stats#tabber-Rainbow_Void_Portal_Multi|Rainbow Void Portal Multiplier]]
+* [[Stats#tabber-Rainbow_Ore_Chance|Rainbow Ore Chance]]
+* [[Stats#tabber-Rainbow_Ore_Multiplier|Rainbow Ore Multiplier]]
+* [[Arcanist#RainbowRift|Rainbow Rift Spell]]
+* [[Arcanist#RainbowRoad|Rainbow Road Spell]]

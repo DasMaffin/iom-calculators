@@ -1,0 +1,72 @@
+<tabber>
+Polychrome Ore Card Multi=
+{{Stat|Polychrome Ore Card Multi|The bonus provided by having a polychrome Ore card.
+| '''Base''' | 4x
+| '''Store'''<math>\times</math> | 
+The [[File:Polychromepotency vp.png|16px]] [[Store#PolychromePotencyBundle|Polychrome Potency Bundle]]
+| '''Pets'''<math>\times</math> |
+The [[File:Happybot_Quest.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy-Bot Pet Quest]]
+| '''Stargazing'''<math>+</math> |
+The {{Sprite|Cetus Full|Stargazing#Cetus|16x16|Cetus}} Star
+| '''Fishing'''<math>+</math> |
+The [[File:Cave_Legendary_Fish.png|16px]] [[Fishing#tabber-Glimmering_Geoduck|Glimmering Geoduck]] [[File:Tribute Rank 2.png|16px]] Second Tribute 
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Palmite Bar|Upgrades#Upgrades_W3_PolychromeOreCardMulti|16x16|Palmite Bar upgrade}}
+|spriteOverride=Poly Shard
+}}
+|-|
+Polychrome Bar Card Multi=
+{{Stat|Polychrome Bar Card Multi|The bonus provided by having a polychrome Bar card.
+| '''Archaeology''' <math>+</math> |
+The [[File:Andromeda Idol.png|16px]] [[Archaeology#Andromeda|Andromeda]] Idol
+|spriteOverride=Poly Card Multi
+}}
+|-|
+Polychrome Fish Card Multi=
+{{Stat|Polychrome Fish Card Multi|The bonus provided by having a polychrome Fish card.
+| '''Store''' <math>\times</math> |
+The [[File:Polychromepotency vp.png|16px]] [[Store#PolychromePotencyBundle|Polychrome Potency Bundle]]
+| '''Fishing''' <math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T2_PolyCardMulti|Poly Card Multi]] Tier 2 Upgrade
+<br>The [[File:Gem.png|16px]] [[Fishing#PolyCard|Poly Card Multi]] Tier 2 Enhancement
+|spriteOverride=Super_Shiny_Multiplier
+}}
+|-|
+Polychrome Orb Card Multi=
+{{Stat|Polychrome Orb Card Multi|The bonus provided by having a polychrome Orb card.
+| '''Arcanist''' <math>+</math> |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_PolyOrbCardMulti|Poly Orb Card Multi]] Exchange Upgrade
+|spriteOverride=White Orb
+}}
+|-|
+Polychrome Rune Card Multi=
+{{Stat|Polychrome Rune Card Multi|The bonus provided by having a polychrome Rune card.
+| '''Arcanist''' <math>+</math> |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_PolyRuneMulti|Poly Rune Multi]] Exchange Upgrade
+|spriteOverride=Rune_Craft_Multi
+}}
+|-|
+Polychrome Star Card Multi=
+{{Stat|Polychrome Star Card Multi|The bonus provided by having a polychrome Star card.
+| '''Store''' <math>+</math> |
+The [[File:Three Quarter VP.png|16px]] [[Store#ThreeQuarterBundle|Three Quarter Bundle]]
+<br>The [[File:Polychromepotency vp.png|16px]] [[Store#PolychromePotencyBundle|Polychrome Potency Bundle]]
+| '''Pets'''<math>\times</math> |
+The [[File:Happybot_Quest.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy-Bot Pet Quest]]
+| '''Fishing'''<math>+</math> |
+The [[File:Cave_Legendary_Fish.png|16px]] [[Fishing#tabber-Glimmering_Geoduck|Glimmering Geoduck]] [[File:Tribute Rank 2.png|16px]] First Tribute
+|spriteOverride=Eridanus Poly Icon
+}}
+|-|
+Polychrome Vein Card Multi=
+{{Stat|Polychrome Vein Card Multi|The bonus provided by having a polychrome Vein card.
+| '''Relics''' <math>+</math> |
+The [[File:Mythic Chest.png|16px]] [[Chests#MythicRelic_PolychromeVeinCardMulti|Mythic Polychrome Vein Card Multi Relic]]
+| '''Store''' <math>+</math> |
+The [[File:Polychromepotency vp.png|16px]] [[Store#PolychromePotencyBundle|Polychrome Potency Bundle]]
+| '''Skill-Tree''' <math>+</math> |
+The [[File:Insane In The Vein Gain.png|16px]] [[Skill-Tree#InsaneInTheVeinGain|Insane In The Vein Gain]] Skill
+| '''Pets'''<math>\times</math> |
+The [[File:Happybot_Quest.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy-Bot Pet Quest]]
+}}
+</tabber>

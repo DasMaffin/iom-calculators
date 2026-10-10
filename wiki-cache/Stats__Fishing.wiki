@@ -1,0 +1,193 @@
+<tabber>
+Fishing Rod Power=
+{{Stat|Fishing Rod Power|The fishing power of your fishing rod.
+| '''Store''' |
+The [[File:Halfway vp.png|16px]] [[Store#HalfWayBundle|Half Way Bundle]]
+| '''Skill-Tree''' |
+The [[File:Motley School.png|16px]] [[Skill-Tree#MotleySchool|Motley School]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Fishing Rod.png}}[[Cards#CardEffects_Misc_FishingRod|Fishing Rod Misc Card]]
+| '''Fishing''' |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_FishingRod|Fishing Rod Base Power Upgrade]]<math>\times</math>
+<br>The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_RodMultiplier|Fishing Rod Power Multiplier Upgrade]]<math>\times</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#FishingRodPower|Fishing Rod Power Multiplier Enhancement]]
+}}
+|-|
+Fishing Drone Capacity=
+{{Stat|Fishing Drone Capacity|The number of Fishing Drones you have available to assign to docks.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Fishing With Friends.png|16px]] [[Skill-Tree#FishingWithFriends|Fishing With Friends]] Skill<math>+</math>
+<br>The [[File:Motley School.png|16px]] [[Skill-Tree#MotleySchool|Motley School]] Skill
+| '''Archaeology'''<math>+</math> |
+The [[File:Ares Idol.png|16px]] [[Archaeology#Ares|Ares]] Idol
+| '''Fishing'''<math>+</math> |
+(The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_FishingDrone_1|Second Tier 1 Upgrade]]<math>+</math>
+<br>The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_FishingDrone_2|Ninth Tier 1 Upgrade]]<math>+</math>
+<br>The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T2_DroneCloner|Drone Cloner Upgrade]] (multiplies everything)
+<br>The [[File:Gem.png|16px]] [[Fishing#FishingDrone|Second Tier 1 Enhancement]]<math>+</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#FishingDrone3|Last Tier 1 Enhancement]])
+}}
+|-|
+Fishing Drone Base Power=
+{{Stat|Fishing Drone Base Power|The base fishing power from a single Fishing Drone. (Base: 3)
+| '''Items'''<math>+</math> |
+[[File:Pike.png|16px]] [[Chests#Pike|Pike]] (Requires the [[File:Poseidon Idol.png|16px]] [[Archaeology#Poseidon|Poseidon]] Idol)
+| '''Archaeology''' <math>\times</math> |
+The [[File:Ares Idol.png|16px]] [[Archaeology#Ares|Ares]] Idol
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_DroneBasePower|Eleventh Tier 1 Upgrade]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Dynamite Bar|Upgrades#Upgrades_W3_FishingDroneBasePower||Dynamite Bar Upgrade}}}}
+|-|
+Drone Power Multiplier=
+{{Stat|Drone Power Multiplier|The multiplier on Fishing Drone Base Power that gives the total fishing power per Fishing Drone.
+| '''Workshop''' |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W3_FishingDronePower|World 3: Fishing Drone Power]]
+| '''Skill-Tree''' |
+The [[File:Fishing_With_Friends.png|16px]] [[Skill-Tree#FishingWithFriends|Fishing With Friends]] Skill<math>+</math>{{Edit button|text=?}}
+<br>The [[File:Completionist_Gatekeeper.png|16px]] [[Skill-Tree#CompletionistGatekeeper|Completionist Gatekeeper]] Skill
+| '''Archaeology''' |
+The [[File:Tethys Idol.png|16px]] [[Archaeology#Tethys|Tethys]] Idol
+| '''Fishing''' |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_DroneMultiplier|Seventh Tier 1 Upgrade]]<math>\times</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#DronePower|Fifth Tier 1 Enhancement]]
+}}
+|-|
+Tier 2 Dock Power=
+{{Stat|Tier 2 Dock Power|The multiplier to fishing power on Tier 2 Docks.
+| '''Store''' |
+The [[File:Legendaryhauler vp.png|16px]] [[Store#LegendaryHaulerBundle|Legendary Hauler Bundle]]
+| '''Skill-Tree''' |
+[[File:Completionist Gatekeeper.png|16px]] [[Skill-Tree#CompletionistGatekeeper|Completionist Gatekeeper]]
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Drone Angler Icon.png}}[[Cards#CardEffects_Drones_AnglerDrone|Infernal Angler Drone Card]]
+| '''Pets''' |
+The [[File:Mr_Nibbles_Quest.png|16px]] [[Pets#tabber-Mr_Nibbles_2|Mr Nibbles Pet Quest]]
+| '''Stargazing''' |
+The [[File:BlackHole.png|16px]] [[Stargazing#BH10|10th Black Hole Bonus]]
+| '''Archaeology''' |
+The [[File:Tethys Idol.png|16px]] [[Archaeology#Tethys|Tethys]] Idol
+| '''Fishing''' |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T2_Tier2DockPower|Third Tier 2 Upgrade]]<math>+</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#Tier2DockPower|Fourth Tier 2 Enhancement]]
+}}
+|-|
+Fish Income Multiplier=
+{{Stat|Fish Income Multiplier|The multiplier on the number of fish caught.
+| '''Store''' |
+The [[File:Legendaryhauler vp.png|16px]] [[Store#LegendaryHaulerBundle|Legendary Hauler Bundle]]
+| '''Skill-Tree''' |
+[[File:Fishing_With_Friends.png|16px]] [[Skill-Tree#FishingWithFriends|Fishing With Friends]] Skill<math>+</math>
+<br>[[File:With This Fish I Summon Two More Fish.png|16px]] [[Skill-Tree#WithThisFishISummonTwoMoreFish|With This Fish I Summon Two More Fish]] Skill
+| '''Construct''' |
+[[File:10 Statue Craftmanship Gilded.png|16px]] [[Construct#VydnGilded|World 3: Gilded and Platinized Statue of Craftmanship]]
+| '''Stargazing''' |
+The [[File:Cetus Full.png|16px]] [[Stargazing#Cetus|Cetus]] Star<math>\times</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#FishIncomeMultiplier_SSUpgrade|Super Star Upgrade]]<ref name=SSUpgrade>The display in game is currently bugged for level 15 displaying +30% rather than the true +18.75%. All other levels display correctly (1.25% per level)</ref>
+| '''Fishing''' |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_FishMultiplier|Fifth Tier 1 Upgrade]]<math>\times</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#FishIncome|First Tier 1 Enhancement]]
+}}
+<references />
+|-|
+Fishing Tick Reduction=
+{{Stat|Fishing Tick Reduction|The reduction to the amount of time that the fishing tick bar takes to fill up.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Let's Pick Up The Pace.png|16px]] [[Skill-Tree#LetsPickUpThePace|Let's Pick Up The Pace]] Skill
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_TickSpeed|Fourth Tier 1 Upgrade]]<math>+</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#FishingTickSpeed|Fourth Tier 1 Enhancement]]
+}}
+|-|
+Double Fish Tick Chance=
+{{Stat|Double Fish Tick Chance|The chance to get 2 Fishing ticks when the tick bar fills up.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Let's Pick Up The Pace.png|16px]] [[Skill-Tree#LetsPickUpThePace|Let's Pick Up The Pace]] Skill
+| '''Archaeology'''<math>+</math> |
+The [[File:Astraeus Idol.png|16px]] [[Archaeology#Astraeus|Astraeus]] Idol
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_DoubleTickChance|Eighth Tier 1 Upgrade]]<math>+</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#DoubleTick|Seventh Tier 1 Enhancement]]
+}}
+|-|
+Triple Fish Tick Chance=
+{{Stat|Triple Fish Tick Chance|The chance to get 3 Fishing ticks when the tick bar fills up.
+| '''Store'''<math>+</math> |
+The [[File:fishingbundle vp.png|16px]] [[Store#FishersBundle|Fisher's Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Let's Pick Up The Pace.png|16px]] [[Skill-Tree#LetsPickUpThePace|Let's Pick Up The Pace]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Mr_Nibbles_Default.png|16px]] [[Pets#tabber-Mr_Nibbles_2|Mr Nibbles Pet]]
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_TripleTickChance|Last Tier 1 Upgrade]]<math>+</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#TripleTick|Second Tier 2 Enhancement]]
+}}
+|-|
+5x Fish Tick Chance=
+{{Stat|5x Fish Tick Chance|The chance to get 5 Fishing ticks when the tick bar fills up.
+| '''Relics'''<math>+</math> |
+[[File:Divine Chest.png|16px]] [[Chests#DivineRelic_FishingTicks5xChance|Divine Fishing Ticks 5x Chance Relic]]
+| '''Store'''<math>+</math> |
+The [[File:Legendaryhauler vp.png|16px]] [[Store#LegendaryHaulerBundle|Legendary Hauler Bundle]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Infernal|cardImage=Mr Nibbles Icon.png}}[[Cards#CardEffects_Pets_MrNibbles|Infernal Mr Nibbles Pet Card]]
+}}
+|-|
+Fish Token Gain Multiplier=
+{{Stat|Fish Token Gain Multiplier|The multiplier on Fish Tokens gained from Notices.
+| '''Fishing''' |
+The [[File:Gem.png|16px]] [[Fishing#FishTokenGain|Sixth Tier 1 Enhancement]]}}
+|-|
+Notice Fish Requirement=
+{{Stat|Notice Fish Requirement|The reduction in the number of fish requested by Notices.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Friendship Ended With Tier 1 Items.png|16px]] [[Skill-Tree#FriendshipEndedWithTier1Items|Friendship Ended With Tier 1 Items]] Skill
+}}
+|-|
+Tiny Notice Chance=
+{{Stat|Tiny Notice Chance|The chance for a Notice to ask for 90% less fish.
+| '''Store'''<math>+</math> |
+The [[File:Anglerbundle vp.png|16px]] [[Store#AnglersBundle|Angler's Bundle]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Mr Nibbles Icon.png}}[[Cards#CardEffects_Pets_MrNibbles|Mr Nibbles Pet Card]]
+| '''Fishing'''<math>+</math> |
+The [[File:Gem.png|16px]] [[Fishing#TinyNotice|Eighth Tier 1 Enhancement]]}}
+|-|
+Shiny Fish Chance=
+{{Stat|Shiny Fish Chance|The chance for a shiny catch of fish.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:with This Fish I Summon Two More Fish.png|16px]] [[Skill-Tree#WithThisFishISummonTwoMoreFish|With This Fish I Summon Two More Fish]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Mr_Nibbles_Skin.png|16px]] [[Pets#tabber-Mr_Nibbles_2|Mr Nibbles Pet Skin]]
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T1_ShinyFishChance|Tenth Tier 1 Upgrade]]}}
+|-|
+Shiny Multiplier=
+{{Stat|Shiny Multiplier|The multiplier on fish caught when a catch is shiny. (Base: 3x)
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_ShinyFishMultiplier|Shiny Fish Multiplier]]
+| '''Pets''' |
+The [[File:Mr_Nibbles_Default.png|16px]] [[Pets#tabber-Mr_Nibbles_2|Mr Nibbles Pet]]
+| '''Fishing''' |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T2_ShinyMultiplier|Second Tier 2 Upgrade]]<math>\times</math>
+<br>The [[File:Gem.png|16px]] [[Fishing#ShinyMulti|Ninth Tier 1 Enhancement]]
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_ShinyFishMultiplier|Shiny Fish Multiplier]] Exchange Upgrade
+}}
+|-|
+Super Shiny Fish Chance=
+{{Stat|Super Shiny Fish Chance|The chance for a shiny catch of fish to be super shiny.
+| '''Skill-Tree'''<math>+</math> |
+[[File:Completionist Gatekeeper.png|16px]] [[Skill-Tree#CompletionistGatekeeper|Completionist Gatekeeper]]
+| '''Fishing'''<math>+</math> |
+The [[File:Golden_Trout.png|16px]] [[Fishing#Upgrades_T2_SuperShinyChance|Fourth Tier 2 Upgrade]]}}
+|-|
+Super Shiny Multiplier=
+{{Stat|Super Shiny Multiplier|The multoplier on fish caught when a shiny catch is super shiny. (Base: 3x)
+| '''Archaeology''' |
+The [[File:Tethys Idol.png|16px]] [[Archaeology#Tethys|Tethys]] Idol
+| '''Fishing''' |
+The [[File:Gem.png|16px]] [[Fishing#SuperShiny|Third Tier 2 Enhancement]] (Adds to base value)
+<br>The [[File:Abyss_Legendary_Fish.png|16px]] [[Fishing#tabber-Cthulhu|Cthulhu]] [[File:Tribute Rank 1.png|16px]] First Tribute (Adds to base value)
+}}
+</tabber>

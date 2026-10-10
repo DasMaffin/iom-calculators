@@ -1,0 +1,41 @@
+<tabber>
+Runic Surge Potency=
+{{CostTable|Runic Surge Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2000|Ash Rune|Ash Runes|rounding=round}}
+|-|
+Rainbow Rift Potency=
+{{CostTable|Rainbow Rift Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3500|Brine Rune|Brine Runes|rounding=round}}
+|-|
+Manaflow Potency=
+{{CostTable|Manaflow Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2500|Chasm Rune|Chasm Runes|rounding=round}}
+|-|
+Radiancy Potency=
+{{CostTable|Radiancy Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4000|Ash Rune|Ash Runes|rounding=round}}
+|-|
+Prismism Potency=
+{{CostTable|Prismism Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2750|Brine  Rune|Brine Runes|rounding=round}}
+|-|
+Veinboyant Potency=
+{{CostTable|Veinboyant Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4000|Brine Rune|Brine Runes|rounding=round}}
+|-|
+Diggy Diggy Hole Potency=
+{{CostTable|Diggy Diggy Hole  Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5000|Chasm Rune|Chasm Runes|rounding=round}}
+|-|
+Blue Giant Potency=
+{{CostTable|Blue Giant Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10000|Chasm Rune|Chasm Runes|rounding=round}}
+|-|
+Rainbow Road Potency=
+{{CostTable|Rainbow Road Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5500|Echo Rune|Echo Runes|rounding=round}}
+|-|
+Draconic Hoard Potency=
+{{CostTable|Draconic Hoard Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|8500|Drift Rune|Drift Runes|rounding=round}}
+|-|
+Party Fever Potency=
+{{CostTable|Party Fever  Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|6500|Echo Rune|Echo Runes|rounding=round}}
+|-|
+Bomb's Blessing Potency=
+{{CostTable|Bomb's Blessing Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|9500|Drift Rune|Drift Runes|rounding=round}}
+|-|
+Bug Magnet Potency=
+{{CostTable|Bug Magnet Potency|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|12500|Brine Rune|Brine Runes|rounding=round}}
+
+</tabber>

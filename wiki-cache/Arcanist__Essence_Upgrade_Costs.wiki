@@ -1,0 +1,72 @@
+{{WIP}}
+===Unlock Next Essence Mine===
+{{CostTable|Unlock Next Essence Mine|2|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1000|Ash Rune|Ash Runes|overrideCostType=2=Brine Rune|overrideLevel=2=5000|rounding=round}}
+===Flat Damage +1===
+{{CostTable|Flat Damage +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1|White Orb|White Orbs|rounding=round}}
+===Soft Essence Max Loot +1===
+{{CostTable|Soft Essence Max Loot +1|3|30|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|White Orb|White Orbs|rounding=round}}
+===Shiny Chance +0.3%===
+{{CostTable|Shiny Chance +0.3%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|White Orb|White Orbs|rounding=round}}
+===Crit Chance +0.25% / Crit Damage +1%===
+{{CostTable|Crit Chance +0.25% / Crit Damage +1%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2|Green Orb|Green Orbs|rounding=round}}
+===Flat Damage +1 / Brittle Chance +0.15%===
+{{CostTable|Flat Damage +1 / Brittle Chance +0.15%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|Green Orb|Green Orbs|rounding=round}}
+===Dense Essence Max Loot +1===
+{{CostTable|Dense Essence Max Loot +1|3|30|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|Green Orb|Green Orbs|rounding=round}}
+===Essence Armor Pen +1===
+{{CostTable|Essence Armor Pen +1|5|5|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|5|Purple Orb|Purple Orbs|rounding=round}}
+===Super Crit Chance +0.5% / Super Crit Damage +1%===
+{{CostTable|Super Crit Chance +0.5% / Super Crit Damage +1%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|Purple Orb|Purple Orbs|rounding=round}}
+===Flat Damage +1 / Stun Negate Chance +2%===
+{{CostTable|Flat Damage +1 / Stun Negate Chance +2%|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|8|Purple Orb|Purple Orbs|rounding=round}}
+===Flat Damage +2%===
+{{CostTable|Flat Damage +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|White Orb|White Orbs|rounding=round}}
+===Shiny Essence Loot +1===
+{{CostTable|Shiny Essence Loot +1|3|15|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|15|Green Orb|Green Orbs|rounding=round}}
+===Shiny Chance +1% / Brittle Chance +1%===
+{{CostTable|Shiny Chance +1% / Brittle Chance +1%|3|20|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|20|Purple Orb|Purple Orbs|rounding=round}}
+===Crit Chance +0.35% / Super Crit Chance +0.25%===
+{{CostTable|Crit Chance +0.35% / Super Crit Chance +0.25%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|Orange Orb|Orange Orbs|rounding=round}}
+===Jagged Essence Min Loot +1 / Jagged Essence Max Loot +1===
+{{CostTable|Jagged Essence Min Loot +1 / Jagged Essence Max Loot +1|2|20|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|20|White Orb|White Orbs|rounding=round}}
+
+
+
+===Regeneration & Essence Respawn Timer===
+{{CostTable|Regeneration & Essence Respawn Timer|3|15|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|15|Green Orb|Green Orbs|rounding=round}}
+===Super Shiny Chance===
+{{CostTable|Super Shiny Chance|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|Purple Orb|Purple Orbs|rounding=round}}
+===Flat Damage, Weaken Negate Chance===
+{{CostTable|Flat Damage, Weaken Negate Chance|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|8|Orange Orb|Orange Orbs|rounding=round}}
+===All Essence Max Loot===
+{{CostTable|All Essence Max Loot|2|30|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|30|Red Orb|Red Orbs|rounding=round}}
+===Flat Damage, Brittle Chance===
+{{CostTable|Flat Damage, Brittle Chance|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|Green Orb|Green Orbs|rounding=round}}
+===Super Shiny Essence Loot===
+{{CostTable|Super Shiny Essence Loot|2|25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|25|Purple Orb|Purple Orbs|rounding=round}}
+===Crit Chance, Ultra Crit Chance===
+{{CostTable|Crit Chance, Ultra Crit Chance|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|Red Orb|Red Orbs|rounding=round}}
+===Crit Damage, Attack Speed===
+{{CostTable|Crit Damage, Attack Speed|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|12|White Orb|White Orbs|rounding=round}}
+===All Essence Min Loot===
+{{CostTable|All Essence Min Loot|2|50|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|50|Orange Orb|Orange Orbs|rounding=round}}
+===Flat Damage, All Debuff Negate Chance===
+{{CostTable|Flat Damage, All Debuff Negate Chance|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|Yellow Orb|Yellow Orbs|rounding=round}}
+===Crit Chance, Essence Respawn Timer===
+{{CostTable|Crit Chance, Essence Respawn Timer|2|40|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|40|Green Orb|Green Orbs|rounding=round}}
+===Super Crit Damage, Daze Negate Chance===
+{{CostTable|Super Crit Damage, Daze Negate Chance|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|12|Purple Orb|Purple Orbs|rounding=round}}
+===Shiny Chance, Ultra Shiny Chance===
+{{CostTable|Shiny Chance, Ultra Shiny Chance|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10|Red Orb|Red Orbs|rounding=round}}
+===All Shiny Essence Loot===
+{{CostTable|All Shiny Essence Loot|3|30|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|30|Yellow Orb|Yellow Orbs|rounding=round}}
+===Flat Damage, Essence Armor Pen===
+{{CostTable|Flat Damage, Essence Armor Pen|5|15|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|20|White Orb|White Orbs|rounding=round}}
+===Super Crit Damage, Stun Negate Chance===
+{{CostTable|Super Crit Damage, Stun Negate Chance|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10|Orange Orb|Orange Orbs|rounding=round}}
+===Flat Damage, Super Crit Chance===
+{{CostTable|Flat Damage, Super Crit Chance|5|15|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|20|Yellow Orb|Yellow Orbs|rounding=round}}
+===Crit Damage, Ultra Crit Chance===
+{{CostTable|Crit Damage, Ultra Crit Chance|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|15|White Orb|White Orbs|rounding=round}}
+===Super Shiny Chance, Attack Speed===
+{{CostTable|Super Shiny Chance, Attack Speed|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|8|Yellow Orb|Yellow Orbs|rounding=round}}

@@ -1,0 +1,445 @@
+{{Version|2.2.23}}
+<span style="display:none">[[File:FounderIcon.png|frameless]]</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{FakeMenuButton|image=[[File:FounderIcon.png|70px]]|size=90px|buttonSize=114px}}
+<div style="margin:0 5px">'''Founder''' is a status obtained after purchasing the [[Store#Founders_Bundle|Founder's bundle]] from the [[Store]], which becomes available for purchase after buying the [[Store#Perk_Bundles|Perk bundles]]. It offers a vast array of benefits, including the [[#Discord_role|role]] on the official [https://discord.com/invite/t6Y6QRa game discord]. Some of the benefits are [[#Benefits|immediate]], while others like the [[#VIP_Lounge|VIP lounge]] or the [[#Founder_Supply_Drop|Supply drops]] are passive effects which work over time. Founder costs $24.99 USD or approximately the same amount as the Perk Bundles combined in the currency you use.
+Total amount of Founder bundle owners - 66942 (last updated - Oct 9)
+</div></div>
+
+==Benefits==
+===Immediate Rewards===
+*3500 Gems
+*4 [[Chests#Relic_Chests|Mythic Chests]]
+*250 [[Chests#Relic_Chests|Relic Chests]]
+
+===Permanent Effects===
+*[[Bombs#tabber-Founders_Bomb|Founder's Bomb]]<ref>Founder bomb cap is unrelated to normal bomb cap. Instead, founder bomb cap is the current number of founders for the game, usually updated manually by the devs with each patch.</ref>
+*Founder [[Supply drop|Supply Drops]]
+*[[Founder#VIP_Lounge|Founder Lounge]] Access
+*1.1x Bomb Recharge Rate
+*Offline Cap doubled to 24 hours
+*[[Freebie|Freebie Chest]] restores 60 seconds quicker
+*x1.25 Pickaxe Damage
+*x1.25 Bomb Damage
+*x1.25 Exp Gain
+*Bomb Capacity increased by 100
+*10x [[Craft Chance]] +2%
+*Founders Stats Page + Badge
+*Founder Status Discord Rank
+
+===Others/Unlisted===
+*Display the VIP Points value for each [[Value|IAP]] (See VIP Lounge)
+*Display an additional [[Value|Value Pack]] in the shop
+*Ability to purchase 3rd [[#Limited_Time|Event bundle]] during [[Events]]
+*Can buy unlimited amount of [[Store#MythicGiftPack|Mythic Gift Pack]] resource pack in Store (IAP - Instead of only 3).
+**Before [[Update:V2.2.1]], the Mythic Gift Pack was not accessible for F2P at all
+*A special [[Codes|Code "FOUNDERCODE"]]
+
+<references />
+
+==Discord role==
+In order to claim the Discord role, after purchasing the Founder's bundle:
+
+# Go to the Options menu
+# Select the Enter Code button
+# Type in the code "Founder"
+# Submit a new ticket in the #founder-role-request channel
+# Include the details from the code section.
+
+==VIP Lounge== 
+Buying the Founders Bundle unlocks the VIP Lounge. As you buy [[Value|In App Purchases]] you gain VIP Lounge points. The amount of points you gain varies based on the cost and currency you use. When you gain enough points, you reach a new tier. This upgrades all unlocked effects and unlocks the new tier effect.
+
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2 align-center-4 align-center-5"
+|+ Founder Tier List
+|-
+! colspan="2" | Points Required
+! Effect
+! Effect Increase
+! Effect At Tier 13
+|-
+|<div id="FounderT1"></div>Tier 1 
+| 960
+| Founder Supply Drop every 60 minutes
+| -2 minutes
+| 36 minutes
+|-
+|<div id="FounderT2"></div>Tier 2
+| 1440
+| Double Supply Drop Chance 12%
+| +6%
+| +78%
+|-
+|<div id="FounderT3"></div>Tier 3
+| 2080
+| 10x [[Special:MyLanguage/Craft Chance|Craft Chance]] +2%
+| +1%
+| 12%
+|-
+|<div id="FounderT4"></div>Tier 4
+| 2880
+| [[Bombs#tabber-Bomb_of_Plenty|Bomb Of Plenty Multiplier]] +2x
+| +1x
+| +11x
+|-
+|<div id="FounderT5"></div>Tier 5
+| 3920
+| Golden [[Lootbugs|Lootbug]] Chance +6%
+| +3%
+| +30%
+|-
+|<div id="FounderT6"></div>Tier 6
+| 5360
+| Banked [[Freebies]] +4
+| +2
+| +18
+|-
+|<div id="FounderT7"></div>Tier 7
+| 7440
+| Triple Supply Drop Chance +16%
+| +8%
+| +64%
+|-
+|<div id="FounderT8"></div>Tier 8
+| 9920
+| Gems From [[Freebie]] +2
+| +1
+| +7
+|-
+|<div id="FounderT9"></div>Tier 9
+| 12480
+| [[Stats#tabber-Rainbow_Floor_Chance|Rainbow Floor]] Chance +1%
+| +1%
+| +5%
+|-
+|<div id="FounderT10"></div>Tier 10
+| 16000
+| [[Game speed|Game Speed]] +10%
+| +1%
+| +13%
+|-
+|<div id="FounderT11"></div>Tier 11
+| 21600
+| Golden Supply Drop Chance +10%
+| +2%
+| +14%
+|-
+|<div id="FounderT12"></div>Tier 12
+| 28800
+| [[Bombs#tabber-Gem_Bomb|Gem Bomb]] Gem Chance +0.5%
+| +0.25%
+| +0.75%
+|-
+|<div id="FounderT13"></div>Tier 13
+| 40000
+| Stonks Chance +0.25%
+| +0.25%
+| +0.25%
+|}
+
+=== Average Drops Per Hour ===
+{| class="wikitable lighttable sortable align-left-1"
+|+ Founder Drops Per Hour & other rewards.
+|-
+! colspan=2 | Tier
+! [[File:VIP Badge.png|16px]]
+! [[File:Time-Turner.png|16px]]
+! Hourly
+! [[File:Supply Drop.png|16px]]x2
+! [[File:10x Craft Chance.png|16px]]
+! [[File:Bomb of Plenty.png|16px]]
+! [[File:Golden Lootbug Chance.png|16px]]
+! [[File:Banked Freebie Cap.png|16px]]
+! [[File:Supply Drop.png|16px]]x3
+! [[File:Freebie Pack.png|16px]]
+! [[File:Rainbow Floor Chance.png|16px]]
+! [[File:Game Speed Multiplier.png|16px]]
+! [[File:Golden Supply Drop.png|16px]]
+! [[File:Gem Bomb.png|16px]]
+! [[File:Stonks Chance.png|16px]]
+! Avg Hourly Drop
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 1
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 960
+| 60m || 1.0
+| {{NA}}
+| {{NA|rowspan=2}}
+| {{NA|rowspan=3}}
+| {{NA|rowspan=4}}
+| {{NA|rowspan=5}}
+| {{NA|rowspan=6}}
+| {{NA|rowspan=7}}
+| {{NA|rowspan=8}}
+| {{NA|rowspan=9}}
+| {{NA|rowspan=10}}
+| {{NA|rowspan=11}}
+| {{NA|rowspan=12}}
+| 1.0x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 2
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 1440
+| 58m || 1.03 || + 12% || 1.1586x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 3
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 2080
+| 56m || 1.07 || + 18% || + 2% || 1.2643x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 4
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 2880
+| 54m || 1.11 || + 24% || + 3% || + 2x || 1.3778x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 5
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 3920
+| 52m || 1.15 || + 30% || + 4% || + 3x || + 6% || 1.5x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 6
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 5360
+| 50m || 1.2 || + 36% || + 5% || + 4x || + 9% || +4 || 1.632x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 7
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 7440
+| 48m || 1.25 || + 42% || + 6% || + 5x || + 12% || +6 || + 16% || 2.343x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 8
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 9920
+| 46m || 1.30 || + 48% || + 7% || + 6x || + 15% || +8 || + 24% || +2 || 2.857x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIcon.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 9
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 12480
+| 44m || 1.36 || + 54% || + 8% || + 7x || + 18% || +10 || + 32% || +3 || + 1% || 3.444x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIconT10.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 10
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 16000
+| 42m || 1.43 || + 60% || + 9% || + 8x || + 21% || +12 || + 40% || +4 || + 2% || + 10% || 4.1143x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIconT10.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 11
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 21600
+| 40m || 1.5 || + 66% || + 10% || + 9x || + 24% || +14 || + 48% || +5 || + 3% || + 11% || + 10% || 6.8326x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIconT10.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 12
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 28800
+| 38m || 1.58 || + 72% || + 11% || + 10x || + 27% || +16 || + 56% || +6 || + 4% || + 12% || + 12% || +0.5% || 8.5211x
+|-
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | [[File:FounderIconT10.png|16px]]
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 13
+| style="background-color:var(--background-color-neutral,#eaecf0);color:var(--color-base,#202122);font-weight:bold;" | 40000
+| 36m || 1.67 || + 78% || + 12% || + 11x || + 30% || +18 || + 64% || +7 || + 5% || + 13% || + 14% || +1.0% || +0.25% || 10.5518x
+|}
+
+==Founder Supply Drop==
+[[File:Supply_Drop.png|left]]
+Founders get supply drops based on a timer that is not affected by game speed. It drops crates containing rewards that scale with game progression. For a supply drop to spawn, the previous supply drop's crates must have already been collected, they will not stack. Tier 2 unlocks a chance for double supply drops. Tier 7 unlocks a chance for triple supply drops, which can be hit alongside a double resulting in a max of 6 crates at once. Tier 11 unlocks a chance for golden supply drops, this chance rolls per crate in the drop and any crate that turns golden will contain 5x the amount of each reward.
+
+{{clear|left}}
+{| class="wikitable lighttable sticky-header"
+! Drop
+! Amount
+! Requirements
+|-
+| {{Sprite|Gem|Gems|24|Gems}}
+| <code>Number of Worlds Unlocked</code> x 10
+| {{NA|rowspan=5}}
+|-
+| {{Sprite|Item Chest|Chests#Item Chests|24}}
+| <code>Number of Worlds Unlocked</code> x 2
+|-
+| {{Sprite|Relic Chest|Chests#Relic Chest|24}}
+| <code>Number of Worlds Unlocked</code> x 1
+|-
+| {{Sprite|Ore Income Multiplier||24|2x Ore Income}} buff
+| <code>5 minutes</code> x <code>Number of Worlds Unlocked</code>
+|-
+| {{Sprite|Game Speed Multiplier||24|2x Game Speed}} buff 
+| <code>5 minutes</code> x <code>Number of Worlds Unlocked</code>
+|-
+| {{Sprite|Vein Income Multiplier|Veins|24|3x Vein Spawn Rate}} buff
+| <code>5 minutes</code> x <code>Number of Worlds Unlocked</code>
+| {{Sprite|Stone Vein|Construct#Vein_Unlocks|16|Stone Veins}} unlocked
+|-
+| {{Sprite|Cherry Bomb|Bombs#tabber-Cherry_Bomb|24|Cherry Charges}}
+| <code>Number of Worlds Unlocked</code> x <code>Obelisk Level</code> x 5<ref>If the calculated amount is less than 50, you will receive 50 instead</ref>
+| {{Sprite|Cherry Bomb|Bombs#tabber-Cherry_Bomb|16|Cherry Bomb}} unlocked
+|-
+| {{Sprite|Fuel|Fuel|24|Fuel}}
+| <code>Number of Worlds Unlocked</code> x 1
+| {{Sprite|Generator|Drones#Generator|16|Generator}} unlocked
+|-
+| {{Sprite|Star Spawn Rate Multiplier|Stargazing|24|2x Star Spawn Rate}} buff
+| <code>4 minutes</code> x <code>Number of Worlds Unlocked</code>
+| {{Sprite|Telescope|Stargazing|16|Telescope}} Level 1
+|-
+| {{Sprite|Star Auto-Catch Buff|Stargazing|24|100% Auto-Catch Chance}} buff<ref NAme=":0">When your Star Auto-Catch Chance stat is below 100% you will receive the Auto-Catch buff, otherwise you will receive the 3x Exp Gain buff</ref>
+| <code>8 minutes</code> x <code>Number of Worlds Unlocked</code>
+| {{Sprite|Telescope|Stargazing|16|Telescope}} Level 1, {{Sprite|Auto-Catch Chance|Stargazing|16|Auto-Catch}} < 100%
+|-
+| {{Sprite|Experience Gain Multiplier||24|3x Exp Gain}} buff<ref NAme=":0" />
+| <code>5 minutes</code> x <code>Number of Worlds Unlocked</code>
+| {{Sprite|Auto-Catch Chance|Stargazing|16|Auto-Catch Chance}} without buffs >= 100%
+|-
+| {{Sprite|Arch_Icon|Archaeology|24|Archaeology Banked Seconds}}
+| <code>{{Sprite|Archaeology Highest Stage||16|Archaeology Highest Stage}}</code> x 3 + 50
+| {{Sprite|Arch_Icon|Archaeology|16|Archaeology}} unlocked
+|-
+| {{Sprite|Fishing_Tick_Reduction|Fishing|24|Fishing Ticks}}
+| <code>Number of Worlds Unlocked</code> x 150 ÷ <code>{{Sprite|Fishing Tick Reduction|Fishing|16|Fishing Tick Duration}}</code><ref>60 - Your Current Tick Reduction including Elixir Drone, this is equivalent to 2 minutes 30 seconds of fishing ticks * number of worlds unlocked</ref>
+| {{Sprite|Misc Fishing Rod|Fishing|16|Fishing}} unlocked
+|}
+<references />
+
+=== Jackpots ===
+Collecting a supply drop will trigger a chance at receiving a jackpot as well. If triggered, a notification will appear stating [[File:Founder Jackpot.png|16px]] "You hit the [odds] jackpot for [reward]!"
+
+In the jackpots table, Highest World Multiplier (Abbreviated to HWM) is shown below.
+
+{| class="wikitable mw-code" 
+|+ Highest World Multiplier
+! World !! 1 !! 2 !! 3 !! 4
+|-
+! Multiplier 
+| 1 || 2 || 4 || 25
+|}
+
+{| class="wikitable align-center-1 lighttable sortable"
+|+ [[File: Founder Jackpot.png|16px]] Supply Drop Jackpots
+|-
+! Chance
+! [[File: Founder Jackpot.png|16px]] Jackpot Drop
+!Requirements
+|-
+| 1 in 100
+|<math>\text{if }\begin{cases}\text{OB} \ge 70 & 3\\\text{OB} < 70 & 1 \end{cases}\times \text{HWM} \times (\text{Obelisk Level} \times 10 + 50)</math>{{Sprite|Gem|Gems|16|Gems}}
+| {{NA|rowspan=2}}
+|-
+| 1 in 500
+| <math>\text{HWM} \times (\text{Obelisk Level} \times 3 + 10)</math> {{Sprite|Relic Chest|Chests#Relic_Chests|16|Relic Chests}}
+|-
+|1 in 500
+|{{Sprite|Frogspawn|Items#Tier 3 items|20}} x5
+| {{Sprite|Lootfrog|Lootfrogs|20|Lootfrogs}} unlocked
+|-
+|1 in 750
+|{{Sprite|Sushi|Items#Tier 2 items|20}} x 100
+|{{Sprite|Misc Fishing Rod|Fishing|20|Fishing}} unlocked
+|-
+| 1 in 1111
+| {{Sprite|Frogurt|Items#Frogurt|20}} x 10
+| Obelisk Level 70
+|-
+| 1 in 1234
+| {{Sprite|Gift|Store#Gifts|20|Gifts}} x 10
+| {{NA}}
+|-
+| 1 in 1414
+| {{Sprite|Cosmic Candy|Items#CosmicCandy|20}}  x 10
+| Obelisk Level 60
+|-
+| 1 in 1500
+| {{Sprite|Buttery Lobster|Items#Buttery_Lobster|20}} x 5 || {{NA|rowspan=3}}
+|-
+| 1 in 2000
+| {{Sprite|Mythic Chest|Chests#Relic_Chests|20}} x 1
+|-
+| 1 in 69696
+| {{Sprite|Divine Chest|Chests#Relic_Chests|20}} x 1, {{Sprite|Relic Chest|Chests#Relic_Chests|20|Relic Chests}} x 100, {{Sprite|Gem|Gems|20|Gems}} x 1000
+|}
+<references />
+
+== Trivia ==
+
+* [[Update:V1.4.1]] added Founder Tiers (Tier 1 to Tier 10).
+** Tier 11 was added in [[Update:V1.7.10]]
+**Tier 12 was added in [[Update:V2.0.0 World 4]]
+*** Also removed 9 VPs. These VPs are still counted as owned, but can't be bought. They only gave one-use item and no definitive bonus (Except Chests)
+* [[Update:V1.6.13]] added [[Founder#Others/Unlisted|Event Pack cap +1]]
+* 10 Founders were registered on 09.09.2022
+* 100 Founders were registered somewhere between the 29th December 2022 and the 1st January. Happy New Year!
+
+=== Founder Milestones ===
+{| class="wikitable align-center-1"
+|+ Founder Milestone
+|-
+! Number of Founders
+! Reward
+! Version
+|-
+| 100
+| Nothing
+| {{#dateformat:Jan 8 2023}}
+|-
+| 1000
+| {{Code|SOMANYFOUNDERS}} code + Hardcoded cap of Founder Bomb: 1000 -> 10000
+| [[Update:V1.2.33]]
+|-
+| 10000
+| 🔥[[Infernal]] cards (teased as Tier 4 Cards)
+| [[Update:V1.8.78]]
+|-
+| 20000
+| Founder Improvements + {{Code|FOUNDERCODE}} code (Founders only)
+| [[Update:V2.1.1]]
+|-
+| 30000
+| Tier 13 + better Gem/Relic jackpot + butterly lobster jackpot
+| [[Update:V2.2.1]]
+|-
+| 40000
+| MOREFOUNDERSMOREPROBLEMS code (expired) + Unknown in early dev feature
+| [[Update:V2.2.5]]
+|-
+| 50000
+| {{Code|FIVEPERCENTTOONEMILLION}} code + Post-[[Update:V2.2.20]] 50k celebration stream (date of the stream unknown) + T10 Code (added in[[Update:V2.2.20]])
+| [[Update:V2.2.6]] - {{#dateformat:Aug 26 2026}}
+|-
+| 60000
+| 1.1x Bomb Recharge Rate added to base founder rewards
+| [[Update:V2.2.21]] - {{#dateformat:Sep 12 2026}}
+|}
+
+{| class="wikitable align-center-1"
+|+ Founder one day record breaks
+|-
+! Founders in one day
+! Date
+! Aftermath of...
+|-
+|502
+|{{#dateformat:October 1 2026}}
+|Halloween [[Event]] start
+|-
+|417
+|{{#dateformat:September 12 2026}}
+|2.2.20 update [[Update:V2.2.20|Arcanist Batch 2]]
+|-
+| 371
+| {{#dateformat:July 31 2026}}
+| No reason
+|-
+| 276
+| {{#dateformat:July 17 2026}}
+| England vs France 2026 World Cup
+|-
+| 273
+| {{#dateformat:July 16 2026}}
+| England vs Argentina World Cup
+|-
+| 270
+| {{#dateformat:July 19 2026}}
+| Spain vs Argentina World Cup
+|-
+| 223
+| {{#dateformat:Mar 1 2026}}
+| [[Update:V2.1.1]]
+|}
+
+==Navigation==
+{{Menu}}

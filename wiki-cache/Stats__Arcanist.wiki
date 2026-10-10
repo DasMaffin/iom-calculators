@@ -1,0 +1,105 @@
+<tabber>
+Exchange Wizard Loot Multi=
+{{Stat|Exchange Wizard Loot Multi|Multiplies the amount of loot you gain from Wizards at the exchange. The base value is 3.
+| '''Store''' |
+The [[File:arcanist VP.png|16px]] [[Store#ArcanistBundle|Arcanist Bundle]]
+| '''Workshop''' |
+The [[File:workshop Button.png|16px]] [[Workshop#Upgrades_W4_WizardLootMulti|World 4: Wizard Loot Multi]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Cookie Clicker.png}}[[Cards#CardEffects_Misc_CookieClicker|Cookie Clicker Misc Card]]
+| '''Stargazing''' |
+The [[File:BlackHole.png|16px]] [[Stargazing#BH26|26th Black Hole Bonus]]
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_WizardLootMulti|Wizard Loot Multi]] Exchange Upgrade ''(<math>+</math>3% per level)''
+}}
+|-|
+Party Wizard Exchange Chance=
+{{Stat|Party Wizard Exchange Chance|The chance for a wizard to be a Party wizard in the Exchange. Party wizards use the Exchange Wizard Loot Multi.
+| '''Black Hole''' |
+The [[File:BlackHole.png|16px]] [[Stargazing#BH21|21st Black Hole Bonus]] ''(<math>+</math>3%)''|spriteOverride=Party Wizard Chance
+}}
+|-|
+Disco Wizard Exchange Chance=
+{{Stat|Disco Wizard Exchange Chance|The chance for a wizard to be a Disco wizard in the Exchange. Base chance at 0.10%
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_DiscoWizardChance|Disco Wizard Chance]] Exchange Upgrade ''(<math>+</math>0.05% per level)''
+|spriteOverride=Disco Wizard Chance
+}}
+|-|
+Flashbang Wizard Exchange Chance=
+{{Stat|Flashbang Wizard Exchange Chance|The chance for a wizard to be a Flashbang wizard in the Exchange. Base chance at 0.10%
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_FlashbangWizardChance|Flashbang Wizard Chance]] Exchange Upgrade ''(<math>+</math>0.05% per level)''
+|spriteOverride=Flashbang Wizard Chance
+}}
+|-|
+Blind Wizard Exchange Chance=
+{{Stat|Blind Wizard Exchange Chance|The chance for a wizard to be a Blind wizard in the Exchange.
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_BlindWizardChance|Blind Wizard Chance]] ''(<math>+</math>1%, does not scale with further levels)''|spriteOverride=Blind Wizard Chance
+}}
+|-|
+Spell Duration Multi=
+{{Stat|Spell Duration Multi|Increases the duration of Arcanist Spells. This is the only stat in the game with a single source — nothing else extends spell duration.
+| '''Store''' |
+The [[File:spellslinger VP.png|16px]] [[Store#SpellslingerBundle|Spellslinger Bundle]]
+}}
+|-|
+Spell Level Up Multi=
+{{Stat|Spell Level Up Chance|Increases the chance for spells to level up when casting
+| '''Store''' |
+The [[File:spellslinger VP.png|16px]] [[Store#SpellslingerBundle|Spellslinger Bundle]]
+| '''Workshop''' |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W4_SpellLevelUpChance|World 4: Spell Level Up Chance]]
+}}
+|-|
+Spell Power Multi=
+{{Stat|Spell Power Multi|Increases the active and passive effects of Arcanist Spells.
+| '''Store''' |
+The [[File:spellslinger VP.png|16px]] [[Store#SpellslingerBundle|Spellslinger Bundle]]
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_ArcanistSpellPower|Arcanist Spell Power]] ''(<math>+</math>4%)''
+| '''Pets''' |
+The [[File:Rhino_Quest.png|16px]] [[Pets#tabber-Rhino_2|Rhino Pet Quest]]
+| '''Stargazing''' |
+The [[File:Hydra Full.png|16px]] [[Stargazing#Hydra|Hydra]] Star
+<br>The [[File:BlackHole.png|16px]] [[Stargazing#BH30|30th Black Hole Bonus]]
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_ArcanistSpellPower|Arcanist Spell Power]] Exchange Upgrade
+|spriteOverride=Spell Unlock
+}}
+|-|
+Mana Regen Per Minute=
+{{Stat|Mana Regen Per Minute|How much mana is regenerated every minute.
+| '''Skill-Tree''' |
+The [[File:Straight Outta Yanille.png|16px]] [[Skill-Tree#StraightOuttaYanille|Straight Outta Yanille]] Skill ''(<math>\times</math>1.10, does not scale with further levels)''
+| '''Stargazing''' |
+A [[File:Super Star.png|16px]] [[Stargazing#ArcanistManaRegen_SSUpgrade|Super Star Upgrade]] ''(<math>+</math>1.25% per level)''
+<br>The [[File:BlackHole.png|16px]] [[Stargazing#BH27|27th Black Hole Bonus]]
+| '''Arcanist''' |
+The [[File:manaflow.png|16px]] [[Spells#Manaflow|Manaflow]] spell's Active effect
+<br>The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_ManaCapManaRegen|Mana Regen]] Exchange Upgrade ''(<math>+</math>1% per level)''
+|spriteOverride=Mana Regen
+}}
+|-|
+Rune Craft Multi=
+{{Stat|Rune Craft Multi|Multiplies the amount of runes created when crafting runes. Each rune type scales from its own card.
+| '''Store''' |
+The [[File:arcanist VP.png|16px]] [[Store#ArcanistBundle|Arcanist Bundle]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Drift Rune.png}}[[Cards#CardEffects_Runes_Drift|Drift Rune Card]]
+<br>{{Card|cardType=Standard|cardImage=Echo Rune.png}}[[Cards#CardEffects_Runes_Echo|Echo Rune Card]]
+<br>The respective [[Cards#tabber-Runes|Rune Card]]
+| '''Arcanist''' |
+The [[File:Prismism.png|16px]] [[Spells#Prismism|Manaflow]] spell's Passive effect
+<br>The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_RuneCraftMulti|Rune Craft Multi]] Exchange Upgrade ''(<math>+</math>1% per level)''
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W4_RuneCraftMulti|World 4: Rune Craft Multi]]
+}}
+|-|
+Exchange Wizard Banked Cap=
+{{Stat|Exchange Wizard Banked Cap|The maximum number of saved rerolls you have in the exchange. Starts at 12 and rises to a maximum of 15.
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_ExchangeWizards|Exchange Wizards]] Exchange Upgrade ''(up to <math>+</math>3 in total)''
+}}
+</tabber>

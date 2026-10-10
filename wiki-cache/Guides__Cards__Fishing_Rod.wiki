@@ -1,0 +1,13 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Obelisk 37 & Dock 2
+# Tap the 4 dots
+# Tap Fishing
+# Tab Docks
+# Repeatedly tap Assign Fisher to diffrent Docks
+## You have a small chance to get the card each time you tap, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Fishing Rod Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

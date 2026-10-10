@@ -1,0 +1,65 @@
+{{Otheruses|Artifact Costs|Artifacts effects|[[Prestige#Artifacts]]}}
+
+==Tier 1==
+===Pickaxe Damage===
+{{CostTable|Pickaxe Damage|{{GetArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|25|Prestige Point|Prestige Points}}
+===Pickaxe Cost===
+{{CostTable|Pickaxe Cost|{{GetArtifactCap|5}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|100|Prestige Point|Prestige Points}}
+===Experience Gain Multiplier===
+{{CostTable|Experience Gain|{{GetArtifactCap|20}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|50|Prestige Point|Prestige Points}}
+===Free Craft Chance===
+{{CostTable|Free Craft Chance|{{GetArtifactCap|10}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|50|Prestige Point|Prestige Points}}
+===Triple Craft Chance===
+{{CostTable|Triple Craft Chance|{{GetArtifactCap|10}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|70|Prestige Point|Prestige Points}}
+===Pickaxe Radius===
+{{CostTable|Pickaxe Radius|{{GetArtifactCap|5}}|1.55|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|65|Prestige Point|Prestige Points}}
+===Ore Sell Price Multiplier===
+{{CostTable|Ore Sell Price|{{GetArtifactCap|10}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|55|Prestige Point|Prestige Points}}
+===Item Duration Multiplier===
+{{CostTable|Item Duration|{{GetArtifactCap|10}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|50|Prestige Point|Prestige Points}}
+===Bomb Damage===
+{{CostTable|Bomb Damage|{{GetArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|35|Prestige Point|Prestige Points}}
+===Obelisk Cooldown===
+{{CostTable|Obelisk Cooldown|{{GetArtifactCap|10}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|50|Prestige Point|Prestige Points}}
+
+==Tier 2==
+===Pickaxe Damage===
+{{CostTable|Pickaxe Damage|{{GetArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|300|Prestige Point|Prestige Points}}
+===Bomb Damage===
+{{CostTable|Bomb Damage|{{GetArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|300|Prestige Point|Prestige Points}}
+===Prestige Point Gain Multiplier===
+{{CostTable|Prestige Point Gain|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|650|Prestige Point|Prestige Points}}
+===Pickaxe Super Crit Chance===
+{{CostTable|Super Crit Chance|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|650|Prestige Point|Prestige Points}}
+===Floor Clear Requirement===
+{{CostTable|Floor Clear Requirement.|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|650|Prestige Point|Prestige Points}}
+
+==Tier 3==
+===Pickaxe Damage===
+{{CostTable|Pickaxe Damage|{{GetArtifactCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|10000|Prestige Point|Prestige Points}}
+===Bomb Damage===
+{{CostTable|Bomb Damage|{{GetArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|12500|Prestige Point|Prestige Points}}
+===Bomb Super Crit Chance===
+{{CostTable|Bomb Super Crit Chance|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|200000|Prestige Point|Prestige Points}}
+===Obelisk Armor Reduction===
+{{CostTable|Obelisk Armor Reduction|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|200000|Prestige Point|Prestige Points}}
+===Bomb Capacity===
+{{CostTable|Bomb Capacity|{{GetArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|200000|Prestige Point|Prestige Points}}
+
+==Tier 4==
+===Pickaxe Damage Per Statue Owned===
+{{CostTable|Pickaxe Damage +10% Per Statue Owned|{{GetTier4ArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|1500000|Prestige Point|Prestige Points}}
+===Bomb Damage Per Statue Owned===
+{{CostTable|Bomb Damage 15% Per Statue Owned|{{GetTier4ArtifactCap|25}}|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|1500000|Prestige Point|Prestige Points}}
+===Pickaxe Omega Crit Chance===
+{{CostTable|Pickaxe Omega Crit Chance|{{GetTier4ArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|7500000|Prestige Point|Prestige Points}}
+===Bar Output Multiplier===
+{{CostTable|Bar Output Multiplier|{{GetTier4ArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|7500000|Prestige Point|Prestige Points}}
+===Vein Spawn Rate Multiplier===
+{{CostTable|Vein Spawn Rate|{{GetTier4ArtifactCap|10}}|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|7500000|Prestige Point|Prestige Points}}
+
+==Navigation==
+{{CostsNav}}
+{{Menu}}
+
+[[Category:Upgrade Costs]]

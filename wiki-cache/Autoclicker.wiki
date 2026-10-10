@@ -1,0 +1,6 @@
+{{Notice|type=error|text=Dear {{#ifanon:unregistered user|{{USERNAME}}}},<br>
+We have noticed that you searched for an Autoclicker on our wiki.<br>
+Note that macros in any form are forbidden and using them is a bannable offense, without an option to appeal.<br>
+We are onto you and appropriate authorities have already been informed and dispatched to your location.
+
+Have a very safe day.|image=<div style="font-size:3em;padding-right:20px">{{#fas:triangle-exclamation}}</div>|align=left}}

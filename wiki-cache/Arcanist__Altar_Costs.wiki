@@ -1,0 +1,27 @@
+{{MultiTab
+|text1=Ash Altar
+|item1=
+{{CostTable|Capacity|25|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|White Orb|White Orbs|rounding=round}}
+{{CostTable|Travel Time -5%|10|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4|White Orb|White Orbs|rounding=round}}
+{{CostTable|Craft Multi +0.2x|10|3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|White Orb|White Orbs|rounding=round}}
+|text2=Brine Altar
+|item2=
+{{CostTable|Capacity|25|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4|White Orb|White Orbs|rounding=round}}
+{{CostTable|Travel Time -5%|10|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|White Orb|White Orbs|rounding=round}}
+{{CostTable|Craft Multi +0.2x|10|3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|Green Orb|Green Orbs|rounding=round}}
+|text3=Chasm Altar
+|item3=
+{{CostTable|Capacity|25|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|White Orb|White Orbs|rounding=round}}
+{{CostTable|Travel Time -5%|10|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5|Green Orb|Green Orbs|rounding=round}}
+{{CostTable|Craft Multi +0.2x|10|3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|Purple Orb|Purple Orbs|rounding=round}}
+|text4=Drift Altar
+|item4=
+{{CostTable|Capacity|25|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|7|Green Orb|Green Orbs|rounding=round}}
+{{CostTable|Travel|10|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|8|Purple Orb|Purple Orbs|rounding=round}}
+{{CostTable|Craft Multi +0.2x|10|4|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|11|Orange Orb|Orange Orbs|rounding=round}}
+|text5=Echo Altar
+|item5=
+{{CostTable|Capacity|25|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|9|Purple Orb|Purple Orbs|rounding=round}}
+{{CostTable|Travel|10|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10|Orange Orb|Orange Orbs|rounding=round}}
+{{CostTable|Craft Multi +0.2x|10|4|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|12|Red Orb|Red Orbs|rounding=round}}
+}}

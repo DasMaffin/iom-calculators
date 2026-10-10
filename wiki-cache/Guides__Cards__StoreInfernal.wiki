@@ -1,0 +1,12 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock Misc Infernal Cards
+# Tap the 4 dots
+# Tab Store
+# Repeatedly Scroll down and Up
+## You have a small chance to get the card each time you hit the start or end, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Store Misc Card Infernal.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

@@ -1,0 +1,120 @@
+<tabber>
+Lootfrogs Caught=
+{{Stat|Lootfrogs Caught|The number of Lootfrogs that you have caught by tapping them when they spawn. Lootfrogs are spawned by the [[Drones#Drone Fuel|Fueled Frogger Drone]] after purchasing a [[Stargazing#Black Hole|Black Hole]] buff.
+| '''Lootfrogs''' |Catch Lootfrogs
+}}
+|-|
+Golden Lootfrogs Caught=
+{{Stat|Golden Lootfrogs Caught|The number of Golden Lootfrogs that you have caught by tapping them when they spawn. Golden Lootfrogs have a chance to spawn instead of normal Lootfrogs after you get Golden Lootfrog Chance.
+| '''Lootfrogs''' |Catch Golden Lootfrogs
+}}
+|-|
+Lootfrog Capacity=
+{{Stat|Lootfrog Capacity|The maximum number of Lootfrogs that may be on the screen at one time. (Base: 5)
+| '''Store'''<math>+</math> |
+The [[File:frogfrenzy vp.png|16px]] [[Store#FrogFrenzyBundle|Frog Frenzy Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Frog Frenzy.png|16px]] [[Skill-Tree#FrogFrenzy|Frog Frenzy]] Skill
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Lootfrogs Caught.png}}[[Cards#CardEffects_Misc_Lootfrog|Lootfrog Misc Card]]
+}}
+|-|
+Lootfrog Loot Multiplier=
+{{Stat|Lootfrog Loot Multiplier|The multiplier to loot from Lootfrogs.
+| '''Store''' |
+The [[File:frogfrenzy vp.png|16px]] [[Store#FrogFrenzyBundle|Frog Frenzy Bundle]]
+| '''Workshop''' |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W4_LootfrogLootMulti|World 4: Lootfrog Loot Multi]]
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Butterfly Icon.png}}[[Cards#CardEffects_Pets_Butterfly|Infernal Butterfly Pet Card]]
+<br>{{Card|cardType=Infernal|cardImage=Drone Frogger Icon.png}}[[Cards#CardEffects_Drones_FroggerDrone|Infernal Frogger Drone Card]]
+| '''Upgrades''' |
+The {{Sprite|Mateyum Bar|Upgrades#Upgrades_W4_LootfrogLootMulti||Mateyum Bar Upgrade}}
+}}
+|-|
+Lootfrog Gem Loot Multiplier=
+{{Stat|Gems from Lootfrogs|The multiplier on gem rewards from Lootfrogs
+| '''Drones''' |
+A [[File:Generator.png|16px]] [[Drones#CoalUpgrades_GemsFromLootfrogs|Coal Upgrade]]
+}}
+|-|
+Golden Lootfrog Chance=
+{{Stat|Golden Lootfrog Chance|The chance for a Lootfrog to appear as a Golden Lootfrog.
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_GoldenFrogChance|Golden Frog Chance]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Golden Lootfrogs Caught.png}}[[Cards#CardEffects_Misc_GoldenLootfrog|Golden Lootfrog Misc Card]]
+| '''Construct'''<math>+</math> |
+[[File:25 Statue Antagonism Normal.png|16px]] [[Construct#Loop|World 4: Statue of Antagonism]]
+| '''Stargazing'''<math>+</math> |
+The [[File:BlackHole.png|16px]] [[Stargazing#Black Hole|6th Black Hole bonus]]
+| '''Fishing'''<math>+</math> |
+The [[File:Solaris Legendary Fish.png|16px]] [[Fishing#tabber-Melting_Gibbous|Melting Gibbous]] [[File:Tribute Rank 2.png|16px]] Second Tribute
+| '''Floors'''<math>+</math> |
+The [[File:Golden Lootfrogs Caught.png|16px]] [[Floors#WQ3|3rd World Quest Reward]]
+<br>The [[File:Butterfly Icon.png|16px]] [[Floors#WQ26|26th World Quest Reward]]
+| '''Stickers'''<math>+</math> |
+The [[File:Golden Frog Sticker.png|16px]] [[Stickers#GoldenFrogStickerEffect|Gold Frog Chance Sticker]]
+}}
+|-|
+Golden Lootfrog Multiplier=
+{{Stat|Golden Lootfrog Multiplier|The multiplier on Lootfrog rewards when a Lootfrog spawns as a Golden Lootfrog. (Base: 2x)
+| '''Lootfrogs''' |
+Golden Lootfrogs Caught (Requires the [[File:Pond Yield.png|16px]] [[Skill-Tree#PondYield|Pond Yield]] Skill)
+| '''Construct''' |
+[[File:25 Statue Antagonism Normal.png|16px]] [[Construct#Loop|World 4: Statue of Antagonism]]
+}}
+|-|
+Lootfrog Triple Spawn Chance=
+{{Stat|Lootfrog Triple Spawn Chance|The chance for 3 Lootfrogs to spawn in place of 1.
+| '''Store'''<math>+</math> |
+The [[File:frogfrenzy vp.png|16px]] [[Store#FrogFrenzyBundle|Frog Frenzy Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Frog Frenzy.png|16px]] [[Skill-Tree#FrogFrenzy|Frog Frenzy]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Butterfly_Default.png|16px]] [[Pets#tabber-Butterfly_2|Butterfly Pet]]
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W4_LootfrogTripleSpawnChance|World 4: Lootfrog Triple Spawn Chance]]
+|spriteOverride=Frog Frenzy
+}}
+|-|
+Lootfrog 10x Spawn Chance=
+{{Stat|Lootfrog 10x Spawn Chance|The chance for 10 Lootfrogs to spawn in place of 1.
+| '''Drones'''<math>+</math> |
+A [[Drones#CoalUpgrades_Lootfrog10xSpawnChance|Coal Upgrade]]
+| '''Floors'''<math>+</math> |
+The [[Floors#WQ11|11th World Quest Reward]]}}
+|-|
+Big Lootfrog Chance=
+{{Stat|Big Lootfrog Chance|The chance for a Lootfrog to spawn as a big Lootfrog.
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_BigLootfrogChance|Big Lootfrog Chance]]
+| '''Pets'''<math>+</math> |
+The [[File:Butterfly_Quest.png|16px]] [[Pets#tabber-Butterfly_2|Butterfly Pet Quest]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Sisyphus_Idol.png|16px]] [[Archaeology#Sisyphus|Sisyphus]] Idol
+| '''Upgrades'''<math>+</math> |
+The [[File:Crystal-Rose Bar.png|16px]] [[Archaeology#Upgrades_W4_BigFrogChance|Crystal-Rose Bar upgrade]]
+}}
+|-|
+Big Lootfrog Multi=
+{{Stat|Big Lootfrog Multi|The multiplier on Big Lootfrog rewards. (Base: 5x)
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Big Lootfrog.png}}[[Cards#CardEffects_Misc_BigLootfrog|Big Lootfrog Misc Card]]
+| '''Archaeology''' |
+The [[File:Sisyphus_Idol.png|16px]] [[Archaeology#Sisyphus|Sisyphus]] Idol
+| '''Floors''' |
+The [[Floors#WQ18|18th World Quest Reward]]}}
+|-|
+Massive Lootfrog Chance=
+{{Stat|Massive Lootfrog Chance|The chance for a Big Lootfrog to spawn as a Massive Lootfrog instead.
+| '''Skill-Tree''' |
+The [[File:Fronks.png|16px]] [[Skill-Tree#Fronks|Fronks]] Skill 
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Massive Lootfrog.png}}[[Cards#CardEffects_Misc_MassiveLootfrog|Massive Lootfrog Misc Card]]
+}}
+|-|
+Massive Lootfrog Multi=
+{{Stat|Massive Lootfrog Multi|The multiplier on Massive Lootfrog rewards. (Base: 3x)
+}}
+</tabber>

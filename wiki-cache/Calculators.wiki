@@ -1,0 +1,39 @@
+{{Otheruses|Wiki Calculators|External Calculator Sheets|[[External_Resources]]}}
+
+Page containing all of the calculators currently available on the wiki. For other useful guides, spreadsheets and simulators, see [[Guides]] and [[External Resources]].
+
+===See a Calculator that worth adding? Create one yourself here!===
+Need help with creating calculator? Consult the documentation available on [[mw:Template:Calculator|Template:Calculator]]
+<div style="margin: 15px 0; float:left">
+<inputbox>
+type=create
+prefix=Calculators:
+buttonlabel=Create new Calculator
+placeholder=Calculator name
+width=30
+break = no
+</inputbox>
+</div>
+
+{{Clear}}
+== Available Calculators ==
+{{#dpl:
+ |namespace = Calculator
+ |ordermethod = title
+ |order = ascending
+ |replaceintitle = /Calculator:/,
+ |resultsheader = Currently available calculators:
+}}
+
+== Planned Calculators ==
+* Lootbug 10x bomb recharge calculator
+* Challenge calculators - how long will challenge X take?
+* Emporium blue cow value calculator
+
+''Have some idea of what should be added? Reach us on [https://discord.gg/d7Qs3664wv wiki discord]!''
+
+==Navigation==
+{{CalculatorsNav}}
+{{Menu}}
+
+[[Category:Calculators]]

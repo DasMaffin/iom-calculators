@@ -1,0 +1,361 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomFloorImage}}</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{FakeMenuButton|image={{RandomFloorImage|size=98x98px}}|size=98x98px|buttonSize=114px}}
+<div style="margin:0 5px">'''Floors''' are individual levels which contain specific [[Ores]]. Ores located on floors are always split by 80%/20% on initially occuring floor and 50%/50% on following floor. Currently there are 132 different floors, which are split thematically into different [[Floors#Zones|Zones]] and are a part of 4 different [[Floors#Floors_Select|Worlds]]. When unlocked by obtaning specific [[Floors#Floor_Upgrades|upgrades]] certain special variants of floors may spawn, such as Golden, Rainbow, Galactic, or Prismatic, which greatly increases the amount of ores obtained from them.
+</div></div>
+
+==Floor Upgrades==
+Floor rewards can be improved by increasing related stats:
+* [[Stats#tabber-Golden_Floor_Chance|Golden Floor Chance]] - Provides a chance to cause a floor to become a [[Floors#Golden_Floor|Golden]], providing multiplier to ores obtained on it
+* [[Stats#tabber-Golden_Floor_Multiplier|Golden Floor Multiplier]] - Increases the multiplier for ores obtained on golden floors (base x5)
+* [[Stats#tabber-Rainbow_Floor_Chance|Rainbow Floor Chance]] - Provides a chance to cause a floor to become a [[Floors#Rainbow_Floor|Rainbow]]
+* [[Stats#tabber-Rainbow_Floor_Multiplier|Rainbow Floor Multiplier]] - Increases the multiplier for ores obtained on rainbow floors (base x50) 
+* [[Stats#tabber-Galactic_Rainbow_Floor_Chance|Galactic Rainbow Floor Chance]] - Provides a chance to cause a floor to become a [[Floors#Galactic_Rainbow_Floor|Galactic]]
+* [[Stats#tabber-Galactic_Rainbow_Floor_Multiplier|Galactic Rainbow Floor Multiplier]] - Increases the multiplier for ores obtained on galactic floors (base x10) 
+* [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Chance|Prismatic Galactic Rainbow Floor Chance]] - Provides a chance to cause a floor to become a [[Floors#Prismatic_Floor|Prismatic]]
+* [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Multi|Prismatic Galactic Rainbow Floor Multi]] - Increases the multiplier for ores obtained on galactic floors (base x1) 
+* [[Stats#tabber-All_Floor_Multis|All Floor Multis]] - Further increases multipliers for all floor types
+
+==Floor Types==
+Floors have a chance to spawn as special floors, which multiply ores gained from mining ore nodes on that floor. Floors can have multiple special effects simultaneously, for example, a floor may spawn as a Golden Rainbow Floor. The ore gain multipliers from those modifiers stack multiplicatively, so with a Golden Floor Multiplier of 5x and a Rainbow Floor Multiplier of 50x, a Golden Rainbow Floor would multiply ore gain by 250x. These multipliers do not affect other resources like Veins.
+===Golden Floor===
+Golden Floors have a base ore gain multiplier of 5. They spawn entirely independently of other special floors. See sources of [[Stats#tabber-Golden_Floor_Chance|Golden Floor Chance]] and [[Stats#tabber-Golden_Floor_Multiplier|Golden Floor Multi]].
+
+===Rainbow Floor===
+Rainbow Floors have a base ore gain multiplier of 50. They spawn independently of Golden Floors, and are precursors to some other special floors. See sources of [[Stats#tabber-Rainbow_Floor_Chance|Rainbow Floor Chance]] and [[Stats#tabber-Rainbow_Floor_Multiplier|Rainbow Floor Multi]].
+
+===Galactic Rainbow Floor===
+Galactic Rainbow Floors have a base multiplier of 10. They have a chance to spawn when a Rainbow Floor spawns. The chance displayed in your Stats is the chance that a Galactic Rainbow Floor spawns ''if'' a Rainbow Floor has spawned. See sources of [[Stats#tabber-Galactic_Rainbow_Floor_Chance|Galactic Rainbow Floor Chance]] and [[Stats#tabber-Galactic_Rainbow_Floor_Multiplier|Galactic Rainbow Floor Multi]].
+
+===Prismatic Galactic Rainbow Floor===
+Prismatic Galactic Rainbow Floors have a base multiplier of 1 (no bonus). They have a chance to spawn when a Galactic Rainbow Floor spawns. The chance displayed in your Stats is the chance that a Prismatic Galactic Rainbow Floor spawns ''if'' a Galactic Rainbow Floor has spawned. See sources of [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Chance|Prismatic Floor Chance]] and [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Multiplier|Prismatic Floor Multi]].
+
+==Floor Clear Requirement==
+You must clear a floor a certain number of times to be able to advance to the next floor. 
+The Floor Clear Requirement in World 1 is Floor <math>\times</math> 5. If you're on floor 1 you need 5 clears to advance to floor 2. If you're on floor 42 you need 210 clears to advance to floor 43.<br>
+The Floor Clear Requirement in World 2 is Floor <math>\times</math> 15. If you're on floor 43 you need 645 clears to advance to floor 44. If you're on floor 72 you need 1080 clears to advance to floor 73.<br>
+The Floor Clear Requirement in World 3 is Floor <math>\times</math> 35. If you're on floor 73 you need 2555 clears to advance to floor 74. If you're on floor 101 you need 3535 clears to advance to floor 102.<br>
+The Floor Clear Requirement in World 4 is Floor <math>\times</math> 105. If you're on floor 103 you need 10815 clears to advance to floor 104. If you're on floor 119, you need 12496 clears to advance to floor 120.
+
+These are reduced by your {{Sprite|Floor Clear Requirement|Stats#tabber-Floor_Clear_Requirement|20}}.
+
+==Drone Floor Clear Mechanics==
+Drone floor-clearing speed is capped at 48 floors per minute.
+The game checks once every 1 second whether a floor has been cleared, setting a theoretical maximum of 60 floors per minute. However, bombs and drones introduce a delay.
+Bombs require 0.25 seconds to detonate and clear the screen. This delay reduces the effective rate, bringing the practical cap down to 48 floors per minute.
+
+===Bear Drone Interaction===
+
+There are frequent claims that the Bear Drone increases floor-clearing speed. This however is a highly contested topic and the answers are currently unclear. 
+
+==Floors Select==
+<!--floors widget with links to ores/bars (same as in-game)-->
+Images in following table are clickable and lead to corresponding pages.
+<tabber>
+World 1=
+{| class="wikitable text-align-center has-backgrounds" style="font-size:0.95em"
+|+World 1
+|-
+! Zone !! Floor !! Resources
+|-
+| rowspan=5 class="stone-section" | <div id="Stone" />[[File:ZoneBanner Stone.png|x25px|link=]]<br>[[File:Stone Vein Full.png|48x48px|link=Veins#Stone]]
+|-
+{{FloorLine|1-2|Tin|Copper}}
+|-
+{{FloorLine|3-4|Copper|Mithril}}
+|-
+{{FloorLine|5-6|Mithril|Adamant}}
+|-
+{{FloorLine|7-8|Adamant|Runite}}
+|-
+| rowspan=6 class="magma-section" | <div id="Magma" />[[File:ZoneBanner Magma.png|x25px|link=]]<br>[[File:Magma Vein Full.png|48x48px|link=Veins#Magma]]
+|-
+{{FloorLine|9-10|Runite|Citrine}}
+|-
+{{FloorLine|11-12|Citrine|Amethyst}}
+|-
+{{FloorLine|13-14|Amethyst|Topaz}}
+|-
+{{FloorLine|15-16|Topaz|Obsidian}}
+|-
+{{FloorLine|17-18|Obsidian|Demonite}}
+|-
+| rowspan=4 class="virtual-section" | <div id="Virtual" />[[File:ZoneBanner Virtual.png|x25px|link=]]<br>[[File:Virtual Vein Full.png|48x48px|link=Veins#Virtual]]
+|-
+{{FloorLine|19-20|VR-Tin|VR-Amethyst}}
+|-
+{{FloorLine|21-22|VR-Amethyst|VR-Demonite}}
+|-
+{{FloorLine|23-24|VR-Demonite|VR-ERROR}}
+|-
+| rowspan=4 class="space-section" | <div id="Space" />[[File:ZoneBanner Space.png|x25px|link=]]<br>[[File:Space Vein Full.png|48x48px|link=Veins#Space]]
+|-
+{{FloorLine|25-26|Lunarium|Earth-C-137}}
+|-
+{{FloorLine|27-28|Earth-C-137|Meteorite}}
+|-
+{{FloorLine|29-30|Meteorite|Singularity}}
+|-
+| rowspan=4 class="cloud-section" | <div id="Cloud" />[[File:ZoneBanner Cloud.png|x25px|link=]]<br>[[File:Cloud Vein Full.png|48x48px|link=Veins#Cloud]]
+|-
+{{FloorLine|31-32|Halium|Blasphemite}}
+|-
+{{FloorLine|33-34|Blasphemite|Angelite}}
+|-
+{{FloorLine|35-36|Angelite|Elysium}}
+|-
+| rowspan=4 class="atomic-section" | <div id="Atomic" />[[File:ZoneBanner Atomic.png|x25px|link=]]<br>[[File:Atomic Vein Full.png|48x48px|link=Veins#Atomic]]
+|-
+{{FloorLine|37-38|Enemite|Beepboopium}}
+|-
+{{FloorLine|39-40|Beepboopium|Radion-73}}
+|-
+{{FloorLine|41-42|Radion-73|Cranium}}
+|}
+|-|
+World 2=
+{| class="wikitable text-align-center has-backgrounds" style="font-size:0.95em"
+|+World 2
+|-
+! Zone !! Floor !! Resources
+|-
+| rowspan=4 class="deepSea-section" | <div id="DeepSea" />[[File:ZoneBanner DeepSea.png|x25px|link=]]<br>[[File:Deepsea Vein Full.png|48x48px|link=Veins#DeepSea]]
+|-
+{{FloorLine|43-44|Lapis|Quartz}}
+|-
+{{FloorLine|45-46|Quartz|Glacialite}}
+|-
+{{FloorLine|47-48|Glacialite|Twinklestone}}
+|-
+| rowspan=4 class="beach-section" | <div id="Beach" />[[File:ZoneBanner Beach.png|x25px|link=]]<br>[[File:Beach Vein Full.png|48x48px|link=Veins#Beach]]
+|-
+{{FloorLine|49-50|Sandcasium|Clamite}}
+|-
+{{FloorLine|51-52|Clamite|Thunderstone}}
+|-
+{{FloorLine|53-54|Thunderstone|Crabrock}}
+|-
+| rowspan=4 class="valley-section" | <div id="Valley" />[[File:ZoneBanner Valley.png|x25px|link=]]<br>[[File:Valley Vein Full.png|48x48px|link=Veins#Valley]]
+|-
+{{FloorLine|55-56|Hailstone|Frostbite}}
+|-
+{{FloorLine|57-58|Frostbite|Icebloom}}
+|-
+{{FloorLine|59-60|Icebloom|Pinguinus}}
+|-
+| rowspan=4 class="jungle-section" | <div id="Jungle" />[[File:ZoneBanner Jungle.png|x25px|link=]]<br>[[File:Jungle Vein Full.png|48x48px|link=Veins#Jungle]]
+|-
+{{FloorLine|61-62|Macawrock|Cocore}}
+|-
+{{FloorLine|63-64|Cocore|Rafflenium}}
+|-
+{{FloorLine|65-66|Rafflenium|Carnivorian}}
+|-
+| rowspan=4 class="volcano-section" | <div id="Volcano" />[[File:ZoneBanner Volcano.png|x25px|link=]]<br>[[File:Volcano Vein Full.png|48x48px|link=Veins#Volcano]]
+|-
+{{FloorLine|67-68|Infernite|Blood-Onyx}}
+|-
+{{FloorLine|69-70|Blood-Onyx|Cyrogem}}
+|-
+{{FloorLine|71-72|Cyrogem|Pinnaclite}}
+|}
+|-|
+World 3=
+World 3 Modifier: Game Speed is reduced by 30%
+{| class="wikitable text-align-center has-backgrounds" style="font-size:0.95em"
+|+World 3
+|-
+! Zone !! Floor !! Resources
+|-
+| rowspan=4 class="jurassic-section" | <div id="Jurassic" />[[File:ZoneBanner Jurassic.png|x25px|link=]]<br>[[File:Jurassic Vein Full.png|48x48px|link=Veins#Jurassic]]
+|-
+{{FloorLine|73-74|Omeletite|Resinite}}
+|-
+{{FloorLine|75-76|Resinite|Impactium}}
+|-
+{{FloorLine|77-78|Impactium|Tricerastone}}
+|-
+| rowspan=4 class="roman-section" | <div id="Roman" />[[File:ZoneBanner Roman.png|x25px|link=]]<br>[[File:Roman Vein Full.png|48x48px|link=Veins#Roman]]
+|-
+{{FloorLine|79-80|Duelysium|Arcusite}}
+|-
+{{FloorLine|81-82|Arcusite|Phalanxite}}
+|-
+{{FloorLine|83-84|Phalanxite|Guardium}}
+|-
+| rowspan=4 class="industrial-section" | <div id="Industrial" />[[File:ZoneBanner Industrial.png|x25px|link=]]<br>[[File:Industrial Vein Full.png|48x48px|link=Veins#Industrial]]
+|-
+{{FloorLine|85-86|Cognite|Telophite}}
+|-
+{{FloorLine|87-88|Telophite|Steamstone}}
+|-
+{{FloorLine|89-90|Steamstone|Equinine}}
+|-
+| rowspan=4 class="warfront-section" | <div id="Warfront" />[[File:ZoneBanner Warfront.png|x25px|link=]]<br>[[File:Warfront Vein Full.png|48x48px|link=Veins#Warfront]]
+|-
+{{FloorLine|91-92|Dynamite|Genevium}}
+|-
+{{FloorLine|93-94|Genevium|Manhattite}}
+|-
+{{FloorLine|95-96|Manhattite|Rationium}}
+|-
+| rowspan=4 class="neon-section" | <div id="Neon" />[[File:ZoneBanner Neon.png|x25px|link=]]<br>[[File:Neon Vein Full.png|48x48px|link=Veins#Neon]]
+|-
+{{FloorLine|97-98|Vaporium|Palmite}}
+|-
+{{FloorLine|99-100|Palmite|Ransomite}}
+|-
+{{FloorLine|101-102|Ransomite|MVPD-1988}}
+|}
+|-|
+World 4=
+World 4 Modifier: Game Speed is reduced by 80%
+{| class="wikitable text-align-center has-backgrounds" style="font-size:0.95em"
+|+World 4
+|-
+! Zone !! Floor !! Resources
+|-
+| rowspan=4 class="wonderland-section" | <div id="Wonderland" />[[File:ZoneBanner Wonderland.png|x25px|link=]]<br>[[File:Wonderland Vein Full.png|48x48px|link=Veins#Wonderland]]
+|-
+{{FloorLine|103-104|Chronite|Hattium}}
+|-
+{{FloorLine|105-106|Hattium|Pishalvite}}
+|-
+{{FloorLine|107-108|Pishalvite|Teatimium}}
+|-
+| rowspan=4 class="pirate-section" | <div id="Pirate" />[[File:ZoneBanner Pirate.png|x25px|link=]]<br>[[File:Pirate Vein Full.png|48x48px|link=Veins#Pirate]]
+|-
+{{FloorLine|109-110|Rumium|Anchorium}}
+|-
+{{FloorLine|111-112|Anchorium|Mateyum}}
+|-
+{{FloorLine|113-114|Mateyum|Hookite}}
+|-
+| rowspan=4 class="arabian-section" | <div id="Arabian" />[[File:ZoneBanner Arabian.png|x25px|link=]]<br>[[File:Arabian Vein Full.png|48x48px|link=Veins#Arabian]]
+|-
+{{FloorLine|115-116|Carpetite|Djinnium}}
+|-
+{{FloorLine|117-118|Djinnium|Sinbadium}}
+|-
+{{FloorLine|119-120|Sinbadium|Turbanite}}
+|-
+| rowspan=4 class="enchanted-section" | <div id="Enchanted" />[[File:ZoneBanner Enchanted.png|x25px|link=]]<br>[[File:Enchanted Vein Full.png|48x48px|link=Veins#Enchanted]]
+|-
+{{FloorLine|121-122|Carriagum|Crystal-Rose}}
+|-
+{{FloorLine|123-124|Crystal-Rose|Frogstone}}
+|-
+{{FloorLine|125-126|Frogstone|Slipperite}}
+|-
+| rowspan=4 class="candyland-section" | <div id="Candyland" />[[File:ZoneBanner Candyland.png|x25px|link=]]<br>[[File:Candyland Vein Full.png|48x48px|link=Veins#Candyland]]
+|-
+{{FloorLine|127-128|Jellystone|Lollipopite}}
+|-
+{{FloorLine|129-130|Lollipopite|Mintium}}
+|-
+{{FloorLine|131-132|Mintium|Neopolium}}
+|}
+</tabber>
+
+==Zones==
+<!--zones info-->
+===World 1===
+* Stone
+* Magma
+* Virtual
+* Space
+* Cloud
+* Atomic
+
+===World 2===
+* Deep-Sea
+* Beach
+* Valley
+* Jungle
+* Volcano
+
+===World 3===
+* Jurassic
+* Roman
+* Industrial
+* Warfront
+* Neon
+
+===World 4===
+* Wonderland
+* Pirate
+* Arabian
+* Enchanted
+* Candyland
+
+==Worlds==
+<!--worlds info and mechanics-->
+
+===World Quests===
+{| class="wikitable lighttable align-center-1 align-center-2"
+|-
+! # !! colspan=2 | Quest || Reward
+|-
+|<div id="WQ1"></div> 1 || [[File:Pishalvite_Ore.png|32x32px]] || Prestige On Floor 104 or above || World 4 Speed Modifier -10%
+|-
+|<div id="WQ2"></div> 2 || [[File:Wonderland_Vein.png|32x32px]] || Research Wonderland Veins || Rainbow Floor Chance +3%
+|-
+|<div id="WQ3"></div> 3 || [[File:Golden_Lootfrogs_Caught.png|32x32px]] || Catch a Golden Frog || Golden Frog Chance +1%
+|-
+|<div id="WQ4"></div> 4 || [[File:Pishalvite Bar.png|32x32px]] || Own 25oc Pishalvite Bars || World 4 Speed Modifier -10%
+|-
+|<div id="WQ5"></div> 5 || [[File:Telescope.png|32x32px]] || Unlock Eridanus Star || Novagiant Multi +10%
+|-
+|<div id="WQ6"></div> 6 || [[File:Statue_Icon.png|32x32px]] || Build a World 4 Statue || Rainbow Void Portal Chance +1%
+|-
+|<div id="WQ7"></div> 7 || [[File:Eridanus Gild Icon.png|32x32px]] || Earn and Gild Eridanus Star Card || World 4 Speed Modifier -10%
+|-
+|<div id="WQ8"></div> 8 || [[File:Statue_Icon.png|32x32px]] || Build 2nd World 4 Statue || Prismatic Floor Chance +1%
+|-
+|<div id="WQ9"></div> 9 || [[File:Gilded_Card_Icon.png|32x32px]] || Gild All Wonderland Ore Cards || Elixir Drone Grade Cap +5 
+|-
+|<div id="WQ10"></div> 10 || [[File:Pirate Vein.png|32x32px]] || Research Pirate Veins || Vein Income Multi 1.10x
+|-
+|<div id="WQ11"></div> 11 || [[File:Butterfly Icon.png|32x32px]] || Reach Butterfly Pet Level 5 || Lootfrog 10x Spawn Chance +0.25%
+|-
+|<div id="WQ12"></div> 12 || [[File:Mateyum Ore.png|32x32px]] || Prestige On Floor 112 or above || World 4 Speed Modifier -10%
+|-
+|<div id="WQ13"></div> 13 || [[File:Drone Prism Icon.png|32x32px]] || Reach Prism Drone Grade 10 || Galactic Rainbow Floor Chance +2%
+|-
+|<div id="WQ14"></div> 14 || [[File:Yummy_Pizza_Golden.png|32x32px]] || Build 4th World 4 Statue || Unlock: Golden Yummy Pizza
+|-
+|<div id="WQ15"></div> 15 || [[File:Butterfly Icon.png|32x32px]] || Reach Butterfly Pet Level 10 || World 4 Speed Modifier -10%
+|-
+|<div id="WQ16"></div> 16 || [[File:Arabian Vein.png|32x32px]] || Research Arabian Veins || Rainbow Vein Chance +6%
+|-
+|<div id="WQ17"></div> 17 || [[File:Turbanite_Ore.png|32x32px]] || Prestige On Floor 120 || All Floor Multi +5%
+|-
+|<div id="WQ18"></div> 18 || [[File:Big Lootfrog Multi.png|32x32px]] || Catch a Big Frog || Big Lootfrog Multi +10%
+|-
+|<div id="WQ19"></div> 19 || [[File:Statue_Icon.png|32x32px]] || Build 6th W4 statue || Butterfly Pet Level Cap +5
+|-
+|<div id="WQ20"></div> 20 || [[File:Eridanus Poly Icon.png|32x32px]] || Polychrome Eridanus Star Card || Unlock Item: Cosmic Candy (G)
+|-
+|<div id="WQ21"></div> 21 || [[File:Statue_Icon.png|32x32px]] || Build 9th W4 statue || Lootbug Banked Cap +15
+|-
+|<div id="WQ22"></div> 22 || [[File:Infernal_Card_Icon.png|32x32px]] || Earn Turbanite Infernal Ore Card || Infernal Card Multi +2%
+|-
+|<div id="WQ23"></div> 23 || [[File:Telescope.png|32x32px]] || Unlock Lynx Star || World 4 Speed Modifier -10% 
+|-
+|<div id="WQ24"></div> 24 || [[File:Telescope.png|32x32px]] || Unlock Vulpecula Star || Radiant Star Multi +10%
+|-
+|<div id="WQ25"></div> 25 || [[File:Rhino Icon.png|32x32px]] || Reach Rhino Pet Level 3 || Essence Shiny Chance +1%
+|-
+|<div id="WQ26"></div> 26 || [[File:Butterfly Icon.png|32x32px]] || Reach Butterfly Pet Quest Level 8 || Golden Frog Chance +1%
+|-
+|<div id="WQ27"></div> 27 || [[File:Gilded Statue Icon.png|32x32px]] || Build 2nd World 4 Gilded Statue || Galactic Floor Multi +10%
+|-
+|<div id="WQ28"></div> 28 || [[File:Gilded Statue Icon.png|32x32px]] || Build 5th World 4 Gilded Statue || Bar Output Multi +10%
+|-
+|<div id="WQ29"></div> 29 || [[File:Rhino Icon.png|32x32px]] || Reach Rhino Pet Level 10 || Essence Super Shiny Chance +2%
+|-
+|<div id="WQ30"></div> 30 || [[File:Bread_Golden.png|32x32px]] || Build 9th World 4 Gilded Statue || Unlock: Golden Bread
+|}
+
+==Navigation==
+{{Menu}}

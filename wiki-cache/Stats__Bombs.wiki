@@ -1,0 +1,266 @@
+<tabber>
+Bomb Damage=
+{{Stat|Bomb Damage|Bomb damage before factoring in {{Sprite|Additional Bomb Multiplier||16}}
+| '''Prestige''' |
+A [[Prestige#Artifacts_T1_BombDamage|Tier 1 Artifact]]<math>\times</math>
+<br>A [[Prestige#Artifacts_T2_BombDamage|Tier 2 Artifact]]<math>\times</math>
+<br>A [[Prestige#Artifacts_T3_BombDamage|Tier 3 Artifact]]<math>\times</math>
+<br>A [[Prestige#Artifacts_T4_BombDamagePerStatueOwned|Tier 4 Artifact]]
+| '''Drones''' |
+The [[Drones#Drone_Suit_Upgrades| Bomb Bear Drone Suit Upgrade]]
+<br>The [[Drones#minotaurDrone| Minotaur Drone]]
+<br>The [[Drones#Drone_Suit_Upgrades| Minotaur Drone Suit Upgrade]]
+| '''Items''' |
+[[File:Chaos Totem.png|16x16px]] [[Items#ChaosTotem|Chaos Totem]]<math>\times</math>
+<br>[[File:Hamburger.png|16x16px]] [[Items#Hamburger|Hamburger]]
+| '''Relics''' |
+A [[Chests#RareRelic_BombDamage|Rare Relic]]
+| '''Store''' |
+A [[Store#Perks|Perk]]<math>\times</math> or [[Store#Perk_Bundles|Perk Bundle]]<math>\times</math>
+<br>The [[Store#Founders Bundle|Founders Bundle]]<math>\times</math>
+<br>A [[Store#Gem Upgrades|Gem Upgrade]]
+| '''Workshop''' |
+[[Workshop#Upgrades_W2_BombDamage|World 2: Bomb Damage]]<math>\times</math>
+<br>[[Workshop#Upgrades_W3_BombDamage|World 3: Bomb Damage]]<math>\times</math>
+<br>[[Workshop#Upgrades_W4_PickaxeAndBombDamage|World 4: Pickaxe & Bomb Damage]]
+| '''Skill-Tree''' |
+The [[File:Bigger Blasts.png|16x16px]] [[Skill-Tree#BiggerBlasts|Bigger Blasts]] Skill<math>+</math>
+<br>The [[File:Arsenal Advancement.png|16px]] [[Skill-Tree#ArsenalAdvancement|Arsenal Advancement]] Skill<math>+</math>
+<br>The [[File:All-Round Bomber.png|16px]] [[Skill-Tree#AllRoundBomber|All-Round Bomber]] Skill<math>+</math>
+<br>The [[File:Flamboyant Bombs.png|16px]] [[Skill-Tree#FlamboyantBombs|Flamboyant Bombs]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Nuclear_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_RadioactiveSlug|Radioactive Slug Card]]<math>\times</math>
+<br>{{Card|cardType=Standard|cardImage=Misc Bone.png}}[[Cards#CardEffects_Misc_Bone|Bone Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Drone Bear Icon.png}}[[Cards#CardEffects_Drones_BearDrone|Bear Drone Card]]
+| '''Construct''' |
+[[File:2 Statue Awareness Normal.png|16px]] [[Construct#Tor|World 1: Statue of Awareness]]<math>\times</math>
+<br>[[File:11 Statue Propulsion Normal.png|16px]] [[Construct#Guard|World 3: Statue of Propulsion]]<math>\times</math>
+<br>[[File:19 Statue Comfort Normal.png|16px]] [[Construct#Lute|World 4: Statue of Comfort]] <math>\times</math>
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_PickaxeAndBombDamage|Tier 1 Notice: Pickaxe & Bomb Damage]]
+| '''Upgrades''' |
+(The level 20 {{Sprite|Gold Coin|Upgrades#Upgrades_W1_BombDamage_1||Gold Upgrade}}<math>+</math>
+<br>The {{Sprite|VR-Tin Bar|Upgrades#Upgrades_W1_BombDamage_2||VR-Tin Bar Upgrade}}<math>+</math>
+<br>The {{Sprite|Lapis Bar|Upgrades#Upgrades_W2_BombDamage_1||Lapis Bar Upgrade}})<math>\times</math>
+<br>The {{Sprite|Cocore Bar|Upgrades#Upgrades_W2_BombDamage_2||Cocore Bar Upgrade}}<math>\times</math>
+<br>The {{Sprite|Resinite Bar|Upgrades#Upgrades_W3_BombDamage||Resinite Bar Upgrade}}<math>\times</math>
+<br>The {{Sprite|Cognite Bar|Upgrades#Upgrades_W3_PickaxeAndBombDamage||Cognite Pickaxe & Bomb Damage Upgrade}}<math>\times</math>
+<br>The {{Sprite|Hattium Bar|Upgrades#Upgrades_W4_BombDamage||Hattium Damage Upgrade}}<math>\times</math>
+<br>The {{Sprite|Carpetite Bar|Upgrades#Upgrades_W4_PickaxeAndBombDamage_1||Carpetite Pickaxe & Bomb Damage Upgrade}}<math>\times</math>
+<br>The {{Sprite|Carriagum Bar|Upgrades#Upgrades_W4_PickaxeAndBombDamage_2||Carriagum Pickaxe & Bomb Damage Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_BombDamagePerContractComplete|World 2: Bomb Damage Per Contract Complete]]<math>\times</math>
+<br>[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_PickaxeAndBombDamage|World 3: Pickaxe & Bomb Damage]]
+| '''Misc''' |
+Floors 45-48 with [[File:Glacialite Ore.png|16px]] [[Ores#Glacialite|Glacialite Ore]]
+<br>Floors 49-50 with [[File:Sandcasium Ore.png|16px]] [[Ores#Sandcasium|Sandcasium Ore]]
+<br>Floors 61-62 with [[File:Macawrock Ore.png|16px]] [[Ores#Macawrock|Macawrock Ore]]
+}}
+|-|
+Bomb Crit Chance=
+{{Stat|Bomb Crit Chance|The chance to multiply your bomb damage by Bomb Crit Damage.
+| '''Relics'''<math>+</math> |
+[[File:Relic Chest.png|16px]] [[Chests#CommonRelic_BombCritChance|Common Bomb Crit Chance Relic]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:All-Round Bomber.png|16px]] [[Skill-Tree#AllRoundBomber|All-Round Bomber]] Skill
+}}
+|-|
+Bomb Crit Damage=
+{{Stat|Bomb Crit Damage|The amount to multiply your bomb damage by when Bomb Crit Chance triggers.
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#CommonRelic_BombCritDamage|Common Bomb Crit Damage Relic]]
+| '''Skill-Tree''' |
+The [[File:Demolition Expert.png|16px]] [[Skill-Tree#DemolitionExpert|Demolition Expert]] Skill
+| '''Challenges''' |
+[[File:challenge Coin.png|16px]] [[Challenges#RegularReward_BombCritDamage|Bomb Crit Damage]]
+| '''Fishing''' |
+The [[File:Nuclear_Legendary_Fish.png|16px]] [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]] [[File:Tribute Rank 1.png|16px]] First Tribute
+| '''Upgrades''' |
+The {{Sprite|VR-Amethyst Bar|Upgrades#Upgrades_W1_BombCritDamage_1||VR-Amethyst Bar Upgrade}}<math>+</math>
+<br>The {{Sprite|Meteorite Bar|Upgrades#Upgrades_W1_BombCritDamage_2||Meteorite Bar Upgrade}}
+}}
+|-|
+Bomb Recharge Rate=
+{{Stat|Bomb Recharge Rate|Reduces the time it takes your bombs to recharge.
+| '''Drones''' |
+An [[Drones#Elixir Drone Buffs|Elixir Drone Buff]] (Also from [[Lootbugs#Gem_Buffs|Lootbugs]])
+<br>[[File:Drone Minotaur.png|28px|]] [[Drones#Drone_Suit_Buffs|Fueled Minotaur Drone]]
+| '''Items''' |
+[[File:Chaos Totem.png|16px]] [[Items#ChaosTotem|Chaos Totem]]
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#EpicRelic_BombRechargeSpeed|Epic Bomb Recharge Speed Relic]]
+| '''Store''' |
+The [[File:Three Quarter VP.png|16px]] [[Store#ThreeQuarterBundle|Three Quarter Bundle]]<math>\times</math>
+<br>The [[File:progressionbundle vp.png|16px]] [[Store#ProgressionBoosterBundle|Progression Booster Bundle]]<math>\times</math>
+<br>The [[File:bomberextraordinaire vp.png|20px]] [[Store#BomberExtraordinaireBundle|Bomber Extraordinaire Bundle]]
+<br>The [[File:FounderIcon.png|16px]] [[Store#Founders_Bundle|Founders Bundle]]
+| '''Workshop''' |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W4_BombRechargeRate|World 4 Bomb Recharge Rate]]
+| '''Skill-Tree''' |
+The [[File:All-Round Bomber.png|16px]] [[Skill-Tree#AllRoundBomber|All-Round Bomber]] Skill<math>\times</math>
+<br>The [[File:Leprechaun's Legacy.png|16px]] [[Skill-Tree#LeprechaunsLegacy|Leprechaun's Legacy]] Skill
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Crab Icon.png}}[[Cards#CardEffects_Pets_Crab|Infernal Crab Pet Card]]
+| '''Pets''' |
+[[File:Crab_Default.png|16px]]  [[Pets#tabber-Crab|Crab Pet]]
+| '''Stargazing''' |
+[[File:Virgo Full.png|20px]] [[Stargazing#Virgo|Virgo]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_BombRechargeRate|Tier 1 Notice: Bomb Recharge Rate]]
+| '''Arcanist''' |
+[[File:Bomb's Blessing.png|16px]] [[Arcanist#BombsBlessing|Bomb's Blessing]] spell's Passive effect
+<br>[[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_BombRechargeSpeed|Exchange Upgrade: Bomb Recharge Speed]]
+| '''Upgrades''' |
+{{Sprite|Obsidian Bar|Upgrades#World_1_Upgrades||Obsidian Bomb Recharge Rate Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_BombRechargeRate|World 1: Bomb Recharge Rate]]
+| '''Lootbugs''' |
+A [[Lootbugs#Gem_Buffs|Gem Buff]] (Also from [[Drones#Elixir Drone Buffs|Elixir Drone]])
+| '''Misc''' |
+Floors 67-68 with [[File:Infernite Ore.png|16px]] [[Ores#Infernite|Infernite Ore]]
+<br>Floors 79-82 with [[File:Arcusite Ore.png|16px]] [[Ores#Arcusite|Arcusite Ore]]
+<br>Floors 103-104 with [[File:Chronite Ore.png|16px]] [[Ores#Chronite|Chronite Ore]]
+<br>Floors 125-126 with [[File:Slipperite Ore.png|16px]] [[Ores#Slipperite|Slipperite Ore]]
+|spriteOverride=Bomb Recharge Speed
+}}
+|-|
+Free Bomb Chance=
+{{Stat|Free Bomb Chance|The chance for your bombs to not use charges.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Arsenal Advancement.png|16px]] [[Skill-Tree#ArsenalAdvancement|Arsenal Advancement]] Skill<math>+</math>
+<br>The [[File:Demolition Expert.png|16px]] [[Skill-Tree#DemolitionExpert|Demolition Expert]]
+| '''Upgrades'''<math>+</math> |
+The level 36 {{Sprite|Gold Coin|Upgrades#Upgrades_W1_FreeBombChance||Gold Upgrade}}
+}}
+|-|
+Bomb Capacity=
+{{Stat|Bomb Capacity|Total bomb capacity. Doesn't apply to Founders Bomb.
+| '''Bombs'''<math>+</math> |
+The [[File:Battery Bomb.png|16px]] [[Bombs#tabber-Battery_Bomb|Battery Bomb]]
+| '''Prestige'''<math>+</math> |
+A [[Prestige#Artifacts_T3_BombCapacity|Tier 3 Artifact]]
+| '''Relics'''<math>+</math> |
+[[File:Relic Chest.png|16px]]  [[Chests#EpicRelic_BombCapacity|Epic Bomb Capacity Relic]]
+| '''Store'''<math>+</math> |
+The [[File:FounderIcon.png|16px]] [[Store#Founders Bundle|Founders Bundle]]<math>+</math>
+<br>A [[Store#Gem Upgrades|Gem Upgrade]]
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Arsenal Advancement.png|16px]] [[Skill-Tree#ArsenalAdvancement|Arsenal Advancement]] Skill<math>+</math>
+<br>The [[File:Chronokeeper.png|16px]] [[Skill-Tree#Chronokeeper|Chronokeeper]] Skill<math>+</math>
+<br>The [[File:Flamboyant Bombs.png|16px]] [[Skill-Tree#FlamboyantBombs|Flamboyant Bombs]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_BombCapacity|Bomb Capacity]]
+}}
+|-|
+Additional Bomb Multiplier=
+{{Stat|Additional Bomb Multiplier|The effect from the All Bomb Multipliers Mythic Relic. Other sources of bomb damage multipliers include base bomb multiplier. Gem Bomb receives an additional multiplier based on gems held. Infinity Bomb receives an additional multiplier based on Infinity bombs fired.
+| '''Relics'''<math>+</math>|
+[[File:Relic Chest.png|16px]] [[Chests#MythicRelic_AllBombMultipliers|Mythic All Bomb Multipliers Relic]]
+| '''Workshop'''<math>+</math> |
+The [[Workshop#Upgrades_W1_BasicAndChainDamage|Basic & Chain Damage Upgrade]] (Only for Basic and Chain Bombs)
+<br>The [[Workshop#Upgrades_W1_InfinityScaling|Infinity Bomb Scaling Upgrade]] (Only for Infinity Bomb)
+<br>The [[Workshop#Upgrades_W2_MegabombDamageMark|Megabomb Damage Mark Upgrade]]
+}}
+|-|
+Bomb Super Crit Chance=
+{{Stat|Bomb Super Crit Chance|The chance to multiply your bomb damage by Bomb Super Crit Damage. Only rolls when Bomb Crit Chance activates.
+| '''Prestige'''<math>+</math> |
+A [[Prestige#Artifacts_T3_BombSuperCritChance|Tier 3 Artifact]]
+| '''Items'''<math>+</math> |
+[[File:Rock Cake.png|16px]] [[Items#RockCake|Rock Cake]] (Requires the [[Archaeology#Cassandra|Cassandra]] Idol)
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Demolition Expert.png|16px]] [[Skill-Tree#DemolitionExpert|Demolition Expert]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_BombSuperCritAndUltraCritChance|Bomb Super Crit Chance]]<math>+</math>
+<br>[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_PickaxeandBombSuperCritChance|Pickaxe and Bomb Super Crit Chance]]
+}}
+|-|
+Bomb Super Crit Damage=
+{{Stat|Bomb Super Crit Damage|
+The amount to multiply your bomb damage by when Bomb Super Crit Chance triggers.
+| '''Fishing''' |
+The [[File:Nuclear_Legendary_Fish.png|16px]] [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]] [[File:Tribute Rank 1.png|16px]] First Tribute
+}}
+|-|
+Bomb Ultra Crit Chance=
+{{Stat|Bomb Ultra Crit Chance|The chance to multiply your bomb damage by Bomb Ultra Crit Damage. Only rolls when Bomb Super Crit Chance activates.
+| '''Items'''<math>+</math> |
+[[File:Rock Cake.png|16px]] [[Items#RockCake|Rock Cake]] (Requires the [[Archaeology#Cassandra|Cassandra]] Idol)
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Flamboyant Bombs.png|16px]] [[Skill-Tree#FlamboyantBombs|Flamboyant Bombs]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_BombSuperCritAndUltraCritChance|Bomb Ultra Crit Chance]]<math>+</math>
+<br>[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_BombUltraCritChance|Bomb Ultra Crit Chance]]
+| '''Construct'''<math>+</math> |
+[[File:2 Statue Awareness Platinized.png|16px]] [[Construct#TorPlatinized|World 1: Statue of Awareness]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Beepboopium Bar|Upgrades#Upgrades_W1_BombUltraCritChance||Beepboopium Bar Upgrade}}
+<br>The {{Sprite|Hailstone Bar|Upgrades#Upgrades_W2_BombUltraCritChance||Hailstone Bar Upgrade}}
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_PickaxeAndBombUltraCritChance|World 2: Pickaxe and Bomb Ultra Crit Chance]]
+}}
+|-|
+Bomb Ultra Crit Damage=
+{{Stat|Bomb Ultra Crit Damage|The amount to multiply your bomb damage by when Bomb Ultra Crit Chance triggers.
+| '''Fishing''' |
+The [[File:Nuclear_Legendary_Fish.png|16px]] [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]] [[File:Tribute Rank 1.png|16px]] First Tribute
+}}
+|-|
+Bomb Omega Crit Chance=
+{{Stat|Bomb Omega Crit Chance|The chance to multiply your bomb damage by Bomb Omega Crit Damage. Only rolls when Bomb Ultra Crit Chance activates.
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Arcusite Bar|Upgrades#Upgrades_W3_BombOmegaCritChance||Arcusite Bar Upgrade}}
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_PickaxeAndBombOmegaCritChance|World 3: Pickaxe & Bomb Omega Crit Chance]]
+}}
+|-|
+Bomb Omega Crit Damage=
+{{Stat|Bomb Omega Crit Damage|The amount to multiply your bomb damage by when Bomb Omega Crit Chance triggers.
+| '''Fishing''' |
+The [[File:Nuclear_Legendary_Fish.png|16px]] [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]] [[File:Tribute Rank 1.png|16px]] First Tribute
+}}
+|-|
+Cherry Charge 3x Chance=
+{{Stat|Cherry Charge 3x Chance|The chance to get 3 Cherry charges from one Cherry Bomb.
+| '''Workshop'''<math>+</math> |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W1_ChanceFor3xCharges|World 1: Chance for 3x Charges]]
+}}
+|-|
+Bomb Capacity gained From Battery=
+{{Stat|Bomb Capacity Gained From Battery|The number of times Battery Bomb has triggered a cap increase.
+| '''Bombs''' |
+[[File:Battery Bomb.png|16px]] [[Bombs#tabber-Battery_Bomb|Battery Bomb]]
+}}
+|-|
+Bomb Cap Multiplier=
+{{Stat|Bomb Cap Multiplier|Multiplies your bomb capacity.
+| '''Store''' |
+[[File:Bomberextraordinaire vp.png|24px]] [[Store#BomberExtraordinaireBundle|Bomber Extraordinaire Bundle]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Crab Icon.png}}[[Cards#CardEffects_Pets_Crab|Crab Pet Card]]
+| '''Pets''' |
+[[File:Crab_Default.png|16px]] [[Pets#tabber-Crab|Crab Pet]]
+| '''Construct''' |
+[[File:4 Statue Appetite Normal.png|16px]] [[Construct#FrozenAra|World 1: Statue of Appetite]]
+| '''Skins''' |
+[[Skins#SkinReward13|The 13th Miner Skin Reward]]
+<br>[[Skins#Bag_Skins|Every unlocked Bag Set Reward]]
+}}
+|-|
+Workshop Upgrade Cap Increase=
+{{Stat|Workshop Upgrade Cap Increase|Increase the cap of most workshop upgrades.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Do These Upgrades Ever End.png|16px]] [[Skill-Tree#DoTheseUpgradesEverEnd|Do These Upgrades Ever End]] Skill<math>+</math>
+<br>The [[File:Idle Obelisk Mincer.png|16px]] [[Skill-Tree#IdleObeliskMincer|Idle Obelisk Mincer]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Crab_Skin.png|16px]] [[Pets#tabber-Crab_Skin|Crab Pet Skin]]
+| '''Construct'''<math>+</math> |
+[[File:6 Statue Hygiene Normal.png|16px]] [[Construct#World_1_Bonuses|World 1: Statue of Hygiene]]<math>+</math>
+<br>[[File:11 Statue Propulsion Normal.png|16px]] [[Construct#World_3_Bonuses|World: 3: Statue of Propulsion]]<math>+</math>
+<br>[[File:22 Statue Nature Normal.png|16px]] [[Construct#World_4_Bonuses|World 4: Statue of Nature]]
+| '''Stargazing'''<math>+</math> |
+[[File:Leo Full.png|16px]] [[Stargazing#Leo|Leo]]
+| '''Fishing'''<math>+</math> | 
+The [[File:Nuclear_Legendary_Fish.png|16px]] [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]] [[File:Tribute Rank 1.png|16px]] First Tribute
+}}
+</tabber>

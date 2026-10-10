@@ -1,0 +1,201 @@
+<tabber>
+Chance For 2x Chests=
+{{Stat|Chance For 2x Chests|The chance to receive 2 Item and Relic Chests when the respective bar fills up.
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#EpicRelic_MultiChestChance|Epic Multi Chest Chance Relic]]
+}}
+|-|
+Chest Meter Gain Multiplier=
+{{Stat|Chest Meter Gain Multiplier|How quickly the Item and Relic Chest meters fill up. Actually functions by reducing the damage requirement.
+| '''Store'''|
+The [[Store#Gem_Upgrades|Chest Meter Fill Rate]] Gem Upgrade
+| '''Skill-Tree'''|
+The [[File:Have You Tried Getting Luckier.png|16px]] [[Skill-Tree#HaveYouTriedGettingLuckier|Have You Tried Getting Luckier?]] Skill
+| '''Upgrades'''|
+The {{Sprite|Enemite Bar|Upgrades#Upgrades_W1_MeterFillRate||Enemite Bar Upgrade}}
+}}
+|-|
+Items Contained In Chests=
+{{Stat|Items Contained In Chests|How many Items you receive when you open an Item Chest.
+| '''Store'''<math>+</math>|
+The [[Store#Gem_Upgrades|Items Contained In Chests]] Gem Upgrade
+}}
+|-|
+Bonus Gems From Freebie Pack=
+{{Stat|Bonus Gems From Freebie Pack|How many gems you receive from a Freebie Pack in addition to the base 5.
+| '''Store'''<math>+</math> |
+The [[File:Halfway vp.png|16px]] [[Store#HalfWayBundle|Half Way Bundle]]<math>+</math>
+<br>The [[File:Bankersbundle vp.png|16px]] [[Store#BankersBundle|Banker's Bundle]]<math>+</math>
+<br>The [[File:chiefexecutive vp.png|16px]] [[Store#ChiefExecutiveBundle|Chief Executive Bundle]]<math>+</math>
+<br>The [[File:capitalistbundle vp.png|16px]] [[Store#CapitalistBundle|Capitalist Bundle]]<math>+</math>
+<br>The [[File:biggerbanksbundle vp.png|16px]] [[Store#BiggerBankersBundle|Bigger Banker's Bundle]]<math>+</math>
+<br>The [[File:archbundle vp.png|16px]] [[Store#ArchaeologyBundle|Archaeology Bundle]]<math>+</math>
+<br>The [[File:baller vp.png|16px]] [[Store#BallerSkinBundle|Baller Skin Bundle]]<math>+</math>
+<br>The [[File:FounderIcon.png|16px]] [[Store#FounderT8|Tier 8 Founder Perk]]
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Gems & Chests.png|16px]] [[Skill-Tree#GemsAndChests|Gems & Chests]] Skill
+| '''Challenges'''<math>+</math>|
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_GemsfromFreebiePack|Gems From Freebie Pack]]
+| '''Cards'''<math>+</math>|
+{{Card|cardType=Standard|cardImage=Misc Freebie.png}}[[Cards#CardEffects_Misc_Freebie|Freebie Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Solaris_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_MeltingGibbous|Melting Gibbous Legendary Fish Card]]
+| '''Construct'''<math>+</math>|
+[[File:5 Statue Friendship Normal.png|16px]] [[Construct#Caulwik|World 1: Statue of Friendship]]<math>+</math>
+<br>[[File:26 Statue Fallacy Normal.png|16px]] [[Construct#Berty|World 4: Statue of Fallacy]]
+| '''Arcanist'''<math>+</math>|
+The [[File:Draconic Hoard.png|16px]] [[Construct#DraconicHoard|World 4: Statue of Fallacy]] spell's Passive effect
+}}
+|-|
+Chance For Freebie Jackpot=
+{{Stat|Chance For Freebie Jackpot|Rolls 4 extra times for normal Freebie loot and the bonus Relic Chest from the Capitalist Value Pack. Extra rolls can't trigger Instant Refresh, Freebie Jackpot, Stonks or Gift chance from the Soprano Statue.
+| '''Store'''<math>+</math>|
+The [[File:investment vp.png|16px]] [[Store#InvestmentBundle|Investment Package]]
+<br>The [[File:Bankersbundle vp.png|16px]] [[Store#BankersBundle|Banker's Bundle]]
+| '''Construct'''<math>+</math>|
+[[File:7 Statue Artistry Normal.png|16px]] [[Construct#Celio|World 1: Statue of Artistry]]
+| '''Fishing'''<math>+</math>|
+[[File:Tier 2 Notice Token.png|16px]] [[Fishing#Upgrades_T2_FreebieJackpotChance|Tier 2 Notice: Freebie Jackpot Chance]]
+}}
+|-|
+Instant Refresh Chance=
+{{Stat|Instant Refresh Chance|The chance for a Freebie to become claimable again immediately after being claimed.
+| '''Store'''<math>+</math>|
+The [[File:Biggerbanksbundle vp.png|16px]] [[Store#BiggerBankersBundle|Bigger Banker's Bundle]]
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Free That's a Great Price!.png|16px]] [[Skill-Tree#FreeThatsAGreatPrice|Free? That's A Great Price!]] Skill
+| '''Construct'''<math>+</math>|
+[[File:7 Statue Artistry Platinized.png|16px]] [[Construct#CelioPlatinized|World 1: Platinized Statue of Artistry]]
+}}
+|-|
+Banked Freebie Cap=
+{{Stat|Banked Freebie Cap|How many Freebies you can accumulate before claiming them. (Base: 2.)
+| '''Store'''<math>+</math>|
+A [[File:Gem.png|16px]] [[Store#Gem_Upgrades|Gem Upgrade]]<math>+</math>
+<br>The [[File:FounderIcon.png|16px]] [[Store#FounderT8|Tier 6 Founder Perk]]<math>+</math>
+<br>The [[File:superstonks vp.png|16px]] [[Store#InsiderTradingBundle|Insider Trading Bundle]]<math>+</math>
+<br>The [[File:Bankersbundle vp.png|16px]] [[Store#BankersBundle|Banker's Bundle]]<math>+</math>
+<br>The [[File:biggerbanksbundle vp.png|16px]] [[Store#BiggerBankersBundle|Bigger Banker's Bundle]]<math>+</math>
+<br>The [[File:three Quarter VP.png|16px]] [[Store#ThreeQuarterBundle|Three Quarter Bundle]]<math>\times</math>
+<br>The [[File:chiefexecutive vp.png|16px]] [[Store#ChiefExecutiveBundle|Chief Executive Bundle]]<math>\times</math>
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Chronokeeper.png|16px]] [[Skill-Tree#Chronokeeper|Chronokeeper]] Skill
+<br>The [[File:saving For A Rainy Day.png|16px]] [[Skill-Tree#SavingForARainyDay|Saving For A Rainy Day]] Skill
+| '''Challenges'''<math>+</math>|
+[[File:Extreme Challenge Coin.png|16px]] [[Challenges#tabber-Extreme_2|Banked Freebie Cap]]
+| '''Cards'''<math>+</math>|
+{{Card|cardType=Standard|cardImage=Cave_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_GlimmeringGeoduck|Glimmering Geoduck Legendary Fish Card]]
+| '''Pets'''<math>+</math>|
+The [[File:Happybot_Quest.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy Bot Pet Quest]]
+| '''Construct'''<math>+</math>|
+[[File:4 Statue Appetite Normal.png|16px]] [[Construct#FrozenAra|World 1: Statue of Appetite]]
+<br>[[File:17 Statue Eastwood Normal.png|16px]] [[Construct#MLNW|World 3: Statue of Eastwood]]
+| '''Stargazing'''<math>+</math> |
+[[File:Ophiuchus Full.png|16px]] [[Stargazing#Ophiuchus|Ophiuchus]]
+<br>A [[Stargazing#BankedFreebiesAndLootbugs_SSUpgrade|Super Star Upgrade]]
+| '''Arcanist'''<math>+</math>|
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_FreebieBankedCap|Freebie Banked Cap]] Exchange Upgrade
+| '''Skins'''<math>+</math>|
+The [[Skins#SkinReward14|14th Miner Skin Reward]]
+<br>The [[Skins#SkinReward21|21st Miner Skin Reward]] (Multiplies ALL Freebie Cap)
+| '''Stickers'''<math>+</math>|
+The [[File:Freebie Sticker.png|16px]] [[Stickers#FreebieStickerEffect|Freebie Sticker]]
+}}
+|-|
+Freebie Cooldown=
+{{Stat|Freebie Cooldown|The cooldown in between Freebie claims. (Base: 10 minutes.)
+| '''Store'''<math>+</math>|
+The [[File:FounderIcon.png|16px]] [[Store#Founders_Bundle|Founders Bundle]]
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Free That's a Great Price!.png|16px]] [[Skill-Tree#FreeThatsAGreatPrice|Free? That's A Great Price!]] Skill<math>?</math>
+<br>The [[File:Just Wait Faster.png|16px]] [[Skill-Tree#JustWaitFaster|Just Wait Faster]] Skill
+| '''Cards'''|
+{{Card|cardType=Standard|cardImage=Misc Store.png}}[[Cards#CardEffects_Misc_Store|Store Misc Card]]
+| '''Construct'''<math>+</math>|
+[[File:17 Statue Eastwood Normal.png|16px]]  [[Construct#MLNW|World 3: Statue of Eastwood]]
+| '''Upgrades'''<math>+</math>|
+The {{Sprite|MVPD-1988 Bar|Upgrades#Upgrades_W3_FreebieTimer||MVPD-1988 Bar Upgrade}}
+| '''Misc'''|
+Floors 109-112 with [[File:Anchorium Ore.png|16px]] [[Ores#Anchorium|Anchorium Ore]]
+<br>Floors 131-132 with [[File:Neopolium Ore.png|16px]] [[Ores#Neopolium|Neopolium Ore]]
+}}
+|-|
+Stonks Chance=
+{{Stat|Stonks Chance|The chance for a Freebie to roll a Stonks reward when claimed. The chance is rolled once for item chests, relic chests and gems. You can get multiple different rewards from a single freebie.
+| '''Store'''<math>+</math>|
+The [[File:FounderIcon.png|16px]] [[Founder#FounderT13|Tier 13 Founder Perk]]
+| '''Skill-Tree'''<math>+</math>|
+The [[File:Stonks.png|16px]] [[Skill-Tree#Stonks|Stonks]] Skill
+| '''Cards'''<math>+</math>|
+{{Card|cardType=Infernal|cardImage=Happybot Icon.png}}[[Cards#CardEffects_Pets_Happybot|Infernal Happy-Bot Pet Card]]
+| '''Construct'''<math>+</math>|
+[[File:21 Statue Combat Normal.png|16px]] [[Construct#Sans|World 4: Statue of Combat]]
+}}
+|-|
+Stonks Freebie Multiplier=
+{{Stat|Stonks Freebie Multiplier|The multiplier to base Stonks rewards. The All Stonks Multi is factored into the displayed amount. (Base: 1x)
+| '''Store'''|
+The [[File:superstonks vp.png|16px]] [[Store#InsiderTradingBundle|Insider Trading Bundle]]
+| '''Cards'''|
+{{Card|cardType=Standard|cardImage=Misc Stonks.png}}[[Cards#CardEffects_Misc_Stonks|Stonks Misc Card]]
+| '''Stargazing''' |
+[[File:Eridanus Full.png|16px]] [[Stargazing#Eridanus|Eridanus]]
+| '''Skins''' |
+The [[Skins#SkinReward20|20th Miner Skin Reward]]
+}}
+|-|
+Super Stonks Chance=
+{{Stat|Super Stonks Chance|The chance for a [[Skill-Tree#Stonks|Stonks]] roll to become a Super Stonks roll.
+| '''Store'''<math>+</math>|
+The [[File:Chiefexecutive vp.png|16px]] [[Store#ChiefExecutiveBundle|Chief Executive Bundle]]
+| '''Challenges'''<math>+</math>|
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_SuperStonksChance|Super Stonks Chance]]
+| '''Cards'''<math>+</math>|
+{{Card|cardType=Standard|cardImage=Super Stonks.png}}[[Cards#CardEffects_Misc_SuperStonks|Super Stonks Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Galaxy_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_BlackenedBasker|Blackened Basker Legendary Fish Card]]
+| '''Stargazing'''<math>+</math> |
+[[File:Eridanus Full.png|16px]] [[Stargazing#Eridanus|Eridanus]]<math>+</math>
+<br>The [[File:BlackHole.png|16px]] [[Stargazing#BH3|3rd Black Hole Bonus]]
+| '''Upgrades'''<math>+</math>|
+The {{Sprite|Hookite Bar|Upgrades#Upgrades_W4_SuperStonksChance||Hookite Bar Upgrade}}
+}}
+|-|
+Super Stonks Multiplier=
+{{Stat|Super Stonks Multiplier|The multiplier to rewards when Super Stonks procs. The All Stonks Multi is factored into the displayed amount. (Base: 2x)
+| '''Store'''|
+The [[File:Chiefexecutive vp.png|16px]] [[Store#ChiefExecutiveBundle|Chief Executive Bundle]]
+| '''Cards'''|
+{{Card|cardType=Infernal|cardImage=Whale Icon.png}}[[Cards#CardEffects_Pets_Whale|Infernal Whale Pet Card]]
+<br>{{Card|cardType=Standard|cardImage=Sky_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_StormSerpent|Storm Serpent Legendary Fish Card]]
+| '''Archaeology'''|
+The [[File:Charon_Idol.png|16px]] [[Archaeology#Charon|Charon]] Idol
+}}
+|-|
+Ultra Stonks Chance=
+{{Stat|Ultra Stonks Chance|The chance for a Super Stonks roll to become an Ultra Stonks roll.
+| '''Cards'''<math>+</math>|
+{{Card|cardType=Standard|cardImage=Misc Ultra Stonks.png}}[[Cards#CardEffects_Misc_UltraStonks|Ultra Stonks Misc Card]]
+| '''Construct'''<math>+</math>|
+[[File:21 Statue Combat Normal.png|16px]] [[Construct#Sans|World 4: Statue of Combat]]
+| '''Stargazing'''<math>+</math>|
+The [[File:BlackHole.png|16px]] [[Stargazing#BH17|17th Black Hole Bonus]]
+| '''Archaeology'''<math>+</math>|
+The [[File:Charon_Idol.png|16px]] [[Archaeology#Charon|Charon]] Idol
+<br>The [[File:Sisyphus_Idol.png|16px]] [[Archaeology#Sisyphus|Sisyphus]] Idol
+| '''Upgrades'''<math>+</math>|
+The {{Sprite|Mintium Bar|Upgrades#Upgrades_W4_UltraStonksChance||Mintium Bar Upgrade}}
+}}
+|-|
+Ultra Stonks Multiplier=
+{{Stat|Ultra Stonks Multiplier|The multiplier to rewards when Ultra Stonks procs. The All Stonks Multi is factored into the displayed amount. (Base: 25x)
+| '''N/A'''|
+N/A
+}}
+|-|
+All Stonks Multiplier=
+{{Stat|All Stonks Multi|The multiplier to all Stonks procs.
+| '''Challenges'''|
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_AllStonksMultiplier|All Stonks Multiplier]]
+| '''Construct'''|
+[[File:21 Statue Combat Normal.png|16px]] [[Construct#Sans|World 4: Statue of Combat]]
+}}
+</tabber>

@@ -1,0 +1,35 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="HappyBotQuest" /><ref name="PolyPotency" /><ref name="InsaneVein">With the "[[Skill-Tree#Skills|Insane In The Vein Gain]]" Skill</ref> || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Stone Vein}} || Stone Vein || Stone Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Magma Vein}} || Magma Vein || Magma Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Virtual Vein}} || Virtual Vein || Virtual Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Space Vein}} || Space Vein || Space Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Cloud Vein}} || Cloud Vein || Cloud Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Atomic Vein}} || Atomic Vein || Atomic Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Deepsea Vein}} || Deepsea Vein || Deepsea Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Beach Vein}} || Beach Vein || Beach Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Valley Vein}} || Valley Vein || Valley Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Jungle Vein}} || Jungle Vein || Jungle Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Volcano Vein}} || Volcano Vein || Volcano Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Jurassic Vein}} || Jurassic Vein || Jurassic Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Roman Vein}} || Roman Vein || Roman Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Industrial Vein}} || Industrial Vein || Industrial Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Warfront Vein}} || Warfront Vein || Warfront Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|-
+| {{CardShowcase|card=Neon Vein}} || Neon Vein || Neon Vein Gain 1.50x || 2x || 4x-11.59x || +0.15x/+0.01x
+|}

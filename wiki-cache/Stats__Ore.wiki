@@ -1,0 +1,340 @@
+<tabber>
+|-|
+Triple Rock Chance=
+{{Stat|Triple Rock Chance|The chance to spawn a bigger rock that gives 3x ore.
+| '''Items'''<math>+</math> |
+[[File:Eye of Newt.png|16px]] [[Items#EyeOfNewt|Eye of Newt]]
+| '''Relics'''<math>+</math> |
+[[File:Relic Chest.png|16px]] [[Chests#RareRelic_TripleRockChance|Rare Triple Rock Chance Relic]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Mithril Bar|Upgrades#Upgrades_W1_TripleRockChance||Mithril Bar Upgrade}}
+}}
+|-|
+Ore Sell Price Multiplier=
+{{Stat|Ore Sell Price Multiplier|Multiplies ore sell price.
+| '''Prestige''' |A [[Prestige#Artifacts_T1_OreSellPriceMultiplier|Tier 1 Artifact]]
+| '''Relics''' |[[File:Relic Chest.png|16px]] [[Chests#CommonRelic_OreSellPrice|Common Ore Sell Price Relic]]
+| '''Store''' |
+The [[File:Baller vp.png|16px]] [[Store#BallerSkinBundle|Baller Skin Bundle!]] Value Pack<math>\times</math>
+<br>A [[File:Store Button.png|16px]] [[Store#Gem Upgrades|Gem Upgrade]]
+| '''Skill-Tree''' |
+(The [[File:Easy Progressor.png|16px]] [[Skill-Tree#EasyProgressor|Easy Progressor]] Skill<math>+</math>
+<br>The [[File:I Have Wares, If You Have Coin.png|16px]] [[Skill-Tree#IHaveWaresIfYouHaveCoin|I Have Wares If You Have Coin]] Skill)<math>\times</math>
+<br>The [[File:polychrome Power.png|16px]] [[Skill-Tree#PolychromePower|Polychrome Power]] Skill
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_OreSellPrice|Ore Sell Price]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Julk.png}}[[Cards#CardEffects_Misc_Julk|Julk Misc Card]]
+| '''Pets''' |
+The [[File:Penguin_Skin.png|16px]] [[Pets#tabber-Penguin_2|Penguin Pet Skin]]
+| '''Construct''' |
+[[File:9 Statue Childhood Normal.png|16px]] [[Construct#Salutem|World 1: Statue of Childhood]]
+| '''Upgrades''' |
+The {{Sprite|Adamant Bar|Upgrades#Upgrades_W1_OreSellPrice||Adamant Bar Upgrade
+}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_OreSellPrice|World 2: Ore Sell Price]]
+| '''Skins''' |
+A [[Skins#SkinReward5|Skin Reward]]
+}}
+|-|
+Ore Income Multiplier=
+{{Stat|Ore Income Multiplier|Multiplies ore gained.
+| '''Drones''' |
+An [[Drones#ElixirDroneBuffs_2xOre|Elixir Drone Buff]] (or from a [[Lootbugs#Buffs|Lootbug drop]]
+| '''Store''' |
+A [[Store#Perks|Perk]] (Or as part of a [[Store#Perk Bundles|Perk Bundle]])
+<br>The [[File:craftmasterbundle vp.png|16px]] [[Store#CraftmasterBundle|Craftmaster Bundle]]
+<br>A [[File:Gift.png|16px]] [[Store#Gifts|Base Gift Reward]] (when below Obelisk level 60)
+<br>A [[File:Supply Drop.png|16px]] [[Store#Founder Supply Drop|Founder Supply Drop]]
+| '''Misc''' |
+An [[Offline#Offline_Penalties|Offline Penalty]]
+}}
+|-|
+Golden Ore Chance=
+{{Stat|Golden Ore Chance|The chance for ore to be golden.
+| '''Items'''<math>+</math> |[[File:Lasagna.png|16px]] [[Items#Tier_2_items|Lasagna]]
+| '''Store'''<math>+</math> |The [[File:goldenorebundle vp.png|16px]] [[Store#GoldenOreBundle|Golden Ore Bundle]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:I Buried It Here.png|16px]] [[Skill-Tree#IBuriedItHere|I Buried It Here (55.251920, -6.483423)]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#tabber-Divine_2|Golden Ore Chance]]
+| '''Pets'''<math>+</math> |
+The [[File:Nagini_Skin.png|16px]] [[Pets#tabber-Nagini_2|Nagini Pet Skin]]
+| '''Construct'''<math>+</math> |
+[[File:12 Statue Safety Normal.png|16px]] [[Construct#Zuiqiang|World 3: Statue of Safety]]<math>+</math>
+<br>[[File:24 Statue Crochet Normal.png|16px]] [[Construct#Kripp|World 4: Statue of Crochet]]
+| '''Stargazing'''<math>+</math> |
+[[File:Orion Full.png|16px]] [[Stargazing#Orion|Orion]]<math>+</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#GoldenOreChance_SSUpgrade|Super Star Upgrade]]
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_GoldenOreChance|World 3: Golden Ore Chance]]
+}}
+|-|
+Golden Ore Multiplier=
+{{Stat|Golden Ore Multiplier|The multiplier to ore gained when Golden Ore Chance triggers. (Base: 3x)
+| '''Items''' |
+[[File:Lasagna.png|16px]] [[Items#Lasagna|Lasagna]]<math>\times</math>
+<br>[[File:Gold Flake Steak.png|16px]] [[Items#GoldFlakeSteak|Gold Flake Steak]]
+| '''Store''' |
+The [[File:Goldenorebundle vp.png|16px]] [[Store#GoldenOreBundle|Golden Ore Bundle]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Golden Ore.png}}[[Cards#CardEffects_Misc_GoldenOre|Golden Ore Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Penguin Icon.png}}[[Cards#CardEffects_Pets_Penguin|Infernal Penguin Pet Card]]
+| '''Pets''' |
+[[File:Nagini_Default.png|16px]] [[Pets#tabber-Nagini_2|Nagini Pet]]
+| '''Construct''' |
+[[File:12 Statue Safety Normal.png|16px]] [[Construct#Zuiqiang|World 3: Statue of Safety]]
+| '''Stargazing''' |
+The [[Stargazing#Hercules|Hercules]] Star<math>\times</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#GoldenOreMultiplier_SSUpgrade|Super Star Upgrade]]
+| '''Fishing''' |
+[[File:Tier 2 Notice Token.png|16px]] [[Fishing#Upgrades_T2_LasagnaGoldenOreMulti|Tier 2 Notice: Lasagna: Golden Ore Multi]]
+| '''Arcanist''' |
+The [[File:Draconic Hoard.png|16px]] [[Arcanist#DraconicHoard|Draconic Hoard]] spell's Active effect
+| '''Upgrades''' |
+The {{Sprite|Telophite Bar|Upgrades#Upgrades_W3_GoldenOreMulti||Telophite Bar Upgrade}}
+| '''Misc''' |
+Floors 115-116 with [[File:Carpetite Ore.png|16px]]  [[Ores#Carpetite|Carpetite Ore]] 
+}}
+|-|
+Rainbow Ore Chance=
+{{Stat|Rainbow Ore Chance|The chance for ore to be rainbow.
+| '''Arcanist''' |
+The [[File:Rainbow Road.png|16px]] [[Arcanist#RainbowRoad|Rainbow Road]] spell's Passive effect
+}}
+|-|
+Rainbow Ore Multiplier=
+{{Stat|Rainbow Ore Multi|The multiplier to ore gained when Rainbow Ore Chance triggers.
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_RainbowOreMulti|Rainbow Ore Multi]]
+| '''Arcanist''' |
+The [[File:Rainbow Road.png|16px]] [[Arcanist#RainbowRoad|Rainbow Road]] spell's Active effect
+}}
+|-|
+Golden Floor Chance=
+{{Stat|Golden Floor Chance|The chance for a floor to be golden.
+| '''Relics'''<math>+</math> |
+[[File:Relic Chest.png|16px]] [[Chests#MythicRelic_GoldenFloorChance|Mythic Golden Floor Chance Relic]]
+| '''Misc''' |
+Floors 69-72 with [[File:Cyrogem Ore.png|16px]] [[Ores#Cyrogem|Cyrogem Ore]]
+<br>Floors 75-78 with [[File:Impactium Ore.png|16px]] [[Ores#Impactium|Impactium Ore]]
+<br>Floors 81-84 with [[File:Phalanxite Ore.png|16px]] [[Ores#Phalanxite|Phalanxite Ore]]
+<br>Floors 87-90 with [[File:Steamstone Ore.png|16px]] [[Ores#Steamstone|Steamstone Ore]]
+<br>Floors 91-94 with [[File:Genevium Ore.png|16px]] [[Ores#Genevium|Genevium Ore]]
+<br>Floors 99-102 with [[File:Ransomite Ore.png|16px]] [[Ores#Ransomite|Ransomite Ore]]
+<br>Floors 105-108 with [[File:Pishalvite Ore.png|16px]] [[Ores#Pishalvite|Pishalvite Ore]]
+<br>Floors 111-114 with [[File:Mateyum Ore.png|16px]] [[Ores#Mateyum|Mateyum Ore]]
+<br>Floors 117-120 with [[File:Sinbadium Ore.png|16px]] [[Ores#Sinbadium|Sinbadium Ore]]
+<br>Floors 127-130 with [[File:Lollipopite Ore.png|16px]] [[Ores#Lollipopite|Lollipopite Ore]]
+}}
+|-|
+Golden Floor Multiplier=
+{{Stat|Golden Floor Multiplier|The multiplier to ore gained when Golden Floor Chance triggers. The All Floor Multi is factored into the displayed amount. (Base: 5x)
+| '''Drones''' |
+The [[File:Drone Chain.png|24px]] [[Drones#Drone Buffs|Fueled Chain Bomber Drone]]
+| '''Items''' |
+[[File:Eye of Newt.png|16px]] [[Items#EyeOfNewt|Eye of Newt]] (requires the [[File:Iris Idol.png|16px]] [[Archaeology#Iris|Iris]] Idol<math>\times</math>
+<br>[[File:Yummy Pizza.png|16px]] [[Chests#EpicRelic_GoldenFloorMulti|Epic Golden Floor Multi Relic]]
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Items#YummyPizza|Yummy Pizza]]
+| '''Store''' |
+The [[File:progressionbundle vp.png|16px]] [[Store#ProgressionBoosterBundle|Progression Booster Bundle]]
+| '''Skill-Tree''' |
+The [[File:Perfect Gold.png|16px]] [[Skill-Tree#PerfectGold|Perfect Gold]] Skill (Adds to the 5x base multiplier)<math>\times</math>
+<br>The [[File:I Have Wares, If You Have Coin.png|16px]] [[Skill-Tree#IHaveWaresIfYouHaveCoin|I Have Wares, If You Have Coin]] Skill<math>\times</math>
+<br>The [[File:leprechaun's Legacy.png|16px]] [[Skill-Tree#LeprechaunsLegacy|Leprechaun's Legacy]] Skill
+| '''Challenges''' |
+[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_GoldenFloorMultiplier|Golden Floor Multiplier]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc World 1.png}}[[Cards#CardEffects_Misc_World1|World 1 Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Misc Floor 73.png}}[[Cards#CardEffects_Misc_Floor73|Floor 73 Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Drone Chain Icon.png}}[[Cards#CardEffects_Drones_ChainDrone|Infernal Chain Drone Card]]
+<br>{{Card|cardType=Standard|cardImage=Penguin Icon.png}}[[Cards#CardEffects_Pets_Penguin|Penguin Pet Card]]
+| '''Pets''' |
+[[File:Penguin_Default.png|16px]] [[Pets#tabber-Penguin_2|Penguin Pet]]<math>\times</math>
+<br>([[File:Leprechaun_Default.png|16px]] The [[Pets#tabber-Leprechaun_2|Leprechaun Pet]]<math>+?</math>
+<br>[[File:Penguin_Quest.png|16px]] [[Pets#tabber-tabber-Penguin_2|Penguin Pet Quest]])
+| '''Construct''' |
+[[File:5 Statue Friendship Normal.png|16px]] [[Construct#Caulwik|World 1: Statue of Friendship]]
+| '''Stargazing''' |The [[File:Gemini Full.png|16px]] [[Stargazing#Gemini|Gemini]] Star
+| '''Fishing''' |[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_GoldenFloorMultiplier|Tier 1 Notice: Golden Floor Multiplier]]
+| '''Upgrades''' |The {{Sprite|Impactium Bar|Upgrades#Upgrades_W3_GoldenFloorMulti||Impactium Bar Upgrade}}
+| '''Contracts''' |[[File:Contract Point.png|16px]]  [[Contracts#tabber-World_2_Upgrades|World 2: Golden Floor Multiplier]]
+}}
+|-|
+Rainbow Floor Chance=
+{{Stat|Rainbow Floor Chance|The chance for a floor to be rainbow. Golden and Rainbow Floor Chance roll separately. A floor can be rainbow but not golden.
+| '''Items'''<math>+</math> |[[File:Rainbow Lollipop.png|16px]] [[Items#RainbowLollipop|Rainbow Lollipop]]
+| '''Relics'''<math>+</math> |[[File:Divine Chest.png|16px]] [[Chests#DivineRelic_RainbowFloorChance|Divine Rainbow Floor Chance Relic]]
+| '''Store'''<math>+</math> |
+The [[File:Petbooster vp.png|16px]] [[Store#PetTrainerBundle|Pet Trainer Bundle]]
+<br>The [[File:FounderIcon.png|16px]] [[Store#FounderT9|Tier 9 Founder Perk]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:optical Phenomenon.png|16px]] [[Skill-Tree#OpticalPhenomenon|Optical Phenomenon]] Skill
+<br>The [[File:i'm Running Out Of Creative Names.png|16px]] [[Skill-Tree#ImRunningOutOfCreativeNames|I'm Running Out Of Creative Names]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Penguin_Quest.png|16px]] [[Pets#tabber-Penguin_2|Penguin Pet Quest]]<math>+</math>
+<br>The [[File:Leprechaun_Default.png|16px]] [[Pets#tabber-Leprechaun_2|Leprechaun Pet]]<math>+</math>
+<br>The [[File:Leprechaun_Skin.png|16px]] [[Pets#tabber-Leprechaun_2|Leprechaun Pet Skin]]
+| '''Construct'''<math>+</math> |
+[[File:9 Statue Childhood Platinized.png|16px]] [[Construct#SalutenPlatinized|World 1: Platinized Statue of Childhood]]<math>+</math>
+<br>[[File:7 Statue Artistry Normal.png|16px]] [[Construct#Celio|World 1: Statue of Artistry]]
+<br>[[File:12 Statue Safety Normal.png|16px]] [[Construct#Zuiqiang|World 3: Statue of Safety]]
+| '''Fishing'''<math>+</math> |
+[[File:tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_RainbowFloorChance|Tier 1 Notice: Rainbow Floor Chance]]
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_RainbowFloorChance|World 3: Rainbow Floor Chance]]
+| '''Floors'''<math>+</math> |
+The [[File:Wonderland_Vein.png|16px]] [[Floors#WQ2|2nd World Quest Reward]]
+}}
+|-|
+Rainbow Floor Multiplier=
+{{Stat|Rainbow Floor Multiplier|The multiplier to ore gained when Rainbow Floor Chance triggers. The All Floor Multi is factored into the displayed amount. (Base: 50x)
+| '''Items''' |
+[[File:Rainbow Lollipop.png|16px]] [[Items#RainbowLollipop|Rainbow Lollipop]]
+| '''Relics''' |
+[[File:Divine Chest.png|16px]] [[Chests#DivineRelic_RainbowFloorMulti|Divine Rainbow Floor Multi Relic]]
+| '''Store''' |
+The [[File:Halfway vp.png|16px]] [[Store#HalfWayBundle|Half Way Bundle]]
+| '''Challenges''' |[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_RainbowFloorMultiplier|Rainbow Floor Multiplier]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc World 2.png}}[[Cards#CardEffects_Misc_World2|World 2 Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Misc Lute.png}}[[Cards#CardEffects_Misc_Lute|Lute Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Leprechaun Icon.png}}[[Cards#CardEffects_Pets_Leprechaun|Leprechaun Pet Card]]
+<br>{{Card|cardType=Standard|cardImage=Lake_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_RainbowTrout|Rainbow Trout Legendary Fish Card]]
+| '''Pets''' |The [[File:Dino_Default.png|16px]] [[Pets#tabber-Dino_2|Dino Pet]]
+| '''Stargazing''' |[[File:Pisces Full.png|16px]] [[Stargazing#Pisces|Pisces]] (Adds to the 50x base multiplier)
+| '''Fishing''' |
+The [[File:Lake_Legendary_Fish.png|16px]] [[Fishing#tabber-Rainbow_Trout|Rainbow Trout]] [[File:Tribute Rank 1.png|16px]] First Tribute
+| '''Arcanist''' |
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_RainbowFloorMulti|Exchange Upgrade]]
+| '''Upgrades''' |
+The {{Sprite|Pinnaclite Bar|Upgrades#Upgrades_W2_RainbowFloorMulti||Pinnaclite Bar Upgrade}}
+<br>The {{Sprite|Frogstone Bar|Upgrades#Upgrades_W4_RainbowFloorMulti||Frogstone Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_RainbowFloorMulti|World 2: Rainbow Floor Multi]]
+| '''Misc''' |
+Floors 65-66 with [[File:Carnivorian Ore.png|16px]] [[Ores#Carnivorian|Carnivorian Ore]]
+<br>Floors 85-87 with [[File:Cognite Ore.png|16px]] [[Ores#Cognite|Cognite Ore]]
+<br>Floors 101-102 with [[File:MVPD-1988 Ore.png|16px]] [[Ores#MVPD-1988|MVPD-1988 Ore]]
+<br>Floors 109-110 with [[File:Rumium Ore.png|16px]] [[Ores#Rumium|Rumium Ore]]
+}}
+|-|
+Galactic Rainbow Floor Chance=
+{{Stat|Galactic Rainbow Floor Chance|The chance for a floor to be a Galactic Rainbow floor. Only rolls on Rainbow floors.
+| '''Drones'''<math>+</math> |
+The [[File:Drone Prism.png|16px]] [[Drones#prismDrone|Prism Drone]]
+<br>The [[File:Drone Prism.png|16px]] [[Drones#Drone_Suit_Upgrades|Prism Drone Suit Upgrade]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:I Buried It Here.png|16px]] [[Skill-Tree#IBuriedItHere|I Buried It Here (55.251920, -6.483423)]] Skill
+| '''Challenges'''<math>+</math> |
+[[File:Extreme Challenge Coin.png|16px]]  [[Challenges#ExtremeReward_GalacticRainbowChance|Galactic Rainbow Chance]]
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Nagini Icon.png}}[[Cards#CardEffects_Pets_Nagini|Nagini Pet Card]]
+<br>{{Card|cardType=Infernal|cardImage=Leprechaun Icon.png}}[[Cards#CardEffects_Pets_Leprechaun|Infernal Leprechaun Pet Card]]
+| '''Pets'''<math>+</math> |
+The [[File:Butterfly Default.png|16px]] [[Pets#tabber-Butterfly_2|Butterfly Pet]]
+| '''Construct'''<math>+</math> |
+[[File:13 Statue Ignition Normal.png|16px]] [[Construct#Julk|World 3: Statue of Ignition]]<math>+</math>
+<br>[[File:24 Statue Crochet Normal.png|16px]] [[Construct#Kripp|World 4: Statue of Crochet]]
+| '''Stargazing'''<math>+</math> |
+[[File:Draco Full.png|16px]] [[Stargazing#Draco|Draco]]<math>+</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#GalacticFloorChance_SSUpgrade|Super Star Upgrade]]<math>+</math>
+<br>The [[Stargazing#BH5|5th Black Hole Bonus]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Sisyphus_Idol.png|16px]] [[Archaeology#Sisyphus|Sisyphus]] Idol
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Guardium Bar|Upgrades#Upgrades_W3_GalacticRainbowChance||Guardium Bar Upgrade}}<math>+</math>
+<br>The {{Sprite|Pishalvite  Bar|Upgrades#Upgrades_W4_GalacticRainbowChance||Pishalvite Bar Upgrade}}
+| '''Floors'''<math>+</math> |
+The [[File:Drone Prism Icon.png|16px]] [[Floors#WQ13|13th World Quest]]
+}}
+|-|
+Galactic Rainbow Floor Multiplier=
+{{Stat|Galactic Rainbow Floor Multiplier|The multiplier to ore gained from a Galactic Rainbow floor. The All Floor Multi is factored into the displayed amount. (Base: 10x)
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc World 3.png}}[[Cards#CardEffects_Misc_World3|World 3 Misc Card]]
+| '''Pets''' |
+The [[File:Leprechaun_Quest.png|16px]] [[Pets#tabber-Leprechaun_Quest_Skin|Leprechaun Pet Quest]]
+| '''Stargazing''' |
+[[File:Draco Full.png|16px]] [[Stargazing#Draco|Draco]]
+| '''Fishing''' |
+The [[File:Ocean_Legendary_Fish.png|16px]] [[Fishing#tabber-Megalodon|Megalodon]] [[File:Tribute Rank 1.png|16px]] First Tribute
+| '''Upgrades''' |
+The {{Sprite|Lollipopite Bar|Upgrades#Upgrades_W4_GalacticFloorMulti||Lollipopite Bar Upgrade}}
+| '''Floors''' |
+The [[File:Gilded Statue Icon.png|16px]] [[Floors#WQ27|27th World Quest]]
+}}
+|-|
+Prismatic Galactic Rainbow Floor Chance=
+{{Stat|Prismatic Galactic Floor Chance|The chance for a floor to be a Prismatic Galactic Rainbow floor. Only rolls on Galactic Rainbow Floors.
+| '''Drones'''<math>+</math> |
+The [[File:Drone Prism.png|16px]] [[Drones#Drone_Suit_Buffs|Fueled Prism Drone]]
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Mess With The Bull.png|16px]] [[Skill-Tree#MessWithTheBull|Mess With The Bull]] Skill
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Drone Prism Icon.png}}[[Cards#CardEffects_Drones_PrismDrone|Infernal Prism Drone Card]]
+| '''Construct'''<math>+</math> |
+[[File:19 Statue Comfort Gilded.png|16px]] [[Construct#LuteGilded|World 4: Gilded Statue of Comfort]]
+<br>[[File:24 Statue Crochet Normal.png|16px]] [[Construct#Kripp|World 4: Statue of Crochet]]
+| '''Arcanist''' |
+The [[File:Prismism.png|16px]] [[Arcanist#Prismism|Prismism]] spell's Active effect
+<br>An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_PrismaticFloorChance|Exchange Upgrade]]
+| '''Upgrades'''<math>+</math>|
+The {{Sprite|Sinbadium Bar|Upgrades#Upgrades_W4_PrismaticFloorChance||Sinbadium Bar Upgrade}}
+| '''Floors'''<math>+</math> |
+The [[File:Statue_Icon.png|16px]] [[Floors#WQ8|8th World Quest]]
+| '''Misc''' |
+Floors 123-126 with [[File:Frogstone Ore.png|16px]] [[Ores#Frogstone|Frogstone Ore]]
+}}
+|-|
+Prismatic Galactic Rainbow Floor Multi=
+{{Stat|Prismatic Galactic Floor Multi|The multiplier to ore gained from a Prismatic Galactic Rainbow Floor. The All Floor Multi is factored into the displayed amount. (Base: 1x)
+| '''Drones''' |
+The [[File:Drone Prism.png|16px]] [[Drones#Drone_Suit_Buffs|Fueled Prism Drone]]
+| '''Pets''' |The [[File:Butterfly_Quest.png|16px]] [[Pets#tabber-Butterfly_2|Butterfly Pet Quest]]
+| '''Construct''' |[[File:26 Statue Fallacy Normal.png|16px]] [[Construct#Berty|World 4: Statue of Fallacy]]
+| '''Archaeology''' |The [[File:Mnemosyne_Idol.png|16px]] [[Archaeology#Mnemosyne|Mnemosyne]] Idol
+| '''Upgrades''' |The {{Sprite|Turbanite Bar|Upgrades#Upgrades_W4_PrismaticFloorMulti||Turbanite Bar Upgrade}}
+| '''Contracts''' |[[File:Contract Point.png|16px]]  [[Contracts#Upgrades_W4_PrismaticFloorMulti|World 4: Prismatic Floor Multi]]
+}}
+|-|
+Pizzas Eaten=
+{{Stat|Pizzas Eaten|The number of pizzas eaten. The effect caps at 200, but the Pizzas Eaten stat will keep increasing beyond that point.
+| '''Items''' |[[Items#YummyPizza|Yummy Pizza]]
+}}
+|-|
+Steaks Eaten=
+{{Stat|Steaks Eaten|The number of steaks eaten. The effect caps at 500, but the Steaks Eaten stat will keep increasing beyond that point.
+| '''Items''' |[[Items#GoldFlakeSteak|Gold Flake Steak]]
+}}
+|-|
+All Floor Multis=
+{{Stat|All Floor Multis (Gold, Rainbow, Galactic, Prismatic)|Multiplies Gold, Rainbow, Galactic, and Prismatic floor multipliers. 
+| '''Items''' |[[File:Yummy Pizza.png|16px]] [[Items#YummyPizza|Yummy Pizza]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc World 4.png}}[[Cards#CardEffects_Misc_World4|World 4 Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Misc Yummy Pizza.png}}[[Cards#CardEffects_Misc_YummyPizza|Yummy Pizza Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Nagini Icon.png}}[[Cards#CardEffects_Pets_Nagini|Infernal Nagini Pet Card]]
+| '''Pets''' |
+The [[File:Nagini_Default.png|16px]] [[Pets#tabber-Nagini_2|Nagini Pet]]
+| '''Construct''' |
+[[File:18 Statue Soprano Normal.png|16px]] [[Construct#Praed|World 3: Statue of Soprano]]
+<br>[[File:19 Statue Comfort Normal.png|16px]] [[Construct#Lute|World 4: Statue of Comfort]]
+<br>[[File:25 Statue Antagonism Gilded.png|16px]] [[Construct#LoopGilded|World 4: Gilded Statue of Antagonism]]
+| '''Stargazing''' |
+[[File:Eridanus Full.png|16px]] [[Stargazing#Eridanus|Eridanus]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_AllFloorMultiplier|Tier 1 Notice: All Floor Multiplier]]<math>\times</math>
+<br>The [[File:Lake_Legendary_Fish.png|16px]] [[Fishing#tabber-Rainbow_Trout|Rainbow Trout]] [[File:Tribute Rank 1.png|16px]] Second Tribute
+| '''Arcanist''' |
+The [[File:Bomb's Blessing.png|16px]] [[Arcanist#BombsBlessing|Prismism]] spell's Active effect
+<br>An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_AllFloorMulti|Exchange Upgrade]]
+| '''Floors''' |
+The [[File:Turbanite_Ore.png|16px]] [[Floors#WQ17|17th World Quest]]
+| '''Skins''' |
+A [[Skins#SkinReward17|Skin Reward]]
+|spriteOverride=All Floor Multis (Gold,Rainbow,Galactic)
+}}
+</tabber>

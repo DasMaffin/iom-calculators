@@ -1,0 +1,65 @@
+{{Version|2.2.23}}
+You can see your completion points at the top of the stats page. Most permanent unlocks contribute 1 completion point each out of a total of 10117 points. (Find this in your [[Stats|stats]] page or on your [[Stats#Profile|profile]])
+
+==Unlocks that add completion points==
+===Prestige===
+* Artifact Levels
+===Workshop===
+* Workshop Upgrades
+===Drones===
+* Drone Upgrades
+* Drone Suit Unlocks
+* Drone Suit Upgrades
+* Drone Fuel Grades
+* Drone Coal Upgrades
+===Skill-Tree===
+* Skill levels
+===Challenges===
+* Challenges Completed
+===Store===
+* Gem Unlocks
+* Gem Upgrades
+===Cards===
+* Card Levels (+1 for Standard, +2 for Gilded, +3 for Polychrome, +4 for Infernal)
+===Pets===
+* Pet Levels
+* Pet Skins
+* Pet Quest Levels
+===Construct===
+* Statue levels (+1 for Standard, +2 for Gilded, +3 for Platinized)
+* Vein Research
+* Vein 2x Research
+===Stargazing===
+* Star Levels
+* Star Upgrades
+* Superstar Upgrades
+* Blackhole Levels
+===Archaeology===
+* Idols Discovered
+* Idol Quests Complete
+===Fishing===
+* Fish Upgrades
+* Enhance Upgrades
+* Notice Rewards
+* Legendary Fish Caught
+* Legendary Fish Tributes
+===Arcanist===
+* Essence Upgrade
+* Altar Upgrades
+* Spell Potency Ranks
+* Spell Levels
+* Exchange Upgrades
+===World Quests===
+* World 4 Quests
+==Unlocks that do not add completion points==
+===Cards===
+* Founder bomb if you are not a founder
+===Challenges===
+* Challenge Rewards
+===Archaeology===
+* Ascensions
+* Upgrades
+* Idol levels
+===This Prestige===
+* Bar Upgrades
+* Contracts

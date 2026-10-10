@@ -1,0 +1,12 @@
+{{Disambiguation}}
+'''Ultra''' may refer to:
+* [[Stats#tabber-Pickaxe_Ultra_Crit_Chance|Pickaxe Ultra Crit Chance]]
+* [[Stats#tabber-Pickaxe_Ultra_Crit_Damage|Pickaxe Ultra Crit Damage]]
+* [[Stats#tabber-Bomb_Ultra_Crit_Chance|Bomb Ultra Crit Chance]]
+* [[Stats#tabber-Bomb_Ultra_Crit_Damage|Bomb Ultra Crit Damage]]
+* [[Stats#tabber-Ultra_Stonks_Chance|Ultra Stonks Chance]]
+* [[Stats#tabber-Ultra_Stonks_Multiplier|Ultra Stonks Multiplier]]
+* [[Archaeology#Upgrades|Archaeology Ultra Crit Chance]]
+* [[Archaeology#Upgrades|Archaeology Ultra Crit Damage]]
+* [[Arcanist#Essence_Upgrades|Arcanist Ultra Crit Chance]]
+* [[Arcanist#Essence_Upgrades|Arcanist Ultra Crit Damage]]

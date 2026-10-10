@@ -1,0 +1,239 @@
+{{Version|2.2.23}}
+<span style="display:none">[[File:Chests Button.png|frameless]]</span><!--do not remove, pageImage for search-->
+There are 2 main types of chests: [[Chests#Item Chests|Item Chests]] and [[Chests#Relic Chests|Relic Chests]]. There are 2 sub-types of [[Chests#Relic Chests|Relic Chests]]: Mythic Chests and Divine Chests.
+
+== Item Chests == 
+[[File:Chests Button.png|right]]
+You can get Item Chests in different ways:
+
+* Filling the meter based on damage dealt to rocks 
+** Damage required increases exponentially and it caps by ore health.
+** You can increase fill rate with regular [[upgrades]] and [[Store#Gem Upgrades|gem upgrades]]. The fill rate does not always noticeably increase, possibly due to extensive periods dealing damage prior to purchasing the upgrade. There may be a cap on how quickly this meter can fill, so rushing all of these upgrades at once is not recommended.
+** The "Multi Chest Chance" relic grants additional chests from this method
+* From the freebie pack in the [[Special:MyLanguage/Store|Store]]
+** This is the primary method of gaining bulk items, relics, and gems over time
+*From [[Store#Resource Packs|resource packs]]
+*From bimonthly [[Special:MyLanguage/Events|Events]]
+*From [[Special:MyLanguage/Lootbugs|Lootbugs]]
+*From offline gains
+**At a rate of 0.3 per hour
+
+You initially get 1 item per chest (Up to 18 with Gem Upgrades) and there are 13 different types of items.
+
+Items give you a buff for a fixed duration. This duration can be extended. Many items gain secondary effects from [[Archaeology]].
+
+===List of items=== 
+{{See also|Items#tabber-Tier_1_items}}
+
+==Relic Chests== 
+[[File:Relics Button.png|right]]
+You can gain Relic Chests in different ways:
+
+*Filling the meter based on damage dealt to rocks
+**Damage required increases exponentially
+**You can increase fill rate with regular [[upgrades]] and [[Store#Gem Upgrades|gem upgrades]]. The fill rate does not always noticeably increase, possibly due to extensive periods dealing damage prior to purchasing the upgrade. There may be a cap on how quickly this meter can fill, so rushing all of these upgrades at once is not recommended.
+** The "Multi Chest Chance" relic grants additional chests from this method
+*10% chance to get one every 10 min from the freebie pack in the [[Special:MyLanguage/Store|Store]]
+**The [[Special:MyLanguage/Skill-Tree|Treasure Hunter Skill]] can be used to eventually reach 100% chance, and various upgrades decrease the wait time.
+**This is the primary method of gaining Relic Chests over time.
+*From [[Store#Resource Packs|resource packs]]
+*From bimonthly [[Special:MyLanguage/Events|Events]]
+*From [[Special:MyLanguage/Lootbugs|Lootbugs]]
+*From offline gains
+**At a rate of 0.1 per hour
+
+You receive 1 relic per regular Relic Chest. The relic received will have a random tier  (Common ~48%, Rare ~30%, Epic ~14%, Legendary ~7%, Mythic ~1%, Divine 1/25k (0.004%))
+
+Relics give you permanent perks. Some perks are capped; you won't get any more when you reach the cap. Some capped perks can have their caps increased via the [[Archaeology#tabber-Mythic Idols|Zeus]] idol.
+
+===Mythic Chests===
+Mythic chests always give a Mythic Relic. These can be acquired for free from [[Special:MyLanguage/Events|Events]] or [[Special:MyLanguage/Store#Gifts|Gifts]].
+
+===Divine Chests===
+Divine chests always give a Divine Relic. These are locked behind real money purchases in the [[Special:MyLanguage/Store|Store]] or for free from [[Special:MyLanguage/Store#Gifts|Gifts]].
+
+===Divine Relic Cap===
+Divine relics start with a base of 5, excluding Rainbow Floor Chance. This cap can be increased with a [[Challenges#DivineRelicCap|Divine Challenge Reward]] and the [[Cards#tabber-Legendary_Fish|Cthulhu Card]] to a current total of 35.
+
+===List of relics=== 
+{| class="wikitable sticky-header align-left-2 text-align-center"
+! colspan="2" | '''Name'''
+! '''Bonus amount'''
+! '''Default Capacity'''
+! '''Unlock Requirements'''
+|-
+! colspan="5" |<div id="CommonRelics"></div> '''Common'''
+|-
+|<div id="CommonRelic_PickaxeDamage"></div>[[File:Pickaxe Damage.png]] || Pickaxe Damage
+| +3%
+| Uncapped
+| {{NA}}
+|-
+|<div id="CommonRelic_OreSellPrice"></div>[[File:Ore Sell Price Multiplier.png]] || Ore Sell Price
+| +3% 
+| Uncapped
+| {{NA}}
+|-
+|<div id="CommonRelic_BombCritChance"></div>[[File:Bomb Crit Chance.png]] || Bomb Crit Chance
+| +1%
+| 100
+| {{NA}}
+|-
+|<div id="CommonRelic_ExperienceGain"></div>[[File:Experience Gain Multiplier.png]] || Experience Gain
+| +1%
+| 10,000
+| 100 Common Relics
+|-
+|<div id="CommonRelic_BombCritDamage"></div>[[File:Bomb Crit Damage.png]] || Bomb Crit Damage
+| +1%
+| 10,000
+| 500 Common Relics
+|-
+! colspan="5" |<div id="RareRelics"></div>'''Rare'''
+|-
+|<div id="RareRelic_BombDamage"></div>[[File:Bomb Damage.png]] || Bomb Damage
+| +20%
+| Uncapped
+| {{NA}}
+|-
+|<div id="RareRelic_ExperienceGain"></div>[[File:Experience Gain Multiplier.png]] || Experience Gain
+| +3%
+| Uncapped
+| {{NA}}
+|-
+|<div id="RareRelic_TripleRockChance"></div>[[File:Triple Rock Chance.png]] ||Triple Rock Chance
+| +1%
+| 100
+| {{NA}}
+|-
+|<div id="RareRelic_ContractCostReduction"></div>[[File:Contract Cost Reduction.png]] || [[Contracts|Contract]] Bar Reduction
+| +2%
+| 25,000
+| Obelisk Level 12<br>500 Rare Relics
+|-
+|<div id="RareRelic_DroneFuelDuration"></div>[[File:Drone Fuel Duration Multiplier.png]] || [[Drones#Drone Fuel|Fuel]] Duration
+| +0.01%
+| 2,500
+| Obelisk Level 18<br>1500 Rare Relics
+|-
+! colspan="5" |<div id="EpicRelics"></div>'''Epic'''
+|-
+|<div id="EpicRelic_PickaxeDamage"></div>[[File:Pickaxe Damage.png]] || Pickaxe Damage
+| +10%
+| Uncapped
+| {{NA}}
+|-
+|<div id="EpicRelic_BombRechargeSpeed"></div>[[File:Bomb Recharge Speed.png]] || Bomb Recharge Speed
+| +2%
+| 250
+| {{NA}}
+|-
+|<div id="EpicRelic_MultiChestChance"></div>[[File:Chance For 2x Chests.png]] || Multi Chest Chance
+| +2%
+| 50
+| {{NA}}
+|-
+|<div id="EpicRelic_BombCapacity"></div>[[File:Bomb Capacity.png]] || Bomb Capacity
+| +1
+| 2,500
+| 100 Epic Relics
+|-
+|<div id="EpicRelic_GoldenFloorMulti"></div>[[File:Golden Floor Multiplier.png]] || Golden Floor Multi
+| +0.10%
+| 500
+| 500 Epic Relics
+|-
+! colspan="5" |<div id="LegendaryRelics"></div>'''Legendary'''
+|-
+|<div id="LegendaryRelic_5xCraftChance"></div>[[File:5x Craft Chance.png]] || 5x [[Special:MyLanguage/Craft Chance|Craft Chance]]
+| +1%
+| 100
+| {{NA}}
+|-
+|<div id="LegendaryRelic_PrestigePointGain"></div>[[File:Prestige Point Gain Multiplier.png]] || [[Prestige|Prestige]] Point Gain
+|  +15%
+| Uncapped
+| {{NA}}
+|-
+|<div id="LegendaryRelic_ObeliskFightLength"></div>[[File:Bonus Obelisk Fight Length.png]] || [[Obelisk|Obelisk]] Fight Length
+| +12%
+| 100
+| {{NA}}
+|-
+|<div id="LegendaryRelic_VeinIncomeMultiplier"></div>[[File:Vein Spawn Rate Multiplier.png]] || [[Construct#Veins|Vein]] Income Multiplier
+| +0.10% 
+| 500
+| Obelisk Level 19<br>150 Legendary Relics
+|-
+|<div id="LegendaryRelic_StarSpawnRate"></div>[[File:Star Spawn Rate Multiplier.png]] || [[Stargazing|Star]] Spawn Rate 
+| +0.10%
+| 300
+| Obelisk Level 23<br>300 Legendary Relics
+|-
+! colspan="5" |<div id="MythicRelics"></div>'''Mythic'''
+|-
+|<div id="MythicRelic_20xCraftChance"></div>[[File:20x Craft Chance.png]] || 20x [[Special:MyLanguage/Craft Chance|Craft Chance]]
+| +1%
+| 100
+| {{NA}}
+|-
+|<div id="MythicRelic_AllBombMultipliers"></div>[[File:Additional Bomb Multiplier.png]] || All Bomb Multipliers 
+|  +5x 
+| Uncapped
+| {{NA}}
+|-
+|<div id="MythicRelic_GoldenFloorChance"></div>[[File:Golden Floor Chance.png]] || Golden Floor Chance
+| +5%
+| 20
+| {{NA}}
+|-
+|<div id="MythicRelic_PetLevelUpChance"></div>[[File:Pet Level Up Chance.png]] || [[Pets|Pet]] Level Up Chance
+| +0.50%
+| 50
+| Obelisk Level 17<br>75 Mythic Relics
+|-
+|<div id="MythicRelic_StarSupernovaChance"></div>[[File:Star Supernova Chance.png]] || [[Stargazing|Star]] Supernova Chance
+| +0.10%
+| 100
+| Obelisk Level 23<br>125 Mythic Relics
+|-
+|<div id="MythicRelic_PolychromeVeinCardMulti"></div>[[File:Polychrome Vein Card Multi.png]] || Polychrome Vein Card Multi
+| +0.05%
+| 500
+| Obelisk Level 50<br>250 Mythic Relics
+|-
+! colspan="5" |<div id="DivineRelics"></div>'''Divine'''
+|-
+|<div id="DivineRelic_RainbowFloorChance"></div>[[File:Rainbow Floor Chance.png]] || Rainbow Floor Chance
+| +1%
+| Uncapped
+| {{NA}}
+|-
+|<div id="DivineRelic_SupernovaMultipliers"></div>[[File:Supernova Multiplier.png]] || [[Stargazing|Supernova]] Multipliers
+| +2x
+| 5
+| Obelisk Level 23<br>3 Divine Relics
+|-
+|<div id="DivineRelic_RainbowFloorMulti"></div>[[File:Rainbow Floor Multiplier.png]] || Rainbow Floor Multi
+| +20%
+| 5
+| Obelisk Level 25<br>6 Divine Relics
+|-
+|<div id="DivineRelic_FishingTicks5xChance"></div>[[File:5x Fish Tick Chance.png]] || [[Fishing|Fishing]] Ticks 5x Chance
+| +2%
+| 5
+| Obelisk Level 37<br>10 Divine Relics
+|-
+|<div id="DivineRelic_RainbowPortalChance"></div>[[File:Rainbow Void Portal Chance.png]] || Rainbow Portal Chance
+| +0.50%
+| 5
+| Obelisk Level 64<br>30 Divine Relics
+|}
+
+==Trivia== 
+*Mythic and Divine chests, despite appearing on the same page as relic chests, are entirely separate, and are also refunded separately.
+*Skill bits and [[Fishing#Tier 2 Items|Tier 2 items]] from fishing notices do not appear in chests
+*All relic, mythic, and divine chests can be refunded to re-roll your relics for 200 gems. This can be used in the mid- to late-game to try to get more Divine relics.
+
+==Navigation==
+{{Menu}}

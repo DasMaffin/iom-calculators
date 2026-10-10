@@ -1,0 +1,94 @@
+{{Otheruses|Event Upgrade Costs|Event Upgrades|[[Events#Event_Upgrades]]}}
+
+==Gem Upgrades==
+===+10% Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}} +10% Damage|50|25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|50|Gem|Gems}}
+===+10% Maximum Health===
+{{CostTable|{{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}} +10% Maximum Health|50|25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|50|Gem|Gems}}
+===+125% Event Game Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeEventSpeed|size=16x16px}} +125% Event Game Speed|3|50|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|500|Gem|Gems}}
+===2x Event Currencies===
+{{CostTable|{{CurrentEventImage|field=upgradeExtraCurrency|size=16x16px}} 2x Event Currencies|1|50|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|500|Gem|Gems}}
+
+==Tier 1 Upgrades==
+===+1 Attack Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}} +1 Attack Damage|70|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|5|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+2 Maximum Health===
+{{CostTable|{{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}} +2 Maximum Health|70|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|6|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+0.02 Attack Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}} +0.02 Attack Speed|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|8|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+0.03 Move Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeMoveSpeed|size=16x16px}} +0.03 Move Speed|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|10|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+3% Event Game Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeEventSpeed|size=16x16px}} +3% Event Game Speed|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|12|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1% Crit Chance, +0.10 Crit Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeCritChance|size=16x16px}} +1% Crit Chance, +0.10 Crit Damage|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|20|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Attack Damage, +2 Maximum Health===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}}}} +1 Attack Damage, +2 Maximum Health|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|75|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Tier 1 Upgrade Caps===
+{{CostTable|{{CurrentEventImage|field=upgradeCaps|size=16x16px}} +1 Tier 1 Upgrade Caps|20|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|2500|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1% Prestige Bonus===
+{{CostTable|{{CurrentEventImage|field=upgradePrestigeBonus|size=16x16px}} +1% Prestige Bonus|15|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|25000|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+3 Attack Damage, +3 Maximum Health===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}}}} +3 Attack Damage, +3 Maximum Health
+|60|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|5000|{{CurrentEventImage|field=currency1|fileNameOnly=true}}|Event Currency|rounding=round}}
+
+==Tier 2 Upgrades==
+===+3 Maximum Health===
+{{CostTable|{{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}} +3 Maximum Health|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|5|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===-0.02 Enemy Attack Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeEnemyAttackSpeed|size=16x16px}} -0.02 Enemy Attack Speed|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|8|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===-1 Enemy Attack Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeEnemyAttackDamage|size=16x16px}} -1 Enemy Attack Damage|30|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|12|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===-1% Enemy Crit Chance, -0.10 Enemy Crit Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeEnemyAttackSpeed|size=16x16px}} -1% Enemy Crit Chance, -0.10 Enemy Crit Damage|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|20|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Attack Damage, +0.01 Attack Spee===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}} +1 Attack Damage, +0.01 Attack Speed|45|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|40|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Tier 2 Upgrade Caps===
+{{CostTable|{{CurrentEventImage|field=upgradeCaps|size=16x16px}} +1 Tier 2 Upgrade Caps|20|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|500|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+2% Prestige Bonus===
+{{CostTable|{{CurrentEventImage|field=upgradePrestigeBonus|size=16x16px}} +2% Prestige Bonus|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|650|{{CurrentEventImage|field=currency2|fileNameOnly=true}}|Event Currency|rounding=round}}
+
+==Tier 3 Upgrades==
+===+2 Attack Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}} +2 Attack Damage|40|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|5|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+0.02 Attack Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}} +0.02 Attack Speed|40|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|8|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1% Crit Chance===
+{{CostTable|{{CurrentEventImage|field=upgradeCritChance|size=16x16px}} +1% Crit Chance|40|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|12|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+5% Event Game Speed===
+{{CostTable|{{CurrentEventImage|field=upgradeEventSpeed|size=16x16px}} +5% Event Game Speed|40|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|18|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+3 Attack Damage, +3 Maximum Health===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}}}} +3 Attack Damage, +3 Maximum Health
+|30|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|30|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Tier 3 Upgrade Caps===
+{{CostTable|{{CurrentEventImage|field=upgradeCaps|size=16x16px}} +1 Tier 3 Upgrade Caps|20|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|250|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+3% 5x Drop Chance===
+{{CostTable|{{CurrentEventImage|field=upgradeExtraCurrency|size=16x16px}} +3% 5x Drop Chance|30|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|300|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+5 Maximum Health, +0.03 Attack Speed===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}}}} +5 Maximum Health, +0.03 Attack Speed
+|60|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|125|{{CurrentEventImage|field=currency3|fileNameOnly=true}}|Event Currency|rounding=round}}
+
+==Tier 4 Upgrades==
+===+1% Block Chance===
+{{CostTable|{{CurrentEventImage|field=upgradeBlockChance|size=16x16px}} +1% Block Chance|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|10|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+5 Maximum Health===
+{{CostTable|{{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}} +5 Maximum Health|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|12|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+0.10 Crit Damage, -0.10 Enemy Crit Damage===
+{{CostTable|{{CurrentEventImage|field=upgradeCritDamage|size=16x16px}} +0.10 Crit Damage, -0.10 Enemy Crit Damage|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|15|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+0.02 Attack Speed, +0.02 Move Speed===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMoveSpeed|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}}}} +0.02 Attack Speed, +0.02 Move Speed|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|20|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+4 Maximum Health, +4 Attack Damage===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=16x16px}}}} +4 Maximum Health, +4 Attack Damage|35|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|40|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Tier 4 Upgrade Caps===
+{{CostTable|{{CurrentEventImage|field=upgradeCaps|size=16x16px}} +1 Tier 4 Upgrade Caps|20|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|250|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+1 Cap of Cap Upgrades===
+{{CostTable|{{CurrentEventImage|field=upgradeCaps|size=16x16px}} +1 Cap of Cap Upgrades|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|500|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+===+10 Maximum Health, +0.05 Attack Speed===
+{{CostTable|{{OverlayImages|height=16px|width=16px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=16x16px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=16x16px}}}} +10 Maximum Health, +0.05 Attack Speed|60|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|exponential|150|{{CurrentEventImage|field=currency4|fileNameOnly=true}}|Event Currency|rounding=round}}
+
+==Navigation==
+{{CostsNav}}
+{{Menu}}
+
+[[Category:Upgrade Costs]]

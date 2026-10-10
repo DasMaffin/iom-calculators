@@ -1,0 +1,264 @@
+{{Version|2.2.21}}
+<span style="display:none">[[File:Gift320.png|frameless]]</span><!--do not remove, pageImage for search-->
+Codes are special words or phrases that players can enter into a designated text box to unlock rewards. Developers often release codes during events, updates, or promotions as a way to engage players and provide extra content.
+
+To redeem a code in Obelisk Miner, go to the <code>{{Sprite|MenuButton|Menu|20x20|Menu}}</code> Button, then click on the <code>{{Sprite|Options_Button|Options|20x20|Options}}</code> Button , and click on <code>{{Sprite|EnterCodeButton||100x40|Enter Code}}</code>
+
+All current codes are posted on the [https://discord.com/channels/496455472581312512/1308821214864736299 Discord server] or [https://reddit.com/r/IdleObeliskMiner subreddit]. Clicking the {{#fas:link}} icon next to the code will copy it to clipboard for easy copy-pasting.
+
+== Reward Codes ==
+Various codes will drop {{Sprite|Gift||16|Gifts}}, check the [[Gifts|dedicated article]] for information with regards to unlocks to see the most optimal times to open them.
+Using (and saving) gifts in line with the unlocks on that page will ensure you get the most benefit from them.
+
+{| class="wikitable sortable sticky-header lighttable text-align-center align-left-1 align-left-2" style="font-size:90%"
+! Code !! Reward !! style="width:7em" | Requires !! style="width:5em" | Cloud save [[File:CloudCheckboxButton.png|24px]]<ref name=Cloud>Requires cloud saving to be enabled in order to be activated</ref> <!-- !! style="width:5em" | Status<ref name=Status>Refers to the current status of a code, inactive codes should be removed (unless hardcoded)</ref> -->
+|-
+| {{Code|CODE}} || Unlocks the {{Sprite|Misc Code|Cards#Misc_Cards|16|Code}} Misc Card || [[Obelisk#Unlocks|Obelisk]] 15 || No <!-- || {{CodeStatus|CODE|hardcoded=true}} -->
+|-
+| {{Code|WORLDTWOBABY}} || 20x [[File:Gift.png|16px]] Gifts {{CollapsedDescription|If you claimed the code before the monument requirement was added, you already got the gifts. No duplicate possible.}} || W2 [[Construct#Monuments|Monument]] || No <!-- || {{CodeStatus|WORLDTWOBABY|hardcoded=true}} -->
+|-
+| {{Code|WTHREEPTWO}} || 30x [[File:Gift.png|16px]] Gifts {{CollapsedDescription|If you claimed the code before the monument requirement was added, you already got the gifts. No duplicate possible.}} || W3 [[Construct#Monuments|Monument]] || No <!-- || {{CodeStatus|WTHREEPTWO|hardcoded=true}} -->
+|-
+| {{Code|ANOTHERWORLDMAKEITSTOP}} || 40x [[File:Gift.png|16px]] Gifts {{CollapsedDescription|If you claimed the code before the monument requirement was added, you already got the gifts. No duplicate possible.}} || W4 [[Construct#Monuments|Monument]] || No <!-- || {{CodeStatus|ANOTHERWORLDMAKEITSTOP|hardcoded=true}} -->
+|-
+| {{Code|WOOPWOOPCLOUDSAVE}} || 25x [[File:Relic Chest.png|16px]] Relic Chests || {{NA}} || No <!-- || {{CodeStatus|WOOPWOOPCLOUDSAVE|hardcoded=true}} -->
+|-
+| {{Code|SOMANYFOUNDERS}} || 1x [[File:Mythic Chest.png|16px]] Mythic Chest; 10x [[File:Blue Cow.png|x16px]] Blue Cows || {{NA}} || No <!-- || {{CodeStatus|SOMANYFOUNDERS|hardcoded=true}} -->
+|-
+| {{Code|OMGPETS}} || 50x [[File:Charge Magnet.png|16px]] Charge Magnets; 10x [[File:Blue Cow.png|x16px]] Blue Cows || {{NA}} || No <!-- || {{CodeStatus|OMGPETS|hardcoded=true}} -->
+|-
+| {{Code|ANYCODESQUESTIONMARK}} || {{Gems|250}}; 50x [[File:Charge Magnet.png|16px]] Charge Magnets || {{NA}} || No <!-- || {{CodeStatus|ANYCODESQUESTIONMARK|hardcoded=true}} -->
+|-
+| {{Code|NEWOFFLINE}} || 25x [[File:Relic Chest.png|16px]] Relic Chests; 5x [[File:Gift.png|16px]] Gifts || {{NA}} || No <!-- || {{CodeStatus|NEWOFFLINE|hardcoded=true}} -->
+|-
+| {{Code|KOSH}} || 50x [[File:Relic Chest.png|16px]] Relic Chests; 10x [[File:Blue Cow.png|x16px]] Blue Cows || {{NA}} || No <!-- || {{CodeStatus|KOSH|hardcoded=true}} -->
+|-
+| {{Code|KOSHROUNDTWO}} || {{Gems|250}}; 2x [[File:Skill Point.png|16px]] Skill Points || {{NA}} || No <!-- || {{CodeStatus|KOSHROUNDTWO|hardcoded=true}} -->
+|-
+| {{Code|ONEPOINTSEVEN}} || 3x [[File:Skill Point.png|16px]] Skill Points; 25x [[File:Relic Chest.png|16px]] Relic Chests; 5x [[File:Gift.png|16px]] Gifts || {{NA}} || No <!-- || {{CodeStatus|ONEPOINTSEVEN|hardcoded=true}} -->
+|-
+| {{Code|ITSABOUTTIME}} || 1x [[File:Divine Chest.png|16px]] Divine Chest || {{NA}} || No <!-- || {{CodeStatus|ITSABOUTTIME|hardcoded=true}} -->
+|-
+| {{Code|OSRS}}<ref>Required for an early [[Challenge]]</ref> || 25x [[File:Relic Chest.png|16px]] Relic Chests; 10x [[File:Gift.png|16px]] Gifts || {{NA}} || No <!-- || {{CodeStatus|OSRS|hardcoded=true}} -->
+|-
+| {{Code|TWENTYGIFTSPLS}} || 20x [[File:Gift.png|16px]] Gifts || {{NA}} || No <!-- || {{CodeStatus|TWENTYGIFTSPLS|hardcoded=true}} -->
+|-
+| {{Code|PETQUESTS}} || 25x [[File:Relic Chest.png|16px]] Relic Chests; 5x [[File:Gift.png|16px]] Gifts; 2x [[File:Skill Point.png|16px]] Skill Points || {{NA}} || No <!-- || {{CodeStatus|PETQUESTS|hardcoded=true}} -->
+|-
+| {{Code|FUELMEUP}} || 50x [[File:Fuel.png|16px]] Fuel || [[Obelisk#Unlocks|Obelisk]] 18 || No <!-- || {{CodeStatus|FUELMEUP|hardcoded=true}} -->
+|-
+| {{Code|LEFTOVERSUSHI}} || 50x [[File:Sushi.png|16px]] Sushi || [[Obelisk#Unlocks|Obelisk]] 37 || No <!-- || {{CodeStatus|LEFTOVERSUSHI|hardcoded=true}} -->
+|-
+| {{Code|FOUNDERCODE}} || 50x [[File:Gift.png|16px]] Gifts || [[Founder]] || Yes <!-- || {{CodeStatus|FOUNDERCODE|hardcoded=true}} -->
+|-
+| {{Code|CHECKBOXSAVEGIFTS}} || 10x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|CHECKBOXSAVEGIFTS}} -->
+|-
+| {{Code|ENRQPGCJSMLVSZ}} || 10x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|ENRQPGCJSMLVSZ}} -->
+|-
+| {{Code|OBELISKREDDIT}} || 5x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|OBELISKREDDIT}} -->
+|-
+| {{Code|DISCORDTWOFIVEK}} || 25x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|DISCORDTWOFIVEK}} -->
+|-
+| {{Code|TWENTYKFOUNDERSWOAH}} || {{Gems|1000}}; 25x [[File:Gift.png|16px]] Gifts; 120x [[File:Relic Chest.png|16px]] Relic Chests; 1x [[File:Mythic Chest.png|16px]] Mythic Chest || {{NA}} || Yes <!-- || {{CodeStatus|TWENTYKFOUNDERSWOAH}} -->
+|-
+| {{Code|ASCENSION}} || 21x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|ASCENSION}} -->
+|-
+| {{Code|HELLOTHETOWERPLAYERS}} || 10x [[File:Gift.png|16px]] Gifts; {{Gems|250}} || {{NA}} || Yes <!-- || {{CodeStatus|HELLOTHETOWERPLAYERS}} -->
+|-
+| {{Code|MAIKERU}} || 10x [[File:Gift.png|16px]] Gifts; {{Gems|100}} || {{NA}} || Yes <!-- || {{CodeStatus|MAIKERU}} -->
+|-
+| {{Code|FRAY}} || 1x [[File:Mythic Chest.png|16px]] Mythic Chest || {{NA}} || Yes <!-- || {{CodeStatus|FRAY}} -->
+|-
+| {{Code|TELLACON}} || 50x [[File:Relic Chest.png|16px]] Relic Chests || {{NA}} || Yes <!-- || {{CodeStatus|TELLACON}} -->
+|-
+| {{Code|FOUNDERTHIRTYK}} || 30x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|FOUNDERTHIRTYK}} -->
+|-
+| {{Code|TELLACONCODE}} || 10x [[File:Gift.png|16px]] Gifts; 10x [[File:Blue_Cow.png|x16px]] Blue Cow || {{NA}} || No <!-- || {{CodeStatus|TELLACONCODE|hardcoded=true}} -->
+|-
+| {{Code|BIGDUMB}} || 100x [[File:Gem.png|16px]] Gems; 10x [[File:Blue Cow.png|x16px]] Blue Cows || {{NA}} || Yes <!-- || {{CodeStatus|BIGDUMB}} -->
+|-
+| {{Code|MAGOODOG}} || 50x [[File:Relic Chest.png|16px]] Relic Chests || {{NA}} || Yes <!-- || {{CodeStatus|MAGOODOG}} -->
+|-
+| {{Code|VERF}} || 10x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|VERF}} -->
+|-
+| {{Code|TWOPOINTTWO}} || 22x [[File:Gift.png|16px]] Gifts || [[Update:V2.2.1]] or above || No <!-- || {{CodeStatus|TWOPOINTTWO|hardcoded=true}} -->
+|-
+| {{Code|ALIEN}} || 5x [[File:Gift.png|16px]] Gifts; 20x [[File:Relic Chest.png|16px]] Relic Chests || {{NA}} || Yes <!-- || {{CodeStatus|ALIEN}} -->
+|-
+| {{Code|FIVEPERCENTTOONEMILLION}} || 50x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|FIVEPERCENTTOONEMILLION}} -->
+|-
+| {{Code|POHX}} || 5x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|POHX}} -->
+|-
+| {{Code|MIDDLEURINALOUTOFORDERFORREALTHISTIME}} || 10x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|MIDDLEURINALOUTOFORDERFORREALTHISTIME}} -->
+|-
+| {{Code|FOUNDERTIERTEN}} || 100x [[File:Gift.png|16px]] Gifts || [[Founder]] Tier 10<br> [[Update:V2.2.20]] or above || No <!-- || {{CodeStatus|FOUNDERTIERTEN|hardcoded=true}} -->
+|-
+| {{Code|THANKSAPPLE}} || 15x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|THANKSAPPLEY}} -->
+|-
+| {{Code|GOTHITBYACAR}} || 10x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|GOTHITBYACAR}} -->
+|-
+| {{Code|FOUNDERNUMBERGOUP}} || 60x [[File:Gift.png|16px]] Gifts || {{NA}} || Yes <!-- || {{CodeStatus|FOUNDERNUMBERGOUP}} -->
+|}
+<references />
+
+If a code that requires a Checkbox account says "Invalid Entry"
+# Check the Cloud menu and make sure you're signed in
+# Make sure you typed it correctly
+# See [[Obelisk:FAQ#Q:_How_can_I_fix_the_Checkbox_save_system?|How can I fix Checkbox save system]] for additional help.
+
+== Misc. Codes ==
+{| class="wikitable"
+! colspan="2" | Misc codes
+|-
+| {{Code|CHAINBOMBABBREV}} || Toggled Chain Bomb Abbreviation (eg. 188034 to 188k) 
+|-
+| {{Code|CHOICEPARALYSIS}}, {{Code|MOREVP}} or {{Code|MOREVPS}} (since [[Update:V2.2.1]]) || Toggle to show the next 30 Value Packs in the Store
+|-
+| {{Code|FOUNDER}} (since [[Update:V1.9.11]]) || '''Requires [[Founder|Founder Pack]]''', Displays a block of text used to claim the founder role on the official Discord server. If you are not founder, the response is "Unable to find founder data" instead.
+|-
+| {{Code|FPS}} || Toggles an FPS counter 
+|-
+| {{Code|NAMEREROLLS}} || Shows the number of rerolls you have already made 
+|-
+| {{Code|OB}} || Shows Obelisk Art (that you have already defeated)
+|-
+| {{Code|UNASSIGNALLARCH}} || Unassigns all skill points in [[Archaeology]]
+|-
+| <div id="exportStats"></div>{{Code|EXPORTSTATS}} (since [[Update:V2.1.5]]) || Copies your stats into your clipboard in JSON form. Since [[Update:V2.2.20]] there is also a button at the botton of the [[Stats]] menu for this.
+|-
+! colspan="2" | Legacy codes
+|-
+| {{Code|MOREVP}} or {{Code|SHOWVP}} (Before [[Update:V2.0]]) || Toggle to show the next 5 Value Packs in the Store 
+|-
+| {{Code|SAVER}} or {{Code|SV}} (Before [[Update:V1.8.8]]) || Beta for the battery saver UI It was replaced in [[Update:V1.8.88]] with an option in the settings.
+|-
+| {{Code|SHOWLOG}} (Before [[Update:V1.8.8]]) || Toggle to Show Logs. It was replaced in [[Update:V1.8.88]] with an option in the settings.
+|-
+| {{Code|TOGGLELOWSPEED}} (Before [[Update:V2.1]])|| Toggle Game Speed max of 1. (Note that the 2x game speed buff duration will still decrease and that leaving this code on accidentally will sharply decrease your progress). It was removed in [[Update:V2.1.1]]
+|-
+|-
+! colspan="2" | Paid codes
+|-
+| {{Code|NNMM}} (Before [[Update:V2.2.1]])
+| '''Pay {{Gems|50}}''' to gain 10 name reroll chances
+|-
+| {{Code|BBNNMM}} (Before [[Update:V2.2.1]])
+| '''Pay {{Gems|500}}''' to get 100 name reroll chances
+|}
+
+== Easter Eggs ==
+{| class="wikitable" style="font-size:90%"
+!Code
+!Response
+|-
+| {{Code|ABCDEFGHIJKLMNOPQRSTUVWXYZ}}  || You missed a letter
+|-
+| {{Code|ALEX}}  || Worst Dev
+|-
+| {{Code|ALEXAULDS}}  || Best Dev
+|-
+| {{Code|BEETLEBOMB}}  || Expanding voluptuous obelisks
+|-
+| {{Code|BERTY}}  || Participating in no freebie november
+|-
+| {{Code|CARDODDS}}  || 50/50
+|-
+| {{Code|CAULWIK}}  || Le Bagette
+|-
+| {{Code|CELIO}}  || Former Underpaid pixel painter
+|-
+| {{Code|CIONEL}}  || Do Not Allow
+|-
+| {{Code|CODE}}<ref>First usage gives the {{Sprite|Misc Code|Cards#Misc_Cards|16|Code}} Misc Card in addition to the message</ref>  || Yes, you enter codes here
+|-
+| {{Code|DARK}}  || The Slayer
+|-
+| {{Code|DEMONGOD}}  || Thinks they are allowed to request custom easter egg message
+|-
+| {{Code|ENDERCHAUN}}  || Stole my bazaar closed beta invite code
+|-
+| {{Code|FELT}}  || Le Bagette 2
+|-
+| {{Code|FOURTWENTY}}  || :joy:
+|-
+| {{Code|FROZENARA}}  || The Saver Of Clouds
+|-
+| {{Code|GIVEPATCH}}  || Next patch delayed 1 week
+|-
+| {{Code|HELLO}}  || Hi
+|-
+| {{Code|HI}}  || Hello
+|-
+| {{Code|INVALIDENTRY}}  || style="word-break: break-all;" | "salgiuhgiouhgoh498thorgvagfoiafygeygfiya4gyaglidgh" (this is the actual response)
+|-
+| {{Code|JOLLY}}  || Spoiler Man
+|-
+| {{Code|JSKINNER}}  || You found the USD Spent Misc Card!
+|-
+| {{Code|JULK}}  || Making your time away more efficient
+|-
+| {{Code|KARMA}}  || You'll got any more of them gifts?
+|-
+| {{Code|KOHANU}}  || KOCANU make your statue better
+|-
+| {{Code|KRIPPLEX}}  || Plays mobile games on planes
+|-
+| {{Code|KROMAK}}  || Switched to financially supporting wplace
+|-
+| {{Code|KYLE}} || Reformed?
+|-
+| {{Code|LUMBERJACKATTACK}}  || BEST GAME 2018
+|-
+| {{Code|LUTE}}  || Trapped in an endless void of drawing zone art
+|-
+| {{Code|MIDDLEURINALOUTOFORDER}} || (Supposed to be a 10 gifts code) "Nice try you get nothing" 0x [[File:Gift.png|16px]] Gifts
+|-
+| {{Code|MINERSHMINER}}  || SHMINERMINER
+|-
+| {{Code|MINERSIDLE}}  || BEST GAME 2014
+|-
+| {{Code|MIRAHEZEWIKITEAM}} || The Herd of Goats
+|-
+| {{Code|NEOCRONIC}}  || Big Gamer
+|-
+| {{Code|SHOCK}}  || bzzzz
+|-
+| {{Code|SIXTYNINE}}  || nice
+|-
+| {{Code|SPARTA}}  || 5k/1m prestiges
+|-
+| {{Code|SUP}} || Nm, wbu?
+|-
+| {{Code|SZABAM}} || Owes me NaN gems
+|-
+| {{Code|VAK}}  || is currently playing fortnite
+|-
+| {{Code|VALIDENTRY}} || 5head
+|-
+| {{Code|VITROIL}} || Neighhh
+|-
+| {{Code|VYDN}} or {{Code|VYD}} || just appeared one day and started drawing
+|-
+| {{Code|WANDERER}} || Fishing part 2? I rate it 11/19
+|-
+| {{Code|WASTELAND}} ({{Code|IDLEWASTELAND}})  || BEST GAME 2020
+|-
+| {{Code|WHENPATCH}}  || Tomorrow
+|-
+| {{Code|WOLF}}  || Grr im a wolf
+|-
+| {{Code|XANZ}}  || GOAT
+|-
+| {{Code|YESSA}} || Warm Girl
+|-
+| {{Code|YOUSUCK}} or {{Code|USUCK}}  || no u
+|-
+| {{Code|ZYXWVUTSRQPONMLKJIHGFEDCBA}}  || rettel a dessim uoY
+|}
+<references />
+
+== Trivia ==
+* Trying to input an invalid code will result in the message "Invalid entry".
+* Trying to input a code twice will result in messages such as, "Sorry, no double dipping," "Nice try noob," "Nice try ;)" "-1000 runecraft xp," "world 5 delayed +1 week," "Luck stat -1%", and the whole lyrics to "How you remind me" by Nickelback.
+
+{{Menu}}

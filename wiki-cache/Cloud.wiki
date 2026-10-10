@@ -1,0 +1,43 @@
+{{Version|2.2.23}}
+
+[[File:Cloud Button.png|frameless|left]]
+Cloud saving is the best way to protect savefiles. It can also be used to transfer progress between devices.
+
+{{clear|left}}
+==Cloudsave Types==
+There are two types of cloud save systems. [[Cloud#Checkbox Account|Checkbox Account]] and [[Cloud#Automatic Backup]]. Using the Checkbox Account system is recommended as it is required to use [[Codes|Checkbox Codes]]. The Automatic Backup system is useful as a backup, but using both is best.
+
+==Checkbox Account==
+To use the a Checkbox Account an account type must be chosen. iOS devices have iCloud, Google and Discord as options. Android devices have Google and Discord as options. A Google or Discord account is required to transfer between iOS and Android devices as iCloud isn't available on Android. Discord is recommended as it is less error prone than Google and there are commands on the [https://discord.com/invite/t6Y6QRa Official Discord] to share the game's stats.
+
+===Troubleshooting the Checkbox Account system===
+Do not uninstall the game. The save file may be lost.
+# Restart the phone
+# Visit https://accounts.idleobeliskminer.com/ on the device. 
+##If it doesn't say "Available" it may be blocked. Check the firewall, disable VPN or try a different connection.
+##There may be a temporary outage. Try again later.
+#For Google Account Types: 
+##Scroll to the bottom of this page and make sure have "Sign in With Google" is enabled. https://support.google.com/accounts/answer/12849458?hl=en#zippy=%2Chow-do-i-disable-the-sign-in-with-google-sign-in-prompts
+##Make sure Google Play Services is up to date by following the instructions on this page. https://support.google.com/googleplay/answer/9037938
+#Try an option other than Google by clicking the Logout button at the top of the Cloud page and choosing another option. Be aware that only Google and Discord are able to transfer saves between Android and iOS.
+
+If the issue persists, post a bug report in the [https://discord.com/invite/t6Y6QRa Official Discord].
+
+=== How to transfer saves ===
+On the transferring device:
+#Open the menu
+#Tap the Cloud icon
+#Sign into the Checkbox Account, if not already (Note that only Google and Discord are available on Android so iCloud won't work if transferring between iOS and Android devices)
+#Tap Upload
+
+On the receiving device:
+#Open the menu
+#Tap the Cloud icon
+#Sign into the Checkbox Account, using the same method as before
+#Tap Download
+
+==Automatic Backup==
+The Automatic Backup system uses Google Play on Android or Game Center on iOS. When trying to restore a save from the Automatic Backup, make sure the same account is logged in.
+
+==Navigation==
+{{Menu}}

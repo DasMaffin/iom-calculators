@@ -1,0 +1,12 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: None
+# Tap the 4 dots
+# Tap Relic
+# Open Relics until you get EXACTLY 69 
+# Tap Open All
+</div>
+<div style="flex: 0 0 auto;">[[File:Relic 69 Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

@@ -1,0 +1,22 @@
+{{Disambiguation}}
+'''Cap''' may refer to:
+* General
+** [[Stats#tabber-Xp_Level_Cap|Xp Level Cap]]
+* Bombs
+** [[Stats#tabber-Bomb_Capacity|Bomb Capacity]]
+** [[Stats#tabber-Bomb_Cap_Multiplier|Bomb Cap Multiplier]]
+** [[Stats#tabber-Bomb_Capacity_Gained_From_Battery|Bomb Capacity Gained From Battery]]
+* Drones
+** [[Stats#tabber-Drone_Suit_Upgrade_Cap|Drone Suit Upgrade Cap]]
+* Upgrades
+** [[Stats#tabber-Artifact_Tier_4_Cap_Increase|Artifact Tier 4 Cap Increase]]
+** [[Stats#tabber-Artifact_Upgrade_Cap_Increase|Artifact Upgrade Cap Increase]]
+** [[Stats#tabber-Workshop_Upgrade_Cap_Increase|Workshop Upgrade Cap Increase]]
+** [[Stats#tabber-Contract_Upgrade_Cap_Increase|Contract Upgrade Cap Increase]]
+** [[Stats#tabber-Gem_Upgrade_Cap_Increase|Gem Upgrade Cap Increase]]
+* Lootable
+** [[Stats#tabber-Banked_Freebie_Cap|Banked Freebie Cap]]
+** [[Stats#tabber-Banked_Lootbug_Cap|Banked Lootbug Cap]]
+** [[Stats#tabber-Lootfrog_Capacity|Lootfrog Capacity]]
+* Fishing
+** [[Stats#tabber-Fishing_Drone_Capacity|Fishing Drone Capacity]]

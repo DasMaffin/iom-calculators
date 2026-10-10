@@ -1,0 +1,745 @@
+{{WIP}}
+{{Notice|text=This is a technical guide related to working with the ExportStats JSON format, not a guide for regular player|type=progressive|background=progressive-subtle|align=center|title=Technical Documentation|image=[[File:HappyBot Icon.png]]}}
+
+= Working With ExportStats =
+The JSON format provided by ExportStats is a rudimentary but solid source for a lot of in-game data, although the structure is currently undocumented. Working with the devs directly has allowed us to compile a list of what each part of the JSON is mapped to. For an overview of the shape, a sample export has been uploaded to [[/example.json]]
+
+== The array structure ==
+The JSON object copied to the user's clipboard is a JSON block with the following top level elements.
+{| class="wikitable mw-code"
+|+ Top Level Array Elements
+! Field ||  Type || Description || Example
+|-id="version"
+| <syntaxhighlight lang="json" inline>"version"</syntaxhighlight>
+! <syntaxhighlight lang="gdscript" inline>string</syntaxhighlight>
+| The version of the game the export is from. Use this to compare if their export is compatible with your sheet, i.e. may be lacking critical information, or warn them that they may have new sources of gains that is not accounted for in your project.
+| <syntaxhighlight lang="pycon">
+>>> json["version"]
+"v2.2.21"</syntaxhighlight>
+|-id="time"
+| <syntaxhighlight lang="json" inline>"time"</syntaxhighlight>
+! <syntaxhighlight lang="gdscript" inline>number</syntaxhighlight>
+| The time that the export was performed at.
+| <syntaxhighlight lang="pycon">>>> x = json.time
+>>> print(x)
+46259.86238
+>>> print(datetime(1899, 12, 30) + timedelta(days=x))
+2026-09-13 20:41:53</syntaxhighlight>
+<ref>I blame Julk for this. Not the game maker export, Unix time as a concept.</ref>
+|-id="stats"
+| <syntaxhighlight lang="json" inline>"stats"</syntaxhighlight>
+! <syntaxhighlight lang="gdscript" inline>Array<JSON></syntaxhighlight>
+| The nested stats objects.
+| <syntaxhighlight lang="pycon">
+>>> x = json["stats"]
+>>> len(x)
+420</syntaxhighlight>
+|}
+
+=== Time formatting ===
+Language-specific implementation of how to parse the time format is beyond the scope of this Guide, however, for Google Sheets, formatting a cell to Number -> Date Time will display it as a Date and Time directly, alternatively can be used by having it in a cell and using the following snippet.
+<syntaxhighlight lang="scilab" copy>=LET(
+   t, VALUE(TRIM(<Cell Reference>)),
+   delta, NOW()-t,
+   days, INT(delta),
+   hours, INT(MOD(delta, 1)*24),
+   minutes, INT(MOD(delta*1440,60)),
+   seconds, ROUND(MOD(delta * 86400, 60)),
+  days & "d" & hours & "h" & minutes & "m" & seconds & "s ago")
+</syntaxhighlight>
+which produces this output <code style="color:green">0d12h6m15s ago</code>
+
+=== Extracting the Stats ===
+For most languages, JSON can be mapped easily using standard dot bracket notation, either as a property accessor or key value pairing, i.e. <syntaxhighlight lang="python" inline>Json.stats</syntaxhighlight> or <syntaxhighlight lang="pycon" inline>Json["stats"]</syntaxhighlight>. If you're unfamiliar with that format, I'm surprised you're even this far through. For Google Sheets or excel, there isn't a nice easy way to import the JSON, generally users are expected to paste down a range, alternatively I created this snippet which can be pointed at a cell to spread the data into a 2-Column Wide Key Value pairing list. <code style="color:pink">JSON</code> is a named 1 cell range in the below example.
+<syntaxhighlight lang="scilab" copy>=let(
+  txt, regexreplace(JSON, """[^""]+""\s*:\s*\[[^\]]*\]\s*,?", ""),
+  raw, split(txt, ",{}", true),
+  key_val, arrayformula(split(transpose(raw), ":")),
+  noquotes, lambda(x, substitute(x, char(34), "")),
+  capitalise, lambda(x, let(ch, left(x, 1), replace(x, 1, 1, upper(ch)))),
+  fmt, lambda(x, capitalise(noquotes(trim(x)))),
+  keys, arrayformula(fmt(index(key_val,,1))),
+  values, arrayformula(trim(index(key_val,,2))),
+  parsed, arrayformula(
+  if(values="",, 
+  if(values="true", true, 
+  if(values="false", false, 
+  if(left(values)=char(34), noquotes(values), 
+  value(values)))))),
+  sort(filter(hstack(keys, parsed), keys<>"")))
+</syntaxhighlight>
+
+From there, you can more readily access the data you are looking for using <syntaxhighlight lang="scilab" inline copy>=xlookup("stat_name", B1:B, C1:C)</syntaxhighlight>
+
+== Stats Items ==
+Within the JSON, fields come under three main types. Singletons, Arrays, and pseudo-arrays-as-singletons within the base structure. The majority of the fields are direct 1:1 exports of of in-game "Stat" listings, however there are also some meta-status fields listed below.
+{| class="wikitable" style="text-align:center"
+|+ Meta-progression Items
+|-
+! colspan="2" | Field !! Type !! Details !! Example
+|- id="obelisk_level"
+| [[File:Obelisk_Level_12_Icon.png|20x20px]] 
+! <syntaxhighlight lang="json" inline>"obelisk_level"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>number</syntaxhighlight> 
+| The Obelisk Level the player has reached.
+| rowspan=5 style="text-align:left" | <syntaxhighlight lang="pycon">>>> print(json["stats"]["obelisk_level"])
+70</syntaxhighlight>
+|- id="blackhole"
+| [[File:BlackHole.png|20x20px]] 
+! <syntaxhighlight lang="json" inline>"black_hole_level"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>integer</syntaxhighlight> 
+|The Black Hole Level the player has reached.
+|- id="current_floor"
+| [[File:Misc_Floor_73.png|20x20px]] 
+! <syntaxhighlight lang="json" inline>"current_floor"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>number</syntaxhighlight> 
+|The current floor the player was on when they exported their stats, useful for checking if is a -Game Speed floor or similar.
+|- id="worlds_unlocked"
+| [[File:World_2_monument.png|20x20px]] 
+! <syntaxhighlight lang="json" inline>"worlds_unlocked"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>number</syntaxhighlight> 
+| The number of worlds the player has unlocked.
+|-
+| [[File:World_4_monument.png|20x20px]] 
+! <syntaxhighlight lang="json" inline>"world_4_quest_progress"</syntaxhighlight>
+| <syntaxhighlight lang="gdscript" inline>integer</syntaxhighlight>
+| Number of World 4 Quests completed.
+|}
+
+== Pseudo-Arrays ==
+
+=== Veins ===
+Vein unlock research and the 2x vein spawn rate research are handled by a single variable each. If the number is greater than or equal to the vein index, it is researched (or 2x is researched).
+{| class="wikitable mw-code"  style="text-align: center;"
+|+ Vein "Arrays"
+|-
+! Field || Type || Max Value || Example 
+|- id="VeinResarch"
+! <syntaxhighlight lang="json" inline>"vein_researched_array"</syntaxhighlight> 
+|| <syntaxhighlight lang="gdscript" inline>integer</syntaxhighlight> || <syntaxhighlight lang="json" inline>20</syntaxhighlight> || rowspan=2 | <syntaxhighlight lang="pycon">>>> json["stats"]["vein_researched_array"] >= 19
+True</syntaxhighlight> 
+|- id="Vein2x"
+! <syntaxhighlight lang="json" inline>"vein_2x_spawn_array"</syntaxhighlight>
+|| <syntaxhighlight  lang="gdscript" inline>integer</syntaxhighlight>|| <syntaxhighlight lang="json" inline>20</syntaxhighlight>
+|}
+
+{| class="wikitable" style="text-align: center;"
+|+ Vein Indexes
+|-
+! colspan=2 | World 1 !! colspan=2 | World 2 !! colspan=2 | World 3 !! colspan=2 | World 4
+|-
+| [[File:Stone Vein.png|24x24px]] Stone Vein
+! <syntaxhighlight lang="ini" inline >[0]</syntaxhighlight>
+| [[File:Deepsea Vein.png|24x24px]] Deepsea Vein
+! <syntaxhighlight lang="ini" inline >[6]</syntaxhighlight>
+| [[File:Jurassic Vein.png|24x24px]] Jurassic Vein
+! <syntaxhighlight lang="ini" inline >[11]</syntaxhighlight>
+| [[File:Wonderland Vein.png|24x24px]] Wonderland Vein
+! <syntaxhighlight lang="ini" inline >[16]</syntaxhighlight>
+|-
+| [[File:Magma Vein.png|24x24px]] Magma Vein
+! <syntaxhighlight lang="ini" inline >[1]</syntaxhighlight>
+| [[File:Beach Vein.png|24x24px]] Beach Vein
+! <syntaxhighlight lang="ini" inline >[7]</syntaxhighlight>
+| [[File:Roman Vein.png|24x24px]] Roman Vein
+! <syntaxhighlight lang="ini" inline >[12]</syntaxhighlight>
+| [[File:Pirate Vein.png|24x24px]] Pirate Vein
+! <syntaxhighlight lang="ini" inline >[17]</syntaxhighlight>
+|-
+| [[File:Virtual Vein.png|24x24px]] Virtual Vein
+! <syntaxhighlight lang="ini" inline >[2]</syntaxhighlight>
+| [[File:Valley Vein.png|24x24px]] Valley Vein
+! <syntaxhighlight lang="ini" inline >[8]</syntaxhighlight>
+| [[File:Industrial Vein.png|24x24px]] Industrial Vein
+! <syntaxhighlight lang="ini" inline >[13]</syntaxhighlight>
+| [[File:Arabian Vein.png|24x24px]] Arabian Vein
+! <syntaxhighlight lang="ini" inline >[18]</syntaxhighlight>
+|-
+| [[File:Space Vein.png|24x24px]] Space Vein
+! <syntaxhighlight lang="ini" inline >[3]</syntaxhighlight>
+| [[File:Jungle Vein.png|24x24px]] Jungle Vein
+! <syntaxhighlight lang="ini" inline >[9]</syntaxhighlight>
+| [[File:Warfront Vein.png|24x24px]] Warfront Vein
+! <syntaxhighlight lang="ini" inline >[14]</syntaxhighlight>
+| [[File:Enchanted Vein.png|24x24px]] Enchanted Vein
+! <syntaxhighlight lang="ini" inline >[19]</syntaxhighlight>
+|-
+| [[File:Cloud Vein.png|24x24px]] Cloud Vein
+! <syntaxhighlight lang="ini" inline >[4]</syntaxhighlight>
+| [[File:Volcano Vein.png|24x24px]] Volcano Vein
+! <syntaxhighlight lang="ini" inline >[10]</syntaxhighlight>
+| [[File:Neon Vein.png|24x24px]] Neon Vein
+! <syntaxhighlight lang="ini" inline >[15]</syntaxhighlight>
+| [[File:Candyland Vein.png|24x24px]] Candyland Vein
+! <syntaxhighlight lang="ini" inline >[20]</syntaxhighlight>
+|-
+| [[File:Atomic Vein.png|24x24px]] Atomic Vein
+! <syntaxhighlight lang="ini" inline >[5]</syntaxhighlight>
+| {{NA|colspan=6}}
+|}
+
+=== Construct ===
+Some of the earlier objects in the export are the construct arrays, They are mapped by World and Statue Position to a value from 0 - 3, representing the following states
+
+{| class="wikitable mw-code"  style="text-align: center;"
+|+ Constructed Statue Values
+|-
+! Value 
+|| <syntaxhighlight lang="json" inline>0.0</syntaxhighlight> || <syntaxhighlight lang="json" inline>1.0</syntaxhighlight> || <syntaxhighlight lang="json" inline>2.0</syntaxhighlight> || <syntaxhighlight lang="json" inline>3.0....</syntaxhighlight>
+|-
+! State
+|| Not Built || Built || Gilded || Platinised
+|}
+<tabbertransclude>
+Guides/Working_With_ExportStats/World1Statues|World 1
+Guides/Working_With_ExportStats/World3Statues|World 3
+Guides/Working_With_ExportStats/World4Statues|World 4
+</tabbertransclude>
+
+=== Drone ===
+
+{|class="wikitable mw-code"
+|+ Drone Array List
+|-
+! Field || Type || Description || Example
+|-
+| <syntaxhighlight lang="json" inline>"is_drone_x_equipped"</syntaxhighlight><br/>(12 Variables) 
+| rowspan="2" | <syntaxhighlight lang="gdscript">boolean</syntaxhighlight> || Whether the Drone is equipped.
+| rowspan="3" | <syntaxhighlight lang="pycon">>>> print(json.stats.is_drone_bear_equipped)
+True</syntaxhighlight>
+|-
+| <syntaxhighlight lang="json" inline>"Is_drone_x_equipped_and_fueled"</syntaxhighlight><br/>(11 Variables)  || Whether the drone is also fuelled. Basic not included.
+|-
+| <syntaxhighlight lang="json" inline>"x_fuel_grade"</syntaxhighlight><br/>(11 Variables)  ||  <syntaxhighlight lang="gdscript" inline>number</syntaxhighlight>  || The drone's current fuel grade
+|-
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight> || <syntaxhighlight lang="gdscript" inline>Array<number></syntaxhighlight> || 0 or 1, is the suit owned. || <syntaxhighlight lang="pycon">>>> json.stats["drones_suit_owned_array"][3] = 1
+True</syntaxhighlight> Representing Frogger drone being owned.
+|-
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight> || <syntaxhighlight lang="gdscript" inline>Array<number></syntaxhighlight> || Number from 0-15, the "Upgrade" level of the suit || <syntaxhighlight lang="pycon" >>>> print(json.stats["drones_suit_level_array"][7])
+15.0</syntaxhighlight> Representing Void Drone drone being Level 15.
+|}
+
+Information with regards to drones was added in two chunks, one in the older pseudo-array style, and later more information was added in patch 2.2.16 for Drone Suit Levels and their purchase state. This table shows how each value is accessed.
+
+
+
+
+{| class="wikitable mw-code" style="text-align: center;"
+|+ Drone JSON Field Mapping
+|-
+! colspan="2" | Name
+! colspan="2" | Owned
+! Equipped / Fuelled / Fuel Grade
+! colspan="2" | Suit Level
+! colspan="2" | Enhancement
+|-
+! [[File:Drone_Bear.png|36x24px]]
+! Bomb Bear Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[0]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"is_drone_bear_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"is_drone_bear_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Bear_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[0]</syntaxhighlight>
+| {{NA|rowspan=2|colspan=2}}
+|-
+! [[File:Drone_Chain.png|36x24px]]
+! Chain Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[1]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_chain_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_chain_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Chain_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[1]</syntaxhighlight>
+|-
+! [[File:Drone_Midas.png|36x24px]]
+! Midas Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[2]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_midas_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_midas_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Midas_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[2]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"fishing_notices_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[20]</syntaxhighlight>
+|-
+! [[File:Drone_Frogger.png|36x24px]]
+! Frogger Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[3]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_frogger_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_frogger_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Frogger_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[3]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"black_hole_level"</syntaxhighlight>
+! <syntaxhighlight lang="json" inline>>0</syntaxhighlight>
+|-
+! [[File:Drone_Elixir.png|36x24px]]
+! Elixir Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[4]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_elixir_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_elixir_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Elixir_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[4]</syntaxhighlight>
+| {{NA|rowspan=7|colspan=2}}
+|-
+! [[File:Drone_Starburst.png|36x24px]]
+! Starburst Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[5]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_starburst_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_starburst_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Starburst_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[5]</syntaxhighlight>
+|-
+! [[File:Drone_Veinseeker.png|36x24px]]
+! Veinseker Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[6]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_veinseeker_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_veinseeker_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Veinseeker_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[6]</syntaxhighlight>
+|-
+! [[File:Drone_Void.png|36x24px]]
+! Void Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[7]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_void_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_void_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Void_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[7]</syntaxhighlight>
+|-
+! [[File:Drone_Angler.png|36x24px]]
+! Angler Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[8]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_angler_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_angler_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Angler_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[8]</syntaxhighlight>
+|-
+! [[File:Drone_Prism.png|36x24px]]
+! Prism Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[9]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_prism_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_prism_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Prism_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[9]</syntaxhighlight>
+|-
+! [[File:Drone_Minotaur.png|36x24px]]
+! Minotaur Drone
+| <syntaxhighlight lang="json" inline>"drones_suit_owned_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[10]</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"Is_drone_minotaur_equipped"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Is_drone_minotaur_equipped_and_fueled"</syntaxhighlight><br /><syntaxhighlight lang="json" inline>"Minotaur_fuel_grade"</syntaxhighlight>
+| <syntaxhighlight lang="json" inline>"drones_suit_level_array"</syntaxhighlight>
+! <syntaxhighlight lang="ini" inline>[10]</syntaxhighlight>
+|-
+! [[File:Drone_Default.png|36x24px]]
+! Basic
+| {{NA|colspan=2}} 
+|<syntaxhighlight lang="json" inline>"Is_drone_basic_equipped"</syntaxhighlight>
+| {{NA|colspan=2}}
+| {{NA|colspan=2}}
+|}
+
+== Arrays ==
+Added post 2.2 were several arrays of entire menus.
+
+===Challenges===
+{|class="wikitable mw-code text-align-center"
+|+ Challenge Rewards
+|-
+! Field || colspan=4 | Type || Example
+|-
+| rowspan=4 | <syntaxhighlight lang="python" inline>"challenge_rewards_array"</syntaxhighlight> 
+| rowspan=4 | <syntaxhighlight lang="gdscript" inline>Array<number></syntaxhighlight> 
+! Segment 
+!  Indices || Max Value
+| rowspan=5 style="text-align:left" | <syntaxhighlight lang="pycon">
+>>> x = json.stats.challenge_rewards_array[5]
+>>> print(x)
+1.0
+</syntaxhighlight>
+|-
+| [[File:Challenge Coin.png|20x20px]] Regular Challenge || <syntaxhighlight lang="ini" inline>[0:17]</syntaxhighlight> || <syntaxhighlight lang="json" inline>3</syntaxhighlight>
+|-
+| [[File:Extreme Challenge Coin.png|20x20px]] Extreme Challenge || <syntaxhighlight <syntaxhighlight lang="ini" inline>[18:26]</syntaxhighlight>  || <syntaxhighlight lang="json" inline>3</syntaxhighlight>
+|-
+|[[File:Divine Challenge Coin.png|20x20px]] Divine Challenge || <syntaxhighlight <syntaxhighlight lang="ini" inline>[27:51]</syntaxhighlight>  || <syntaxhighlight lang="json" inline>1</syntaxhighlight>
+|}
+Refer to the [[Challenges]] article for a full listing of each item, all items are in order.
+
+===Pets===
+{|class="wikitable mw-code"
+|+ Pet Arrays
+|-
+! Field ||  Type || Max Value || Description || Example 
+|-
+| <syntaxhighlight lang="json" inline>"pet_array"</syntaxhighlight> ||  rowspan="2" | <syntaxhighlight  lang="gdscript"  inline>Array<number></syntaxhighlight>  || <syntaxhighlight lang="json" inline>25</syntaxhighlight> || Pet Levels
+|rowspan="2"| <syntaxhighlight lang="pycon">>>> x = json.stats.pet_array[1]
+>>> print(x)
+25.0</syntaxhighlight>
+|-
+|<syntaxhighlight lang="json" inline>"pet_quest_array"</syntaxhighlight> || <syntaxhighlight lang="json" inline>11</syntaxhighlight> || Pet Quest Level
+|-
+| <syntaxhighlight lang="json" inline>"pet_skin_set_a_array"</syntaxhighlight>  || rowspan=2 | <syntaxhighlight  lang="gdscript" inline>Array<number></syntaxhighlight> || <syntaxhighlight lang="json" inline>1</syntaxhighlight> || Regular Skin owned
+| rowspan="2" | <syntaxhighlight lang="pycon">>>> print(json.stats.pet_skin_set_b_array[5] == 1)
+True</syntaxhighlight>
+|-
+| <syntaxhighlight lang="json" inline>"pet_skin_set_b_array"</syntaxhighlight>  || <syntaxhighlight lang="json" inline>1.0</syntaxhighlight> || Quest Skin owned
+
+|}
+
+{|class="wikitable mwcode  text-align-center"
+|+ Pet Array Indexes
+|-
+! rowspan=2 | Index ||  Level ||  Skin Owned || Quest Skin Owned || Quest Level
+|-
+| <syntaxhighlight lang="json" inline>"pet_array"</syntaxhighlight> || <syntaxhighlight lang="json" inline>"pet_skin_set_a_array"</syntaxhighlight> || <syntaxhighlight lang="json" inline>"pet_skin_set_b_array"</syntaxhighlight> || <syntaxhighlight lang="json" inline>"pet_quest_array"</syntaxhighlight>
+|-
+! <syntaxhighlight lang="ini" inline>[0]</syntaxhighlight> 
+|| [[File:Crab Default.png|24x24px]] Crab || [[File:Crab Skin.png|24x24px]]  Sizzle McSnaps || colspan=2 |  [[File:Crab Quest.png|24x24px]] Steel Scutter
+|-
+! <syntaxhighlight lang="ini" inline>[1]</syntaxhighlight> 
+|| [[File:Dwarf Default.png|24x24px]] Dwarf || [[File:Dwarf Skin.png|24x24px]]  Torvald the Tiny || colspan=2 |  [[File:Dwarf Quest.png|24x24px]] Sir Dappernoggin
+|-
+! <syntaxhighlight lang="ini" inline>[2]</syntaxhighlight> 
+|| [[File:Duck Default.png|24x24px]] Duck || [[File:Duck Skin.png|24x24px]]  Not A Duck || colspan=2 |  [[File:Duck Quest.png|24x24px]] Tony Two-Honks
+|-
+! <syntaxhighlight lang="ini" inline>[3]</syntaxhighlight> 
+|| [[File:Rabbit Default.png|24x24px]] Rabbit || [[File:Rabbit Skin.png|24x24px]]  Fluffy || colspan=2 |  [[File:Rabbit Quest.png|24x24px]] Bloodwhiskers
+|-
+! <syntaxhighlight lang="ini" inline>[4]</syntaxhighlight> 
+|| [[File:Penguin Default.png|24x24px]] Penguin || [[File:Penguin Skin.png|24x24px]]  Monarch Waddle || colspan=2 |  [[File:Penguin Quest.png|24x24px]] Count Waddle
+|-
+! <syntaxhighlight lang="ini" inline>[5]</syntaxhighlight> 
+|| [[File:Axolotl Default.png|24x24px]] Axolotl || [[File:Axolotl Skin.png|24x24px]]  Dorp || colspan=2 |  [[File:Axolotl Quest.png|24x24px]] Snaildog
+|-
+! <syntaxhighlight lang="ini" inline>[6]</syntaxhighlight> 
+|| [[File:Whale Default.png|24x24px]] Whale || [[File:Whale Skin.png|24x24px]]  Meltdown Moby || colspan=2 |  [[File:Whale Quest.png|24x24px]] Blubbercore
+|-
+! <syntaxhighlight lang="ini" inline>[7]</syntaxhighlight> 
+|| [[File:Totem Default.png|24x24px]] Totem || [[File:Totem Skin.png|24x24px]]  Marshall || colspan=2 |  [[File:Totem Quest.png|24x24px]] Teekee
+|-
+! <syntaxhighlight lang="ini" inline>[8]</syntaxhighlight> 
+|| [[File:Happybot Default.png|24x24px]] Happybot || [[File:Happybot Skin.png|24x24px]]  Unhappy-Bot || colspan=2 |  [[File:Happybot Quest.png|24x24px]] Yappy-Bot
+|-
+! <syntaxhighlight lang="ini" inline>[9]</syntaxhighlight> 
+|| [[File:Leprechaun Default.png|24x24px]] Leprechaun || [[File:Leprechaun Skin.png|24x24px]]  Plutonium Paddy || colspan=2 |  [[File:Leprechaun Quest.png|24x24px]] Jolly O'Fella
+|-
+! <syntaxhighlight lang="ini" inline>[10]</syntaxhighlight> 
+|| [[File:Starfish Default.png|24x24px]] Starfish || [[File:Starfish Skin.png|24x24px]]  Storm-51 || colspan=2 |  [[File:Starfish Quest.png|24x24px]] Patricia
+|-
+! <syntaxhighlight lang="ini" inline>[11]</syntaxhighlight> 
+|| [[File:Dino Default.png|24x24px]] Dino || [[File:Dino Skin.png|24x24px]]  Drumstick || colspan=2 |  [[File:Dino Quest.png|24x24px]] Nugget
+|-
+! <syntaxhighlight lang="ini" inline>[12]</syntaxhighlight> 
+|| [[File:Mr Nibbles Default.png|24x24px]] Mr Nibbles || [[File:Mr Nibbles Skin.png|24x24px]]  Dr Cool || colspan=2 |  [[File:Mr Nibbles Quest.png|24x24px]] Mechalodon
+|-
+! <syntaxhighlight lang="ini" inline>[13]</syntaxhighlight> 
+|| [[File:Nagini Default.png|24x24px]] Nagini || [[File:Nagini Skin.png|24x24px]]  Abomination || colspan=2 |  [[File:Nagini Quest.png|24x24px]] Beholder
+|-
+! <syntaxhighlight lang="ini" inline>[14]</syntaxhighlight> 
+|| [[File:Butterfly Default.png|24x24px]] Butterfly || [[File:Butterfly Skin.png|24x24px]]  Scorchwing || colspan=2 |  [[File:Butterfly Quest.png|24x24px]] Flutterfrost
+|-
+! <syntaxhighlight lang="ini" inline>[15]</syntaxhighlight> 
+|| [[File:Rhino Default.png|24x24px]] Rhino || [[File:Rhino Skin.png|24x24px]]  Shaun || colspan=2 |  [[File:Rhino Quest.png|24x24px]] Capybara
+|}
+
+=== Fishing ===
+====Notices====
+{| class="wikitable mw-code text-align-center"
+|+ Fishing Arrays
+|-
+! Type || colspan=4 |  Field ||  Example
+|-
+| rowspan=10 | <syntaxhighlight lang="gdscript" inline>Array<number></syntaxhighlight>
+| rowspan=3 | Notices<br/.><syntaxhighlight lang="json" inline>"fishing_notices_array"</syntaxhighlight> 
+!  Indices !! Segment || Max Value || rowspan=10 style="text-align:left" | <syntaxhighlight lang="pycon">>>> x = json.stats.fishing_enhance_array[0]
+>>> print(x)
+120.0</syntaxhighlight>
+|-
+|<syntaxhighlight lang="python" inline>0 - 14</syntaxhighlight> || [[File:Tier 1 Notice Token.png|20x20px]] Tier 1 Notices  || rowspan="2" | <syntaxhighlight lang="ini" inline>45.0</syntaxhighlight>
+|-
+| <syntaxhighlight lang="python" inline>15 - 26</syntaxhighlight> ||[[File:Tier 2 Notice Token.png|20x20px]] Tier 2 Notices 
+|-
+| rowspan=2 | Upgrades<br/><syntaxhighlight lang="json" inline>"fishing_upgrades_array"</syntaxhighlight>
+|<syntaxhighlight lang="python" inline>0 - 14</syntaxhighlight> ||  [[File:Fishing Boat Upgrade.png]]  Tier 1 Upgrades || rowspan="2" | <syntaxhighlight lang="ini" inline>40.0</syntaxhighlight>
+|-
+| <syntaxhighlight lang="python" inline>15 - 20</syntaxhighlight> || [[File:Fishing Boat Upgrade T2.png]]  Tier 2 Upgrades 
+|-
+| rowspan=2 | Enhancements<br/><syntaxhighlight lang="json" inline>"Fishing_enhance_array"</syntaxhighlight>  || <syntaxhighlight lang="python" inline>0 - 9</syntaxhighlight> || [[File:Fishing Boat Upgrade.png]] Tier 1 Enhance   || rowspan=2 | <syntaxhighlight lang="ini" inline>255.0</syntaxhighlight>
+|-
+| <syntaxhighlight lang="python" inline>10 - 14</syntaxhighlight>|| [[File:Fishing Boat Upgrade T2.png]] Tier 2 Enhance 
+|-
+| Legendary Fish Tributes<br/><syntaxhighlight lang="json" inline>"fishing_legendary_tribute_levels_array"</syntaxhighlight>  || colspan=2  | <syntaxhighlight lang="python" inline>0 - 11</syntaxhighlight> || <syntaxhighlight lang="ini" inline>3.0</syntaxhighlight>
+|-
+| Legendary Fish Cards<br/><syntaxhighlight lang="json" inline>"fishing_legendary_card_levels_array"</syntaxhighlight>  || colspan=2  | <syntaxhighlight lang="python" inline>0 - 11</syntaxhighlight>  || rowspan=2 | <syntaxhighlight lang="ini" inline>4.0</syntaxhighlight>
+|-
+| Regular Fish Cards<br/><syntaxhighlight lang="json" inline>"fishing_regular_card_array"</syntaxhighlight> || colspan=2 | <syntaxhighlight lang="python" inline>0 - 43</syntaxhighlight>
+|} 
+
+{| class="wikitable mw-code" style="text-align: center" 
+|+ Fishing Index reference
+|- id="fih"
+! rowspan=2 | Array || Lake || Desert || Tundra || Ocean || Nuclear || Abyss || Cave || Volcano || Sky || Solaris || Galaxy
+|-
+! [[File:Dock Lake.png|80px|center]]<br/>[[File:Lake Legendary Fish.png]] 
+! [[File: Dock Desert.png|80px|center]] <br/>[[File:Desert Legendary Fish.png]] 
+! [[File:Dock Tundra.png|80px|center]] <br/>[[File:Tundra Legendary Fish.png]] 
+! [[File: Dock Ocean.png|80px|center]] <br/>[[File:Ocean Legendary Fish.png]] 
+! [[File: Dock Nuclear.png|80px|center]] <br/>[[File:Nuclear Legendary Fish.png]] 
+! [[File: Dock Abyss.png|80px|center]]<br/>[[File:Abyss Legendary Fish.png]] 
+! [[file: Dock Cave.png|80px|center]]<br/>[[File:Cave Legendary Fish.png]] 
+! [[File: Dock Volcano.png|80px|center]]<br/>[[File:Volcano Legendary Fish.png]] 
+![[File: Dock Sky.png|80px|center]]<br/>[[File:Sky Legendary Fish.png]] 
+! [[File: Dock Solaris.png|80px|center]]<br/>[[File:Solaris Legendary Fish.png]] 
+![[File: Dock Galaxy.png|80px|center]]<br/>[[File:Galaxy Legendary Fish.png]] 
+|-
+! Legendary Fish
+| <syntaxhighlight lang="python" inline>0</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>1</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>2</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>3</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>4</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>5</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>6</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>7</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>8</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>9</syntaxhighlight>
+| <syntaxhighlight lang="python" inline>10</syntaxhighlight>
+|-
+! Fish
+|<syntaxhighlight lang="python" inline>0 - 3</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>4 - 7</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>8 - 11</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>12 - 15</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>16 - 19</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>20 - 23</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>24 - 27</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>28 - 31</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>32 - 35</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>36 - 39</syntaxhighlight> 
+|<syntaxhighlight lang="python" inline>40 - 43</syntaxhighlight> 
+|}
+
+{| class="wikitable mw-code"
+|+ Card Array values
+|-
+! Value !! <syntaxhighlight lang="ini" inline>0.0</syntaxhighlight> !! <syntaxhighlight lang="ini" inline>1.0</syntaxhighlight> !! <syntaxhighlight lang="ini" inline>2.0</syntaxhighlight> !! <syntaxhighlight lang="ini" inline>3.0</syntaxhighlight> 
+! <syntaxhighlight lang="ini" inline>4.0</syntaxhighlight>
+|-
+! State
+| No Card
+| [[File:Card Backing Standard.png]] Base Card 
+| [[File:Card Backing Gilded.png]] Gilded Card 
+| [[File:Card Backing Polychrome.png]] Polychrome Card 
+| [[File:Card Backing Infernal.png]] Infernal Card 
+|}
+
+{| class="wikitable mw-code"
+|+ Tribute Array Values
+|-
+! Value !! <syntaxhighlight lang="ini" inline>0.0</syntaxhighlight> !! <syntaxhighlight lang="ini" inline>1.0</syntaxhighlight> !! <syntaxhighlight lang="ini" inline>2.0</syntaxhighlight> || <syntaxhighlight lang="ini" inline>3.0</syntaxhighlight>
+|-
+! State
+| Not Caught
+| [[File:Tribute Rank 0.png]] Legendary Caught
+| [[File:Tribute Rank 1.png]] Tribute 1 Completed
+| [[File:Tribute Rank 2.png]] Tribute 2 Completed
+|}
+
+{| class="wikitable mw-code" style="text-align: centre"
+|+ Notable Notice Indices
+|-
+! <syntaxhighlight lang="python" inline>fishing_notices_array[14]</syntaxhighlight>
+|| [[File:Remove World 3 -30% Game Speed Mod.png|24x24p]]  World 3 -30% Game Speed Debuff Removal
+|-
+! <syntaxhighlight lang="python" inline>fishing_notices_array[19]</syntaxhighlight>
+|| [[File:Drone Midas.png|24x24px]]  Midas Drone Enhancement
+|}
+
+== TODO ==
+If you've somehow ended up here before this has been completed, here is some more information not in the pretty format, but instead hastily scribbled raw notes.
+
+<syntaxhighlight>
+relics_array
+JSON Game  Tier      Item
+0     0    Common    Pickaxe Damage
+1     2    Common    Bomb Crit Chance
+2     1    Common    Ore Sell Price
+3    12    Epic      Multi Chest Chance
+4     7    Rare      Triple Rock Chance
+5     6    Rare      Experience Gain
+6    10    Epic      Pickaxe Damage
+7     5    Rare      Bomb Damage
+8    15    Legendary 5x Craft Chance
+9    16    Legendary Prestige Point Gain
+10   11    Epic      Bomb Recharge Speed
+11   17    Legendary Obelisk Fight Length
+12   20    Mythic    20x Craft Chance
+13   21    Mythic    All Bomb Multipliers
+14   22    Mythic    Golden Floor Chance
+15   26    Divine    Rainbow Floor Chance
+16    3    Common    Experience Gain
+17    4    Common    Bomb Crit Damage
+18    8    Rare      Contract Bar Reduction
+19    9    Rare      Fuel Duration
+20   13    Epic      Bomb Capacity
+21   14    Epic      Golden Floor Multi
+22   18    Legendary Vein Income Multiplier
+23   19    Legendary Star Spawn Rate
+24   23    Mythic    Pet Level Up Chance
+25   24    Mythic    Star Supernova Chance
+26   27    Divine    Supernova Multipliers
+27   28    Divine    Rainbow Floor Multi
+28   29    Divine    Fishing Ticks 5x Chance
+
+skill_tree_nodes_array
+ 0    Lucky Strikes
+ 1    Bigger Blasts
+ 2    Ore Efficiency
+ 3    Swing Harder
+ 4    Ingot Intuition
+ 5    All-Round Bomber
+ 6    Arsenal Advancement
+ 7    Easy Progressor
+ 8    Wait my Crits can Crit?
+ 9    PP Go Up
+10    Gems & Chests
+11    Super Damage
+12    Just Wait Faster
+13    Hefty Hammers
+14    Relic Rampage
+15    Chronokeeper
+16    Gem Bomb
+17    Mechanical Evolution
+18    Treasure Hunter
+19    Demolition Expert
+20    Wait My Super Crits Can Crit?
+21    Auto-Bomber
+22    Perfect Gold
+23    Flamboyant Bombs
+24    More Ore More Problems
+25    Free? That's A Great Price!
+26    Wait My Ultra Crits Can Crit?
+27    Do These Upgrades Ever End
+28    Optical Phenomenon
+29    Have You Tried Getting Luckier?
+30    Stonks
+31    Gasoline Guzzler
+32    I Have Wares, If You Have Coin
+33    Y'all Got Any More Of Them Veins?
+34    Saving for a Rainy Day
+35    Who's Asking For All These Bars?
+36    I'm Running Out Of Creative Names
+37    Tons Of Damage
+38    Ctrl+F 'Stars'
+39    Polychrome Power
+40    Three's A Crowd
+41    This Is Gonna Take A While..
+42    Fishing with Friends
+43    Friendship Ended With Tier 1 Items
+44    Let's Pick Up The Pace
+45    With This Fish I Summon Two More Fish
+46    Block Bonker
+47    Avada Keda-'
+48    Please Sir Don't Make Me Prestige Again
+49    Insane In The Vein Gain
+50    Ctrl+C Ctrl+V Stars
+51    Motley School
+52    Completionist Gatekeeper
+53    Flaming Veins
+54    Astral Forge
+55    Leprechaun's Legacy
+56    Anyone Up Lootin' They Bugs
+57    Call Of The Void
+58    Pond Yield
+59    Frog Frenzy
+60    Idle Obelisk Mincer
+61    Why Are There Stars In My Mining Game
+62    I Buried It Here (55.251920, -6.483423)
+63    Take it back now y'all
+64    Portal Schmortal
+65    Mess With The Bull
+66    Straight Outta Yanille
+67    Fronks
+68   Ctrl + S Stars
+</syntaxhighlight>
+<syntaxhighlight lang="diff">
+ Json   Game     Workshop item
+  0      0        Bomb of Plenty Unlocked!
+  1      1        Basic & Chain Damage
+  2      2        Experience Bomb Unlocked!
+  3      3        Chain Bomb Amount
+  4      4        Infinity Bomb Unlocked!
+  5      5        Bomb of Plenty Ore Multi
+  6      6        Cherry Bomb Unlocked!
+  7      7        Pickaxe Damage
+  8      8        D20 Bomb Unlocked!
+  9      9        Exp Bomb Bonus
+  10    10        Megabomb Damage
+  11    11        D20 Max Charges
+  12    12        Chance for 3x Charges
+  13    13        Infinity Scaling
+  14    14        Transmuter Bar Multi
+  15    15        Bomb Damage
+  16    16        Megabomb Damage Mark
+  17    17        Transmuter gives BoP chance
+- 18    19 !      Morph Chance
+- 19    20 !      Pickaxe Damage
+- 20    21 !      Turns Ores Gold
+- 21    18 !      Bomb Damage
+  22    22        Hamburger Bonus
+  23    23        Plenty Bomb Multi
+  24    24        Sushi Fishing Ticks
+  25    25        Fishing Drone Power
+  26    26        Pickaxe & Bomb Damage
+  27    27        Starfruit: All Star Multi
+  28    28        Bomb of Plenty Multi
+  29    29        Bomb Recharge Rate
+  30    30        Lootfrog Loot Multi
+- 31    32 !      Veinseeker Drone Grade Cap
+- 32    33 !      Transmuter Bar Multi
+- 33    34 !      Golden Void Portal Chance
+- 45    31 !       Wizard Loot Multi
+
+lootbug_and_elixir_uptime_array
++ 0 2x Ore Chance
++ 1 3x Vein Chance
++ 2 10x Bomb Recharge
++ 3 2x Star Spawn Rate
++ 4 100% Autocatch Chance
++ 5 3x Experience Gain
++ 6 3x Coal Gain
+- 7 2x Prestige Point Gain (Unavailable, Old Reward)
++ 8 3x Super Star Gain
++ 9 Fishing 3x Tick Speed 
+- 10 3x Golden Ore Multiplier Buff (Unavailable, Old Gift reward)
++ 11 5x Archaeology Fragment Gain
++ 12 5x Fishing Ticks 25% Chance
+
+Index    Item
+0    Apple
+1    Banana Coffee
+2    Rock Cake
+3    Primal Meat
+4    Bread
+5    Pike
+6    Juicy Plums
+7    Strawberries
+8    Charge Magnet
+9    Chaos Totem
+10    Drone Juice
+11    2x Game Speed (Blue Cow)
+12    Skill Shard
+13    Blue Cow
+14    Hamburger
+15    Starfruit
+16    Rainbow Lollipop
+17    Sushi
+18    Lasgna
+19    Ice Cream
+20    Pizza
+21    Lantern
+22    Time Turner
+23    Frogspawn
+24    Forbidden Sushi
+25    Golden Flake Steak
+26    Cosmic Candy
+27    Buttery Lobster
+28    Frogurt
+</syntaxhighlight>

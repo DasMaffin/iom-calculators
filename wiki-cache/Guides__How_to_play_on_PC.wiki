@@ -1,0 +1,82 @@
+This guide explains how to install and play Idle Obelisk Miner on PC using '''Google Play Games (Beta)'''. An alternative method using '''BlueStacks''' is also available for players on Apple devices.<br> Playing Idle Obelisk Miner on PC allows you to use a larger screen, better controls, and keep the game running more comfortably while farming.
+
+== Installing Google Play Games ==
+# Go to the official Google Play Games website: [https://play.google.com/googleplaygames/?hl=en Download Google Play Games].
+# Download and install '''Google Play Games (Beta)'''.
+# Open the application and sign in with your Google account.
+# Complete the setup process and allow any required permissions.
+
+== Installing Idle Obelisk Miner ==
+# Open '''Google Play Games'''.
+# Search for '''Idle Obelisk Miner'''.
+# Select the game and press '''Install'''.
+# Wait for the installation to complete.
+# Launch the game from Google Play Games.
+
+== Alternative Method: BlueStacks (Apple Devices) ==
+If you are using an Apple device, Google Play Games is not available. Instead, you can use an Android emulator such as '''BlueStacks''' to play Idle Obelisk Miner.
+# Download and install BlueStacks from the official website.
+# Open BlueStacks and sign in with your Google account.
+# Open the Google Play Store inside BlueStacks.
+# Search for '''Idle Obelisk Miner'''.
+# Install the game and launch it.
+
+'''Note:''' Make sure you use the same Google account connected to your game progress if you want to access an existing save.
+
+== Linking Your Progress ==
+Before switching devices, make sure your progress is saved.
+{| class="wikitable"
+! Situation !! Action
+|-
+| Already playing on mobile || Make sure your account is linked before installing on PC
+|-
+| Starting fresh || You can begin a new save directly on PC
+|}
+'''Important:''' Use the same account on both devices to access your existing progress.
+
+== PC Advantages ==
+Playing on PC can make certain parts of the game easier:
+
+* Larger screen for managing upgrades and menus
+* Easier navigation through cards, statues, and contracts
+* More comfortable for long farming sessions
+* Better visibility when following guides
+* Easier multitasking while the game is running
+
+== Troubleshooting ==
+=== Google Play Games Does Not Install ===
+Try:
+* Restarting your PC
+* Checking that virtualization is enabled
+* Updating Windows
+* Ensuring enough storage space is available
+
+=== Game Progress Did Not Transfer ===
+Check:
+* You are signed into the same Google account
+* Your original save was properly linked
+* The game has finished syncing
+
+== Requirements ==
+{| class="wikitable sticky-header align-center-1 align-center-2"
+! # !! Requirement
+|-
+| 1 || Windows 10 (v2004 or newer) or Windows 11
+|-
+| 2 || SSD with at least 10 GB of available space
+|-
+| 3 || 8 GB RAM recommended
+|-
+| 4 || Hardware virtualization enabled in BIOS (ON by default)
+|-
+| 5 || A Google account
+|}
+
+== Video Tutorial ==
+<youtube width="400">UbAPBuOriXE</youtube>
+
+== Navigation ==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

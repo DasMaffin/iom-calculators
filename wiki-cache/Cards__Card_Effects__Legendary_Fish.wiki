@@ -1,0 +1,25 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref>
+|-
+|<div id="CardEffects_LegFish_RainbowTrout"></div>{{CardShowcase|card=Lake_Legendary_Fish_Head}} || Rainbow Trout || Rainbow Floor Multi +25% || +50% || +100% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_DunesEelworm"></div>{{CardShowcase|card=Desert_Legendary_Fish_Head}} || Dune's Eelworm || Golden Portal Multi +40% || +80% || +140% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_GlacialShellstealer"></div>{{CardShowcase|card=Tundra_Legendary_Fish_Head}} || Glacial Shellstealer || Rainbow Vein Multi +30% || +60% || +100% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_Megalodon"></div>{{CardShowcase|card=Ocean_Legendary_Fish_Head}} || Megalodon || Star Supernova Multi +35% || +70% || +125% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_RadioactiveSlug"></div>{{CardShowcase|card=Nuclear_Legendary_Fish_Head}} || Radioactive Slug || Bomb Damage/Exp Gain +300% || +500% || +1100% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_Cthulhu"></div>{{CardShowcase|card=Abyss_Legendary_Fish_Head}} || Cthulhu || Divine Relics Cap +1 || +2 || +4 || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_GlimmeringGeoduck"></div>{{CardShowcase|card=Cave_Legendary_Fish_Head}} || Glimmering Geoduck || Banked Freebie Cap +14% || +28% || +52% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_Laviathan"></div>{{CardShowcase|card=Volcano_Legendary_Fish_Head}} || Laviathan || Bar Output Multiplier +40% || +80% || +140% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_StormSerpent"></div>{{CardShowcase|card=Sky_Legendary_Fish_Head}} || Storm Serpent || Super Stonks Multiplier +14% || +28% || +56% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_MeltingGibbous"></div>{{CardShowcase|card=Solaris_Legendary_Fish_Head}} || Melting Gibbous || Gems From Freebie +10% || +20% || +30% || +0.20x/+0.001x
+|-
+|<div id="CardEffects_LegFish_BlackenedBasker"></div>{{CardShowcase|card=Galaxy_Legendary_Fish_Head}} || Blackened Basker || Super Stonks Chance +0.15% || +0.30% || +0.60% || +0.20x/+0.001x
+|}

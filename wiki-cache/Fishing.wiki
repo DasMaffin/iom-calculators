@@ -1,0 +1,835 @@
+{{Version|2.2.23}}
+[[File:Fishing Button.png|frameless|left]]
+Fishing is unlocked at Obelisk Level 37. When a dock's tick meter fills up there is a chance that fish from that dock will be caught. Dock ticks are added to all unlocked docks each time the green bar at the top of the screen fills. Fish can be used to purchase [[Fishing#Upgrades|fishing upgrades]] or complete [[Fishing#Notices|notices]].
+
+The chance to successfully catch a fish is given by the following formula:
+
+<math>\text{Catch chance (percent)} \; = \; 100 \times \frac{\text{Power on the dock}}{\text{Power rating of the fish}}</math>
+
+Note that a catch chance greater than 100% results in a roll to catch additional fish, up to 999%. For example, having a catch chance of 342% guarantees 3 successful catches, and gives a fourth catch 42% of the time.
+
+Having over 100% for all 4 fish in a dock AND the 4 respective poly [[cards]] for those fish allow you to catch a dock's [[Fishing#Legendary Fish|Legendary Fish]]. Giving tributes consisting of fish, stars, veins, bars, and gems to [[Fishing#Legendary Fish|Legendary Fish]] unlocks their buffs. [[Fishing#Legendary Fish|Legendary Fish]] have their own [[Cards#tabber-Legendary_Fish|cards]], which are guaranteed upon successfully catching the fish.
+
+{{clear|left}}
+==In-game description==
+<tabber>
+Page 1=
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote = 
+Fishing functions as a support skill, your progress in fishing helps you complete notices and earn fish tokens, those fish tokens are used to upgrade various game stats!
+
+Don’t expect quick progress right away! Fishing requires patience. Work on building up your power and drone army!
+
+Progress is based off ticks, every tick increases the dock meters, when the dock meter fills up you roll for a % chance at every fish!
+
+Every Fish has a Power Rating which determines the % chance of catching that fish. If a fish has a 170 Power Rating and your Dock Power is 17, you have a 10% chance to catch it when the dock meter fills!
+
+You can go above 100% chance for a fish, this allows you to catch more than 1 fish at once. E.g. 342% = 3 fish, 42% at getting a fourth. Caps at 999%.
+
+Your Game Speed stat does not affect fishing.
+
+Fishing runs in the background at all times, meaning you can progress other parts of the game fully while the fish continue to be fished!
+
+You accumulate fishing ticks when offline and they are all executed when you open the game, making offline fishing identical to online fishing!}}</div>
+|-|
+Page 2=
+<div style="margin:auto;font-size:0.9em">
+<blockquote>
+{| class="wikitable borderless align-center-1"
+|-
+| [[File:Fishing Tab Docks.png]]<br>Docks
+| Assign power to the docks with your fisher and drones to improve your chances of catching fish! Multiple fish can be caught at once with successful % rolls.
+|-
+|[[File:Fishing Tab Notices.png]]<br>Notices
+|Other miners require fish for… various reasons. Complete the notices to earn fish tokens and use those tokens to buy stat upgrades!
+|-
+| [[File:Fishing Tab Upgrades.png]]<br>Upgrades
+| These are your core upgrades – catch fish, spend fish on fish upgrades, get stronger to catch more fish!
+|-
+| [[File:Fishing Tab Enhance.png]]<br>Enhance
+| Enhance upgrades multiply various fishing stats. These function as a Gem sink once your Gem income increases!
+|-
+| [[File:Fishing Tab Aquarium.png]]<br>Aquarium
+| View your beautiful collection of fish here!
+|-
+| [[File:Fishing Tab Legendary.png]]<br>Legendary
+|Each dock homes a legendary fish – Earn all polychrome cards for that dock and have at least 100% power on the fourth fish to be eligible to roll the legendary!
+|}
+</blockquote></div>
+</tabber>
+
+==Fishing Ticks==
+Fishing ticks are the time based progression cycles used in fishing. Each tick increases a dock meter, and when that meter fills in, the game rolls for a chance to catch fish in that Dock based on the current Power Rating. The base wait time between fishing ticks is 60 seconds. However, this can be vastly decreased with [[Stats#tabber-Fishing_Tick_Reduction|Fishing Tick Reduction]]. Moreover, it is possible to obtain multiple fishing ticks at the same time via [[Stats#tabber-Double_Fish_Tick_Chance|Double Fish Tick Chance]], [[Stats#tabber-Triple_Fish_Tick_Chance|Triple Fish Tick Chance]] and [[Stats#tabber-5x_Fish_Tick_Chance|5x Fish Tick Chance]]. Ticks continue while offline and are processed when returning to the game. Ticks can also be bought from [[Lootbugs]] or gained from [[Items]].
+
+== Docks ==
+Docks act as different fishing locations, with unique landscape and various fish tied to specific dock. Each dock has it's own amount of ticks required and when a dock's tick meter fills up, there is a chance for a fish from that dock to be caught.
+
+{| class="wikitable align-center-2 align-center-3"
+! Name !!Base Ticks Needed !!Upgraded Ticks Needed<ref name="Abyss Ticks">[[Fishing#Legendary Fish|Abyss Legendary Tribute 1]]</ref>
+|-
+|Lake||5||4
+|-
+|Desert||8||7
+|-
+|Tundra||12||10
+|-
+|Ocean||16||14
+|-
+|Nuclear||22||19
+|-
+|Abyss||30||21<ref name="Motley">With the [[Skill-Tree#Skills|"Motley School"]] Skill maxed </ref>
+|-
+|Cave||40||24<ref name="Motley" /><ref name="Enhance Ticks">With maxed Tier 2 Dock Ticks [[Fishing#Enhancements|Enhancement]]</ref>
+|-
+|Volcano||50||33<ref name="Motley" /><ref name="Enhance Ticks" />
+|-
+|Sky||60||42<ref name="Motley" /><ref name="Enhance Ticks" />
+|-
+|Solaris||70||51<ref name="Motley" /><ref name="Enhance Ticks" />
+|-
+|Galaxy||80||60<ref name="Motley" /><ref name="Enhance Ticks" />
+|}
+<references />
+
+==Fishing Drones==
+Fishing drones are units that can be assigned to docks and are obtained via [[Fishing#Upgrades|Upgrades]] and [[Fishing#Enhancements|Enhancements]]. They provide additional fishing power, which increases a chance of successfully catching fish. 
+
+Fishing Drones can be improved by increasing their stats:
+* [[Stats#tabber-Fishing_Drone_Capacity|Fishing Drone Capacity]] - Increases the total amount of Fishing Drones available to assign to docks
+* [[Stats#tabber-Fishing_Drone_Base_Power|Fishing Drone Base Power]] - Increases the base power of each Fishing Drone before drone multipliers are applied
+* [[Stats#tabber-Drone_Power_Multiplier| Drone Power Multiplier]] - Multiplies the power of all Fishing Drones
+* Drone Cloner - Multiplies the base amount  of Fishing Drones available
+
+== Notices ==
+Notices ask for random fish in return for Fish Tokens and [[Fishing#Tier 2 Items|Tier 2 Items]]. Tokens can be spent on notice upgrades. As you complete more notices, they will ask for more fish, and fish from further docks. Tier 1 notices, however, will not ask for fish from Tier 2 docks, and vice versa. Completing more notices also slightly decreases the odds of getting certain rare [[Fishing#Tier 2 Items|Tier 2 Items]].
+
+Notices have a mechanic that doesn't allow you to have 3 of the same fish in the notice trades at a time, so if you have 2/3 of the notice trades with the same fish, the last notice trade can't give you that fish. This can be used when you are saving fish for  [[Fishing#Legendary Fish|Legendary Fish]] tributes, spending all other fishes that you don't need and leaving the one you do need. It can also be used if you don't have enough of 1 specific fish but lots of the other fishes, making the most of what you have.
+
+=== Notice Cost Caps ===
+{| class="wikitable"
+|+ Base Caps
+!Notice Type !! Cost Cap
+|-
+|Easy || 250k
+|-
+|Medium || 500k
+|-
+|Hard || 750k
+|-
+|Expert || 1m
+|}
+
+Tier 1 Notice Cost Caps scale based on your Tier 1 Notices Completed (N1) <math>\left(1 + \left \lfloor \frac{\text{N1}}{20\text{k}} \right \rfloor \right) \times \max \left(1, \left \lfloor \frac{\text{N1}}{1\text{m}} \right \rfloor \right)</math><br>
+Tier 2 Notice Cost Caps scale based on your Tier 2 Notices Completed (N2) <math>\left( 1 + \left \lfloor \frac{\text{N2}}{50\text{k}}\right\rfloor \right) \times \max \left(1, \left \lfloor \frac{\text{N2}}{1\text{m}} \right \rfloor \right)</math><br>
+(i.e., the cap increases by the base cap every 20k and 50k Tier 1 and Tier 2 Notices completed, respectively. Pay attention that the brackets in the formulas are bottom brackets indicating the value inside is floored, meaning these cap increases happen at exactly 20k and 50k intervals respectively, they do not slowly increase as notices are completed). The second scaling factor every 1m notices doesn't do anything until you reach 2m notices. At 2m notices completed it doubles the cost cap and at 3m notices completed triples it.
+
+=== Notice Rewards ===
+
+Tier 2 item rewards from notices, [[gifts]], and [[Lootfrogs|frogs]] are chosen from a pool of [[Hamburger]], [[Starfruit|Star Fruit]], [[Lasagna]], and [[Ice cream|Ice Cream]]. There is also a chance for the reward to instead become [[Sushi]], [[Pizza]], or [[Lollipop]], with this chance decreasing as you turn in notices.
+
+The game first rolls for [[Sushi]] with a chance of <math>\frac{1}{10 + R}</math>.<ref name="Notice Example">At 20,000 
+notices: R = 11 → Sushi ~4.76%, Pizza/Lollipop ~3.23%.<br>
+At 50,000 notices: R = 28 → Sushi ~2.63%, Pizza/Lollipop ~2.08%.<br>
+At 175,000 notices: R = 100 → Sushi ~0.91%, Pizza/Lollipop ~0.83%.<br></ref><br>
+After that, it rolls for [[Pizza]] or [[Lollipop]] with a chance of <math>\frac{1}{20 + R}</math>. If this second roll succeeds, it takes priority over [[Sushi]].
+
+If the [[Pizza]]/[[Lollipop]] roll succeeds, [[Pizza]] has a <math>\frac{1}{3}</math> chance and [[Lollipop]] has a <math>\frac{2}{3}</math> chance.
+
+The value <math>R</math> scales based on completed fishing notices<ref name="notice-change">In version 2.2.15 and earlier, only T1 notices were counted. From 2.2.20 onward, all notices are counted.</ref>:
+
+<math>
+R = \min\left(\left\lfloor\frac{\text{Completed Notices}}{1750}\right\rfloor, 100\right)
+</math>
+
+This means the chances for Sushi, Pizza, and Lollipop follows the graph below:
+[[File:T2 item odds.png|none|thumb|The chances for Sushi, Pizza and Lollipops decreases with notices complete, up to 175k where it is capped.]]
+
+T2 fishing notices use the same function. <ref name="notice-change"/>
+
+<references />
+
+=== Notice Upgrades ===
+<tabber>
+Tier 1 Notice Upgrades=
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name !! Effect !! Max Level <ref name="T1 Notice Cap">The Tier 2 Notice Upgrade "Tier 1 Notice Upgrade Cap" provides 5 cap initially. Melting Gibbous Tribute 1 provides, in total, 10 additional Tier 1 cap. Then another 5 cap can be gained from an [[Arcanist#Exchange_Upgrades|Exchange Upgrade]].</ref> !! style="width:6.2em" | Unlock Level <ref name=LevelsToUnlock>Relates to amount of levels needed in previous upgrade to unlock next one</ref>
+|-
+|<div id="Upgrades_T1_GoldenFloorMultiplier"></div>[[File:Golden_Floor_Multiplier.png]] || Golden Floor Multiplier
+| 1.02x || 25-{{GetT1NoticeCap|25}} || {{NA}}
+|-
+|<div id="Upgrades_T1_RainbowVeinMultiplier"></div>[[File:Rainbow Vein Multiplier.png]] || Rainbow Vein Multiplier
+| 1.05x || 25-{{GetT1NoticeCap|25}} || 3
+|-
+|<div id="Upgrades_T1_PickaxeAndBombDamage"></div>[[File:Pickaxe and Bomb Damage.png]] || Pickaxe & Bomb Damage
+| 1.15x || 25-{{GetT1NoticeCap|25}} || 3
+|-
+|<div id="Upgrades_T1_AllStarMultiplier"></div>[[File:All_Star_Multiplier.png]] || All star Multiplier 
+| +1% || 20-{{GetT1NoticeCap|20}} || 3
+|-
+|<div id="Upgrades_T1_RainbowFloorChance"></div>[[File:Rainbow_Floor_Chance.png]] || Rainbow Floor Chance
+| +2% || 1  || 3
+|-
+|<div id="Upgrades_T1_ExperienceGainMultiplier"></div>[[File:Experience_Gain_Multiplier.png]] || Experience Gain
+| 1.25x || 30-{{GetT1NoticeCap|30}} || 1
+|-
+|<div id="Upgrades_T1_TripleContractPointChance"></div>[[File:Triple_Contract_Point_Chance.png]] || Triple Contract Chance
+| +1% || 15-{{GetT1NoticeCap|15}} || 3
+|-
+|<div id="Upgrades_T1_PetLevelUpChance"></div>[[File:Pet_Level_Up_Chance.png]] || Pet Level Up Chance
+| +0.50% || 20-{{GetT1NoticeCap|20}} || 3
+|-
+|<div id="Upgrades_T1_SuperStarSupernovaMultiplier"></div>[[File:Super_Star_Supernova_Multiplier.png]] || Super Star Supernova Multi
+| +4% || 15-{{GetT1NoticeCap|15}} || 3
+|-
+|<div id="Upgrades_T1_AllFloorMultiplier"></div>[[File:All_Floor_Multis_(Gold,Rainbow,Galactic).png]] || All Floor Multiplier
+| +20% || 1 || 3
+|-
+|<div id="Upgrades_T1_BombRechargeRate"></div>[[File:Bomb_Recharge_Speed.png]] || Bomb Recharge Rate
+| +0.50% || 20-{{GetT1NoticeCap|20}}|| 1
+|-
+|<div id="Upgrades_T1_GoldenVeinMultiplier"></div>[[File:Golden_Vein_Multiplier.png]] || Golden Vein Multiplier
+| 1.04x || 25-{{GetT1NoticeCap|25}} ||3
+|-
+|<div id="Upgrades_T1_StarSupernovaMultiplier"></div>[[File:Star_Supernova_Multiplier.png]] || Star Supernova Multiplier
+| +1x || 3-{{GetT1NoticeCap|3}}||3
+|-
+|<div id="Upgrades_T1_10xCraftChance"></div>[[File:10x_Craft_Chance.png]] || 10x [[Craft#Craft_Chance|Craft Chance]]
+| +0.5% || 10-{{GetT1NoticeCap|10}}||1
+|-
+|<div id="Upgrades_T1_RemoveWorld3GameSpeedMod"></div>[[File:Remove World 3 -30% Game Speed Mod.png]] || Remove World 3 -30% Game Speed Mod 
+| +30% || 1 ||3
+|}
+|-|
+Tier 2 Notice Upgrades=
+{|class="wikitable align-left-2 text-align-center"
+! colspan=2 | Name !! Effect !! Max Level <ref name="T2 Notice Cap"> Melting Gibbous Tribute 1 provides 5 additional Tier 2 cap. </ref> !! style="width:6.2em" | Unlock Level <ref name=LevelsToUnlock />
+|-
+|<div id="Upgrades_T2_10xContractPointChance"></div>[[File:10x_Contract_Point_Chance.png]] || 10x Contract Chance
+| +0.1%  || 25-{{GetT2NoticeCap|25}}  ||1
+|-
+|<div id="Upgrades_T2_VeinseekerGradeCap"></div>[[File:Drone Veinseeker Icon.png|32x32px]] || Veinseeker Grade Cap
+| +1 || 25-{{GetT2NoticeCap|25}} ||5
+|-
+|<div id="Upgrades_T2_100xCraftChance"></div>[[File:100x_Craft_Chance.png]] || 100x Craft Chance
+| +0.1%|| 15-{{GetT2NoticeCap|15}} ||5
+|-
+|<div id="Upgrades_T2_StarSupergiantChance"></div>[[File:Star_Supergiant_Chance.png]] || Star Supergiant Chance
+| +0.2%|| 25-{{GetT2NoticeCap|25}} ||5
+|-
+|<div id="Upgrades_T2_MidasDroneEnhancement"></div>[[File:Drone Midas Icon.png|32x32px]] || Midas Drone Enhancement<br>+0.5% All Star Multi Per Grade<br>Midas Grade Cap: +25
+| +1||1||5
+|-
+|<div id="Upgrades_T2_FreebieJackpotChance"></div>[[File:Chance_For_Freebie_Jackpot.png]] || Freebie Jackpot Chance
+| +0.1%|| 25-{{GetT2NoticeCap|25}} ||1
+|-
+|<div id="Upgrades_T2_Tier1NoticeUpgradeCap"></div>[[File:Gem_Upgrade_Cap_Increase.png]] || Tier 1 Notice Upgrade Cap
+| +1|| 5-{{GetT2NoticeCap|5}} ||5
+|-
+|<div id="Upgrades_T2_LasagnaGoldenOreMulti"></div>[[File:Lasagna.png]] || Lasagna: Golden Ore Multi
+| +0.15x|| 25-{{GetT2NoticeCap|25}} ||5
+|}
+</tabber>
+<references />
+
+=== Notice Upgrade Cost ===
+==== Tier 1 Notice Upgrade Costs ====
+<tabber>|-|
+Golden Floor Multiplier=
+{{CostTable|{{Sprite|Golden Floor Multiplier|Stats#tabber-Golden Floor Multiplier|16}}|{{GetT1NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|20|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Rainbow Vein Multiplier=
+{{CostTable|{{Sprite|Rainbow Vein Multiplier|Stats#tabber-Rainbow Vein Multiplier|16}}|{{GetT1NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|30|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Pickaxe & Bomb Damage=
+{{CostTable|{{Sprite|Pickaxe Damage|Stats#tabber-Pickaxe Damage|16|Pickaxe}} & {{Sprite|Bomb Damage|Stats#tabber-Bomb Damage|16}}|{{GetT1NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|40|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+All Star Multiplier=
+{{CostTable|{{Sprite|All Star Multiplier|Stats#tabber-All Star Multiplier|16|All Star Multiplier}}|{{GetT1NoticeCap|20}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|55|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Rainbow Floor Chance=
+{{CostTable|{{Sprite|Rainbow Floor Chance|Stats#tabber-Rainbow Floor Chance|16}}|1|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|750|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Experience Gain=
+{{CostTable|{{Sprite|Experience Gain Multiplier|Stats#tabber-Experience Gain Multiplier|16|Experience Gain}}|{{GetT1NoticeCap|30}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|85|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Triple Contract Chance=
+{{CostTable|{{Sprite|Triple Contract Point Chance|Stats#tabber-Triple Contract Point Chance|16|Triple Contract Chance}}|{{GetT1NoticeCap|15}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|100|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Pet Level Up Chance=
+{{CostTable|{{Sprite|Pet Level Up Chance|Stats#tabber-Pet Level Up Chance|16}}|{{GetT1NoticeCap|20}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|120|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Super Star Supernova Multi=
+{{CostTable|{{Sprite|Super Star Supernova Multiplier|Stats#tabber-Super Star Supernova Multiplier|16|Super Star Supernova Multiplier}}|{{GetT1NoticeCap|15}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|150|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+All Floor Multipliers=
+{{CostTable|{{Sprite|All_Floor_Multis_(Gold,Rainbow,Galactic)|Stats#tabber-All Floor Multis|16|All Floor Multipliers}}|1|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1500|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Bomb Recharge Rate=
+{{CostTable|{{Sprite|Bomb Recharge Speed|Stats#tabber-Bomb Recharge Speed|16|Bomb Recharge Rate}}|{{GetT1NoticeCap|20}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|200|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Golden Vein Multiplier=
+{{CostTable|{{Sprite|Golden Vein Multiplier|Stats#tabber-Golden Vein Multiplier|16}}|{{GetT1NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|240|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Star Supernova Multiplier=
+{{CostTable|{{Sprite|Star Supernova Multiplier|Stats#tabber-Star Supernova Multiplier|16}}|{{GetT1NoticeCap|3}}|1.5|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|500|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+10x Craft Chance=
+{{CostTable|{{Sprite|10x Craft Chance|Stats#tabber-10x Craft Chance|16}}|{{GetT1NoticeCap|10}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|300|Tier 1 Notice Token|Tier 1 Notice Token}}
+
+|-|
+Remove World 3 -30% Game Speed Mod=
+{{CostTable|{{Sprite|Remove World 3 -30% Game Speed Mod||16}}|1|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2500|Tier 1 Notice Token|Tier 1 Notice Token}}</tabber>
+
+==== Tier 2 Notice Upgrade Costs ====
+<tabber>|-|
+10x Contract Chance=
+{{CostTable|10x Contract Chance|{{GetT2NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|80|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Veinseeker Grade Cap=
+{{CostTable|[[Drones|Veinseeker]] Grade Cap|{{GetT2NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|125|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+100x Craft Chance=
+{{CostTable|100x [[Craft#Craft_Chance|Craft Chance]]|{{GetT2NoticeCap|15}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|250|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Star Supergiant Chance=
+{{CostTable|[[Stargazing|Star]] Supergiant Chance|{{GetT2NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|175|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Midas Drone Enhancement=
+{{CostTable|[[Drones|Midas Drone]] Enhancement|1|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3000|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Freebie Jackpot Chance=
+{{CostTable|[[Store#Freebie|Freebie]] Jackpot Chance|{{GetT2NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|315|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Tier 1 Notice Upgrade Cap=
+{{CostTable|Tier 1 Notice Upgrade Cap|{{GetT2NoticeCap|5}}|1.5|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1500|Tier 2 Notice Token|Tier 2 Notice Token}}
+
+|-|
+Lasagna: Golden Ore Multi=
+{{CostTable|[[Fishing#Lasagna|Lasagna]]: Golden Ore Multi|{{GetT2NoticeCap|25}}|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|335|Tier 2 Notice Token|Tier 2 Notice Token}}</tabber>
+
+==Tier 2 Items==
+{{See also|Items#tabber-Tier_2_items}}
+
+== Upgrades ==
+Upgrades can be bought with fish. These upgrades allow fish to be caught quicker.
+<tabber>
+Tier 1 Upgrades=
+{| class="wikitable align-center-4 align-center-5 align-center-6"
+|+Tier 1 Upgrades
+! colspan=2 | Name  !! Perk  !! Increase Per Level !! Max Level  !! Boat Level
+|-
+|<div id="Upgrades_T1_FishingRod"></div>[[File:Fishing_Rod_Power.png]] || Fishing Rod 
+| Increases the power of the fishing rod, improving power to the assigned dock {{CollapsedDescription|You can assign your miner (turned fisher) to a specific dock to increase the power on that dock, more power {{=}} improved fish chance!}} || x1.16 || 60 || {{NA}}
+|-
+|<div id="Upgrades_T1_FishingDrone_1"></div>[[File:Fishing_Drone_Capacity.png]] || Fishing Drone 
+| Gives +1 Fishing Drone to assign to docks for fishing power {{CollapsedDescription|Fishing drones can be assigned to any dock to increase the docks power!}}|| +1 || 50 || {{NA}}
+|-
+|<div id="Upgrades_T1_UpgradeBoat"></div>[[File:Fishing Boat Upgrade.png]] || Upgrade Boat 
+| Upgrades your Boat, allowing you to travel to new docks {{CollapsedDescription|Upgrade your boat, unlock new docks!}}|| +1 || 5 || {{NA}}
+|-
+|<div id="Upgrades_T1_TickSpeed"></div>[[File:Fishing_Tick_Reduction.png]] || Tick Speed 
+| Increases the speed of the fishing tick meter {{CollapsedDescription|This makes ticks occur faster, speeding up your fishing progress!}}|| +0.50s || 40 || 1
+|-
+|<div id="Upgrades_T1_FishMultiplier></div>[[File:Fish_Income_Multiplier.png]] || Fish Multiplier 
+| Increases the amount of fish you gain per successful catch  {{CollapsedDescription|Increases the amount of fish you get. If your multiplier is e.g. 1.52x, you get 1 fish with a 52% chance to get 2.}}|| +0.03x || 30 || 1
+|-
+|<div id="Upgrades_T1_RodMultiplier"></div>[[File:Fishing_Rod_Power.png]] || Rod Multiplier 
+| Multiplies the power of the fishing rod {{CollapsedDescription|Makes the fishing rod stronger, improving the power to the fisher assigned dock.}}|| +0.04x || 20 || 2
+|-
+|<div id="Upgrades_T1_DroneMultiplier"></div>[[File:Drone_Power_Multiplier.png]] || Drone Multiplier 
+| Multiplies the power of your drones {{CollapsedDescription|Multiplies the power of all your drones, increasing dock power they are assigned to.}}|| +0.06x || 20 || 2
+|-
+|<div id="Upgrades_T1_DoubleTickChance"></div>[[File:Double_Fish_Tick_Chance.png]] || Double Tick Chance
+| Chance for 2 fishing ticks to occur at once {{CollapsedDescription|When the fishing tick meter at the top of the screen fills up, it has a chance to proc twice!}}|| +0.50% || 30 || 3
+|-
+|<div id="Upgrades_T1_FishingDrone_2"></div>[[File:Fishing_Drone_Capacity.png]] || Fishing Drone 
+| Gives +2 Fishing Drones to assign to docks for fishing power {{CollapsedDescription|Fishing drones can be assigned to any dock to increase the docks power!}}|| +2 || 30 || 3
+|-
+|<div id="Upgrades_T1_ShinyFishChance"></div>[[File:Shiny_Fish_Chance.png]] || Shiny Fish Chance
+| Chance for a catch to be shiny, giving bonus fish {{CollapsedDescription|When catching a shiny fish, the total fish amount caught is multiplied by your shiny fish multiplier.}}|| +0.50% || 25 || 4
+|-
+|<div id="Upgrades_T1_DroneBasePower"></div>[[File:Fishing_Drone_Base_Power.png]] || Drone Base Power
+| Increases the base power of your drones {{CollapsedDescription|Adds flat base damage to your drones, which is then multiplied by all drone multipliers!}}|| +0.25 || 30 || 4
+|-
+|<div id="Upgrades_T1_TripleTickChance"></div>[[File:Triple_Fish_Tick_Chance.png]] || Triple Tick Chance
+| Chance for 3 fishing ticks to occur at once {{CollapsedDescription|When the fishing tick meter at the top of the screen fills up, it has a chance to proc thrice!}}|| +0.35% || 25 || 4
+|}
+|-|
+Tier 2 Upgrades=
+{|class="wikitable align-center-4 align-center-5 align-center-6"
+|+Tier 2 Upgrades
+! colspan=2 | Name  !! Perk  !! Increase Per Level !! Max Level  !! Boat Level
+|-
+|<div id="Upgrades_T2_UpgradeTier2Boat"></div>[[File:Fishing Boat Upgrade T2.png]] || Upgrade Tier 2 Boat
+|Upgrades your Tier 2 Boat, allowing you to travel to even more docks {{CollapsedDescription|Upgrade your Tier 2 Boat, unlock new docks!}}|| +1 || 5 || 5
+|-
+|<div id="Upgrades_T2_ShinyMultiplier"></div>[[File:Shiny_Multiplier.png]] || Shiny Multiplier 
+|Increase the value of shiny fish! {{CollapsedDescription|Shiny fish multiplier increases the value of shiny fish!}}|| +0.05x || 20 || T2 Boat 1
+|-
+|<div id="Upgrades_T2_Tier2DockPower"></div>[[File:Tier_2_Dock_Power.png]] || Tier 2 Dock Power
+|Increase your Power on Tier 2 Docks! {{CollapsedDescription|Increases your power on Tier 2 docks, this is a multiplier added onto the end of your dock power calculation.}}|| +0.05x || 20 || T2 Boat 2
+|-
+|<div id="Upgrades_T2_SuperShinyChance"></div>[[File:Super_Shiny_Fish_Chance.png]] || Super Shiny Chance
+|Make your Shiny Fish become Super Shiny! {{CollapsedDescription|Super Shiny fish are the next level of multiplier, like Mining Super Crits. Roll a Shiny Fish to be Eligible to make it Super Shiny!}} || +1% ||20 ||T2 Boat 3
+|-
+|<div id="Upgrades_T2_PolyCardMulti"></div>[[File:Super_Shiny_Multiplier.png]] || Poly Card Multi
+|Increases your Fish Polychrome Card Multiplier! {{CollapsedDescription|Adds a flat multiplier to your Fish Polychrome Card Multiplier.}}|| +0.08x ||25 || T2 Boat 4
+|-
+|<div id="Upgrades_T2_DroneCloner"></div>[[File:Fishing Drone Cloner.png]] || Drone Cloner
+|Multiply your total Fishing Drones! {{CollapsedDescription|Multiplies your total amount of Fishing Drones, giving you more Fishing Drones! (Woah)}} ||+0.05x ||30 || T2 Boat 5
+|}
+</tabber>
+
+===Upgrade Costs===
+====Tier 1 Upgrades====
+<tabber>
+Fishing Rod=
+{{CostTable|Fishing Rod|60|1.23|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10|Guppy|Guppy|overrideLevel=51=1564000|overrideCostType=3=Bass,4=Bass,5=Catfish,6=Catfish,7=Golden Trout,8=Golden Trout,9=Sandscale Carp,10=Sandscale Carp,11=Armored Roller,12=Armored Roller,13=Spiny Puffer,14=Spiny Puffer,15=Scarabshoe Crab,16=Scarabshoe Crab,17=Snow-bellied Swarmer,18=Snow-bellied Swarmer,19=Frostshell Crab,20=Frostshell Crab,21=Frostdrip Spearfish,22=Frostdrip Spearfish,23=Auroreel,24=Auroreel,25=Coralstar,26=Coralstar,27=Anchorfin Stingray,28=Anchorfin Stingray,29=Pearlescent Tetra,30=Pearlescent Tetra,31=Gem Whale,32=Gem Whale,33=Ionizing Eel,34=Ionizing Eel,35=Gammangler Fish,36=Gammangler Fish,37=Elephant's Blob,38=Elephant's Blob,39=Wastefish,40=Wastefish,41=Hadal Crusher,42=Gem Whale,43=Ionizing Eel,44=Gammangler Fish,45=Pearlescent Tetra,46=Frostdrip Spearfish,47=Sandscale Carp,48=Gem Whale,49=Elephant's Blob,50=Wastefish,51=Sturgem,52=Conductive Eel,53=Lava Snail,54=Obsidian-Tooth Barracuda,55=Cloudcutter Manta,56=Shocksailfish,57=UFO,58=Sub-Solar Squid,59=Gamma Rayburst Shrimp,60=Galaxia Whale}}
+|-|
+Fishing Drone=
+{{CostTable|Fishing Drone|50|1.22|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|12|Bass|Bass|overrideCostType=2=Guppy,4=Guppy,5=Catfish,6=Guppy,7=Catfish,8=Golden Trout,9=Sandscale Carp,10=Armored Roller,12=Sandscale Carp,13=Golden Trout,14=Spiny Puffer,15=Golden Trout,16=Armored Roller,17=Scarabshoe Crab,18=Sandscale Carp,19=Armored Roller,20=Spiny Puffer,21=Scarabshoe Crab,22=Snow-bellied Swarmer,23=Snow-bellied Swarmer,24=Snow-bellied Swarmer,25=Guppy,26=Frostshell Crab,27=Frostshell Crab,28=Frostshell Crab,29=Frostdrip Spearfish,30=Frostdrip Spearfish,31=Coralstar,32=Coralstar,33=Coralstar,34=Anchorfin Stingray,35=Anchorfin Stingray,36=Anchorfin Stingray,37=Golden Trout,38=Golden Trout,39=Golden Trout,40=Spiny Puffer,41=Spiny Puffer,42=Spiny Puffer,43=Ionizing Eel,44=Golden Trout,45=Ionizing Eel,46=Scarabshoe Crab,47=Ionizing Eel,48=Gammangler Fish,49=Gammangler Fish,50=Gammangler Fish}}
+|-|
+Upgrade Boat=
+{{CostTable|Upgrade Boat|5|3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|15|Golden Trout|Golden Trout
+|overrideCostType=2=Scarabshoe Crab,3=Auroreel,4=Gem Whale,5=Wastefish}}
+|-|
+Tick Speed=
+{{CostTable|Tick Speed|40|1.24|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|40|Bass|Bass|overrideCostType=2=Catfish,3=Golden Trout,4=Sandscale Carp,5=Armored Roller,6=Sandscale Carp,7=Golden Trout,8=Catfish,10=Armored Roller,11=Spiny Puffer,12=Scarabshoe Crab,13=Snow-bellied Swarmer,14=Frostshell Crab,15=Frostdrip Spearfish,16=Frostshell Crab,17=Snow-bellied Swarmer,18=Scarabshoe Crab,19=Frostshell Crab,20=Auroreel,21=Coralstar,22=Anchorfin Stingray,23=Pearlescent Tetra,24=Gem Whale,25=Pearlescent Tetra,26=Anchorfin Stingray,27=Coralstar,28=Auroreel,29=Frostdrip Spearfish,30=Frostshell Crab,31=Snow-bellied Swarmer,32=Scarabshoe Crab,33=Spiny Puffer,34=Armored Roller,35=Sandscale Carp,36=Golden Trout,37=Catfish,39=Guppy}}
+|-|
+Fish Multiplier=
+{{CostTable|Fish Multiplier|30|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|55|Guppy|Guppy|overrideCostType=2=Bass,3=Catfish,4=Golden Trout,5=Sandscale Carp,6=Armored Roller,7=Spiny Puffer,8=Scarabshoe Crab,10=Bass,11=Catfish,12=Golden Trout,13=Sandscale Carp,14=Armored Roller,15=Spiny Puffer,16=Scarabshoe Crab,18=Bass,19=Catfish,20=Golden Trout,21=Sandscale Carp,22=Armored Roller,23=Spiny Puffer,24=Scarabshoe Crab,26=Bass,27=Catfish,28=Golden Trout,29=Sandscale Carp,30=Armored Roller}}
+|-|
+Rod Multiplier=
+{{CostTable|Rod Multiplier|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|75|Sandscale Carp|Sandscale Carp|overrideCostType=3=Armored Roller,4=Armored Roller,5=Golden Trout,6=Golden Trout,9=Armored Roller,10=Armored Roller,11=Spiny Puffer,12=Spiny Puffer,13=Snow-bellied Swarmer,14=Snow-bellied Swarmer,15=Snow-bellied Swarmer,16=Snow-bellied Swarmer,17=Frostshell Crab,18=Frostshell Crab,19=Frostshell Crab,20=Frostshell Crab}}
+|-|
+Drone Multiplier=
+{{CostTable|Drone Multiplier|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|95|Armored Roller|Armored Roller|overrideCostType=3=Spiny Puffer,4=Spiny Puffer,5=Snow-bellied Swarmer,6=Snow-bellied Swarmer,7=Frostshell Crab,8=Frostshell Crab,9=Golden Trout,10=Golden Trout,11=Scarabshoe Crab,12=Scarabshoe Crab,13=Frostdrip Spearfish,14=Frostdrip Spearfish,15=Snow-bellied Swarmer,16=Snow-bellied Swarmer,17=Spiny Puffer,18=Guppy,19=Golden Trout,20=Golden Trout}}
+|-|
+Double Tick Chance=
+{{CostTable|Double Tick Chance|30|1.22|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|125|Snow-bellied Swarmer|Snow-bellied Swarmer|overrideCostType=4=Frostshell Crab,5=Frostshell Crab,6=Frostshell Crab,10=Frostshell Crab,11=Frostshell Crab,12=Frostshell Crab,13=Frostdrip Spearfish,14=Frostdrip Spearfish,15=Frostdrip Spearfish,16=Spiny Puffer,17=Spiny Puffer,18=Spiny Puffer,19=Coralstar,20=Coralstar,21=Coralstar,22=Anchorfin Stingray,23=Anchorfin Stingray,24=Anchorfin Stingray,25=Coralstar,26=Coralstar,27=Coralstar,28=Anchorfin Stingray,29=Guppy,30=Guppy}}
+|-|
+Fishing Drone=
+{{CostTable|Fishing Drone|30|1.22|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|145|Guppy|Guppy|overrideCostType=2=Bass,3=Catfish,4=Golden Trout,5=Sandscale Carp,6=Armored Roller,7=Spiny Puffer,8=Scarabshoe Crab,9=Snow-bellied Swarmer,10=Frostshell Crab,11=Frostdrip Spearfish,12=Auroreel,14=Bass,15=Catfish,16=Golden Trout,17=Sandscale Carp,18=Armored Roller,19=Spiny Puffer,20=Scarabshoe Crab,21=Snow-bellied Swarmer,22=Frostshell Crab,23=Frostdrip Spearfish,24=Auroreel,26=Bass,27=Catfish,28=Golden Trout,29=Sandscale Carp,30=Armored Roller}}
+|-|
+Shiny Fish Chance=
+{{CostTable|Shiny Fish Chance|25|1.23|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|175|Catfish|Catfish|overrideCostType=2=Spiny Puffer,3=Frostdrip Spearfish,5=Spiny Puffer,6=Frostdrip Spearfish,7=Coralstar,8=Anchorfin Stingray,9=Frostdrip Spearfish,11=Spiny Puffer,12=Frostdrip Spearfish,13=Spiny Puffer,14=Frostdrip Spearfish,15=Pearlescent Tetra,16=Coralstar,17=Guppy,18=Guppy,19=Coralstar,20=Frostdrip Spearfish,21=Pearlescent Tetra,22=Coralstar,23=Frostdrip Spearfish,24=Pearlescent Tetra,25=Coralstar}}
+|-|
+Drone Base Power=
+{{CostTable|Drone Base Power|30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|205|Guppy|Guppy|overrideCostType=2=Sandscale Carp,3=Snow-bellied Swarmer,4=Coralstar,6=Sandscale Carp,7=Snow-bellied Swarmer,8=Coralstar,10=Sandscale Carp,11=Snow-bellied Swarmer,12=Coralstar,14=Sandscale Carp,15=Snow-bellied Swarmer,16=Coralstar,17=Snow-bellied Swarmer,18=Snow-bellied Swarmer,19=Frostshell Crab,20=Frostshell Crab,21=Frostdrip Spearfish,22=Frostdrip Spearfish,23=Auroreel,24=Auroreel,25=Coralstar,26=Guppy,27=Bass,28=Catfish,29=Golden Trout,30=Pearlescent Tetra}}
+|-|
+Triple Tick Chance=
+{{CostTable|Triple Tick Chance|25|1.23|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|245|Golden Trout|Golden Trout|overrideCostType=4=Scarabshoe Crab,5=Scarabshoe Crab,6=Scarabshoe Crab,7=Auroreel,8=Auroreel,9=Auroreel,10=Coralstar,11=Coralstar,12=Coralstar,13=Anchorfin Stingray,14=Anchorfin Stingray,15=Anchorfin Stingray,16=Pearlescent Tetra,17=Pearlescent Tetra,18=Pearlescent Tetra,19=Ionizing Eel,20=Ionizing Eel,21=Gammangler Fish,22=Gammangler Fish,23=Elephant's Blob,24=Elephant's Blob,25=Elephant's Blob}}
+</tabber>
+
+====Tier 2 Upgrades====
+<tabber>
+Upgrade T2 Boat=
+{{CostTable|Upgrade T2 Boat|5|1.5|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2000000|Wreckshell Pilferer|Wreckshell Pilferer|overrideCostType=2=Arapaim-al,3=Basalturtle,4=Lunar Sunfish,5=Planetary Jellyfish}}
+|-|
+Shiny Multiplier=
+{{CostTable|Shiny Multiplier|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|215000|Stonescale Carp|Stonescale Carp|overrideCostType=2=Sturgem,3=Conductive Eel,4=Arapaim-al,5=Stonescale Carp,6=Sturgem,7=Conductive Eel,8=Arapaim-al,9=Molten Archerfish,10=Lava Snail,11=Obsidian-Tooth Barracuda,12=Basalturtle,13=Molten Archerfish,14=Lava Snail,15=Obsidian-Tooth Barracuda,16=Basalturtle,17=Cloudcutter Manta,18=Shocksailfish,19=Lunar Sunfish,20=Basalturtle}}
+|-|
+Tier 2 Dock Power=
+{{CostTable|Tier 2 Dock Power|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|325000|Molten Archerfish|Molten Archerfish|overrideCostType=2=Lava Snail,3=Obsidian-Tooth Barracuda,4=Basalturtle,5=Stonescale Carp,6=Sturgem,7=Conductive Eel,8=Arapaim-al,9=Molten Archerfish,10=Lava Snail,11=Obsidian-Tooth Barracuda,12=Basalturtle,13=Sunglazed Flying Fish,14=Cloudcutter Manta,15=Shocksailfish,16=Lunar Sunfish,17=Lanternfish Comet,18=UFO,19=Sub-Solar Squid,20=Planetary Jellyfish}}
+|-|
+Super Shiny Chance=
+{{CostTable|Super Shiny Chance|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|475000|Sunglazed Flying Fish|Sunglazed Flying Fish|overrideCostType=2=Cloudcutter Manta,3=Shocksailfish,4=Lunar Sunfish,5=Sunglazed Flying Fish,6=Cloudcutter Manta,7=Shocksailfish,8=Lunar Sunfish,9=Lanternfish Comet,10=UFO,11=Sub-Solar Squid,12=Planetary Jellyfish,13=Heliocentric Clam,14=Gamma Rayburst Shrimp,15=Galaxia Whale,16=Dark Matter Blackdragon,17=Lunar Sunfish,18=Lanternfish Comet,19=UFO,20=Sub-Solar Squid}}
+|-|
+Poly Card Multi=
+{{CostTable|Poly Card Multi|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|625000|Lanternfish Comet|Lanternfish Comet|overrideCostType=3=UFO,4=UFO,5=Sub-Solar Squid,6=Sub-Solar Squid,7=Planetary Jellyfish,8=Planetary Jellyfish,9=Molten Archerfish,10=Molten Archerfish,11=Lava Snail,12=Lava Snail,13=Obsidian-Tooth Barracuda,14=Obsidian-Tooth Barracuda,15=Basalturtle,16=Basalturtle,17=Planetary Jellyfish,18=Planetary Jellyfish,19=Heliocentric Clam,20=Heliocentric Clam,21=Gamma Rayburst Shrimp,22=Gamma Rayburst Shrimp,23=Galaxia Whale,24=Galaxia Whale,25=Dark Matter Blackdragon}}
+|-|
+Drone Cloner=
+{{CostTable|Drone Cloner|30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|850000|Lanternfish Comet|Lanternfish Comet|overrideCostType=2=UFO,3=Sub-Solar Squid,4=Planetary Jellyfish,5=Sunglazed Flying Fish,6=Cloudcutter Manta,7=Shocksailfish,8=Lunar Sunfish,9=Heliocentric Clam,10=Gamma Rayburst Shrimp,11=Galaxia Whale,12=Dark Matter Blackdragon,13=Heliocentric Clam,14=Gamma Rayburst Shrimp,15=Galaxia Whale,16=Dark Matter Blackdragon,17=Heliocentric Clam,18=Gamma Rayburst Shrimp,19=Galaxia Whale,20=Lunar Sunfish,21=Molten Archerfish,22=Shocksailfish,23=Sturgem,24=Lava Snail,25=Lunar Sunfish,26=Dark Matter Blackdragon,27=Heliocentric Clam,28=UFO,29=Shocksailfish,30=Lanternfish Comet}}
+</tabber>
+
+== Enhancements ==
+Enhancements can be bought with gems. These upgrades allow fish to be caught quicker.
+<tabber class="sticky-header">
+Tier 1 Enhance=
+{| class="wikitable align-center-4 align-center-5 align-center-6 sticky-header"
+|+Tier 1 Enhance
+! colspan=2 | Name !! Perk !! Increase Per Level !! Max Level !! Boat Level
+|-
+|<div id="FishIncome"></div>[[File:Fish_Income_Multiplier.png]] || Fish Multiplier || Increases the amount of fish you gain per successful catch {{CollapsedDescription|Increases the amount of fish you get. If your multiplier is e.g. 1.52x, you get 1 fish with a 52% chance to get 2.}} || +0.05x || 255 || {{NA}}
+|-
+|<div id="FishingDrone"></div>[[File:Fishing_Drone_Capacity.png]] || Fishing Drone || Gives +1 Fishing Drone to assign to docks for fishing power {{CollapsedDescription|Fishing drones can be assigned to any dock to increase the docks power!}} || +1 || 25 || {{NA}}
+|-
+|<div id="FishingRodPower"></div>[[File:Fishing_Rod_Power.png]] || Rod Multiplier || Multiplies the power of the fishing rod {{CollapsedDescription|Makes the fishing rod stronger, improving the power to the fisher assigned dock.}} || +0.05x || 20 || {{NA}}
+|-
+|<div id="FishingTickSpeed"></div>[[File:Fishing_Tick_Reduction.png]] || Tick Speed || Increases the speed of the fishing tick meter {{CollapsedDescription|This makes ticks occur faster, speeding up your fishing progress!}} || -0.5s || 20 || 1
+|-
+|<div id="DronePower"></div>[[File:Drone_Power_Multiplier.png]] || Drone Multiplier || Multiplies the power of your drones {{CollapsedDescription|Multiplies the power of all your drones, increasing dock power they are assigned to.}} || +0.08x || 25 || 1
+|-
+|<div id="FishTokenGain"></div>[[File:Fish_Token_Gain_Multiplier.png]] || Token Multiplier || Increases the tokens you get from notices<ref name=retroactive>This is retroactive and provides a stimulus when bought. The stimulus is the amount of retroactive tokens you gain.</ref> {{CollapsedDescription|Increases the fishing tokens you get from completing notices.}} || +0.05x || 20 || 1
+|-
+|<div id="DoubleTick"></div>[[File:Double_Fish_Tick_Chance.png]] || Double Tick Chance || Chance for 2 fishing ticks to occur at once {{CollapsedDescription|When the fishing tick meter at the top of the screen fills up, it has a chance to proc twice!}}|| +0.5% || 20 || 2
+|-
+|<div id="TinyNotice"></div>[[File:Tiny_Notice_Chance.png]] || Tiny Notice Chance || Chance for notices to ask for 90% less fish {{CollapsedDescription|When a new notice is added, it rolls a percent chance to add 90% less fish!}}|| +0.5% || 20 || 3
+|-
+|<div id="ShinyMulti"></div>[[File:Shiny_Multiplier.png]] || Shiny Multiplier || Increases the value of shiny fish! {{CollapsedDescription|Shiny fish multiplier increases the value of shiny fish (wow).}}|| +0.05x || 20 || 4
+|-
+|<div id="FishingDrone3"></div>[[File:Fishing_Drone_Capacity.png]] || Fishing Drone +3 || Gives +3 Fishing Drones {{CollapsedDescription|More Drones, More Power, More Robotic Friends :)}} || +3 || 20 || 5
+|}
+<references/>
+|-|
+Tier 2 Enhance=
+{| class="wikitable align-center-4 align-center-5 align-center-6 sticky-header"
+|+Tier 2 Enhance
+! colspan=2 | Name !! Perk !! Increase Per Level !! Max Level !! T2 Boat Level
+|-
+|<div id="Tier2DockTicks"></div>[[File:Tier 2 Dock Ticks.png]] || Tier 2 Dock Ticks || Reduce Ticks required for Tier 2 Docks {{CollapsedDescription|Each dock must complete x ticks to roll for fish, this upgrade reduces those tick requirements!}}|| -1 || 10 || 1
+|-
+|<div id="TripleTick"></div>[[File:Triple_Fish_Tick_Chance.png]] || Triple Tick Chance || Chance for 3 fishing ticks to occur at once {{CollapsedDescription|When the fishing tick meter at the top of the screen fills up, it has a chance to proc thrice!}}|| +0.4% || 20 || 2
+|-
+|<div id="SuperShiny"></div>[[File:Super_Shiny_Multiplier.png]] || Super Shiny Multi || Increases the value of Super Shiny Fish! {{CollapsedDescription|Super Shiny Multi increases the multiplier of Super Shiny fish, who would've thunk it?}}|| +0.15x || 20 || 3
+|-
+|<div id="Tier2DockPower"></div>[[File:Tier_2_Dock_Power.png]] || Tier 2 Dock Power || Increases your Power on Tier 2 Docks! {{CollapsedDescription|Increases your power on Tier 2 docks, this is a multiplier added onto the end of your dock power calculation.}}|| +0.05x || 20 || 4
+|-
+|<div id="PolyCard"></div>[[File:Poly Card Multi.png]] || Poly Card Multi || Increases your Fish Polychrome Card Multiplier! {{CollapsedDescription|Adds a flat multiplier to your Fish Polychome Card Multiplier.}}
+|| +0.10x || 20 || 5
+|}
+</tabber>
+
+=== Enhance Cost ===
+==== Tier 1 Enhance ====
+<tabber class="sticky-header">
+|-|
+Fish Multiplier=
+{{CostTable|Fish Multiplier|255|500|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3 align-center-5"|linear|500|Gem|Gems|maxCost=99999}}
+
+|-|
+Fishing Drone=
+{{CostTable|Fishing Drone|25|500|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|750|Gem|Gems}}
+
+|-|
+Rod Multiplier=
+{{CostTable|Rod Multiplier|20|750|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|850|Gem|Gems}}
+
+|-|
+Tick Speed=
+{{CostTable|Tick Speed|20|750|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1000|Gem|Gems}}
+
+|-|
+Drone Multiplier=
+{{CostTable|Drone Multiplier|25|850|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1150|Gem|Gems}}
+
+|-|
+Token Multiplier=
+{{CostTable|Token Multiplier|20|950|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1250|Gem|Gems}}
+
+|-|
+Double Tick Chance=
+{{CostTable|Double Tick Chance|20|1050|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1450|Gem|Gems}}
+
+|-|
+Tiny Notice Chance=
+{{CostTable|Tiny Notice Chance|20|1125|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1750|Gem|Gems}}
+
+|-|
+Shiny Multiplier=
+{{CostTable|Shiny Multiplier|20|1325|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|1950|Gem|Gems}}
+
+|-|
+Fishing Drone +3=
+{{CostTable|Fishing Drone +3|20|1775|class{{=}}"wikitable lighttable multi-column-lighttable sticky-header align-center-1 align-center-3"|linear|2450|Gem|Gems}}
+</tabber>
+
+==== Tier 2 Enhance ====
+<tabber>|-|
+Tier 2 Dock Ticks=
+{{CostTable|Tier 2 Dock Ticks|10|5000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|15000|Gem|Gems}}
+
+|-|
+Triple Tick Chance=
+{{CostTable|Triple Tick Chance|20|3475|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|4450|Gem|Gems}}
+
+|-|
+Super Shiny Multi=
+{{CostTable|Super Shiny Multi|20|4250|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|5550|Gem|Gems}}
+
+|-|
+Tier 2 Dock Power=
+{{CostTable|Tier 2 Dock Power|20|4950|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|7550|Gem|Gems}}
+
+|-|
+Poly Card Multi=
+{{CostTable|Poly Card Multi|20|6250|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|9550|Gem|Gems}}</tabber>
+
+== Aquarium ==
+<tabber>
+|-|
+Tier 1 Docks=
+{| class="wikitable vertical-align-top align-middle-1" style="font-size:0.85em"
+! Dock !! Fish 1 !! Fish 2 !! Fish 3 !! Fish 4
+|-
+|Lake
+|<div id="Guppy"></div>[[File:Guppy.png]] Guppy {{CollapsedDescription|Power Rating: 100<br>The tin ore of the fishing world. Jealous of the bigger fish.}}
+|<div id="Bass"></div>[[File:Bass.png]] Bass {{CollapsedDescription|Power Rating: 170<br>Inspiration of the biggest freedom pyramid. Covered in a thick layer of slime, careful not to drop it.}}
+|<div id="Catfish"></div>[[File:Catfish.png]] Catfish {{CollapsedDescription|Power Rating: 290<br>Very Photogenic - don't get too close!}}
+|<div id="GoldenTrout"></div>[[File:Golden Trout.png]] Golden Trout {{CollapsedDescription|Power Rating: 490<br>Is it made of gold? Take a bite and find out!}}
+|-
+|Desert
+|<div id="SandscaleCarp"></div>[[File:Sandscale Carp.png]] Sandscale Carp {{CollapsedDescription|Power Rating: 240<br>It buries itself under a thin layer of sand, waiting for unsuspecting victims to step on its razor-sharp back fin. They are just shy!}}
+|<div id="ArmoredRoller"></div>[[File:Armored Roller.png]] Armored Roller {{CollapsedDescription|Power Rating: 410<br>With its only weak point being its open mouth, it just rolls around and hopes for the best. Is it a sign of ineptitude or genius?}}
+|<div id="SpinyPuffer"></div>[[File:Spiny Puffer.png]] Spiny Puffer {{CollapsedDescription|Power Rating: 690<br>A popular companion for playing expert mode volleyball.}}
+|<div id="ScarabshoeCrab"></div>[[File:Scarabshoe Crab.png]] Scarabshoe Crab {{CollapsedDescription|Power Rating: 1170<br>What's worse than a crab in your shoe? A scarabshoe in your crab.}}
+|-
+|Tundra
+|<div id="SnowBelliedSwarmer"></div>[[File:Snow-bellied Swarmer.png]] Snow-bellied Swarmer {{CollapsedDescription|Power Rating: 570<br>A refreshing snack. Monarch Waddle's favorite food.}}
+|<div id="FrostshellCrab"></div>[[File:Frostshell Crab.png]] Frostshell Crab {{CollapsedDescription|Power Rating: 970<br>Its unique shell is made of ice and harder than diamonds. Mostly desired for its use as an ice cube.}}
+|<div id="FrostdripSpearfish"></div>[[File:Frostdrip Spearfish.png]] Frostdrip Spearfish {{CollapsedDescription|Power Rating: 1650<br>The fastest fish in the obelisk expanded universe. It can pierce the thickest hulls with its head.}}
+|<div id="Auroreel"></div>[[File:Auroreel.png]] Auroreel {{CollapsedDescription|Power Rating: 2800<br>Satisfyingly squidgy - nature's fidget spinner.}}
+|-
+|Ocean
+|<div id="Coralstar"></div>[[File:Coralstar.png]] Coralstar {{CollapsedDescription|Power Rating: 1360<br>We all just want to be big coralstars!}}
+|<div id="AnchorfinStingray"></div>[[File:Anchorfin Stingray.png]] Anchorfin Stingray {{CollapsedDescription|Power Rating: 2310<br>Long hours in the mines weighing you down? Simply try feeling better!}}
+|<div id="PearlescentTetra"></div>[[File:Pearlescent Tetra.png]] Pearlescent Tetra {{CollapsedDescription|Power Rating: 3930<br>The only fish the Guppy isn't jealous of.}}
+|<div id="GemWhale"></div>[[File:Gem Whale.png]] Gem Whale {{CollapsedDescription|Power Rating: 6680<br>Provider of freebie packs, funder of portable independent game development.}}
+|-
+|Nuclear
+|<div id="IonizingEel"></div>[[File:Ionizing Eel.png]] Ionizing Eel {{CollapsedDescription|Power Rating: 3240<br>Emits a soft radioactive glow. The longer the eel, the shorter your life.}}
+|<div id="GammanglerFish"></div>[[File:Gammangler Fish.png]] Gammangler Fish {{CollapsedDescription|Power Rating: 5510<br>This deep-sea dweller's light is RGB and has a stroboscope effect.}}
+|<div id="ElephantsBlob"></div>[[File:Elephant's Blob.png]] Elephant's Blob {{CollapsedDescription|Power Rating: 9370<br>Named after its first 10,000 attempts at painting.}}
+|<div id="Wastefish"></div>[[File:Wastefish.png]] Wastefish {{CollapsedDescription|Power Rating: 15930<br>Feeds off of salty substances, like nuclear material and redditors.}}
+|-
+|Abyss
+|<div id="HadalCrusher"></div>[[File:Hadal Crusher.png]] Hadal Crusher {{CollapsedDescription|Power Rating: 7740<br>In the deepest trenches of the abyss, he dances like no one is watching.}}
+|<div id="LiveSeaMine"></div>[[File:Live Sea Mine.png]] Live Sea Mine {{CollapsedDescription|Power Rating: 13150<br>Anything can set it off as it aimlessly drifts through the dark waters. Maybe you should put it back.}}
+|<div id="VentilatorRemora"></div>[[File:Ventilator Remora.png]] Ventilator Remora {{CollapsedDescription|Power Rating: 22360<br>Ender of bloodlines.}}
+|<div id="WreckshellPilferer"></div>[[File:Wreckshell Pilferer.png]] Wreckshell Pilferer {{CollapsedDescription|Power Rating: 38020<br>They form together in large groups to evict crustaceans from their houses. Pioneer of Seabnb.}}
+|-|
+Tier 2 Docks=
+{| class="wikitable vertical-align-top align-middle-1" style="font-size:0.85em"
+!Dock !! Fish 1 !! Fish 2 !! Fish 3 !! Fish 4
+|-
+|Cave
+|<div id="StonescaleCarp"></div>[[File:Stonescale Carp.png]] Stonescale Carp {{CollapsedDescription|Fish Power: 27.70k<br>A close relative of the Sandscale Carp, this one has evolved the ability to eat iron. Don't tell them that most animals can do that.}}
+|<div id="Sturgem"></div>[[File:Sturgem.png]] Sturgem {{CollapsedDescription|Fish Power: 47.09k<br>This fish is so incredibly lazy, it's grown crystals.}}
+|<div id="ConductiveEel"></div>[[File:Conductive Eel.png]] Conductive Eel {{CollapsedDescription|Fish Power: 80.06k<br>A shockingly intelligent electric eel.}}
+|<div id="ArapaimAl"></div>[[File:Arapaim-al.png]] Arapaim-al {{CollapsedDescription|Fish Power: 136.08k<br>Technically a subspecies of the Piscis Stultus - when paired with the other subspecies, Ti-Lapia, nothing happens. They're both near extinction, but who cares really.}}
+|-
+|Volcano
+|<div id="MoltenArcherfish"></div>[[File:Molten Archerfish.png]] Molten Archerfish {{CollapsedDescription|Fish Power: 66.09k<br>Spits molten lava instead of water. Surprisingly ineffective...}}
+|<div id="LavaSnail"></div>[[File:Lava Snail.png]] Lava Snail {{CollapsedDescription|Fish Power: 112.36k<br>Did you know this is loosely based on a real snail of the same name?}}
+|<div id="ObsidianToothBarracuda"></div>[[File:Obsidian-Tooth Barracuda.png]] Obsidian-Tooth Barracuda {{CollapsedDescription|Fish Power: 191.03k<br>People like making squares with them and setting ablaze the inside, for some reason.}}
+|<div id="Basalturtle"></div>[[File:Basalturtle.png]] Basalturtle {{CollapsedDescription|Fish Power: 324.74k<br>It naturally has no shell, but it makes one out of rocks and begging.}}
+|-
+|Sky
+|<div id="SunglazedFlyingFish"></div>[[File:Sunglazed Flying Fish.png]] Sunglazed Flying Fish {{CollapsedDescription|Fish Power: 157.72k<br>Can be eaten raw, but it's absolutely disgusting.}}
+|<div id="CloudcutterManta"></div>[[File:Cloudcutter Manta.png]] Cloudcutter Manta {{CollapsedDescription|Fish Power: 268.14k<br>Causes rain when it flies through clouds. They know when it's most inconvenient.}}
+|<div id="Shocksailfish"></div>[[File:Shocksailfish.png]] Shocksailfish {{CollapsedDescription|Fish Power: 455.83k<br>Imbued with the power of lightning, these fish move at a blazing 19 kilometers per hour, or roughly 61m hot dogs per quarantine.}}
+|<div id="LunarSunfish"></div>[[File:Lunar Sunfish.png]] Lunar Sunfish {{CollapsedDescription|Fish Power: 774.93k<br>Surprisingly bright during the night time, and also surprisingly dimwitted.}}
+|-
+|Solaris
+|<div id="LanternfishComet"></div>[[File:Lanternfish Comet.png]] Lanternfish Comet {{CollapsedDescription|Fish Power: 376.39k<br>This fish so closely resembles a comet, it's debated if it's actually a comet resembling a fish.}}
+|<div id="UFO"></div>[[File:UFO.png]] UFO {{CollapsedDescription|Fish Power: 639.87k<br>Stands for 'unidentified flying organism,' even though it's clearly a fish.}}
+|<div id="SubSolarSquid"></div>[[File:Sub-Solar Squid.png]] Sub-Solar Squid {{CollapsedDescription|Fish Power: 1.09m<br>Pretty much just a vegan flashbang.}}
+|<div id="PlanetaryJellyfish"></div>[[File:Planetary Jellyfish.png]] Planetary Jellyfish {{CollapsedDescription|Fish Power: 1.85m<br>How is this a living thing? You can walk directly through it!}}
+|-
+|Galaxy
+|<div id="HeliocentricClam"></div>[[File:Heliocentric Clam.png]] Heliocentric Clam {{CollapsedDescription|Fish Power: 898.18k<br>Instead of forming pearls, these bivalves form miniature stars and planets.}}
+|<div id="GammaRayburstShrimp"></div>[[File:Gamma Rayburst Shrimp.png]] Gamma Rayburst Shrimp {{CollapsedDescription|Fish Power: 1.53m<br>The snap of its claws emits so much radiation that it was considered for use in an instant microwave- until someone turned the moon into a nuke.}}
+|<div id="GalaxiaWhale"></div>[[File:Galaxia Whale.png]] Galaxia Whale {{CollapsedDescription|Fish Power: 2.60m<br>To it, a solar system is little more than an anthill.}}
+|<div id="DarkMatterBlackdragon"></div>[[File:Dark Matter Blackdragon.png]] Dark Matter Blackdragon {{CollapsedDescription|Fish Power: 4.41m<br>Uses dark matter to hide itself. But what could it be hiding from?}}
+|}
+</tabber>
+
+==Legendary Fish==
+When you have the Polychrome [[Cards|card]] for every fish in a dock and have a catch chance of at least 100% on the last fish in that dock, you are eligible to catch the legendary fish whenever that dock's bar fills. The chance to catch the legendary fish increases in increments of 1/150k per 100% catch chance on the dock's last fish, maxing out at 9/150k, or about 0.006%. The 150k value is reduced by the Angler Drone when fueled, maxing out as 81k. This means the maximum catch chance that can be attained is 9/81k, or about 0.01%.
+
+{|class="wikitable text-align-center"
+|Rainbow Trout<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Lake.png|link=Fishing#tabber-Rainbow_Trout]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Lake Legendary Fish Home.png|link=Fishing#tabber-Rainbow_Trout]]|image2=[[File:Lake Legendary Fish.png|link=Fishing#tabber-Rainbow_Trout]]|top2=24px|left2=24px}}}} 
+|Dune's Eelworm <br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Desert.png|link=Fishing#tabber-Dune's_Eelworm]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Desert Legendary Fish Home.png|link=Fishing#tabber-Dune's_Eelworm]]|image2=[[File:Desert Legendary Fish.png|link=Fishing#tabber-Dune's_Eelworm]]|top2=24px|left2=24px}}}}
+|Glacial Shellstealer<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Tundra.png|link=Fishing#tabber-Glacial_Shellstealer]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Tundra Legendary Fish Home.png|link=Fishing#tabber-Glacial_Shellstealer]]|image2=[[File:Tundra Legendary Fish.png|link=Fishing#tabber-Glacial_Shellstealer]]|top2=24px|left2=24px}}}}
+|-
+|Megalodon<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Ocean.png|link=Fishing#tabber-Megalodon]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Ocean Legendary Fish Home.png|link=Fishing#tabber-Megalodon]]|image2=[[File:Ocean Legendary Fish.png|link=Fishing#tabber-Megalodon]]|top2=24px|left2=24px}}}}
+|Radioactive Slug<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Nuclear.png|link=Fishing#tabber-Radioactive_Slug]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Nuclear Legendary Fish Home.png|link=Fishing#tabber-Radioactive_Slug]]|image2=[[File:Nuclear Legendary Fish.png|link=Fishing#tabber-Radioactive_Slug]]|top2=24px|left2=24px}}}}
+|Cthulhu<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Abyss.png|link=Fishing#tabber-Cthulhu]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Abyss Legendary Fish Home.png|link=Fishing#tabber-Cthulhu]]|image2=[[File:Abyss Legendary Fish.png|link=Fishing#tabber-Cthulhu]]|top2=24px|left2=24px}}}}
+|-
+|Glimmering Geoduck<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Cave.png|link=Fishing#tabber-Glimmering_Geoduck]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Cave Legendary Fish Home.png|link=Fishing#tabber-Glimmering_Geoduck]]|image2=[[File:Cave Legendary Fish.png|link=Fishing#tabber-Glimmering_Geoduck]]|top2=24px|left2=24px}}}}
+|Laviathan<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Volcano.png|link=Fishing#tabber-Laviathan]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Volcano Legendary Fish Home.png|link=Fishing#tabber-Laviathan]]|image2=[[File:Volcano Legendary Fish.png|link=Fishing#tabber-Laviathan]]|top2=24px|left2=24px}}}}
+|Storm Serpent<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Sky.png|link=Fishing#tabber-Storm_Serpent]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Sky Legendary Fish Home.png|link=Fishing#tabber-Storm_Serpent]]|image2=[[File:Sky Legendary Fish.png|link=Fishing#tabber-Storm_Serpent]]|top2=24px|left2=24px}}}}
+|-
+|Melting Gibbous<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Solaris.png|link=Fishing#tabber-Melting_Gibbous]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Solaris Legendary Fish Home.png|link=Fishing#tabber-Melting_Gibbous]]|image2=[[File:Solaris Legendary Fish.png|link=Fishing#tabber-Melting_Gibbous]]|top2=24px|left2=24px}}}}
+|Blackened Basker<br>{{OverlayImages|width=96px|height=96px|image1=[[File:Dock Galaxy.png|link=Fishing#tabber-Blackened_Basker]]|style1=filter: brightness(0.5);|image2={{OverlayImages|height=96px|width=96px|image1=[[File:Galaxy Legendary Fish Home.png|link=Fishing#tabber-Blackened_Basker]]|image2=[[File:Galaxy Legendary Fish.png|link=Fishing#tabber-Blackened_Basker]]|top2=24px|left2=24px}}}}
+|}
+
+===Legendary Fish Cards===
+When you catch a legendary fish for the first time, you also get the corresponding [[Cards#tabber-Legendary Fish|legendary fish card]]. As always, you can gild the card for gems. After that, you can get polychrome shards for the card by catching the legendary fish again.
+
+{{:Cards/Card_Effects/Legendary_Fish}}
+
+
+===Tributes===
+The Legendary fish by itself doesn't have any effect initially, but it can be upgraded by paying tribute to it. Tributes are late game upgrades which require vast amounts of [[Stargazing|Stars]], [[Craft|Bars]], [[Veins]], Fish and Gems to be unlocked, while at the same time they provide great bonuses.
+<tabber>Rainbow Trout=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Lake_Legendary_Fish.png|30px]] Rainbow Trout
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 || [[Pets|Leprechaun]] Cap +3<br> Rainbow Floor Multi 1.15x 
+| 50m {{Sprite|Aries||20x20}}, 5qi {{Sprite|Pinnaclite Bar||20x20}}s, 20b {{Sprite|Stone Vein||20x20}}s, 15m {{Sprite|Golden Trout||20x20}} and {{Gems|25k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||[[Pets|Mr Nibbles]] Cap +3<br>All Floor Multis 1.10x
+|250m {{Sprite|Virgo||20x20}}, 50qi {{Sprite|Guardium Bar||20x20}}s, 100b {{Sprite|Virtual Vein||20x20}}s, 75m {{Sprite|Golden Trout||20x20}} and {{Gems|125k}}
+|}
+|-|
+Dune's Eelworm=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Desert_Legendary_Fish.png|30px]] Dune's Eelworm
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||Golden Void Portal Chance 5%<br>[[Stargazing#Stars|Hercules]] and [[Stargazing#Stars|Draco]] Cap +3
+|250m {{Sprite|Leo||20x20}}, 30qi {{Sprite|Tricerastone Bar||20x20}}s, 40b {{Sprite|Deepsea Vein||20x20}}s, 80m {{Sprite|Scarabshoe Crab||20x20}} and {{Gems|50k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||[[Drones#Drone_Suits|Elixir]] Buff Crit Chance +10% (3x duration)<br>Golden Void Portal Multi 1.50x
+|1.25b {{Sprite|Capricorn||20x20}}, 300qi {{Sprite|Equinine Bar||20x20}}s, 200b {{Sprite|Jungle Vein||20x20}}s, 400m {{Sprite|Scarabshoe Crab||20x20}} and {{Gems|150k}}
+|}
+|-|
+Glacial Shellstealer=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Tundra_Legendary_Fish.png|30px]] Glacial Shellstealer
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||Gleaming [[Construct#Veins|Vein]] Chance +5%<br>[[Pets|Totem]] Cap +5
+|750m {{Sprite|Scorpio||20x20}}, 120qi {{Sprite|Omeletite Bar||20x20}}s, 80b {{Sprite|Beach Vein||20x20}}s, 100m {{Sprite|Auroreel||20x20}} and {{Gems|80k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Gleaming Vein Multi +10x<br>Void Drone Grade Cap +15
+|3.75b {{Sprite|Ophiuchus||20x20}}, 1.2sx {{Sprite|Rationium Bar||20x20}}s, 400b {{Sprite|Volcano Vein||20x20}}s, 500m {{Sprite|Auroreel||20x20}} and {{Gems|300k}}
+|}
+|-|
+Megalodon=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Ocean_Legendary_Fish.png|30px]] Megalodon
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||[[Stargazing#Stars|Cancer]] Cap +10<br>Triple [[Stargazing|Star]] Chance +5%<br>Galactic Floor Multi 1.15x
+|2b {{Sprite|Sagittarius||20x20}}, 1sx {{Sprite|Arcusite Bar||20x20}}s, 125b {{Sprite|Deepsea Vein||20x20}}s, 120m {{Sprite|Gem Whale||20x20}} and {{Gems|100k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||All [[Stargazing|Supernova]] Multis 1.25x<br>[[Stargazing#Super Stars|Super Star]] 10x Chance +5%
+|10b {{Sprite|Cetus||20x20}}, 10sx {{Sprite|Palmite Bar||20x20}}s, 600b {{Sprite|Valley Vein||20x20}}s, 600m {{Sprite|Gem Whale||20x20}} and {{Gems|400k}}
+|}
+|-|
+Radioactive Slug=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Nuclear_Legendary_Fish.png|30px]] Radioactive Slug
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||All Bomb Crit Multis 2.00x<br>[[Workshop|Workshop]] Cap +3
+|3b {{Sprite|Orion||20x20}}, 25sx {{Sprite|Genevium Bar||20x20}}s, 250b {{Sprite|Jurassic Vein||20x20}}s, 150m {{Sprite|Wastefish||20x20}} and {{Gems|150k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Unlock [[Bombs#tabber-Golden|Golden Plenty Bomb]]!
+|15b {{Sprite|Hercules||20x20}}, 125sx {{Sprite|Palmite Bar||20x20}}s, 1.25t {{Sprite|Roman Vein||20x20}}s, 600m {{Sprite|Wastefish||20x20}} and {{Gems|500k}}
+|}
+|-|
+Cthulhu=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Abyss_Legendary_Fish.png|30px]] Cthulhu
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||All Dock Ticks Reqs -10%<br>Super Shiny Multi +3x
+|4b {{Sprite|Pisces||20x20}}, 125sx {{Sprite|Cognite Bar||20x20}}s, 400b {{Sprite|Volcano Vein||20x20}}s, 200m {{Sprite|Wreckshell Pilferer||20x20}} and {{Gems|175k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Unlock +1 Mining [[Drones|Drone]]!
+|20b {{Sprite|Draco||20x20}}, 625sx {{Sprite|Equinine Bar||20x20}}s, 2t {{Sprite|Warfront Vein||20x20}}s, 1b {{Sprite|Wreckshell Pilferer||20x20}} and {{Gems|750k}}
+|}
+|-|
+Glimmering Geoduck=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Cave_Legendary_Fish.png|30px]] Glimmering Geoduck
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||[[Archaeology|Fragment]] Gain per [[Chests#Relic Chests|Mythic Chest]] Owned +0.25%<br>Polychrome [[Stargazing|Star]] [[Cards|Card]] Multi 1.25x
+|8b {{Sprite|Hercules||20x20}}, 12.5oc {{Sprite|Manhattite Bar||20x20}}s, 10t {{Sprite|Neon Vein||20x20}}s, 300m {{Sprite|Arapaim-al||20x20}} and {{Gems|225k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Unlock [[Bombs#tabber-Golden_4|Golden Gem Bomb]]!<br>Polychrome Ore [[Cards|Card]] Multi 1.30x
+|35b {{Sprite|Cetus||20x20}}, 125oc {{Sprite|Ransomite Bar||20x20}}s, 50t {{Sprite|Neon Vein||20x20}}s, 1.5b {{Sprite|Arapaim-al||20x20}} and {{Gems|1.1m}}
+|}
+|-|
+Laviathan=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Volcano_Legendary_Fish.png|30px]] Laviathan
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||Unlock Infernal Ore and Bar [[Cards|Cards]]!
+|16b {{Sprite|Aries||20x20}}, 66oc {{Sprite|Demonite Bar||20x20}}s, 60t {{Sprite|Magma Vein||20x20}}s, 666m {{Sprite|Basalturtle||20x20}} and {{Gems|266k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Unlock Infernal Fish and Legendary Fish [[Cards|Cards]]!
+|66b {{Sprite|Aries||20x20}}, 666oc {{Sprite|Infernite Bar||20x20}}s, 160t {{Sprite|Volcano Vein||20x20}}s, 6.66b {{Sprite|Basalturtle||20x20}} and {{Gems|1.26m}}
+|}
+|-|
+Storm Serpent=
+{| class="wikitable lighttable align-center-1"
+|+ [[File:Sky_Legendary_Fish.png|30px]] Storm Serpent
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 || Unlock [[Bombs#tabber-Golden_2|Golden Exp Bomb]]<br> [[Pets|Crab]] Pet Cap + 5<br>Lootbug Banked Cap + 10
+| 40b {{Sprite|Phoenix||20x20}}, 75no {{Sprite|Omeletite Bar||20x20}}s, 250t {{Sprite|Valley Vein||20x20}}s, 999m {{Sprite|Lunar Sunfish||20x20}} and {{Gems|275k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 || Unlock [[Items#GoldenEyeOfNewt|Golden Eye of Newt]]<br>[[Stargazing#Stars|Cetus]] Star Cap + 10<br>Lootbug Loot Multi 1.20x<span>
+| 150b {{Sprite|Orion||20x20}}, 755no {{Sprite|Tricerastone Bar||20x20}}s, 700t {{Sprite|Warfront Vein||20x20}}s, 9.99b {{Sprite|Lunar Sunfish||20x20}} and {{Gems|1.38m}}
+|}
+|-|
+Melting Gibbous=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Solaris Legendary Fish.png|30px]] Melting Gibbous
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||All Star Multi 1.20x<br>Rainbow Portal Chance +2%<br>Notice Upgrade Cap +5
+| 5t {{Sprite|Draco||20x20}}, 2no {{Sprite|Teatimium Bar||20x20}}s, 425t {{Sprite|Wonderland Vein||20x20}}s, 40b {{Sprite|Planetary Jellyfish||20x20}} and {{Gems|650k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Pet Quest Cap +1<br>Unlock [[Items#GoldenLootbugLantern|Golden Lootbug Lantern]]<br>Golden Frog Chance +1%
+| 50t {{Sprite|Hercules||20x20}}, 25no {{Sprite|Anchorium Bar||20x20}}s, 1.25q {{Sprite|Pirate Vein||20x20}}s, 140b {{Sprite|Planetary Jellyfish||20x20}} and {{Gems|1.65m}}
+|}
+|-|
+Blackened Basker=
+{| class="wikitable lighttable align-center-1"
+|+[[File:Galaxy Legendary Fish.png|30px]] Blackened Basker
+! Level !! Tribute Bonus !! Tribute Cost
+|-
+| [[File:Tribute Rank 1.png]] 1 ||All Drone Grade Caps +5<br>Radiant Super Star Chance +2%<br>Unlock [[Items#GoldenHamburger|Golden Hamburger]]
+| 8t {{Sprite|Hercules||20x20}}, 8no {{Sprite|Djinnium Bar||20x20}}s, 950t {{Sprite|Arabian Vein||20x20}}s, 100b {{Sprite|Dark Matter Blackdragon||20x20}} and {{Gems|850k}}
+|-
+| [[File:Tribute Rank 2.png]] 2 ||Unlock +1 Mining Drone!<br>Radiant Star Chance +2%
+| 95t {{Sprite|Phoenix||20x20}}, 250no {{Sprite|Turbanite Bar||20x20}}s, 4q {{Sprite|Arabian Vein||20x20}}s, 250b {{Sprite|Dark Matter Blackdragon||20x20}} and {{Gems|2.45m}}
+|}
+</tabber>
+
+==Gallery==
+<gallery mode="packed" heights="100">
+Dock Lake.png | Lake
+Dock Desert.png | Desert
+Dock Tundra.png | Tundra
+Dock Ocean.png | Ocean
+Dock Nuclear.png | Nuclear
+Dock Abyss.png | Abyss
+Dock Cave.png | Cave
+Dock Volcano.png | Volcano
+Dock Sky.png | Sky
+Dock Solaris.png | Solaris
+Dock Galaxy.png | Galaxy
+</gallery>
+
+
+==Navigation==
+{{Menu}}

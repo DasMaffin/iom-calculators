@@ -1,0 +1,384 @@
+{{Version|2.2.23}}
+{{Stub}}
+<!-- 
+TODO: 
+Stacking transmuter and plenty and replace FAQ section with link to it
+How bomb cards work. (add to faq?)
+Importance in increasing bomb cap
+Priorities of which bomb to autobomb, which bomb to use cherry charges on
+Bomb of plenty golden effect can only trigger once per floor (check if veinmorpher is the same?)
+--->
+<span style="display:none">{{RandomBombImage}}</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{FakeMenuButton|image={{RandomBombImage|size=82px}}|size=82px|buttonSize=114px}}
+<div style="margin:0 5px">Bombs are another source of damage and can help with progressing through the floors. Certain bombs also provide secondary effects like giving more Ores, more Exp or providing free Gems. After buying the [[Skill-Tree#AutoBomb|Auto-Bomber]] skill, bombs can also be automatically fired which makes them another way of passively dealing damage. Bombs do not work on [[Obelisk]] and they deal no damage to it.
+</div></div>
+
+==Bomb Upgrades==
+{{See also|Stats#Bombs}}
+* [[Stats#tabber-Bomb_Damage|Bomb Damage]] - Increases bomb base damage
+* [[Stats#tabber-Bomb_Crit_Chance|Bomb Crit Chance]] - Allows the bombs to crit
+* [[Stats#tabber-Bomb_Crit_Damage|Bomb Crit Damage]] - Increases the crit damage
+* [[Stats#tabber-Bomb_Recharge_Speed|Bomb Recharge Speed]] - Increases bombs recharge rate
+* [[Stats#tabber-Free_Bomb_Chance|Free Bomb Chance]] - Chance for a bomb to not consume charge when fired
+* [[Stats#tabber-Bomb_Capacity|Bomb Capacity]] - Increases total bomb capacity (maximum amount of bombs allowed)
+* [[Stats#tabber-Additional_Bomb_Multiplier|Additional Bomb Multiplier]] - Increases the effect of bomb stat
+* [[Stats#tabber-Bomb_Super_Crit_Chance|Bomb Super Crit Chance]] - Allows the bombs to super crit
+* [[Stats#tabber-Bomb_Super_Crit_Damage|Bomb Super Crit Damage]] - Increases the super crit damage
+* [[Stats#tabber-Bomb_Ultra_Crit_Chance|Bomb Ultra Crit Chance]] - Allows the bombs to ultra crit
+* [[Stats#tabber-Bomb_Ultra_Crit_Damage|Bomb Ultra Crit Damage]] - Increases the ultra crit damage
+* [[Stats#tabber-Bomb_Omega_Crit_Chance|Bomb Omega Crit Chance]] - Allows the bombs to omega crit
+* [[Stats#tabber-Bomb_Omega_Crit_Damage|Bomb Omega Crit Damage]] - Increases the omega crit damage
+* [[Stats#tabber-Cherry_Charge_3x_Chance|Cherry Charge 3x Chance]] - Chance for Cherry bomb to give 3 charges instead of 1
+* [[Stats#tabber-Bomb_Cap_Multiplier|Bomb Cap Multiplier]] - Times multiplier for bomb capacity (multiplicative)
+
+==Bomb Firing Modes==
+Currently there are 3 bomb firing modes available in the game.
+{| class="wikitable
+! colspan=2 | Mode !! Description
+|-
+| [[File:Fire mode slow.png]] || Fire Slow || Fires a bomb every 1.25 seconds. This allows you to combine transmuter with another bomb being fired by Auto-Bomber. See [[Obelisk:FAQ#What_is_the_best_way_to_get_bars?|This section in the FAQ]] for more info.
+|-
+| [[File:Fire mode fast.png]] || Fire || Fires bomb at a fast speed while holding the button.
+|- 
+| [[File:Fire mode all.png]] || Fire All || Fires all bombs of that type at the same time. Has a default confirmation, that can be removed on Options since [[Update:V2.2.1|V2.2.1]]
+|}
+
+==Golden Bombs==
+Golden bombs are upgraded versions of standard bombs which increase their effect. They can be unlocked in the late game from [[Fishing]], [[Construct]] and [[Stargazing]].
+{| class="wikitable"
+! colspan=2 | Bomb
+! colspan=2 | Unlocked by
+|-
+| [[File:Bomb of Plenty Golden.png]] || [[#tabber-Golden|Golden Bomb of Plenty]] || [[File:Nuclear_Legendary_Fish.png|32x32px]] || {{Sprite|Tribute Rank 2||16x16|Tier 2 Tribute}} of [[Fishing#tabber-Radioactive_Slug|Radioactive Slug]]
+|-
+| [[File:Exp Bomb Golden.png]] || [[#tabber-Golden_2|Golden Exp Bomb]] || [[File:Sky_Legendary_Fish.png|32x32px]] || {{Sprite|Tribute Rank 1||16x16|Tier 1 Tribute}} of [[Fishing#tabber-Storm_Serpent|Storm Serpent]]
+|-
+| [[File:Transmuter Bomb Golden.png]] || [[#tabber-Golden_3|Golden Transmuter Bomb]] || [[File:13_Statue_Ignition_Platinized.png|32x32px]] || [[Construct#tabber-World_3_Platinized_Statues|Platinized Statue of Ignition]] (World 3, "Julk")
+|-
+| [[File:Gem Bomb Golden.png]] || [[#tabber-Golden_4|Golden Gem Bomb]] || [[File:Cave_Legendary_Fish.png|32x32px]] || {{Sprite|Tribute Rank 2||16x16|Tier 2 Tribute}} of [[Fishing#tabber-Glimmering_Geoduck|Glimmering Geoduck]]
+|-
+| [[File:Veinmorpher Bomb Golden.png]] || [[#tabber-Golden_5|Golden Veinmorpher Bomb]] || [[File:BlackHole.png|32x32px]] || [[Stargazing#Black_Hole|Black Hole Level 16]]
+|}
+
+==Bombs==
+<tabber>
+Basic Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+| rowspan=3 |[[File:Basic Bomb.png]]
+| rowspan=3 | Basic Bomb
+|Unlocked by default
+|-
+|Fires a bomb, damaging all rocks
+|-
+|Used to level the Crab pet. The short cooldown makes it useful early in the game.
+|}
+
+|-|
+Chain Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:Chain Bomb.png]] 
+|rowspan=3 | Chain Bomb
+|Unlocked by default
+|-
+|Fires bombs, 1.25 seconds apart
+|-
+|Allows you to store up charges, letting each bomb hit multiple times. Useful throughout the game. 
+|}
+
+|-|
+Bomb of Plenty=
+{{#tag:tabber|Default=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Bomb of Plenty.png]]
+{{!}}rowspan=3 {{!}}Bomb of Plenty
+{{!}}Unlocked in the [[Workshop]]
+{{!}}-
+{{!}}Marks Rocks to give Ores<br>[[Workshop#World_3_Upgrades|Chance to turn Ores golden]] (Only rolls the Golden Ore Chance the first time the plenty effect is applied)
+{{!}}-
+{{!}}Gives you bonus ore. Best used to farm gold and on easy to craft bars. 
+{{!}}}
+
+{{!}}-{{!}}
+Golden=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3{{!}} [[File:Bomb of Plenty Golden.png]]
+{{!}}rowspan=3 {{!}}Bomb of Plenty (G)
+{{!}}Unlocked from the Tier 2 Tribute of [[Fishing#tabber-Radioactive_Slug{{!}}Radioactive Slug]]
+{{!}}-
+{{!}}Marks Rocks to give Ores<br>[[Workshop#World_3_Upgrades|Chance to turn Ores golden]] (Only rolls the Golden Ore Chance the first time the plenty effect is applied)
+{{!}}-
+{{!}}Golden Bomb of Plenty upgrade: Doubles ore multiplier. Does NOT affect the golden ore conversion chance.
+{{!}}}
+}}
+
+|-|
+Exp Bomb=
+{{#tag:tabber|Default=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Exp Bomb.png]]
+{{!}}rowspan=3 {{!}}Exp Bomb
+{{!}}Unlocked in the [[Workshop]]
+{{!}}-
+{{!}}Marks Rocks to give Exp
+{{!}}-
+{{!}}Good for gaining levels to farm Prestige Points, unlock Upgrades or level Happy-Bot.
+{{!}}}
+
+{{!}}-{{!}}
+Golden=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3{{!}} [[File:Exp Bomb Golden.png]]
+{{!}}rowspan=3 {{!}}Exp Bomb (G)
+{{!}}Unlocked from the Tier 1 Tribute of [[Fishing#tabber-Storm_Serpent{{!}}Storm Serpent]]
+{{!}}-
+{{!}}Marks Rocks to give Exp
+{{!}}-
+{{!}}Upgrades Exp Bomb to give Triple the amount of Exp. Also known as Golden Exp Bomb.
+{{!}}}
+}}
+
+|-|
+MEGABOMB=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:MEGABOMB.png]]
+|rowspan=3 |MEGABOMB
+|Unlocked in the [[Store]]
+|-
+|Marks Ores To Take Damage (From World 2 Workshop)
+|-
+|Required for challenges. Has the highest damage potential of any bomb after getting its Damage Mark ability from the [[Workshop]] in World 2.
+|}
+
+|-|
+Infinity Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:Infinity Bomb.png]]
+|rowspan=3 |Infinity Bomb
+|Unlocked in the [[Workshop]]
+|-
+|Damage Multiplier per Infinity Bomb fired <ref name="MultiplierCap">All Bombs multipliers are capped at '''99999x'''. When you reach this the Infinity Bomb text will update to "You reached 'infinity' - Congratulations!"</ref> 
+|-
+|Useful for early challenges that require climbing to a floor without Upgrades.
+|}
+
+|-|
+Transmuter Bomb=
+{{#tag:tabber|
+Default=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Transmuter Bomb.png]]
+{{!}}rowspan=3 {{!}}Transmuter Bomb
+{{!}}Unlocked in the [[Store]]
+{{!}}-
+{{!}}Marks Rocks to drop Bars<br>chance to apply BoP stack (from World 2 Workshop)
+{{!}}-
+{{!}}Often better for bar income than the Bomb of Plenty. Especially early in the game and on hard to craft bars.
+
+{{!}}-{{!}}
+Golden=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Transmuter Bomb Golden.png]]
+{{!}}rowspan=3 {{!}}Transmuter Bomb (G)
+{{!}}Unlocked from a [[Construct#tabber-World_3_Platinized_Statues{{!}}World 3 Platinized Statue]]
+{{!}}-
+{{!}}Marks Rocks to drop Bars<br>chance to apply BoP stack (from World 2 Workshop)
+{{!}}-
+{{!}}Golden Transmuter Bomb upgrade: Doubles both the bars gained and chance to apply BoP stack.
+{{!}}}
+}}
+
+|-|
+Gem Bomb=
+{{#tag:tabber|
+Default=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Gem Bomb.png]]
+{{!}}rowspan=3 {{!}}Gem Bomb
+{{!}}Unlocked from the [[Skill-Tree]].
+{{!}}-
+{{!}}Damage scales with gems owned, +0.04x gem bomb damage per gem owned<br>Chance to get a gem (base chance of 3%)
+{{!}}-
+{{!}}Overtakes freebie in gem gains as you increase your Bomb Recharge Speed.
+{{!}}-{{!}}
+
+Golden=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Gem Bomb Golden.png]]
+{{!}}rowspan=3 {{!}}Gem Bomb (G)
+{{!}}Unlocked from the Tier 2 Tribute of [[Fishing#tabber-Glimmering_Geoduck{{!}}Glimmering Geoduck]]
+{{!}}-
+{{!}}Damage scales with gems owned, +0.04x gem bomb damage per gem owned<br>Chance to get a gem
+{{!}}-
+{{!}}Upgrades Gem Bomb. Multiplies Gem chance by 1.25. Also known as Golden Gem Bomb
+{{!}}}
+}}
+
+|-|
+Cherry Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:Cherry Bomb.png]]
+|rowspan=3 |Cherry Bomb
+|Unlocked from the [[Workshop]].
+|-
+|The next bomb you fire will not consume a charge
+|-
+|The most versatile bomb. When you have cherry charges, the next bomb you fire will be free but consume 1 cherry charge.<ref name="freeCherry">Because the bomb is already free, Free Bomb Chance does not affect this firing.</ref> See [[Guides/Cherry_Bomb_Guide]].
+|}
+
+|-|
+Battery Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:Battery Bomb.png]]
+|rowspan=3 |Battery Bomb
+|Unlocked from the [[Store]].
+|-
+|Charges 2 random other bombs<ref name="bombDistribution">All unlocked bombs have an equal weight of 1, except itself with a weight of 0. Founder Bomb weight is reduced to 0.3 while the 2x game speed buff has more than 7 days remaining duration. If you don't have MEGABOMB or Transmuter Bomb, charges that would have went to them are redirected to the first 5 bombs.<br>The recharges can go to any bomb, no matter if it is already at maximum capacity or not. Charges beyond maximum capacity are lost.</ref>,<br>0.1% to increase bomb cap by 1
+|-
+|Quickly becomes the biggest source of Bomb Capacity. It's vital to use Battery Bomb as often as possible to be able to progress through the game when bombs become needed.
+|}
+
+|-|
+D20 Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:D20 Bomb.png]]
+|rowspan=3 |D20 Bomb
+|Unlocked from the [[Workshop]].
+|-
+|5% chance to refill 20+ random other bomb charges<ref name="bombDistribution" />
+|-
+|Useful bomb that refills other bombs. Refills more bombs as you upgrade it in the Workshop.
+|}
+
+|-|
+Founders Bomb=
+{| class="wikitable"
+!colspan=2 | Bomb 
+! Info
+|-
+|rowspan=3 | [[File:Founders Bomb.png]]
+|rowspan=3 |Founders Bomb
+|Unlocked from the [[Store#Founders_Bundle|Founders Bundle]].
+|-
+|10% Chance to give 10 seconds of 2x Game Speed
+|-
+|Game Speed from this bomb is the key to Founders early game progression.<br>This bomb has a cap based on the current number of founders and is unrelated to normal bomb cap.
+|}
+
+|-|
+Veinmorpher Bomb=
+{{#tag:tabber|Default=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Veinmorpher Bomb.png]]
+{{!}}rowspan=3 {{!}}Veinmorpher Bomb
+{{!}}Unlocked from the [[Skill-Tree]].
+{{!}}-
+{{!}} 10%<ref name="veinmorpherChance">Can be increased from Workshop.</ref>Chance to Morph All Ores to Veins<br>10%<ref name="veinmorpherChance"/> Chance to Make All Veins Golden
+{{!}}-
+{{!}}Improves vein income substantially. Both chances are rolled separately and can occur at the same time. Since the ore isn't marked, firing multiple times will repeat the checks.
+{{!}}}
+
+{{!}}-{{!}}
+Golden=
+{{{!}} class="wikitable"
+!colspan=2 {{!}} Bomb 
+! Info
+{{!}}-
+{{!}}rowspan=3 {{!}} [[File:Veinmorpher Bomb Golden.png]]
+{{!}}rowspan=3 {{!}}Veinmorpher Bomb (G)
+{{!}}Unlocked from the [[Stargazing#Black_Hole{{!}}Black Hole]]
+{{!}}-
+{{!}}Chance to Morph All Ores to Veins<br>Chance to Make All Veins Golden
+{{!}}-
+{{!}}Doubles the effect of the regular Veinmorpher Bomb. Improves vein income substantially.
+{{!}}}
+}}
+</tabber>
+
+<references />
+
+==Bomb Cooldowns==
+Each bomb has a base recharge rate, which is the time until a new bomb is ready to fire. The table below represents the Base Bomb Cooldown before reductions from any [[Stats#tabber-Bomb_Recharge_Rate|Bomb Recharge Rate]] buffs are applied. 
+
+Since [[Update:V2.2.1]], you can enable an [[Options|option]] to display the time remaining until the cap is reached instead. If Auto Bomber is active on the bomb, it displays the time until depletion.
+
+{| class="wikitable"
+|+Base Bomb Cooldown
+! Name !! Seconds
+|-
+| {{Sprite|Basic Bomb||30x30}} || 30
+|-
+| {{Sprite|Chain Bomb||30x30}} || 60
+|-
+| {{Sprite|Bomb of Plenty||30x30}} || 110
+|-
+| {{Sprite|Exp Bomb||30x30}} || 120
+|-
+| {{Sprite|MEGABOMB||30x30}} || 120
+|-
+| {{Sprite|Infinity Bomb||30x30}} || 160
+|-
+| {{Sprite|Transmuter Bomb||30x30}} || 250
+|-
+| {{Sprite|Gem Bomb||30x30}} || 315
+|-
+| {{Sprite|Cherry Bomb||30x30}} || 330
+|-
+| {{Sprite|Battery Bomb||30x30}} || 345
+|-
+| {{Sprite|D20 Bomb||30x30}} || 400
+|-
+| {{Sprite|Founders Bomb||30x30|Founder's Bomb}} || 540
+|-
+| {{Sprite|Veinmorpher Bomb||30x30}} || 570
+|}
+
+==Navigation==
+{{Menu}}

@@ -1,0 +1,13 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Note: this video is from before the Blue Cow Card was changed to give Drone Experience. The method to obtain the Yummy Pizza Card is unchanged.
+Prerequisites: Unlock the cards menu at Obelisk 15. Unlock the [[Cards#Misc_Cards|Blue Cow Misc Card]]
+# Tap the 4 dots
+# Tap Cards
+# Repeatedly tap the Blue Cow Misc Card
+## You have a small chance to get the card each time you tap, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Yummy Pizza Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

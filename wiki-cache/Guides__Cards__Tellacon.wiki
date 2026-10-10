@@ -1,0 +1,7 @@
+Prerequisites: None
+
+# Tap the 4 dots
+# Tap Setup Pins
+# Tap Stats
+# Repeatedly tap Stats and X
+## You have a small chance to get the card each time you tap, it may take a while!

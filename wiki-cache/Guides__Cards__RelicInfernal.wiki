@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock Misc Infernal Cards
+# Disable your Frogger
+# Shoot your Cherrys until you got 69 charges (use slow fire if you got to much)
+# Swap to Floor 69
+# Tap 4 Dots
+# Tap Relic
+# Open Relics until you get EXACTLY 69 
+# Tap Open All
+</div>
+<div style="flex: 0 0 auto;">[[File:Relic 69 Misc Card Infernal.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

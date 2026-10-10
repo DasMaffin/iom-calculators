@@ -1,0 +1,12 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock the cards menu at Obelisk 15
+# Move to any floor in the Atomic Zone (Floors 37-42)
+# Repeatedly tap Celio's Hat in the top right corner of the screen
+## If you can't see it, you can disable drones, bombs and move to a floor without any stars so you don't get any popups
+## You have a small chance to get the card each time you tap, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Celio Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

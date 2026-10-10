@@ -1,0 +1,897 @@
+{{Version|2.2.23}}
+[[File:Pets Button.png|frameless|left]]
+Pets can be unlocked after beating Obelisk 17. The pets are unlocked using gems, but after the 1st pet they require a combined total of pet levels before the next can be purchased. The initial max level of Pet is 10, but this limit can be raised up to 25 depending on pet, through [[Stargazing]], [[Construct#Statues|Statues]], Pet Skin, [[Challenges]] and [[Archaeology]].
+
+{{clear|left}}
+==Strategy==
+Each pet needs a higher Total Pet Level to unlock. It's good to buy them as soon as they are available so they'll have more chances to level up. The only time you shouldn't buy them immediately is if you won't be able to level them up. Like buying Duck before you unlock veins, or Axolotl before you are in World 2.
+
+When you unlock pets, you will find beating Obelisks becomes more difficult. That means it's time to work on content you have already unlocked, like [[Prestige]], [[Challenges]] and the Dwarf Pet.
+
+==Pet Skins==
+Pets skins are an alternate skin for your pet. They reduce the level up requirement of the pet from 15% to 30%, as well as an additional bonus. They become available after the pet gets to level 5. The first pet skin costs 1000 gems, the cost increases by 100 per pet (except for Dino, Mr. Nibbles, Nagini, Butterfly, and Rhino skins which have different prices). Pet skins '''<u>do not</u>''' have to be equipped for the bonus to be applied. When a pet is level 10 its Quest Skin becomes available. Unlocking the Quest Skin costs 1500 gems for the first one and increases by 500 per pet. Purchasing the Quest Skin provides the equivalent of one level of that Pet's quest.
+
+<tabber class="sync">Crab=
+{{PetInfobox
+|version1=Crab
+|version2=Sizzle McSnaps
+|version3=Steel Scuttler
+|image1=[[File:Crab_Default.png|40px]]
+|image2=[[File:Crab_Skin.png|40px]]
+|image3=[[File:Crab_Quest.png|40px]]
+|lvlreq=0
+|leveling1=Level up by firing a basic bomb
+|leveling3=Trigger Battery Cap Increases
+|price1=1
+|price2=1000
+|price3=1500
+|bonus1=Bomb Capacity +3% per level<br>Bomb Recharge Rate +1% per level
+|bonus2=Workshop Upgrade Cap +1<br>Crab Level Up Chance +15%
+|bonus3=Unlocks the Crab Pet Quest!
+|questBonus=Plenty Bomb Multiplier +0.5x per Rank<br>Exp Bomb Multiplies +0.5x per Rank
+|description=Everytime you fire a basic bomb you roll a chance to level up the Crab. You will receive a persistent message ingame when the level up triggers.
+}}
+|-|
+Dwarf=
+{{PetInfobox
+|version1=Dwarf
+|version2=Torvald the Tiny
+|version3=Sir Dappernoggin
+|image1=[[File:Dwarf_Default.png|40px]]
+|image2=[[File:Dwarf_Skin.png|40px]]
+|image3=[[File:Dwarf_Quest.png|40px]]
+|lvlreq=1
+|leveling1=Level up when upgrading pickaxe above lvl 25
+|leveling3=Buy a World 2+ Base Upgrade
+|price1=350
+|price2=1100
+|price3=2000
+|bonus1=Pickaxe Damage +20% per level<br>Ultra Crit Chance +1% per level
+|bonus2=Pickaxe Damage +50%<br>Dwarf Level Up Chance +15%
+|bonus3=Unlocks the Dwarf Quest!
+|questBonus=Prestige Point Gain +12% per Rank<br>Floor Clear Requirement -2% per Rank
+|description=You roll for a Dwarf level up everytime you upgrade your pickaxe above level 25. This is the first upgrade in the 'Upgrades' menu.
+}}
+|-|
+Duck=
+{{PetInfobox
+|version1=Duck
+|version2=Not A Duck
+|version3=Tony Two-Honks
+|image1=[[File:Duck Default.png|40px]]
+|image2=[[File:Duck Skin.png|40px]]
+|image3=[[File:Duck Quest.png|40px]]
+|lvlreq=5
+|leveling1=Level up when depleting a vein
+|leveling3=Deplete Void Portal Rainbow Veins
+|price1=750
+|price2=1200
+|price3=2500
+|bonus1=Experience Gain +12% per level<br>Lootbug Spawn Rate +2.5% per level
+|bonus2=Obelisk Armor -10%<br>Duck Level Up Chance +15%
+|bonus3=Unlocks the Duck Quest!
+|questBonus=Vein Income Multiplier +2% per Rank<br>Golden Vein Multiplier +2% per Rank
+|description=Rolling for a Duck level up occurs when you deplete a vein. Golden Vein Chance doesn't affect the level up rate. Veins are unlocked at Obelisk Level 19.
+}}
+|-|
+Rabbit=
+{{PetInfobox
+|version1=Rabbit
+|version2=Fluffy
+|version3=Bloodwhiskers
+|image1=[[File:Rabbit_Default.png|40px]]
+|image2=[[File:Rabbit_Skin.png|40px]]
+|image3=[[File:Rabbit_Quest.png|40px]]
+|lvlreq=12
+|leveling1=Level up when completing a contract
+|leveling3=Complete Contracts at Contract 750+
+|price1=1000
+|price2=1300
+|price3=3000
+|bonus1=Contract Upgrade Cost Reduction -0.03x per level
+|bonus2=Contract Points Rewarded +1<br>Rabbit Level Up Chance +15%
+|bonus3=Unlocks the Rabbit Quest!
+|questBonus=5x Contract Point Chance +1% per Rank<br>Contract Upgrade Cost -1% per Rank
+|description=Complete a Contract to roll for a Rabbit level up, simple!
+}}
+|-|
+Penguin=
+{{PetInfobox
+|version1=Penguin
+|version2=Monarch Waddle
+|version3=Count Waddle
+|image1=[[File:Penguin_Default.png|40px]]
+|image2=[[File:Penguin_Skin.png|40px]]
+|image3=[[File:Penguin_Quest.png|40px]]
+|lvlreq=18
+|leveling1=Level up when spawning a golden floor
+|leveling3=Clear Golden Rainbow Floors
+|price1=1500
+|price2=1400
+|price3=3500
+|bonus1=Golden Floor Multi +0.05x per level
+|bonus2=Ore Sell Price +50%<br>Penguin Level Up Chance +15%
+|bonus3=Unlocks the Penguin Quest!
+|questBonus=Golden Floor Multiplier +2% per Rank<br>Rainbow Floor Chance +0.25% per Rank
+|description=Roll a Golden Floor to roll a chance to level up the Penguin.
+}}
+|-|
+Axolotl=
+{{PetInfobox
+|version1=Axolotl
+|version2=Dorp
+|version3=Snaildog
+|image1=[[File:Axolotl_Default.png|40px]]
+|image2=[[File:Axolotl_Skin.png|40px]]
+|image3=[[File:Axolotl_Quest.png|40px]]
+|lvlreq=28
+|leveling1=Level up when crafting a world 2 bar
+|leveling3=Gain Relic Chests
+|price1=1750
+|price2=1500
+|price3=4000
+|bonus1=Double Craft Chance +2% per level<br>Bar Craft Cost -1% per level
+|bonus2=Fuel Duration +10%<br>Axolotl Level Up Chance +15%
+|bonus3=Unlocks the Axolotl Pet Quest!
+|questBonus=Archaeology Fragment Gain +3% per Rank<br>Star Supernova Multi +3% per Rank
+|description=Craft World 2 bars to level up this cutie. World 2 is unlocked via the Construct menu.
+}}
+|-|
+Whale=
+{{PetInfobox
+|version1=Whale
+|version2=Meltdown Moby
+|version3=Blubbercore
+|image1=[[File:Whale_Default.png|40px]]
+|image2=[[File:Whale_Skin.png|40px]]
+|image3=[[File:Whale_Quest.png|40px]]
+|lvlreq=40
+|leveling1=Level up chance per gem spent
+|leveling3=Gain Gems via Gem Bomb
+|price1=2000
+|price2=1600
+|price3=4500
+|bonus1=Pickaxe Damage +10% per level<br>Triple Lootbug Chance +3% per level
+|bonus2=-2 Gem Lootbug Cost<br>Whale Level Up Chance +15%
+|bonus3=Unlocks the Whale Pet Quest!
+|questBonus=Gem Bomb Gem Chance +0.10% per Rank<br>Banked Lootbugs +1 per Rank
+|description=Spend Gems to roll for Whale level ups. Every place you spend gems counts!
+}}
+|-|
+Totem=
+{{PetInfobox
+|version1=Totem
+|version2=Marshall
+|version3=Teekee
+|image1=[[File:Totem_Default.png|40px]]
+|image2=[[File:Totem_Skin.png|40px]]
+|image3=[[File:Totem_Quest.png|40px]]
+|lvlreq=56
+|leveling1=Level up when depleting a golden vein
+|leveling3=Fill Drones With Fuel
+|price1=2250
+|price2=1700
+|price3=5000
+|bonus1=Vein Spawn Rate +3% per level<br>Golden Vein Chance +1% per level<br>Golden Vein Multi +1% per level
+|bonus2=+2% Rainbow Vein Chance<br>Totem Level Up Chance +15%
+|bonus3=Unlocks the Totem Pet Quest!
+|questBonus=Drone Experience Gain +4% per Rank<br>Chain Drone Grade Cap +2 per Rank
+|description=Deplete Veins of the golden variety to level up the Totem.
+}}
+|-|
+Happy-Bot=
+{{PetInfobox
+|version1=Happy-Bot
+|version2=Unhappy-Bot
+|version3=Yappy-Bot
+|image1=[[File:Happybot_Default.png|40px]]
+|image2=[[File:Happybot_Skin.png|40px]]
+|image3=[[File:Happybot_Quest.png|40px]]
+|lvlreq=75
+|leveling1=Level up when level up at level 100+
+|leveling3=Level Up at Level 225+
+|price1=2500
+|price2=1800
+|price3=5500
+|bonus1=T4 Artifact Cap +1 per level
+|bonus2=Contract Upgrade Cap +1<br>Happy-Bot Level Up Chance +15%
+|bonus3=Unlocks the Happy-Bot Pet Quest!
+|questBonus=Poly Ore, Star, Vein Multis +2% per Rank<br>Banked Freebies +1 per Rank
+|description=Any level up at level 100 or greater has the chance to level up Happy-Bot! *boop^
+}}
+|-|
+Leprechaun=
+{{PetInfobox
+|version1=Leprechaun
+|version2=Plutonium Paddy
+|version3=Jolly O'Fella
+|image1=[[File:Leprechaun_Default.png|40px]]
+|image2=[[File:Leprechaun_Skin.png|40px]]
+|image3=[[File:Leprechaun_Quest.png|40px]]
+|lvlreq=90
+|leveling1=Level up when clearing a rainbow floor
+|leveling3=Deplete Golden Ores on Galactic Rainbow Floors
+|price1=2750
+|price2=1900
+|price3=6000
+|bonus1=Base Game Speed +1.5% per level<br>Golden Floor Multi +1.25% per level<br>Rainbow Floor Chance +0.25% per level
+|bonus2=+1% Rainbow Floor Chance<br>Leprechaun Level Up Chance +15%
+|bonus3=Unlocks the Leprechaun Pet Quest!
+|questBonus=Galactic Floor Multi +4% per Rank<br>Transmuter BoP Mark Chance +2% per Rank
+|description=Roll Rainbow Floors to level up the Leprechaun. Rainbow floors are gained via upgrades and a 1/25000 from Relic Chests
+}}
+|-|
+Starfish=
+{{PetInfobox
+|version1=Starfish
+|version2=Storm-51
+|version3=Patricia
+|image1=[[File:Starfish_Default.png|40px]]
+|image2=[[File:Starfish_Skin.png|40px]]
+|image3=[[File:Starfish_Quest.png|40px]]
+|lvlreq=100
+|leveling1=Level up when catching a super star
+|leveling3=Rank up when catching a supernova supergiant super star
+|price1=3000
+|price2=2000
+|price3=8000
+|bonus1=Super Star 10x Chance +0.2% per level<br>Super Star Supernova Chance +0.2% per level
+|bonus2=+10% Star Spawn Rate<br>Starfish Level Up Chance +15%
+|bonus3=Unlocks the Starfish Pet Quest!
+|questBonus=Novagiant Combo Multi +3% per Rank<br>Capricorn and Ophiuchus Cap +1 per Rank
+|description=Capture Super Stars to level up the Starfish! Every Super Star caught is a wish granted : ]
+}}
+|-|
+Dino=
+{{PetInfobox
+|version1=Dino
+|version2=Drumstick
+|version3=Nugget
+|image1=[[File:Dino_Default.png|40px]]
+|image2=[[File:Dino_Skin.png|40px]]
+|image3=[[File:Dino_Quest.png|40px]]
+|lvlreq=140
+|leveling1=Level up when earning world 3 veins
+|leveling3=Rank up when clearing archaeology stages 110+
+|price1=4000
+|price2=3000
+|price3=10000
+|bonus1=Pickaxe Damage +0.20x per level<br>Rainbow Floor Multi +2.50% per level
+|bonus2=+1 Pet Level Cap<br>Dino Level Up Chance +15%
+|bonus3=Unlocks the Dino Pet Quest!
+|questBonus=Astraeus and Chione Idol Cap +50 per Rank<br>Aphrodite and Tethys Cap +30 per Rank
+|description=Dino like World 3 Veins. Dino not like to be kept waiting.
+}}
+|-|
+Mr Nibbles=
+{{PetInfobox
+|version1=Mr Nibbles
+|version2=Dr Cool
+|version3=Mechalodon
+|image1=[[File:Mr_Nibbles_Default.png|40px]]
+|image2=[[File:Mr Nibbles Skin.png|40px]]
+|image3=[[File:Mr_Nibbles_Quest.png|40px]]
+|lvlreq=180
+|leveling1=Level up upon catching a shiny fish
+|leveling3=Rank up when gaining fishing ticks from the Angler Drone
+|price1=7500
+|price2=4500
+|price3=12000
+|bonus1=Shiny Fish Multi +0.03x per level<br> Triple Tick Chance +1% per level
+|bonus2=Shiny Fish Chance +2%<br>Mr Nibbles Level Up Chance +15%
+|bonus3=Unlocks the Mr Nibbles Pet Quest!
+|questBonus=Angler Drone Grade Cap +1 per Rank<br>Tier 2 Dock Power +5% per Rank
+|description=Catch shiny fish to level up. He’s collecting them for his aquarium, definitely not eating them.
+}}
+|-|
+Nagini=
+{{PetInfobox
+|version1=Nagini
+|version2=Abomination
+|version3=Beholder
+|image1=[[File:Nagini_Default.png|40px]]
+|image2=[[File:Nagini Skin.png|40px]]
+|image3=[[File:Nagini_Quest.png|40px]]
+|lvlreq=235
+|leveling1=Level up when depleting a golden ore
+|leveling3=Rank up when depleting a golden ore inside golden void portal on floor 91+
+|price1=15000
+|price2=6000
+|price3=14000
+|bonus1=Golden Ore Multi +0.05x per level<br>All Floor Multi +2% per level
+|bonus2=Golden Ore Chance +2%<br>Nagini Level Up Chance +15%
+|bonus3=Unlocks the Nagini Pet Quest!
+|questBonus=Golden Void Portal Chance +0.50% per Rank<br>Golden Void Portal Multi +5% per Rank
+|description=Destroy golden ores to level up. Keep away from planes!
+}}
+|-|
+Butterfly=
+{{PetInfobox
+|version1=Butterfly
+|version2=Scorchwing
+|version3=Flutterfrost
+|image1=[[File:Butterfly_Default.png|40px]]
+|image2=[[File:Butterfly Skin.png|40px]]
+|image3=[[File:Butterfly_Quest.png|40px]]
+|lvlreq=310
+|leveling1=Level up when catching a Frog
+|leveling3=Rank up when catching golden Frogs
+|price1=250000
+|price2=250000
+|price3=350000
+|bonus1=Galactic Floor Chance +0.5%<br>Lootfrog Triple Chance +0.35%<br>Rainbow Portal Chance +0.25%
+|bonus2=Unlock Infernal Pet Cards<br>Butterfly Level Up Chance +15%
+|bonus3=Unlocks the Butterfly Pet Quest!
+|questBonus=Big Lootfrog Chance +0.25%<br>Prismatic Galactic Multi +10%
+|description=Frog, give frog now
+}}
+|-|
+Rhino=
+{{PetInfobox
+|version1=Rhino
+|version2=Shaun
+|version3=Capybara
+|image1=[[File:Rhino_Default.png|40px]]
+|image2=[[File:Rhino_Skin.png|40px]]
+|image3=[[File:Rhino_Quest.png|40px]]
+|lvlreq=340
+|leveling1=Level up when a Brittle Essence Block spawns
+|leveling3=Rank up when spawning Shiny Brittle Essence Blocks
+|price1=2500000
+|price2=1750000
+|price3=3250000
+|bonus1=Essence Brittle Chance +1%<br>Pickaxe Damage +35%<br>Chain Drone Grade Cap +3
+|bonus2=Essence Max Loot +1<br>Rhino Level Up Chance +30%
+|bonus3=Unlocks the Rhino Pet Quest!
+|questBonus=Essence Shiny Chance +0.50%<br>Arcanist Spell Power +1.50%
+|description=When Brittle triggers on the Essence Blocks in the Arcanist Menu, Rhino rolls for a level up. (Fun Fact: Rhinos exist in real life)
+}}</tabber>
+
+==Leveling==
+{{See also|Stats#tabber-Pet_Level_Up_Chance}}
+
+<tabber class="sync">
+Crab=
+{{PetLevelChance
+|name=Crab
+|image=[[File:Crab_Default.png|24px]]
+|lvlup=Level up when firing a basic bomb
+|bonus=Bomb Capacity +3% per level<br>Bomb Recharge Rate +1% per level
+|basechance=5000
+|baseprice=1
+|maxlevel=25
+}}
+|-|
+Dwarf=
+{{PetLevelChance
+|name=Dwarf
+|image=[[File:Dwarf_Default.png|24px]]
+|lvlup=Level up when upgrading pickaxe above lvl 25
+|bonus=Pickaxe Damage +20% per level<br>Ultra Crit Chance +1% per level
+|basechance=50
+|baseprice=350
+|maxlevel=25
+}}
+|-|
+Duck=
+{{PetLevelChance
+|name=Duck
+|image=[[File:Duck_Default.png|24px]]
+|lvlup=Level up when depleting a vein
+|bonus=Experience Gain +12%<br>Lootbug Spawn Rate +2.5% per level
+|basechance=500
+|baseprice=750
+|maxlevel=20
+}}
+|-|
+Rabbit=
+{{PetLevelChance
+|name=Rabbit
+|image=[[File:Rabbit_Default.png|24px]]
+|lvlup=Level up when completing a contract
+|bonus=Contract Upgrade Cost Reduction -0.03x per level
+|basechance=200
+|baseprice=1000
+|maxlevel=20
+}}
+|-|
+Penguin=
+{{PetLevelChance
+|name=Penguin
+|image=[[File:Penguin_Default.png|24px]]
+|lvlup=Level up when spawning a golden floor
+|bonus=Golden Floor Multi +0.05x per level
+|basechance=4500
+|baseprice=1500
+|maxlevel=20
+}}
+|-|
+Axolotl=
+{{PetLevelChance
+|name=Axolotl
+|image=[[File:Axolotl_Default.png|24px]]
+|lvlup=Level up when crafting a world 2 bar
+|bonus=Double Craft Chance +2% per level<br>Bar Craft Cost -1% per level
+|basechance=6660000
+|baseprice=1750
+|maxlevel=20
+}}
+|-|
+Whale=
+Unlocking the whale pet guarantees a level up, because its gem cost is more than the chance to level up.
+{{PetLevelChance
+|name=Whale
+|image=[[File:Whale_Default.png|24px]]
+|lvlup=Level up chance per gem spent
+|bonus=Pickaxe Damage +10% per level<br>Triple Lootbug Chance +3% per level
+|basechance=500
+|baseprice=2000
+|maxlevel=20
+}}
+|-|
+Totem=
+{{PetLevelChance
+|name=Totem
+|image=[[File:Totem_Default.png|24px]]
+|lvlup=Level up when depleting a golden vein
+|bonus=Vein Spawn Rate +3% per level<br>Golden Vein Chance +1% per level<br>Golden Vein Multi +1% per level
+|basechance=450
+|baseprice=2250
+|maxlevel=25
+}}
+|-|
+Happy-Bot=
+{{PetLevelChance
+|name=Happy-Bot
+|image=[[File:Happybot_Default.png|24px]]
+|lvlup=Level up when level up at level 100+
+|bonus=T4 Artifact Cap +1 per level
+|basechance=400
+|baseprice=2500
+|maxlevel=20
+}}
+|-|
+Leprechaun=
+{{PetLevelChance
+|name=Leprechaun
+|image=[[File:Leprechaun_Default.png|24px]]
+|lvlup=Level up when clearing a rainbow floor
+|bonus=Base Game Speed +1.5% per level<br>Golden Floor Multi +1.25% per level<br>Rainbow Floor Chance +0.25% per level
+|basechance=5000
+|baseprice=2750
+|maxlevel=25
+}}
+|-|
+Starfish=
+{{PetLevelChance
+|name=Starfish
+|image=[[File:Starfish_Default.png|24px]]
+|lvlup=Level up when catching a super star
+|bonus=Super Star 10x Chance +0.2% per level<br>Super Star Supernova Chance +0.2% per level
+|basechance=1000
+|baseprice=3000
+|maxlevel=25
+}}
+|-|
+Dino=
+{{PetLevelChance
+|name=Dino
+|image=[[File:Dino_Default.png|24px]]
+|lvlup=Level up when earning world 3 veins
+|bonus=Pickaxe Damage +0.20x per level<br>Rainbow Floor Multi +2.50% per level
+|basechance=25000000
+|baseprice=4000
+|maxlevel=25
+}}
+|-|
+Mr Nibbles=
+{{PetLevelChance
+|name=Mr Nibbles
+|image=[[File:Mr Nibbles_Default.png|24px]]
+|lvlup=Level up upon catching a shiny fish
+|bonus=Shiny Fish Multi +0.03x per level<br>Triple Tick Chance +1% per level
+|basechance=2600
+|baseprice=7500
+|maxlevel=25
+}}
+|-|
+Nagini=
+{{PetLevelChance
+|name=Nagini
+|image=[[File:Nagini_Default.png|24px]]
+|lvlup=Level up when depleting a golden ore
+|bonus=Golden Ore Multi +0.05x per level<br>All Floor Multi +2% per level
+|basechance=162000
+|baseprice=15000
+|maxlevel=25
+}}
+|-|
+Butterfly=
+{{PetLevelChance
+|name=Butterfly
+|image=[[File:Butterfly_Default.png|24px]]
+|lvlup=Level up when catching a Frog
+|bonus=Galactic Floor Chance +0.5%<br>Lootfrog Triple Chance +0.35%<br>Rainbow Portal Chance +0.25%
+|basechance=115
+|baseprice=250000
+|maxlevel=25
+}}
+|-|
+Rhino=
+{{PetLevelChance
+|name=Rhino
+|image=[[File:Rhino_Default.png|24px]]
+|lvlup=Level up when a Brittle Essence Block spawns
+|bonus=Essence Brittle Chance +1%<br>Pickaxe Damage +35%<br>Chain Drone Grade Cap +3
+|basechance=650
+|baseprice=2500000
+|maxlevel=20
+}}
+</tabber>
+<references />
+
+==Pet Quests==
+Pet Quests are an extra challenge for Pets. They can be unlocked by purchasing the respective Pet Skin in the Skins submenu once the pet has reached level 10. Ranks are capped at 10 by default, but the Rank cap can be increased via the [[Fishing#tabber-Melting Gibbous|Melting Gibbous Tier 2 Tribute]].
+<tabber class="sync">Crab=
+{{PetLevelChance
+|name=Crab Quest
+|image=[[File:Crab_Quest.png|24px]]
+|lvlup=Trigger Battery Cap Increases
+|bonus=Plenty Bomb Multiplier +0.5x per Rank<br>Exp Bomb Multiplier +0.5x per Rank
+|basechance=25
+|maxlevel=11
+|multiplier=2
+|levelType=Xp
+}}
+|-|
+Dwarf=
+{{PetLevelChance
+|name=Dwarf Quest
+|image=[[File:Dwarf_Quest.png|24px]]
+|lvlup=Buy a World 2+ Base Upgrade
+|bonus=Prestige Point Gain +12% per Rank<br>Floor Clear Requirement -2% per Rank
+|basechance=350
+|maxlevel=11
+|multiplier=1.8
+|levelType=Xp
+}}
+|-|
+Duck=
+{{PetLevelChance
+|name=Duck Quest
+|image=[[File:Duck_Quest.png|24px]]
+|lvlup=Deplete Void Portal Rainbow Veins
+|bonus=Vein Income Multiplier +2% per Rank<br>Golden Vein Multiplier +2% per Rank
+|basechance=1000
+|maxlevel=11
+|multiplier=2
+|levelType=Xp
+}}
+|-|
+Rabbit=
+{{PetLevelChance
+|name=Rabbit Quest
+|image=[[File:Rabbit_Quest.png|24px]]
+|lvlup=Complete Contracts at Contract 750+
+|bonus=5x Contract Point Chance +1% per Rank<br>Contract Upgrade Cost -1% per Rank
+|basechance=650
+|maxlevel=11
+|multiplier=1.8
+|levelType=Xp
+}}
+|-|
+Penguin=
+{{PetLevelChance
+|name=Penguin Quest
+|image=[[File:Penguin_Quest.png|24px]]
+|lvlup=Clear Golden Rainbow Floors
+|bonus=Golden Floor Multiplier +2% per Rank<br>Rainbow Floor Chance +0.25% per Rank
+|basechance=2500
+|maxlevel=11
+|multiplier=2
+|levelType=Xp
+}}
+|-|
+Axolotl=
+{{PetLevelChance
+|name=Axolotl Quest
+|image=[[File:Axolotl_Quest.png|24px]]
+|lvlup=Gain Relic Chests
+|bonus=Archaeology Fragment Gain +3% per Rank<br>Star Supernova Multi +3% per Rank
+|basechance=250
+|maxlevel=11
+|multiplier=1.8
+|levelType=Xp
+}}
+|-|
+Whale=
+{{PetLevelChance
+|name=Whale Quest
+|image=[[File:Whale_Quest.png|24px]]
+|lvlup=Gain Gems via Gem Bomb
+|bonus=Gem Bomb Gem Chance +0.10% per Rank<br>Banked Lootbug +1 per Rank
+|basechance=1000
+|maxlevel=11
+|multiplier=2.9
+|levelType=Xp
+}}
+|-|
+Totem=
+{{PetLevelChance
+|name=Totem Quest
+|image=[[File:Totem_Quest.png|24px]]
+|lvlup=Fill Drones With Fuel
+|bonus=Drone Experience Gain +4% per Rank<br>Chain Drone Grade Cap +2 per Rank
+|basechance=325
+|maxlevel=11
+|multiplier=1.8
+|levelType=Xp
+}}
+|-|
+Happy-Bot=
+{{PetLevelChance
+|name=Happy-Bot Quest
+|image=[[File:Happybot_Quest.png|24px]]
+|lvlup=Level Up at Level 225+
+|bonus=Poly Ore, Star, Vein Multis +2% per Rank<br>Banked Freebies +1 per Rank
+|basechance=150
+|maxlevel=11
+|multiplier=1.5
+|levelType=Xp
+}}
+|-|
+Leprechaun=
+{{PetLevelChance
+|name=Leprechaun Quest
+|image=[[File:Leprechaun_Quest.png|24px]]
+|lvlup=Deplete Golden Ores on Galactic Rainbow Floors
+|bonus=Galactic Floor Multi +4% per Rank<br>Transmuter BoP Mark Chance +2% per Rank
+|basechance=6500
+|maxlevel=11
+|multiplier=2.4
+|levelType=Xp
+}}
+|-|
+Starfish=
+{{PetLevelChance
+|name=Starfish Quest
+|image=[[File:Starfish_Quest.png|24px]]
+|lvlup=Rank up when catching a supernova supergiant super star
+|bonus=Novagiant Combo Multi +3% per Rank<br>Capricorn and Ophiuchus Cap +1 per Rank
+|basechance=125
+|maxlevel=11
+|multiplier=1.6
+|levelType=Xp
+}}
+|-|
+Dino=
+{{PetLevelChance
+|name=Dino Quest
+|image=[[File:Dino_Quest.png|24px]]
+|lvlup=	Rank up when clearing archaeology stages 110+
+|bonus=Astraeus and Chione Idol Cap +50 per Rank<br>Aphrodite and Tethys Cap +30 per Rank
+|basechance=925
+|maxlevel=11
+|multiplier=1.8
+|levelType=Xp
+}}
+|-|
+Mr Nibbles=
+{{PetLevelChance
+|name=Mr Nibbles Quest
+|image=[[File:Mr_Nibbles_Quest.png|24px]]
+|lvlup=Rank up when gaining fishing ticks from the Angler Drone
+|bonus=Angler Drone Grade Cap +1 per Rank<br>Tier 2 Dock Power +5% per Rank
+|basechance=500
+|maxlevel=11
+|multiplier=1.5
+|levelType=Xp
+}}
+|-|
+Nagini=
+{{PetLevelChance
+|name=Nagini Quest
+|image=[[File:Nagini_Quest.png|24px]]
+|lvlup=Rank up when depleting a golden ore inside golden void portal on floor 91+
+|bonus=Golden Void Portal Chance +0.50% per Rank<br>Golden Void Portal Multi +5% per Rank
+|basechance=2500
+|maxlevel=11
+|multiplier=1.85
+|levelType=Xp
+}}
+|-|
+Butterfly=
+{{PetLevelChance
+|name=Butterfly Quest
+|image=[[File:Butterfly_Quest.png|24px]]
+|lvlup=Rank up when catching Golden Frogs
+|bonus=Big Lootfrog Chance +0.25%<br>Prismatic Galactic Multi +10%
+|basechance=15
+|maxlevel=11
+|multiplier=1.5
+|levelType=Xp
+}}
+|-|
+Rhino=
+{{PetLevelChance
+|name=Rhino Quest
+|image=[[File:Rhino_Quest.png|24px]]
+|lvlup=Rank up when spawning Shiny Brittle Essence Blocks
+|bonus=Essence Shiny Chance +0.50%<br>Arcanist Spell Power +1.50%
+|basechance=30
+|maxlevel=11
+|multiplier=1.65
+|levelType=Xp
+}}</tabber>
+
+<references />
+
+== Level Caps ==
+There are several ways to increase pet level caps. The first that most players encounter is [[Stargazing#Stars|Pisces]], which increases the cap for all pets by 1 per level, up to a maximum of +4. Many cap increases are applied to all pets for a total of 20. Any increases above 20 are applied to specific pets instead.
+<tabber>
+Crab=
+{{Stat|Crab|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Fishing'''|[[Fishing#tabber-Storm_Serpent|Storm Serpent]] Tier 1 Tribute: 5
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Crab Default|descriptionName=Maximum Level}}
+|-|
+Dwarf=
+{{Stat|Dwarf|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1 <br> [[Challenges#tabber-Divine 2|Divine Challenge Reward]]: 5
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Dwarf Default|descriptionName=Maximum Level}}
+|-|
+Duck=
+{{Stat|Duck|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Duck Default|descriptionName=Maximum Level}}
+|-|
+Rabbit=
+{{Stat|Rabbit|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Rabbit Default|descriptionName=Maximum Level}}
+|-|
+Penguin=
+{{Stat|Penguin|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Penguin Default|descriptionName=Maximum Level}}
+|-|
+Axolotl=
+{{Stat|Axolotl|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Axolotl Default|descriptionName=Maximum Level}}
+|-|
+Whale=
+{{Stat|Whale|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Whale Default|descriptionName=Maximum Level}}
+|-|
+Totem=
+{{Stat|Totem|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Fishing'''|[[Fishing#tabber-Glacial Shellstealer|Glacial Shellstealer]] Tier 1 Tribute: 5
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Totem Default|descriptionName=Maximum Level}}
+|-|
+Happy-Bot=
+{{Stat|Happy-Bot|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Happybot Default|descriptionName=Maximum Level}}
+|-|
+Leprechaun=
+{{Stat|Leprechaun|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Fishing'''|[[Fishing#tabber-Rainbow Trout|Rainbow Trout]] Tier 1 Tribute: 3
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4 <br> [[Stargazing#Black_Hole |Black Hole 2]]: 2
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Leprechaun Default|descriptionName=Maximum Level}}
+|-|
+Starfish=
+{{Stat|Starfish|25
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Mythic Idols|Xanthe]]: 5
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Starfish Default|descriptionName=Maximum Level}}
+|-|
+Dino=
+{{Stat|Dino|25
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Mythic Idols|Xanthe]]: 5
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Dino Default|descriptionName=Maximum Level}}
+|-|
+Mr Nibbles=
+{{Stat|Mr Nibbles|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Fishing'''|[[Fishing#tabber-Rainbow Trout|Rainbow Trout]] Tier 2 Tribute: 3
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4 <br> [[Stargazing#Black_Hole |Black Hole 12]]: 2
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Mr Nibbles Default|descriptionName=Maximum Level}}
+|-|
+Nagini=
+{{Stat|Nagini|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 8
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Nagini Default|descriptionName=Maximum Level}}
+|-|
+Butterfly=
+{{Stat|Butterfly|25
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Floors'''|[[Floors#World Quests|World Quests]]: 5
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Butterfly Default|descriptionName=Maximum Level}}
+|-|
+Rhino=
+{{Stat|Rhino|20
+|'''Base'''|10
+|'''Construct'''|[[Construct#tabber-World 1 Platinized Statues|Platinized Statue of Slaying]]: 1 <br> [[Construct#World 3 Bonuses|Statue of Feline]]: 3
+|'''Challenges'''|[[Challenges#tabber-Extreme 2|Extreme Challenge Reward]]: 1
+|'''Stargazing'''|[[Stargazing#Stars|Pisces]]: 4
+|'''Pets'''|[[Pets#tabber-Dino Skin|Dino pet skin]]: 1
+|spriteOverride=Rhino Default|descriptionName=Maximum Level}}
+|-|
+</tabber>
+
+==Card Bonuses==
+{{See also|Cards}}
+{{#lst:Cards|pet-odds-text}}
+{{:Cards/Card Effects/Pets}}
+
+===Infernal Card Odds===
+{{#lst:Cards|pet-odds-table}}
+
+==Trivia==
+* It takes about 1,225,650 [[Bombs#tabber-Gem_Bomb|Gem Bombs]] fired for the Whale Pet Quest to pay itself back which would occur a little after rank 4. This takes into account the Ranks it gains along the way but does not take into account free bomb chance. The total number of bombs recharged would be around 25% lower but will depend on the free bomb chance at the time of firing.
+
+==Navigation==
+{{Menu}}

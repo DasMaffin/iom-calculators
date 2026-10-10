@@ -1,0 +1,49 @@
+Page containing Effects of all cards, divided by card type.
+
+<tabber class="sticky-header">
+Ores=
+{{:Cards/Card Effects/Ores}}
+|-|
+Bars=
+{{:Cards/Card Effects/Bars}}
+|-|
+Bombs=
+{{:Cards/Card Effects/Bombs}}
+|-|
+Misc=
+{{:Cards/Card Effects/Misc}}
+|-|
+Drones=
+{{:Cards/Card Effects/Drones}}
+|-|
+Pets=
+{{:Cards/Card Effects/Pets}}
+|-|
+Veins=
+{{:Cards/Card Effects/Veins}}
+|-|
+Stars=
+{{:Cards/Card Effects/Stars}}
+|-|
+Archaeology=
+{{:Cards/Card Effects/Archaeology}}
+|-|
+Fish=
+{{:Cards/Card Effects/Fish}}
+|-|
+Legendary Fish=
+{{:Cards/Card Effects/Legendary Fish}}
+|-|
+Essences=
+{{:Cards/Card Effects/Essences}}
+|-|
+Runes=
+{{:Cards/Card Effects/Runes}}
+|-|
+Spells=
+{{:Cards/Card Effects/Spells}}
+|-|
+Orbs=
+{{:Cards/Card Effects/Orbs}}
+</tabber>
+<references/>

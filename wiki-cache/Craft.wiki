@@ -1,0 +1,246 @@
+{{Version|2.2.23}}
+[[File:Craft Button.png|frameless|left]]
+Craft is the menu where [[Ores]] are turned into Bars. Bars can be crafted in 1x, 5x, 50x, 500x and Max quantity, and there is also a "Craft All" button to craft all ores at once. After unlocking World 2, a cart button shows up, allowing quick-jumping to the first bar of that particular world. This quick-jump extends to future worlds once they are unlocked.
+
+{{clear|left}}
+==Craft Upgrades==
+Crafting can be improved by increasing certain [[Stats#Crafting|stats]]. All of the "Craft Chance" bonuses work multiplicatively with eachother
+* [[Stats#tabber-Bar_Craft_Cost|Bar Craft Cost]] - decreases amount of [[Ores]] needed per Bar to be crafted
+* [[Stats#tabber-Free_Craft_Chance|Free Craft Chance]] - chance for a crafting action to not consume ore
+* [[Stats#tabber-Double_Craft_Chance|Double Craft Chance]] - chance for a craft to give 2x bars
+* [[Stats#tabber-Triple_Craft_Chance|Triple Craft Chance]] - chance for a craft to give 3x bars
+* [[Stats#tabber-5x_Craft_Chance|5x Craft Chance]] - chance for a craft to give 5x bars
+* [[Stats#tabber-10x_Craft_Chance|10x Craft Chance]] - chance for a craft to give 10x bars
+* [[Stats#tabber-20x_Craft_Chance|20x Craft Chance]] - chance for a craft to give 20x bars
+* [[Stats#tabber-100x_Craft_Chance|100x Craft Chance]] - chance for a craft to give 100x bars
+* [[Stats#tabber-Bar_Output_Multiplier|Bar Output Multiplier]] - provides a multiplier to total amount of bars you receive from sources of bar creation like crafting or Transmuter Bomb
+
+==Crafting Bars==
+<tabber class="sticky-header">
+World 1=
+{| class="wikitable align-center-1 align-center-3 align-center-4 align-center-5 sticky-header"
+|+World 1
+! colspan="2" | Ore || Base Cost<ref name="Base Cost">refers to the Base Cost without [[Stats#tabber-Bar_Craft_Cost|Bar Craft Cost]].</ref> || Bar
+|- 
+| <div id="Tin"></div>[[File:Tin Ore.png]] || Tin Ore || 5 || [[File:Tin Bar.png]]
+|- 
+| <div id="Copper"></div>[[File:Copper Ore.png]] || Copper Ore || 6 || [[File:Copper Bar.png]]
+|- 
+| <div id="Mithril"></div>[[File:Mithril Ore.png]] || Mithril Ore || 7 || [[File:Mithril Bar.png]]
+|- 
+| <div id="Adamant"></div>[[File:Adamant Ore.png]] || Adamant Ore || 8 || [[File:Adamant Bar.png]]
+|- 
+| <div id="Runite"></div>[[File:Runite Ore.png]] || Runite Ore || 9 || [[File:Runite Bar.png]]
+|- 
+| <div id="Citrine"></div>[[File:Citrine Ore.png]] || Citrine Ore || 10 || [[File:Citrine Bar.png]]
+|- 
+| <div id="Amethyst"></div>[[File:Amethyst Ore.png]] || Amethyst Ore || 11 || [[File:Amethyst Bar.png]]
+|- 
+| <div id="Topaz"></div>[[File:Topaz Ore.png]] || Topaz Ore || 12 || [[File:Topaz Bar.png]]
+|- 
+| <div id="Obsidian"></div>[[File:Obsidian Ore.png]] || Obsidian Ore || 13 || [[File:Obsidian Bar.png]]
+|- 
+| <div id="Demonite"></div>[[File:Demonite Ore.png]] || Demonite Ore || 14 || [[File:Demonite Bar.png]]
+|- 
+| <div id="VR-Tin"></div>[[File:VR-Tin Ore.png]] || VR-Tin Ore || 16 || [[File:VR-Tin Bar.png]]
+|- 
+| <div id="VR-Amethyst"></div>[[File:VR-Amethyst Ore.png]] || VR-Amethyst Ore || 18 || [[File:VR-Amethyst Bar.png]]
+|- 
+| <div id="VR-Demonite"></div>[[File:VR-Demonite Ore.png]] || VR-Demonite Ore || 20 || [[File:VR-Demonite Bar.png]]
+|- 
+| <div id="VR-ERROR"></div>[[File:VR-ERROR Ore.png]] || VR-ERROR Ore || 22 || [[File:VR-ERROR Bar.png]]
+|- 
+| <div id="Lunarium"></div>[[File:Lunarium Ore.png]] || Lunarium Ore || 25 || [[File:Lunarium Bar.png]]
+|- 
+| <div id="Earth-C-137"></div>[[File:Earth-C-137 Ore.png]] || Earth-C-137 Ore || 28 || [[File:Earth-C-137 Bar.png]]
+|- 
+| <div id="Meteorite"></div>[[File:Meteorite Ore.png]] || Meteorite Ore || 31 || [[File:Meteorite Bar.png]]
+|- 
+| <div id="Singularity"></div>[[File:Singularity Ore.png]] || Singularity Ore || 34 || [[File:Singularity Bar.png]]
+|- 
+| <div id="Halium"></div>[[File:Halium Ore.png]] || Halium Ore || 38 || [[File:Halium Bar.png]]
+|- 
+| <div id="Blasphemite"></div>[[File:Blasphemite Ore.png]] || Blasphemite Ore || 42 || [[File:Blasphemite Bar.png]]
+|- 
+| <div id="Angelite"></div>[[File:Angelite Ore.png]] || Angelite Ore || 46 || [[File:Angelite Bar.png]]
+|- 
+| <div id="Elysium"></div>[[File:Elysium Ore.png]] || Elysium Ore || 50 || [[File:Elysium Bar.png]]
+|- 
+| <div id="Enemite"></div>[[File:Enemite Ore.png]] || Enemite Ore || 60 || [[File:Enemite Bar.png]]
+|- 
+| <div id="Beepboopium"></div>[[File:Beepboopium Ore.png]] || Beepboopium Ore || 70 || [[File:Beepboopium Bar.png]]
+|- 
+| <div id="Radion-73"></div>[[File:Radion-73 Ore.png]] || Radion-73 Ore || 80 || [[File:Radion-73 Bar.png]]
+|- 
+| <div id="Cranium"></div>[[File:Cranium Ore.png]] || Cranium Ore || 90 || [[File:Cranium Bar.png]]
+|}
+|-|
+World 2=
+{| class="wikitable align-center-1 align-center-3 align-center-6 sticky-header"
+|+World 2
+! colspan="2" | Ore || Base Cost<ref name="Base Cost">refers to the Base Cost without [[Stats#tabber-Bar_Craft_Cost|Bar Craft Cost]].</ref> || Bar
+|- 
+| <div id="Lapis"></div>[[File:Lapis Ore.png]] || Lapis Ore || 100 || [[File:Lapis Bar.png]]
+|- 
+| <div id="Quartz"></div>[[File:Quartz Ore.png]] || Quartz Ore || 110 || [[File:Quartz Bar.png]]
+|- 
+| <div id="Glacialite"></div>[[File:Glacialite Ore.png]] || Glacialite Ore || 120 || [[File:Glacialite Bar.png]]
+|- 
+| <div id="Twinklestone"></div>[[File:Twinklestone Ore.png]] || Twinklestone Ore || 130 || [[File:Twinklestone Bar.png]]
+|- 
+| <div id="Sandcasium"></div>[[File:Sandcasium Ore.png]] || Sandcasium Ore || 140 || [[File:Sandcasium Bar.png]]
+|- 
+| <div id="Clamite"></div>[[File:Clamite Ore.png]] || Clamite Ore || 150 || [[File:Clamite Bar.png]]
+|- 
+| <div id="Thunderstone"></div>[[File:Thunderstone Ore.png]] || Thunderstone Ore || 160 || [[File:Thunderstone Bar.png]]
+|- 
+| <div id="Crabrock"></div>[[File:Crabrock Ore.png]] || Crabrock Ore || 170 || [[File:Crabrock Bar.png]]
+|- 
+| <div id="Hailstone"></div>[[File:Hailstone Ore.png]] || Hailstone Ore || 180 || [[File:Hailstone Bar.png]]
+|- 
+| <div id="Frostbite"></div>[[File:Frostbite Ore.png]] || Frostbite Ore || 190 || [[File:Frostbite Bar.png]]
+|- 
+| <div id="Icebloom"></div>[[File:Icebloom Ore.png]] || Icebloom Ore || 200 || [[File:Icebloom Bar.png]]
+|- 
+| <div id="Pinguinus"></div>[[File:Pinguinus Ore.png]] || Pinguinus Ore || 210 || [[File:Pinguinus Bar.png]]
+|- 
+| <div id="Macawrock"></div>[[File:Macawrock Ore.png]] || Macawrock Ore || 238 || [[File:Macawrock Bar.png]]
+|- 
+| <div id="Cocore"></div>[[File:Cocore Ore.png]] || Cocore Ore || 266 || [[File:Cocore Bar.png]]
+|- 
+| <div id="Rafflenium"></div>[[File:Rafflenium Ore.png]] || Rafflenium Ore || 294 || [[File:Rafflenium Bar.png]]
+|- 
+| <div id="Carnivorian"></div>[[File:Carnivorian Ore.png]] || Carnivorian Ore || 322 || [[File:Carnivorian Bar.png]]
+|- 
+| <div id="Infernite"></div>[[File:Infernite Ore.png]] || Infernite Ore || 350 || [[File:Infernite Bar.png]]
+|- 
+| <div id="Blood-Onyx"></div>[[File:Blood-Onyx Ore.png]] || Blood-Onyx Ore || 378 || [[File:Blood-Onyx Bar.png]]
+|- 
+| <div id="Cyrogem"></div>[[File:Cyrogem Ore.png]] || Cyrogem Ore || 406 || [[File:Cyrogem Bar.png]]
+|- 
+| <div id="Pinnaclite"></div>[[File:Pinnaclite Ore.png]] || Pinnaclite Ore || 434 || [[File:Pinnaclite Bar.png]]
+|}
+|-|
+World 3=
+{| class="wikitable align-center-1 align-center-3 align-center-4 align-center-6 sticky-header"
+|+World 3
+! colspan="2" | Ore || Base Cost<ref name="Base Cost">refers to the Base Cost without [[Stats#tabber-Bar_Craft_Cost|Bar Craft Cost]].</ref> || Bar
+|- 
+| <div id="Omeletite"></div>[[File:Omeletite Ore.png]] || Omeletite Ore || 502 || [[File:Omeletite Bar.png]]
+|- 
+| <div id="Resinite"></div>[[File:Resinite Ore.png]] || Resinite Ore || 570 || [[File:Resinite Bar.png]]
+|- 
+| <div id="Impactium"></div>[[File:Impactium Ore.png]] || Impactium Ore || 638 || [[File:Impactium Bar.png]]
+|- 
+| <div id="Tricerastone"></div>[[File:Tricerastone Ore.png]] || Tricerastone Ore || 706 || [[File:Tricerastone Bar.png]]
+|- 
+| <div id="Duelysium"></div>[[File:Duelysium Ore.png]] || Duelysium Ore || 774 || [[File:Duelysium Bar.png]]
+|- 
+| <div id="Arcusite"></div>[[File:Arcusite Ore.png]] || Arcusite Ore || 842 || [[File:Arcusite Bar.png]]
+|- 
+| <div id="Phalanxite"></div>[[File:Phalanxite Ore.png]] || Phalanxite Ore || 910 || [[File:Phalanxite Bar.png]]
+|- 
+| <div id="Guardium"></div>[[File:Guardium Ore.png]] || Guardium Ore || 978 || [[File:Guardium Bar.png]]
+|- 
+| <div id="Cognite"></div>[[File:Cognite Ore.png]] || Cognite Ore || 1.05k || [[File:Cognite Bar.png]]
+|- 
+| <div id="Telophite"></div>[[File:Telophite Ore.png]] || Telophite Ore || 1.11k || [[File:Telophite Bar.png]]
+|- 
+| <div id="Steamstone"></div>[[File:Steamstone Ore.png]] || Steamstone Ore || 1.18k || [[File:Steamstone Bar.png]]
+|- 
+| <div id="Equinine"></div>[[File:Equinine Ore.png]] || Equinine Ore || 1.25k || [[File:Equinine Bar.png]]
+|- 
+| <div id="Dynamite"></div>[[File:Dynamite Ore.png]] || Dynamite Ore || 1.46k || [[File:Dynamite Bar.png]]
+|- 
+| <div id="Genevium"></div>[[File:Genevium Ore.png]] || Genevium Ore || 1.67k || [[File:Genevium Bar.png]]
+|- 
+| <div id="Manhattite"></div>[[File:Manhattite Ore.png]] || Manhattite Ore || 1.87k || [[File:Manhattite Bar.png]]
+|- 
+| <div id="Rationium"></div>[[File:Rationium Ore.png]] || Rationium Ore || 2.08k || [[File:Rationium Bar.png]]
+|- 
+| <div id="Vaporium"></div>[[File:Vaporium Ore.png]] || Vaporium Ore || 2.29k || [[File:Vaporium Bar.png]]
+|- 
+| <div id="Palmite"></div>[[File:Palmite Ore.png]] || Palmite Ore || 2.50k || [[File:Palmite Bar.png]]
+|- 
+| <div id="Ransomite"></div>[[File:Ransomite Ore.png]] || Ransomite Ore || 2.71k || [[File:Ransomite Bar.png]]
+|- 
+| <div id="MVPD-1988"></div>[[File:MVPD-1988 Ore.png]] || MVPD-1988 Ore || 2.91k || [[File:MVPD-1988 Bar.png]]
+|}
+|-|
+World 4=
+{| class="wikitable align-center-1 align-center-3 align-center-4 align-center-6 sticky-header"
+|+World 4
+! colspan="2" | Ore || Base Cost<ref name="Base Cost">refers to the Base Cost without [[Stats#tabber-Bar_Craft_Cost|Bar Craft Cost]].</ref> || Bar
+|- 
+| <div id="Chronite"></div>[[File:Chronite Ore.png]] || Chronite Ore || 4.1k || [[File:Chronite Bar.png]]
+|- 
+| <div id="Hattium"></div>[[File:Hattium Ore.png]] || Hattium Ore || 5.3k || [[File:Hattium Bar.png]]
+|- 
+| <div id="Pishalvite"></div>[[File:Pishalvite Ore.png]] || Pishalvite Ore || 6.5k || [[File:Pishalvite Bar.png]]
+|- 
+| <div id="Teatimium"></div>[[File:Teatimium Ore.png]] || Teatimium Ore || 7.7k || [[File:Teatimium Bar.png]]
+|- 
+| <div id="Rumium"></div>[[File:Rumium Ore.png]] || Rumium Ore || 8.9k || [[File:Rumium Bar.png]]
+|- 
+| <div id="Anchorium"></div>[[File:Anchorium Ore.png]] || Anchorium Ore || 10.1k || [[File:Anchorium Bar.png]]
+|- 
+| <div id="Mateyum"></div>[[File:Mateyum Ore.png]] || Mateyum Ore || 11.3k || [[File:Mateyum Bar.png]]
+|- 
+| <div id="Hookite"></div>[[File:Hookite Ore.png]] || Hookite Ore || 12.5k || [[File:Hookite Bar.png]]
+|- 
+| <div id="Carpetite"></div>[[File:Carpetite Ore.png]] || Carpetite Ore || 13.7k || [[File:Carpetite Bar.png]]
+|- 
+| <div id="Djinnium"></div>[[File:Djinnium Ore.png]] || Djinnium Ore || 14.9k || [[File:Djinnium Bar.png]]
+|- 
+| <div id="Sinbadium"></div>[[File:Sinbadium Ore.png]] || Sinbadium Ore || 16.1k || [[File:Sinbadium Bar.png]]
+|- 
+| <div id="Turbanite"></div>[[File:Turbanite Ore.png]] || Turbanite Ore || 17.3k || [[File:Turbanite Bar.png]]
+|- 
+| <div id="Carriagum"></div>[[File:Carriagum Ore.png]] || Carriagum Ore || 18.5k || [[File:Carriagum Bar.png]]
+|- 
+| <div id="Crystal-Rose"></div>[[File:Crystal-Rose Ore.png]] || Crystal-Rose Ore || 19.7k || [[File:Crystal-Rose Bar.png]]
+|- 
+| <div id="Frogstone"></div>[[File:Frogstone Ore.png]] || Frogstone Ore || 20.9k || [[File:Frogstone Bar.png]]
+|- 
+| <div id="Slipperite"></div>[[File:Slipperite Ore.png]] || Slipperite Ore || 22.1k || [[File:Slipperite Bar.png]]
+|- 
+| <div id="Jellystone"></div>[[File:Jellystone Ore.png]] || Jellystone Ore || 23.3k || [[File:Jellystone Bar.png]]
+|- 
+| <div id="Lollipopite"></div>[[File:Lollipopite Ore.png]] || Lollipopite Ore || 24.5k || [[File:Lollipopite Bar.png]]
+|- 
+| <div id="Mintium"></div>[[File:Mintium Ore.png]] || Mintium Ore || 25.7k || [[File:Mintium Bar.png]]
+|- 
+| <div id="Neopolium"></div>[[File:Neopolium Ore.png]] || Neopolium Ore || 26.9k || [[File:Neopolium Bar.png]]
+|}
+</tabber>
+<references />
+
+==Craft Chance==
+{{FakeMenuButton|image={{RandomCraftChanceImage|size=72px}}|size=72px|buttonSize=114px|styles=float:left;margin-right:5px}}
+Craft multipliers are random, but you can calculate the '''average''' (expected) multiplier to estimate how many bars you’ll get on average per craft. The game itself uses this value internally when processing bulk crafts to avoid random roll overhead.<br>Each multiplier acts independently. Therefore, you can find the overall expected multiplier by calculating the expected value of each multiplier separately, then multiplying them together.
+
+Note that if the specific crafting chance percentage exceeds 100%, there are no additional crafting bonuses.
+
+If your chance to craft double bars is <math>p_2</math>, the expected multiplier for that bonus is:
+
+<math>2p_2 + 1(1 - p_2) = 1 + p_2</math>
+
+Repeating this for all multipliers and multiplying the results gives:
+
+<math>\begin{array}{l}\mathbb{E}[\text{Total Multiplier}]=\\
+(1 + p_2)(1 + 2p_3)(1 + 4p_5)(1 + 9p_{10})(1 + 19p_{20})(1 + 99p_{100})\end{array}</math>
+
+where <math>p_n</math> is the probability of the <math>n\times</math> multiplier occurring.
+
+=== Free Craft Chance ===
+Free craft chance (<math>p_f</math>) is also independent. If you craft one bar with a chance <math>p_f</math> to not consume materials, the number of additional crafts you can perform forms an infinite geometric series:
+
+<math>1 + p_f + p_f^2 + p_f^3 + \dots = \frac{1}{1 - p_f}</math>
+
+===Final Formula===
+Including both multiplier chances and the Bar Card bonus, the expected number of bars per craft is:
+
+<math>\mathbb{E}[\mathrm{Bars\ per\ Craft}] = \mathrm{TotalMultiplier} \times \frac{1}{1 - p_f} \times \text{Bar Card Multiplier}</math>
+
+==Navigation==
+{{Menu}}

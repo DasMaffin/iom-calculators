@@ -1,0 +1,4 @@
+{{Disambiguation}}
+'''2x ore income''' may refer to:
+* A [[Lootbugs#FreeBuff_2xOreIncome|Free]] or [[Lootbugs#GemBuff_2xOreIncome|Gem]] Lootbug buff
+* An [[Drones#ElixirDroneBuffs_2xOre|Elixir drone buff]]

@@ -1,0 +1,119 @@
+<tabber>
+Game Speed Multiplier=
+{{Stat|Game Speed Multiplier|Modifies the speed at which the game runs.
+| '''Drones''' |
+An [[Drones#ElixirDroneBuffs_2xGameSpeed|Elixir Drone Buff]] (also from a [[Lootbugs#Buffs|Lootbug drop]])
+| '''Items''' |
+[[File:Banana Coffee.png|16px]] [[Items#BananaCoffee|Banana Coffee]] (Requires the [[File:Cephalus Idol.png|16px]] [[Archaeology#Cephalus|Cephalus]] Idol)<math>\times</math>
+<br>[[File:Blue Cow.png|16px]] [[Items#BlueCow|Blue Cow]]
+| '''Store''' |
+The [[File:gofast vp.png|16px]] [[Store#GottaGoFastBundle|Gotta Go Fast Bundle]]<math>\times</math>
+<br>The [[File:FounderIcon.png|16px]] [[Store#FounderT10|Tier 10 Founder Perk]]
+<br>A [[File:Gift.png|16px]] [[Store#Gifts|Base Gift Reward]] (at or below World 2)
+<br>A [[File:Supply Drop.png|16px]] [[Store#Founder_Supply_Drop|Founder Supply Drop]]
+| '''Pets''' |
+The [[File:Leprechaun_Default.png|16px]] [[Pets#tabber-Leprechaun_2|Leprechaun Pet]]
+| '''Stargazing''' |
+A [[File:Super Star.png|16px]] [[Stargazing#GameSpeed_SSUpgrade|Super Star Upgrade]]
+| '''Upgrades''' |
+The {{Sprite|Equinine Bar|Upgrades#Upgrades_W3_BaseGameSpeed||Equinine Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_BaseGameSpeed|World 2: Base Game Speed]]
+| '''Skins''' |
+The [[Skins#SkinReward10|10th Miner Skin Reward]]
+<br>The [[Skins#SkinReward18|18th Miner Skin Reward]]
+| '''Bombs''' |
+The [[File:Founders Bomb.png|16px]] [[Bombs#tabber-Founders_Bomb|Founders Bomb]]
+| '''Misc''' |
+Floors 71-72 with {{Sprite|Pinnaclite Ore|Ores#Pinnaclite||Pinnaclite Ore}}
+<br>Floors 89-90 with {{Sprite|Equinine Ore|Ores#Equinine||Equinine Ore}}
+<br>Floors 91-92 with {{Sprite|Dynamite Ore|Ores#Dynamite||Dynamite Ore}}
+<br>Floors 97-98 with {{Sprite|Vaporium Ore|Ores#Vaporium||Vaporium Ore}}
+<br>Floors 119-120 with {{Sprite|Turbanite Ore|Ores#Turbanite||Turbanite Ore}}
+<br>Floors 121-124 with {{Sprite|Crystal-Rose Ore|Ores#Crystal-Rose||Crystal-Rose Ore}}
+<br>World 3 (Without the last [[Fishing#Upgrades_T1_RemoveWorld3GameSpeedMod|Tier 1 Notice Upgrade]])
+<br>World 4 (Partially mitigated with [[Floors#World_Quests|World Quests]])
+}}
+|-|
+Item Duration Multiplier=
+{{Stat|Item Duration Multiplier|Increases Item duration.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T1_ItemDurationMultiplier|Tier 1 Artifact]]
+| '''Skill-Tree''' |
+The [[File:Friendship Ended With Tier 1 Items.png|16px]] [[Skill-Tree#FriendshipEndedWithTier1Items|Friendship Ended With Tier 1 Items]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Code.png}}[[Cards#CardEffects_Misc_Code|Code Misc Card]]<math>\times</math>
+<br>{{Card|cardType=Infernal|cardImage=Rabbit Icon.png}}[[Cards#CardEffects_Pets_Rabbit|Infernal Rabbit Pet Card]]
+| '''Stargazing''' |
+The [[File:Capricorn Full.png|16px]] [[Capricorn#Stars|Capricorn]] Star<math>+</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#ItemDuration_SSUpgrade|Super Star Upgrade]]
+| '''Skins''' |
+The [[Skins#Bag_Skins|Per Bag Skin]] Bonus
+| '''Misc''' |
+Floors 107-108 with {{Sprite|Teatimium Ore|Ores#Teatimium||Teatimium Ore}}
+}}
+|-|
+Gem Upgrade Cap Increase=
+{{Stat|Gem Upgrade Cap Increase|Increases the cap of Gem Upgrades in the Store.
+| '''Construct'''<math>+</math> |
+[[File:6 Statue Hygiene Normal.png|16px]] [[Construct#Totefm|World 1: Statue of Hygiene]]<math>+</math>
+<br>[[File:10 Statue Craftmanship Normal.png|16px]] [[Construct#Vydn|World 3: Statue of Craftmanship]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Minos Idol.png|16px]] [[Archaeology#Minos|Minos]] Idol
+}}
+|-|
+Pet Level Up Chance=
+{{Stat|Pet Level Up Chance|Increases the chance for a Pet to level up when completing the leveling action.
+| '''Relics''' |
+[[File:Mythic Chest.png|16px]] [[Chests#MythicRelic_PetLevelUpChance|Mythic Pet Level Up Chance Relic]]
+| '''Store''' |
+The [[File:petbooster vp.png|16px]] [[Store#PetTrainerBundle|Pet Trainer Bundle]]
+| '''Skill-Tree''' |
+The [[File:Have You Tried Getting Luckier.png|16px]] [[Skill-Tree#HaveYouTriedGettingLuckier|Have You Tried Getting Luckier?]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Buns.png}}[[Cards#CardEffects_Misc_Buns|Buns Misc Card]]
+| '''Pets''' |
+Individual [[Pets#Pet_Skins|Pet Skins]] (Not displayed in total)
+| '''Construct''' |
+[[File:15 Statue Feline Normal.png|16px]] [[Construct#Iseburge|World 3: Statue of Feline]]
+| '''Archaeology''' |
+The [[File:Leto Idol.png|16px]] [[Archaeology#Leto|Leto]] Idol
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_PetLevelUpChance|Tier 1 Notice: Pet Skin Level Up Chance]]
+| '''Upgrades''' |
+The {{Sprite|Tricerastone Bar|Upgrades#Upgrades_W3_PetLevelChance||Tricerastone Bar Upgrade}}
+<br>The {{Sprite|Vaporium Bar|Upgrades#Upgrades_W3_PetSkinLevelUpChance||Vaporium Bar Upgrade}}
+| '''Skins''' |
+The [[Skins#SkinReward12|12th Skin Reward]]
+}}
+|-|
+Pet Level Cap=
+{{Stat|Pet Level Cap|Increases maximum cap for all pet levels.
+| '''Challenges''' |
+[[File:Extreme Challenge Coin.png|16px]] [[Challenges#ExtremeReward_PetLevelCap|Pet Level Cap]]<math>+</math>
+| '''Pets''' |
+The [[File:Dino_Skin.png|16px]] [[Pets#tabber-Dino_2|Dino Pet Skin]]
+| '''Construct''' |
+[[File:3 Statue Slaying Platinized.png|16px]] [[Construct#DarkPlatinized|World 1: Platinized Statue of Slaying]]<math>+</math>
+<br>[[File:15 Statue Feline Normal.png|16px]] [[Construct#Iseburge|World 3: Statue of Feline]]<math>+</math>
+| '''Stargazing''' |
+The [[File:Pisces Full.png|16px]] [[Stargazing#Pisces|Pisces]] Star<math>+</math>
+}}
+|-|
+Infernal Card Multi=
+{{Stat|Infernal Card Multi|Increases Infernal Cards' effects.
+| '''Challenges''' |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_InfernalCardMultiplier|Infernal Card Multiplier]]<math>+</math>
+| '''Construct''' |
+[[File:27 Statue Rodentia Gilded.png|16px]] [[Construct#KromakGilded|Gilded Statue of Rodentia]]<math>+</math>
+| '''Stargazing''' |
+The [[File:Lynx Full.png|16px]] [[Stargazing#Lynx|Lynx]] Star<math>+</math>
+<br>The [[File:BlackHole.png|16px]] [[Stargazing#BH29|29th Black Hole Bonus]]
+| '''Archaeology''' |
+The [[File:Hades Idol.png|16px]] [[Archaeology#Hades|Hades]] Idol<math>+</math>
+| '''Arcanist''' |
+The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_InfernalCardMulti|Infernal Card Multi]] Exchange Upgrade<math>+</math>
+| '''Floors''' |
+The [[File:Infernal_Card_Icon.png|16px]] [[Floors#WQ22|22nd World Quest Reward]]
+}}
+</tabber>

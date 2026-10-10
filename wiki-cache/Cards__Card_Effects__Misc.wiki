@@ -1,0 +1,101 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref>
+|-
+|<div id="CardEffects_Misc_SuperStar"></div>{{CardShowcase|card=Misc Super Star}} || Super Star || All Star Value 1.05x || 1.10x || 1.20x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_NovagiantCombo"></div>{{CardShowcase|card=Misc Novagiant Combo}} || Novagiant Combo || Novagiant Combo Multiplier 1.08x || 1.16x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_MinerName"></div>{{CardShowcase|card=Misc Miner Name}} || Miner Name || Experience Gain 1.10x || 1.20x || 1.40x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Lootbug"></div>{{CardShowcase|card=Misc Lootbug}} || Lootbug || Lootbug Loot Multiplier 1.10x || 1.20x || 1.30x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenLootbug"></div>{{CardShowcase|card=Misc Golden Lootbug}} || Golden Lootbug || Golden Lootbug Chance +2% || +4% || +6% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Prestige"></div>{{CardShowcase|card=Misc Prestige}} || Prestige || Floor Clear Req 0.95x || 0.90x || 0.80x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Freebie"></div>{{CardShowcase|card=Misc Freebie}} || Freebie || Freebie Gems +1 || +2 || +4 || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Stonks"></div>{{CardShowcase|card=Misc Stonks}} || Stonks || Stonks Multiplier 1.10x || 1.20x || 1.30x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_SuperStonks"></div>{{CardShowcase|card=Misc Super Stonks}} || Super Stonks || Super Stonks Chance +0.50% || +1% || +2% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_UltraStonks"></div>{{CardShowcase|card=Misc Ultra Stonks}} || Ultra Stonks || Ultra Stonks Chance +0.50% || +1% || +2% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Contract"></div>{{CardShowcase|card=Misc Contract}} || Contract || Contract Point gain +1 || +2 || +3 || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_VoidPortal"></div>{{CardShowcase|card=Misc Void}} || Void Portal || Void Portal Multiplier 1.05x || 1.10x || 1.20x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenVoidPortal"></div>{{CardShowcase|card=Misc Golden Void}} || Golden Void Portal || Golden Void Portal Multiplier 1.08x || 1.16x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_RainbowVoidPortal"></div>{{CardShowcase|card=Misc Rainbow Void}} || Rainbow Void Portal || Rainbow Void Portal Multiplier 1.08x || 1.16x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GalacticVoidPortal"></div>{{CardShowcase|card=Misc Galactic Void Portal}} || Galactic Void Portal || Galactic Void Portal Multi +8% || +16% || +24% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_World1"></div>{{CardShowcase|card=Misc World 1}} || World 1 || Golden Floor Multiplier 1.06x || 1.12x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_World2"></div>{{CardShowcase|card=Misc World 2}} || World 2 || Rainbow Floor Multiplier 1.06x || 1.12x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_World3"></div>{{CardShowcase|card=Misc World 3}} || World 3 || Galactic Rainbow Floor Multiplier 1.06x || 1.12x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_World4"></div>{{CardShowcase|card=Misc World 4}} || World 4 || All Floor Multi 1.06x || 1.12x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Alex"></div>{{CardShowcase|card=Misc Alex}} || Alex || Pickaxe Damage 1.10x || 1.20x || 1.40x  || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_BlueCow"></div>{{CardShowcase|card=Misc Blue Cow}} || Blue Cow || Drone Experience Gain 5% || 10% || 15% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenOre"></div>{{CardShowcase|card=Misc Golden Ore}} || Golden Ore || Golden Ore Multiplier 1.06x || 1.12x || 1.24x  || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenOre"></div>{{CardShowcase|card=Misc Rainbow Ore}} || Rainbow Ore || Rainbow Ore Multiplier 1.06x || 1.12x || 1.24x  || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Sushi"></div>{{CardShowcase|card=Misc Sushi}} || Sushi || Sushi Ticks +5 || +10 || +20 || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_ArchAbility"></div>{{CardShowcase|card=Misc Arch Ability}} || Arch Ability || Arch Ability Cooldown -3.00% || -6.00% || -10.00% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenVein"></div>{{CardShowcase|card=Misc Golden Vein}} || Golden Vein || Golden Vein Multiplier 1.08x || 1.16x || 1.24x  || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_RainbowVein"></div>{{CardShowcase|card=Misc Rainbow Vein}} || Rainbow Vein || Rainbow Vein Multiplier 1.08x || 1.16x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GleamingVein"></div>{{CardShowcase|card=Misc Gleaming Vein}} || Gleaming Vein || Gleaming Vein Multiplier 1.08x || 1.16x || 1.24x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Fuel"></div>{{CardShowcase|card=Misc Fuel}} || Fuel || Fuel Duration 1.02x || 1.05x || 1.10x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_FishingRod"></div>{{CardShowcase|card=Misc Fishing Rod}} || Fishing Rod || Fishing Rod Power 1.02x || 1.05x || 1.10x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Code"></div>{{CardShowcase|card=Misc Code}} || Code || Item Duration 1.01x || 1.03x || 1.06x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_FrozenAra"></div>{{CardShowcase|card=Misc FrozenAra}} || FrozenAra || 10x Contract Chance 0.10% || 0.20% || 0.30% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_CeliosHat"></div>{{CardShowcase|card=Misc Celio's Hat}} || Celio's Hat || Prestige Point Gain 1.10x || 1.20x || 1.40x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Vydn"></div>{{CardShowcase|card=Misc Vydn}} || Vydn || Coal Capacity 1.04x || 1.08x || 1.12x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Lute"></div>{{CardShowcase|card=Misc Lute}} || Lute || Rainbow Floor Multi +3% || +6% || +10% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Julk"></div>{{CardShowcase|card=Misc Julk}} || Julk || Ore Sell Price 1.04x || 1.08x || 1.12x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Tellacon"></div>{{CardShowcase|card=Misc Tellacon}} || Tellacon || Vein Income Multi 1.02x || 1.04x || 1.08x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Buns"></div>{{CardShowcase|card=Misc Buns}} || Buns || Pet Level Up Chance +1% || +2% || +4% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_YummyPizza"></div>{{CardShowcase|card=Misc Yummy Pizza}} || Yummy Pizza || All Floor Multiplier 1.01x || 1.02x || 1.03x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Lootfrog"></div>{{CardShowcase|card=Lootfrogs Caught}} || Lootfrog || Lootfrog Capacity +1 || +2 || +4 || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_GoldenLootfrog"></div>{{CardShowcase|card=Golden Lootfrogs Caught}} || Golden Lootfrog || Golden Lootfrogs Chance +0.5% || +1% || +2% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_BigLootfrog"></div>{{CardShowcase|card=Misc Big Lootfrog}} || Big Lootfrog || Big Lootfrog Multi 1.09x || 1.18x || 1.27x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_MassiveLootfrog"></div>{{CardShowcase|card=Misc Massive Lootfrog}} || Massive Lootfrog || Massive Lootfrog Chance +0.20% || +0.40x || +0.60x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Floor73"></div>{{CardShowcase|card=Misc Floor 73}} || Floor 73 || Golden Floor Multi 1.02x || 1.04x || 1.06x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Relic"></div>{{CardShowcase|card=Misc Relic}} || Relic || Extra Relic Chest Chance +1% || +2% || +3% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Bone"></div>{{CardShowcase|card=Misc Bone}} || Bone || Bomb Damage 1.05x || 1.10x || 1.15x || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Store"></div>{{CardShowcase|card=Misc Store}} || Store || Freebie Timer -2s || -4s || -6s || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_CookieClicker"></div>{{CardShowcase|card=Misc Cookie Clicker}} || Cookie Clicker || Wizard Loot Multi +1% || +2% || +4% || +0.02x/+0.0x
+|-
+|<div id="CardEffects_Misc_Mana"></div>{{CardShowcase|card=Misc Mana}} || Mana || Mana Cap +2% || +4% || +7% || +0.02x/+0.0x
+|}

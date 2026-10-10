@@ -1,0 +1,122 @@
+{{Otheruses|Workshop Upgrade Costs|Workshop Upgrades|[[Workshop#Workshop_Upgrades]]}}
+
+==World 1==
+===Bomb of Plenty!===
+{{CostTable|Bomb of Plenty!|1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|50|Copper Bar|Copper Bar|50|Mithril Bar|Mithril Bar|50|Adamant Bar|Adamant Bar}}
+
+===Basic & Chain Damage===
+{{CostTable|Basic & Chain Damage|{{GetWorkshopCap|8}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|50|Mithril Bar|Mithril Bar|40|Adamant Bar|Adamant Bar|30|Runite Bar|Runite Bar}}
+
+===Experience Bomb!===
+{{CostTable|Experience Bomb !|1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|175|Adamant Bar|Adamant Bar|150|Runite Bar|Runite Bar|125|Citrine Bar|Citrine Bar}}
+
+===Chain Bombs Fired===
+{{CostTable|Chain Bombs Fired|{{GetWorkshopCap|4}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|125|Adamant Bar|Adamant Bar|100|Runite Bar|Runite Bar|75|Citrine Bar|Citrine Bar}}
+
+===Infinity Bomb Unlocked!===
+{{CostTable|Infinity Bomb Unlocked ! |1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|350|Runite Bar|Runite Bar|300|Citrine Bar|Citrine Bar|250|Amethyst Bar|Amethyst Bar}}
+
+===Bomb of Plenty Ore Multi===
+{{CostTable|Bomb of Plenty Ore Multi |{{GetWorkshopCap|3}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|300|Citrine Bar|Citrine Bar|250|Amethyst Bar|Amethyst Bar|200|Topaz Bar|Topaz Bar}}
+
+===Cherry Bomb Unlocked!===
+{{CostTable|Cherry Bomb Unlocked !|1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|600|Amethyst Bar|Amethyst Bar|500|Topaz Bar|Topaz Bar|400|Obsidian Bar|Obsidian Bar}}
+
+===Pickaxe Damage===
+{{CostTable|Pickaxe Damage|{{GetWorkshopCap|20}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|60|Topaz Bar|Topaz Bar|50|Obsidian Bar|Obsidian Bar|40|Demonite Bar|Demonite Bar}}
+
+===D20 Bomb Unlocked!===
+{{CostTable|D20 Bomb Unlocked!|1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|850|VR-Tin Bar|VR-Tin Bar|750|VR-Amethyst Bar|VR-Amethyst Bar|650|VR-Demonite Bar|VR-Demonite Bar}}
+
+===Exp Bomb Bonus===
+{{CostTable|Exp Bomb Bonus|{{GetWorkshopCap|6}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|1000|Tin Bar|Tin Bar|400|VR-Demonite Bar|VR-Demonite Bar|300|VR-ERROR Bar|VR-ERROR Bar}}
+
+===Megabomb Damage===
+{{CostTable|Megabomb Damage|{{GetWorkshopCap|10}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|1000|Runite Bar|Runite Bar|900|Topaz Bar|Topaz Bar|800|Demonite Bar|Demonite Bar}}
+
+===D20 Charges===
+{{CostTable|D20 Charges|{{GetWorkshopCap|20}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|800|Mithril Bar|Mithril Bar|500|Adamant Bar|Adamant Bar|150|Earth-C-137 Bar|Earth-C-137 Bar}}
+
+===Chance for 3x Charges===
+{{CostTable|Chance for 3x Charges|{{GetWorkshopCap|10}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|9750|Copper Bar|Copper Bar|5750|Meteorite Bar|Meteorite Bar|4750|Singularity Bar|Singularity Bar}}
+
+===Infinity Scaling===
+{{CostTable|Infinity Scaling|{{GetWorkshopCap|10}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|13000|Amethyst Bar|Amethyst Bar|9750|VR-Tin Bar|VR-Tin Bar|7500|Lunarium Bar|Lunarium Bar}}
+
+===Transmuter Bar Multi===
+{{CostTable|Transmuter Bar Multi|{{GetWorkshopCap|5}}|1.35|class{{=}}"wikitable lighttable align-center-1"|exponential|450000|Beepboopium Bar|Beepboopium Bar|350000|Radion-73 Bar|Radion-73 Bar|250000|Cranium Bar|Cranium Bar}}
+
+==World 2==
+===Bomb Damage===
+{{CostTable|Bomb Damage|{{GetWorkshopCap|20}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|100000|Lapis Bar|Lapis Bar|80000|Quartz Bar|Quartz Bar|60000|Glacialite Bar|Glacialite Bar}}
+
+===Megabomb Damage Mark===
+{{CostTable|Megabomb Damage Mark|{{GetWorkshopCap|3}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|2000000|Twinklestone Bar|Twinklestone Bar|1900000|Sandcasium Bar|Sandcasium Bar|1800000|Clamite Bar|Clamite Bar}}
+
+===Transmuter gives BoP chance===
+{{CostTable|Transmuter gives BoP chance|1|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|44440000|Thunderstone Bar|Thunderstone Bar|22220000|Crabrock Bar|Crabrock Bar|11110000|Hailstone Bar|Hailstone Bar}}
+
+==World 3==
+===Bomb Damage===
+{{CostTable|Bomb Damage|{{GetWorkshopCap|20}}|1.3|class{{=}}"wikitable lighttable align-center-1"|exponential|75000000000|Omeletite Bar|Omeletite Bar|75000000000|Resinite Bar|Resinite Bar|75000000000|Impactium Bar|Impactium Bar}}
+
+===Morph Chance===
+{{CostTable|Morph Chance|{{GetWorkshopCap|25}}|1.2|class{{=}}"wikitable lighttable align-center-1"|exponential|2100000000000|Resinite Bar|Resinite Bar|3100000000000|Impactium Bar|Impactium Bar|4100000000000|Tricerastone Bar|Tricerastone Bar}}
+
+===Pickaxe Damage===
+{{CostTable|Pickaxe Damage|{{GetWorkshopCap|25}}|1.2|class{{=}}"wikitable lighttable align-center-1"|exponential|5100000000000|Arcusite Bar|Arcusite Bar|4100000000000|Phalanxite Bar|Phalanxite Bar|3100000000000|Guardium Bar|Guardium Bar}}
+
+===Turns Ores Gold===
+{{CostTable|Turns Ores Gold|{{GetWorkshopCap|25}}|1.2|class{{=}}"wikitable lighttable align-center-1"|exponential|8100000000000|Telophite Bar|Telophite Bar|7100000000000|Steamstone Bar|Steamstone Bar|6100000000000|Equinine Bar|Equinine Bar}}
+
+===Hamburger Bonus===
+{{CostTable|Hamburger Bonus|{{GetWorkshopCap|25}}|1.2|class{{=}}"wikitable lighttable align-center-1"|exponential|40100000000000|Dynamite Bar|Dynamite Bar|30100000000000|Manhattite Bar|Manhattite Bar|20100000000000|Vaporium Bar|Vaporium Bar}}
+
+===Plenty Bomb Multi===
+{{CostTable|Plenty Bomb Multi|{{GetWorkshopCap|25}}|1.20|class{{=}}"wikitable lighttable align-center-1"|exponential|280100000000000|Genevium Bar|Genevium Bar|270100000000000|Palmite Bar|Palmite Bar|260100000000000|MVPD-1988 Bar|MVPD-1988 Bar}}
+
+===Sushi Fishing Ticks===
+{{CostTable|Sushi Fishing Ticks|{{GetWorkshopCap|20}}|1.5|class{{=}}"wikitable lighttable align-center-1"|exponential|38200000000000000|Palmite Bar|Palmite Bar|35200000000000000|Ransomite Bar|Ransomite Bar|32200000000000000|MVPD-1988 Bar|MVPD-1988 Bar}}
+
+===Fishing Drone Power===
+{{CostTable|Fishing Drone Power|{{GetWorkshopCap|30}}|1.4|class{{=}}"wikitable lighttable align-center-1"|exponential|40200000000000000000|Equinine Bar|Equinine Bar|30200000000000000000|Rationium Bar|Rationium Bar|20200000000000000000|MVPD-1988 Bar|MVPD-1988 Bar}}
+
+==World 4==
+===Pickaxe & Bomb Damage===
+{{CostTable|Pickaxe & Bomb Damage|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|1000000000000000000000000000|Chronite Bar|Chronite Bar|900000000000000000000000000|Hattium Bar|Hattium Bar|800000000000000000000000000|Pishalvite Bar|Pishalvite Bar}}
+
+===Starfruit: All Star Multi===
+{{CostTable|Starfruit: All Star Multi|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|1400000000000000000000000000|Chronite Bar|Chronite Bar|1300000000000000000000000000|Pishalvite Bar|Pishalvite Bar|1200000000000000000000000000|Rumium Bar|Rumium Bar}}
+
+===Bomb of Plenty Multi===
+{{CostTable|Bomb of Plenty Multi|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|2000000000000000000000000000|Hattium Bar|Hattium Bar|1900000000000000000000000000|Teatimium Bar|Teatimium Bar|1800000000000000000000000000|Mateyum Bar|Mateyum Bar}}
+
+===Bomb Recharge Rate===
+{{CostTable|Bomb Recharge Rate|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|3200000000000000000000000000|Hookite Bar|Hookite Bar|2900000000000000000000000000|Carpetite Bar|Carpetite Bar|2500000000000000000000000000|Djinnium Bar|Djinnium Bar}}
+
+===Lootfrog Loot Multi===
+{{CostTable|Lootfrog Loot Multi|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|5000000000000000000000000000|Djinnium Bar|Djinnium Bar|4500000000000000000000000000|Sinbadium Bar|Sinbadium Bar|4000000000000000000000000000|Turbanite Bar|Turbanite Bar}}
+
+===Wizard Loot Multi===
+{{CostTable|Wizard Loot Multi|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|100.25ddc|Teatimium Bar|Teatimium Bar|95.15ddc|Hookite Bar|Hookite Bar|90.15ddc|Turbanite Bar|Turbanite Bar}}
+
+===Veinseeker Drone Grade Cap===
+{{CostTable|Veinseeker Drone Grade Cap|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|100ddc|Sinbadium Bar|Sinbadium Bar|1.85ddc|Carriagum Bar|Carriagum Bar|1.65ddc|Frogstone Bar|Frogstone Bar}}
+
+===Transmuter Bar Multi===
+{{CostTable|Transmuter Bar Multi|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|4.25ddc|Slipperite Bar|Slipperite Bar|3.55ddc|Jellystone Bar|Jellystone Bar|2.75ddc|Lollipopite Bar|Lollipopite Bar}}
+
+===Golden Void Portal Chance===
+{{CostTable|Golden Void Portal Chance|{{GetWorkshopCap|30}}|1.45|class{{=}}"wikitable lighttable align-center-1"|exponential|10.1ddc|Crystal-Rose Bar|Crystal-Rose Bar|8.75ddc|Mintium Bar|Mintium Bar|6.55ddc|Neopolium Bar|Neopolium Bar}}
+
+===Unlock Spell: Rainbow Road===
+{{CostTable|Unlock Spell: Rainbow Road|1|1.45|class{{=}}"wikitable lighttable align-center-1"|linear|125tdc|Crystal-Rose Bar|Crystal-Rose Bar|115tdc|Jellystone Bar|Jellystone Bar|105tdc|Mintium Bar|Mintium Bar}}
+
+===Spell Level Up Chance===
+{{CostTable|Spell Level Up Chance|{{GetWorkshopCap|20}}|1.30|class{{=}}"wikitable lighttable align-center-1"|exponential|2.05001qadc|Carriagum Bar|Carriagum Bar|1.85qadc|Lollipopite Bar|Lollipopite Bar|1.60qadc|Neopolium Bar|Neopolium Bar}}
+
+==Navigation==
+{{CostsNav}}
+{{Menu}}
+
+[[Category:Upgrade Costs]]

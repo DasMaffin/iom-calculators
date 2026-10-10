@@ -1,0 +1,108 @@
+{{Otheruses|Base Drone upgrade costs, Drone Suit Upgrade Costs and Coal Upgrades|Base Drone Upgrade Costs|[[Drones#Base_Drone_Upgrade_Costs]]|Drone Suit Upgrades|[[Drones#Drone_Suit_Upgrades]]|Coal Upgrades|[[Drones#Coal_Upgrades]]}}
+
+==Base Drone Upgrade Costs==
+<tabber>Unlock Drone=
+===[[File:Drone Damage.png|24x24px]] Unlock Drone===
+{{CostTable|Unlock Drone|1|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|1|Drone Point|Drone Points}}
+|-|
+Drone Damage=
+===[[File:Drone Damage.png|24x24px]]  Drone Damage===
+{{CostTable|Drone Damage|10|1.45|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}
+|-|
+Drone Radius=
+===[[File:Drone Radius.png|24x24px]] Drone Radius===
+{{CostTable|Drone Radius|10|1.45|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}
+|-|
+Drone Movespeed=
+===[[File:Drone Movespeed.png|24x24px]] Drone Movespeed===
+{{CostTable|Drone Movespeed|10|1.45|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}
+|-|
+Drone Attack Speed=
+===[[File:Drone Attack Speed.png|24x24px]] Drone Attack Speed===
+{{CostTable|Drone Attack Speed|10|1.45|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}{{[-}}
+|-|
+Drone Triple Damage Chance= 
+=== [[File:Drone Triple Damage.png]] Drone Triple Damage Chance===
+{{CostTable|Drone Triple Damage Chance|15|1.6|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}}
+|-|
+Drone Rapid Fire Chance=
+=== [[File:Drone Rapid Fire Chance.png|24x24px]] Drone Rapid Fire Chance===
+{{CostTable|Drone Rapid Fire Chance|15|1.7|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|formula|5|Drone Point|Drone Points|formula=baseCost*(costScaling)^(n)}}
+</tabber>
+
+==Drone Suit Upgrade Costs==
+===[[File:Drone Bear.png|x32px]]Bomb Bear Upgrade===
+{{CostTable|Bomb Bear Upgrade|15|60|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|60|Drone Point| Drone Points|overrideLevel=11=3300,12=5760,13=8580,14=11760,15=15300}}
+
+===[[File:Drone Chain.png|x32px]]Chain Bomber Upgrade===
+{{CostTable|Chain Bomber Upgrade|15|150|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|150|Drone Point| Drone Points|overrideLevel=11=8250,12=14400,13=21450,14=29400,15=38250}}
+
+===[[File:Drone Midas.png|x32px]]Midas Upgrade===
+{{CostTable|Midas Upgrade|15|300|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|300|Drone Point| Drone Points|overrideLevel=11=16500,12=28800,13=42900,14=58800,15=76500}}
+
+===[[File:Drone Frogger.png|x32px]]Frogger Upgrade===
+{{CostTable|Frogger Upgrade|15|480|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|480|Drone Point| Drone Points|overrideLevel=11=26400,12=46080,13=68640,14=94080,15=122400}}
+
+===[[File:Drone Veinseeker.png|x32px]]Veinseeker Upgrade===
+{{CostTable|Veinseeker Upgrade|15|100k|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|100k|Drone Point| Drone Points|overrideLevel=11=5.5m,12=9.6m,13=14.3m,14=19.6m,15=25.5m}}
+
+===[[File:Drone Starburst.png|x32px]]Starburst Upgrade===
+{{CostTable|Starburst Upgrade|15|200k|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|200k|Drone Point| Drone Points|overrideLevel=11=11m,12=19.2m,13=28.6m,14=39.2m,15=51m}}
+
+===[[File:Drone Elixir.png|x32px]]Elixir Upgrade===
+{{CostTable|Elixir Upgrade|15|500k|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|500k|Drone Point| Drone Points|overrideLevel=11=27.5m,12=48m,13=71.5m,14=98m,15=127.5m}}
+
+===[[File:Drone Void.png|x32px]]Void Upgrade===
+{{CostTable|Void Upgrade|15|1m|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|1m|Drone Point| Drone Points|overrideLevel=11=55m,12=96m,13=143m,14=196m,15=255m}}
+
+===[[File:Drone Angler.png|x32px]]Angler Upgrade===
+{{CostTable|Angler Upgrade|15|1b|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|1b|Drone Point| Drone Points|overrideLevel=11=55b,12=96b,13=143b,14=196b,15=255b}}
+
+===[[File:Drone Prism.png|x32px]]Prism Upgrade===
+{{CostTable|Prism Upgrade|15|3qi|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|3qi|Drone Point|Drone Points}}
+
+===[[File:Drone Minotaur.png|x32px]]Minotaur Upgrade===
+{{CostTable|Minotaur Upgrade|15|0.5sp|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|0.5sp|Drone Point|Drone Points|overrideLevel=11=27.5sp,12=48sp,13=71.5sp,14=98sp,15=127sp|rounding=round}}
+
+== Generator Level Costs==
+{{CostTable|Generator|40|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1|Fuel| Fuel|startingLevelOffset=1|overrideLevel=3=2,4=4,5=6,6=9,7=12,8=17,9=24,10=33,13=97,14=141,16=305,17=452,18=672,19=1002,20=1495,21=2235,22=3345,23=5008,24=7503,25=11200,26=16.9k|overrideScaling=10=1.43,12=1.47,16=1.486,17=1.495,18=1.4995,25=1.5,27=1.498,30=1.50}}
+
+==Coal Upgrade Costs==
+===Coal Production===
+{{CostTable|Coal Production|25|500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|500|Coal|Coal}}
+===Fuel Duration===
+{{CostTable|Fuel Duration|25|750|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|750|Coal|Coal}}
+===Coal Capacity===
+{{CostTable|Coal Capacity|25|1000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|1000|Coal|Coal}}
+===Fuel Save Chance===
+{{CostTable|Fuel Save Chance|25|1500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|1500|Coal|Coal}}
+===Drone Experience Gain===
+{{CostTable|Drone Experience Gain|25|3000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|3000|Coal|Coal}}
+===Drone Suit Upgrade Cap===
+{{CostTable|Drone Suit Upgrade Cap|7|12500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|20000|Coal|Coal|overrideLevel=2=40k,3=37.5k}}
+===Starburst Drone Grade Cap===
+{{CostTable|Starburst Drone Grade Cap|10|6000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|80000|Coal|Coal}}
+===Void Portal Base Multi===
+{{CostTable|Void Portal Base Multi|20|6500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|90000|Coal|Coal}}
+===Gleaming Veins Multiplier===
+{{CostTable|Gleaming Veins Multiplier|20|7000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|103000|Coal|Coal}}
+===Lootfrog 10x Spawn Chance===
+{{CostTable|Lootfrog 10x Spawn Chance|20|7000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|105000|Coal|Coal}}
+===Unlock Drone Infernal Cards===
+{{CostTable|Unlock Drone Infernal Cards|1|17500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|175000|Coal|Coal}}
+===Void Drone Grade Cap===
+{{CostTable|Void Drone Grade Cap +1|20|7500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|120000|Coal|Coal}}
+===All Void Portal Multis===
+{{CostTable|All Void Portal Multis +0.50%|20|8000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|130000|Coal|Coal}}
+===Gems from Lootfrogs===
+{{CostTable|Gems from Lootfrogs +10%|20|8500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|140000|Coal|Coal}}
+===Lootbug Loot Multi===
+{{CostTable|Lootbug Loot Multi +0.75%|20|9000|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|150000|Coal|Coal}}
+===Unlock Spell Bug Magnet===
+{{CostTable|Locked > Unlocked|1|0|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center sticky-header"|linear|280000|Coal|Coal}}
+
+==Navigation==
+{{CostsNav}}
+{{Menu}}
+
+[[Category:Upgrade Costs]]

@@ -1,0 +1,118 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomStickerImage}}<!--do not remove, pageImage for search--></span>
+<div style="display:flex">{{FakeMenuButton|image={{RandomStickerImage|size=70x70px}}|size=114px|buttonSize=114px}}
+<div style="margin:0 5px">'''Stickers''' provide various buffs, mainly to the rewards received from [[Store#Gifts|Gifts]]. Obtaining multiple Stickers will increase the effect up to the soft cap. Stickers above the soft cap provide no additional effect. Currently the only source of Stickers is Gifts.
+</div></div>
+
+==In-game description==
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote = 
+Stickers boost Gift Loot and give Stats.
+
+Currently earned from Gifts.
+
+(Sources and types will be expanded in the future!)
+}}</div>
+
+==Sticker Effects==
+{| class="wikitable align-center-1 align-center-4 align-center-5"
+! colspan=2 | Sticker !! Base effect !! Increase per sticker !! Max Effect
+|-
+| <div id="GemStickerEffect"></div>[[File:Gem Sticker.png|32x32px]] || Gem
+| +0.50% for 10x Gems from Gifts || +0.50% || +75%
+|-
+| <div id="FreebieStickerEffect"></div>[[File:Freebie Sticker.png|32x32px]] || Freebie
+| +1 Banked Freebies || +1 || +150
+|-
+| <div id="LootbugStickerEffect"></div>[[File:Lootbug Sticker.png|32x32px]] || Lootbug
+| +1 Banked Lootbugs || +1 || +150
+|-
+| <div id="RelicStickerEffect"></div>[[File:Relic Sticker.png|32x32px]] || Relic
+| +0.50% for 10x Relics from Gifts || +0.50% || +75%
+|-
+| <div id="SkillBitStickerEffect"></div>[[File:Skill Bit Sticker.png|32x32px]] || Skill Bit
+| +0.50% for 10x Bits from Gifts || +0.50% || +75%
+|-
+| <div id="FuelStickerEffect"></div>[[File:Fuel Sticker.png|32x32px]] || Fuel
+| +0.50% for 10x Fuel from Gifts || +0.50% || +75%
+|-
+| <div id="CherryStickerEffect"></div>[[File:Cherry Sticker.png|32x32px]] || Cherry
+| +0.50% for 10x Charges from Gifts || +0.50% || +75%
+|-
+| <div id="SushiStickerEffect"></div>[[File:Sushi Sticker.png|32x32px]] || Sushi
+| +0.50% for 10x Sushi from Gifts || +0.50% || +75%
+|-
+| <div id="SteakStickerEffect"></div>[[File:Steak Sticker.png|32x32px]] || Steak
+| +0.50% for 10x Steak from Gifts || +0.50% || +75%
+|-
+| <div id="CandyStickerEffect"></div>[[File:Candy Sticker.png|32x32px]] || Candy
+| +0.50% for 10x Candy from Gifts || +0.50% || +75%
+|-
+| <div id="FrogspawnStickerEffect"></div>[[File:Frogspawn Sticker.png|32x32px]] || Frogspawn
+| +0.50% for 10x Frogspawn from Gifts || +0.50% || +75%
+|-
+| <div id="GoldenFrogStickerEffect"></div>[[File:Golden Frog Sticker.png|32x32px]] || Golden Frog
+| +0.02% Gold Frog Chance || +0.02% || +3%
+|}
+
+==Sticker Unlocks==
+{| class="wikitable align-center-1 align-center-4 align-center-5"
+! colspan=2 | Sticker !! Unlock
+|-
+| <div id="GemSticker"></div>[[File:Gem Sticker.png|32x32px]] || Gem
+| Default
+|-
+| <div id="FreebieSticker"></div>[[File:Freebie Sticker.png|32x32px]] || Freebie
+| Default
+|-
+| <div id="LootbugSticker"></div>[[File:Lootbug Sticker.png|32x32px]] || Lootbug
+| Default
+|-
+| <div id="RelicSticker"></div>[[File:Relic Sticker.png|32x32px]] || Relic
+| Default
+|-
+| <div id="SkillBitSticker"></div>[[File:Skill Bit Sticker.png|32x32px]] || Skill Bit
+| Default
+|-
+| <div id="FuelSticker"></div>[[File:Fuel Sticker.png|32x32px]] || Fuel
+| Default
+|-
+| <div id="CherrySticker"></div>[[File:Cherry Sticker.png|32x32px]] || Cherry
+| Unlock World 3
+|-
+| <div id="SushiSticker"></div>[[File:Sushi Sticker.png|32x32px]] || Sushi
+| Defeat Obelisk 37
+|-
+| <div id="SteakSticker"></div>[[File:Steak Sticker.png|32x32px]] || Steak
+| Golden Ore Chance without items >= 3%
+|-
+| <div id="CandySticker"></div>[[File:Candy Sticker.png|32x32px]] || Candy
+| Defeat Obelisk 60
+|-
+| <div id="FrogspawnSticker"></div>[[File:Frogspawn Sticker.png|32x32px]] || Frogspawn
+| Buy Black Hole Level 1
+|-
+| <div id="GoldenFrogSticker"></div>[[File:Golden Frog Sticker.png|32x32px]] || Golden Frog
+| Buy Black Hole Level 1
+|}
+
+
+==Gallery==
+<gallery mode="packed" heights="48px">
+Gem Sticker.png
+Freebie Sticker.png
+Lootbug Sticker.png
+Relic Sticker.png
+Skill Bit Sticker.png
+Fuel Sticker.png
+Cherry Sticker.png
+Sushi Sticker.png
+Steak Sticker.png
+Candy Sticker.png
+Frogspawn Sticker.png
+Golden Frog Sticker.png
+</gallery>
+
+==Navigation==
+{{Menu}}

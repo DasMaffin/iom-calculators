@@ -1,0 +1,40 @@
+<tabber>
+|-|
+Shiny Essence Chance=
+{{Stat|Shiny Essence Chance|The chance for {{Sprite|Essence|Arcanist|16x16}} to be Shiny, providing extra loot
+| '''Arcanist''' <math>+</math>| An {{Sprite|White Orb|Arcanist|16x16|Essence Orb Upgrade}}
+| '''Store''' <math>+</math>| The {{Sprite|Arcanist VP|Store#ArcanistBundle|16x16|Arcanist Bundle}}}}
+|-|
+Shiny Essence Multi=
+{{Stat|Shiny Essence Multi|Multiplies the amount of {{Sprite|Essence|Arcanist|16x16}} essence gained from Shiny Essence Blocks.
+
+}}
+|-|
+Super Shiny Essence Chance=
+{{Stat|Super Shiny Essence Chance|The chance for {{Sprite|Essence|Arcanist|16x16}} to be Super Shiny, providing extra loot
+| '''Arcanist''' <math>+</math>| An {{Sprite|Purple Orb|Arcanist|16x16|Essence Orb Upgrade}}
+| '''Construct''' <math>+</math>| The {{Sprite|22 Statue Nature Gilded|Construct#tabber-World_4_Gilded_Statues|16x16|Gilded Statue of Nature}}
+| '''Cards''' <math>+</math>| The {{Sprite|Gilded Card Icon|Cards#tabber-Pets|16x16|Rhino Card}}}}
+|-|
+Brittle Essence Chance=
+{{Stat|Brittle Essence Chance|The chance for an {{Sprite|Essence|Arcanist|16x16}} to be Brittle
+| '''Store''' <math>+</math> | The {{Sprite|Arcanist VP|Store#ArcanistBundle|16x16|Arcanist Bundle}}
+| '''Pets''' <math>+</math> | The {{Sprite|Rhino Default|Pets#tabber-Rhino_Quest_Skin|16x16|Rhino}} Pet's Level
+}}
+|-|
+Party Wizard Chance=
+{{Stat|Party Wizard Chance| The chance for an exchange wizard ... to party?
+| '''Stargazing''' | Black Hole Reward #21
+}}
+|-|
+Party Wizard Multi=
+{{Stat|Party Wizard Multi| The multiplier an exchange wizard gives on their trade after a night of heavy partying.
+| '''Base''' | 3x
+}}
+|-|
+Disco Wizard Chance=
+{{Stat|Disco Wizard Chance|{{edit}}}}
+|-|
+Flashbang Wizard Chance=
+{{Stat|Flashbang Wizard Chance|{{edit}}}}
+</tabber>

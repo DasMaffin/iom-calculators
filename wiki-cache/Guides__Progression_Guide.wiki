@@ -1,0 +1,186 @@
+{{WIP}}
+
+==General Tips - Everybody read these!==
+*Tap the 4 dots menu then the Cloud icon. Ensure that you are signed into the Checkbox Account system to avoid losing your save.
+*Enter all [[Codes]]. Gifts get better with higher Obelisk level. Stickers unlock at Obelisk 3. Star buffs unlock at Obelisk 30.
+*Follow the Guide "[[Guides/Gem_Spending_Guide|How should I spend my Gems?]]".
+*Claim the Freebie Pack in the Store as often as you can. Freebies will be your biggest source of gems in the early game and the Treasure Hunter skill will turn it into your main source of [[Chests#Relic Chests|Relic Chests]] for the entire game. (Buy the banked freebie cap increase in store for Freebie Packs).
+*You unlock [[Cards]] at Obelisk 15. There are a few impactful [[Cards#Misc_card_odds|Misc Cards]] you can get immediately.
+
+== World 1 ==
+
+===Obelisk 0 to Obelisk 9===
+*Unlock the bombs in the [[Workshop]] and buy the Battery Bomb from the store. Fire Cherry bomb then use the charges on Battery bomb.
+*You unlock [[Challenges]] at Obelisk 10. Work on them whenever you can and always buy the bottom upgrade in the list so you can get to the best upgrades at the bottom. But if they are too hard it's good to focus on other areas of the game and come back to them later.
+
+===Obelisk 10 to Obelisk 19===
+*At first you will still be progressing through obelisks easily. When you start to slow down, take a break to work on [[Prestige]] and [[Challenges]].
+*People often feel like they have spare gems at this point and spend them on skill points for the [[Skill-Tree]] to boost their income. Skills can be expensive so you should avoid buying side skills that don't work towards improving your gem economy. The gem-spending guide lists major milestone skills to work towards.
+*At Obelisk 15 you unlock [[Cards]]. You can easily get a few cards by using all your bombs, but ore and bar cards will take too long for now. Most cards are not worth gilding at this stage. The Freebie and Stonks Misc Cards are valuable gilds. Check out [[Cards#Misc_card_odds|Misc Cards]], there are several cards you can obtain immediately that provide good bonuses.
+*If you're struggling to reach Obelisk 17, work on [[Prestige]], the Pickaxe Damage upgrade in the [[Store]], [[Upgrades]] and [[Contracts]].
+*At Obelisk 17 you unlock [[Pets]]. You can easily level the Crab pet by equipping the bear drone suit. Buy pets as soon as you can. Some take a long time to level, but Total Pet Level is required to unlock later pets.
+*At Obelisk 18 you unlock [[Drones#Drone_Fuel|Drone Fuel]]. To use drone fuel efficiently it's important to buy all the coal upgrades before fueling drones. It will take a long time to do this, so spend a few gems on generator upgrades when you can. You'll have enough max coal for now when your generator is level 16 and you have the Gasoline Guzzler skill.
+*If you're struggling to reach Obelisk 19, make sure to do the following:
+**Max Pickaxe Damage in the Store
+**Level up Dwarf Pet
+**Max Obelisk Armor Reduction from Prestige Tier 3
+**Get Obelisk Armor Reduction from Challenges
+**Spend some time buying Upgrades
+**Spend some time doing Contracts
+
+
+===[[Construct]] (World 1)===
+*At Obelisk 19 you unlock [[Construct]]. This is the first major wall in the game, it's normal to feel like the game slows down at this point. The focus should be less on beating obelisks and more on filling out progress in all the menus you've unlocked so far. As you unlock veins and build statues you will start to get ore and bar cards. You should gild them if you're going to be waiting for bars longer than gems. Gild ore cards first: this increases the amount of gold you get and they are needed for a challenge. It is generally not worth rushing to unlock World 2. It is much harder than World 1 and people who unlock it too soon often return to World 1 without much to show for it. The two major reasons to unlock World 2 early are rewards from the event doubling (except for gifts and mythic chests) and unlocking bomb damage and vein spawn rate contracts.
+*Here are the main ways you can increase your bar income:
+**Unlock the Penguin Pet
+**Continue to claim the Freebie Pack with the Treasure Hunter skill to get more Relic Chests
+**Unlock and upgrade the Transmuter Bomb in the workshop
+**Combine the buffs from Transmuter and Bomb of Plenty, see [[Obelisk:FAQ#What_is_the_best_way_to_get_bars?|FAQ: Best ways to get bars?]] (Optional)
+*You'll need to unlock the Stone Vein from the research tab in the construct menu before you can see the other 2 tabs.
+*You should follow the recommendations before you build the World 2 monument. But you can stop at challenge 39 and wait until you have coal upgrades maxed.
+*Work on unlocking veins and building statues.
+*The 2x Vein Spawn Rate research can be useful if you are waiting for veins longer than gems, but are not a mandatory purchase.
+*After you have built all 9 statues, you could gild them before going to World 2, but the World 2 contract upgrades and early regular upgrades significantly increase vein gain, thus making gilding statues after building the World 2 monument a lot easier.
+
+==World 2==
+*After you've built 9 statues and have 39 challenges done you can go to world 2 by building the monument in the Monument tab of the Construct menu. It costs 2,000 gems plus some veins, so it's not recommended to build it before this point as you still have a lot you should do in world 1.
+*You unlock some good contracts but you may not have enough points to get very many of them yet.
+*You can get some bomb damage from the workshop to help beat world 2 ores.
+
+===[[Construct]] (World 2), Gilded Statues===
+*If you didn't already, gild all 9 statues.
+*Continue working on pets, with the goal of unlocking Pet 8.
+*You will unlock Stargazing at Obelisk 23, but it's best to gild all statues first to give you time to get your Vein Spawn Rate up through Prestige tier 4, gilded Statue of Randomness and Pet 8. You can work on it a little when you get a free buff from lootbugs.
+
+===[[Stargazing]] (World 2)===
+*The first thing to do is unlock a star. Upgrade the telescope in the Upgrades tab, then unlock the star at the top of the Stars menu. After you unlock it you will be able to see which floor it is on in the Stars tab or on the floor select menu. Stars will move to one of 5 preset locations at x:00 and x:30 on your device's clock.
+*When you first start stargazing your only source of Auto-Catch will be from lootbug buffs. This means stars will fly across the screen without being caught unless you manually tap them. There are 3 ways to make progress at this stage:
+**Manually tap stars
+**Collect Veins and upgrade Auto-Catch in the Upgrades tab
+**Fuel Starburst drone for 100% Auto-Catch (doesn't count for offline gains)
+*You will still need to change floors when the stars move every 30 minutes, but you can automate this by unlocking 'Ctrl+F Stars' in the Skill-Tree.
+*For the Upgrades tab you should focus on Auto-Catch and Star Spawn Rate. Star spawn rate also increases the amount of Super Stars you get. The main barrier to progress in Upgrades will be Super Stars, you need these for several levels in each Upgrade. It's best to avoid spending them in the Super Stars tab until you've bought all the Upgrades that need them.
+*To make efficient progress in Stargazing you should work on Upgrades and focus on stars that increase star gain such as Taurus, Gemini, Virgo and Scorpio. Other stars that provide some indirect benefit to star gain are Cancer, Libra and Sagittarius.
+*The main goal in Stargazing is to upgrade the 12th Star. It will help you unlock the 10th pet.
+
+===[[Archaeology]] (World 2)===
+*For a more in depth info about the menu see [[Archaeology]].
+*When you first unlock Archaeology, you shouldn't spend many gems on it. You will have other things that give more immediate gains for less gems. The ultimate goal in Archaeology is to max out the Idols which give buffs to the main game. Maxing these Idols takes a long time, so it's best to buy all the Upgrades first to increase how fast you gain fragments.
+*Your main goal initially, after buying all the Upgrades that need epic fragments, is to max Dionysus. Dionysus provides very strong buffs to drones. Dionysus' quest requires grade 15 void drone. You can get 15 void drone grade cap either by gilding the card or getting some levels in Nyx, the legendary Idol. Nyx requires level 20 generator, but you'll need level 20 generator to take full advantage of the buffs from Dionysus.
+*There are several other Idols that provide strong buffs. Buy some gem purchases for Archaeology when you feel like your other gem spending options are under control.
+
+===Plat W1 Statue===
+* Unlock Polychrome cards from the Skill-Tree.
+* Gild all ore and bar cards up through floor 60.
+* Equip and fuel Void and Chain drones.
+* Auto fire Bomb of Plenty on floor 60.
+* Pause drones so bombs hit.
+
+* When Plat is done, focus on unlocking [[Fishing]] and farming everything.
+
+
+=== [[Fishing]] (World 2) ===
+
+* You'll have to start slowly. Focus on getting all upgrades on dock 1, and gild all fish cards as you progress.
+* Repeat until at least unlocking dock 4.
+* Then, you can choose between two methods:
+** "Slow" method: if you don't have the Poseidon Idol maxed, DO NOT choose this way.
+*** Go back to dock 1 to poly Guppy. This unlocks Poseidon Idols' huge +166% drone fishing power improvement.
+*** Unlock the [[Skill-Tree#FishingWithFriends|Skill "Fishing With Friends"]] and max it (level 3).
+*** You can continue with the "quick but expensive" method with improved stats, speeding up your fishing progress.
+** "Quick but expensive" method: Follow this method if you can't do the slow version because you rushed in.
+*** Start dock 4 and continue improving upgrades and cards. It'll become expensive quickly.
+*** Unlock the [[Skill-Tree#WithThisFishISummonTwoMoreFish|Skill "With This Fish I Summon Two More Fish"]] and max it (level 3).
+*** At the end of Tier 1, if not done yet, don't forget to poly Guppy.
+* When all upgrades are done, go to Notice page and turn in fish for maingame boosts.
+
+===[[Construct#Monuments|World 3 Monument]]===
+* Don't rush it. There is time for everything. That said, you probably have everything you need for it (except the gems) just from getting platinum statues, or close.
+* Similar to W2 versus W1, the W3 ores are much stronger than W2, so you won't be able to make much progress for a while if you open it early. Also, the global -30% game speed debuff in W3 makes it bad to idle in (due to slowing down both freebies and bomb recharge).
+* There are useful upgrades you can get from mining in the early W3 stages, so just monitor your speed in gaining the needed W3 resource and skip it if it will take several days.
+
+== World 3 ==
+
+=== [[Construct]] (World 3), Base Statues ===
+** Unlocks veins and progress in the first three zone.
+** If the game feels hard, don't forget the [[Workshop]] upgrades, and new [[Omega Chances]], [[Pickaxe Damage]] and [[Bomb Damage]] are unlockable in the [[Contracts]].
+* Buy [[Skill-Tree#PleaseSirDontMakeMePrestigeAgain|"Please Sir Don't Make Me Prestige Again" skill]] to get new Contracts re-spec.
+** Reminder: a Re-spec removes ALL current contracts upgrades and gives you back all the contracts points for free, but they are limited in number.
+
+=== [[Fishing]] (World 3, part 1) ===
+* Farm Mr.Nibbles pet, buy Mr.Nibbles' Quest.
+* Equip Angler's drone, max Angler's upgrade and Angler's grade.
+* Don't forget Notices, unlock the W3 Debuff asap.
+* Get your first legendary fish on the first three docks.
+
+=== [[Stargazing]] (World 3) ===
+* Unlock all w3 veins.
+* If not done yet, buy all your missing w3 stars.
+* Farm stars and buy all stargazing upgrade except "Super Star Supergiant Chance" and "All Star Multipliers", they are very costly so avoid them for now.
+
+=== [[Construct]] (World 3), Gild and Plat Statue ===
+* This step generally requires doing two statues, then farming something else before doing two more statues, and so on.
+** Start getting all first three legendary fish in Tribute 1, Rainbow Trout in Tribute 2, and unlock all Dock 1 legendary fishes.
+*** Keep your drones on the first three docks, so you'll get enough of those docks' last fish to tribute
+** Don't forget your stars, you'll quickly unlock some new level so you'll have to keep the pace on these too.
+** Between 8th gilded Statue and 3rd plat Statue, unlock [[Black hole]].
+*** When [[Black hole]] is unlocked, follow the required stars and veins and unlock [[Lootfrogs]]. If you usually use Frogger Drone, this would be very efficient.
+
+=== Obelisks 62 to 66, the armor wall and the Divine chests === 
+* This section spans mid-to-end of World 3, so keep reading for other things you should do in the meantime. By this, if not earlier, you should really be doing everything at once, all the time. 
+* After OB 61 to 62, you'll reach the end of the easily accessible sources of pickaxe damage. Expect your Obelisk level progress to grind to a halt. You can (and should) power through OB64 for the Skill Tree nodes, but leave 65-66 for later. 
+* The Relic chests will become increasingly important, as the Pickaxe +3% and Pickaxe +10% are uncapped. Consider spending gems regularly on [[lootbugs]] to buy 
+** 10x gem recharge rate (you should be buying these since the beginning, as they're gem-positive)
+** Extra relic chests
+** Extra fishing ticks. For maximum impact, change to Angler drone before buy when grinding Legendaries. You may need to activate and deactivate this as you throttle the need for extra Fishing ticks with the need for extra gems. 
+* More Relic chests will mean more Divines (1/25,000 base rate). You'll soon have 100k chests, and then 200k. Once you get enough Gems and total chests, Reroll regularly to get your Divines up to a lower average (1/12k to 1/15k is a good rate). There's a good calculator for rerolling (The Ultimate Gem Calculator) on [[External Resources]]
+* With enough Relics it's quite possible to reach OB66 and the Arch Ascension before World 4. See also  [[Ascension guide]], but this is a stretch goal. F2P players should specially consider this, as Founder rewards start to become important at this point. 
+
+=== Infernal Cards ===
+* Much like polychrome cards, these require grinding (10 shards per card), so it's useful to unlock the [[infernal]] cards ASAP. 
+* First ones available are for Veins and Stars (on [[Skill-Tree]]), you should reach this soon. Buy, buy, buy! Infernal Vein cards are needed to reach W4 monument requirements in a reasonable time, and Infernal Star cards are needed for the Black Hole levels beyond the very first ones. This will take time. 
+* The rest of them can (and should) wait
+** For Drones, [[Fuel generator]] 30 is required, so you'll need to work towards this, too. This will take quite longer. 
+** Many of these are behind Tribute 1 and 2 of [[Laviathan]] (Legendary Fish, Dock 8, Volcano), those are for later. 
+
+=== 4th Drone ===
+* The Tribute 2 of [[Cthulu]], Legendary fish of Dock 6 (Abyss), unlocks the 4th Drone. This allows many drones strategies for optimizing your yields, including the ability to keep Elixir Drone and Frogger Drone active at nearly all times while farming the late W3 stars, specially after the [[Fishing#Upgrades_T2_MidasDroneEnhancement|Midas drone enhacement]]. This should be prioritized. 
+* Complete Rainbow Trout and Dune's Eelworm Tributes (both of them), then go all-in to Cthulhu T2 before doing the rest of Tributes. The 750k gems will sting, but they're worth it. 
+
+=== Fuel generator ===
+* Cost is steep, but it has to be paid. See also the [[Guides/Gem_Spending_Guide]]
+* After Cthulhu, increase this. You'll need to reach level 30 for quite a few advancements. But there is no rush. Plan in advance for [[Drones/Costs#Generator_Level_Costs|gem spending]]. Coal is plentiful once your [[elixir]] drone is able to crit ([[Fishing#tabber-Dune's_Eelworm|Dune's Eelworm]], D2T2), just keep it on for infinite coal with the 3x generation speed. 
+* From generator level 22, the costs are: 
+** From 22 to 24: 12,511 fuel (62,555 gems)
+** From 24 to 28: 91,789 fuel (458,945 gems)
+** 29: 56,809 fuel (284,045 gems)
+** 30: 85,214 fuel (426,070 gems). 
+** Accumulated cost: 1,231,615 gems. That's about 1 week of your full gem production once you're well into late World 3, and not much more than the W4 Monument requirement, so keep calm and carry on. 
+
+=== Black Hole and oh, my, it's full of stars ===
+* It's usual to have the Black Hole a little (or a lot) underdeveloped by this point (specially if you haven't got your Infernal Star Cards yet). This must be corrected. 
+* The drone setup for Star grinding is Elixir + Starburst + Midas (after enhancement, which should be prioritized). Before enhancement, use Frogger. Elixir must be active, not for the 2x Star Spawn (you should be able to stack a few days' worth of this at this point), but for the 3x Super Stars buff (that, even with crits, is not sustainable at this point). This makes a good combo with the 3x coal generation for the Fuel Generator, so try to do both at the same time when possible. 
+* The 4th drone slot for Frogger is also extremely desirable (see above). 
+* Stack Starfruit and Ice Cream always when grinding. Save the Cosmic Candy for when you get a 3x Super Stars Crit for 10-20 min of effect so you can get the most use of it. 
+* It's the same procedure for Legendary fish Tributes requirements. 
+* There is a handy late W3 Star Calculator on [[External Resources]]
+
+=== Pets and Divine Challenges ===
+* There are several brusque steps in the [[Pets]] progression. Dino and Mr. Nibbles are a bit hard. Nagini is quite harder. But the [[Pets#tabber-Butterfly_2|Butterfly]] hits hardest. After maxxing all possible unlocked pet levels, and all possible sources of extra caps, you'll reach 308 out of 310 total pet levels needed. 
+* There are two possible ways out: One is the [[Black hole]] level 12 (Mr. Nibbles Pet Cap +2), which is the usual/recommended way, and the other is the [[Storm serpent]] (Dock 8, Tribute 1, Crab Pet Cap +5). Depending on your style of play, one of this may be accessible way before the other. Keep in mind ''the BH12 path requires maxxing every other possible pet level'' possible at this stage. 
+* Remember the [[Challenges]]!: EC 19 (total 68) requires you to Prestige 10 times at level >200, DC 4 (total 79), requires to prestige 12 times on floor 102, and DC8 requires to Prestige 33 times at or above level 330 ([[Cards#CardEffects_LegFish_RadioactiveSlug|Radioactive Slug card]] probably needed). Use these to your advantage when leveling the Dwarf/Rabbit/Happy Bot pets (specially Happy Bot, which is usually the last).  
+
+== World 4 ==
+
+=== Speed debuff ===
+* World 4 starts with a -80% debuff to game speed. Thus, it's '''very much not recommended''' to unlock it early, even if you could grind out the requirements. See the in-game [[Construct#Recommendations|recommendations]]. You'll need to complete [[Floors#World_Quests|World Quests]] to reduce it, and that will take long. This isn't like W2 or W3. Don't rush. 
+
+=== General Early Advice ===
+* All World 4 floors have painful individual debuffs, but 115 and 121 are the best of the worst. 115 is easier to attack early on, and you can wish lock the [[Stargazing#Eridanus|Eridanus]] star to it. Also, the fuel consumption debuff on 115 can help farm drone card shards, although W3 drone shard farming will still be faster until you alleviate the W4 speed debuff a bit. 
+* Of the last 4 fish tributes ([[Fishing|Melting Gibbous]] "Cheese" T1 & T2, [[Fishing|Blackened Basker]] T1 & T2), both Cheese T1 and Basker T2 are considered very good, while Cheese T2 is considered comparatively mediocre. So, a good farming order is Cheese T1 -> Basker T1 -> Basker T2. You may be tempted to prioritize Cheese T2 because it unlocks the [[Archaeology|Hades]] idol in archaeology, however another unlisted way to unlock Hades is Basker T2. With this route unlocking Hades will take much longer. In the meantime you can bank arch archaeology seconds to unlock many archaeology infernal cards immediately after Hades is unlocked and before you move to archaeology ascension 2.
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

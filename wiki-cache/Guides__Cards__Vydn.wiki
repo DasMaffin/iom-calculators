@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: World 3 Unlocked
+# Tap the 4 dots
+# Tap Construct
+# Tap Statues
+# Scroll to the second set of statues
+# Select top left Statue
+# Wait (Keep the menu open, but no need to tap the statue. Just wait with it selected.)
+## Every 5 seconds you have a small chance (1:200 per 5 Sec = ~16 Minutes Real Time) to get the card, it takes a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:Vydn Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

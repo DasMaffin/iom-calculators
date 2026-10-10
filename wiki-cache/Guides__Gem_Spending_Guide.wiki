@@ -1,0 +1,426 @@
+{{WIP}}
+==Recommended Gem Upgrade Path==
+This guide is currently '''under heavy construction''' and will be '''continuously updated and fine-tuned''' in the near future.
+
+It represents the '''combined knowledge of the Discord community''', bringing together established guidelines, visual references, and extensive player feedback. As the game evolves and new optimizations are discovered, this guide will evolve alongside it.
+
+Expect ongoing improvements, refinements, and additions over time. Feel free to @DerSucher for Feedback or criticism.
+
+=== Skill Points ===
+There are two main ways to get Skill Points. You can get Skill Bits from Freebie then combine 10 in the Item Bag for 1 Skill Point, this method takes longer but is free. You can also buy 1 Skill Point from the Store for 125 Gems, you can use this method to get Skills faster.
+
+=== ~Obelisk 0 to 17 ===
+{| class="wikitable lighttable text-align-center"
+|- style="font-weight:bold; text-align:center;"
+! #
+! Where
+! What
+! Gems
+! Notes
+|-
+| 1
+| Gem Upgrade
+| Permanent Drone
+| 250
+| More Damage early - More Skins later
+|-
+| 2
+| Gem Upgrade
+| Pickaxe Damage → Level 10
+| 2,000
+| Early baseline requirement
+|-
+| 3
+| Gem Upgrade
+| Battery Bomb
+| 1,000
+| Work on your Bomb Cap ASAP
+|-
+| 4
+| Gem Upgrade
+| Transmuter Bomb
+| 750
+| 
+|-
+| 5
+|Gem Upgrade
+|Megabomb
+|500
+|Required for Challenge 6
+|-
+| 6
+| Skill
+| Gems & Chests
+| 250 (+750<ref name=":0">For prerequisites</ref>)
+| Direct gem income increase
+|-
+| 7
+| Skill
+| Easy Progressor
+| 375
+| Faster overall progression
+|-
+| 8
+|Skill
+|Just Wait Faster
+|500
+|Direct gem income increase
+|-
+| 9
+| Skill
+| Chronokeeper
+| 650 (+1125<ref name=":0" />)
+| Increases offline rewards
+|-
+| 10
+| Skill
+| Auto-Bomber
+| 1,250 (+750<ref name=":0" />)
+| critical for overnight/offline play
+|-
+| 11
+| Skill
+| Free? That’s A Great Price!
+| 1,500 (+1500<ref name=":0" />)
+| More gems
+|-
+| 12
+| Skill
+| Gem Bomb
+| 625 (+375<ref name=":0" />)
+| Major gem generation source
+|-
+| 13
+| Skill
+| Stonks
+| 2,750 (+7125<ref name=":0" />)
+| More gems, Items, Relics
+|}
+
+<references />
+
+'''Don't forget you can get''' '''1 bonus gems from challenges for the Freebie Pack.''' Going from 5 to 6 gems is a 20% increase, which is a lot in the early game. The minimum requed chalenge is 24. It can be RNG especialy chalenge 20 to get Crab to level 3. Save your chalenge poinst a get is as soon it help to get other thing like Stonk skill.  
+
+'''Sidenotes: Will get it's own Section together with General tips like "Gild Stonks card ASAP"''' 
+
+* Items Contained in Chests: Increase the /amount of items found in chests over time but save most of the Chests
+* Ore Sell Price: Slightly increase ore sell price as you need more Gold
+* Fuel Chain Drone and Midas for Gold farming (Chain Drone '''Grade 5''' is required for Challenge 40)
+
+'''Event Note: - Will get it's own Section or Redirect to the Event Guide'''
+
+* If an [[Events|Event]] is live, buy Emporium gifts
+* Mythic and Relic chests are acceptable
+* See [[Events#Strategy|Event Strategy]] for more information
+
+==== Lootbug 2x Speed ====
+Buying 2x Game Speed Buff from [[Lootbugs]] can give you more gems back via [[Freebies]] than you spent on the Bug. This calculator tells you how many gems to expect from buying the Bug.<br>
+Note that buying the Lootbug costs 15 Gems by default, reduced by 2 from [[Pets#tabber-Whale_Skin|Whale Pet Skin]], 1 from [[Skill-Tree#Saving For A Rainy Day|Saving for a Rainy Day Skill]], and 1 from owning at least 6 [[Skins|Miner Skins]].
+
+Note that for simplicity the calculator does not take into account gems earned from other sources like additional gem/cherry bombs. For an early game player this is usually between 0.5-1 gems so buying the 2x speed gives you more gems than the amount spent slightly earlier than the calculator claims.
+{{Calculator:LootbugSpeed}}
+----
+
+=== ~Obelisk 17 to 29 ===
+"Free? That's A Great Price!" and "Stonks" skills are important sources of gem income, relic chest income and Quality of Life upgrades from prerequisites. Consider spending some of the gems from your Obelisk rewards and Freebie Packs on those skills.
+{| class="wikitable lighttable text-align-center"
+|- style="font-weight:bold; text-align:center;"
+! style="text-align:right;" | #
+! Where
+! What
+! Gems
+! Notes
+|-
+| 1
+| Pets
+| Buy pets as soon as they can be leveled
+| 7,851 (*9,601)
+| *Skip Axolotl unless World 2 is unlocked
+|-
+| 2
+| Cards
+| Gild Bombs: gem, cherry, battery, D20
+| 1,250
+| Highest ROI<ref name=ROI>Return on Investment</ref> bomb cards
+|-
+| 3
+| Generators
+| Upgrade generators periodically (target lvl 16)
+| 4,885
+| Avoid over-investing early<ref name=early>You need level 16 as well as the Gasoline Guzzler skill to reach enough capacity to buy all the coal upgrades available at that level. However, since coal income is so slow, you can safely leave it at level 11-13 and come back to it way later on</ref>
+|-
+| 4
+| Mining
+| Unlock Stone Veins ASAP
+| —
+| Then alternate Statue → Vein → Statue etc. Buy 2x Vein Spawn rate if you struggle with Veins more than with gems.
+|-
+| 5
+| Construct
+| Begin working on Statues
+| —
+| Best: Middle, Bottom-Left, Bottom-Middle, Middle-Right, Top-Left.<ref name="Statues">See [[Construct#World_1_Bonuses]]</ref>
+|-
+| rowspan="2" |6
+| rowspan="2" |Construct
+| Get all 9 Statues (recommended path)
+| 8,100
+| Smoothest transition to World 2
+|-
+| Go to World 2
+| 2,000
+| Unlocks relatively cheap upgrades - Contracts, Workshop, Upgrades
+|}
+<references />
+----
+
+=== ~Obelisk 30 to 36 ===
+{| class="wikitable lighttable text-align-center"
+|- style="font-weight:bold; text-align:center;"
+! #
+! Where
+! What
+! Gems
+! Notes
+|-
+| 1
+| Cards
+| Gild bar and ore cards as required for Statue/Challenge goals
+| —
+| 15 bar and ore cards are required later (Extreme Challenge 5)
+|-
+| 2
+| Construct
+| Gild all 9 statues
+| 14,400
+| Also for extreme Challenge 6
+|-
+|3
+|Drones
+|Get the Generator to level 16
+|4885
+|
+|-
+| 4
+| Stargazing
+| Unlock Taurus and Gemini
+| 1,250
+| Fuel Stargazing Drone early on to speed things up
+|-
+| 5
+| Skill-Tree
+| Veinmorpher
+| 11,250
+| Veinmorpher for active play with autobombing and a jumpstart for Stargazing
+|-
+| 6
+| Skill-Tree
+| Ctrl+F
+| 15,000
+| Ctrl+F for better offline gains
+|-
+| 7
+| Pets
+| Buy all pets available
+| 4,750
+|
+|-
+| 8
+| Stargazing
+| Unlock stars 4–12 (your desired rate)
+| 18,000
+| Mainly unlocking Virgo and Scorpio </br>Unlock more if you wanna Vein farm & always farm a Star as well
+|-
+| 9
+| Cards
+| Gild elixir drone (more as desired)
+| 1,000
+| Elixir card is the priority
+|-
+| 10
+| Pets
+| Crab quest skin
+| 1,500
+| The only relevant quest at this point. It too is not strictly necessary.
+|-
+| 11
+| Gem Upgrade
+| Items in Chests to x13
+| 7800
+| '''Save your Chest until x13''' - Minos Level 5 from '''Arch''' is required
+|-
+| 12
+| Skill
+| Tons of Damage (+ previous skill)
+| 8,700 (4,500 + 4,200)
+|
+|-
+| 13
+| Skill
+| This Is Gonna Take A While..
+| 5,000
+|Polychrome cards
+|-
+| 14
+| Cards
+| Gild ore cards until Floor 60 
+|9,000
+| This is your First step on preparing for Plat Statues
+|-
+| 15
+| Cards
+| Gild bar cards until Floor 60
+|9,000
+| This is your Second step on preparing for Plat Statues
+|-
+|16
+|Skill
+|Three's a Crowd
+|5,000
+|
+|-
+|17
+|Statues
+|Do Plat Strat
+|32,500
+|[[Guides/Platinize Statues]]
+|-
+|18
+|Skill
+|Polychrome Power
+|6,250
+|
+|}
+'''Important Notes:'''
+* Aim for approximately Floor 12 maximum in Arch, You will need level 5 Minos from Archaeology
+* '''<u>Buy 2x Speed from Loot Bug & 10x Bomb Speed from Loot Bug whenever possible</u>'''
+
+----
+
+=== ~Obelisk 37 to 59 ===
+{| class="wikitable lighttable text-align-center"
+|- style="font-weight:bold; text-align:center;"
+! #
+! Where
+! What
+! Gems
+! Notes
+|-
+| 1
+| Lootbugs
+| Purchasing buffs
+| 115+
+| Purchase all X10 Bomb Recharge, Relic Chests, Archaeology Banked Seconds, and Fishing Ticks (after investing 25-50k gems into fishing). Relic chests, Fishing and Archaeology are time gated and will accelerate your progress. X10 Bomb Recharge gives you more gems than it costs. You will keep buying these indefinitely<ref>Relevant information from the discord about [https://discord.com/channels/496455472581312512/1415149721495928942/1535387453484044298 lootbugs]</ref>
+|-
+| 2
+| Stargazing
+| Unlocking the Orion Star in World 3
+| 3500
+| Farm the star on either Floor 65 or 69, Making sure to farm gems while farming the star (Elixir, Frog and Bear(if active))
+|-
+| 3
+| Cards
+| Gilding most/all cards
+| -
+| Focusing on Cards that increase your Gem gains first
+|-
+| 4
+| Archaeology
+| Buying all Archaeology Upgrades
+| 78,000~
+| Buying Fragments first, then Stamina, and then Experience. '''Make sure you PAUSE your Archaeology ticks''' when buying the gem upgrades. Gild all of your Archaeology cards before you use your ticks and the cards you get from using ticks. Pausing to buy upgrades. Use the [[External_Resources#Archaeology_Simulators|Archaeology Simulator]] to push to [[Guides/Archaeology_Guide#Max_Stage_100|floor 100]].
+|-
+| 5
+| Drones
+| Get the Generator to Level 20
+| 18,105
+| You need this for the Nyx Legendary Idol and for Level 15 drones
+|-
+| 6
+| Fishing
+| Start Buying Fishing Gem upgrades
+| 100,000 to 800,000
+| You will need to use the [https://docs.google.com/spreadsheets/d/18_K3KlY_ewqjb26oirX8qVdWVPhGBC-qVrUdKQ1KedE/edit Fishing sheet] to make the best progress for spending your gems. You will be buying these upgrades gradually, eventually removing the World 3 -30% speed debuff
+|-
+|}
+'''Important Note:''' 
+
+* Having the [https://shminer.miraheze.org/wiki/Store Legendary Hauler], [https://shminer.miraheze.org/wiki/Store Fisher's], or the [https://shminer.miraheze.org/wiki/Store Angler Bundle] allows more leniency in gems spent on fishing upgrades, as they all boost fishing
+<references />
+
+=== ~Obelisk 60-65 (WIP) ===
+{| class="wikitable lighttable text-align-center"
+|- style="font-weight:bold; text-align:center;"
+!#
+!Where
+!What
+!Gems
+!Notes
+|-
+|1
+|Construct
+|Statues
+|54,000
+|All 9 W3 statues should be built before touching fishing tributes.
+|-
+|2
+|Fishing 
+|Legendary Fish Tributes & Card Gilds
+|290,000
+|In order: Dock 1 Tribute 1, Dock 2 Tribute 1, Gild Dock 2 Legendary Card, Gild Dock 1 Legendary Card, Dock 1 Tribute 2. 
+|-
+|3
+|Construct
+|W3 Statue Gilds & 2-4 Statue Plats
+|295,000 to 470,000
+|Complete your world 3 statue gilds and platinize 2-4 of them. '''YOU SHOULD HAVE [https://shminer.miraheze.org/wiki/Pets#tabber-Dino_2 DINO] LEVEL 10 BY THIS POINT'''
+Plats 3-4 might be hard for ftp players at this point, founders shouldn't have too much issue pushing 3-4 before going back to tributes.
+|-
+|4
+|Fishing
+|Legendary Tributes
+|150,000-300,000
+|Dock 2 Tribute 2, then Dock 5 Tribute 1 if caught. '''YOU SHOULD HAVE [https://shminer.miraheze.org/wiki/Pets#tabber-Mr_Nibbles_2 MR NIBBLES] UNLOCKED BY THIS POINT'''
+|-
+|5
+|Fishing
+|Fishing Enhance Upgrades
+|900,000-1,200,000
+|Depending on previous investment, you should have approximately two million gems invested before doing the next step.
+|-
+|6
+|Fishing
+|Legendary Tributes
+|925,000
+|Complete Dock 6 Tribute 1 & 2.
+|-
+|7
+|Cards
+|The rest of the Legendary Fish gilds
+| -
+|Heavily depends on if you picked up any of the other legendary card gilds while waiting on statues. Although you should have all of them gilded before going into [https://shminer.miraheze.org/wiki/Fishing T2 Fishing].
+|-
+|8
+|Fishing 
+|Tier 2 Fishing 
+|'''(WIP)'''
+|'''(WIP)''' Even though most players will reach Tier 2 fishing around ob62, getting as many sources of drone power / fishing power are very necessary, as the first few t2 upgrades don't pull punches on their fish cost, while the fishing power needed for the t2 fish is high to start.
+|-
+|8.5
+|Construct
+|W3 Statue Plats
+5-9
+|700,000
+|These should be done alongside the t2 notice upgrades and early T2 Legendary Fish tributes
+|}
+Important Note:
+
+* '''Do not fret''' at the high gem costs, on paper it looks scary but the gem cost is split amongst multiple upgrades. World 3 also has many ways to increase your gem income
+
+* A [https://docs.google.com/spreadsheets/d/1of17QvuwOt1zK11fu8jygcZvvu7vplSmdfSfNQyBz1o/edit?gid=0#gid=0 World 3 checklist] of the guide above as an excel sheet.
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

@@ -1,0 +1,50 @@
+Page containing visual guides for obtaining certain cards. 
+
+==Misc Cards==
+{|class="wikitable no-inner-borders" style="border:none"
+|{{Card|cardType=Standard|cardImage=Misc Alex.png}} || [[Guides/Cards/Alex|Alex Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Fishing Rod.png}} || [[Guides/Cards/Fishing Rod|Fishing Rod Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Code.png}} || [[Guides/Cards/Code|Code Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc FrozenAra.png}}|| [[Guides/Cards/FrozenAra|FrozenAra Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Celio's Hat.png}} || [[Guides/Cards/Celios Hat|Celio's Hat Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Vydn.png}} || [[Guides/Cards/Vydn|Vydn Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Julk.png}} || [[Guides/Cards/Julk|Julk Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Yummy Pizza.png}} || [[Guides/Cards/Yummy Pizza|Yummy Pizza Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Floor 73.png}} || [[Guides/Cards/Floor 73|Floor 73 Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Relic.png}} || [[Guides/Cards/Relic|Relic Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Bone.png}} || [[Guides/Cards/Bone|Bone Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Store.png}} || [[Guides/Cards/Store|Store Misc Card Guide]]
+|-
+|{{Card|cardType=Standard|cardImage=Misc Tellacon.png}}
+|[[Guides/Cards/Tellacon|Tellacon Misc Card Guide]]
+|}
+
+==Misc Infernal Cards==
+{|class="wikitable no-inner-borders" style="border:none"
+|{{Card|cardType=Infernal|cardImage=Misc Alex.png}}|| [[Guides/Cards/AlexInfernal|Alex Misc Infernal Card]]
+|-
+|{{Card|cardType=Infernal|cardImage=Misc Fishing Rod.png}}|| [[Guides/Cards/Fishing RodInfernal|Fishing Rod Misc Infernal Card]]
+|-
+|{{Card|cardType=Infernal|cardImage=Misc FrozenAra.png}}|| [[Guides/Cards/FrozenAraInfernal|FrozenAra Infernal Misc Card Guide]]
+|-
+|{{Card|cardType=Infernal|cardImage=Misc Relic.png}}|| [[Guides/Cards/RelicInfernal|Relic Infernal Misc Card Guide]]
+|-
+|{{Card|cardType=Infernal|cardImage=Misc Store.png}}|| [[Guides/Cards/StoreInfernal|Store Infernal Misc Card Guide]]
+|}
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

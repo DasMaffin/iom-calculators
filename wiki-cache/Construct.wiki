@@ -1,0 +1,1240 @@
+{{Version|2.2.23|0.9|Stone Vein Unlock Costs are outdated}}
+<span style="display:none">{{RandomConstructImage}}</span><!--do not remove, pageImage for search-->
+{{FakeMenuButton|image={{RandomConstructImage|size=114px}}|size=114px|buttonSize=114px|styles=float:left;margin-right:10px}}
+Construct is unlocked at obelisk 19. The menu allows you to unlock [[Construct#Veins|veins]], build [[Construct#Statues|statues]] for powerful buffs, and build [[Construct#Monuments|monuments]] to unlock new worlds.
+
+{{clear|left}}
+==Research==
+The '''Research''' tab allows players to unlock new [[Veins]] for specific [[Floors#Zones|zones]], as well as purchasing 2x Vein Spawn Rate for each individual vein. 
+
+<tabber>
+Vein unlocks=
+Unlock new vein for specific zone.
+{| class="wikitable lighttable"
+|+ Vein unlocks
+|-
+!Vein
+!Unlock Vein Cost
+!Unlock Bar 1 Cost
+!Unlock Bar 2 Cost
+|-
+| {{Sprite|Stone Vein||x20|Stone Veins}}
+| {{NA}}
+|7.50m {{Sprite|Adamant Bar||x20|Adamant Bars}}
+|7.50m {{Sprite|Runite Bar||x20|Runite Bars}}
+|-
+| {{Sprite|Magma Vein||x20|Magma Veins}}
+| 425 {{Sprite|Stone Vein||x20|Stone Veins}}
+|925k {{Sprite|Obsidian Bar||x20|Obsidian Bars}}
+|925k {{Sprite|Demonite Bar||x20|Demonite Bars}}
+|-
+| {{Sprite|Virtual Vein||x20|Virtual Veins}}
+| 745 {{Sprite|Magma Vein||x20|Magma Veins}}
+|2.95m {{Sprite|VR-Demonite Bar||x20|VR-Demonite Bars}}
+|2.95m {{Sprite|VR-ERROR Bar||x20|VR-ERROR Bars}}
+|-
+| {{Sprite|Space Vein||x20|Space Veins}}
+| 1.05k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|5.85m {{Sprite|Meteorite Bar||x20|Meteorite Bars}}
+|5.85m {{Sprite|Singularity Bar||x20|Singularity Bars}}
+|-
+| {{Sprite|Cloud Vein||x20|Cloud Veins}}
+| 1.35k {{Sprite|Space Vein||x20|Space Veins}}
+|9.5m {{Sprite|Angelite Bar||x20|Angelite Bars}}
+|9.5m {{Sprite|Elysium Bar||x20|Elysium Bars}}
+|-
+| {{Sprite|Atomic Vein||x20|Atomic Veins}}
+| 1.85k {{Sprite|Cloud Vein||x20|Cloud Veins}}
+|14.7m {{Sprite|Radion-73 Bar||x20|Radion-73 Bars}}
+|14.7m {{Sprite|Cranium Bar||x20|Cranium Bars}}
+|-
+| {{Sprite|Deepsea Vein||x20|Deepsea Veins}}
+| 7.55k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|82.25m {{Sprite|Lapis Bar||x20|Lapis Bars}}
+|82.25m {{Sprite|Quartz Bar||x20|Quartz Bars}}
+|-
+| {{Sprite|Beach Vein||x20|Beach Veins}}
+| 11.28k {{Sprite|Deepsea Vein||x20|Deepsea Veins}}
+|125.50m {{Sprite|Sandcasium Bar||x20|Sandcasium Bars}}
+|125.50m {{Sprite|Clamite Bar||x20|Clamite Bars}}
+|-
+| {{Sprite|Valley Vein||x20|Valley Veins}}
+| 16.96k {{Sprite|Beach Vein||x20|Beach Veins}}
+|195.50m {{Sprite|Hailstone Bar||x20|Hailstone Bars}}
+|195.50m {{Sprite|Frostbite Bar||x20|Frostbite Bars}}
+|-
+| {{Sprite|Jungle Vein||x20|Jungle Veins}}
+| 385.00k {{Sprite|Valley Vein||x20|Valley Veins}}
+|2.85b {{Sprite|Macawrock Bar||x20|Macawrock Bars}}
+|2.85b {{Sprite|Cocore Bar||x20|Cocore Bars}}
+|-
+| {{Sprite|Volcano Vein||x20|Volcano Veins}}
+| 585k {{Sprite|Jungle Vein||x20|Jungle Veins}}
+|8.55b {{Sprite|Infernite Bar||x20|Infernite Bars}}
+|8.55b {{Sprite|Blood-Onyx Bar||x20|Blood-Onyx Bars}}
+|-
+| {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+| 5.5m {{Sprite|Volcano Vein||x20|Volcano Veins}}
+|750b {{Sprite|Omeletite Bar||x20|Omeletite Bars}}
+|750b {{Sprite|Resinite Bar||x20|Resinite Bars}}
+|-
+| {{Sprite|Roman Vein||x20|Roman Veins}}
+| 20.5m {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+|7.50t {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+|7.50t {{Sprite|Arcusite Bar||x20|Arcusite Bars}}
+|-
+| {{Sprite|Industrial Vein||x20|Industrial Veins}}
+| 92.5m {{Sprite|Roman Vein||x20|Roman Veins}}
+|52.5t {{Sprite|Cognite Bar||x20|Cognite Bars}}
+|52.5t {{Sprite|Telophite Bar||x20|Telophite Bars}}
+|-
+| {{Sprite|Warfront Vein||x20|Warfront Veins}}
+| 250m {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|5.50q {{Sprite|Dynamite Bar||x20|Dynamite Bars}}
+|5.50q {{Sprite|Genevium Bar||x20|Genevium Bars}}
+|-
+| {{Sprite|Neon Vein||x20|Neon Veins}}
+| 550.50m {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|25.12q {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+|25.12q {{Sprite|Palmite Bar||x20|Palmite Bars}}
+|-
+| {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+| 1.25q {{Sprite|Neon Vein||x20|Neon Veins}}
+|4.75oc {{Sprite|Chronite Bar||x20|Chronite Bars}}
+|4.25oc {{Sprite|Hattium Bar||x20|Hattium Bars}}
+|-
+| {{Sprite|Pirate Vein||x20|Pirate Veins}}
+| 150.50t {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+|275oc {{Sprite|Rumium Bar||x20|Rumium Bars}}
+|265oc {{Sprite|Anchorium Bar||x20|Anchorium Bars}}
+|-
+| {{Sprite|Arabian Vein||x20|Arabian Veins}}
+| 2.5q {{Sprite|Pirate Vein||x20|Pirate Veins}}
+|90.1no {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|80.1no {{Sprite|Djinnium Bar||x20|Djinnium Bars}}
+|-
+| {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+| 1.85qi {{Sprite|Arabian Vein||x20|Arabian Veins}}
+|75.5udc {{Sprite|Carriagum Bar||x20|Carriagum Bars}}
+|60.5udc {{Sprite|Crystal-Rose Bar||x20|Crystal-Rose Bars}}
+|-
+| {{Sprite|Candyland Vein||x20|Candyland Veins}}
+| 3.55qi {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+|50.5ddc {{Sprite|Jellystone Bar||x20|Jellystone Bars}}
+|30.5ddc {{Sprite|Lollipopite Bar||x20|Lollipopite Bars}}
+|}
+|-|
+Vein Spawn Rate 2x=
+Increase the vein spawn rate for specific zone.
+{| class="wikitable lighttable"
+|+ Vein Spawn Rate 2x
+|-
+!Upgrade
+!Unlock Gem Cost
+!Unlock Bar 1 Cost
+!Unlock Bar 2 Cost
+|-
+| {{Sprite|Stone Vein||x20|Stone Veins}} Spawn
+|{{Gems|100}}
+|7.50m {{Sprite|Copper Bar||x20|Copper Bars}} 
+|7.50m {{Sprite|Mithril Bar||x20|Mithril Bars}}
+|-
+| {{Sprite|Magma Vein||x20|Magma Veins}} Spawn
+|{{Gems|120}} 
+|11.25m {{Sprite|Amethyst Bar||x20|Amethyst Bars}} 
+|11.25m {{Sprite|Topaz Bar||x20|Topaz Bars}}
+|-
+| {{Sprite|Virtual Vein||x20|Virtual Veins}} Spawn
+|{{Gems|140}} 
+|16.85m {{Sprite|VR-Tin Bar||x20|VR-Tin Bars}} 
+|16.85m {{Sprite|VR-Amethyst Bar||x20|VR-Amethyst Bars}}
+|-
+| {{Sprite|Space Vein||x20|Space Veins}} Spawn
+|{{Gems|160}} 
+|25.25m {{Sprite|Lunarium Bar||x20|Lunarium Bars}} 
+|25.25m {{Sprite|Earth-C-137 Bar||x20|Earth-C-137 Bars}}
+|-
+| {{Sprite|Cloud Vein||x20|Cloud Veins}} Spawn
+|{{Gems|180}} 
+|37.95m {{Sprite|Halium Bar||x20|Halium Bars}} 
+|37.95m {{Sprite|Blasphemite Bar||x20|Blasphemite Bars}}
+|-
+| {{Sprite|Atomic Vein||x20|Atomic Veins}} Spawn
+|{{Gems|200}} 
+|56.85m {{Sprite|Enemite Bar||x20|Enemite Bars}} 
+|56.85m {{Sprite|Beepboopium Bar||x20|Beepboopium Bars}}
+|-
+| {{Sprite|Deepsea Vein||x20|Deepsea Veins}} Spawn
+|{{Gems|500}} 
+|85.25m {{Sprite|Glacialite Bar||x20|Glacialite Bars}} 
+|85.25m {{Sprite|Twinklestone Bar||x20|Twinklestone Bars}}
+|-
+| {{Sprite|Beach Vein||x20|Beach Veins}} Spawn
+|{{Gems|600}} 
+|128.50m {{Sprite|Thunderstone Bar||x20|Thunderstone Bars}} 
+|128.50m {{Sprite|Crabrock Bar||x20|Crabrock Bars}}
+|-
+| {{Sprite|Valley Vein||x20|Valley Veins}} Spawn
+|{{Gems|700}} 
+|195.50m {{Sprite|Icebloom Bar||x20|Icebloom Bars}} 
+|195.50m {{Sprite|Pinguinus Bar||x20|Pinguinus Bars}}
+|-
+| {{Sprite|Jungle Vein||x20|Jungle Veins}} Spawn
+|{{Gems|800}} 
+|2.90b {{Sprite|Rafflenium Bar||x20|Rafflenium Bars}} 
+|2.90b {{Sprite|Carnivorian Bar||x20|Carnivorian Bars}}
+|-
+| {{Sprite|Volcano Vein||x20|Volcano Veins}} Spawn
+|{{Gems|900}} 
+|8.75b {{Sprite|Cyrogem Bar||x20|Cyrogem Bars}} 
+|8.75b {{Sprite|Pinnaclite Bar||x20|Pinnaclite Bars}}
+|-
+| {{Sprite|Jurassic Vein||x20|Jurassic Veins}} Spawn
+|{{Gems|1500}} 
+|25.50t {{Sprite|Impactium Bar||x20|Impactium Bars}} 
+|25.50t {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+|-
+| {{Sprite|Roman Vein||x20|Roman Veins}} Spawn
+|{{Gems|1600}} 
+|125.50t {{Sprite|Phalanxite Bar||x20|Phalanxite Bars}} 
+|125.50t {{Sprite|Guardium Bar||x20|Guardium Bars}}
+|-
+| {{Sprite|Industrial Vein||x20|Industrial Veins}} Spawn
+|{{Gems|1700}} 
+|350.50t {{Sprite|Steamstone Bar||x20|Steamstone Bars}} 
+|350.50t {{Sprite|Equinine Bar||x20|Equinine Bars}}
+|-
+| {{Sprite|Warfront Vein||x20|Warfront Veins}} Spawn
+|{{Gems|1800}} 
+|25.50q {{Sprite|Manhattite Bar||x20|Manhattite Bars}}
+|25.50q {{Sprite|Rationium Bar||x20|Rationium Bars}}
+|-
+| {{Sprite|Neon Vein||x20|Neon Veins}} Spawn
+|{{Gems|1900}} 
+|325.50q {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+|325.50q {{Sprite|MVPD-1988 Bar||x20|MVPD-1988 Bars}}
+|-
+| {{Sprite|Wonderland Vein||x20|Wonderland Veins}} Spawn
+|{{Gems|100000}} 
+|126oc {{Sprite|Pishalvite Bar||x20|Pishalvite Bars}}
+|116oc {{Sprite|Teatimium Bar||x20|Teatimium Bars}}
+|-
+| {{Sprite|Pirate Vein||x20|Pirate Veins}} Spawn
+|{{Gems|200000}} 
+|40.5no {{Sprite|Mateyum Bar||x20|Mateyum Bars}}
+|40.0no {{Sprite|Hookite Bar||x20|Hookite Bars}}
+|-
+| {{Sprite|Arabian Vein||x20|Arabian Veins}} Spawn
+|{{Gems|300000}} 
+|951no {{Sprite|Sinbadium Bar||x20|Sinbadium Bars}}
+|901no {{Sprite|Turbanite Bar||x20|Turbanite Bars}}
+|-
+| {{Sprite|Enchanted Vein||x20|Enchanted Veins}} Spawn
+|{{Gems|400000}} 
+|950udc {{Sprite|Frogstone Bar||x20|Frogstone Bars}}
+|900udc {{Sprite|Slipperite Bar||x20|Slipperite Bars}}
+|-
+| {{Sprite|Candyland Vein||x20|Candyland Veins}} Spawn
+|{{Gems|500000}} 
+|950ddc {{Sprite|Mintium Bar||x20|Mintium Bars}}
+|900ddc {{Sprite|Neopolium Bar||x20|Neopolium Bars}}
+|}
+</tabber>
+
+==Statues==
+There are 27 statues. Each of them gives a unique bonus and is designed by a community member. When you build, gild, or platinize a statue, you get it in random order, not sequentially. All statues must be built to begin gilding, and all statues must be gilded to begin platinizing.
+
+===World 1 Bonuses===
+<tabber>World 1 Normal Statues=
+{| class="wikitable text-align-center"
+|+ World 1 Normal Statues
+|-
+|<div id="Xanz"/>[[File:1 Statue Rhythm Normal.png|alt=​]]<br>'''Statue of Rhythm (Xanz)'''<br>Pickaxe Damage 3x<br>Vein Income Multiplier +10%
+|<div id="Tor"/>[[File:2 Statue Awareness Normal.png|alt=​]]<br>'''Statue of Awareness (Tor)'''<br>Bomb Damage 3x<br>Transmuter Bomb Multi +1x
+|<div id="Dark"/>[[File:3 Statue Slaying Normal.png|alt=​]]<br>'''Statue of Slaying (Dark)'''<br>Prestige Point Gain 2x<br>Artifact Upgrade Cap +1
+|-
+|<div id="FrozenAra"/>[[File:4 Statue Appetite Normal.png|alt=​]]<br>'''Statue of Appetite (FrozenAra)'''<br>Bomb Cap Multiplier 1.3x<br>Banked Freebie Cap +1
+|<div id="Caulwik"/>[[File:5 Statue Friendship Normal.png|alt=​]]<br>'''Statue of Friendship (Caulwik)'''<br>Gems From Freebie Pack +1<br>Golden Floor Multi +10%
+|<div id="Totefm"/>[[File:6 Statue Hygiene Normal.png|alt=​]]<br>'''Statue of Hygiene (Totefm)'''<br>Workshop Upgrade Cap +2<br>Gem Upgrade Cap +1
+|-
+|<div id="Celio"/>[[File:7 Statue Artistry Normal.png|alt=​]]<br>'''Statue of Artistry (Celio)'''<br>5x Freebie Jackpot Chance +3%<br>Rainbow Floor Chance +0.50%
+|<div id="Jolly"/>[[File:8 Statue Randomness Normal.png|alt=​]]<br>'''Statue of Randomness (Jolly)'''<br>Vein Spawn Rate +30%<br>Golden Vein Chance +3%
+|<div id="Salutem"/>[[File:9 Statue Childhood Normal.png|alt=​]]<br>'''Statue of Childhood (Salutem)'''<br>Contract Upgrade Cap +1<br>+15% Ore Sell Price
+|}
+|-|
+World 1 Gilded Statues=
+{| class="wikitable text-align-center"
+|+ World 1 Gilded Statues
+|-
+|<div id="XanzGilded"/>[[File:1 Statue Rhythm Gilded.png|alt=​]]<br>'''Statue of Rhythm (Xanz)'''<br>Pickaxe Damage 5x<br>Vein Income Multiplier +15%
+|<div id="TorGilded"/>[[File:2 Statue Awareness Gilded.png|alt=​]]<br>'''Statue of Awareness (Tor)'''<br>Bomb Damage 5x<br>Transmuter Bomb Multi +2x
+|<div id="DarkGilded"/>[[File:3 Statue Slaying Gilded.png|alt=​]]<br>'''Statue of Slaying (Dark)'''<br>Prestige Point Gain 3x<br>Artifact Upgrade Cap +2
+|-
+|<div id="FrozenAraGilded"/>[[File:4 Statue Appetite Gilded.png|alt=​]]<br>'''Statue of Appetite (FrozenAra)'''<br>Bomb Cap Multiplier 1.5x<br>Banked Freebie Cap +2
+|<div id="CaulwikGilded"/>[[File:5 Statue Friendship Gilded.png|alt=​]]<br>'''Statue of Friendship (Caulwik)'''<br>Gems From Freebie Pack +2<br>Golden Floor Multi +15%
+|<div id="TotefmGilded"/>[[File:6 Statue Hygiene Gilded.png|alt=​]]<br>'''Statue of Hygiene (Totefm)'''<br>Workshop Upgrade Cap +3<br>Gem Upgrade Cap +2
+|-
+|<div id="CelioGilded"/>[[File:7 Statue Artistry Gilded.png|alt=​]]<br>'''Statue of Artistry (Celio)'''<br>5x Freebie Jackpot Chance +5%<br>Rainbow Floor Chance +1%
+|<div id="JollyGilded"/>[[File:8 Statue Randomness Gilded.png|alt=​]]<br>'''Statue of Randomness (Jolly)'''<br>Vein Spawn Rate +50%<br>Golden Vein Chance +5%
+|<div id="SalutemGilded"/>[[File:9 Statue Childhood Gilded.png|alt=​]]<br>'''Statue of Childhood (Salutem)'''<br>Contract Upgrade Cap +2<br>Ore Sell Price +20%
+|}
+|-|
+World 1 Platinized Statues=
+{| class="wikitable text-align-center"
+|+ World 1 Platinized Statues
+|-
+|<div id="XanzPlatinized"/>[[File:1 Statue Rhythm Platinized.png|alt=​]]<br>'''Statue of Rhythm (Xanz)'''<br>Pickaxe Damage 8x<br>Vein Income Multiplier +20%<br>Floor Clear Requirement -25%
+|<div id="TorPlatinized"/>[[File:2 Statue Awareness Platinized.png|alt=​]]<br>'''Statue of Awareness (Tor)'''<br>Bomb Damage 8x<br>Transmuter Bomb Multi +4x<br>Bomb Ultra Crit Chance +20%
+|<div id="DarkPlatinized"/>[[File:3 Statue Slaying Platinized.png|alt=​]]<br>'''Statue of Slaying (Dark)'''<br>Prestige Point Gain x5<br>Artifact Upgrade Cap +3<br>Pet Level Cap +1
+|-
+|<div id="FrozenAraPlatinized"/>[[File:4 Statue Appetite Platinized.png|alt=​]]<br>'''Statue of Appetite (FrozenAra)'''<br>Bomb Cap Multiplier 1.75x<br>Banked Freebie Cap +3<br>Fuel Duration +15%
+|<div id="CaulwikPlatinized"/>[[File:5 Statue Friendship Platinized.png|alt=​]]<br>'''Statue of Friendship (Caulwik)'''<br>Gems From Freebie Pack +4<br>Golden Floor Multi +20%<br>Freebie Skill Bit Chance +1%
+|<div id="TotefmPlatinized"/>[[File:6 Statue Hygiene Platinized.png|alt=​]]<br>'''Statue of Hygiene (Totefm)'''<br>Workshop Upgrade Cap +4<br>Gem Upgrades Cap +4
+|-
+|<div id="CelioPlatinized"/>[[File:7 Statue Artistry Platinized.png|alt=​]]<br>'''Statue of Artistry (Celio)'''<br>5x Freebie Jackpot Chance +8%<br>Rainbow Floor Chance +1.50%<br>Freebie Instant Refresh +1%
+|<div id="JollyPlatinized"/>[[File:8 Statue Randomness Platinized.png|alt=​]]<br>'''Statue of Randomness (Jolly)'''<br>Vein Spawn Rate +75%<br>Golden Vein Chance +10%<br>Rainbow Vein Chance +5%
+|<div id="SalutemPlatinized"/>[[File:9 Statue Childhood Platinized.png|alt=​]]<br>'''Statue of Childhood (Salutem)'''<br>Contract Upgrade Cap +4<br>Ore Sell Price +25%<br>Rainbow Floor Chance +1%
+|}</tabber>
+
+===World 1 Statue Costs===
+<tabber>
+World 1 Normal Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 1 Normal Statue Costs
+|-
+!Number 
+!Vein
+!Bar
+!Gems 
+|-
+|1
+| 500 {{Sprite|Stone Vein||x20|Stone Veins}}
+|10.00m {{Sprite|Runite Bar||x20|Runite Bars}}
+|{{Gems|300}}
+|-
+|2
+| 650 {{Sprite|Magma Vein||x20|Magma Veins}}
+|14.50m {{Sprite|Topaz Bar||x20|Topaz Bars}}
+|{{Gems|400}}
+|-
+|3
+| 845 {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|21.03m {{Sprite|VR-ERROR Bar||x20|VR-ERROR Bars}}
+|{{Gems|500}}
+|-
+|4
+| 1.10k {{Sprite|Space Vein||x20|Space Veins}}
+|30.49m {{Sprite|Singularity Bar||x20|Singularity Bars}}
+|{{Gems|600}}
+|-
+|5
+| 1.43k {{Sprite|Cloud Vein||x20|Cloud Veins}}
+|44.21m {{Sprite|Elysium Bar||x20|Elysium Bars}}
+|{{Gems|700}}
+|-
+|6
+| 1.85k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|64.10m {{Sprite|Cranium Bar||x20|Cranium Bars}}
+|{{Gems|800}}
+|-
+|7
+| 2.41k {{Sprite|Stone Vein||x20|Stone Veins}}
+|92.94m {{Sprite|Mithril Bar||x20|Mithril Bars}}
+|{{Gems|900}}
+|-
+|8
+| 3.13k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|134.76m {{Sprite|VR-Amethyst Bar||x20|VR-Amethyst Bars}}
+|{{Gems|1000}}
+|-
+|9
+| 4.07k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|195.41m {{Sprite|Beepboopium Bar||x20|Beepboopium Bars}}
+|{{Gems|1100}}
+|}
+|-|
+World 1 Gilded Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 1 Gilded Statue Costs
+|-
+!Number 
+!Vein
+!Bar
+!Gems 
+|-
+|1
+| 5.30k {{Sprite|Stone Vein||x20|Stone Veins}}
+|283.34m {{Sprite|Adamant Bar||x20|Adamant Bars}}
+|{{Gems|1200}}
+|-
+|2
+| 6.88k {{Sprite|Magma Vein||x20|Magma Veins}}
+|410.85m {{Sprite|Obsidian Bar||x20|Obsidian Bars}}
+|{{Gems|1300}}
+|-
+|3
+| 8.96k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|595.73m {{Sprite|VR-Demonite Bar||x20|VR-Demonite Bars}}
+|{{Gems|1400}}
+|-
+|4
+| 11.63k {{Sprite|Space Vein||x20|Space Veins}}
+|863.81m {{Sprite|Meteorite Bar||x20|Meteorite Bars}}
+|{{Gems|1500}}
+|-
+|5
+| 15.12k {{Sprite|Cloud Vein||x20|Cloud Veins}}
+|1.25b {{Sprite|Angelite Bar||x20|Angelite Bars}}
+|{{Gems|1600}}
+|-
+|6
+| 19.66k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|1.82b {{Sprite|Radion-73 Bar||x20|Radion-73 Bars}}
+|{{Gems|1700}}
+|-
+|7
+| 25.55k {{Sprite|Stone Vein||x20|Stone Veins}}
+|2.63b {{Sprite|Copper Bar||x20|Copper Bars}}
+|{{Gems|1800}}
+|-
+|8
+| 33.22k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|3.82b {{Sprite|VR-Tin Bar||x20|VR-Tin Bars}}
+|{{Gems|1900}}
+|-
+|9
+| 43.19k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|5.54b {{Sprite|Enemite Bar||x20|Enemite Bars}}
+|{{Gems|2000}}
+|}
+|-|
+World 1 Platinized Statue Cost=
+Unlocks at Obelisk level 35
+{| class="wikitable lighttable text-align-center"
+|+ World 1 Platinized Statue Costs
+|-
+!Number 
+!Vein
+!Bar 1
+!Bar 2
+!Bar 3
+!Bar 4
+!Gems
+|-
+|1
+| 100.00k {{Sprite|Stone Vein||x20|Stone Veins}}
+|18t {{Sprite|Tin Bar||x20|Tin Bars}}
+|10.80t {{Sprite|Copper Bar||x20|Copper Bars}}
+|7.20t {{Sprite|Mithril Bar||x20|Mithril Bars}}
+|6.30t {{Sprite|Adamant Bar||x20|Adamant Bars}}
+|{{Gems|2500}}
+|-
+|2
+| 150.00k {{Sprite|Magma Vein||x20|Magma Veins}}
+|7.80t {{Sprite|Amethyst Bar||x20|Amethyst Bars}}
+|6.17t {{Sprite|Topaz Bar||x20|Topaz Bars}}
+|5.65t {{Sprite|Obsidian Bar||x20|Obsidian Bars}}
+|4.50t {{Sprite|Demonite Bar||x20|Demonite Bars}}
+|{{Gems|2750}}
+|-
+|3
+| 200.00k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|6.80t {{Sprite|VR-Tin Bar||x20|VR-Tin Bars}}
+|5.76t {{Sprite|VR-Amethyst Bar||x20|VR-Amethyst Bars}}
+|4.91t {{Sprite|VR-Demonite Bar||x20|VR-Demonite Bars}}
+|3.86t {{Sprite|VR-ERROR Bar||x20|VR-ERROR Bars}}
+|{{Gems|3000}}
+|-
+|4
+| 250.00k {{Sprite|Space Vein||x20|Space Veins}}
+|8.22t {{Sprite|Lunarium Bar||x20|Lunarium Bars}}
+|6.97t {{Sprite|Earth-C-137 Bar||x20|Earth-C-137 Bars}}
+|6t {{Sprite|Meteorite Bar||x20|Meteorite Bars}}
+|5.22t {{Sprite|Singularity Bar||x20|Singularity Bars}}
+|{{Gems|3250}}
+|-
+|5
+| 325.00k {{Sprite|Cloud Vein||x20|Cloud Veins}}
+|6.36t {{Sprite|Halium Bar||x20|Halium Bars}}
+|5.47t {{Sprite|Blasphemite Bar||x20|Blasphemite Bars}}
+|4.92t {{Sprite|Angelite Bar||x20|Angelite Bars}}
+|4.46t {{Sprite|Elysium Bar||x20|Elysium Bars}}
+|{{Gems|3500}}
+|-
+|6
+| 400.00k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|4.90t {{Sprite|Enemite Bar||x20|Enemite Bars}}
+|4.09t {{Sprite|Beepboopium Bar||x20|Beepboopium Bars}}
+|3.50t {{Sprite|Radion-73 Bar||x20|Radion-73 Bars}}
+|3.02t {{Sprite|Cranium Bar||x20|Cranium Bars}}
+|{{Gems|3750}}
+|-
+|7
+| 500.00k {{Sprite|Deepsea Vein||x20|Deepsea Veins}}
+|3.60t {{Sprite|Lapis Bar||x20|Lapis Bars}}
+|3.19t {{Sprite|Quartz Bar||x20|Quartz Bars}}
+|2.85t {{Sprite|Glacialite Bar||x20|Glacialite Bars}}
+|2.58t {{Sprite|Twinklestone Bar||x20|Twinklestone Bars}}
+|{{Gems|4000}}
+|-
+|8
+| 650.00k {{Sprite|Beach Vein||x20|Beach Veins}}
+|3.18t {{Sprite|Sandcasium Bar||x20|Sandcasium Bars}}
+|2.92t {{Sprite|Clamite Bar||x20|Clamite Bars}}
+|2.66t {{Sprite|Thunderstone Bar||x20|Thunderstone Bars}}
+|2.48t {{Sprite|Crabrock Bar||x20|Crabrock Bars}}
+|{{Gems|4250}}
+|-
+|9
+| 850.00k {{Sprite|Valley Vein||x20|Valley Veins}}
+|10.00q {{Sprite|Tin Bar||x20|Tin Bars}}
+|3.47t {{Sprite|Frostbite Bar||x20|Frostbite Bars}}
+|3.33t {{Sprite|Icebloom Bar||x20|Icebloom Bars}}
+|3.08t {{Sprite|Pinguinus Bar||x20|Pinguinus Bars}}
+|{{Gems|4500}}
+|}
+</tabber>
+
+===World 3 Bonuses===
+<tabber>World 3 Statues=
+{| class="wikitable text-align-center"
+|+ World 3 Normal Statues
+|-
+|<div id="Vydn"/>[[File:10 Statue Craftmanship Normal.png|alt=​]]
+'''Statue of Craftmanship (Vydn)'''<br/>
+Pickaxe Damage 4x<br/>
+Gem Upgrade Cap +1
+|<div id="Guard"/>[[File:11 Statue Propulsion Normal.png|alt=​]]
+'''Statue of Propulsion (Guard)'''<br/>
+Bomb Damage 4x<br/>
+Workshop Cap +1
+|<div id="Zuiqiang"/>[[File:12 Statue Safety Normal.png|alt=​]]
+'''Statue of Safety (Zuiqiang)'''<br/>
+Golden Ore Chance +3%<br/>
+Golden Ore Multiplier +25%<br/>
+Rainbow Floor Chance +1%
+|-
+|<div id="Julk"/>[[File:13 Statue Ignition Normal.png|alt=​]]
+'''Statue of Ignition (Julk)'''<br/>
+100x [[Craft#Craft_Chance|Craft Chance]] +0.50%<br/>
+Galactic Floor Chance +2%
+|<div id="Satio"/>[[File:14 Statue Warmth Normal.png|alt=​]]
+'''Statue of Warmth (Satio)'''<br/>
+Supergiant Multipliers +35%<br/>
+Supernova Multipliers +2x
+|<div id="Iseburge"/>[[File:15 Statue Feline Normal.png|alt=​]]
+'''Statue of Feline (Iseburge)'''<br/>
+Pet Level Up Chance +10%<br/>
+Pet Level Cap +1
+|-
+|<div id="Kohanu"/>[[File:16 Statue Affluence Normal.png|alt=​]]
+'''Statue of Affluence (Kohanu)'''<br/>
+Triple Contract Chance +10%<br/>
+10x Contract Chance +1%<br/>
+Contract Upgrade Cap +1
+|<div id="MLNW"/>[[File:17 Statue Eastwood Normal.png|alt=​]]
+'''Statue of Eastwood (MLNW)'''<br/>
+Banked Lootbugs +2<br/>
+Banked Freebies +2<br/>
+Freebie Timer -30s
+|<div id="Praed"/>[[File:18 Statue Soprano Normal.png|alt=​]]
+'''Statue of Soprano (Praed)'''<br/>
+All Floor Multipliers +15%<br/>
+Freebie Gift Chance +0.5%<br/>
+100x Freebie Gifts Chance 1/50k
+|}
+|-|
+World 3 Gilded Statues=
+{| class="wikitable text-align-center"
+|+ World 3 Gilded Statues
+|-
+|<div id="VydnGilded"/>[[File:10 Statue Craftmanship Gilded.png|alt=​]]
+'''Statue of Craftmanship (Vydn)'''<br/>
+Pickaxe Damage 25x<br/>
+Gem Upgrade Cap +2<br/>
+Fish Income Multi 1.25x
+|<div id="GuardGilded"/>[[File:11 Statue Propulsion Gilded.png|alt=​]]
+'''Statue of Propulsion (Guard)'''<br/>
+Bomb Damage 25x<br/>
+Workshop Cap +2<br/>
+Golden Vein Multi 1.25x
+|<div id="ZuiqiangGilded"/>[[File:12 Statue Safety Gilded.png|alt=​]]
+'''Statue of Safety (Zuiqiang)'''<br/>
+Golden Ore Chance +5%<br/>
+Golden Ore Multiplier +35%<br/>
+Rainbow Floor Chance +2%
+|-
+|<div id="JulkGilded"/>[[File:13 Statue Ignition Gilded.png|alt=​]]
+'''Statue of Ignition (Julk)'''<br/>
+100x [[Craft#Craft_Chance|Craft Chance]] +1%<br/>
+Galactic Floor Chance +4%
+|<div id="SatioGilded"/>[[File:14 Statue Warmth Gilded.png|alt=​]]
+'''Statue of Warmth (Satio)'''<br/>
+Supergiant Multipliers +55%<br/>
+Supernova Multipliers +3x
+|<div id="IseburgeGilded"/>[[File:15 Statue Feline Gilded.png|alt=​]]
+'''Statue of Feline (Iseburge)'''<br/>
+Pet Level Up Chance +15%<br/>
+Pet Level Cap +2
+|-
+|<div id="KohanuGilded"/>[[File:16 Statue Affluence Gilded.png|alt=​]]
+'''Statue of Affluence (Kohanu)'''<br/>
+Triple Contract Chance +15%<br/>
+10x Contract Chance +2%<br/>
+Contract Upgrade Cap +2
+|<div id="MLNWGilded"/>[[File:17 Statue Eastwood Gilded.png|alt=​]]
+'''Statue of Eastwood (MLNW)'''<br/>
+Banked Lootbugs/Freebies +4<br/>
+Freebie Timer -45s<br/>
+Experience Gain 10x
+|<div id="PraedGilded"/>[[File:18 Statue Soprano Gilded.png|alt=​]]
+'''Statue of Soprano (Praed)'''<br/>
+All Floor Multipliers +25%<br/>
+Freebie Gift Chance +0.75%<br/>
+100x Freebie Gifts Chance 1/35k
+|}
+|-|
+World 3 Platinized Statues=
+{| class="wikitable text-align-center"
+|+ World 3 Platinized Statues
+|-
+|<div id="VydnPlatinized"/>[[File:10 Statue Craftmanship Platinized.png|alt=​]]
+'''Statue of Craftmanship (Vydn)'''<br/>
+Pickaxe Damage 125x<br/>
+Gem Upgrade Cap +3<br/>
+Fish Income Multi 1.40x
+|<div id="GuardPlatinized"/>[[File:11 Statue Propulsion Platinized.png|alt=​]]
+'''Statue of Propulsion (Guard)'''<br/>
+Bomb Damage 125x<br/>
+Workshop Cap +3<br/>
+Golden Vein Multi 1.50x
+|<div id="ZuiqiangPlatinized"/>[[File:12 Statue Safety Platinized.png|alt=​]]
+'''Statue of Safety (Zuiqiang)'''<br/>
+Golden Ore Chance +8%<br/>
+Golden Ore Multiplier +55%<br/>
+Rainbow Floor Chance +4%
+|-
+|<div id="JulkPlatinized"/>[[File:13 Statue Ignition Platinized.png|alt=​]]
+'''Statue of Ignition (Julk)'''<br/>
+100x [[Craft#Craft_Chance|Craft Chance]] +2.5%<br/>
+Galactic Floor Chance +6%<br/>
+Unlock [[Bombs#tabber-Golden_3|Golden Transmuter Bomb]]
+|<div id="SatioPlatinized"/>[[File:14 Statue Warmth Platinized.png|alt=​]]
+'''Statue of Warmth (Satio)'''<br/>
+Supergiant Multipliers +85%<br/>
+Supernova Multipliers +5x<br/>
+Midas drone cap +25
+|<div id="IseburgePlatinized"/>[[File:15 Statue Feline Platinized.png|alt=​]]
+'''Statue of Feline (Iseburge)'''<br/>
+Pet Level Up Chance +25%<br/>
+Pet Level Cap +3<br/>
+Nagini Level Cap +5
+|-
+|<div id="KohanuPlatinized"/>[[File:16 Statue Affluence Platinized.png|alt=​]]
+'''Statue of Affluence (Kohanu)'''<br/>
+Triple Contract Chance +25%<br/>
+10x Contract Chance +4%<br/>
+Contract Upgrade Cap +3
+|<div id="MLNWPlatinized"/>[[File:17 Statue Eastwood Platinized.png|alt=​]]
+'''Statue of Eastwood (MLNW)'''<br/>
+Banked Lootbugs/Freebies +8<br/>
+Freebie Timer -1min<br/>
+Experience Gain 100x
+|<div id="PraedPlatinized"/>[[File:18 Statue Soprano Platinized.png|alt=​]]
+'''Statue of Soprano (Praed)'''<br/>
+All Floor Multipliers +40%<br/>
+Freebie Gift Chance +1%<br/>
+100x Freebie Gifts Chance 1/25k
+|}
+</tabber>
+
+===World 3 Statue Costs===
+<tabber>World 3 Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 3 Statue Cost
+|-
+!Number
+!Bar 1
+!Bar 2
+!Bar 3
+!Bar 4
+!Vein
+!Gems
+|-
+|1
+||95t {{Sprite|Infernite Bar||x20|Infernite Bars}}
+||65t {{Sprite|Blood-Onyx Bar||x20|Blood-Onyx Bars}}
+||25t {{Sprite|Omeletite Bar||x20|Omeletite Bars}}
+||10t {{Sprite|Resinite Bar||x20|Resinite Bars}}
+| 5.50m {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+|{{Gems|4000}}
+|-
+|2
+||125t {{Sprite|Omeletite Bar||x20|Omeletite Bars}}
+||100t {{Sprite|Resinite Bar||x20|Resinite Bars}}
+||85t {{Sprite|Impactium Bar||x20|Impactium Bars}}
+||65t {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+| 20m {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+|{{Gems|4500}}
+|-
+|3
+||200t {{Sprite|Crabrock Bar||x20|Crabrock Bars}}
+||175t {{Sprite|Pinguinus Bar||x20|Pinguinus Bars}}
+||180t {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+||150t {{Sprite|Arcusite Bar||x20|Arcusite Bars}}
+| 35m {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+|{{Gems|5000}}
+|-
+|4
+||375t {{Sprite|Impactium Bar||x20|Impactium Bars}}
+||275t {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+||250t {{Sprite|Phalanxite Bar||x20|Phalanxite Bars}}
+||225t {{Sprite|Guardium Bar||x20|Guardium Bars}}
+| 50m {{Sprite|Roman Vein||x20|Roman Veins}}
+|{{Gems|5500}}
+|-
+|5
+||700t {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+||550t {{Sprite|Phalanxite Bar||x20|Phalanxite Bars}}
+||400t {{Sprite|Cognite Bar||x20|Cognite Bars}}
+||350t {{Sprite|Telophite Bar||x20|Telophite Bars}}
+| 75m {{Sprite|Roman Vein||x20|Roman Veins}}
+|{{Gems|6000}}
+|-
+|6
+||950t {{Sprite|Resinite Bar||x20|Resinite Bars}}
+||875t {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+||750t {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||650t {{Sprite|Equinine Bar||x20|Equinine Bars}}
+| 125m {{Sprite|Roman Vein||x20|Roman Veins}}
+|{{Gems|6500}}
+|-
+|7
+||1.25q {{Sprite|Infernite Bar||x20|Infernite Bars}}
+||1.15q {{Sprite|Omeletite Bar||x20|Omeletite Bars}}
+||950t {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+||875t {{Sprite|Cognite Bar||x20|Cognite Bars}}
+| 185m {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|7000}}
+|-
+|8
+||1.85q {{Sprite|Blood-Onyx Bar||x20|Blood-Onyx Bars}}
+||1.55q {{Sprite|Impactium Bar||x20|Impactium Bars}}
+||1.35q {{Sprite|Guardium Bar||x20|Guardium Bars}}
+||975t {{Sprite|Equinine Bar||x20|Equinine Bars}}
+| 245m {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|7500}}
+|-
+|9
+||3.33q {{Sprite|Cognite Bar||x20|Cognite Bars}}
+||3.33q {{Sprite|Telophite Bar||x20|Telophite Bars}}
+||3.33q {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||3.33q {{Sprite|Equinine Bar||x20|Equinine Bars}}
+| 666m {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|8000}}
+|}
+|-|
+World 3 Gilded Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 3 Gilded Statue Cost
+|-
+!Number
+!Bar 1
+!Bar 2
+!Bar 3
+!Bar 4
+!Vein
+!Gems
+|-
+|1
+||129.95q {{Sprite|Dynamite Bar||x20|Dynamite Bars}}
+||129.95q {{Sprite|Genevium Bar||x20|Genevium Bars}}
+||129.95q {{Sprite|Manhattite Bar||x20|Manhattite Bars}}
+||129.95q {{Sprite|Rationium Bar||x20|Rationium Bars}}
+| 500m {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|10000}}
+|-
+|2
+||825.50q {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+||825.50q {{Sprite|Palmite Bar||x20|Palmite Bars}}
+||825.50q {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+||825.50q {{Sprite|Arcusite Bar||x20|Arcusite Bars}}
+| 750m {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|12500}}
+|-
+|3
+||8.75qi {{Sprite|Infernite Bar||x20|Infernite Bars}}
+||8.75qi {{Sprite|Cyrogem Bar||x20|Cyrogem Bars}}
+||8.75qi {{Sprite|Genevium Bar||x20|Genevium Bars}}
+||8.75qi {{Sprite|Rationium Bar||x20|Rationium Bars}}
+| 1.1b {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|15000}}
+|-
+|4
+||50.80qi {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+||45.75qi {{Sprite|Guardium Bar||x20|Guardium Bars}}
+||40.70qi {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+||35.65qi {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+| 1.45b {{Sprite|Neon Vein||x20|Neon Veins}}
+|{{Gems|17500}}
+|-
+|5
+||220.40qi {{Sprite|Equinine Bar||x20|Equinine Bars}}
+||180.30qi {{Sprite|Rationium Bar||x20|Rationium Bars}}
+||160.20qi {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+||140.10qi {{Sprite|Palmite Bar||x20|Palmite Bars}}
+| 2.05b {{Sprite|Volcano Vein||x20|Volcano Veins}}
+|{{Gems|20000}}
+|-
+|6
+||645.90qi {{Sprite|Phalanxite Bar||x20|Phalanxite Bars}}
+||585.65qi {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||465.40qi {{Sprite|Manhattite Bar||x20|Manhattite Bars}}
+||385.25qi {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+| 2.35b {{Sprite|Roman Vein||x20|Roman Veins}}
+|{{Gems|22500}}
+|-
+|7
+||1.65sx {{Sprite|Cognite Bar||x20|Cognite Bars}}
+||1.59sx {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||1.47sx {{Sprite|Genevium Bar||x20|Genevium Bars}}
+||1.39sx {{Sprite|Palmite Bar||x20|Palmite Bars}}
+| 3.35b {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|25000}}
+|-
+|8
+||3.65sx {{Sprite|Dynamite Bar||x20|Dynamite Bars}}
+||3.29sx {{Sprite|Genevium Bar||x20|Genevium Bars}}
+||2.87sx {{Sprite|Manhattite Bar||x20|Manhattite Bars}}
+||2.55sx {{Sprite|Rationium Bar||x20|Rationium Bars}}
+| 4.15b {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|27500}}
+|-
+|9
+||9.99sx {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+||9.99sx {{Sprite|Palmite Bar||x20|Palmite Bars}}
+||9.99sx {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+||9.99sx {{Sprite|MVPD-1988 Bar||x20|MVPD-1988 Bars}}
+| 9.99b {{Sprite|Neon Vein||x20|Neon Veins}}
+|{{Gems|30000}}
+|}
+|-|
+World 3 Platinized Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 3 Platinized Statue Costs
+|-
+!Number 
+!Bar 1
+!Bar 2
+!Bar 3
+!Bar 4
+!Vein
+!Gems
+|-
+|1
+||149.99sx {{Sprite|Omeletite Bar||x20|Omeletite Bars}}
+||144.99sx {{Sprite|Arcusite Bar||x20|Arcusite Bars}}
+||139.99sx {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||134.99sx {{Sprite|Rationium Bar||x20|Rationium Bars}}
+| 24.99b {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|50000}}
+|-
+|2
+||439.99sx {{Sprite|Guardium Bar||x20|Guardium Bars}}
+||389.99sx {{Sprite|Cognite Bar||x20|Cognite Bars}}
+||449.99sx {{Sprite|Manhattite Bar||x20|Manhattite Bars}}
+||374.99sx {{Sprite|Palmite Bar||x20|Palmite Bars}}
+| 54.99b {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|65000}}
+|-
+|3
+||1.21sp {{Sprite|Duelysium Bar||x20|Duelysium Bars}}
+||1.15sp {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||1.09sp {{Sprite|Rationium Bar||x20|Rationium Bars}}
+||1.04sp {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+| 135.99b {{Sprite|Neon Vein||x20|Neon Veins}}
+|{{Gems|80000}}
+|-
+|4
+||15.62sp {{Sprite|Pinnaclite Bar||x20|Pinnaclite Bars}}
+||4.52sp {{Sprite|Resinite Bar||x20|Resinite Bars}}
+||3.42sp {{Sprite|Genevium Bar||x20|Genevium Bars}}
+||3.22sp {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+| 265.99b {{Sprite|Jurassic Vein||x20|Jurassic Veins}}
+|{{Gems|95000}}
+|-
+|5
+||82.42sp {{Sprite|Carnivorian Bar||x20|Carnivorian Bars}}
+||16.06sp {{Sprite|Cognite Bar||x20|Cognite Bars}}
+||14.96sp {{Sprite|Dynamite Bar||x20|Dynamite Bars}}
+||12.96sp {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+| 415.96b {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|{{Gems|110000}}
+|-
+|6
+||6.66oc {{Sprite|Demonite Bar||x20|Demonite Bars}}
+||6.66oc {{Sprite|VR-Demonite Bar||x20|VR-Demonite Bars}}
+||66.66sp {{Sprite|Steamstone Bar||x20|Steamstone Bars}}
+||66.66sp {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+| 666.66b {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|{{Gems|125000}}
+|-
+|7
+||13.37oc {{Sprite|Beepboopium Bar||x20|Beepboopium Bars}}
+||777.77sp {{Sprite|Pinguinus Bar||x20|Pinguinus Bars}}
+||555.55sp {{Sprite|Macawrock Bar||x20|Macawrock Bars}}
+||123.45sp {{Sprite|Equinine Bar||x20|Equinine Bars}}
+| 777.77b {{Sprite|Volcano Vein||x20|Volcano Veins}}
+|{{Gems|140000}}
+|-
+|8
+||555.55sp {{Sprite|Vaporium Bar||x20|Vaporium Bars}}
+||444.44sp {{Sprite|Palmite Bar||x20|Palmite Bars}}
+||333.33sp {{Sprite|Ransomite Bar||x20|Ransomite Bars}}
+||222.22sp {{Sprite|MVPD-1988 Bar||x20|MVPD-1988 Bars}}
+| 888.88b {{Sprite|Neon Vein||x20|Neon Veins}}
+|{{Gems|155000}}
+|-
+|9
+||1.23oc {{Sprite|Tricerastone Bar||x20|Tricerastone Bars}}
+||1.23oc {{Sprite|Guardium Bar||x20|Guardium Bars}}
+||1.23oc {{Sprite|Equinine Bar||x20|Equinine Bars}}
+||1.23oc {{Sprite|Rationium Bar||x20|Rationium Bars}}
+| 1.25t {{Sprite|Neon Vein||x20|Neon Veins}}
+|{{Gems|170000}}
+|}</tabber>
+
+===World 4 Bonuses===
+<tabber>World 4 Statues=
+{| class="wikitable text-align-center"
+|+ World 4 Normal Statues
+|-
+|<div id="Lute"/>[[File:19 Statue Comfort Normal.png|alt=​]]
+'''Statue of Comfort (Lute)'''<br/>
+All Damage +50% Per W4 Statue<br/>
+All Floor Multi +1% Per Skin Owned<br>
+Scorpio/Capricorn Cap +20
+|<div id="Karma"/>[[File:20 Statue Timekeeping Normal.png|alt=​]]
+'''Statue of Timekeeping (Karma)'''<br/>
+Star Radiant Chance +0.25% Per W4 Statue<br>
+All Radiant Multis +20%<br>
+Hercules Cap +20
+|<div id="Sans"/>[[File:21 Statue Combat Normal.png|alt=​]]
+'''Statue of Combat (Sans)'''<br/>
+Stonks Chance +0.01% Per W4 Statue<br>
+All Stonks Multis +10%<br>
+Ultra Stonks Chance +2%
+|-
+|<div id="Fanq"/>[[File:22 Statue Nature Normal.png|alt=​]]
+'''Statue of Nature (Fanq)'''<br/>
+Gem Bomb Gem Chance +0.04% Per W4 Statue<br>
+Rainbow Vein Chance +10%<br>
+Workshop Cap +4
+|<div id="Vak"/>[[File:23 Statue Semblance Normal.png|alt=​]]
+'''Statue of Semblance (Vak)'''<br/>
+Rainbow Portal Chance +0.5% Per W4 Statue<br>
+Void Drone Cap +20<br>
+Prism Drone Cap +5
+|<div id="Kripp"/>[[File:24 Statue Crochet Normal.png|alt=​]]
+'''Statue of Crochet (Kripp)'''<br/>
+Golden Ore Chance +3% Per W4 Statue<br>
+Galactic Floor Chance +5%<br>
+Prismatic Floor Chance +3%
+|-
+|<div id="Loop"/>[[File:25 Statue Antagonism Normal.png|alt=​]]
+'''Statue of Antagonism (Loop)'''<br/>
+Frogger Drone Grade Cap +1 Per W4 Statue<br>
+Golden Frog Chance +0.25% Per W4 Statue<br>
+Golden Frog Multi +5% Per W4 Statue
+|<div id="Berty"/>[[File:26 Statue Fallacy Normal.png|alt=​]]
+'''Statue of Fallacy (Berty)'''<br/>
+Prismatic Floor Multi +10% Per W4 Statue<br>
+Freebie Gems +3 Per W4 Statue<br>
+Veinseeker Cap +5 Per W4 Statue
+|<div id="Kromak"/>[[File:27 Statue Rodentia Normal.png|alt=​]]
+'''Statue of Rodentia (Kromak)'''<br/>
+Pickaxe Damage +60% Per W4 Statue<br>
+Chain Drone Grade +10 Per W4 Statue<br>
+Super Star Radiant Chance +1% Per W4 Statue
+|}
+|-| 
+World 4 Gilded Statues=
+{| class="wikitable text-align-center"
+|+ World 4 Gilded Statues
+|-
+|<div id="LuteGilded"/>[[File:19 Statue Comfort Gilded.png|alt=​]]
+'''Statue of Comfort (Lute)'''<br/>
+Prismatic Floor Chance +1% Per W4 G.Statue<br/>
+All Damage +65% Per W4 Statue<br/>
+All Floor Multi +1.15% Per Skin Owned<br>
+Scorpio/Capricorn Cap +30
+|<div id="KarmaGilded"/>[[File:20 Statue Timekeeping Gilded.png|alt=​]]
+'''Statue of Timekeeping (Karma)'''<br/>
+Eridanus Star Cap +2 Per W4 G.Statue<br>
+Star Radiant Chance +0.30% Per W4 Statue<br>
+All Radiant Multis +30%<br>
+Hercules Cap +30
+|<div id="SansGilded"/>[[File:21 Statue Combat Gilded.png|alt=​]]
+'''Statue of Combat (Sans)'''<br/>
+All Star Multi +3% Per W4 G.Statue<br>
+Stonks Chance +0.012% Per W4 Statue<br>
+All Stonks Multis +15%<br>
+Ultra Stonks Chance +3%
+|-
+|<div id="FanqGilded"/>[[File:22 Statue Nature Gilded.png|alt=​]]
+'''Statue of Nature (Fanq)'''<br/>
+Essence Super Shiny Chance +1% Per W4 G.Statue<br>
+Gem Bomb Gem Chance +0.05% Per W4 Statue<br>
+Rainbow Vein Chance +15%<br>
+Workshop Cap +4
+|<div id="VakGilded"/>[[File:23 Statue Semblance Gilded.png|alt=​]]
+'''Statue of Semblance (Vak)'''<br/>
+Minotaur Drone Grade Cap +1 Per W4 G.Statue<br>
+Rainbow Portal Chance +0.60% Per W4 Statue<br>
+Void Drone Cap +30<br>
+Prism Drone Cap +10
+|<div id="KrippGilded"/>[[File:24 Statue Crochet Gilded.png|alt=​]]
+'''Statue of Crochet (Kripp)'''<br/>
+Galactic Portal Chance +1% Per W4 G.Statue<br/>
+Golden Ore Chance +4% Per W4 Statue<br>
+Galactic Floor Chance +8%<br>
+Prismatic Floor Chance +5%
+|-
+|<div id="LoopGilded"/>[[File:25 Statue Antagonism Gilded.png|alt=​]]
+'''Statue of Antagonism (Loop)'''<br/>
+All Floor Multi +3% Per W4 G.Statue<br>
+Frogger Drone Grade Cap +2 Per W4 Statue<br>
+Golden Frog Chance +0.35% Per W4 Statue<br>
+Golden Frog Multi +6% Per W4 Statue
+|<div id="BertyGilded"/>[[File:26 Statue Fallacy Gilded.png|alt=​]]
+'''Statue of Fallacy (Berty)'''<br/>
+Radiant Star Chance +1% Per W4 G.Statue<br>
+Prismatic Floor Multi +12% Per W4 Statue<br>
+Freebie Gems +5 Per W4 Statue<br>
+Veinseeker Cap +6 Per W4 Statue
+|<div id="KromakGilded"/>[[File:27 Statue Rodentia Gilded.png|alt=​]]
+'''Statue of Rodentia (Kromak)'''<br/>
+Infernal Card Multi +1% Per W4 G.Statue<br>
+Pickaxe Damage +80% Per W4 Statue<br/>
+Chain Drone Grade +12 Per W4 Statue<br/>
+Super Star Radiant Chance +1.2% Per W4 Statue
+|}
+</tabber>
+
+===World 4 Statue Costs===
+<tabber>World 4 Normal Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 4 Normal Statue Costs
+|-
+!Number
+!Bar 1
+!Bar 2
+!Bar 3
+!Star
+!Vein
+!Gems 
+|-
+|1
+|95oc {{Sprite|Chronite Bar||x20|Chronite Bars}}
+|75oc {{Sprite|Hattium Bar||x20|Hattium Bars}}
+|55oc {{Sprite|Pishalvite Bar||x20|Pishalvite Bars}}
+|1t {{Sprite|Sagittarius||x20|Sagittarius}}
+|55t {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+|{{Gems|500k}}
+|-
+|2
+|755oc {{Sprite|Pishalvite Bar||x20|Pishalvite Bars}}
+|725oc {{Sprite|Teatimium Bar||x20|Teatimium Bars}}
+|625oc {{Sprite|Rumium Bar||x20|Rumium Bars}}
+|3.1t {{Sprite|Cetus||x20|Cetus}}
+|195t {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+|{{Gems|750k}}
+|-
+|3
+|8.75no {{Sprite|Rumium Bar||x20|Rumium Bars}}
+|7.45no {{Sprite|Anchorium Bar||x20|Anchorium Bars}}
+|5.95no {{Sprite|Mateyum Bar||x20|Mateyum Bars}}
+|6t {{Sprite|Sagittarius||x20|Sagittarius}}
+|825t {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+|{{Gems|1m}}
+|-
+|4
+|375no {{Sprite|Hattium Bar||x20|Hattium Bars}}
+|275no {{Sprite|Anchorium Bar||x20|Anchorium Bars}}
+|250no {{Sprite|Hookite Bar||x20|Hookite Bars}}
+|18t {{Sprite|Hercules||x20|Hercules}}
+|2q {{Sprite|Pirate Vein||x20|Pirate Veins}}
+|{{Gems|1.25m}}
+|-
+|5
+|2.85dc {{Sprite|Pishalvite Bar||x20|Pishalvite Bars}}
+|2.65dc {{Sprite|Rumium Bar||x20|Rumium Bars}}
+|2.45dc {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|35t {{Sprite|Ophiuchus||x20|Ophiuchus}}
+|4.45q {{Sprite|Pirate Vein||x20|Pirate Veins}}
+|{{Gems|1.5m}}
+|-
+|6
+|32.2dc {{Sprite|Anchorium Bar||x20|Anchorium Bars}}
+|28.7dc {{Sprite|Mateyum Bar||x20|Mateyum Bars}}
+|24.9dc {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|5t {{Sprite|Eridanus||x20|Eridanus}}
+|10.3q {{Sprite|Pirate Vein||x20|Pirate Veins}}
+|{{Gems|1.75m}}
+|-
+|7
+|315dc {{Sprite|Mateyum Bar||x20|Mateyum Bars}}
+|275dc {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|245dc {{Sprite|Djinnium Bar||x20|Djinnium Bars}}
+|155t {{Sprite|Cetus||x20|Cetus}}
+|18.3q {{Sprite|Arabian Vein||x20|Arabian Veins}}
+|{{Gems|2m}}
+|-
+|8
+|8.88udc {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|8.88udc {{Sprite|Djinnium Bar||x20|Djinnium Bars}}
+|8.88udc {{Sprite|Sinbadium Bar||x20|Sinbadium Bars}}
+|275t {{Sprite|Draco||x20|Draco}}
+|27.6q {{Sprite|Arabian Vein||x20|Arabian Veins}}
+|{{Gems|2.25m}}
+|-
+|9
+|99.9udc {{Sprite|Djinnium Bar||x20|Djinnium Bars}}
+|99.9udc {{Sprite|Sinbadium Bar||x20|Sinbadium Bars}}
+|99.9udc {{Sprite|Turbanite Bar||x20|Turbanite Bars}}
+|399t {{Sprite|Eridanus||x20|Eridanus}}
+|35.5q {{Sprite|Arabian Vein||x20|Arabian Veins}}
+|{{Gems|2.5m}}
+|}
+|-|
+World 4 Gilded Statue Cost=
+{| class="wikitable lighttable text-align-center"
+|+ World 4 Normal Statue Costs
+|-
+!Number
+!Bar 1
+!Bar 2
+!Bar 3
+!Star
+!Vein
+!Gems 
+|-
+|1
+|50tdc {{Sprite|Mateyum Bar||x20|Mateyum Bars}}
+|30tdc {{Sprite|Sinbadium Bar||x20|Sinbadium Bars}}
+|200ddc {{Sprite|Carriagum Bar||x20|Carriagum Bars}}
+|475t {{Sprite|Eridanus||x20|Eridanus}}
+|2qi {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+|{{Gems|2m}}
+|-
+|2
+|3tdc {{Sprite|Crystal-Rose Bar||x20|Crystal-Rose Bars}}
+|2.5tdc {{Sprite|Frogstone Bar||x20|Frogstone Bars}}
+|2tdc {{Sprite|Jellystone Bar||x20|Jellystone Bars}}
+|800t {{Sprite|Lynx||x20|Lynx}}
+|20qi {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+|{{Gems|4m}}
+|-
+|3
+|27tdc {{Sprite|Lollipopite Bar||x20|Lollipopite Bars}}
+|23tdc {{Sprite|Mintium Bar||x20|Mintium Bars}}
+|18tdc {{Sprite|Neopolium Bar||x20|Neopolium Bars}}
+|1.5q {{Sprite|Vulpecula||x20|Vulpecula}}
+|250qi {{Sprite|Candyland Vein||x20|Candyland Veins}}
+|{{Gems|6m}}
+|-
+|4
+|70qadc {{Sprite|Carpetite Bar||x20|Carpetite Bars}}
+|210tdc {{Sprite|Carriagum Bar||x20|Carriagum Bars}}
+|180tdc {{Sprite|Slipperite Bar||x20|Slipperite Bars}}
+|4q {{Sprite|Eridanus||x20|Eridanus}}
+|1.5sx {{Sprite|Candyland Vein||x20|Candyland Veins}}
+|{{Gems|8m}}
+|-
+|5
+|40qadc {{Sprite|Crystal-Rose Bar||x20|Crystal-Rose Bars}}
+|35qadc {{Sprite|Frogstone Bar||x20|Frogstone Bars}}
+|30qadc {{Sprite|Jellystone Bar||x20|Jellystone Bars}}
+|15q {{Sprite|Orion||x20|Orion}}
+|10sx {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+|{{Gems|10m}}
+|-
+|6
+|10qidc {{Sprite|Chronite Bar||x20|Chronite Bars}}
+|300qadc {{Sprite|Slipperite Bar||x20|Slipperite Bars}}
+|270qadc {{Sprite|Mintium Bar||x20|Mintium Bars}}
+|25q {{Sprite|Lynx||x20|Lynx}}
+|150sx {{Sprite|Wonderland Vein||x20|Wonderland Veins}}
+|{{Gems|12m}}
+|-
+|7
+|2.5qidc {{Sprite|Carriagum Bar||x20|Carriagum Bars}}
+|2.3qidc {{Sprite|Lollipopite Bar||x20|Lollipopite Bars}}
+|2.1qidc {{Sprite|Neopolium Bar||x20|Neopolium Bars}}
+|60q {{Sprite|Vulpecula||x20|Vulpecula}}
+|200sx {{Sprite|Candyland Vein||x20|Candyland Veins}}
+|{{Gems|14m}}
+|-
+|8
+|475qidc {{Sprite|Frogstone Bar||x20|Frogstone Bars}}
+|450qidc {{Sprite|Jellystone Bar||x20|Jellystone Bars}}
+|425qidc {{Sprite|Crystal-Rose Bar||x20|Crystal-Rose Bars}}
+|150q {{Sprite|Phoenix||x20|Phoenix}}
+|1sp {{Sprite|Arabian Vein||x20|Arabian Veins}}
+|{{Gems|16m}}
+|-
+|9
+|5sxdc {{Sprite|Turbanite Bar||x20|Turbanite Bars}}
+|4.5sxdc {{Sprite|Slipperite Bar||x20|Slipperite Bars}}
+|4sxdc {{Sprite|Neopolium Bar||x20|Neopolium Bars}}
+|350q {{Sprite|Lynx||x20|Lynx}}
+|3sp {{Sprite|Enchanted Vein||x20|Enchanted Veins}}
+|{{Gems|18m}}
+|}
+|-|</tabber>
+
+==Monuments==
+Building specific monument unlocks that world and the floors therein. Building the World 2 monument unlocks floors 43-72, the World 3 monument unlocks floors 73-102 and the World 4 monument unlocks floors 103-132.
+{| class="wikitable lighttable text-align-center"
+|+ World Unlocks
+|-
+! colspan=2 | World 
+!Unlock Gem Cost !!Unlock Vein 1 Cost !!Unlock Vein 2 Cost !!Unlock Vein 3 Cost
+|-
+| World 2 || [[File:World 2 monument.png]] 
+|{{Gems|2000}}
+| 2k {{Sprite|Stone Vein||x20|Stone Veins}} 
+| 2k {{Sprite|Magma Vein||x20|Magma Veins}} 
+| 2k {{Sprite|Virtual Vein||x20|Virtual Veins}} 
+|-
+| World 3 ||[[File:World 3 monument.png]]
+|{{Gems|7500}}
+| 750k {{Sprite|Valley Vein||x20|Valley Veins}}
+| 750k {{Sprite|Jungle Vein||x20|Jungle Veins}}
+| 750k {{Sprite|Volcano Vein||x20|Volcano Veins}}
+|-
+| World 4 ||[[File:World 4 monument.png]]
+|{{Gems|1m}}
+|1q {{Sprite|Industrial Vein||x20|Industrial Veins}}
+|1q {{Sprite|Warfront Vein||x20|Warfront Veins}}
+|1q {{Sprite|Neon Vein||x20|Neon Veins}}
+|}
+
+=== Recommendations ===
+Since [[Update:V2.2.20]], World 3 and World 4 Monuments have some in-game recommended levels: 
+* W3
+** [[Guides/Platinize_Statues|Plat Statues]]: All 9 of them 
+** Challenges: 68 (that's [[Challenges#tabber-Extreme|Extreme 15]])
+** [[Pisces]] Star 4
+** [[Elixir]] Grade 25
+** [[Fuel generator]] 20
+* W4: 
+** [[Black hole]] 14
+** [[Butterfly]] Pet 5 (unlocking requires either Black Hole 12 or [[Storm serpent]] Tribute 1)
+** [[Fuel generator]] 30
+** Fishing:
+*** First 4 Inf Legns  (see [[Legendary]] and [[Infernal]], requires [[Laviathan]] Tribute 2)
+*** Tier 2 Tributes 9 (see [[Tribute]]) 
+
+==Navigation==
+{{Menu}}

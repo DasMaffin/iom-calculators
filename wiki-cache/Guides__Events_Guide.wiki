@@ -1,0 +1,116 @@
+{{ WIP }}
+
+==Strategy==
+===Buying Upgrades===
+Stats vary in importance depending on your progression in the Event. 
+
+Early on, doing enough damage to kill monsters in one hit is crucial to reaching higher Waves. This very quickly stops being a concern, especially with the Prestige Tier bonus and its upgrades ensuring that you deal far more damage than you need to. Dealing more damage than what is enough to kill a monster in one hit has no benefit. Wave 1 monsters start with 11 hp, and each subsequent wave increases their hp by 7.  
+
+Health Upgrades directly improve your ability to reach higher Waves, and become more potent as you gain Prestige Tiers and upgrade their effect. They are the final frontier of Upgrades, taking the longest to max and offering incremental increases to your max Wave as you progress though the endgame of the Event.
+
+Speed Upgrades like attack speed, movement speed, and event speed remain relevant for the duration of the Event, although excluding attack speed, they do not directly help you reach higher Waves. Movement and event speed increase the rate at which you gain currencies, which can be spent on Upgrades that benefit you directly.
+
+Monster debuff Upgrades are very powerful in the early- and midgame. The Tier 2 Upgrade that decreases monster base damage is particularly useful early on, while monster crit chance, crit damage, and attack speed Upgrades are powerful from slightly later on than base damage debuffs all the way to when you max them.
+
+Crit chance and damage Upgrades can help you reach a higher max Wave early on if you get lucky, but they are generally not worth buying, and are outclassed by flat damage Upgrades.
+
+Other miscellaneous Upgrades are variably useful. The Tier 4 block chance Upgrade becomes useful later on, effectively allowing you to decrease how much damage you take on average, and potentially greatly boosting your max wave on a lucky run. The Tier 3 currency gain Upgrade is useful on longer runs where you plan on purchasing lots of other Upgrades. Upgrade cap increase Upgrades are also very valuable later on. When considering buying them, distribute their cost over the number of useful Upgrades that they increase the cap of, and use this as a measure of their cost relative to their benefit.
+
+===Spending Gems===
+It is possible to reach Wave 100 and beyond without spending any {{Sprites|Gem||16x16}} at all. This approach is likely best for players who are just getting started with the game as a whole, while {{Sprites|Gem||16x16}} are scarce and can be better spent elsewhere. Reaching Wave 250 and collecting the final reward is theoretically possible with enough Prestiges and Upgrades, but difficult if not practically impossible given the one month time constraint.
+
+If you have decided to spend {{Sprites|Gem||16x16}}, Gem Upgrades follow a fairly strict hierarchy in terms of usefulness. The Gem Upgrade that doubles currency earnings is the top priority purchase; doubling the rate at which you earn currencies effectively doubles how quickly you can progress through the Event. The Event speed Gem Upgrade is the next most useful, only beaten out by double currencies because it is additive with the Event speed Upgrades that you can buy with Event currencies. Maxing these two Gem Upgrades is enough to comfortably reach wave 250 by the end of the Event. If you have {{Sprites|Gem||16x16}} to spare and want to finish early, or started late and need to make progress quickly, health Gem Upgrades are the next step. While the health Gem Upgrade can help you progress more quickly, it may be prudent to see how far you can get without them, and then buy as many as you need towards the end of the Event.
+
+The damage Gem Upgrade is only worth purchasing if you have lots of spare {{Sprites|Gem||16x16}} and want to expedite the Event early on. As mentioned in the [[Events#Buying Upgrades|Buying Upgrades]] section, you quickly start dealing more damage than you need to, and any surplus is wasted. This Gem Upgrade is only useful before that and for brief periods right after you Prestige.
+
+===Optimal Prestiging===
+How frequently you Prestige is a balance between how much the extra unlocked Upgrades and Prestige Tier Bonus will speed up your progress, and how much losing all of your current Upgrades will set you back. For example, going from Prestige Tier 0 to Prestige Tier 1 increases your health and damage by 10%, unlocks several useful Upgrades, and does not set you back substantially, while going from Prestige Tier 20 to Prestige Tier 21 increases your health and damage by <math>\frac{100\% \text{ (base)}+210\% \text{ (the bonus at Tier 21)}}{100\% \text{ (base)}+200\% \text{ (the bonus at Tier 20)}}-1\approx3\%</math>, does not unlock any new Upgrades, and does set you back substantially.
+
+A good strategy is to push your first run until you can get Prestige Tier 1 (Wave 10), your next run to Prestige Tier 3 (Wave 20), then Prestige 5 (Wave 30), then to Prestige 10 (Wave 55). You can comfortably reach Wave 105 from Prestige 10. If you want to push to Wave 250, Prestige again after you get past Wave 105, then after 205. Depending on how many health Gem Upgrades you have, your final prestige should be around wave 235.
+
+These are the Prestige Ranks (P) worth prestiging for once reached, unless you are extremely close to the next rank due to coming back from a long idle. <br>
+P1/W10 or P2/W15 -> P2/W15 or P3/W20 -> P5/W30 -> P10/W55 -> P20/W105 -> P40/W205
+
+Damage breakpoints per recommended prestige: <br>
+W10: 74 or W15: 109-> W15 or W20: 144 -> W30: 214 -> W55: 389 -> W105: 738 -> W205: 1439 <br>
+*You should not need to increase your damage above those amounts to reach those Waves and instead spend resources on other upgrades.
+
+* This should be enough to reach wave 250.
+* This order is a massive summary of a [https://discord.com/channels/496455472581312512/1335161877277184011/1335162125638959126 discord strategy thread]
+
+===Other tips===
+* The upgrades page is scrollable!!!
+* Early on focus ''attack damage'' upgrades to one shot enemies
+* '''Very quickly ''attack damage'' upgrades become obsolete''', at that point focus ''HP'' and ''attack speed''.
+* ''Attack '''speed''''' is very important, in essence it is an extension of ''HP''.
+* For 2x rewards you only have to build the W2 monument before actually claiming the rewards, so don't claim them right away and try to build the monument before the end of the month.
+'''Damage Breakpoints (Don't upgrade Damage and focus on HP/Attackspeed)'''
+
+* Wave 20 - 144 hp 
+* Wave 30 - 214 hp 
+* Wave 55 - 389 hp 
+* Wave 100 - 704 hp
+* Wave 200 - 1400 hp
+* Wave 250 - 1800 hp
+
+==Event Mechanics==
+===Fighting===
+Your Miner automatically battles monsters and moves forward until you die and respawn at the beginning to repeat the cycle again. Monsters are arranged in Waves, and each Wave holds 5 monsters. Monster stats scale with the Wave number; further Waves are more difficult. 
+
+===Monster Scaling===
+Monster stats are scaling depending on the current wave. For each wave, a monster in that wave uses the same combat stats before the debuff upgrades are applied. Tier 2 and Tier 4 Upgrades that reduce enemy damage, attack speed, or crit stats subtract from these values after scaling (damage and crit damage have a minimum of 1; attack speed has a minimum of 0.01).
+
+{| class="wikitable align-center-2 align-center-3"
+! Stat !! Base !! Increase per wave
+|-
+| Maximum HP || 11 || +7
+|-
+| Attack damage || 3 || +0.6
+|-
+| Attack speed || 0.82 || +0.02
+|-
+| Crit chance (%) || 1 || +1
+|-
+| Crit damage (multiplier) || 1.05 || +0.05
+|}
+====Monster Scaling Calculations====
+Let <math>i = W - 1</math>.
+* <math>\text{HP} = 11 + 7i</math> — e.g. wave 1 has 11 HP, wave 25 has 179 HP, wave 55 has 389 HP.
+* <math>\text{Damage} = 3 + 0.6i</math>
+* <math>\text{Attack speed} = 0.82 + 0.02i</math>
+* <math>\text{Crit chance} = 1 + i</math> (percent)
+* <math>\text{Crit damage} = 1.05 + 0.05i</math>
+<nowiki>*</nowiki>''Note: Monster damage rounds to nearest integer.''
+
+===Currencies===
+Each event has 4 thematically appropriate currencies. Regardless of how their appearance changes, they function the same across Events. This page will refer to them as currencies A, B, C, and D.
+
+Currency A is awarded after every wave, currency B is awarded after every wave that is a multiple of five, C after every wave that is a multiple of 10, and D after every wave that is a multiple of 15. Further Waves award more currency. For example, Wave 10 awards 10 currency A, 2 currency B (since 10 is the second multiple of 5), and 1 currency C, while Wave 30 awards 30 A, 6 B (sixth multiple of 5), 3 C (third multiple of 10), and 2 D (second multiple of 15).
+
+===Upgrades===
+Currencies you earn by fighting can be spent on Upgrades to make your Miner stronger and better able to reach higher Waves. These Upgrades can increase your Miner's maximum health, damage, attack speed, and other combat stats, decrease monsters' combat stats, make the Event minigame run faster, and improve the rate at which you gain currencies.
+
+There are five tiers of Upgrades: One that costs {{Sprites|Gem||16x16}}, and one corresponding to each currency.
+
+'''Player combat stats (how upgrades combine)'''
+
+* Base maximum health and attack damage are 100 and 10 before Upgrades.
+* Currency and bundle Upgrades add flat bonuses to those bases (e.g. +2 maximum health, +1 attack damage).
+* '''Gem maximum health and Gem attack damage Upgrades are multiplicative with the prestige multiplier.''' Final rounded health and damage are computed as <math>\text{round}((\text{base} + \text{flat bonuses}) \times (1 + 0.1 \times \text{gem HP levels}) \times \text{prestige multiplier})</math> and the same for damage with Gem damage levels. The prestige multiplier is <math>1 + P \times \text{prestige step}</math>, where <math>P</math> is your current Prestige Tier and prestige step starts at 10% per tier and can be increased by Prestige Bonus Upgrades.
+* '''All event speed bonuses are additive with each other''' (and are not stacked like Gem HP/damage with prestige). Gem event speed (+125% per level), Tier 1 event speed (+3% per level), and Tier 3 event speed (+5% per level) all add into one multiplier: <math>1 + 1.25 \times \text{gem speed levels} + 0.03 \times \text{T1 event speed levels} + 0.05 \times \text{T3 event speed levels}</math>. That event speed multiplier then applies to attack speed, movement speed, and enemy attack speed in the Event.
+
+===Prestiging===
+Prestiging is a crucial part of getting farther in the Event (this is not the same [[Prestige|Prestige]] as the one in the main game that awards [[Prestige|Prestige Points]]). You can first Prestige once you reach Wave 10, and can Prestige again every 5 waves after that. Prestiging resets all of your currency Upgrades (excluding Gem Upgrades), and in return increases your Prestige Tier. Every Prestige Tier increases your Miner's maximum health and damage by 10% by default, but this effect can be improved via Upgrades. Prestiging is also required to unlock some currency Upgrades; Prestige Tier 10, which requires that you reach Wave 55, is the last tier needed to unlock all currency Upgrades. You can gain multiple Prestige Tiers in a single Prestige run by going past the minimum Wave requirement.
+
+===Rewards===
+Reaching (not necessarily defeating) certain waves allows you to claim rewards. These rewards include {{Sprites|Gem||16x16}}, {{Sprites|Item Chest||16x16}}, {{Sprites|Relic Chest||16x16}}, {{Sprites|Skill Bit||16x16}}, {{Sprites|Gift||16x16}}, and many other things. Events also give unique Miner, [[Lootbugs|Lootbug]], [[Bombs|Bomb]] Bag, and [[Chests#Item Chests|Item]] Bag [[Skins|Skins]]. A full list of rewards can be found below.
+
+Rewards are initially only listed up to Wave 100, but further {{Sprites|Gift||16x16}} can be claimed after that up to Wave 250.
+
+Building the [[Construct#Monuments|World 2 Monument]], [[Construct#Monuments|World 3 Monument]] and [[Construct#Monuments|World 4 Monument]] each doubles event rewards, for a total 8x multiplier. This multiplier does not apply to {{Sprites|Gift||16x16}}, {{Sprites|Mythic Chest||16x16}}, and [[Skins|Skins]].
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

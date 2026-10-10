@@ -1,0 +1,207 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomVeinImage}}</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{FakeMenuButton|image={{RandomVeinImage|size=74x74px}}|size=114px|buttonSize=114px}}
+<div style="margin:0 5px">'''Veins''' are a currency similar to [[Ores]] and [[Craft#Crafting_Bars|Bars]], but they do not reset when you Prestige. When an Ore Node is upgraded to a Vein Node, it gives both the original Ores and Veins based on the Zone. Veins are unlocked by buying a [[Construct#Research|Vein Research]] in the [[Construct]] menu, which requires level 19 [[Obelisk#Unlocks|Obelisk]] to access. They are used for various upgrades in [[Construct#Statues|Statues]], [[Construct#Monuments|Monuments]], [[Stargazing#Upgrade_Costs|Stargazing]] and others.
+</div></div>
+
+{{clear|left}}
+==Vein Upgrades==
+{{See also|Stats#Veins}}
+* [[Stats#tabber-Vein_Spawn_Rate_Multiplier|Vein Spawn Rate Multiplier]] - Chance for an [[Ores|ore]] to transform into a vein
+* [[Stats#tabber-Vein_Income_Multiplier|Vein Income Multiplier]] - Increases amount of veins obtained
+* [[Stats#tabber-Golden_Vein_Chance|Golden Vein Chance]] - Provides a chance for a '''vein''' to spawn as a golden variant
+* [[Stats#tabber-Golden_Vein_Multiplier|Golden Vein Multiplier]] - Increases amount of veins obtained from golden veins (base x5)
+* [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]] - Provides a chance for a '''golden vein''' to spawn as a rainbow variant
+* [[Stats#tabber-Rainbow_Vein_Multiplier|Rainbow Vein Multiplier]] - Increases amount of veins obtained from rainbow veins (base x20)
+* [[Stats#tabber-Gleaming_Vein_Chance|Gleaming Vein Chance]] - Provides a chance for a vein to spawn as a gleaming variant
+* [[Stats#tabber-Gleaming_Vein_Multiplier|Gleaming Vein Multiplier]] - Increases amount of '''veins''' obtained from gleaming veins (base x5)
+
+==Unlocking Veins==
+{{See also|Construct#Research}}
+Unlocking the vein for a specific zone requires a [[Construct#Research|research]] to be performed, which costs bars from that zone and veins from the previous zone (with the exception of the first vein). After unlocking a vein, there is a chance for an ore node in the corresponding zone to be "replaced" by a vein node. Vein nodes still give the ore that they replaced, but also give veins. Veins are not reset on prestige. In world 1, the chance of a vein spawning decreases as you go to later zones, but spawn rate within a zone does not change. In other worlds the vein spawn rate is fixed across all zones.
+
+==Vein Types==
+Depending on current game progress and upgrades, veins can spawn as special type veins, which provide bigger gain multipliers. All vein type gains are affected by [[Stats#tabber-Vein_Income_Multiplier|Vein income multiplier|48x48px]] and also certain effects stack multiplicatively. Amount of veins obtained is not affected by [[Floors#Floor_Types|floor]] multipliers.
+
+===Golden Veins===
+[[File:Neon_Vein_Full_Golden.png|48x48px]] Golden Veins are upgraded versions of regular veins and have a base vein multiplier of 5. See sources of [[Stats#tabber-Golden_Vein_Chance|Golden Vein Chance]] and [[Stats#tabber-Golden_Vein_Multiplier|Golden Vein Multiplier]].
+
+===Rainbow Veins===
+[[File:Neon_Vein_Full_Rainbow.png|48x48px]] Rainbow Veins are upgraded versions of Golden veins and have a base vein multiplier of 20. This multiplies with the existing Golden Vein Multiplier. See sources of [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]] and [[Stats#tabber-Rainbow_Vein_Multiplier|Rainbow Vein Multiplier]].
+
+===Gleaming Veins===
+[[File:Neon Vein Full Rainbow Gleaming.png|Neon Vein Full Rainbow Gleaming.png]] Gleaming Veins can occur independently of Golden and Rainbow veins and their effect stacks on top of other vein variants multiplicatively resulting in huge bonus to obtained gains with base vein multiplier of 5. See sources of [[Stats#tabber-Gleaming_Vein_Chance|Gleaming Vein Chance]] and [[Stats#tabber-Gleaming_Vein_Multiplier|Gleaming Vein Multiplier]].
+
+==Vein Spawn Mechanics==
+When a node spawns, it rolls for vein chance, golden vein chance, and gleaming vein chance. If golden vein chance succeeds, it then rolls for rainbow vein chance. If a vein fails the golden vein roll, it can never be a rainbow vein, even if it's turned into a vein or turned golden by [[veinmorpher]]. But a node can also fail the roll for a vein but succeed the rolls for golden and rainbow vein, if veinmorpher turns it into a vein it will be a rainbow vein.
+
+==Vein Spawn Rate==
+
+Each vein has a rarity value (see [[Veins#Veins]]). Dividing your [[Stats#Veins|Vein Spawn Rate Multiplier]] by the vein's rarity determines how many veins, on average, will appear per screen. If you've purchased the 2x Vein Spawn Research from the Construct menu, the number is doubled.
+
+For example, if your Vein Spawn Rate Multiplier is 100x, and you're in the Atomic Zone (where Atomic Veins have a rarity of 40), you can expect <math>100 / 40 = 2.5</math> veins per screen, on average, or <math>5</math> veins per screen, on average, if you have purchased the 2x Atomic Vein Spawn Research.
+
+The number of ores on screen (10 vs 12) has no effect on the average number of veins per screen. Each individual ore's chance to become a vein is tuned to produce the average number calculated above, by dividing the expected number of veins by the number of ores on screen. For example, if the average Atomic Veins per screen is 5, then with 10 ores on screen, each ore has a <math>5 / 10 = .5</math> (50%) chance to become a vein; with 12 ores on screen, each ore has a <math>5 / 12 = .417</math> (41.7%) chance to become a vein.
+
+===Void Drone and Veins===
+
+If Void Drone is being used, the ore being portaled in will produce the appropriate vein for the Zone that ore is from, and will use that vein's rarity to calculate the chance of the ore becoming a vein. For example, if you're sitting in Neon Zone (where Neon Vein has a rarity of 70), and Void Drone portals an ore into Angelite from Cloud Zone, that ore will use Cloud Vein's rarity of 35 instead, making it twice as likely to turn into a vein as a standard Neon Zone ore on that screen.
+
+(Note: Runite is the only ore that exists in two zones, Stone and Magma. When portaled, it always becomes a Stone Vein and uses Stone Vein's rarity of 15, not Magma's.)
+
+==Veins==
+{| class="wikitable sticky-header text-align-center align-left-2"
+! World !! colspan=2 | Vein !! Floors !! Spawn rarity
+|-
+! rowspan=6 | World 1 
+| <div id="Stone"></div>[[File:Stone Vein Full.png|48x48px]] || style="text-align:left" | Stone Vein || 1–8 || 15
+|-
+| <div id="Magma"></div>[[File:Magma Vein Full.png|48x48px]] || Magma Vein || 9–18 || 20
+|-
+| <div id="Virtual"></div>[[File:Virtual Vein Full.png|48x48px]] || Virtual Vein || 19–24 || 25
+|-
+| <div id="Space"></div>[[File:Space Vein Full.png|48x48px]] || Space Vein || 25–30 || 30
+|-
+| <div id="Cloud"></div>[[File:Cloud Vein Full.png|48x48px]] || Cloud Vein || 31–36 || 35
+|-
+| <div id="Atomic"></div>[[File:Atomic Vein Full.png|48x48px]] || Atomic Vein || 37–42 || 40
+|-
+! rowspan=5 | World 2 
+| <div id="DeepSea"></div>[[File:Deepsea Vein Full.png|48x48px]] || style="text-align:left" | Deep Sea Vein || 43–48 || 50
+|-
+| <div id="Beach"></div>[[File:Beach Vein Full.png|48x48px]] || Beach Vein || 49–54 || 50
+|-
+| <div id="Valley"></div>[[File:Valley Vein Full.png|48x48px]] || Valley Vein || 55–60 || 50
+|-
+| <div id="Jungle"></div>[[File:Jungle Vein Full.png|48x48px]] || Jungle Vein || 61–66 || 50
+|-
+| <div id="Volcano"></div>[[File:Volcano Vein Full.png|48x48px]] || Volcano Vein || 67–72 || 50
+|-
+! rowspan=5 | World 3 
+| <div id="Jurassic"></div>[[File:Jurassic Vein Full.png|48x48px]] || style="text-align:left" | Jurassic Vein || 73–78 || 70
+|-
+| <div id="Roman"></div>[[File:Roman Vein Full.png|48x48px]] || Roman Vein || 79–84 || 70
+|-
+| <div id="Industrial"></div>[[File:Industrial Vein Full.png|48x48px]] || Industrial Vein || 85–90 || 70
+|-
+| <div id="Warfront"></div>[[File:Warfront Vein Full.png|48x48px]] || Warfront Vein || 91–96 || 70
+|-
+| <div id="Neon"></div>[[File:Neon Vein Full.png|48x48px]] || Neon Vein || 97–102 || 70
+|-
+! rowspan=5 | World 4 
+| <div id="Wonderland"></div>[[File:Wonderland Vein Full.png|48x48px]] || style="text-align:left" | Wonderland Vein || 103–108 || 100
+|-
+| <div id="Pirate"></div>[[File:Pirate Vein Full.png|48x48px]] || Pirate Vein || 109–114 || 100
+|-
+| <div id="Arabian"></div>[[File:Arabian Vein Full.png|48x48px]] || Arabian Vein || 115–120 || 100
+|-
+| <div id="Enchanted"></div>[[File:Enchanted Vein Full.png|48x48px]] || Enchanted Vein || 121-126 || 100
+|-
+| <div id="Candyland"></div>[[File:Candyland Vein Full.png|48x48px]] || Candyland Vein || 127-132 || 100
+|}
+
+==Gallery==
+<tabber>
+Vein Icons=
+<gallery mode="packed" heights="32px">
+Stone Vein.png|Stone Vein
+Magma Vein.png|Magma Vein
+Virtual Vein.png|Virtual Vein
+Space Vein.png|Space Vein
+Cloud Vein.png|Cloud Vein
+Atomic Vein.png|Atomic Vein
+Deepsea Vein.png|Deepsea Vein
+Beach Vein.png|Beach Vein
+Valley Vein.png|Valley Vein
+Jungle Vein.png|Jungle Vein
+Volcano Vein.png|Volcano Vein
+Jurassic Vein.png|Jurassic Vein
+Roman Vein.png|Roman Vein
+Industrial Vein.png|Industrial Vein
+Warfront Vein.png|Warfront Vein
+Neon Vein.png|Neon Vein
+Wonderland Vein.png|Wonderland Vein
+Pirate Vein.png|Pirate Vein
+Arabian Vein.png|Arabian Vein
+Enchanted Vein.png|Enchanted Vein
+Candyland  Vein.png|Candyland Vein
+</gallery>
+|-|
+Veins=
+<gallery mode="packed" heights="64px">
+Stone Vein Full.png|Stone Vein
+Magma Vein Full.png|Magma Vein
+Virtual Vein Full.png|Virtual Vein
+Space Vein Full.png|Space Vein
+Cloud Vein Full.png|Cloud Vein
+Atomic Vein Full.png|Atomic Vein
+Deepsea Vein Full.png|Deepsea Vein
+Beach Vein Full.png|Beach Vein
+Valley Vein Full.png|Valley Vein
+Jungle Vein Full.png|Jungle Vein
+Volcano Vein Full.png|Volcano Vein
+Jurassic Vein Full.png|Jurassic Vein
+Roman Vein Full.png|Roman Vein
+Industrial Vein Full.png|Industrial Vein
+Warfront Vein Full.png|Warfront Vein
+Neon Vein Full.png|Neon Vein
+Wonderland Vein Full.png|Wonderland Vein
+Pirate Vein Full.png|Pirate Vein
+Arabian Vein Full.png|Arabian Vein
+Enchanted Vein Full.png|Enchanted Vein
+Candyland  Vein Full.png|Candyland Vein
+</gallery>
+|-|
+Golden Veins=
+<gallery mode="packed" heights="64px">
+Stone Vein Full Golden.png|Stone Vein
+Magma Vein Full Golden.png|Magma Vein
+Virtual Vein Full Golden.png|Virtual Vein
+Space Vein Full Golden.png|Space Vein
+Cloud Vein Full Golden.png|Cloud Vein
+Atomic Vein Full Golden.png|Atomic Vein
+Deepsea Vein Full Golden.png|Deepsea Vein
+Beach Vein Full Golden.png|Beach Vein
+Valley Vein Full Golden.png|Valley Vein
+Jungle Vein Full Golden.png|Jungle Vein
+Volcano Vein Full Golden.png|Volcano Vein
+Jurassic Vein Full Golden.png|Jurassic Vein
+Roman Vein Full Golden.png|Roman Vein
+Industrial Vein Full Golden.png|Industrial Vein
+Warfront Vein Full Golden.png|Warfront Vein
+Neon Vein Full Golden.png|Neon Vein
+Wonderland Vein Full Golden.png|Wonderland Vein
+Pirate Vein Full Golden.png|Pirate Vein
+Arabian Vein Full Golden.png|Arabian Vein
+Enchanted Vein Full Golden.png|Enchanted Vein
+Candyland  Vein Full Golden.png|Candyland Vein
+</gallery>
+|-|
+Rainbow Veins=
+<gallery mode="packed" heights="64px">
+Stone Vein Full Rainbow.png|Stone Vein
+Magma Vein Full Rainbow.png|Magma Vein
+Virtual Vein Full Rainbow.png|Virtual Vein
+Space Vein Full Rainbow.png|Space Vein
+Cloud Vein Full Rainbow.png|Cloud Vein
+Atomic Vein Full Rainbow.png|Atomic Vein
+Deepsea Vein Full Rainbow.png|Deepsea Vein
+Beach Vein Full Rainbow.png|Beach Vein
+Valley Vein Full Rainbow.png|Valley Vein
+Jungle Vein Full Rainbow.png|Jungle Vein
+Volcano Vein Full Rainbow.png|Volcano Vein
+Jurassic Vein Full Rainbow.png|Jurassic Vein
+Roman Vein Full Rainbow.png|Roman Vein
+Industrial Vein Full Rainbow.png|Industrial Vein
+Warfront Vein Full Rainbow.png|Warfront Vein
+Neon Vein Full Rainbow.png|Neon Vein
+Wonderland Vein Full Rainbow.png|Wonderland Vein
+Pirate Vein Full Rainbow.png|Pirate Vein
+Arabian Vein Full Rainbow.png|Arabian Vein
+Enchanted Vein Full Rainbow.png|Enchanted Vein
+Candyland  Vein Full Rainbow.png|Candyland Vein
+</gallery>
+</tabber>
+
+==Navigation==
+{{Menu}}

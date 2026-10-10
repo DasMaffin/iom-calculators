@@ -1,0 +1,131 @@
+{{Version|2.0.4}}
+[[File:Stats_Button.png|frameless|left]] '''Stats''' page displays a breakdown of your progress through the different menus in the game, and various information about your ability to gather resources and do damage in a collapsible sidebar on the right. Tapping a stat in the sidebar shows a popup with the name of the stat. Buttons on the bottom allow you to view your Profile - a summary of your account which is especially helpful when seeking advice, roll for a new name, browse the {{Sprite|Miner|Skins|16x16|Skins}} you have unlocked and the bonuses they provide and see your {{Sprite|Relic Sticker|Stickers|16x16|stickers}} and the bonuses they provide. This screen can be exported in JSON format using the <code>{{Sprite|Misc Code|Codes|16x16|EXPORTSTATS}}</code> code and used with [[External_Resources#Spreadsheets_&_Calculators|various  community made tools]].
+{{clear|left}}
+
+==Name rerolling==
+{{See also|Skins#Name_rerolling}}
+In stats menu it is possible to reroll miners name. A free reroll is earned on every prestige, and rerolls can also be purchased for {{Gems|5}} each. Rolling certain name can also grant a permanent [[Skins]]. 
+
+==Skins==
+{{See also|Skins}}
+Available [[skins]] can be selected via Stats menu. Skins are earned during [[Events]], from opening [[Store#Gifts|Gifts]] and the [[Store#BallerSkinBundle|Baller Value Pack]]. Obtaining miner skins grants extra [[Skins#Skin_Rewards|bonuses]].
+
+==Profile==
+Profile menu contains brief information about current game progress. Notably:
+
+Top Left
+* [[Founder#VIP_Lounge|Founder tier]], if applicable (profile background is blue for founders)
+* Current pickaxe damage
+* Total amount of [[Chests#Relic_Chests|Relic chests]] obtained
+* [[Store#Gem_Unlocks|Gem unlocks]] 
+* Levels of [[Store#Gem_Upgrades|gem upgrades]]
+* [[Bombs|Bomb]] cap
+* Total amount of [[Skill-Tree|skills]] unlocked
+* Current amount of [[Contracts]] completed
+* [[Events|Event]] miner and lootbug skins collected
+
+Top Middle
+* [[Skins#Name_rerolling|Miner name]] and birth date<ref name="birthdate">The date the player started this save file</ref>
+* Current [[Skins|skin]]
+* Unlocked [[Construct#Monuments|world monuments]]
+
+Top Right
+* Unlocked [[Pets]], their level, their quest rank, and their card tier
+
+* Game [[Stats/Completion|completion]] percentage and full completion point total
+
+Bottom Left
+* Total gameplay and offline time
+* [[Obelisk]] level
+* Generator level
+* Unlocked [[Drones]], their grade, and their card tier
+* Number of [[Challenges]] completed
+* Number of obtained [[Cards]]
+* [[Stargazing]] completion points, and [[Stargazing#Black_Hole|Black Hole]] level
+* [[Archaeology]] completion points, and [[Archaeology#Ascension|Ascension]] level
+* [[Fishing]] completion points, caught [[Fishing#Legendary|Legendary Fish]], their tribute level, and their card tier
+* [[Arcanist]] completion points
+
+Bottom Right
+* Unlocked [[Construct#Statues|Statues]] and their tier
+
+<references />
+
+==Stickers==
+Stickers boost Gift Loot and give Stats.
+
+Currently earned from [[Store#Gifts|Gifts]].
+
+(Sources and types will be expanded in the future!)
+
+==Export==
+Scrolling to the bottom of the listed stats reveals an "Export Stats to JSON" button. This is the UI equivalent of using the EXPORTSTATS code.
+For a full breakdown of it's contents and how to use it, refer to [[Guides/Working With ExportStats|this guide]]
+
+==General Principles and Page Format==
+Stat bonuses from different menus are usually multiplicative. For example, a 50% boost to your Golden Floor Multiplier from Contracts and another 50% boost from Fishing Notice Upgrades will result in a <math>1.50 \times 1.50 = 2.25</math> times increase to your final Golden Floor Multiplier.
+
+Stat bonuses from within one menu are usually additive. For example, a 50% Pickaxe Damage boost from the Upgrade that takes Mithril Bars and another 50% boost from the Upgrade that takes Amethyst Bars will result in a <math>1+0.5+0.5=2</math> times increase to your final Pickaxe Damage. This applies to submenus of a single menu, e.g., the Dwarf Pet Pickaxe Damage boost is additive with the Dwarf Pet Skin Pickaxe Damage boost despite them being in separate tabs of the Pets menu.
+
+There are exceptions to these principles. For example, chances for things to happen, like the Freebie Jackpot Chance, generally add even across menus. Some things can multiply within a menu, like the Hamburger and the Primal Meat Pickaxe Damage boosts. Discrepancies are noted on this page.
+
+'''<math>+</math> and <math>\times</math> symbols on this page specify how bonuses interact. Unless otherwise noted, different menu effects are multiplicative.'''
+
+==Crit Damage Calculations==
+Each tier of Crit requires a successful roll of the previous tier and multiplies its damage with its own and each previous tiers damage multiplier. For example, a Pickaxe Ultra Crit requires a successful Crit roll, Super Crit roll and Ultra Crit roll. The final damage will be Pickaxe Damage <math>\times</math> Pickaxe Crit Damage <math>\times</math> Pickaxe Super Crit Damage <math>\times</math> Pickaxe Ultra Crit Damage.
+
+==Pickaxe==
+{{:Stats/Pickaxe}}
+==Bombs==
+{{:Stats/Bombs}}
+==Drones==
+{{:Stats/Drones}}
+==Ore==
+{{:Stats/Ore}}
+==Crafting==
+{{:Stats/Crafting}}
+==Obelisk==
+{{:Stats/Obelisk}}
+==Prestige==
+{{:Stats/Prestige}}
+==Lootbugs==
+{{:Stats/Lootbugs}}
+==Lootfrogs==
+{{:Stats/Lootfrogs}}
+==Chests==
+{{:Stats/Chests}}
+==Contracts==
+{{:Stats/Contracts}}
+==Veins==
+{{:Stats/Veins}}
+==Stars==
+{{:Stats/Stars}}
+==Fishing==
+{{:Stats/Fishing}}
+==Arcanist==
+{{:Stats/Arcanist}}
+==Misc==
+{{:Stats/Misc}}
+
+==Unlisted Stats==
+Many other stats exist in the game, and are not listed on the stats page, but can still be increased through various means to speed up your progress in game.
+The following is a non-exhaustive list of such stats.
+
+===Arcanist (Unlisted)===
+{{:Stats/Arcanist-Unlisted}}
+
+===Bombs (Unlisted)===
+{{:Stats/Bombs-Unlisted}}
+Note: Bomb of plenty multi and make ores gold chance, as well as transmuter bomb's stats are available in <code>{{Sprite|Misc Code|Codes|16x16|EXPORTSTATS}}</code>
+
+===Cards (Unlisted)===
+{{:Stats/Cards-Unlisted}}
+
+===Gifts (Unlisted)===
+{{:Stats/Stickers-Unlisted}}
+
+===Misc (Unlisted)===
+{{:Stats/Misc-Unlisted}}
+
+==Navigation==
+{{Menu}}

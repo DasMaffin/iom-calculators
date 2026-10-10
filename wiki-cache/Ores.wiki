@@ -1,0 +1,626 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomOreImage}}</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{FakeMenuButton|image={{RandomOreImage|size=72x72px}}|size=72x72px|buttonSize=114px}}
+<div style="margin:0 5px">Ores are mined from the rocks that spawn on every floor and can be [[Craft|crafted]] into Bars. They can also be [[Sell|sold]] for [[File:Gold Coin.png|16x16px]] Gold Coins to allow for purchasing of [[upgrades]] or [[File:Drone Point.png|16x16px]] [[Drones|Drone Points]]. Rock's health and experience given when destroyed depends on the type of ore and it's modifiers.
+</div></div>
+
+{{clear|left}}
+==Ore Upgrades==
+{{See also|Stats#Ore}}
+You can improve Ores by increasing related stats:
+* [[Stats#tabber-Triple_Rock_Chance|Triple Rock Chance]] - Provides a chance for ore rock to spawn as a [[#TripleRock|triple]] instead of regular one
+* [[Stats#tabber-Ore_Sell_Price_Multiplier|Ore Sell Price Multiplier]] - Increases amount of coins obtained when [[Ores#Selling ores|selling ores]]
+* [[Stats#tabber-Ore_Income_Multiplier|Ore Income Multiplier]] - Increases amount of ores obtained (base x2)
+* [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]] - Provides a chance for ore to spawn as [[#GoldenOre|Golden variant]]
+* [[Stats#tabber-Golden_Ore_Multiplier|Golden Ore Multiplier]] - Increases the amount of ores received from golden ores (base x3)
+* [[Stats#tabber-Rainbow_Ore_Chance|Rainbow Ore Chance]] - Provides a chance for ore to spawn as [[#RainbowOre|Rainbow variant]]
+* [[Stats#tabber-Rainbow_Ore_Multiplier|Rainbow Ore Multiplier]] - Increases the amount of ores received from rainbow ores
+
+==Ore marks==
+Some bombs, items and certain stats apply effects that marks ores in particular way. Marked ore obtains specific bonus depending on the source of the mark. All ores can be only marked once by every effect (so the same effect applied multiple times does not stack). These effects are shown as an icon next to the ore. Certain [[challenges]] require the usage of those effects to be completed, for example Extreme challenge 22 - "Mine 222.22k Golden Ores".
+
+{| class="wikitable sticky-header"
+! colspan=2 | Marks Name
+! Effect
+! Source
+|-
+| [[File:Triple_Rock_Chance.png]] || <div id="TripleRock"></div>Triple Rock
+| Triple rock chance provides the chance to spawn bigger rocks which give x3 the amount of ores when destroyed.
+| [[Chests#List_of_relics|Rare relics]], {{Sprite|Eye of Newt|Items#EyeOfNewt|x20}} and {{Sprite|Mithril Bar|Upgrades#World_1_Upgrades|x20|Mithril Bar Upgrade}}
+|-
+| [[File:Bomb_of_Plenty.png]] ||<div id="BoP"></div><div id="BombOfPlenty"></div>Bomb of Plenty (BoP)
+| Multiplies amount of ores obtained. Adds an icon showing the effect is active
+| {{Sprite|Bomb of Plenty|Bombs#tabber-Bomb_of_Plenty|x20|Image Name=}}, upgraded {{Sprite|Transmuter Bomb|Bombs#tabber-Transmuter_Bomb|x20}}
+|-
+|[[File:Exp_Bomb.png]] ||<div id="Exp"></div>Exp
+| Multiplies amount of experience obtained from that ore. Adds an icon showing the effect is active
+| {{Sprite|Exp Bomb|Bombs#tabber-Exp_Bomb|x20}}
+|-
+|[[File:MEGABOMB.png]] || <div id="MEGA"></div>MEGABOMB
+| Multiplies all sources of damage on that rock. Adds an icon showing the effect is active
+|{{Sprite|MEGABOMB|Bombs#tabber-MEGABOMB|x20}}
+|-
+| [[File:Transmuter Bomb.png]] ||<div id="Transmutation"></div>Transmutation
+| Rock will also drops bars additionally to ores (100% of ores are given). Adds an icon showing the effect is active
+|{{Sprite|Transmuter Bomb|Bombs#tabber-Transmuter_Bomb|x20}} 
+|-
+| [[File:Golden Ore Icon.png]] || <div id="GoldenOre"></div>Golden Ore
+| Multiplies the ores gains by making them golden. Stacks with other effects. The golden ores use triple ore [[Ores#Gallery|sprites]]
+|[[Items#Lasagna|Lasagna]], [[Stargazing|Stars]], [[Nagini]] Levels and few [[Stats#tabber-Golden_Ore_Chance|others]]
+|-
+|[[File:All_Void_Portal_Multis.png]] || <div id="Void"></div><div id="VoidPortal"></div>Void Portal (Base, Golden, Rainbow, Galactic)
+|Transform the current ore into a random one from a lower floor.
+|[[Drones#Void Drone Mechanics|Void Drone]], [[Fishing#Legendary_Fish|Tributes]], [[Nagini]] Quest
+|-
+|[[File:Rainbow Ore Icon.png]] || <div id="Rainbow"></div><div id="RainbowOre"></div>Rainbow Ore
+| Multiplies the ores gains by making them rainbow. Stacks with other effects. The rainbow ores use triple ore [[Ores#Gallery|sprites]]
+|[[Arcanist#RainbowRoad|Rainbow Road]] Spell
+|}
+
+==Selling ores==
+{{See also|Sell}}
+[[Sell|Selling ores]] allows to earn [[File:Gold Coin.png|16x16px]] Gold Coins which can be used for buying different upgrades and [[File:Drone Point.png|16x16px]] [[Drones|Drone Points]]. It is worth keeping in mind that the [[Drones#midasDrone|Midas Drone Suit]] provides alternative way of earning coins which does not involve selling ores which can be used to [[Craft|craft]] bars.
+
+==Modifiers==
+Starting at World 2 all of the Ores receive a modifier. That modifier can either buff ore's stats, grant it immunity to certain type of damage and even debuff other game stats, for example: decrease golden floor chance or decrease the game speed.
+
+==Ores==
+<tabber class="sticky-header">
+World 1=
+{| class="wikitable sticky-header text-align-center align-left-2"
+! colspan=2 | Ore !! Health !! Exp !! Floors
+|-
+| <div id="Tin"></div>[[File:Tin Ore.png]] || Tin Ore || 10 || 2 || 1-2
+|-
+| <div id="Copper"></div>[[File:Copper Ore.png]] || Copper Ore || 25 || 5 || 1-4
+|-
+| <div id="Mithril"></div>[[File:Mithril Ore.png]] || Mithril Ore || 60 || 12.17 || 3-6
+|-
+| <div id="Adamant"></div>[[File:Adamant Ore.png]] || Adamant Ore || 150 || 28.79 || 5-8
+|-
+| <div id="Runite"></div>[[File:Runite Ore.png]] || Runite Ore || 375 || 66.23 || 7-10
+|-
+| <div id="Citrine"></div>[[File:Citrine Ore.png]] || Citrine Ore || 935 || 147.91 || 9-12
+|-
+| <div id="Amethyst"></div>[[File:Amethyst Ore.png]] || Amethyst Ore || 2,335 || 320.47 || 11-14
+|-
+| <div id="Topaz"></div>[[File:Topaz Ore.png]] || Topaz Ore || 5,835 || 672.98 || 13-16
+|-
+| <div id="Obsidian"></div>[[File:Obsidian Ore.png]] || Obsidian Ore || 14.59k || 1.37k || 15-18
+|-
+| <div id="Demonite"></div>[[File:Demonite Ore.png]] || Demonite Ore || 36.6k || 2.69k || 17-18
+|-
+| <div id="VR-Tin"></div>[[File:VR-Tin Ore.png]] || VR-Tin Ore || 91.15k || 5.11k || 19-20
+|-
+| <div id="VR-Amethyst"></div>[[File:VR-Amethyst Ore.png]] || VR-Amethyst Ore || 227.88k || 9.37k || 19-22
+|-
+| <div id="VR-Demonite"></div>[[File:VR-Demonite Ore.png]] || VR-Demonite Ore || 569.68k || 16.56k || 21-24
+|-
+| <div id="VR-ERROR"></div>[[File:VR-ERROR Ore.png]] || VR-ERROR Ore || 1.42m || 28.15k || 23-24
+|-
+| <div id="Lunarium"></div>[[File:Lunarium Ore.png]] || Lunarium Ore || 3.56m || 45.98k || 25-26
+|-
+| <div id="Earth-C-137"></div>[[File:Earth-C-137 Ore.png]] || Earth-C-137 Ore || 8.90m || 72.04k || 25-28
+|-
+| <div id="Meteorite"></div>[[File:Meteorite Ore.png]] || Meteorite Ore || 22.3m || 108.06k || 27-30
+|-
+| <div id="Singularity"></div>[[File:Singularity Ore.png]] || Singularity Ore || 55.63m || 154.89k || 29-30
+|-
+| <div id="Halium"></div>[[File:Halium Ore.png]] || Halium Ore || 139.08m || 211.69k || 31-32
+|-
+| <div id="Blasphemite"></div>[[File:Blasphemite Ore.png]] || Blasphemite Ore || 347.71m || 275.19k || 31-34
+|-
+| <div id="Angelite"></div>[[File:Angelite Ore.png]] || Angelite Ore || 869.27m || 339.40k || 33-36
+|-
+| <div id="Elysium"></div>[[File:Elysium Ore.png]] || Elysium Ore || 2.17b || 395.97k || 35-36
+|-
+| <div id="Enemite"></div>[[File:Enemite Ore.png]] || Enemite Ore || 5.43b || 435.57k || 37-38
+|-
+| <div id="Beepboopium"></div>[[File:Beepboopium Ore.png]] || Beepboopium Ore || 13.58b || 450.09k || 37-40
+|-
+| <div id="Radion-73"></div>[[File:Radion-73 Ore.png]] || Radion-73 Ore || 33.96b || 450.09k || 39-42
+|-
+| <div id="Cranium"></div>[[File:Cranium Ore.png]] || Cranium Ore || 84.89b || 450.09k || 41-42
+|}
+|-|
+World 2=
+{| class="wikitable sticky-header text-align-center align-left-2 align-left-5"
+! colspan=2 | Ore !! Health !! Exp !! Modifier !! Floors
+|-
+| <div id="Lapis"></div>[[File:Lapis Ore.png]] || Lapis Ore || 424.45b || 450.09k || Super crit+ only || 43-44
+|-
+| <div id="Quartz"></div>[[File:Quartz Ore.png]] || Quartz Ore || 1.06t || 540.10k || Damage -50% || 43-46
+|-
+| <div id="Glacialite"></div>[[File:Glacialite Ore.png]] || Glacialite Ore || 2.65t || 648.12k || Bomb Damage -75% || 45-48
+|-
+| <div id="Twinklestone"></div>[[File:Twinklestone Ore.png]] || Twinklestone Ore || 19.90t || 777.75k || Health +200% || 47-48
+|-
+| <div id="Sandcasium"></div>[[File:Sandcasium Ore.png]] || Sandcasium Ore || 16.58t || 933.30k || Bomb Damage -75% || 49-50
+|-
+| <div id="Clamite"></div>[[File:Clamite Ore.png]] || Clamite Ore || 41.45t || 1.12m || Super crit+ only || 49-52
+|-
+| <div id="Thunderstone"></div>[[File:Thunderstone Ore.png]] || Thunderstone Ore || 103.62t || 1.34m || Damage -60% || 51-54
+|-
+| <div id="Crabrock"></div>[[File:Crabrock Ore.png]] || Crabrock Ore || 1.04q || 1.61m || Health +300% || 53-54
+|-
+| <div id="Hailstone"></div>[[File:Hailstone Ore.png]] || Hailstone Ore || 647.66t || 1.94m || Ultra crit+ only || 55-56
+|-
+| <div id="Frostbite"></div>[[File:Frostbite Ore.png]] || Frostbite Ore || 1.62q || 2.32m || Ultra crit+ only || 55-58
+|-
+| <div id="Icebloom"></div>[[File:Icebloom Ore.png]] || Icebloom Ore || 16.19q || 2.79m || Health +300% || 57-60
+|-
+| <div id="Pinguinus"></div>[[File:Pinguinus Ore.png]] || Pinguinus Ore || 50.60q || 3.34m || Health +400% || 59-60
+|-
+| <div id="Macawrock"></div>[[File:Macawrock Ore.png]] || Macawrock Ore || 50.60q || 4.01m || Bomb Damage -85% || 61-62
+|-
+| <div id="Cocore"></div>[[File:Cocore Ore.png]] || Cocore Ore || 126.50q || 4.82m || Ultra crit+ only || 61-64
+|-
+| <div id="Rafflenium"></div>[[File:Rafflenium Ore.png]] || Rafflenium Ore || 1.90qi || 5.78m || Health +500% || 63-66
+|-
+| <div id="Carnivorian"></div>[[File:Carnivorian Ore.png]] || Carnivorian Ore || 790.60q || 6.93m || Rainbow multi 0.50x || 65-66
+|-
+| <div id="Infernite"></div>[[File:Infernite Ore.png]] || Infernite Ore || 1.98qi || 8.32m || Bomb recharge 0.40x || 67-68
+|-
+| <div id="Blood-Onyx"></div>[[File:Blood-Onyx Ore.png]] || Blood-Onyx Ore || 4.94qi || 9.99m || Damage -70% || 67-70
+|-
+| <div id="Cyrogem"></div>[[File:Cyrogem Ore.png]] || Cyrogem Ore || 12.35qi || 11.98m || Golden floor = 50% || 69-72
+|-
+| <div id="Pinnaclite"></div>[[File:Pinnaclite Ore.png]] || Pinnaclite Ore || 30.88qi || 14.38m || Game speed -25% || 71-72
+|}
+|-|
+World 3=
+{| class="wikitable sticky-header text-align-center align-left-2 align-left-5"
+! colspan=2 | Ore !! Health !! Exp !! Modifier !! Floors
+|-
+| <div id="Omeletite"></div>[[File:Omeletite Ore.png]] || Omeletite Ore || 1.08sx || 17.26m || Health +600% || 73-74
+|-
+| <div id="Resinite"></div>[[File:Resinite Ore.png]] || Resinite Ore || 386.03qi || 20.71m || Ultra crit+ only || 73-76
+|-
+| <div id="Impactium"></div>[[File:Impactium Ore.png]] || Impactium Ore || 965.08qi || 34.85m || Golden floor = 50% || 75-78
+|-
+| <div id="Tricerastone"></div>[[File:Tricerastone Ore.png]] || Tricerastone Ore || 21.71sx || 29.82m || Health +800% || 77-78
+|-
+| <div id="Duelysium"></div>[[File:Duelysium Ore.png]] || Duelysium Ore || 6.03sx || 35.78m || Ultra crit+ only || 79-80
+|-
+| <div id="Arcusite"></div>[[File:Arcusite Ore.png]] || Arcusite Ore || 15.08sx || 42.94m || Bomb recharge 0.30x || 79-82
+|-
+| <div id="Phalanxite"></div>[[File:Phalanxite Ore.png]] || Phalanxite Ore || 37.70sx || 51.52m || Golden floor = 45% || 81-84
+|-
+| <div id="Guardium"></div>[[File:Guardium Ore.png]] || Guardium Ore || 94.25sx || 61.83m || Damage -85% || 83-84
+|-
+| <div id="Cognite"></div>[[File:Cognite Ore.png]] || Cognite Ore || 235.62sx || 74.19m || Rainbow multi 0.50x || 85-87
+|-
+| <div id="Telophite"></div>[[File:Telophite Ore.png]] || Telophite Ore || 589.04sx || 89.03m || Omega crit+ only || 85-89
+|-
+| <div id="Steamstone"></div>[[File:Steamstone Ore.png]] || Steamstone Ore || 1.47sp || 106.84m || Golden Floor = 40% || 87-90
+|-
+| <div id="Equinine"></div>[[File:Equinine Ore.png]] || Equinine Ore || 3.68sp || 128.21m || Game speed -25% || 89-90
+|-
+| <div id="Dynamite"></div>[[File:Dynamite Ore.png]] || Dynamite Ore || 27.61sp || 153.85m || Game speed -25% || 91-92
+|-
+| <div id="Genevium"></div>[[File:Genevium Ore.png]] || Genevium Ore || 69.03sp || 184.62m || Golden floor = 45% || 91-94
+|-
+| <div id="Manhattite"></div>[[File:Manhattite Ore.png]] || Manhattite Ore || 172.57sp || 221.54m || Omega Crit+ only || 93-96
+|-
+| <div id="Rationium"></div>[[File:Rationium Ore.png]] || Rationium Ore || 3.88oc || 265.85m || Health +800% || 95-96
+|-
+| <div id="Vaporium"></div>[[File:Vaporium Ore.png]] || Vaporium Ore || 1.08oc || 319.02m || Game speed -25% || 97-98
+|-
+| <div id="Palmite"></div>[[File:Palmite Ore.png]] || Palmite Ore || 24.27oc || 382.83m || Health +800% || 97-100
+|-
+| <div id="Ransomite"></div>[[File:Ransomite Ore.png]] || Ransomite Ore || 6.74oc || 459.39m || Golden floor = 40% || 99-102
+|-
+| <div id="MVPD-1988"></div>[[File:MVPD-1988 Ore.png]] || MVPD-1988 Ore || 16.85oc || 551.27m || Rainbow multi 0.40x || 101-102
+|}
+|-|
+World 4=
+{| class="wikitable sticky-header text-align-center align-left-2 align-left-5"
+! colspan=2 | Ore !! Health !! Exp !! Modifier !! Floors
+|-
+| <div id="Chronite"></div>[[File:Chronite Ore.png]] || Chronite Ore || 1.05dc || 661.52m || Bomb recharge 0.35x || 103-104
+|-
+| <div id="Hattium"></div>[[File:Hattium Ore.png]] || Hattium Ore || 2.63dc || 793.82m || Portal chance 0.40x || 103-106
+|-
+| <div id="Pishalvite"></div>[[File:Pishalvite Ore.png]] || Pishalvite Ore || 6.58dc || 952.59m || Golden floor = 40% || 105-108
+|-
+| <div id="Teatimium"></div>[[File:Teatimium Ore.png]] || Teatimium Ore || 16.5dc || 1.14b || Item buff drain 2x || 107-108
+|-
+| <div id="Rumium"></div>[[File:Rumium Ore.png]] || Rumium Ore || 41.1dc || 1.37b || Rainbow multi 0.40x || 109-110
+|-
+| <div id="Anchorium"></div>[[File:Anchorium Ore.png]] || Anchorium Ore || 103dc || 1.64b || Freebie rate 0.40x || 109-112
+|-
+| <div id="Mateyum"></div>[[File:Mateyum Ore.png]] || Mateyum Ore || 257dc || 1.97b || Golden floor = 35% || 111-114
+|-
+| <div id="Hookite"></div>[[File:Hookite Ore.png]] || Hookite Ore || 643dc || 2.36b || Lootbug spawn 0.35x || 113-114
+|-
+| <div id="Carpetite"></div>[[File:Carpetite Ore.png]] || Carpetite Ore || 1.61udc || 2.84b || G.Ore Multi 0.50x || 115-116
+|-
+| <div id="Djinnium"></div>[[File:Djinnium Ore.png]] || Djinnium Ore || 4.02udc || 3.40b || Fuel depletion 2x || 115-118
+|-
+| <div id="Sinbadium"></div>[[File:Sinbadium Ore.png]] || Sinbadium Ore || 10.0udc || 4.08b || Golden floor = 30% || 117-120
+|-
+| <div id="Turbanite"></div>[[File:Turbanite Ore.png]] || Turbanite Ore || 25.1udc || 4.9b || Game speed -30% || 119-120
+|-
+| <div id="Carriagum"></div>[[File:Carriagum Ore.png]] || Carriagum Ore || 5.64ddc || 5.88b || Health +800% || 121-122
+|-
+| <div id="Crystal-Rose"></div>[[File:Crystal-Rose Ore.png]] || Crystal-Rose Ore || 1.56ddc || 7.05b || Game Speed -40% || 121-124
+|-
+| <div id="Frogstone"></div>[[File:Frogstone  Ore.png]] || Frogstone Ore || 3.92ddc || 8.47b || Prismatic Chance -15% || 123-126
+|-
+| <div id="Slipperite"></div>[[File:Slipperite Ore.png]] || Slipperite Ore || 9.8ddc || 10.2b || Bomb recharge 0.35x || 125-126
+|-
+| <div id="Jellystone"></div>[[File:Jellystone Ore.png]] || Jellystone Ore || 220ddc || 12.2b || Health +800% || 127-128 
+|-
+| <div id="Lollipopite"></div>[[File:Lollipopite Ore.png]] || Lollipopite Ore || 61.3ddc || 14.6b || Golden floor = 30% || 127-130
+|-
+| <div id="Mintium"></div>[[File:Mintium Ore.png]] || Mintium Ore || 153ddc || 17.6b || Portal chance 0.40x  || 129-132
+|-
+| <div id="Neopolium "></div>[[File:Neopolium Ore.png]] || Neopolium Ore || 383ddc || 21.0b || Freebie rate 0.40x || 131-132
+|}
+</tabber>
+
+==Gallery==
+<tabber>
+Regular Ores=
+<gallery mode="packed" heights="48px">
+Tin Ore.png|Tin Ore
+Copper Ore.png|Copper Ore
+Mithril Ore.png|Mithril Ore
+Adamant Ore.png|Adamant Ore
+Runite Ore.png|Runite Ore
+Citrine Ore.png|Citrine Ore
+Amethyst Ore.png|Amethyst Ore
+Topaz Ore.png|Topaz Ore
+Obsidian Ore.png|Obsidian Ore
+Demonite Ore.png|Demonite Ore
+VR-Tin Ore.png|VR-Tin Ore
+VR-Amethyst Ore.png|VR-Amethyst Ore
+VR-Demonite Ore.png|VR-Demonite Ore
+VR-ERROR Ore.png|VR-ERROR Ore
+Lunarium Ore.png|Lunarium Ore
+Earth-C-137 Ore.png|Earth-C-137 Ore
+Meteorite Ore.png|Meteorite Ore
+Singularity Ore.png|Singularity Ore
+Halium Ore.png|Halium Ore
+Blasphemite Ore.png|Blasphemite Ore
+Angelite Ore.png|Angelite Ore
+Elysium Ore.png|Elysium Ore
+Enemite Ore.png|Enemite Ore
+Beepboopium Ore.png|Beepboopium Ore
+Radion-73 Ore.png|Radion-73 Ore
+Cranium Ore.png|Cranium Ore
+Lapis Ore.png|Lapis Ore
+Quartz Ore.png|Quartz Ore
+Glacialite Ore.png|Glacialite Ore
+Twinklestone Ore.png|Twinklestone Ore
+Sandcasium Ore.png|Sandcasium Ore
+Clamite Ore.png|Clamite Ore
+Thunderstone Ore.png|Thunderstone Ore
+Crabrock Ore.png|Crabrock Ore
+Hailstone Ore.png|Hailstone Ore
+Frostbite Ore.png|Frostbite Ore
+Icebloom Ore.png|Icebloom Ore
+Pinguinus Ore.png|Pinguinus Ore
+Macawrock Ore.png|Macawrock Ore
+Cocore Ore.png|Cocore Ore
+Rafflenium Ore.png|Rafflenium Ore
+Carnivorian Ore.png|Carnivorian Ore
+Infernite Ore.png|Infernite Ore
+Blood-Onyx Ore.png|Blood-Onyx Ore
+Cyrogem Ore.png|Cyrogem Ore
+Pinnaclite Ore.png|Pinnaclite Ore
+Omeletite Ore.png|Omeletite Ore
+Resinite Ore.png|Resinite Ore
+Impactium Ore.png|Impactium Ore
+Tricerastone Ore.png|Tricerastone Ore
+Duelysium Ore.png|Duelysium Ore
+Arcusite Ore.png|Arcusite Ore
+Phalanxite Ore.png|Phalanxite Ore
+Guardium Ore.png|Guardium Ore
+Cognite Ore.png|Cognite Ore
+Telophite Ore.png|Telophite Ore
+Steamstone Ore.png|Steamstone Ore
+Equinine Ore.png|Equinine Ore
+Dynamite Ore.png|Dynamite Ore
+Genevium Ore.png|Genevium Ore
+Manhattite Ore.png|Manhattite Ore
+Rationium Ore.png|Rationium Ore
+Vaporium Ore.png|Vaporium Ore
+Palmite Ore.png|Palmite Ore
+Ransomite Ore.png|Ransomite Ore
+MVPD-1988 Ore.png|MVPD-1988 Ore
+Chronite Ore.png|Chronite Ore
+Hattium Ore.png|Hattium Ore
+Pishalvite Ore.png|Pishalvite Ore
+Teatimium Ore.png|Teatimium Ore
+Rumium Ore.png|Rumium Ore
+Anchorium Ore.png|Anchorium Ore
+Mateyum Ore.png|Mateyum Ore
+Hookite Ore.png|Hookite Ore
+Carpetite Ore.png|Carpetite Ore
+Djinnium Ore.png|Djinnium Ore
+Sinbadium Ore.png|Sinbadium Ore
+Turbanite Ore.png|Turbanite Ore
+Carriagum Ore.png|Carriagum Ore
+Crystal-Rose Ore.png| Crystal-Rose Ore
+Frogstone Ore.png|Frogstone Ore
+Slipperite Ore.png|Slipperite Ore
+Jellystone Ore.png|Jellystone Ore
+Lollipopite Ore.png|Lollipopite Ore
+Mintium Ore.png|Mintium Ore
+Neopolium Ore.png|Neopolium Ore
+</gallery>
+|-|
+Triple Ores=
+<gallery mode="packed" heights="48px">
+Tin Ore Triple.png|Tin Ore
+Copper Ore Triple.png|Copper Ore
+Mithril Ore Triple.png|Mithril Ore
+Adamant Ore Triple.png|Adamant Ore
+Runite Ore Triple.png|Runite Ore
+Citrine Ore Triple.png|Citrine Ore
+Amethyst Ore Triple.png|Amethyst Ore
+Topaz Ore Triple.png|Topaz Ore
+Obsidian Ore Triple.png|Obsidian Ore
+Demonite Ore Triple.png|Demonite Ore
+VR-Tin Ore Triple.png|VR-Tin Ore
+VR-Amethyst Ore Triple.png|VR-Amethyst Ore
+VR-Demonite Ore Triple.png|VR-Demonite Ore
+VR-ERROR Ore Triple.png|VR-ERROR Ore
+Lunarium Ore Triple.png|Lunarium Ore
+Earth-C-137 Ore Triple.png|Earth-C-137 Ore
+Meteorite Ore Triple.png|Meteorite Ore
+Singularity Ore Triple.png|Singularity Ore
+Halium Ore Triple.png|Halium Ore
+Blasphemite Ore Triple.png|Blasphemite Ore
+Angelite Ore Triple.png|Angelite Ore
+Elysium Ore Triple.png|Elysium Ore
+Enemite Ore Triple.png|Enemite Ore
+Beepboopium Ore Triple.png|Beepboopium Ore
+Radion-73 Ore Triple.png|Radion-73 Ore
+Cranium Ore Triple.png|Cranium Ore
+Lapis Ore Triple.png|Lapis Ore
+Quartz Ore Triple.png|Quartz Ore
+Glacialite Ore Triple.png|Glacialite Ore
+Twinklestone Ore Triple.png|Twinklestone Ore
+Sandcasium Ore Triple.png|Sandcasium Ore
+Clamite Ore Triple.png|Clamite Ore
+Thunderstone Ore Triple.png|Thunderstone Ore
+Crabrock Ore Triple.png|Crabrock Ore
+Hailstone Ore Triple.png|Hailstone Ore
+Frostbite Ore Triple.png|Frostbite Ore
+Icebloom Ore Triple.png|Icebloom Ore
+Pinguinus Ore Triple.png|Pinguinus Ore
+Macawrock Ore Triple.png|Macawrock Ore
+Cocore Ore Triple.png|Cocore Ore
+Rafflenium Ore Triple.png|Rafflenium Ore
+Carnivorian Ore Triple.png|Carnivorian Ore
+Infernite Ore Triple.png|Infernite Ore
+Blood-Onyx Ore Triple.png|Blood-Onyx Ore
+Cyrogem Ore Triple.png|Cyrogem Ore
+Pinnaclite Ore Triple.png|Pinnaclite Ore
+Omeletite Ore Triple.png|Omeletite Ore
+Resinite Ore Triple.png|Resinite Ore
+Impactium Ore Triple.png|Impactium Ore
+Tricerastone Ore Triple.png|Tricerastone Ore
+Duelysium Ore Triple.png|Duelysium Ore
+Arcusite Ore Triple.png|Arcusite Ore
+Phalanxite Ore Triple.png|Phalanxite Ore
+Guardium Ore Triple.png|Guardium Ore
+Cognite Ore Triple.png|Cognite Ore
+Telophite Ore Triple.png|Telophite Ore
+Steamstone Ore Triple.png|Steamstone Ore
+Equinine Ore Triple.png|Equinine Ore
+Dynamite Ore Triple.png|Dynamite Ore
+Genevium Ore Triple.png|Genevium Ore
+Manhattite Ore Triple.png|Manhattite Ore
+Rationium Ore Triple.png|Rationium Ore
+Vaporium Ore Triple.png|Vaporium Ore
+Palmite Ore Triple.png|Palmite Ore
+Ransomite Ore Triple.png|Ransomite Ore
+MVPD-1988 Ore Triple.png|MVPD-1988 Ore
+Chronite Ore Triple.png|Chronite Ore
+Hattium Ore Triple.png|Hattium Ore
+Pishalvite Ore Triple.png|Pishalvite Ore
+Teatimium Ore Triple.png|Teatimium Ore
+Rumium Ore Triple.png|Rumium Ore
+Anchorium Ore Triple.png|Anchorium Ore
+Mateyum Ore Triple.png|Mateyum Ore
+Hookite Ore Triple.png|Hookite Ore
+Carpetite Ore Triple.png|Carpetite Ore
+Djinnium Ore Triple.png|Djinnium Ore
+Sinbadium Ore Triple.png|Sinbadium Ore
+Turbanite Ore Triple.png|Turbanite Ore
+Carriagum Ore Triple.png|Carriagum Ore
+Crystal-Rose Ore Triple.png| Crystal-Rose Ore
+Frogstone Ore Triple.png|Frogstone Ore
+Slipperite Ore Triple.png|Slipperite Ore
+Jellystone Ore Triple.png|Jellystone Ore
+Lollipopite Ore Triple.png|Lollipopite Ore
+Mintium Ore Triple.png|Mintium Ore
+Neopolium Ore Triple.png|Neopolium Ore
+</gallery>
+|-|
+Golden Ores=
+<gallery mode="packed" heights="48px">
+Tin Ore Golden.png|Tin Ore
+Copper Ore Golden.png|Copper Ore
+Mithril Ore Golden.png|Mithril Ore
+Adamant Ore Golden.png|Adamant Ore
+Runite Ore Golden.png|Runite Ore
+Citrine Ore Golden.png|Citrine Ore
+Amethyst Ore Golden.png|Amethyst Ore
+Topaz Ore Golden.png|Topaz Ore
+Obsidian Ore Golden.png|Obsidian Ore
+Demonite Ore Golden.png|Demonite Ore
+VR-Tin Ore Golden.png|VR-Tin Ore
+VR-Amethyst Ore Golden.png|VR-Amethyst Ore
+VR-Demonite Ore Golden.png|VR-Demonite Ore
+VR-ERROR Ore Golden.png|VR-ERROR Ore
+Lunarium Ore Golden.png|Lunarium Ore
+Earth-C-137 Ore Golden.png|Earth-C-137 Ore
+Meteorite Ore Golden.png|Meteorite Ore
+Singularity Ore Golden.png|Singularity Ore
+Halium Ore Golden.png|Halium Ore
+Blasphemite Ore Golden.png|Blasphemite Ore
+Angelite Ore Golden.png|Angelite Ore
+Elysium Ore Golden.png|Elysium Ore
+Enemite Ore Golden.png|Enemite Ore
+Beepboopium Ore Golden.png|Beepboopium Ore
+Radion-73 Ore Golden.png|Radion-73 Ore
+Cranium Ore Golden.png|Cranium Ore
+Lapis Ore Golden.png|Lapis Ore
+Quartz Ore Golden.png|Quartz Ore
+Glacialite Ore Golden.png|Glacialite Ore
+Twinklestone Ore Golden.png|Twinklestone Ore
+Sandcasium Ore Golden.png|Sandcasium Ore
+Clamite Ore Golden.png|Clamite Ore
+Thunderstone Ore Golden.png|Thunderstone Ore
+Crabrock Ore Golden.png|Crabrock Ore
+Hailstone Ore Golden.png|Hailstone Ore
+Frostbite Ore Golden.png|Frostbite Ore
+Icebloom Ore Golden.png|Icebloom Ore
+Pinguinus Ore Golden.png|Pinguinus Ore
+Macawrock Ore Golden.png|Macawrock Ore
+Cocore Ore Golden.png|Cocore Ore
+Rafflenium Ore Golden.png|Rafflenium Ore
+Carnivorian Ore Golden.png|Carnivorian Ore
+Infernite Ore Golden.png|Infernite Ore
+Blood-Onyx Ore Golden.png|Blood-Onyx Ore
+Cyrogem Ore Golden.png|Cyrogem Ore
+Pinnaclite Ore Golden.png|Pinnaclite Ore
+Omeletite Ore Golden.png|Omeletite Ore
+Resinite Ore Golden.png|Resinite Ore
+Impactium Ore Golden.png|Impactium Ore
+Tricerastone Ore Golden.png|Tricerastone Ore
+Duelysium Ore Golden.png|Duelysium Ore
+Arcusite Ore Golden.png|Arcusite Ore
+Phalanxite Ore Golden.png|Phalanxite Ore
+Guardium Ore Golden.png|Guardium Ore
+Cognite Ore Golden.png|Cognite Ore
+Telophite Ore Golden.png|Telophite Ore
+Steamstone Ore Golden.png|Steamstone Ore
+Equinine Ore Golden.png|Equinine Ore
+Dynamite Ore Golden.png|Dynamite Ore
+Genevium Ore Golden.png|Genevium Ore
+Manhattite Ore Golden.png|Manhattite Ore
+Rationium Ore Golden.png|Rationium Ore
+Vaporium Ore Golden.png|Vaporium Ore
+Palmite Ore Golden.png|Palmite Ore
+Ransomite Ore Golden.png|Ransomite Ore
+MVPD-1988 Ore Golden.png|MVPD-1988 Ore
+Chronite Ore Golden.png|Chronite Ore
+Hattium Ore Golden.png|Hattium Ore
+Pishalvite Ore Golden.png|Pishalvite Ore
+Teatimium Ore Golden.png|Teatimium Ore
+Rumium Ore Golden.png|Rumium Ore
+Anchorium Ore Golden.png|Anchorium Ore
+Mateyum Ore Golden.png|Mateyum Ore
+Hookite Ore Golden.png|Hookite Ore
+Carpetite Ore Golden.png|Carpetite Ore
+Djinnium Ore Golden.png|Djinnium Ore
+Sinbadium Ore Golden.png|Sinbadium Ore
+Turbanite Ore Golden.png|Turbanite Ore
+Carriagum Ore Golden.png|Carriagum Ore
+Crystal-Rose Ore Golden.png| Crystal-Rose Ore
+Frogstone Ore Golden.png|Frogstone Ore
+Slipperite Ore Golden.png|Slipperite Ore
+Jellystone Ore Golden.png|Jellystone Ore
+Lollipopite Ore Golden.png|Lollipopite Ore
+Mintium Ore Golden.png|Mintium Ore
+Neopolium Ore Golden.png|Neopolium Ore
+</gallery>
+|-|
+Rainbow Ores=
+<gallery mode="packed" heights="48px">
+Tin Ore Rainbow.png|Tin Ore
+Copper Ore Rainbow.png|Copper Ore
+Mithril Ore Rainbow.png|Mithril Ore
+Adamant Ore Rainbow.png|Adamant Ore
+Runite Ore Rainbow.png|Runite Ore
+Citrine Ore Rainbow.png|Citrine Ore
+Amethyst Ore Rainbow.png|Amethyst Ore
+Topaz Ore Rainbow.png|Topaz Ore
+Obsidian Ore Rainbow.png|Obsidian Ore
+Demonite Ore Rainbow.png|Demonite Ore
+VR-Tin Ore Rainbow.png|VR-Tin Ore
+VR-Amethyst Ore Rainbow.png|VR-Amethyst Ore
+VR-Demonite Ore Rainbow.png|VR-Demonite Ore
+VR-ERROR Ore Rainbow.png|VR-ERROR Ore
+Lunarium Ore Rainbow.png|Lunarium Ore
+Earth-C-137 Ore Rainbow.png|Earth-C-137 Ore
+Meteorite Ore Rainbow.png|Meteorite Ore
+Singularity Ore Rainbow.png|Singularity Ore
+Halium Ore Rainbow.png|Halium Ore
+Blasphemite Ore Rainbow.png|Blasphemite Ore
+Angelite Ore Rainbow.png|Angelite Ore
+Elysium Ore Rainbow.png|Elysium Ore
+Enemite Ore Rainbow.png|Enemite Ore
+Beepboopium Ore Rainbow.png|Beepboopium Ore
+Radion-73 Ore Rainbow.png|Radion-73 Ore
+Cranium Ore Rainbow.png|Cranium Ore
+Lapis Ore Rainbow.png|Lapis Ore
+Quartz Ore Rainbow.png|Quartz Ore
+Glacialite Ore Rainbow.png|Glacialite Ore
+Twinklestone Ore Rainbow.png|Twinklestone Ore
+Sandcasium Ore Rainbow.png|Sandcasium Ore
+Clamite Ore Rainbow.png|Clamite Ore
+Thunderstone Ore Rainbow.png|Thunderstone Ore
+Crabrock Ore Rainbow.png|Crabrock Ore
+Hailstone Ore Rainbow.png|Hailstone Ore
+Frostbite Ore Rainbow.png|Frostbite Ore
+Icebloom Ore Rainbow.png|Icebloom Ore
+Pinguinus Ore Rainbow.png|Pinguinus Ore
+Macawrock Ore Rainbow.png|Macawrock Ore
+Cocore Ore Rainbow.png|Cocore Ore
+Rafflenium Ore Rainbow.png|Rafflenium Ore
+Carnivorian Ore Rainbow.png|Carnivorian Ore
+Infernite Ore Rainbow.png|Infernite Ore
+Blood-Onyx Ore Rainbow.png|Blood-Onyx Ore
+Cyrogem Ore Rainbow.png|Cyrogem Ore
+Pinnaclite Ore Rainbow.png|Pinnaclite Ore
+Omeletite Ore Rainbow.png|Omeletite Ore
+Resinite Ore Rainbow.png|Resinite Ore
+Impactium Ore Rainbow.png|Impactium Ore
+Tricerastone Ore Rainbow.png|Tricerastone Ore
+Duelysium Ore Rainbow.png|Duelysium Ore
+Arcusite Ore Rainbow.png|Arcusite Ore
+Phalanxite Ore Rainbow.png|Phalanxite Ore
+Guardium Ore Rainbow.png|Guardium Ore
+Cognite Ore Rainbow.png|Cognite Ore
+Telophite Ore Rainbow.png|Telophite Ore
+Steamstone Ore Rainbow.png|Steamstone Ore
+Equinine Ore Rainbow.png|Equinine Ore
+Dynamite Ore Rainbow.png|Dynamite Ore
+Genevium Ore Rainbow.png|Genevium Ore
+Manhattite Ore Rainbow.png|Manhattite Ore
+Rationium Ore Rainbow.png|Rationium Ore
+Vaporium Ore Rainbow.png|Vaporium Ore
+Palmite Ore Rainbow.png|Palmite Ore
+Ransomite Ore Rainbow.png|Ransomite Ore
+MVPD-1988 Ore Rainbow.png|MVPD-1988 Ore
+Chronite Ore Rainbow.png|Chronite Ore
+Hattium Ore Rainbow.png|Hattium Ore
+Pishalvite Ore Rainbow.png|Pishalvite Ore
+Teatimium Ore Rainbow.png|Teatimium Ore
+Rumium Ore Rainbow.png|Rumium Ore
+Anchorium Ore Rainbow.png|Anchorium Ore
+Mateyum Ore Rainbow.png|Mateyum Ore
+Hookite Ore Rainbow.png|Hookite Ore
+Carpetite Ore Rainbow.png|Carpetite Ore
+Djinnium Ore Rainbow.png|Djinnium Ore
+Sinbadium Ore Rainbow.png|Sinbadium Ore
+Turbanite Ore Rainbow.png|Turbanite Ore
+Carriagum Ore Rainbow.png|Carriagum Ore
+Crystal-Rose Ore Rainbow.png| Crystal-Rose Ore
+Frogstone Ore Rainbow.png|Frogstone Ore
+Slipperite Ore Rainbow.png|Slipperite Ore
+Jellystone Ore Rainbow.png|Jellystone Ore
+Lollipopite Ore Rainbow.png|Lollipopite Ore
+Mintium Ore Rainbow.png|Mintium Ore
+Neopolium Ore Rainbow.png|Neopolium Ore
+</gallery>
+</tabber>
+
+==Navigation==
+{{Menu}}

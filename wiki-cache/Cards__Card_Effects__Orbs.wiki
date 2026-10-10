@@ -1,0 +1,15 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=White Orb}} || White Orb || White Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|-
+| {{CardShowcase|card=Green Orb}} || Green Orb || Green Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|-
+| {{CardShowcase|card=Purple Orb}} || Purple Orb || Purple Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|-
+| {{CardShowcase|card=Orange Orb}} || Orange Orb || Orange Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|-
+| {{CardShowcase|card=Red Orb}} || Red Orb || Red Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|-
+| {{CardShowcase|card=Yellow Orb}} || Yellow Orb || Yellow Orb Trade Multiplier +15% || +30% || +50% || {{NA}}
+|}

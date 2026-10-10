@@ -1,0 +1,59 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="ArchUpg">With an [[Archaeology#Upgrades|Archaeology Upgrade]]</ref> || Infernal<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref><ref name=InfernalEffectArch>Arch Cards +0.04x/+0.002x</ref>
+|-
+|<div id="CardEffects_Arch_T1_Dirt"></div>{{CardShowcase|card=Archaeology Tier 1 Dirt}} || Tier 1 Dirt || -10% Health, +10% Exp/Loot || 20% || 35-50% || Loot Mod Gain +10%
+|-
+|<div id="CardEffects_Arch_T2_Dirt"></div>{{CardShowcase|card=Archaeology Tier 2 Dirt}} || Tier 2 Dirt || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Experience Gain +12%
+|-
+|<div id="CardEffects_Arch_T3_Dirt"></div>{{CardShowcase|card=Archaeology Tier 3 Dirt}} || Tier 3 Dirt || -10% Health, +10% Exp/Loot || 20% || 35-50% || Fragment Gain +8%
+|-
+|<div id="CardEffects_Arch_T4_Dirt"></div>{{CardShowcase|card=Archaeology Tier 4 Dirt}} || Tier 4 Dirt || -10% Health, +10% Exp/Loot || 20% || 35-50% || Gleaming Floor Multi +10%
+|-
+|<div id="CardEffects_Arch_T1_Common"></div>{{CardShowcase|card=Archaeology Tier 1 Common}} || Tier 1 Common || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Crit Damage +6%
+|-
+|<div id="CardEffects_Arch_T2_Common"></div>{{CardShowcase|card=Archaeology Tier 2 Common}} || Tier 2 Common || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Super Crit Damage +7%
+|-
+|<div id="CardEffects_Arch_T3_Common"></div>{{CardShowcase|card=Archaeology Tier 3 Common}} || Tier 3 Common || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Ultra Crit Damage +8%
+|-
+|<div id="CardEffects_Arch_T4_Common"></div>{{CardShowcase|card=Archaeology Tier 4 Common}} || Tier 4 Common || -10% Health, +10% Exp/Loot || 20% || 35-50% || All Arch Crit Chances 1.5%
+|-
+|<div id="CardEffects_Arch_T1_Rare"></div>{{CardShowcase|card=Archaeology Tier 1 Rare}} || Tier 1 Rare || -10% Health, +10% Exp/Loot || 20% || 35-50% || Crosshair Auto-Tap +5%
+|-
+|<div id="CardEffects_Arch_T2_Rare"></div>{{CardShowcase|card=Archaeology Tier 2 Rare}} || Tier 2 Rare || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Flat Damage +20
+|-
+|<div id="CardEffects_Arch_T3_Rare"></div>{{CardShowcase|card=Archaeology Tier 3 Rare}} || Tier 3 Rare || -10% Health, +10% Exp/Loot || 20% || 35-50% || Armor Pen +40%
+|-
+|<div id="CardEffects_Arch_T4_Rare"></div>{{CardShowcase|card=Archaeology Tier 4 Rare}} || Tier 4 Rare || -10% Health, +10% Exp/Loot || 20% || 35-50% || Loot Mod Gain +8%
+|-
+|<div id="CardEffects_Arch_T1_Epic"></div>{{CardShowcase|card=Archaeology Tier 1 Epic}} || Tier 1 Epic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Gold Crosshair Multi +20%
+|-
+|<div id="CardEffects_Arch_T2_Epic"></div>{{CardShowcase|card=Archaeology Tier 2 Epic}} || Tier 2 Epic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Super Crit Chance +4%
+|-
+|<div id="CardEffects_Arch_T3_Epic"></div>{{CardShowcase|card=Archaeology Tier 3 Epic}} || Tier 3 Epic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Max Stamina +5%
+|-
+|<div id="CardEffects_Arch_T4_Epic"></div>{{CardShowcase|card=Archaeology Tier 4 Epic}} || Tier 4 Epic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Crit Damage +10%
+|-
+|<div id="CardEffects_Arch_T1_Legendary"></div>{{CardShowcase|card=Archaeology Tier 1 Legendary}} || Tier 1 Legendary || -10% Health, +10% Exp/Loot || 20% || 35-50% || Fragment Gain +4%
+|-
+|<div id="CardEffects_Arch_T2_Legendary"></div>{{CardShowcase|card=Archaeology Tier 2 Legendary}} || Tier 2 Legendary || -10% Health, +10% Exp/Loot || 20% || 35-50% || Golden Crosshair Chance +5%
+|-
+|<div id="CardEffects_Arch_T3_Legendary"></div>{{CardShowcase|card=Archaeology Tier 3 Legendary}} || Tier 3 Legendary || -10% Health, +10% Exp/Loot || 20% || 35-50% || Flat Armor Pen +40
+|-
+|<div id="CardEffects_Arch_T4_Legendary"></div>{{CardShowcase|card=Archaeology Tier 4 Legendary}} || Tier 4 Legendary || -10% Health, +10% Exp/Loot || 20% || 35-50% || Flat Maximum Stamina +20
+|-
+|<div id="CardEffects_Arch_T1_Mythic"></div>{{CardShowcase|card=Archaeology Tier 1 Mythic}} || Tier 1 Mythic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Gleaming Floor Chance +1.3%
+|-
+|<div id="CardEffects_Arch_T2_Mythic"></div>{{CardShowcase|card=Archaeology Tier 2 Mythic}} || Tier 2 Mythic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Loot Mod Chance +0.8%
+|-
+|<div id="CardEffects_Arch_T3_Mythic"></div>{{CardShowcase|card=Archaeology Tier 3 Mythic}} || Tier 3 Mythic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Stamina Mod Chance +0.7%
+|-
+|<div id="CardEffects_Arch_T4_Mythic"></div>{{CardShowcase|card=Archaeology Tier 4 Mythic}} || Tier 4 Mythic || -10% Health, +10% Exp/Loot || 20% || 35-50% || Ability Instacharge +1%
+|-
+|<div id="CardEffects_Arch_T1_Divine"></div>{{CardShowcase|card=Archaeology Tier 1 Divine}} || Tier 1 Divine || -10% Health, +10% Exp/Loot || 20% || 35-50% || Arch Damage +10%
+|-
+|<div id="CardEffects_Arch_T2_Divine"></div>{{CardShowcase|card=Archaeology Tier 2 Divine}} || Tier 2 Divine || -10% Health, +10% Exp/Loot || 20% || 35-50% || Gleaming Floor Chance +1.25%
+|-
+|<div id="CardEffects_Arch_T3_Divine"></div>{{CardShowcase|card=Archaeology Tier 3 Divine}} || Tier 3 Divine || -10% Health, +10% Exp/Loot || 20% || 35-50% || Stamina Mod Gain +1
+|-
+|<div id="CardEffects_Arch_T4_Divine"></div>{{CardShowcase|card=Archaeology Tier 4 Divine}} || Tier 4 Divine || -10% Health, +10% Exp/Loot || 20% || 35-50% || All Mod Chances +0.5%
+|}

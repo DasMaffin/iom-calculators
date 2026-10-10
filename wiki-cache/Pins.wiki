@@ -1,0 +1,16 @@
+<div style="display:flex">{{FakeMenuButton|image={{#fas:thumbtack}}|buttonSize=114px|size=64px}}
+<div style="margin:0 5px">Pins are an optional feature to make menu navigation easier. They are found in the menu at the bottom right by clicking the [[File:Setup Pins.png|100px]] button. Menus which have not yet been unlocked cannot be pinned.</div></div>
+
+==Usage==
+* Pins can be used for speedrun challenges, as they help you access certain tabs quickly.
+* They also act as general convenience options.
+* Some [[Cards#Misc card odds|Misc Cards]] require specific pins to be set in order to trigger
+
+==How to activate==
+# Enter the main menu
+# Click the [[File:Setup Pins.png|100px]] button at the bottom right
+# Choose three menus
+# These three menus will remain on the main hotbar until you click the [[File:Setup Pins.png|100px]] button again
+
+==Navigation==
+{{Menu}}

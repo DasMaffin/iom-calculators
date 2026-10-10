@@ -1,0 +1,6 @@
+{{Disambiguation}}
+'''Omega''' may refer to:
+* [[Stats#tabber-Pickaxe_Omega_Crit_Chance|Pickaxe Omega Crit Chance]]
+* [[Stats#tabber-Pickaxe_Omega_Crit_Damage|Pickaxe Omega Crit Damage]]
+* [[Stats#tabber-Bomb_Omega_Crit_Chance|Bomb Omega Crit Chance]]
+* [[Stats#tabber-Bomb_Omega_Crit_Damage|Bomb Omega Crit Damage]]

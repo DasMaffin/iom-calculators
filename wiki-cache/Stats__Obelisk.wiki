@@ -1,0 +1,21 @@
+<tabber>
+Bonus Obelisk Fight Length=
+{{Stat|Bonus Obelisk Fight Length|How much time you have to deal damage to the Obelisk per attempt.
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#LegendaryRelic_ObeliskFightLength|Legendary Obelisk Fight Length Relic]]}}
+|-|
+Obelisk Cooldown=
+{{Stat|Obelisk Cooldown|How much time you need to wait in between Obelisk fight attempts.
+| '''Prestige''' |A [[Prestige#Artifacts_T1_ObeliskCooldown|Tier 1 Artifact]]}}
+|-|
+Obelisk Armor Reduction=
+{{Stat|Obelisk Armor Reduction|The multiplier applied to an [[Obelisk#Obelisk Base Armor|Obelisk's Base Armor]]
+| '''Prestige'''<math>+</math> |
+A [[Prestige#Artifacts_T3_ObeliskArmorReduction|Tier 3 Artifact]]
+| '''Challenges'''<math>+</math> |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_ObeliskArmor|Obelisk Armor]]
+| '''Pets'''<math>+</math> |
+The [[File:Duck_Skin.png|16px]] [[Pets#tabber-Duck_2|Duck Pet Skin]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Angelite Bar|Upgrades#Upgrades_W1_ObeliskArmor||Angelite Bar Upgrade}}}}
+</tabber>

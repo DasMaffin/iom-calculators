@@ -1,0 +1,214 @@
+{{Version|2.2.23}}
+[[File:Sell Button.png|frameless|left]]
+Selling allows you to exchange [[Ores]] for {{Sprites|Gold Coin||x20}}, which can be spent on [[Upgrades]], [[Cards|Gilding Cards]], and [[Drones|Drone Points]]. Gold is lost when you [[Prestige]]. [[Drones#midasDrone|Midas drone suit]] is a great source of passive gold income. Bars that are crafted in the [[Craft|Craft Menu]] or dropped using the [[Bombs#tabber-Transmuter_Bomb|Transmuter Bomb]] cannot be sold.
+
+{{clear|left}}
+==Base Prices==
+Base Ore sell prices.<ref name=disclaimer>Values were calculated using stats displayed in the game. There may be minor discrepancies due to rounding, but the values should not differ meaningfully from the true values.</ref> Sell price is affected by [[Stats#tabber-Ore_Sell_Price_Multiplier|Ore Sell Price Multiplier]].
+<tabber class="sticky-header">
+World 1 =
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+ World 1
+|-
+!colspan=2| Ore !! Price<ref name=disclaimer/>
+|-
+|[[File:Tin Ore.png]] || Tin Ore ||0.05 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Copper Ore.png]] || Copper Ore ||0.08 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Mithril Ore.png]] || Mithril Ore ||0.12 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Adamant Ore.png]] || Adamant Ore || 0.17 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Runite Ore.png]] || Runite Ore || 0.23 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Citrine Ore.png]] || Citrine Ore || 0.30 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Amethyst Ore.png]] || Amethyst Ore || 0.38 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Topaz Ore.png]] || Topaz Ore || 0.47 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Obsidian Ore.png]] || Obsidian Ore || 0.57 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Demonite Ore.png]] || Demonite Ore || 0.68 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:VR-Tin Ore.png]] || VR-Tin Ore || 0.80 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:VR-Amethyst Ore.png]] || VR-Amethyst Ore || 0.93 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:VR-Demonite Ore.png]] || VR-Demonite Ore || 1.07 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:VR-ERROR Ore.png]] || VR-ERROR Ore || 1.22 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Lunarium Ore.png]] || Lunarium Ore || 1.38 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Earth-C-137 Ore.png]] || Earth-C-137 Ore || 1.55 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Meteorite Ore.png]] || Meteorite Ore || 1.73 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Singularity Ore.png]] || Singularity Ore || 1.92 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Halium Ore.png]] || Halium Ore || 2.12 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Blasphemite Ore.png]] || Blasphemite Ore || 2.33 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Angelite Ore.png]] || Angelite Ore || 2.55 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Elysium Ore.png]] || Elysium Ore || 2.78 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Enemite Ore.png]] || Enemite Ore || 3.02 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Beepboopium Ore.png]] || Beepboopium Ore || 3.27 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Radion-73 Ore.png]] || Radion-73 Ore || 3.53 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Cranium Ore.png]] || Cranium Ore || 3.80 {{Sprites|Gold Coin||x20}}
+|}
+
+|-|
+World 2 =
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+ World 2
+|-
+!colspan=2| Ore !! Price
+|-
+|[[File:Lapis Ore.png]] || Lapis Ore || 5.30 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Quartz Ore.png]] || Quartz Ore || 6.55 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Glacialite Ore.png]] || Glacialite Ore || 7.94 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Twinklestone Ore.png]] || Twinklestone Ore || 9.49 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Sandcasium Ore.png]] || Sandcasium Ore || 11.13 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Clamite Ore.png]] || Clamite Ore || 12.93 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Thunderstone Ore.png]] || Thunderstone Ore || 14.89 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Crabrock Ore.png]] || Crabrock Ore || 17.10 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Hailstone Ore.png]] || Hailstone Ore || 19.39 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Frostbite Ore.png]] || Frostbite Ore || 21.84 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Icebloom Ore.png]] || Icebloom Ore || 24.54 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Pinguinus Ore.png]] || Pinguinus Ore || 27.41 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Macawrock Ore.png]] || Macawrock Ore || 30.44 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Cocore Ore.png]] || Cocore Ore || 33.63 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Rafflenium Ore.png]] || Rafflenium Ore || 37.14 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Carnivorian Ore.png]] || Carnivorian Ore || 40.74 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Infernite Ore.png]] || Infernite Ore || 44.67 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Blood-Onyx Ore.png]] || Blood-Onyx Ore || 48.86 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Cyrogem Ore.png]] || Cyrogem Ore || 53.10 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Pinnaclite Ore.png]] || Pinnaclite Ore || 57.60 {{Sprites|Gold Coin||x20}}
+|}
+|-|
+World 3 =
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+ World 3
+|-
+!colspan=2| Ore !! Price
+|-
+|[[File:Omeletite Ore.png]] || Omeletite Ore || 62.43 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Resinite Ore.png]] || Resinite Ore || 67.50 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Impactium Ore.png]] || Impactium Ore || 72.82 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Tricerastone Ore.png]] || Tricerastone Ore || 78.38 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Duelysium Ore.png]] || Duelysium Ore || 84.27 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Arcusite Ore.png]] || Arcusite Ore || 90.00 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Phalanxite Ore.png]] || Phalanxite Ore || 96.54 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Guardium Ore.png]] || Guardium Ore || 103.09 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Cognite Ore.png]] || Cognite Ore || 110.45 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Telophite Ore.png]] || Telophite Ore || 117.81 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Steamstone Ore.png]] || Steamstone Ore || 125.18 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Equinine Ore.png]] || Equinine Ore || 132.54 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Dynamite Ore.png]] || Dynamite Ore || 140.72 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Genevium Ore.png]] || Genevium Ore || 149.72 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Manhattite Ore.png]] || Manhattite Ore || 158.72 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Rationium Ore.png]] || Rationium Ore || 167.72 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Vaporium Ore.png]] || Vaporium Ore || 176.72 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Palmite Ore.png]] || Palmite Ore || 186.54 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Ransomite Ore.png]] || Ransomite Ore || 197.17 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:MVPD-1988 Ore.png]] || MVPD-1988 Ore || 207.81 {{Sprites|Gold Coin||x20}}
+|}
+|-|
+World 4=
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+ World 4
+|-
+!colspan=2| Ore !! Price
+|-
+|[[File:Chronite Ore.png]] || Chronite Ore || 218.36 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Hattium Ore.png]] || Hattium Ore || 229.62 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Pishalvite Ore.png]] || Pishalvite Ore || 241.24 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Teatimium Ore.png]] || Teatimium Ore || 253.24 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Rumium Ore.png]] || Rumium Ore || 265.63 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Anchorium Ore.png]] || Anchorium Ore || 278.41 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Mateyum Ore.png]] || Mateyum Ore || 291.58 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Hookite Ore.png]] || Hookite Ore || 305.16 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Carpetite Ore.png]] || Carpetite Ore || 319.15 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Djinnium Ore.png]] || Djinnium Ore || 333.55 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Sinbadium Ore.png]] || Sinbadium Ore || 348.38 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Turbanite Ore.png]] || Turbanite Ore || 363.63 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Carriagum Ore.png]] || Carriagum Ore || 379.31 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Crystal-Rose Ore.png]] || Crystal-Rose Ore || 395.44 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Frogstone Ore.png]] || Frogstone Ore || 412.00 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Slipperite Ore.png]] || Slipperite Ore || 429.02 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Jellystone Ore.png]] || Jellystone Ore || 446.50 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Lollipopite Ore.png]] || Lollipopite Ore || 464.44 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Mintium Ore.png]] || Mintium Ore || 482.85 {{Sprites|Gold Coin||x20}}
+|-
+|[[File:Neopolium Ore.png]] || Neopolium Ore || 501.73 {{Sprites|Gold Coin||x20}}
+|}
+
+</tabber>
+<references />
+
+==Navigation==
+{{Menu}}

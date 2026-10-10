@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock Misc Infernal Cards
+# Select Blue Cow from your bag
+# Go to Atomic Zone
+# Tap the 4 Dots
+# Tap Settings
+# Spam Alex
+## You have a small chance to get the card each time you click, it may take a while!
+
+</div>
+<div style="flex: 0 0 auto;">[[File:Alex Misc Card Infernal.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

@@ -1,0 +1,374 @@
+{{Version|2.2.23|0.9|May be missing info on Community Member Names}}
+
+<span style="display:none">{{RandomSkinImage}}<!--do not remove, pageImage for search--></span>
+<div style="display: flex;">{{FakeMenuButton|image={{RandomSkinImage|size=92px}}|size=92px|buttonSize=114px}}
+<div style="margin: 0 5px;"> There are 33 skins that can give you rewards: 6 from [[Events]], 13 regular and 13 gilded from [[Store#Gifts|Gifts]], and 1 from the [[Store#BallerSkinBundle|Baller Skin Bundle]].</div></div>
+{{Clear|left}}
+
+==In-game description==
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote =
+There are 33 unlockable Miner Skins<br>and 7 Unlockable Bag Sets
+
+13 Miner Skins are unlocked from Gifts<br>(1/200 with Duplicate Protection)<br>13 Gilded Skins are unlocked from Gifts<br>(1/2000 with Duplicate Protection)
+
+6 Miner Skins are unlocked from Events<br>1 Miner Skin is unlocked from a Purchase
+
+6 Bag Skin Sets are unlocked from Events<br>1 Bag Skin Set is unlocked from a Purchase
+
+6 Lootbug Skins are unlocked from Events,<br>their skin is chosen randomly upon spawning
+}}</div>
+
+==Name rerolling==
+In the Stats menu the miner's name can rerolled. Rerolling the name has a 1 in 8 chance to add on a surname. Certain names come with a special rare Easter Egg Skin which, if claimed, remain permanently available in the Skins menu. It is also possible to roll a name from a List which includes some community members and memes. A free reroll is earned every time you prestige, and rerolls can also be purchased for {{Gems|5}} each.
+
+==Body Type==
+The miner's Body Type can either be A or B. By default Body Type <code>Any</code> is selected, which means if the miner's name has the letter Y in it, Body Type B applies. Otherwise, Body Type A appears. Body Type <code>A</code> or Body Type <code>B</code> can also be selected to manually choose a Body Type. Body Type rules don't apply to Easter Egg skins.
+
+==List of Community Member/Meme Names==
+{| class="wikitable align-center-1 align-center-2 align-center-3"
+|-
+| Alex || Vydn || Julk
+|-
+| Caulwik || Karma || Sans
+|-
+| Fanq || Jake || Jako
+|-
+| Kohanu || Dark || Buns
+|- 
+| Tor || Wanderer || JSkinner
+|-
+| Ganian || Vitroil || Obelisk
+|-
+| Ara || Dagem || Rotor
+|- 
+| Rovepoo || 67 || Fknrove
+|-
+| Mlnw || Gamer<ref>A random number between 1 and 999 is appended after Gamer.</ref> || Porsche718
+|-
+| Kripplex || Scrump || OKKO
+|-
+| Perched || Ashgoz || Ayardur
+|-
+| MIATA || GT3 RS || Tellacon
+|-
+| Minnie || P911 TBS || 574 GMM
+|-
+| 93 X || Morris || Roq
+|-
+| Verf || {{NA}} || {{NA}}
+|}
+
+Additionally, it is possible to roll a number plate from England or Northern Ireland as a miner name, such as "PDG 881" at a 1 in 250 chance.
+<references />
+
+==Skin Rewards== 
+{|class="wikitable sticky-header align-center-1 lighttable"
+! Skins Needed !! Reward
+|-
+|<div id="SkinReward1"></div>1 || Mythic Chance From Relic 1/98
+|-
+|<div id="SkinReward2"></div>2 || Prestige Point Gain +20%
+|-
+|<div id="SkinReward3"></div>3 || Experience Gain +25%
+|-
+|<div id="SkinReward4"></div>4 || Floor Clear Requirement -8%
+|-
+|<div id="SkinReward5"></div>5 || Ore Sell Price +30%
+|-
+|<div id="SkinReward6"></div>6 || Lootbug Gem Price -1
+|-
+|<div id="SkinReward7"></div>7 || Mythic Chance From Relic 1/93
+|-
+|<div id="SkinReward8"></div>8 || Bomb of Plenty Multi +4x
+|-
+|<div id="SkinReward9"></div>9 || Triple Contract Chance +3%
+|-
+|<div id="SkinReward10"></div>10 || Game Speed +3%
+|-
+|<div id="SkinReward11"></div>11 || Triple Lootbug Chance +5%
+|-
+|<div id="SkinReward12"></div>12 || Pet Level Up Chance +4%
+|-
+|<div id="SkinReward13"></div>13 || Bomb Capacity +10%
+|-
+|<div id="SkinReward14"></div>14 || Banked Freebies +2
+|-
+|<div id="SkinReward15"></div>15 || Bomb of Plenty Multi +6x
+|-
+|<div id="SkinReward16"></div>16 || Drone Grade Exp Gain 1.35x
+|-
+|<div id="SkinReward17"></div>17 || All Floor Multipliers 1.15x
+|-
+|<div id="SkinReward18"></div>18 || Game Speed +5%
+|-
+|<div id="SkinReward19"></div>19 || Gem Bomb Gem Chance +1%
+|-
+|<div id="SkinReward20"></div>20 || Stonks Multiplier +12%
+|-
+|<div id="SkinReward21"></div>21 || Banked Freebies/Lootbugs +10%
+|-
+|<div id="SkinReward22"></div>22 || Unlock Item: Golden Chaos Totem
+|}
+
+==Skin List==
+<tabber class="sync">
+Body Type A=
+{|class="wikitable text-align-center centered borderless squared-cells"
+|+Body Type A
+|[[File:00 Male Default.png|center]]
+Default
+|[[File:01 Male Valentines Event.png|center]]
+Valentine's Event
+|[[File:02 Male Easter Event.png|center]]
+Easter Event
+|[[File:03 Male Magma Event.png|center]]
+Magma event
+|[[File:04 Male Summer Event.png|center]]
+Summer Event
+|[[File:05 Male Halloween Event.png|center]]
+Halloween Event
+|[[File:06 Male Christmas Event.png|center]]
+Christmas Event
+|-
+|[[File:07 Male Baller Skin.png|center]]
+[[Store#baller|Baller Value Pack]]
+|[[File:08 Male Gift Skin.png|center]]
+Gifts
+|[[File:09 Male Gift Skin.png|center]]
+Gifts
+|[[File:10 Male Gift Skin.png|center]]
+Gifts
+|[[File:11 Male Gift Skin.png|center]]
+Gifts
+|[[File:12 Male Gift Skin.png|center]]
+Gifts
+|[[File:13 Male Gift Skin.png|center]]
+Gifts
+|-
+|[[File:14 Male Gift Skin.png|center]]
+Gifts
+|[[File:15 Male Gift Skin.png|center]]
+Gifts
+|[[File:16 Male Gift Skin.png|center]]
+Gifts
+|[[File:17 Male Gift Skin.png|center]]
+Gifts
+|[[File:18 Male Gift Skin.png|center]]
+Gifts
+|[[File:19 Male Gift Skin.png|center]]
+Gifts
+|[[File:20 Male Gift Skin.png|center]]
+Gifts
+|}
+|-|
+Body Type B=
+{|class="wikitable text-align-center centered borderless squared-cells"
+|+Body Type B
+|[[File:00 Female Default.png|center]]
+Default
+|[[File:01 Female Valentines Event.png|center]]
+Valentine's Event
+|[[File:02 Female Easter Event.png|center]]
+Easter Event
+|[[File:03 Female Magma Event.png|center]]
+Magma event
+|[[File:04 Female Summer Event.png|center]]
+Summer Event
+|[[File:05 Female Halloween Event.png|center]]
+Halloween Event
+|[[File:06 Female Christmas Event.png|center]]
+Christmas Event
+|-
+|[[File:07 Female Baller Skin.png|center]]
+[[Store#baller|Baller Value Pack]]
+|[[File:08 Female Gift Skin.png|center]]
+Gifts
+|[[File:09 Female Gift Skin.png|center]]
+Gifts
+|[[File:10 Female Gift Skin.png|center]]
+Gifts
+|[[File:11 Female Gift Skin.png|center]]
+Gifts
+|[[File:12 Female Gift Skin.png|center]]
+Gifts
+|[[File:13 Female Gift Skin.png|center]]
+Gifts
+|-
+|[[File:14 Female Gift Skin.png|center]]
+Gifts
+|[[File:15 Female Gift Skin.png|center]]
+Gifts
+|[[File:16 Female Gift Skin.png|center]]
+Gifts
+|[[File:17 Female Gift Skin.png|center]]
+Gifts
+|[[File:18 Female Gift Skin.png|center]]
+Gifts
+|[[File:19 Female Gift Skin.png|center]]
+Gifts
+|[[File:20 Female Gift Skin.png|center]]
+Gifts
+|}
+|-|
+
+</tabber>
+
+==Gilded Skins==
+You can only get gilded skins from [[Store#tabber-Rare|Gifts]] at a low rate, the rest of the types of skins aren't in the game yet. Skins will be revealed as they are found. They do count for rewards.
+<tabber class="sync">
+|-|
+Body Type A=
+
+{|class="wikitable text-align-center centered borderless squared-cells"
+|+Body Type A
+|[[File:00 Male Default Gilded.png|center]]
+|[[File:01 Male Valentines Event Gilded.png|center]]
+|[[File:02 Male Easter Event Gilded.png|center]]
+|[[File:03 Male Magma Event Gilded.png|center]]
+|[[File:04 Male Summer Event Gilded.png|center]]
+|[[File:05 Male Halloween Event Gilded.png|center]]
+|[[File:06 Male Christmas Event Gilded.png|center]]
+|-
+|[[File:07 Male Baller Skin Gilded.png|center]]
+|[[File:08 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:09 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:10 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:11 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:12 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:13 Male Gift Skin Gilded.png|center]]
+Gifts
+|-
+|[[File:14 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:15 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:16 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:17 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:18 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:19 Male Gift Skin Gilded.png|center]]
+Gifts
+|[[File:20 Male Gift Skin Gilded.png|center]]
+Gifts
+|}
+|-|
+Body Type B=
+{|class="wikitable text-align-center centered borderless squared-cells"
+|+Body Type B
+|[[File:00 Female Default Gilded.png|center]]
+|[[File:01 Female Valentines Event Gilded.png|center]]
+|[[File:02 Female Easter Event Gilded.png|center]]
+|[[File:03 Female Magma Event Gilded.png|center]]
+|[[File:04 Female Summer Event Gilded.png|center]]
+|[[File:05 Female Halloween Event Gilded.png|center]]
+|[[File:06 Female Christmas Event Gilded.png|center]]
+|-
+|[[File:07 Female Baller Skin Gilded.png|center]]
+|[[File:08 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:09 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:10 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:11 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:12 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:13 Female Gift Skin Gilded.png|center]]
+Gifts
+|-
+|[[File:14 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:15 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:16 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:17 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:18 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:19 Female Gift Skin Gilded.png|center]]
+Gifts
+|[[File:20 Female Gift Skin Gilded.png|center]]
+Gifts
+|}
+
+</tabber>
+
+==Easter Egg Skins== 
+You get these skins by rolling the name. If you claim the name, you permanently unlock the option to change back to the skin. They don't count for rewards. There is a 1 in 10k chance to get an Easter Egg Skin. There is no duplicate protection. Easter Egg rolls are not affected by body type selection.
+{|class="wikitable text-align-center squared-cells centered borderless"
+|[[File:Shminer.png|center]]
+Shminer
+|[[File:Waste.png|center]]
+Waste
+|[[File:Obby.png|center]]
+Obby
+|[[File:Miner.png|center]]
+Miner
+|[[File:Horse.png|center]]
+Horse
+|[[File:Yessa.png|center]]
+Yessa
+|}
+
+==Bag Skins==
+Each Bag Set gives +3% Item Duration and +3% Bomb Capacity. Event Bag Sets are unlocked by reaching Wave 80 in the [[Events]]. 
+<tabber>
+Closed=
+<gallery mode="packed" heights="48px">
+Bomb Bag Default Closed.png | Default
+Bomb Bag Valentines Closed.png | Valentines
+Bomb Bag Easter Closed.png | Easter
+Bomb Bag Magma Closed.png | Magma
+Bomb Bag Summer Closed.png | Summer
+Bomb Bag Halloween Closed.png | Halloween
+Bomb Bag Christmas Closed.png | Christmas
+Bomb Bag Baller Closed.png | [[Store#baller|Baller VP]]
+</gallery>
+<gallery mode="packed" heights="48px">
+Item Bag Default Closed.png | Default
+Item Bag Valentines Closed.png | Valentines
+Item Bag Easter Closed.png | Easter
+Item Bag Magma Closed.png | Magma
+Item Bag Summer Closed.png | Summer
+Item Bag Halloween Closed.png | Halloween
+Item Bag Christmas Closed.png | Christmas
+Item Bag Baller Closed.png | [[Store#baller|Baller VP]]
+</gallery>
+|-|
+Opened=
+<gallery mode="packed" heights="48px">
+Bomb Bag Default Opened.png | Default
+Bomb Bag Valentines Opened.png | Valentines
+Bomb Bag Easter Opened.png | Easter
+Bomb Bag Magma Opened.png | Magma
+Bomb Bag Summer Opened.png | Summer
+Bomb Bag Halloween Opened.png | Halloween
+Bomb Bag Christmas Opened.png | Christmas
+Bomb Bag Baller Opened.png | [[Store#baller|Baller VP]]
+</gallery>
+<gallery mode="packed" heights="48px">
+Item Bag Default Opened.png | Default
+Item Bag Valentines Opened.png | Valentines
+Item Bag Easter Opened.png | Easter
+Item Bag Magma Opened.png | Magma
+Item Bag Summer Opened.png | Summer
+Item Bag Halloween Opened.png | Halloween
+Item Bag Christmas Opened.png | Christmas
+Item Bag Baller Opened.png | [[Store#baller|Baller VP]]
+</gallery>
+</tabber>
+
+
+==Navigation==
+{{Menu}}

@@ -1,0 +1,33 @@
+<tabber>
+|-|
+Freebie Gift Chance=
+{{Stat|Freebie Gift Chance|The chance for a gift to be included with your freebie claim.
+| '''Construct''' | The World 3 {{Sprite|18 Statue Soprano Normal|Construct|16x16|Statue of Soprano}}
+| spriteOverride=Gift}}
+
+|-|
+Freebie 100x Gift Chance=
+{{Stat|Freebie 100x Gift Chance|The chance to obtain 100 gifts from a freebie claim.
+| '''Construct''' | The World 3 {{Sprite|18 Statue Soprano Normal|Construct|16x16|Statue of Soprano}}
+| spriteOverride=Gift}}
+
+|-|
+Freebie Skil Bit Chance=
+{{Stat|Freebie Skill Bit Chance|The chance to get a skill bit from a freebie claim.
+| '''Skills''' | The {{Sprite|Gems & Chests|Skills|16x16}} Skill
+| spriteOverride=Skill Bit}}
+
+|-|
+Freebie Relic Chance=
+{{Stat|Freebie Relic Chance|The chance to get a Relic Chest from a freebie claim.
+| '''Base''' | 10%
+| '''Skills''' | The {{Sprite|Free That's a Great Price!|Skills|16x16|Free? That's a Great Price}} Skill<br/>The {{Sprite|Treasure Hunter|Skills|16x16}} Skill
+| spriteOverride=Relic Chest}}
+
+|-|
+... THe other Freebie Relic Chance=
+{{Stat|... The other Freebie Relic Chance|The second, independant chance ot get a Relic Chest from a freebie claim.
+| '''Cards''' | The {{Sprite|Relic Chest|Cards#Misc|16x16}} Misc Card
+| '''Store''' | The {{Sprite|Capitalistbundle vp|Store|16x16|Capitalist Bundle}} Value Pack 
+| spriteOverride=Relic Chest}}
+</tabber>

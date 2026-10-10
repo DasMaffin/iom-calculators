@@ -1,0 +1,355 @@
+{{Version|2.2.23|}}
+[[File:Contracts Button.png|frameless|left]]Contracts are unlocked at [[Obelisk]] level 12. Contract upgrades are not permanent; they will reset on [[Prestige]].
+
+Contracts require bars to complete. Completing more contracts increases the difficulty and number of bars required. Each contract completed will award you 10 {{Sprite|Contract Point||20|Contract Points}} by default. Contract points can be used to purchase upgrades, which get more expensive per upgrade purchased. Contracts start asking for World 2 bars after you've completed 2500 and World 3 bars after 5000.
+
+{{Clear|left}}
+==Contract upgrades==
+{{See also|Stats#Contracts}}
+Various upgrades are available to increase  {{Sprite|Contract Point||20|Contract Points}} gain and decrease expenditure:
+*[[Stats#tabber-Contract_Cost_Reduction|Contract Cost Reduction]] - Reduces the amount of bars required to complete Contracts up to 50,000% (reduces requirement to ~0.2% of the base value)
+*[[Stats#tabber-Double_Contract_Point_Chance|Double Contract Point Chance]] - Increases a chance to obtain 2x the amount of Contract Points from completing a Contract
+*[[Stats#tabber-Triple_Contract_Point_Chance|Triple Contract Point Chance]] - Increases a chance to obtain 3x the amount of Contract Points from completing a Contract
+*[[Stats#tabber-5x_Contract_Point_Chance|5x Contract Point Chance]] - Increases a chance to obtain 5x the amount of Contract Points from completing a Contract
+*[[Stats#tabber-10x_Contract_Point_Chance|10x Contract Point Chance]] - Increases a chance to obtain 10x the amount of Contract Points from completing a Contract
+*[[Stats#tabber-Contract_Points_Rewarded|Contract Points Rewarded]] - Increases the base amount of Contract Points received from completing a Contract (base 10)
+*[[Stats#tabber-Contract_Upgrade_Cap_Increase|Contract Upgrade Cap Increase]] - Increases the base cap of all Contract [[Contracts#Upgrades|Upgrades]]
+*[[Stats#tabber-Contract_Upgrade_Cost_Reduction|Contract Upgrade Cost Reduction]] - Reduces the amount of Contract Points needed to purchase an  [[Contracts#Upgrades|Upgrade]]
+
+==Contracts Refund==
+The "[[Skill-Tree#Skills|Who's Asking For All These Bars?]]" and "[[Skill-Tree#Skills|Please Sir Don't Make Me Prestige Again]]" skills provide contract point re-specs. They allow the option to reset contract upgrades and refund spent contract points to reallocate as desired. The former provides 1 re-spec total, and the latter provides 1 re-spec per level up to 3.
+
+==Upgrades==
+The max upgrade levels at base are given in the table below, but there are several ways to increase the level cap which can be found on the [[Stats#tabber-Contract_Upgrades_Cap_Increase|Stats Page]].
+<tabber>
+World 1=
+{| class="wikitable align-left-2 text-align-center"
+|+World 1
+! colspan=2 | Name !! Bonus !! style="width:5em" | Max Level (base)
+|-
+|<div id="Upgrades_W1_PickaxeDamagePerContractComplete"/>[[File:Pickaxe Damage.png]]
+|[[Stats#tabber-Pickaxe_Damage|Pickaxe Damage]] Per Contract Complete
+| +1% per Contract
+|1
+|-
+|<div id="Upgrades_W1_TripleCraftChance"/>[[File:Triple Craft Chance.png]]
+|Triple [[Special:MyLanguage/Craft Chance|Craft Chance]]
+| +1%
+|5
+|-
+|<div id="Upgrades_W1_PickaxeSuperCritChance"/>[[File:Pickaxe Super Crit Chance.png]]
+|[[Stats#tabber-Pickaxe_Super_Crit_Chance|Pickaxe Super Crit Chance]]
+| +2%
+|5
+|-
+|<div id="Upgrades_W1_BombRechargeRate"/>[[File:Bomb Recharge Speed.png]]
+|[[Stats#tabber-Bomb_Recharge_Speed|Bomb Recharge Rate]]
+| +3%
+|5
+|-
+|<div id="Upgrades_W1_EXPGain"/>[[File:Experience Gain Multiplier.png]]
+|[[Stats#tabber-Experience_Gain_Multiplier|EXP Gain]]
+| +10%
+|5
+|-
+|<div id="Upgrades_W1_PickaxeCritDamage"/>[[File:Pickaxe Crit Damage.png]]
+|[[Stats#tabber-Pickaxe_Crit_Damage|Pickaxe Crit Damage]]
+| +8%
+|5
+|-
+|<div id="Upgrades_W1_PickaxeDamage"/>[[File:Pickaxe Damage.png]]
+|[[Stats#tabber-Pickaxe_Damage|Pickaxe Damage]]
+| +15%
+|3
+|-
+|<div id="Upgrades_W1_UpgradeBarCost"/>[[File:Bar Cost Reduction.png]]
+|[[Stats#tabber-Bar_Cost_Reduction|Upgrade Bar Cost]]
+| -5%
+|3
+|-
+|<div id="Upgrades_W1_PrestigePointGain"/>[[File:Prestige Point Gain Multiplier.png]]
+|[[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain]]
+| +10%
+|3
+|-
+|<div id="Upgrades_W1_10xCraftChance"/>[[File:10x Craft Chance.png]]
+|10x [[Special:MyLanguage/Craft Chance|Craft Chance]]
+| +1%
+|1
+|}
+
+|-|
+World 2=
+{| class="wikitable align-left-2 text-align-center"
+|+World 2
+!colspan=2|Name !! Bonus !! style="width:5em" | Max Level (base) !! [[Obelisk|OB]] Min
+|-
+|<div id="Upgrades_W2_BombDamagePerContractComplete"/>[[File:Bomb Damage.png]]
+|[[Stats#tabber-Bomb_Damage|Bomb Damage]] Per Contract Complete
+| +1% Per Contract
+|1
+| {{NA}}
+|-
+|<div id="Upgrades_W2_OreSellPrice"/>[[File:Ore Sell Price Multiplier.png]]
+|[[Stats#tabber-Ore_Sell_Price_Multiplier|Ore Sell Price]]
+| +15%  
+| 10
+| {{NA}}
+|-
+|<div id="Upgrades_W2_VeinIncomeMultiplier"/>[[File:Vein Spawn Rate Multiplier.png]]
+|[[Stats#tabber-Vein_Income_Multiplier|Vein Income Multiplier]]
+| +4% 
+|5
+| {{NA}}
+|-
+|<div id="Upgrades_W2_PickaxeAndBombUltraCritChance"/>[[File:Pickaxe and Bomb Ultra Crit Chance.png]]
+|[[Stats#tabber-Pickaxe_Ultra_Crit_Chance|Pickaxe]] and [[Stats#tabber-Bomb_Ultra_Crit_Chance|Bomb]] Ultra Crit Chance
+| +1% 
+|5
+| {{NA}}
+|-
+|<div id="Upgrades_W2_GoldenFloorMultiplier"/>[[File:Golden Floor Multiplier.png]]
+|[[Stats#tabber-Golden_Floor_Multiplier|Golden Floor Multiplier]]
+| +3% 
+|5
+| {{NA}}
+|-
+|<div id="Upgrades_W2_GoldenVeinChance"/>[[File:Golden Vein Chance.png]]
+|[[Stats#tabber-Golden_Vein_Chance|Golden Vein Chance]]
+| +1% 
+|5
+| {{NA}}
+|-
+|<div id="Upgrades_W2_SuperStarSpawnRate"/>[[File:Super Star Spawn Rate Multiplier.png]]
+|[[Stats#tabber-Super_Star_Spawn_Rate_Multiplier|Super Star Spawn Rate]]
+| +3% 
+|5
+|23
+|-
+|<div id="Upgrades_W2_BaseGameSpeed"/>[[File:Game Speed Multiplier.png]]
+|[[Stats#tabber-Game_Speed_Multiplier|Base Game Speed]]
+| +1% 
+|10
+|23
+|-
+|<div id="Upgrades_W2_RainbowFloorMulti"/>[[File:Rainbow Floor Multiplier.png]]
+|[[Stats#tabber-Rainbow_Floor_Multiplier|Rainbow Floor Multi]]
+| +2% 
+|10
+|28
+|-
+|<div id="Upgrades_W2_SuperStarSupernovaChance"/>[[File:Super Star Supernova Chance.png]]
+|[[Stats#tabber-Super_Star_Supernova_Chance|Super Star Supernova Chance]]
+| +0.15% 
+|10
+|28
+|}
+
+|-|
+World 3=
+{| class="wikitable align-left-2 text-align-center"
+|+World 3
+!colspan=2|Name !! Bonus !! style="width:5em" | Max Level (base) !! [[Obelisk|OB]] Min
+|-
+|<div id="Upgrades_W3_RainbowFloorChance"/>[[File:Rainbow Floor Chance.png]]
+|[[Stats#tabber-Rainbow_Floor_Chance|Rainbow Floor Chance]]
+| +0.30% 
+|10
+|42
+|-
+|<div id="Upgrades_W3_GoldenOreChance"/>[[File:Golden Ore Chance.png]]
+|[[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]]
+| +0.20% 
+|15
+|42
+|-
+|<div id="Upgrades_W3_PickaxeAndBombOmegaCritChance"/>[[File:Pickaxe and Bomb Omega Crit Chance.png]]
+|[[Stats#tabber-Pickaxe_Omega_Crit_Chance|Pickaxe]] & [[Stats#tabber-Bomb_Omega_Crit_Chance|Bomb]] Omega Crit Chance
+| +2% 
+|15
+|42
+|-
+|<div id="Upgrades_W3_PickaxeAndBombDamage"/>[[File:Pickaxe and Bomb Damage.png]]
+|[[Stats#tabber-Pickaxe_Damage|Pickaxe]] & [[Stats#tabber-Bomb_Damage|Bomb]] Damage
+|1.08x 
+|5
+|45
+|-
+|<div id="Upgrades_W3_StarSupergiantChance"/>[[File:Star Supergiant Chance.png]]
+|[[Stats#tabber-Star_Supergiant_Chance|Star Supergiant Chance]]
+| +0.20% 
+|5
+|50
+|-
+|<div id="Upgrades_W3_SuperStarSupergiantChance"/>[[File:Super Star Supergiant Chance.png]]
+|[[Stats#tabber-Super_Star_Supergiant_Chance|Super Star Supergiant Chance]]
+| +0.10%
+|5
+|52
+|}
+
+|-|
+World 4=
+{| class="wikitable align-left-2 text-align-center"
+|+World 4
+! colspan=2 | Name !! Bonus !! style="width:5em" | Max Level (base) !! [[Obelisk|OB]] Min
+|-
+|<div id="Upgrades_W4_RainbowVeinMultiplier"/>[[File:Rainbow Vein Multiplier.png]] 
+|[[Stats#tabber-Rainbow_Vein_Multiplier|Rainbow Vein Multiplier]]
+| +1% || 5 || 62
+|-
+|<div id="Upgrades_W4_PrismaticFloorMulti"/>[[File:Prismatic Galactic Floor Multi.png]]
+|[[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Multi|Prismatic Floor Multi]]
+| +0.50% || 5 || 64
+|-
+|<div id="Upgrades_W4_AllStarMultiplier"/>[[File:All Star Multiplier.png]]
+|[[Stats#Stats#tabber-All_Star_Multiplier|All Star Multiplier]]
+| +0.65% || 5 || 65
+|-
+|<div id="Upgrades_W4_LootfrogTripleSpawnChance"/>[[File:Frog Frenzy.png]]
+|[[Stats#tabber-Lootfrog_Triple_Spawn_Chance|Lootfrog Triple Spawn Chance]]
+| +0.10% || 5 || 66
+|-
+|<div id="Upgrades_W4_GoldenVoidPortalChance"/>[[File:Golden Void Portal Chance.png]]
+|[[Stats#tabber-Golden_Void_Portal_Chance|Golden Void Portal Chance]]
+| +0.10% || 5 || 67
+|-
+|<div id="Upgrades_W4_AllRadiantMultis"/>[[File:All_Star_Radiant_Multi.png]]
+|[[Stats#tabber-Star_Radiant_Multiplier|All Radiant Multis]]
+| +1% || 5 || 70
+|-
+|<div id="Upgrades_W4_RuneCraftMulti"/>[[File:Rune_Craft_Multi.png]]
+|[[Stats#tabber-Rune_Craft_Multi|Rune Craft Multi]]
+| +0.50% || 5 || 71
+|-
+|<div id="Upgrades_W4_AllPortalMulti"/>[[File:All Void Portal Multis.png]]
+|[[Stats#tabber-All_Portal_Multi|All Portal Multi]]
+| +0.40% || 5 || 73
+|}
+</tabber>
+
+===W1 Contract Base Cost===
+<tabber>|-| 
+Pickaxe Damage Per Contract +1%=
+{{CostTable|Pickaxe Damage Per Contract +1%|15|490|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|10|Contract_Point|Contract Points|overrideLevel=3=1500,5=5000,7=12500,8=14000|overrideScaling=3=1500,5=3500,8=3000}}
+|-|
+Triple Craft Chance 1%=
+{{CostTable|Triple Craft Chance 1%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|14|Contract_Point|Contract Points|rounding=round}}
+|-|
+Pickaxe Super Crit Chance 2%=
+{{CostTable|Bomb Recharge Rate +3%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|18|Contract_Point|Contract Points|rounding=round}}
+|-|
+Bomb Recharge Rate +3%=
+{{CostTable|Bomb Recharge Rate +3%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|22|Contract_Point|Contract Points|rounding=round}}
+|-|
+Exp Gain +10%=
+{{CostTable|Exp Gain +10%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|26|Contract_Point|Contract Points|rounding=round}}
+|-|
+Pickaxe Crit Damage +8%=
+{{CostTable|Pickaxe Crit Damage +8%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|30|Contract_Point|Contract Points|rounding=round}}
+|-|
+Pickaxe Damage +15%=
+{{CostTable|Pickaxe Damage +15%|17|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|34|Contract_Point|Contract Points|rounding=round}}
+|-|
+Upgrade Bar Cost -5%=
+{{CostTable|Upgrade Bar Cost -5%|17|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|38|Contract_Point|Contract Points|rounding=round}}
+|-|
+Prestige Point Gain +10%=
+{{CostTable|Prestige Point Gain +10%|17|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|42|Contract_Point|Contract Points|rounding=round}} 
+|-|
+x10 Craft Chance=
+{{CostTable|x10 Craft Chance|15|1.6|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|150|Contract_Point|Contract Points|rounding=round}}
+</tabber>
+
+===W2 Contract Base Cost===
+
+<tabber>
+|-| 
+Bomb Damage Per Contract +1%=
+{{CostTable|Bomb Damage Per Contract +1%|15|400|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|100|Contract_Point|Contract Points|overrideLevel=3=1500,5=5000,7=12500,8=14000|overrideScaling=3=1500,5=3500,8=3000}}
+|-|
+Ore Sell Price 15%=
+{{CostTable|Ore sell price 15%|24|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|75|Contract_Point|Contract Points|rounding=round}} 
+|-|
+Vein Income Multiplier +4%=
+{{CostTable|Vein income multiplier +4%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|100|Contract_Point|Contract Points|rounding=round}} 
+|-|
+Pickaxe And Bomb Ultra Crit Chance +1%=
+{{CostTable|Pickaxe And Bomb Ultra Crit Chance +1%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|125|Contract_Point|Contract Points|rounding=round}} 
+|-|
+Golden Floor Multiplier +3%=
+{{CostTable|Golden Floor Multiplier +3%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|150|Contract_Point|Contract Points|rounding=round}} 
+|-|
+Golden Vein Chance +1%=
+{{CostTable|Golden Vein Chance +1%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|175|Contract_Point|Contract Points|rounding=round}}
+|-|
+Super Star Spawn Rate 3%=
+{{CostTable|Super Star Spawn Rate 3%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|200|Contract_Point|Contract Points|rounding=round}}
+|-|
+Base Game Speed +1%=
+{{CostTable|Base Game Speed +1%|24|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|250|Contract_Point|Contract Points|rounding=round}}
+|-|
+Rainbow Floor Multi 2%=
+{{CostTable|Rainbow Floor Multi 2%|24|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|265|Contract_Point|Contract Points|rounding=round}}
+|-|
+Super Star Supernova Chance 0.15%=
+{{CostTable|Super Star Supernova Chance 0.15%|24|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|280|Contract_Point|Contract Points|rounding=round}}
+</tabber>
+
+===W3 Contract Base Cost===
+
+<tabber>
+|-| 
+Rainbow Floor Chance 0.30%=
+{{CostTable|Rainbow Floor Chance 0.30%|24|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|300|Contract_Point|Contract Points|rounding=round}}
+|-|
+Golden Ore Chance 0.20%=
+{{CostTable|Golden Ore Chance 0.20%|29|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|325|Contract_Point|Contract Points|rounding=round}}
+|-|
+Pickaxe And Bomb Omega Crit Chance +2%=
+{{CostTable|Pickaxe And Bomb Omega Crit Chance +2%|29|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|350|Contract_Point|Contract Points|rounding=round}}
+|-|
+Pickaxe And Bomb Damage 1.08x=
+{{CostTable|Pickaxe And Bomb Damage 1.08x|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|400|Contract_Point|Contract Points|rounding=round}}
+|-|
+Star Supergiant Chance 0.20%=
+{{CostTable|Star Supergiant Chance 0.20%|19|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|520|Contract_Point|Contract Points|overrideScaling=3=1.3|rounding=round}}
+|-|
+Super Star Super Giant Chance +0.10%=
+{{CostTable|Super Star Super Giant Chance +0.10%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|750|Contract_Point|Contract Points|rounding=round}}
+</tabber>
+
+===W4 Contract Base Cost===
+
+<tabber>
+|-| 
+Rainbow Vein Multiplier +1%=
+{{CostTable|Rainbow Vein Multiplier +1%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2500|Contract_Point|Contract Points|rounding=round}}
+|-|
+Prismatic Floor Multi 0.50%=
+{{CostTable|Prismatic floor multi 0.50%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3250|Contract_Point|Contract Points|rounding=round}}
+|-|
+All Star Multiplier 0.65%=
+{{CostTable|All Star Multiplier 0.65%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4000|Contract_Point|Contract Points|rounding=round}}
+|-|
+Lootfrog Triple Spawn Chance 0.10%=
+{{CostTable|Lootfrog Triple Spawn Chance 0.10%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4750|Contract_Point|Contract Points|rounding=round}}
+|-|
+Golden Void Portal Chance 0.10%=
+{{CostTable|Golden Void Portal Chance 0.10%|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5500|Contract_Point|Contract Points|rounding=round}}
+|-|
+All Radiant Multi=
+{{CostTable|All Radiant Multi|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|6000|Contract_Point|Contract Points|rounding=round}}
+|-|
+Rune Craft Multi=
+{{CostTable|Rune Craft Multi|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|6500|Contract_Point|Contract Points|rounding=round}}
+|-|
+All Portal Multi=
+{{CostTable|All Portal Multi|19|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|885|Contract_Point|Contract Points|rounding=round}}
+</tabber>
+
+==Trivia==
+*There used to be an upgrade that would reduce the contract bar requirement by 40% which was available at [[Prestige#Tier 3 Artifacts|Prestige Tier 3]]. This was removed in the relic overhaul update in favor of the rare relics that perform a similar function described above. The artifact was replaced by a bomb capacity upgrade.
+
+==Navigation==
+{{Menu}}

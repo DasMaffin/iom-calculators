@@ -1,0 +1,41 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="HappyBotQuest" /><ref name="PolyPotency" /> || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Aries}} || Aries || Aries Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Taurus}} || Taurus || Taurus Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Gemini}} || Gemini || Gemini Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Cancer}} || Cancer || Cancer Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Leo}} || Leo || Leo Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Virgo}} || Virgo || Virgo Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Libra}} || Libra || Libra Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Scorpio}} || Scorpio || Scorpio Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Sagittarius}} || Sagittarius || Sagittarius Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Capricorn}} || Capricorn || Capricorn Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Aquarius}} || Aquarius || Aquarius Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Pisces}} || Pisces || Pisces Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Ophiuchus}} || Ophiuchus || Ophiuchus Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Orion}} || Orion || Orion Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Hercules}} || Hercules || Hercules Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Draco}} || Draco || Draco Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Cetus}} || Cetus || Cetus Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Phoenix}} || Phoenix || Phoenix Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|-
+| {{CardShowcase|card=Eridanus}} || Eridanus || Eridanus Star Gain 1.50x || 2x || 4x-7.13x || +0.20x/+0.01x
+|}

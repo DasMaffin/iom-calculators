@@ -1,0 +1,388 @@
+{{Version|2.2.23}}
+<span style="display:none">[[File:Event Button Halloween.png|frameless]]</span><!--do not remove, pageImage for search-->
+{{CurrentEvent}}
+<div style="display:flex">{{CurrentEventImage|size=114px}} 
+<div style="margin:0 5px">Events are a mini-game accessible every 2 months, lasting for a month each. Events exist entirely within their own menu; they are not affected by anything you do outside of them, nor do they affect main-game functionality. They do, however, offer Event Upgrades for {{Sprites|Gem||16x16}}, grant main-game rewards like {{Sprites|Skill Bit||16x16}} and {{Sprites|Relic Chest|Chests#Relic Chests|16x16}}, and sell various goodies like {{Sprites|Gift||16x16}}, also for {{Sprites|Gem||16x16}}.</div></div>
+{{Clear|left}}
+
+==In-game description==
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote = 
+Events run every other month and can be played passively along with your progression in the main game.
+
+Defeat a wave of enemies to earn currencies, use that currency to upgrade your miner. Reach higher waves to unlock rewards!
+
+Event currency income:<br>
+Every wave you will earn: {{CurrentEventImage|field=currency1}}<br>
+Every 5th wave you will earn: {{CurrentEventImage|field=currency2}}<br>
+Every 10th wave you will earn: {{CurrentEventImage|field=currency3}}<br>
+Every 15th wave you will earn: {{CurrentEventImage|field=currency4}}<br>
+
+Currency gain scales as you reach deeper waves, for example on wave 10 you will get 10 {{CurrentEventImage|field=currency1}}, 2 {{CurrentEventImage|field=currency2}} and 1 {{CurrentEventImage|field=currency3}}.
+
+The rewards to look out for are the event skins that swag out your miner and give you access to new stats, lootbug skins, inventory/bomb bag skins and mythic relic chests! {{CurrentEventImage|field=skinIcon}} [[File:Mythic Chest.png|20x20px]]
+}}</div>
+
+==Strategy==
+{{See also|Guides/Events_Guide}}
+This strategy summary may spoil fun of event playthrough, so read this only if you wish to have a step-by-step guide to efficiently accessing all rewards.
+
+===Spending Gems===
+Beating the event for the minimum amount of gems:
+* Spend {{gems|1225}} immediately: 1x ''125% event speed'', 1x ''2x currency'', and 3x ''+10% health''.
+* If you don't have {{gems|1225}} ready, prioritize 2x currency for {{gems|500}}.
+* Follow guidance on optimal prestiging below.
+* As long as you check in regularly, you should beat the event near its end.
+* Guaranteed {{gems|655}} and 72 [[Store#Skill_Bits|skill bits]] (double if you build [[construct#Monuments|W2 monument]] before claiming), plus more from [[store#gifts|gifts]] = worth the gems.
+If you value speed over gems, buy 2 more (+10% health) and optionally 2 of the gem (+10% attack damage) to beat with ~10 days remaining.
+
+===Other tips===
+* The upgrades page is scrollable!!!
+*  Early on focus attack damage upgrades to one shot enemies
+*  Very quickly attack damage upgrades become obsolete. At that point focus on HP and attack speed
+*  Attack speed is very important, in essence it is an extension of HP
+* For 2x rewards you only have to build the [[construct#Monuments|W2 monument]] before actually claiming the rewards, so don't claim them right away and try to build the monument before the end of the month.
+
+===Optimal prestiging===
+These are the Prestige Ranks worth prestiging for once reached, unless you are extremely close to the next rank due to coming back from a long idle. You can claim 1 Prestige Rank (P) for every 5 waves completed, starting at wave (W) 10.
+
+P1/W10 -> P2/W15 -> P5/W30 -> P10/W55 -> P20/W105 -> P40/W205
+
+This should be enough to reach wave 250.
+
+==Event List==
+Every year the Events occur at specific time.
+{| class="wikitable"
+! colspan="2" | Event !! Date
+|-
+| [[File:Event Button Valentines.png|48px]] || Valentines Event ||  1 February - 28 February
+|-
+| [[File:Event Button Easter.png|48px]] || Easter Event ||  1 April - 30 April
+|-
+| [[File:Event Button Magma.png|48px]] || Magma Event ||  1 June - 30 June
+|-
+| [[File:Event Button Summer.png|48px]] || Summer Event ||  1 August - 31 August
+|-
+| [[File:Event Button Halloween.png|48px]] || Halloween Event ||  1 October - 31 October
+|-
+| [[File:Event Button Christmas.png|48px]] || Christmas Event || 1 December - 31 December
+|}
+
+==List of rewards==
+All rewards except {{Sprites|Gift||20x20}}, {{Sprites|Mythic Chest||20x20}}, and [[Skins|Skins]] are multiplied by 2x for each World Monument you build. You receive a 2x multiplier at World 2, a 4x multiplier at World 3, and a 8x multiplier at World 4.
+{| class="wikitable lighttable sticky-header align-center-1"
+! Wave !! Rewards
+|-
+| 2 || {{Gems|20}}
+|-
+| 4 || 6 {{Sprites|Item Chest||20x20}}
+|-
+| 6 || 2 {{Sprites|Gift||20x20}}
+|-
+| 8 || {{Gems|30}}
+|-
+| 10 || 10 {{Sprites|Charge Magnet||20x20}}
+|-
+| 12 || 5 {{Sprites|Relic Chest||20x20}}
+|-
+| 14 || 15 {{Sprites|Item Chest||20x20}}
+|-
+| 16 || {{Gems|40}}
+|-
+| 18 || 3 {{Sprites|Blue Cow||20x20}}
+|-
+| 20 || 5 {{Sprites|Gift||20x20}}
+|-
+| 22 || {{Gems|50}}
+|-
+| 24 || 20 {{Sprites|Item Chest||20x20}}
+|-
+| 26 || 10 {{Sprites|Skill Bit||20x20}}
+|-
+| 28 || 5 {{Sprite|Primal Meat||20x20}}
+|-
+| 30 || 8 {{Sprites|Relic Chest||20x20}}
+|-
+| 32 || {{Gems|65}}
+|-
+| 34 || 12 {{Sprites|Skill Bit||20x20}}
+|-
+| 36 || 10 {{Sprites|Relic Chest||20x20}}
+|-
+| 38 || {{Gems|80}}
+|-
+| 40 || {{CurrentEventImage|field=skinIcon}} Seasonal Miner + Lootbug Skin
+|-
+| 42 || 5 {{Sprites|Blue Cow||20x20}}
+|-
+| 44 || 30 {{Sprites|Item Chest||20x20}}
+|-
+| 46 || 14 {{Sprites|Skill Bit||20x20}}
+|-
+| 48 || {{Gems|100}}
+|-
+| 50 || 1 {{Sprite|Mythic Chest||20x20}}
+|-
+| 55 || 12 {{Sprites|Relic Chest||20x20}}
+|-
+| 60 || 16 {{Sprites|Skill Bit||20x20}}
+|-
+| 65 || {{Gems|120}}
+|-
+| 70 || 8 {{Sprites|Gift||20x20}}
+|-
+| 75 || {{Gems|150}}
+|-
+| 80 || [[File:Event Bag Skin Icon.png|20x20px]] Seasonal Bag Skin
+|-
+| 85 || 30 {{Sprites|Relic Chest||20x20}}
+|-
+| 90 || 20 {{Sprites|Skill Bit||20x20}}
+|-
+| 95 || 10 {{Sprites|Gift||20x20}}
+|-
+| 100 || 1 {{Sprite|Mythic Chest||20x20}}
+|-
+| 115 || 2 {{Sprites|Gift||20x20}}
+|-
+| 130 || 3 {{Sprites|Gift||20x20}}
+|-
+| 150 || 5 {{Sprites|Gift||20x20}}
+|-
+| 200 || 10 {{Sprites|Gift||20x20}}
+|-
+| 250 || 15 {{Sprites|Gift||20x20}}
+|}
+
+===Rewards summary===
+* {{Gems|655}}
+* 72 {{Sprites|Skill Bit||20x20}}
+* 60 {{Sprites|Gift||16}}
+* 10 {{Sprites|Charge Magnet||20x20}}
+* 8 {{Sprites|Blue Cow||20x20}}
+* 5 {{Sprite|Primal Meat||20x20}}
+* 71 {{Sprites|Item Chest||20x20}}
+* 65 {{Sprites|Relic Chest||20x20}}
+* 2 {{Sprites|Mythic Chest||20x20}}
+* Seasonal Miner + Lootbug Skin
+* Seasonal Bag skin
+
+== Event Upgrades ==
+{{See also|Events/Costs}}
+All '''non-gem''' Upgrades (Tier 1–4 / currency Upgrades) use the same exponential cost formula: each level costs '''25% more''' than the previous level. The cost of level <math>L</math> (1-based) is <math>\text{round}(\text{base} \times 1.25^{L-1})</math>, where ''base'' is the level-1 price listed in the upgrade table. Gem Upgrades use separate fixed or linear gem pricing (see below), not this formula.
+
+{| class="wikitable sticky-header align-left-2 text-align-center"
+! colspan=2 | Upgrade !! style="width:5em" | Max Level (base) !! Prestige !! Base Cost
+|-
+! colspan=5 | Gem Upgrades
+|-
+| {{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}} || +10% Damage || 5<ref name=GemUpgradeCap>Increased by 1 each Prestige Rank.</ref> || 0 || {{Gems|50}}
+|-
+| {{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}} || +10% Maximum Health || 5<ref name=GemUpgradeCap /> || 0 || {{Gems|50}}
+|-
+| {{CurrentEventImage|field=upgradeEventSpeed|size=32x32px}} || +125% Event Game Speed || 1<ref name=PrestigeRank>Increased by 1 every 5 Prestige Ranks. Maximum of 3.</ref> || 0 || {{Gems|500}}
+|-
+| {{CurrentEventImage|field=upgradeExtraCurrency|size=32x32px}} || 2x Event Currencies || 1 || 0 || {{Gems|500}}
+|-
+! colspan=5 | Tier 1 Upgrades
+|-
+| {{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}} || +1 Attack Damage || 50 || 0 || {{FormatNumber|5}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}} || +2 Maximum Health || 50 || 0 || {{FormatNumber|6}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}} || +0.02 Attack Speed || 25 || 0 || {{FormatNumber|8}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeMoveSpeed|size=32x32px}} || +0.03 Move Speed || 25 || 0 || {{FormatNumber|10}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeEventSpeed|size=32x32px}} || +3% Event Game Speed || 25 || 1 || {{FormatNumber|12}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeCritChance|size=32x32px}} || +1% Crit Chance<br>+0.10 Crit Damage || 25 || 2 || {{FormatNumber|20}} {{CurrentEventImage|field=currency1}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}}}}
+| +1 Attack Damage<br>+2 Maximum Health || 25 || 2 || {{FormatNumber|75}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradeCaps|size=32x32px}} || +1 Tier 1 Upgrade Caps || 10 || 4 || {{FormatNumber|2500}} {{CurrentEventImage|field=currency1}}
+|-
+| {{CurrentEventImage|field=upgradePrestigeBonus|size=32x32px}} ||+1%<ref name=":0">This is not a 1% (2%) increase to the total effect of prestige, but an additional 1% (2%) maximum health and damage per Prestige Rank.</ref> Prestige Bonus || 5 || 8 || {{FormatNumber|25000}} {{CurrentEventImage|field=currency1}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}}}}
+| +3 Attack Damage<br>+3 Maximum Health || 40 || 10 || {{FormatNumber|5000}} {{CurrentEventImage|field=currency1}}
+|-
+! colspan=5 | Tier 2 Upgrades
+|-
+| {{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}} || +3 Maximum Health || 25 || 0 || {{FormatNumber|5}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradeEnemyAttackSpeed|size=32x32px}} || -0.02 Enemy Attack Speed || 15 || 0 || {{FormatNumber|8}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradeEnemyAttackDamage|size=32x32px}} || -1 Enemy Attack Damage || 10 || 0 || {{FormatNumber|12}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradeEnemyAttackSpeed|size=32x32px}} || -1% Enemy Crit Chance<br>-0.10 Enemy Crit Damage || 15 || 1 || {{FormatNumber|20}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}} || +1 Attack Damage<br>+0.01 Attack Speed || 25 || 3 || {{FormatNumber|40}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradeCaps|size=32x32px}} || +1 Tier 2 Upgrade Caps || 10 || 5 || {{FormatNumber|500}} {{CurrentEventImage|field=currency2}}
+|-
+| {{CurrentEventImage|field=upgradePrestigeBonus|size=32x32px}} || +2%<ref name=":0" /> Prestige Bonus || 15 || 10 || {{FormatNumber|650}} {{CurrentEventImage|field=currency2}}
+|-
+! colspan=5 | Tier 3 Upgrades
+|-
+| {{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}} || +2 Attack Damage || 20 || 1 || {{FormatNumber|5}} {{CurrentEventImage|field=currency3}}
+|-
+| {{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}} || +0.02 Attack Speed || 20 || 1 || {{FormatNumber|8}} {{CurrentEventImage|field=currency3}}
+|-
+| {{CurrentEventImage|field=upgradeCritChance|size=32x32px}} || +1% Crit Chance || 20 || 2 || {{FormatNumber|12}} {{CurrentEventImage|field=currency3}}
+|-
+| {{CurrentEventImage|field=upgradeEventSpeed|size=32x32px}} || +5% Event Game Speed || 20 || 3 || {{FormatNumber|18}} {{CurrentEventImage|field=currency3}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}}}}
+| +3 Attack Damage<br>+3 Maximum Health || 10 || 4 || {{FormatNumber|30}} {{CurrentEventImage|field=currency3}}
+|-
+| {{CurrentEventImage|field=upgradeCaps|size=32x32px}} || +1 Tier 3 Upgrade Caps || 10 || 6 || {{FormatNumber|250}} {{CurrentEventImage|field=currency3}}
+|-
+| {{CurrentEventImage|field=upgradeExtraCurrency|size=32x32px}} ||  +3% 5x Drop Chance || 10 || 8 || {{FormatNumber|300}} {{CurrentEventImage|field=currency3}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}}}}
+| +5 Maximum Health<br>+0.03 Attack Speed || 40 || 10 || {{FormatNumber|125}} {{CurrentEventImage|field=currency3}}
+|-
+! colspan=5 | Tier 4 Upgrades
+|-
+| {{CurrentEventImage|field=upgradeBlockChance|size=32x32px}} ||  1% Block Chance || 15 || 1 || {{FormatNumber|10}} {{CurrentEventImage|field=currency4}}
+|-
+| {{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}} || +5 Maximum Health || 15 || 1 || {{FormatNumber|12}} {{CurrentEventImage|field=currency4}}
+|-
+| {{CurrentEventImage|field=upgradeCritDamage|size=32x32px}} || +0.10 Crit Damage<br>-0.10 Enemy Crit Damage || 15 || 4 || {{FormatNumber|15}} {{CurrentEventImage|field=currency4}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMoveSpeed|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}}}}
+| +0.02 Attack Speed<br>+0.02 Move Speed || 15 || 5 || {{FormatNumber|20}} {{CurrentEventImage|field=currency4}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackDamage|size=32x32px}}}}
+| +4 Maximum Health<br>+4 Attack Damage || 15 || 6 || {{FormatNumber|40}} {{CurrentEventImage|field=currency4}}
+|-
+| {{CurrentEventImage|field=upgradeCaps|size=32x32px}} || +1 Tier 4 Upgrade Caps || 10 || 6 || {{FormatNumber|250}} {{CurrentEventImage|field=currency4}}
+|-
+| {{CurrentEventImage|field=upgradeCaps|size=32x32px}} || +1 Cap of Cap Upgrades || 10<ref name=Tier4Caps>Is not increased by Tier 4 Upgrade Caps.</ref> || 7 || {{FormatNumber|500}} {{CurrentEventImage|field=currency4}}
+|-
+| {{OverlayImages|height=34px|image1={{CurrentEventImage|field=upgradeMaximumHealth|size=32x32px}}|image2={{CurrentEventImage|field=upgradeAttackSpeed|size=32x32px}}}}
+| +10 Maximum Health<br>+0.05 Attack Speed || 40 || 10 || {{FormatNumber|150}} {{CurrentEventImage|field=currency4}}
+|}
+<references />
+
+== Emporium ==
+{| class="wikitable text-align-center align-left-2 align-left-4 lighttable"
+! colspan=2 | Item !! Stock !! Price
+|-
+| [[File:Mythic Chest.png|30x30px]] || 1x Mythic Chest || 1 || {{Gems|750}}
+|-
+| [[File:Gift.png|30x30px]] || 3x Gifts || 5 || {{Gems|150}}
+|-
+| [[File:Relic Chest.png|30x30px]] || 10x Relic Chest || 10 || {{Gems|100}}
+|-
+| [[File:Blue Cow.png|30x30px]] || 5x Blue Cow || 5 || {{Gems|125}}
+|-
+| [[File:Item Chest.png|30x30px]] || 20x Item Chest || 10 || {{Gems|75}}
+|-
+| [[File:Charge Magnet.png|30x30px]] || 15x Charge Magnet || 10 || {{Gems|75}}
+|-
+| [[File:Sushi.png|30x30px]] || 3x Sushi<ref name="EmporiumSushi">Requires Obelisk 37.</ref> || 25 || 3+ [[File:Blue Cow.png|20x20px]] Blue Cow<ref>Base cost is 3, scaling by x1.22 with each purchase and flooring. The total cost is 1941 blue cows.</ref>
+|-
+| [[File:Gift.png|30x30px]] || 2x Gifts<ref name="EmporiumGifts">Requires Obelisk 42.</ref> || 15 || 6h+ of [[File:Game_Speed_Multiplier.png|20x20px]] Game Speed<ref>Base cost is 6h '''with true time disabled''' and it scales by x1.35 with each purchase.</ref>
+|}
+<references />
+
+===Emporium costs===
+<tabber>3x Sushi=
+{{CostTable|[[File:Sushi.png|20x20px]] 3x Sushi|25|1.22|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3|Blue Cow|Blue Cow}}
+|-|
+2x Gifts=
+Base cost '''with true time disabled'''.
+{{CostTable|[[File:Gift.png|20x20px]]2x Gifts|15|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|6|Game Speed Multiplier|Game Speed|useDateTimeCalculation=true}}
+</tabber>
+
+==Gallery==
+===Enemies===
+<tabber>
+Valentines=
+<gallery mode="packed" heights="50">
+Valentines Event Enemy 1.png
+Valentines Event Enemy 2.png
+Valentines Event Enemy 3.png
+Valentines Event Enemy 4.png
+Valentines Event Enemy 5.png
+Valentines Event Enemy 6.png
+Valentines Event Enemy 7.png
+Valentines Event Enemy 8.png
+</gallery>
+|-|
+Easter=
+<gallery mode="packed" heights="50">
+Easter Event Enemy 1.png
+Easter Event Enemy 2.png
+Easter Event Enemy 3.png
+Easter Event Enemy 4.png
+Easter Event Enemy 5.png
+Easter Event Enemy 6.png
+Easter Event Enemy 7.png
+Easter Event Enemy 8.png
+</gallery>
+|-|
+Magma=
+<gallery mode="packed" heights="50">
+Magma Event Enemy 1.png
+Magma Event Enemy 2.png
+Magma Event Enemy 3.png
+Magma Event Enemy 4.png
+Magma Event Enemy 5.png
+Magma Event Enemy 6.png
+Magma Event Enemy 7.png
+Magma Event Enemy 8.png
+</gallery>
+|-|
+Summer=
+<gallery mode="packed" heights="50">
+Summer Event Enemy 1.png
+Summer Event Enemy 2.png
+Summer Event Enemy 3.png
+Summer Event Enemy 4.png
+Summer Event Enemy 5.png
+Summer Event Enemy 6.png
+Summer Event Enemy 7.png
+Summer Event Enemy 8.png
+</gallery>
+|-|
+Halloween=
+<gallery mode="packed" heights="50">
+Halloween Event Enemy 1.png
+Halloween Event Enemy 2.png
+Halloween Event Enemy 3.png
+Halloween Event Enemy 4.png
+Halloween Event Enemy 5.png
+Halloween Event Enemy 6.png
+Halloween Event Enemy 7.png
+</gallery>
+|-|
+Christmas=
+<gallery mode="packed" heights="50">
+Christmas Event Enemy 1.png
+Christmas Event Enemy 2.png
+Christmas Event Enemy 3.png
+Christmas Event Enemy 4.png
+Christmas Event Enemy 5.png
+Christmas Event Enemy 6.png
+Christmas Event Enemy 7.png
+Christmas Event Enemy 8.png
+</gallery>
+</tabber>
+
+===Event Backgrounds===
+<gallery mode="packed" heights="50">
+Event Background Valentines.png | Valentines
+Event Background Easter.png | Easter
+Event Background Magma.png | Magma
+Event Background Summer.png | Summer
+Event Background Halloween.png | Halloween
+Event Background Christmas.png | Christmas
+</gallery>
+
+==Navigation==
+{{Menu}}

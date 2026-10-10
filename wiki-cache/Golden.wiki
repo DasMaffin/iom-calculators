@@ -1,0 +1,37 @@
+{{Disambiguation}}
+'''Golden''' may refer to:
+* [[Lootbugs#Golden_Lootbugs|Golden Lootbugs]]
+* [[Lootfrogs|Golden Lootfrogs]]
+* Bombs:
+** [[Bombs#tabber-Golden|Golden Bomb of plenty]]
+** [[Bombs#tabber-Golden_2|Golden Exp Bomb]]
+** [[Bombs#tabber-Golden_3|Golden Transmuter Bomb]]
+** [[Bombs#tabber-Golden_4|Golden Gem Bomb]]
+** [[Bombs#tabber-Golden_5|Golden Veinmorpher Bomb]]
+* Items:
+** [[Items#GoldenEyeOfNewt|Golden Eye of Newt]]
+** [[Items#GoldenChaosTotem|Golden Chaos Totem]]
+** [[Items#GoldenPrimalMeat|Golden Primal Meat]]
+** [[Items#GoldenStrawberries|Golden Strawberries]]
+** [[Items#GoldenHamburger|Golden Hamburger]]
+** [[Items#GoldenStarfruit|Golden Starfruit]]
+** [[Items#GoldenLollipop|Golden Lollipop]]
+** [[Items#GoldenYummyPizza|Golden Yummy Pizza]]
+** [[Items#GoldenLootbugLantern|Golden Lootbug Lantern]]
+** [[Items#GoldenCosmicCandy|Golden Cosmic Candy]]
+* Stat bonuses:
+** [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]]
+** [[Stats#tabber-Golden_Ore_Multiplier|Golden Ore Multiplier]]
+** [[Stats#tabber-Golden_Floor_Chance|Golden Floor Chance]]
+** [[Stats#tabber-Golden_Floor_Multiplier|Golden Floor Multiplier]]
+** [[Stats#tabber-Golden_Vein_Chance|Golden Vein Chance]]
+** [[Stats#tabber-Golden_Vein_Multiplier|Golden Vein Multiplier]]
+** [[Stats#tabber-Golden_Void_Portal_Chance|Golden Void Portal Chance]]
+** [[Stats#tabber-Golden_Void_Portal_Multi|Golden Void Portal Multiplier]]
+** [[Stats#tabber-Golden_Lootbug_Chance|Golden Lootbug Chance]]
+** [[Stats#tabber-Golden_Lootfrog_Chance|Golden Lootfrog Chance]]
+** [[Stats#tabber-Golden_Lootfrog_Multiplier|Golden Lootfrog Multiplier]]
+** [[Stats#tabber-Golden_Lootfrogs_Caught|Golden Lootfrogs Caught]]
+* Store bundles:
+** [[Store#GoldenOreBundle|Golden Ore Bundle]]
+** [[Store#GoldenLootbugBundle|Golden Lootbug Bundle]]

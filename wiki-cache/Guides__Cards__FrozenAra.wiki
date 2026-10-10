@@ -1,0 +1,11 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock the cards menu at Obelisk 15
+# Move to any floor in the Cloud Zone (Floors 31-36)
+# Tap the Relic Chest icon on the left side of the screen above the Chest Meter (Opening the Relics Menu any other way doesn't count!)
+## You have a small chance to get the card each time you open the menu, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:FrozenAra Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

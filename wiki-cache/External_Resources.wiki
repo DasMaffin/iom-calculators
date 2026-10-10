@@ -1,0 +1,107 @@
+== Officials ==
+{{Notice|text=These external link are all supervised by Checkbox Team, creator of Idle Obelisk Miner. <b>For obvious reasons, you shouldn't trust any "official" website etc. not in this list</b>|image=<div class="checkboxIconDynamic">[[file:Checkbox Icon Black.png{{!}}64x64px]]</div>}}
+*[https://discord.com/invite/t6Y6QRa Official Discord] 
+**Preview and suggest upcoming features
+**Report bugs
+**Ask questions
+**Show off your progress
+
+*[https://www.reddit.com/r/IdleObeliskMiner/ Official Reddit]
+
+*[https://idleobeliskminer.com/ Official Website]
+** Get [https://idleobeliskminer.com/patchnotes patchnotes]
+** Business contact
+** Privacy Policy (what can you do if you encounter issue with purchases and data)
+
+*[https://www.twitch.tv/idleobeliskminer Official Twitch]
+** Used for celebration, more likely to be inactive most of the time.
+
+== Spreadsheets & Calculators ==
+
+=== Cost & Gain Calculators ===
+''Improve (or not) your gains thanks to ✨Odds✨''
+
+*[https://docs.google.com/spreadsheets/d/1BXiqhEcA841Xl5si1mqV_Q258UujL3mtUSpXhipF-IY/edit?usp=sharing/ Total Resources Calculator]
+**Spreadsheet with total costs for all resources
+**Automatically updates as you enter your information
+**Includes resource income calculators
+*[https://aizome.itch.io/iom-archaeology-calculator Archaeology Calculator]
+**Calculates the number of hits for each block based on your stats and upgrades
+*[https://docs.google.com/spreadsheets/d/16uskww9x0IkO_Cv7jhD4ZvdU2UsO4ugSwvkpaYJMQlM/edit?usp=sharing Skill Point Calculator]
+** Spreadsheet to calculate gems or freebies needed to buy a desired skill
+** Input your current owned closest skill and find out cost from there to the desired skill
+*[https://docs.google.com/spreadsheets/d/1IHgJtGmvgRwF7UzIqPF9aM2S4dzNOREdHF_XyhXS39M/edit?usp=sharing Pickaxe Damage Calculator (Minnie's Version)]
+** Spreadsheet that uses all of the sources of pickaxe damage to calculate your total pickaxe damage
+** Can be used to see how much of an effect an upgrade will have on pickaxe damage
+* [https://docs.google.com/spreadsheets/d/1H1h8EhwwT6wc-Nq0gdqC5nqiltlMitV_Qrc1ehFAFBI/edit?gid=942219591#gid=942219591 Ore and Bar Calculator]
+** Calculate ore and bar gain per hr within 1% accuracy
+** Includes gains for ores, bars from crafting, bars from Transmuter, and bars from both
+** See how much time it takes to farm a specified ore for a specified amount on its best floor
+
+=== Decision-Making Calculators ===
+''Just unlocked Mega Bomb, what is best, Mega bomb or Infinity bomb?''
+
+* [https://tabatkins.com/obelisk/transmuter/ Transmuter Vs Bomb of Plenty Calculator]
+**Calculates which ores transmuter is more effective based on your multipliers
+* [https://tabatkins.com/obelisk/cherry/ Cherry into Gem Vs D20 Calculator]
+**Calculates whether it's better to use your cherry charges on Gem Bomb, or on D20 Bomb
+**Spoiler: cherrying D20 requires a certain [[Construct#Fanq|World 4 Statue]] before it is better
+* [https://docs.google.com/spreadsheets/d/1I6nTBpxTeCsIN23_CvTRw1Nyqn1qBTZKlJAIpIv9n8w/edit?gid=548859560#gid=548859560 Best Floor to Farm]
+**Choose the ore or vein you want and it tells you which floor to farm on by taking into account your modifiers and void drone stats
+*[https://docs.google.com/spreadsheets/d/1h9P_KZ9gtnFSBD_0r4tsuUmN2Z__UsaJe2hc96evIJs/edit?usp=sharing/ Contract & Damage Calc]
+**See how lucky/unlucky you were with contract point multi and how much your damage will increase based upon more completed contracts
+*[https://docs.google.com/spreadsheets/d/1GughZm85kNggKfgluRk36ZpkQYHLVFd1Ox9OysdIONY/edit?usp=sharing/ Obelisk Fight Calc]
+**See how many attacks and how long it will take to defeat your current Obelisk
+
+=== Progression-Specific Tools ===
+''Tools meant for players in specific progression points''
+
+* [https://docs.google.com/spreadsheets/d/1SeNOHMbM8lmy6pCNPn2N_B5RBnxwHaIow0t5nca7v8w/edit?gid=0#gid=0 Star Gain Checklist for Ob60 - Late World 3]
+
+* [https://docs.google.com/spreadsheets/d/1of17QvuwOt1zK11fu8jygcZvvu7vplSmdfSfNQyBz1o/edit?gid=0#gid=0 Late World 3 Checklist]
+
+=== Gems Calculators ===
+''All tools related to the rarest resource: Gems''
+
+* [https://docs.google.com/spreadsheets/d/18_K3KlY_ewqjb26oirX8qVdWVPhGBC-qVrUdKQ1KedE/edit?usp=sharing/ Fishing Gem Spending Calculator]
+**Calculates the best value per gem to improve fishing
+
+*[https://docs.google.com/spreadsheets/d/1dIJdoyMPoETzPG56U_gnaHpw7K4lvlCecIzXEBJHHyM/ Frogger Gem Rate Calculator]
+**Calculates net gem gain from fueling frogger based on your stats
+*[https://docs.google.com/spreadsheets/d/1XscDMDkk59Btu1fQld09GQGmGpWxxNIszSFR1ujj_wE/edit?usp=sharing/ Ultimate Gem Calculator 2.2]
+**Calculates breakdown of net gained gems, bombcap, arch attacks, fish ticks, items, and relics from every source. This version of the calculator still has some conditional formatting problems.
+*[https://docs.google.com/spreadsheets/d/1_BxxAOHbI2u4XLBY6pWTapRTDrvhfY5MjZNg0YCvoOc/edit?usp=sharing/ Older version of the Ultimate Gem Calculator]
+**Until the formatting issues are fixed in the 2.0, this version is good to use too. It does not have lootfrogs yet but if you are at an earlier part of the game it should not matter.
+
+=== Odds Calculators ===
+''Happy-Bot at 12k/1955 level up chance is staring at you from the window''
+*[https://docs.google.com/spreadsheets/d/1nTx41KMGUfMO27MxD14cCNQa71LmF3UGkMvJKodvP6A/ Relic Calculator]
+**Calculates divine relic odds
+*[https://iomreliccalc.me/ Relic Solver]
+**Calculates the chance to get specific amount of divine
+*[https://docs.google.com/spreadsheets/d/1Icjy8TFhG-YrMjuRi_99HciW2YtHfsI5/ Drone Cards & Shards Calculator]
+**This calculator estimates your chances and the time required to obtain Drone Cards, Poly Shards and Infernal Shards.
+
+== Simulators ==
+
+=== Archaeology Simulators ===
+''Not sure where to put your skill points in archaeology?''
+
+* [https://iom-arch-optimizer-web.pages.dev/#/welcome Arch simulator]
+** (Updated to 2.1) Simulates and optimises archaeology. Floor Pushing, Exp farming, Fragment farming, Card Farming
+
+* [https://docs.google.com/spreadsheets/d/1jklRZEm5ciHr27Vg32kXSA5FxTPo1qPFDBMLiCJUd1Q/edit?usp=sharing Arch Simulator]
+**(not updated to 2.1) Simulates the mechanics of archaeology in Google Spreadsheets/Excel
+
+=== '''Event Simulators''' ===
+* [https://github.com/Kommandant-Julk/shminer_event_sim/releases/latest Event Simulator]
+**Simulates the mechanics of the bimonthly event
+**Requires [https://love2d.org/ Love2d]
+
+== Videos ==
+*[https://www.youtube.com/watch?v=hd_FZJwAzzM Advanced Guide]
+**Explains game mechanics and gives tips
+
+
+==Navigation==
+{{Menu}}

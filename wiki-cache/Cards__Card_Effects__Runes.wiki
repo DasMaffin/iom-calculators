@@ -1,0 +1,13 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect />
+|-
+|<div id="CardEffects_Runes_Ash"></div>{{CardShowcase|card=Ash Rune}} || Ash Rune || Ash Rune Craft Multiplier +15% || +30% || +50% || {{NA}}
+|-
+|<div id="CardEffects_Runes_Brine"></div>{{CardShowcase|card=Brine Rune}} || Brine Rune || Brine Rune Craft Multiplier +15% || +30% || +50% || {{NA}}
+|-
+|<div id="CardEffects_Runes_Chasm"></div>{{CardShowcase|card=Chasm Rune}} || Chasm Rune || Chasm Rune Craft Multiplier +15% || +30% || +50% || {{NA}}
+|-
+|<div id="CardEffects_Runes_Drift"></div>{{CardShowcase|card=Drift Rune}} || Drift Rune || Rune Craft Multiplier +15% || +30% || +50% || {{NA}}
+|-
+|<div id="CardEffects_Runes_Echo"></div>{{CardShowcase|card=Echo Rune}} || Echo Rune || Rune Craft Multiplier +15% || +30% || +50% || {{NA}}
+|}

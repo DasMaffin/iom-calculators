@@ -1,0 +1,37 @@
+<tabber>
+10x Relics from Gifts Chance=
+{{Stat|10x Relics from Gifts Chance|The chance for a {{Sprite|Relic Chest|Chests#Relic Chest|16x16|Relic Chest}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Relic Sticker|Stickers#RelicStickerEffect|30x30|Relic Sticker}}|spriteOverride=Relic Sticker}}
+|-|
+10x Skill Bits from Gifts Chance=
+{{Stat|10x Skill Bits from Gifts Chance|The chance for a {{Sprite|Skill Bit|Skills|16x16|Skill Bit}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Skill Bit Sticker|Stickers#CandyStickerEffect|30x30|Skill Bit Sticker}}|spriteOverride=Skill Bit Sticker}}
+|-|
+10x Gems from Gifts Chance=
+{{Stat|10x Gems from Gifts Chance|The chance for a [[File:Gem.png|16px]] Gem drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Gem Sticker|Stickers#GemStickerEffect|30x30|Gem Sticker}}|spriteOverride=Gem Sticker}}
+|-|
+10x Fuel from Gifts Chance=
+{{Stat|10x Fuel from Gifts Chance|The chance for a {{Sprite|Fuel|Drones#Fuel|16x16|Fuel}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Fuel Sticker|Stickers#FuelStickerEffect|30x30|Fuel Sticker}}|spriteOverride=Fuel Sticker}}
+|-|
+10x Cherry Charges from Gifts Chance=
+{{Stat|10x Cherry Charges from Gifts Chance|The chance for a {{Sprite|Cherry Bomb|Bombs|16x16|Cherry Charges}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Cherry Sticker|Stickers#CherryStickerEffect|30x30|Cherry Sticker}}|spriteOverride=Cherry Sticker}}
+|-|
+10x Sushi from Gifts Chance=
+{{Stat|10x Sushi from Gifts Chance|The chance for a {{Sprite|Sushi|Items#Tier_2_items|16x16|Sushi}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Sushi Sticker|Stickers#SushiStickerEffect|30x30|Sushi Sticker}}|spriteOverride=Sushi Sticker}}
+|-|
+10x Steak from Gifts Chance=
+{{Stat|10x Steak from Gifts Chance|The chance for a {{Sprite|Gold Flake Steak|Items#Tier_4_items|16x16|Golden Flake Steak}} drop from Gifts to roll 10x as many.
+| '''Stickers''' <math>+</math>| The {{Sprite|Steak Sticker|Stickers#SteakStickerEffect|30x30|Steak Sticker}}|spriteOverride=Steak Sticker}}
+|-|
+10x Candy from Gifts Chance=
+{{Stat|10x Candy from Gifts Chance|The chance for a {{Sprite|Cosmic Candy|Items#Tier_4_items|16x16|Cosmic Candy}} drop from Gifts to roll 10x as many
+| '''Stickers''' <math>+</math>| The {{Sprite|Candy Sticker|Stickers#CandyStickerEffect|30x30|Candy Sticker}}|spriteOverride=Candy Sticker}}
+|-|
+10x Frogspawn from Gifts Chance=
+{{Stat|10x Frogspawn from Gifts Chance|The chance for a {{Sprite|Frogspawn|Items#Tier_3_items|16x16|Frogspawn}} drop from Gifts to roll 10x as many
+| '''Stickers''' <math>+</math>| The {{Sprite|Frogspawn Sticker|Stickers#FrogspawnStickerEffect|30x30|Frogspawn Sticker}}|spriteOverride=Frogspawn Sticker}}
+</tabber>

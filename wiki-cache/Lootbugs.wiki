@@ -1,0 +1,107 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomLootbugImage}}<!--do not remove, pageImage for search--></span>
+
+<div style="display:flex">
+{{FakeMenuButton|image={{RandomLootbugImage|size=84x92px}}|size=92px|buttonSize=114px}}
+<div style="margin:0 5px">Lootbugs spawn on the main screen every 20 game minutes. When you tap on them, you can claim a free reward. You can also pay {{Gems|}} to get an additional reward. Lootbugs are an important source of buffs. By playing [[Events]] you can collect cosmetic Lootbug Skins.</div>
+</div>
+
+==Lootbug Upgrades==
+You can improve Lootbugs by increasing their stats:
+* [[Stats#tabber-Lootbug_Spawn_Rate_Multiplier|Lootbug Spawn Rate Multiplier]] - Increases the rate at which lootbugs can show up
+* [[Stats#tabber-Triple_Lootbug_Chance|Triple Lootbug Chance]] - Increases the chance to spawn 3 lootbugs at the same time instead of 1 (does nothing past 100%)
+* [[Stats#tabber-Golden_Lootbug_Chance|Golden Lootbug Chance]] - Increases the chance to spawn a Golden lootbug instead of regular one (provides free gem buff)
+* [[Stats#tabber-Banked_Lootbug_Cap|Banked Lootbug Cap]] - Increases the maximum amount of stored lootbugs 
+* [[Stats#tabber-Lootbug_Gem_Cost_Reduction|Gem Cost Reduction]] - Decreases the amount of gems needed to buy buffs
+* [[Stats#tabber-Lootbug_Loot_Multiplier|Lootbug Loot Multiplier]] - Increases the buffs and rewards multiplier obtained from lootbugs
+* [[Stats#tabber-Lanterns_Used|Lanterns Used]] - Tracks amount of [[Items#LootbugLantern|Lootbug Lantern]] eaten. They increase lootbug cap up to +25
+
+==Golden Lootbugs==
+Golden lootbugs grant the Gem buff for free, without a need of spending gems. They can be unlocked via [[File:Aquarius.png|16px]] [[Stargazing#Aquarius|Aquarius star]] upgrades or certain [[File:Lootbugbonanza vp.png|16px]] [[Store#Value_Packs|Store bundles]].
+
+==Buffs==
+Lootbug buffs are chosen randomly with weights. A reward with a weight of 30 will appear twice as often as a reward with a weight of 15. Some buffs are locked until certain content is unlocked. The base values in these tables are then multiplied by your [[Stats#tabber-Lootbug_Loot_Multiplier|Lootbug Loot Multiplier]].
+
+===Free Buffs===
+{| class="wikitable sortable align-center-1 align-center-3 align-center-4"
+! colspan=2 | Name !! Buff !! Weight !! Req.
+|-
+|<div id="FreeBuff_Gems"></div>[[File:Gem.png|32x32px]] || Gems || +2 || 30 || {{NA}}
+|-
+|<div id="FreeBuff_ItemChest"></div>[[File:Item Chest.png|32x32px]] || Item Chest || +1 || 35 || {{NA}}
+|-
+|<div id="FreeBuff_RelicChest"></div>[[File:Relic Chest.png|32x32px]] || Relic Chest || +1 || 5 || {{NA}}
+|-
+|<div id="FreeBuff_CherryCharges"></div>[[File:Cherry Bomb.png|32x32px]] || Cherry Charges || +10 || 20-0 || [[File:Cherry Bomb.png|16px]] Cherry Bomb unlocked <br>[[File:Obelisk Base Icon.png|16px]] Obelisk Level 10
+|-
+|<div id="FreeBuff_2xOreIncome"></div>[[File:2x Ore Income Buff.png|32x32px]] || 2x Ore Income || 2 minutes || 15 || {{NA}}
+|-
+|<div id="FreeBuff_3xVeinSpawnRate"></div>[[File:3x Vein Spawn Rate Buff.png|32x32px]] || 3x Vein Spawn Rate || 2 minutes || 20 ||  [[File:Stone Vein.png|16px]] [[Construct#Research|Stone Vein Research]]
+|-
+|<div id="FreeBuff_2xGameSpeed"></div>[[File:Game Speed Multiplier.png|32x32px]] ||  2x Game Speed || 2 minutes || 15 || {{NA}}
+|-
+|<div id="FreeBuff_2xStarSpawnRate"></div>[[File:2x Spawn Rate Buff.png|32x32px]] || 2x Star Spawn Rate || 2 minutes || 16-26<ref name="starspawnrate">Free and Gem 2x Star Spawn Rate weight increases to 26 after 75% or more Auto-Catch without buffs</ref> ||  rowspan="2" | [[File:Telescope.png|16px]] [[Stargazing#Telescope|Telescope]] Level 1
+|-
+|<div id="FreeBuff_100PercentAutoCatch"></div>[[File:Auto-Catch Chance.png|32x32px]] || 100% Auto-Catch || 4 minutes || 20-0<ref name="starscatchchance>Free and Gem 100% Auto-Catch weight reduced to 0 after 75% or more Auto-Catch without buffs</ref> 
+|}
+
+===Gem Buffs===
+{| class="wikitable sortable align-left-2 align-left-6 text-align-center"
+! colspan=2 | Name !! Buff !! Cost !! Weight !! Req.
+|-
+|<div id="GemBuff_ItemChest"></div>[[File:Item Chest.png|32x32px]] || Item Chests || +3 || {{Gems|15}} || 18-14<ref>+3 Item Chests weight is reduced to 14 at Obelisk Level 37</ref> || {{NA}}
+|-
+|<div id="GemBuff_RelicChest"></div>[[File:Relic Chest.png|32x32px]] || Relic Chest || +1 || {{Gems|15}} || 10 || {{NA}}
+|-
+|<div id="GemBuff_CherryBomb"></div>[[File:Cherry Bomb.png|32x32px]] || Cherry Charges || +100 || {{Gems|15}} || 20-0<ref>Weight reduced to 0 when you unlock Fishing</ref> ||  [[File:Cherry Bomb.png|16px]] Cherry Bomb unlocked <br>[[File:Obelisk Base Icon.png|16px]] Obelisk Level 10
+|-
+|<div id="GemBuff_2xOreIncome"></div>[[File:2x Ore Income Buff.png|32x32px]] || 2x Ore Income || 10 minutes || {{Gems|15}} || 24 || {{NA}}
+|-
+|<div id="GemBuff_3xVeinSpawnRate"></div>[[File:3x Vein Spawn Rate Buff.png|32x32px]] || 3x Vein Spawn Rate || 10 minutes || {{Gems|15}} || 20 || [[File:Stone Vein.png|16px]] [[Construct#Research|Stone Vein Research]] 
+|-
+|<div id="GemBuff_2xGameSpeed"></div>[[File:Game Speed Multiplier.png|32x32px]] || 2x Game Speed || 10 minutes || {{Gems|15}} || 24 || {{NA}}
+|-
+|<div id="GemBuff_10xBombRecharge"></div>[[File:Bomb Recharge Speed 10x Buff.png|32x32px]] || 10x Bomb Recharge || 2 minutes || {{Gems|15}} || 3 || {{NA}}
+|-
+|<div id="GemBuff_2xStarSpawnRate"></div>[[File:2x Spawn Rate Buff.png|32x32px]] || 2x Star Spawn Rate || 10 minutes || {{Gems|25}} || 16-26<ref name="starspawnrate" /> || rowspan="2" | [[File:Telescope.png|16x16px]] [[Stargazing#Telescope|Telescope]] Level 1
+|-
+|<div id="GemBuff_100PercentAutoCatch"></div>[[File:Auto-Catch Chance.png|32x32px]] || 100% Auto-Catch || 20 minutes || {{Gems|25}} || 20-0<ref name="starscatchchance" />
+|-
+| rowspan="2" |<div id="GemBuff_ArchaeologyBankedSeconds"></div>[[File:Arch Icon.png|32x32px]] || rowspan="2" style="word-break: break-word;" | Archaeology Banked Seconds || 600 || {{Gems|25}} || rowspan="2" | 8 || [[File:Obelisk Base Icon.png|16px]] Obelisk level 30
+|-
+| <math>2 \times </math><math>\text{Highest}</math> <math>\text{Stage}</math><math> + 6</math><ref>This caps at stage 200, giving 406 base.</ref> || {{Gems|25}} || style="text-align:left" | [[File:Ascension.png|16px]] Ascension 1
+|-
+|<div id="GemBuff_FishingTicks"></div>[[File:Fishing_Tick_Reduction.png]] || Fishing Ticks ||+12 || {{Gems|35}} || 11 || [[File:Obelisk Base Icon.png|16px]] Obelisk level 37
+|}
+<references />
+
+==Lootbugs Calculator==
+{{Calculator:LootbugSpeed}}
+
+==Lootbug Skins==
+Lootbug skins are obtained during [[Events]] after reaching wave 40 and claiming the reward. They are automatically equipped and are selected randomly when Lootbug spawns.
+
+===Regular Lootbugs===
+<gallery mode="packed" heights="64px">
+Lootbug_Default.png|Default
+Lootbug_Valentines.png|Valentines
+Lootbug_Easter.png|Easter
+Lootbug_Magma.png|Magma
+Lootbug_Summer.png|Summer
+Lootbug_Halloween.png|Halloween
+Lootbug_Christmas.png|Christmas
+</gallery>
+
+===Golden Lootbugs===
+<gallery mode="packed" heights="64px">
+Lootbug_Default_Golden.png|Default
+Lootbug_Valentines_Golden.png|Valentines
+Lootbug_Easter_Golden.png|Easter
+Lootbug_Magma_Golden.png|Magma
+Lootbug_Summer_Golden.png|Summer
+Lootbug_Halloween_Golden.png|Halloween
+Lootbug_Christmas_Golden.png|Christmas
+</gallery>
+
+==Navigation==
+{{Menu}}

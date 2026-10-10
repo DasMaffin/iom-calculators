@@ -1,0 +1,13 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal
+|-
+| {{CardShowcase|card=Soft Essence}} || Soft Essence || Soft Essence Max Loot +1 || +2 || +4 || {{NA}}
+|-
+| {{CardShowcase|card=Dense Essence}} || Dense Essence || Dense Essence Max Loot +1 || +2 || +4 || {{NA}}
+|-
+| {{CardShowcase|card=Jagged Essence}} || Jagged Essence || Jagged Essence Max Loot +1 || +2 || +4 || {{NA}}
+|-
+| {{CardShowcase|card=Necrotic Essence}}  || Necrotic Essence || Necrotic Essence Max Loot +1 || +2 || +4 || {{NA}}
+|-
+| {{Edit button|text=?}}  || Unknown Essence || Essence Max Loot +1 || +2 || +4 || {{NA}}
+|}

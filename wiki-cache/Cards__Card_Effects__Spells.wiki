@@ -1,0 +1,29 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Runic Surge}} || Runic Surge || Runic Surge Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Rainbow Rift}} || Rainbow Rift || Rainbow Rift Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Manaflow}} || Manaflow || Manaflow Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Radiancy}} || Radiancy || Radiancy Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Prismism}} || Prismism || Prismism Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Veinboyant}} || Veinboyant || Veinboyant Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Diggy Diggy Hole}} || Diggy Diggy Hole || Diggy Diggy Hole Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Blue Giant}} || Blue Giant || Blue Giant Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Draconic Hoard}} || Draconic Hoard || Draconic Hoard Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Rainbow Road}} || Rainbow Road || Rainbow Road Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Party Fever}} || Party Fever || Party Fever Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Bomb's Blessing}} || Bomb's Blessing || Bomb's Blessing Spell Effect +10% || +20% || +35% || {{NA}}
+|-
+| {{CardShowcase|card=Bug Magnet}} || Bug Magnet || Bug Magnet Spell Effect +10% || +20% || +35% || {{NA}}
+|}

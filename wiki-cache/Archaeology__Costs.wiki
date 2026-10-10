@@ -1,0 +1,424 @@
+{{Otheruses|Archaeology Upgrade Costs|Archaeology Upgrades|[[Archaeology#Upgrades]]}}
+
+==Ascension 0==
+===[[File:Gem.png]] Gem upgrades===
+<tabber>
+|-|
+Max Stamina & Stamina Mod Chance=
+{{CostTable|Max Stamina +2, Stamina Mod Chance +0.05%|50|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|300|Gem|Gems|maxCost=1000|rounding=round}}
+|-|
+Arch Exp gain & Exp Mod Chance=
+{{CostTable|Arch Exp gain +5% Exp Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|400|Gem|Gems|maxCost=1000|rounding=round}}
+|-|
+Fragment Gain & Loot Mod Chance=
+{{CostTable|Fragment Gain +2% Loot Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|500|Gem|Gems|maxCost=1000|rounding=round}}
+</tabber>
+
+===[[File:Common Fragment.png]] Fragment upgrades===
+<tabber>
+|-|
+Unlock New Ability=
+{{CostTable|Unlock New Ability|3|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|0.10|Common Fragment|Common Fragment|useArchaeologyNumberFormatting=true|overrideCostType=2=Rare Fragment,3=Epic Fragment|overrideLevel=2=0.75,3=1.5}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|0.5|Common Fragment|Common}}
+|-|
+Armor Penetration=
+{{CostTable|Armor Penetration +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|0.75|Common Fragment|Common}}
+|-|
+Archaeology Exp Gain=
+{{CostTable|Archaeology Exp Gain +2%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|1|Common Fragment|Common}}
+|-|
+Crit Chance & Crit Damage=
+{{CostTable|Crit Chance +0.25% / Crit Damage +1%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|2|Common Fragment|Common}}
+|-|
+Max Stamina & Stamina Mod Chance=
+{{CostTable|Max Stamina +2 / Stamina Mod Chance +0.05%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|2|Rare Fragment|Rare}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +2|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|3|Rare Fragment|Rare}}
+|-|
+Loot Mod Gain=
+{{CostTable|Loot Mod Gain +0.30x|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|4.5|Rare Fragment|Rare}}
+|-|
+Enrage Damage & Crit Damage & Enrage Cooldown=
+{{CostTable|Enrage Damage / Crit Damage +2% / Enrage Cooldown -1s|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|6|Rare Fragment|Rare}}
+|-|
+Flat Damage & Super Crit Chance=
+{{CostTable|Flat Damage +2 / Super Crit Chance +0.35%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|3.5|Epic Fragment|Epic}}
+|-|
+Archaeology Exp Gain & Fragment Gain=
+{{CostTable|Archaeology Exp Gain +3% / Fragment Gain +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|5|Epic Fragment|Epic}}
+|-|
+Flurry Stamina Gain & Flurry Cooldown=
+{{CostTable|Flurry Stamina Gain +1 / Flurry Cooldown -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7.5|Epic Fragment|Epic}}
+|-|
+Max Stamina & Stamina Mod Gain=
+{{CostTable|Max Stamina +4 / Stamina Mod Gain +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|25|Epic Fragment|Epic}}
+|-|
+Strength Skill Buff: Flat Damage & Damage %=
+{{CostTable|Strength Skill Buff: <br> Flat Damage +0.2, Damage +0.1%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|100|Common Fragment|Common}}
+|-|
+Agility Skill Buff: Max Stamina & Stamina Mod Chance=
+{{CostTable|Agility Skill Buff: <br> Max Stamina +1, Mod Ch. +0.02%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50|Rare Fragment|Rare}}
+|-|
+Archaeology Exp Gain & Maximum Stamina=
+{{CostTable|Archaeology Exp Gain +5% / Maximum Stamina +1%|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7|Legendary Fragment|Legendary }}
+|-|
+Armor Penetration & Ability Cooldowns=
+{{CostTable|Armor Penetration +2% / Ability Cooldowns -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|9|Legendary Fragment|Legendary }}
+|-|
+Crit Damage & Super Crit Damage=
+{{CostTable|Crit Damage +2% / Super Crit Damage +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|12|Legendary Fragment|Legendary }}
+|-|
+Quake Attacks & Quake Cooldown=
+{{CostTable|Quake Attacks +1 / Cooldown -2s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|15|Legendary Fragment|Legendary }}
+|-|
+Perception Skill Buff: Mod Chance & Armor Penetration=
+{{CostTable|Perception Skill Buff: <br> Mod Ch. +0.01%, Armor Pen. +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|150|Rare Fragment|Rare}}
+|-|
+Intellect Skill Buff: Exp Gain & Mod Chance=
+{{CostTable|Intellect Skill Buff: <br> Exp Gain +1%, Mod Ch. +0.01%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|125|Epic Fragment|Epic}}
+|-|
+Damage & Armor Penetration=
+{{CostTable|Damage +2% / Armor Penetration +3|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|6|Mythic Fragment|Mythic}}
+|-|
+Super Crit Chance & Ultra Crit Chance=
+{{CostTable|Super Crit Chance +0.35% / Ultra Crit Chance +1%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10|Mythic Fragment|Mythic}}
+|-|
+Exp Mod Gain & Exp Mod Chance=
+{{CostTable|Exp Mod Gain +0.10x / Exp Mod Chance +0.10%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|15|Mythic Fragment|Mythic}}
+|-|
+Ability Instacharge & Maximum Stamina=
+{{CostTable|Ability Instacharge Ch. +0.30% / Maximum Stamina +4|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|20|Mythic Fragment|Mythic}}
+|-|
+Polychrome Archaeology Card Bonus=
+{{CostTable|Polychrome Archaeology Card Bonus +15%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10000|Common Fragment|Common}}
+|-|
+Fragment Gain=
+{{CostTable|Fragment Gain 1.25x|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|9000|Rare Fragment|Rare}}
+|-|
+Stamina Mod Gain=
+{{CostTable|Stamina Mod Gain +2|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|8000|Epic Fragment|Epic}}
+|-|
+All Mod Chances=
+{{CostTable|All Mod Chances +1.50%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7000|Legendary Fragment|Legendary}}
+|-|
+Exp Gain=
+{{CostTable|Exp Gain 2.00x / All Stat Point Caps +5|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|5000|Mythic Fragment|Mythic}}
+|-|
+Idol Crafting Cost=
+{{CostTable|Idol Crafting Cost|108|1.1|class{{=}}"wikitable text-align-center lighttable multi-column-lighttable"|formula|1|Common Fragment|Fragment|formula=baseCost*(costScaling-((n)/3250))^(n)|useArchaeologyNumberFormatting=true|maxCost=999}}
+</tabber>
+
+==Ascension 1==
+===[[File:Gem.png]] Gem upgrades===
+<tabber>
+|-|
+Max Stamina=
+{{CostTable|Max Stamina +2, Stamina Mod Chance +0.05%|50|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|7500|Gem|Gems}}
+|-|
+Arch Exp gain=
+{{CostTable|Arch Exp gain +5% Exp Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|10000|Gem|Gems}}
+|-|
+Fragment Gain=
+{{CostTable|Fragment Gain +2% Loot Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|12500|Gem|Gems}}
+</tabber>
+
+===[[File:Common Fragment.png]] Fragment upgrades===
+<tabber>
+|-|
+Unlock New Ability=
+{{CostTable|Unlock New Ability|3|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|0.50|Common Fragment|Common Fragment|useArchaeologyNumberFormatting=true|overrideCostType=2=Rare Fragment,3=Epic Fragment|overrideLevel=2=3.75,3=7.5}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|2.5|Common Fragment|Common}}
+|-|
+Armor Penetration=
+{{CostTable|Armor Penetration +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|3.75|Common Fragment|Common}}
+|-|
+Archaeology Exp Gain=
+{{CostTable|Archaeology Exp Gain +2%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|5|Common Fragment|Common}}
+|-|
+Stat Points=
+{{CostTable|Stat Points +1 (Asc 1)|5|2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7.25|Common Fragment|Common}}
+|-|
+Crit Chance & Crit Damage=
+{{CostTable|Crit Chance +0.25% / Crit Damage +1%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10|Common Fragment|Common}}
+|-|
+Max Stamina & Stamina Mod Chance=
+{{CostTable|Max Stamina +2 / Stamina Mod Chance +0.05%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10|Rare Fragment|Rare}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +2|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|15|Rare Fragment|Rare}}
+|-|
+Loot Mod Gain=
+{{CostTable|Loot Mod Gain +0.30x|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|22.5|Rare Fragment|Rare}}
+|-|
+Unlock Crosshair Fairies & Armor Penetration=
+{{CostTable|Unlock Crosshair Fairies / Armor Penetration +3|15|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|37.5|Rare Fragment|Rare}}
+|-|
+Enrage Damage & Crit Damage & Enrage Cooldown=
+{{CostTable|Enrage Damage / Crit Damage +2% / Enrage Cooldown -1s|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|30|Rare Fragment|Rare}}
+|-|
+Flat Damage & Super Crit Chance=
+{{CostTable|Flat Damage +2 / Super Crit Chance +0.35%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|17.5|Epic Fragment|Epic}}
+|-|
+Archaeology Exp Gain & Fragment Gain=
+{{CostTable|Archaeology Exp Gain +3% / Fragment Gain +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|25|Epic Fragment|Epic}}
+|-|
+Flurry Stamina Gain & Flurry Cooldown=
+{{CostTable|Flurry Stamina Gain +1 / Flurry Cooldown -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|37.5|Epic Fragment|Epic}}
+|-|
+Max Stamina & Stamina Mod Gain=
+{{CostTable|Max Stamina +4 / Stamina Mod Gain +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|125|Epic Fragment|Epic}}
+|-|
+All Mod Chances=
+{{CostTable|All Mod Chances +0.02% (Asc 1)|30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|175|Epic Fragment|Epic}}
+|-|
+Strength Skill Buff: Flat Damage & Damage=
+{{CostTable|Strength Skill Buff: <br> Flat Damage +0.2, Damage +0.1%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|500|Common Fragment|Common}}
+|-|
+Agility Skill Buff: Max Stamina & Mod Ch.=
+{{CostTable|Agility Skill Buff: <br> Max Stamina +1, Mod Ch. +0.02%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|250|Rare Fragment|Rare}}
+|-|
+Archaeology Exp Gain & Maximum Stamina=
+{{CostTable|Archaeology Exp Gain +5% / Maximum Stamina +1%|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|35|Legendary Fragment|Legendary }}
+|-|
+Armor Penetration & Ability Cooldowns=
+{{CostTable|Armor Penetration +2% / Ability Cooldowns -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|45|Legendary Fragment|Legendary }}
+|-|
+Crit Damage & Super Crit Damage=
+{{CostTable|Crit Damage +2% / Super Crit Damage +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|60|Legendary Fragment|Legendary }}
+|-|
+Quake Attacks & Cooldown=
+{{CostTable|Quake Attacks +1 / Cooldown -2s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|75|Legendary Fragment|Legendary }}
+|-|
+Flat Damage & Enrage Cooldown=
+{{CostTable|Flat Damage +3 / Enrage Cooldown -1s (Asc 1)|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|225|Legendary Fragment|Legendary }}
+|-|
+Perception Skill Buff: Mod Ch. & Armor Pen=
+{{CostTable|Perception Skill Buff: <br> Mod Ch. +0.01%, Armor Pen +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|750|Rare Fragment|Rare}}
+|-|
+Intellect Skill Buff: Exp Gain & Mod Ch.=
+{{CostTable|Intellect Skill Buff: <br> Exp Gain +1%, Mod Ch. +0.01%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|625|Epic Fragment|Epic}}
+|-|
+Damage & Armor Penetration=
+{{CostTable|Damage +2% / Armor Penetration +3|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|30|Mythic Fragment|Mythic}}
+|-|
+Super Crit Chance & Ultra Crit Chance=
+{{CostTable|Super Crit Chance +0.35% / Ultra Crit Chance +1%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50|Mythic Fragment|Mythic}}
+|-|
+Exp Mod Gain & Exp Mod Chance=
+{{CostTable|Exp Mod Gain +0.10x / Exp Mod Chance +0.10%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|75|Mythic Fragment|Mythic}}
+|-|
+Ability Instacharge Ch. & Maximum Stamina=
+{{CostTable|Ability Instacharge Ch. +0.30% / Maximum Stamina +4|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|100|Mythic Fragment|Mythic}}
+|-|
+Ultra Crit Damage & Stamina Mod Chance=
+{{CostTable|Ultra Crit Damage +2% / Stamina Mod Chance +0.03% (Asc 1)|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|175|Mythic Fragment|Mythic}}
+|-|
+Polychrome Archaeology Card Bonus=
+{{CostTable|Polychrome Archaeology Card Bonus +15%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50000|Common Fragment|Common}}
+|-|
+Fragment Gain=
+{{CostTable|Fragment Gain 1.25x|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|45000|Rare Fragment|Rare}}
+|-|
+Stamina Mod Gain=
+{{CostTable|Stamina Mod Gain +2|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|40000|Epic Fragment|Epic}}
+|-|
+All Mod Chances=
+{{CostTable|All Mod Chances +1.50%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|35000|Legendary Fragment|Legendary}}
+|-|
+Exp Gain & All Stat Point Caps=
+{{CostTable|Exp Gain 2.00x / All Stat Point Caps +5|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|25000|Mythic Fragment|Mythic}}
+|-|
+Strength Skill Buff: Damage & Crit Damage=
+{{CostTable|Strength Skill Buff: <br> Damage +1%, Crit Damage +1% (Asc 1)|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10|Divine Fragment|Divine}}
+|-|
+Gold Crosshair Chance & Crosshair Auto-Tap Chance=
+{{CostTable|Gold Crosshair Chance +1% / Crosshair Auto-Tap Chance +1% (Asc 1)|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7.5|Divine Fragment|Divine}}
+|-|
+Flat Damage & Ultra Crit Chance=
+{{CostTable|Flat Damage +3 / Ultra Crit Chance +0.50% (Asc 1)|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|12.5|Divine Fragment|Divine}}
+|-|
+Ability Instacharge & Stamina Mod Chance=
+{{CostTable|Ability Instacharge +0.10% / Stamina Mod Chance + 0.10% (Asc 1)|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|25|Divine Fragment|Divine}}
+|-|
+Damage & Archaeology Exp Gain=
+{{CostTable|Damage +10% / Archaeology Exp Gain +10% (Asc 1)|5|2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|250|Divine Fragment|Divine}}
+|-|
+Super Crit Damage & Exp Mod Gain=
+{{CostTable|Super Crit Damage +0.50% / Exp Mod Gain +2% (Asc 1)|40|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|375|Legendary Fragment|Legendary}}
+|-|
+Maximum Stamina & Crosshair Auto-Tap Ch.=
+{{CostTable|Maximum Stamina +0.50% / Crosshair Auto-Tap Ch. +0.20% (Asc 1)|50|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|475|Mythic Fragment|Mythic}}
+</tabber>
+
+==Ascension 2==
+===[[File:Gem.png]] Gem upgrades===
+<tabber>
+|-|
+Max Stamina & Stamina Mod Chance=
+{{CostTable|Max Stamina +2, Stamina Mod Chance +0.05%|50|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|15000|Gem|Gems}}
+|-|
+Arch Exp gain & Exp Mod Chance=
+{{CostTable|Arch Exp gain +5%, Exp Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|20000|Gem|Gems}}
+|-|
+Fragment Gain & Loot Mod Chance=
+{{CostTable|Fragment Gain +2%, Loot Mod Chance +0.05%|25|1.05|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|25000|Gem|Gems}}
+</tabber>
+
+===[[File:Common Fragment.png]] Fragment upgrades===
+<tabber>
+|-|
+Unlock New Ability=
+{{CostTable|Unlock New Ability|3|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1|Common Fragment|Common Fragment|useArchaeologyNumberFormatting=true|overrideCostType=2=Rare Fragment,3=Epic Fragment|overrideLevel=2=7.5,3=15}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|5|Common Fragment|Common}}
+|-|
+Armor Penetration=
+{{CostTable|Armor Penetration +1|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|7.5|Common Fragment|Common}}
+|-|
+Archaeology Exp Gain=
+{{CostTable|Archaeology Exp Gain +2%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|10|Common Fragment|Common}}
+|-|
+Stat Points=
+{{CostTable|Stat Points +1 |5|2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|14.5|Common Fragment|Common}}
+|-|
+Crit Chance & Crit Damage=
+{{CostTable|Crit Chance +0.25% / Crit Damage +1%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|20|Common Fragment|Common}}
+|-|
+Max Stamina & Stamina Mod Chance=
+{{CostTable|Max Stamina +2 / Stamina Mod Chance +0.05%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|20|Rare Fragment|Rare}}
+|-|
+Flat Damage=
+{{CostTable|Flat Damage +2|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|30|Rare Fragment|Rare}}
+|-|
+Loot Mod Gain=
+{{CostTable|Loot Mod Gain +0.30x|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|45|Rare Fragment|Rare}}
+|-|
+Unlock Crosshair Fairies & Armor Penetration=
+{{CostTable|[Unlock Crosshair Fairies] / Armor Penetration +3|15|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|75|Rare Fragment|Rare}}
+|-|
+Enrage Damage & Crit Damage & Enrage Cooldown=
+{{CostTable|Enrage Damage / Crit Damage +2% / Enrage Cooldown -1s|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|60|Rare Fragment|Rare}}
+|-|
+Gleaming Floor Chance=
+{{CostTable|Gleaming Floor Chance +0.10%|30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|200|Common Fragment|Common}}
+|-|
+Flat Damage & Super Crit Chance=
+{{CostTable|Flat Damage +2 / Super Crit Chance +0.35%|25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|35|Epic Fragment|Epic}}
+|-|
+Archaeology Exp Gain & Fragment Gain=
+{{CostTable|Archaeology Exp Gain +3% / Fragment Gain +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50|Epic Fragment|Epic}}
+|-|
+Flurry Stamina Gain & Flurry Cooldown=
+{{CostTable|Flurry Stamina Gain +1 / Flurry Cooldown -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|75|Epic Fragment|Epic}}
+|-|
+Max Stamina & Stamina Mod Gain=
+{{CostTable|Max Stamina +4 / Stamina Mod Gain +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|250|Epic Fragment|Epic}}
+|-|
+All Mod Chances=
+{{CostTable|All Mod Chances +0.02% |30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|350|Epic Fragment|Epic}}
+|-|
+Strength Skill Buff: Flat Damage & Damage=
+{{CostTable|Strength Skill Buff: <br> Flat Damage +0.2, Damage +0.1%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|1000|Common Fragment|Common}}
+|-|
+Agility Skill Buff: Max Stamina & Mod Ch.=
+{{CostTable|Agility Skill Buff: <br> Max Stamina +1, Mod Ch. +0.02%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|500|Rare Fragment|Rare}}
+|-|
+Unlock Ability Fairy & Loot Mod Gain=
+{{CostTable|[Unlock Ability Fairy]<br>Loot Mod Gain 0.05x|30|1.35|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|1000|Rare Fragment|Rare}}
+|-|
+Archaeology Exp Gain & Maximum Stamina=
+{{CostTable|Archaeology Exp Gain +5% / Maximum Stamina +1%|15|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|70|Legendary Fragment|Legendary }}
+|-|
+Armor Penetration & Ability Cooldowns=
+{{CostTable|Armor Penetration +2% / Ability Cooldowns -1s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|90|Legendary Fragment|Legendary }}
+|-|
+Crit Damage & Super Crit Damage=
+{{CostTable|Crit Damage +2% / Super Crit Damage +2%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|120|Legendary Fragment|Legendary }}
+|-|
+Quake Attacks & Cooldown=
+{{CostTable|Quake Attacks +1 / Cooldown -2s|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|150|Legendary Fragment|Legendary }}
+|-|
+Flat Damage & Enrage Cooldown=
+{{CostTable|Flat Damage +3 / Enrage Cooldown -1s |5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|450|Legendary Fragment|Legendary }}
+|-|
+Perception Skill Buff: Mod Ch. & Armor Pen=
+{{CostTable|Perception Skill Buff: <br> Mod Ch. +0.01% / Armor Pen +1|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|1500|Rare Fragment|Rare}}
+|-|
+Buff Divinity: All Divinity Stats=
+{{CostTable|Buff Divinity:<br>All Divinity Stats +0.20|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|5000|Epic Fragment|Epic}}
+|-|
+Intellect Skill Buff: Exp Gain & Mod Ch.=
+{{CostTable|Intellect Skill Buff: <br> Exp Gain +1% / Mod Ch. +0.01%|5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|1250|Epic Fragment|Epic}}
+|-|
+Damage & Armor Penetration=
+{{CostTable|Damage +2% / Armor Penetration +3|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|60|Mythic Fragment|Mythic}}
+|-|
+Super Crit Chance & Ultra Crit Chance=
+{{CostTable|Super Crit Chance +0.35% / Ultra Crit Chance +1%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|100|Mythic Fragment|Mythic}}
+|-|
+Exp Mod Gain & Exp Mod Chance=
+{{CostTable|Exp Mod Gain +0.10x / Exp Mod Chance +0.10%|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|150|Mythic Fragment|Mythic}}
+|-|
+Ability Instacharge Ch. & Maximum Stamina=
+{{CostTable|Ability Instacharge Ch. +0.30% / Maximum Stamina +4|20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|200|Mythic Fragment|Mythic}}
+|-|
+Ultra Crit Damage & Stamina Mod Chance=
+{{CostTable|Ultra Crit Damage +2% / Stamina Mod Chance +0.03% |20|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|350|Mythic Fragment|Mythic}}
+|-|
+Polychrome Archaeology Card Bonus=
+{{CostTable|Polychrome Archaeology Card Bonus +15%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|100000|Common Fragment|Common}}
+|-|
+Fragment Gain=
+{{CostTable|Fragment Gain 1.25x|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|90000|Rare Fragment|Rare}}
+|-|
+Stamina Mod Gain=
+{{CostTable|Stamina Mod Gain +2|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|80000|Epic Fragment|Epic}}
+|-|
+All Mod Chances=
+{{CostTable|All Mod Chances +1.50%|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|70000|Legendary Fragment|Legendary}}
+|-|
+Exp Gain & All Stat Point Caps=
+{{CostTable|Exp Gain 2.00x / All Stat Point Caps +5|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50000|Mythic Fragment|Mythic}}
+|-|
+Gleaming Floor Multi=
+{{CostTable|Gleaming Floor Multi +3%|30|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|2500|Legendary Fragment|Legendary}}
+|-|
+Strength Skill Buff: Damage & Crit Damage=
+{{CostTable|Strength Skill Buff: <br> Damage +1% / Crit Damage +1% |1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|20|Divine Fragment|Divine}}
+|-|
+Gold Crosshair Chance & Crosshair Auto-Tap Chance=
+{{CostTable|Gold Crosshair Chance +1% / Crosshair Auto-Tap Chance +1% |5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|15|Divine Fragment|Divine}}
+|-|
+Flat Damage & Ultra Crit Chance=
+{{CostTable|Flat Damage +3 / Ultra Crit Chance +0.50% |5|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|25|Divine Fragment|Divine}}
+|-|
+Ability Instacharge & Stamina Mod Chance=
+{{CostTable|Ability Instacharge +0.10% / Stamina Mod Chance + 0.10% |25|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|50|Divine Fragment|Divine}}
+|-|
+Damage & Archaeology Exp Gain=
+{{CostTable|Damage +10% / Archaeology Exp Gain +10% |5|2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|500|Divine Fragment|Divine}}
+|-|
+Corruption buff: Damage & Mod Multis=
+{{CostTable|Corruption buff: <br> Damage +0.2% / Mod Multis +0.02%|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|8000|Mythic Fragment|Mythic}}
+|-|
+Super Crit Damage & Exp Mod Gain=
+{{CostTable|Super Crit Damage +0.50% / Exp Mod Gain +2% |40|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|750|Legendary Fragment|Legendary}}
+|-|
+Maximum Stamina & Crosshair Auto-Tap Ch.=
+{{CostTable|Maximum Stamina +0.50% / Crosshair Auto-Tap Ch. +0.20% |50|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormatting=true|950|Mythic Fragment|Mythic}}
+|-|
+All Mod Multipliers=
+{{CostTable|All Mod Multipliers +2%|10|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center "|exponential|useArchaeologyNumberFormAll Mod Multipliersatting=true|7500|Divine Fragment|Divine}}
+</tabber>
+
+==Navigation==
+{{CostsNav}}
+{{Menu}}
+
+[[Category:Upgrade Costs]]

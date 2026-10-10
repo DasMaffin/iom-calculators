@@ -1,0 +1,4 @@
+{{Disambiguation}}
+'''Rainbow Vein''' may refer to:
+* [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]]
+* [[Stats#tabber-Rainbow_Vein_Multiplier|Rainbow Vein Multiplier]]

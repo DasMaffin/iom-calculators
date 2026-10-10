@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock Misc Infernal Cards
+# Tap the 4 Dots
+# Tap Setup Pins
+# Spam clicks between Stats & Options
+## You have a small chance to get the card each time you click, it may take a while!
+</div>
+<div style="flex: 0 0 auto;">[[File:FrozenAra Misc Card Infernal.mp4]]</div>
+</div>
+
+
+Click "Setup Pins", then spam clicks, where the Cloud save/icon would be
+
+[[Category:Cards]]
+[[Category:Video Guides]]

@@ -1,0 +1,159 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="Cetus">With the [[Stargazing#Stars|Cetus Star]]</ref><ref name="PalmiteUpg">With the {{Sprite|Palmite Bar|Upgrades#World_3_Upgrades||Palmite Bar Upgrade}}</ref><ref name="HappyBotQuest">With the [[Pets#tabber-Happy-Bot 3|Happy Bot Pet Quest]]</ref><ref name="PolyPotency">With the "[[Store#Value Packs|Polychrome Potency Bundle!]]" Value Pack</ref> || Infernal<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref>
+|-
+| {{CardShowcase|card=Tin Ore}} || Tin Ore || Tin Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Copper Ore}} || Copper Ore || Copper Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Mithril Ore}} || Mithril Ore || Mithril Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Adamant Ore}} || Adamant Ore || Adamant Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Runite Ore}} || Runite Ore || Runite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Citrine Ore}} || Citrine Ore || Citrine Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Amethyst Ore}} || Amethyst Ore || Amethyst Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Topaz Ore}} || Topaz Ore || Topaz Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Obsidian Ore}} || Obsidian Ore || Obsidian Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Demonite Ore}} || Demonite Ore || Demonite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Tin Ore}} || VR-Tin Ore || VR-Tin Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Amethyst Ore}} || VR-Amethyst Ore || VR-Amethyst Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Demonite Ore}} || VR-Demonite Ore || VR-Demonite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-ERROR Ore}} || VR-ERROR Ore || VR-ERROR Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Lunarium Ore}} || Lunarium Ore || Lunarium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Earth-C-137 Ore}} || Earth-C-137 Ore || Earth-C-137 Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Meteorite Ore}} || Meteorite Ore || Meteorite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Singularity Ore}} || Singularity Ore || Singularity Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Halium Ore}} || Halium Ore || Halium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Blasphemite Ore}} || Blasphemite Ore || Blasphemite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Angelite Ore}} || Angelite Ore || Angelite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Elysium Ore}} || Elysium Ore || Elysium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Enemite Ore}} || Enemite Ore || Enemite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Beepboopium Ore}} || Beepboopium Ore || Beepboopium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Radion-73 Ore}} || Radion-73 Ore || Radion-73 Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cranium Ore}} || Cranium Ore || Cranium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Lapis Ore}} || Lapis Ore || Lapis Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Quartz Ore}} || Quartz Ore || Quartz Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Glacialite Ore}} || Glacialite Ore || Glacialite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Twinklestone Ore}} || Twinklestone Ore || Twinklestone Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Sandcasium Ore}} || Sandcasium Ore || Sandcasium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Clamite Ore}} || Clamite Ore || Clamite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Thunderstone Ore}} || Thunderstone Ore || Thunderstone Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Crabrock Ore}} || Crabrock Ore || Crabrock Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Hailstone Ore}} || Hailstone Ore || Hailstone Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Frostbite Ore}} || Frostbite Ore || Frostbite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Icebloom Ore}} || Icebloom Ore || Icebloom Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Pinguinus Ore}} || Pinguinus Ore || Pinguinus Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Macawrock Ore}} || Macawrock Ore || Macawrock Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cocore Ore}} || Cocore Ore || Cocore Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Rafflenium Ore}} || Rafflenium Ore || Rafflenium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Carnivorian Ore}} || Carnivorian Ore || Carnivorian Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Infernite Ore}} || Infernite Ore || Infernite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Blood-Onyx Ore}} || Blood-Onyx Ore || Blood-Onyx Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cyrogem Ore}} || Cyrogem Ore || Cyrogem Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Pinnaclite Ore}} || Pinnaclite Ore || Pinnaclite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Omeletite Ore}} || Omeletite Ore || Omeletite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Resinite Ore}} || Resinite Ore || Resinite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Impactium Ore}} || Impactium Ore || Impactium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Tricerastone Ore}} || Tricerastone Ore || Tricerastone Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Duelysium Ore}} || Duelysium Ore || Duelysium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Arcusite Ore}} || Arcusite Ore || Arcusite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Phalanxite Ore}} || Phalanxite Ore || Phalanxite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Guardium Ore}} || Guardium Ore || Guardium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cognite Ore}} || Cognite Ore || Cognite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Telophite Ore}} || Telophite Ore || Telophite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Steamstone Ore}} || Steamstone Ore || Steamstone Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Equinine Ore}} || Equinine Ore || Equinine Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Dynamite Ore}} || Dynamite Ore || Dynamite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Genevium Ore}} || Genevium Ore || Genevium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Manhattite Ore}} || Manhattite Ore || Manhattite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Rationium Ore}} || Rationium Ore || Rationium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Vaporium Ore}} || Vaporium Ore || Vaporium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Palmite Ore}} || Palmite Ore || Palmite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Ransomite Ore}} || Ransomite Ore || Ransomite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=MVPD-1988 Ore}} || MVPD-1988 Ore || MVPD-1988 Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Chronite Ore}} || Chronite Ore || Chronite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Hattium Ore}} || Hattium Ore || Hattium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Pishalvite Ore}} || Pishalvite Ore || Pishalvite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Teatimium Ore}} || Teatimium Ore || Teatimium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Rumium Ore}} || Rumium Ore || Rumium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Anchorium Ore}} || Anchorium Ore || Anchorium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Mateyum Ore}} || Mateyum Ore || Mateyum Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Hookite Ore}} || Hookite Ore || Hookite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Carpetite Ore}} || Carpetite Ore || Carpetite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Djinnium Ore}} || Djinnium Ore || Djinnium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Sinbadium Ore}} || Sinbadium Ore || Sinbadium Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Turbanite Ore}} || Turbanite Ore || Turbanite Ore Gain 1.50x || 2x || 4x-12.91x || +0.12x/+0.02x
+|}

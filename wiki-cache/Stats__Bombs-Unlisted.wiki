@@ -1,0 +1,109 @@
+<tabber>
+Make Ores Gold=
+{{Stat|Make Ores Gold|The chance for {{Sprite|Bomb of Plenty|Bombs#tabber-Bomb_of_Plenty|16x16}} to turn an ore {{Sprite|Golden Ore Chance|Stats#Ore_marks|16x16|Golden}}.
+| '''Workshop''' <math>+</math>|
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W3_TurnOresGold|World 3: Turns Ores Gold]]
+| '''Fishing''' <math>\times</math>|
+Obtaining the {{Sprite|Bomb of Plenty Golden|Bombs#Golden_Bombs|16x16|Golden Bomb of Plenty}} from {{Sprite|Nuclear Legendary Fish|Fishing#Legendary Fish|16x16|Radioactive Slug}}'s {{Sprite|Tribute Rank 2|Fishing#tabber-Radioactive_Slug|16x16|Second Tribute}}
+|spriteOverride=Bomb of Plenty
+}}
+|-|
+Transmuter BoP Mark Chance=
+{{Stat|Transmuter Applies Bomb of Plenty Chance|The chance for {{Sprite|Transmuter Bomb|Bombs#tabber-Transmuter_Bomb|16x16}} to apply the {{Sprite|Bomb of Plenty|Bombs#tabber-Bomb_of_Plenty|16x16}} effect (and subsequent {{Sprite|Golden Ore Chance|Stats#Ore_marks|16x16|Make Ores Gold}} chance).
+| '''Workshop''' <math>+</math>|
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W2_TransmuterGivesBoPChance|World 2: Transmuter gives BoP chance]]
+| '''Pets''' <math>+</math>|
+The Leprechaun {{Sprite|Leprechaun Quest|Pets#tabber-Leprechaun_2|16x16|Jolly O'Fella}} Pet Quest 
+| '''Construct''' <math>\times</math>|
+Obtaining the {{Sprite|Transmuter Bomb Golden|Bombs#Golden_Bombs|16x16|Golden Transmuter Bomb}} from {{Sprite|13 Statue Ignition Platinized|Construct#tabber-World_3_Platinized_Statues|16x16|Platinized Statue of Ignition}} (World 3, "Julk")
+|spriteOverride=Transmuter Bomb
+}}
+|-|
+Gem Bomb Gem Chance=
+{{Stat|Gem Bomb Gem Chance|The chance for {{Sprite|Gem Bomb|Bombs#tabber-Gem_Bomb|16x16}} to create a {{Sprite|Gem|Gems|16x16|Gem}} when fired.
+| '''Store''' <math>+</math>|
+The {{Sprite|FounderIcon|Founder#FounderT12|16x16|12th Tier Founder Perk|}}
+| '''Pets''' <math>+</math>|
+The Whale {{Sprite|Whale Quest|Pets#tabber-Whale_2|16x16|Blubbercore}} Pet Quest 
+| '''Construct''' <math>+</math>|
+[[File:22 Statue Nature Normal.png|16px]] [[Construct#Fanq|World 4: Statue of Nature]]
+| '''Skins''' <math>+</math> |
+The reward for owning 19 Unique {{Sprite|19 Male Gift Skin|Skins#SkinReward19|16x16|Skins|}}
+| '''Fishing''' <math>+</math>|
+Obtaining the {{Sprite|Gem Bomb Golden|Bombs#Golden_Bombs|16x16|Golden Gem Bomb}} from {{Sprite|Cave Legendary Fish|Fishing#Legendary Fish|16x16|Glimmering Geoduck}}'s {{Sprite|Tribute Rank 2|Fishing#tabber-Glimmering_Geoduck|16x16|Second Tribute}} |spriteOverride=Gem Bomb}}
+|-|
+Bomb of Plenty Multi=
+{{Stat|Bomb of Plenty Multi|The number of ores given when a Bomb of Plenty Mark is applied to an ore
+| '''Store''' |
+The [[File:Bomberextraordinaire vp.png|16px]] [[Store#BomberExtraordinaireBundle|Bomber Extraordinaire Bundle]]
+<br>The {{Sprite|FounderIcon|Founder#FounderT4|16x16|4th Tier Founder Perk|}}
+| '''Workshop''' |
+[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W1_BombOfPlentyOreMulti|World 1: Bomb of Plenty Ore Multi]]
+<br>[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W3_BombOfPlentyMulti|World 3: Plenty Bomb Multi]]
+<br>[[File:Workshop Button.png|16px]] [[Workshop#Upgrades_W4_BombOfPlentyMulti|World 4: Bomb of Plenty Multi]]
+| '''Pets''' |
+The Crab {{Sprite|Crab_Quest|Pets#tabber-Crab|16x16|Steel Scuttler}} Pet Quest
+| '''Skins''' |
+The [[Skins#SkinReward8|8th Miner Skin Reward]]
+<br>The [[Skins#SkinReward15|15th Miner Skin Reward]]
+|spriteOverride=Bomb of Plenty
+}}
+|-|
+Transmuter Bomb Multi=
+{{Stat|Transmuter Bomb Multi|The number of bars given when a Transmuter Bomb Mark is applied to an ore
+| '''Store''' | 
+The [[File:Bomberextraordinaire vp.png|16px]] [[Store#BomberExtraordinaireBundle|Bomber Extraordinaire Bundle]]
+<br>The [[File:craftmasterbundle vp.png|16px]] [[Store#CraftmasterBundle|Craftmaster Bundle]]
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W1_TransmuterBarMulti|World 1: Transmuter Bar Multi]]
+<br>[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W4_TransmuterBarMulti|World 4: Transmuter Bar Multi]]
+| '''Construct''' | 
+[[File:2 Statue Awareness Normal.png|16px]] [[Construct#Tor|World 1: Statue of Awareness]]
+<br>[[File:13 Statue Ignition Platinized.png|16px]] [[Construct#JulkPlatinized|World 3: Platinized Statue of Ignition]]<ref name="golden">All sources are added together, creating the base multi. The [[Bombs#tabber-Golden_3|Golden Transmuter Bomb]] then doubles that base.</ref>
+| '''Archaeology''' |
+The [[File:Apollo_Idol.png|16px]] [[Archaeology#Apollo|Apollo]] Idol
+|spriteOverride=Transmuter Bomb
+}}
+<references />
+|-|
+Exp Bomb Multi=
+{{Stat|Exp Bomb Multi|The amount of Exp given when a Exp Bomb Mark is applied to an ore
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W1_ExpBombBonus|World 1: Exp Bomb Bonus]]
+| '''Pets''' |
+The Crab {{Sprite|Crab_Quest|Pets#tabber-Crab|16x16|Steel Scuttler}} Pet Quest
+|spriteOverride=Exp Bomb
+}}
+|-|
+Veinmorpher Morph Chance=
+{{Stat|Veinmorpher Morph Chance|The chance for the {{Sprite|Veinmorpher Bomb|Bombs#tabber-Veinmorpher_Bomb|16x16}} to turn ores into veins when fired
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W3_MorphChance|World 3: Morph Chance]]
+| '''Arcanist''' |
+The [[File:White_Orb.png|16px]] [[Arcanist#ExchangeUpgrade_VeinmorpherMorphChance|Veinmorpher Morph Chance]] Exchange Upgrade
+|spriteOverride=Veinmorpher Bomb
+}}
+|-|
+D20 Max Charges=
+{{Stat|D20 Max Charges|Increases the amount of refilled bombs when firing the {{Sprite|D20 Bomb|Bombs#tabber-D20_Bomb|16x16}}
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W1_D20MaxCharges|World 1: D20 Max Charges]]
+|spriteOverride=D20_Bomb
+}}
+|-|
+Chain Bomb Amount=
+{{Stat|Chain Bomb Amount|Increases the total chain bombs given when firing the {{Sprite|Chain Bomb|Bombs#tabber-Chain_Bomb|16x16}}
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W1_ChainBombAmount|World 1: Chain Bomb Amount]]
+| '''Challenges''' |
+[[File:Challenge_Coin.png|16px]] [[Challenges#RegularReward_ChainBombAmount|Chain Bomb Amount]]
+|spriteOverride=Chain_Bomb
+}}
+|-|
+Megabomb Damage Multi=
+{{Stat|Megabomb Damage|Increases the Damage Multiplier when a MEGABOMB Mark is applied to an ore
+| '''Workshop''' | 
+[[File:Workshop_Button.png|16px]] [[Workshop#Upgrades_W1_ChainBombAmount|World 1: Megabomb Damage]]
+|spriteOverride=MEGABOMB
+}}
+</tabber>

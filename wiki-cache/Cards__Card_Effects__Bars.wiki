@@ -1,0 +1,159 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="Andromeda">With the [[Archaeology#tabber-Legendary Idols|Andromeda]] Idol</ref> || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Tin Bar}} || Tin Bar || Tin Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Copper Bar}} || Copper Bar || Copper Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Mithril Bar}} || Mithril Bar || Mithril Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Adamant Bar}} || Adamant Bar || Adamant Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Runite Bar}} || Runite Bar || Runite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Citrine Bar}} || Citrine Bar || Citrine Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Amethyst Bar}} || Amethyst Bar || Amethyst Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Topaz Bar}} || Topaz Bar || Topaz Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Obsidian Bar}} || Obsidian Bar || Obsidian Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Demonite Bar}} || Demonite Bar || Demonite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Tin Bar}} || VR-Tin Bar || VR-Tin Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Amethyst Bar}} || VR-Amethyst Bar || VR-Amethyst Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-Demonite Bar}} || VR-Demonite Bar || VR-Demonite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=VR-ERROR Bar}} || VR-ERROR Bar || VR-ERROR Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Lunarium Bar}} || Lunarium Bar || Lunarium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Earth-C-137 Bar}} || Earth-C-137 Bar || Earth-C-137 Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Meteorite Bar}} || Meteorite Bar || Meteorite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Singularity Bar}} || Singularity Bar || Singularity Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Halium Bar}} || Halium Bar || Halium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Blasphemite Bar}} || Blasphemite Bar || Blasphemite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Angelite Bar}} || Angelite Bar || Angelite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Elysium Bar}} || Elysium Bar || Elysium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Enemite Bar}} || Enemite Bar || Enemite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Beepboopium Bar}} || Beepboopium Bar || Beepboopium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Radion-73 Bar}} || Radion-73 Bar || Radion-73 Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cranium Bar}} || Cranium Bar || Cranium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Lapis Bar}} || Lapis Bar || Lapis Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Quartz Bar}} || Quartz Bar || Quartz Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Glacialite Bar}} || Glacialite Bar || Glacialite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Twinklestone Bar}} || Twinklestone Bar || Twinklestone Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Sandcasium Bar}} || Sandcasium Bar || Sandcasium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Clamite Bar}} || Clamite Bar || Clamite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Thunderstone Bar}} || Thunderstone Bar || Thunderstone Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Crabrock Bar}} || Crabrock Bar || Crabrock Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Hailstone Bar}} || Hailstone Bar || Hailstone Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Frostbite Bar}} || Frostbite Bar || Frostbite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Icebloom Bar}} || Icebloom Bar || Icebloom Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Pinguinus Bar}} || Pinguinus Bar || Pinguinus Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Macawrock Bar}} || Macawrock Bar || Macawrock Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cocore Bar}} || Cocore Bar || Cocore Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Rafflenium Bar}} || Rafflenium Bar || Rafflenium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Carnivorian Bar}} || Carnivorian Bar || Carnivorian Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Infernite Bar}} || Infernite Bar || Infernite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Blood-Onyx Bar}} || Blood-Onyx Bar || Blood-Onyx Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cyrogem Bar}} || Cyrogem Bar || Cyrogem Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Pinnaclite Bar}} || Pinnaclite Bar || Pinnaclite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Omeletite Bar}} || Omeletite Bar || Omeletite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Resinite Bar}} || Resinite Bar || Resinite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Impactium Bar}} || Impactium Bar || Impactium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Tricerastone Bar}} || Tricerastone Bar || Tricerastone Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Duelysium Bar}} || Duelysium Bar || Duelysium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Arcusite Bar}} || Arcusite Bar || Arcusite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Phalanxite Bar}} || Phalanxite Bar || Phalanxite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Guardium Bar}} || Guardium Bar || Guardium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Cognite Bar}} || Cognite Bar || Cognite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Telophite Bar}} || Telophite Bar || Telophite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Steamstone Bar}} || Steamstone Bar || Steamstone Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Equinine Bar}} || Equinine Bar || Equinine Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Dynamite Bar}} || Dynamite Bar || Dynamite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Genevium Bar}} || Genevium Bar || Genevium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Manhattite Bar}} || Manhattite Bar || Manhattite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Rationium Bar}} || Rationium Bar || Rationium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Vaporium Bar}} || Vaporium Bar || Vaporium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Palmite Bar}} || Palmite Bar || Palmite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Ransomite Bar}} || Ransomite Bar || Ransomite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=MVPD-1988 Bar}} || MVPD-1988 Bar || MVPD-1988 Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x 
+|-
+| {{CardShowcase|card=Chronite Bar}} || Chronite Bar || Chronite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Hattium Bar}} || Hattium Bar || Hattium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Pishalvite Bar}} || Pishalvite Bar || Pishalvite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Teatimium Bar}} || Teatimium Bar || Teatimium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Rumium Bar}} || Rumium Bar || Rumium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Anchorium Bar}} || Anchorium Bar || Anchorium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Mateyum Bar}} || Mateyum Bar || Mateyum Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Hookite Bar}} || Hookite Bar || Hookite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Carpetite Bar}} || Carpetite Bar || Carpetite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Djinnium Bar}} || Djinnium Bar || Djinnium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Sinbadium Bar}} || Sinbadium Bar || Sinbadium Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|-
+| {{CardShowcase|card=Turbanite Bar}} || Turbanite Bar || Turbanite Bar Gain 1.50x || 2x || 4x-19x || +0.12x/+0.02x
+|}

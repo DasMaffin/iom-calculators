@@ -1,0 +1,834 @@
+{{Version|2.2.23}}
+[[File:Arch Button.png|frameless|left]]
+Archaeology is a menu that unlocks at Obelisk Level 30. You beat blocks to gain fragments. You can spend them on [[Archaeology#Upgrades|Upgrades]] to improve Archaeology, and on [[Archaeology#Idols|Idols]] that provide bonuses to the main game.
+
+{{clear|left}}
+==In-game description==
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote = 
+In this menu your miner will permanently mine blocks to gather fragments and archaeology experience!     
+
+Archaeology will constantly be running in the background - regardless of whether this menu is open or not! You accumulate one attack per second when offline and process them all on login!
+
+Experience levels up your Archaeology level, granting you stat points to spec into one of 5 skills in the upgrade menu.  
+
+Depending on your goals you can adjust your stat points loadout, play about with these as much as you like! Removing Agility stat points will deplete your current stamina by the same amount Agility grants.  
+
+There are Dirt, Common, Rare, Epic, Legendary and Mythic Blocks - Common+ Blocks drop fragments which can be used on either Archaeology upgrades or summoning Idols!
+
+Idols - Use fragments to summon powerful Idols, these grant stat buffs that will help you progress in the game! Every idol requires a task to be completed in order for their bonus to activate.     
+
+Game Speed does not affect this menu!
+}}</div>
+
+==Strategy==
+{{See also|Guides/Archaeology_Guide}}
+
+Unless otherwise noted, this applies specifically for <code>{{Sprite|Ascension||20x20|Ascension 0}}</code>, i.e. initial access to the Archaeology menu.
+
+Starting out: Put enough points into <code>{{Sprite|Archaeology Strength||20x20|Strength}}</code> to reach 90 <code>{{Sprite|Archaeology Flat Damage||20x20|Damage}}</code> in order to one-shot <code>{{Sprite|Archaeology Tier 1 Dirt||20x20|Tier 1 Dirt}}</code> blocks, then invest remaining points into <code>{{Sprite|Archaeology Agility||20x20|Agility}}</code> to push your <code>{{Sprite|Archaeology Highest Stage||20x20|Highest Stage}}</code>. 
+
+As you get more upgrades you can move more points from Strength into <code>{{Sprite|Archaeology Agility||20x20|Agility}}</code>.
+
+Level 35+ Alternate between two builds:
+* <code>{{Sprite|Archaeology Luck||20x20|Luck}}</code> Setup: Max Luck, rest in Strength. Farms more fragments and experience.
+* <code>{{Sprite|Archaeology Strength||20x20|Strength}}</code> Setup: Enough Strength to 1-hit dirt blocks, rest in Agility. Reaches higher stages and higher fragment types.
+
+Farm with Luck setup, then push stages with Strength setup. Important after unlocking the <code>{{Sprite|Block Bonker|Skill-Tree#Skills|20x20|Block Bonker}}</code> skill. If you want lower effort gameplay, stay with pure Luck setup.
+
+* <code>Level 50+</code> Modified Luck setup for pushing stages: Max Luck, the rest half/half into Strength and Agility. Balances fragment gain and stage progression.
+* <code>Level 55</code> (optional): Farm fragments to max <code>{{Sprite|Minos Idol||20x20|Minos}}</code> and <code>{{Sprite|Dionysus Idol||20x20|Dionysus}}</code> idols early for huge boost in general game progression.
+* <code>Level 60</code>: Modified Luck setup for pushing stages: Max Luck,  the rest into Strength. RNG is a big Factor but will always yield a higher Stage than Agility. 
+* <code>Level 100</code>: Max Luck and <code>{{Sprite|Archaeology Perception||20x20|Perception}}</code>, and put remaining points into Strength. This stops you from going above stage 100 too often, where Block stats increase but rewards (including <code>{{Sprite|Block Bonker|Skill-Tree#Skills|20x20|Block Bonker}}</code> scaling) do not, until you can reliably reach Stage 115+ consistently for <code>{{Sprite|Dino Quest|Pets#Quests|20x20|Dino's Pet Quest}}</code>.
+
+Max [[Archaeology#Upgrades|Upgrades]] before buying [[Archaeology#Idols|Idols]]! (Exception: <code>{{Sprite|Minos Idol||20x20|Minos}}</code> and <code>{{Sprite|Dionysus Idol||20x20|Dionysus}}</code>) [[Archaeology#Idols|Idol]] effects are incremental and maxing [[Archaeology#Upgrades|Upgrades]] is better in the long run.
+
+<code>{{Sprite|Supply Drop|Founder#Supply drop|16x20|Founder Supply Drops}}</code> have an <code>{{Sprite|Arch Icon||20x20|Archaeology Banked Seconds}}</code>  component that scales via <code>{{Sprite|Archaeology Highest Stage||20x20|Archaeology Highest Stage}}</code>. Whenever you get a major power up, try to do a Full Luck, Full Strength, Rest Agility build to increase your banked second gain.
+
+==Archaeology Levels==
+Archaeology levels provide the Skill points, which are used to upgrade the [[Archaeology#Skills|Archaeology Skills]]. Levels are earned by obtaining experience [[File:Archaeology Exp.png|16x16px]] when destroying the [[Archaeology#Block_Stats|blocks]], each block provides different amount of experience. The amount of experience required for each level increases over time. 
+
+Following table is just an '''example of initial 100 levels''', which is requirement for [[Archaeology#Ascension|Ascension 2]], however, there is no hard cap for archaeology level.
+{{CostTable|Archaeology Level|100|1.2|class{{=}}"wikitable text-align-center sticky-header" style{{=}}"font-size:0.90em"|formula|10|Archaeology Exp| |formula=baseCost*(costScaling^(n+1))|rounding=round}}
+
+===Archaeology Levels Calculation===
+The experience needed to advance to next level is calculated with following formula:
+
+<math>Experience(n) = 10 \times 1.2^{n+1}</math>, where <math>n</math> is the current level.
+
+==Skills==
+Skills are the basic character attributes available in Archaeology that improve different stats. Each skill provides specific bonuses related to that skill such as increased damage, better loot chances, or faster progression. Skill points are used to upgrade specific skills and they are obtained by leveling up, which requires experience gained by destroying [[Archaeology#Block_Stats|blocks]]. Skill's effects and cap can be further increased by certain [[Archaeology#Upgrades|upgrades]]. Divination and Corruption skills require Ascension to be unlocked.
+
+{|class="wikitable align-center-4 align-center-5"
+! colspan=2 | Skill !! Effect !! Requirements !! Cap (base) 
+|-
+| <div id="Strength"></div>[[File:Archaeology Strength.png]] || Strength|| Flat Damage +1<br>Damage +1.00%<br>Crit Damage +3% || {{NA}} ||50
+|-
+| <div id="Agility"></div>[[File:Archaeology Agility.png]] || Agility || Max Stamina +5<br>Crit Chance +1%<br>Speed Mod Chance +0.20% || {{NA}} || 50
+|-
+| <div id="Perception"></div>[[File:Archaeology Perception.png]] || Perception || Fragment Gain +4%<br>Loot Mod Chance +0.30%<br>Armor Penetration +2 || {{NA}} || 25
+|-
+| <div id="Intellect"></div>[[File:Archaeology Intellect.png]] || Intellect || Experience Gain +5%<br>Exp Mod Chance +0.30%<br>Armor Penetration +3% || {{NA}} || 25
+|-
+| <div id="Luck"></div>[[File:Archaeology Luck.png]] || Luck || Crit Chance +2%<br>All Mod Chances +0.20%<br>Gold Crosshair Ch. +0.50% || {{NA}} || 25
+|-
+| <div id="Divinity"></div>[[File:Archaeology Divinity.png]] || Divinity || Flat Damage +2<br>Super Crit Chance +2%<br>Crosshair Auto-Tap +2% || Ascension 1 || 10
+|-
+| <div id="Corruption"></div>[[File:Archaeology Corruption.png]] || Corruption || Damage +6%<br>Max Stamina -3%<br>All Mod Multis +1% || Ascension 2 || 10
+|}
+
+==Abilities==
+Currently there are 3 different abilities available in Archaeology: Enrage, Flurry, and Quake. They offer specific buffs which help progress through the stages. Abilities can also be selected to be automatically used as soon as they come off cooldown. Ability cooldowns as well as the effects/amount of charges can be increased with upgrades.
+{|class="wikitable"
+! colspan=2 | Ability !! Charges/Cooldown<ref name=baseAmount>Related to base amount of charges and cooldown</ref> !! Effect
+|-
+| [[File:Archaeology Ability Enrage.png]] || Enrage || 5 Charges / 60s cooldown || Next 5 Attacks:<br>+20% Damage<br>+100% Crit Damage
+|-
+| [[File:Archaeology_Ability_Flurry.png]] || Flurry || 5 Charges / 120s cooldown || +100% Atk Speed,<br>+5 Stamina On Cast
+|-
+| [[File:Archaeology Ability Quake.png]] || Quake ||  5 Charges / 180s cooldown || Next 5 Attacks:<br>Deal 20% Damage<br>to all Blocks
+|}
+<references />
+
+===Ability Fairy===
+[[File:Archaeology Ability Fairy.png|32x32px]] Ability Fairies require [[Archaeology#Ascension|Ascension 2]] [[Archaeology#Ascension_2|upgrade]] to be unlocked. After unlocking they can show up randomly, flying around in the Archaeology window. When interacted with they cause all other abilities to instantly refresh and be used automatically right away.
+
+==Ascension==
+Ascension becomes available at [[Obelisk#OB66|Obelisk 66]]. Archaeology prior to ascending is referred to as Ascension 0. Ascension allows for a way to [[#Lost on Ascension|reset progress]] in Archaeology, which in turn unlocks more blocks, skills, upgrades and idols. After ascending you must progress through Ascension 1 to then become eligible for Ascension 2. 
+
+===Ascension 0===
+* Gem Upgrades have a max cost of {{Gems|1000}}
+* [[Lootbugs#Gem_Buffs|Lootbugs]] give a set number of base<ref name=bugbase>Base amount prior to lootbug multi</ref> archaeology ticks
+
+===Lost on Ascension===
+Applies to both Ascension 0->1 and Ascension 1->2
+* Archaeology Upgrades
+* Archaeology Gem Upgrades
+* Banked Archaeology Seconds
+* Archaeology Level, Highest Stage 
+* (everything except Idols and Idol Tokens)
+
+===Ascension 1===
+* Requires Archaeology Level 90, Arch Highest Stage 115, and [[Obelisk#OB66|Obelisk level 66]].
+* Divine Blocks now appear, Divinity Skill now available
+* Fragment Upgrades become 5x more expensive
+* Gem Upgrades become 25x more expensive
+* [[Fishing#tabber-Glimmering_Geoduck|Glimmering Geoduck]] fragment bonus capped at +50% (200 Mythic Chests)
+* Lootbugs now give base arch ticks based on highest stage, with a cap at stage 200<ref name=lootbug>See [[Lootbugs#Gem_Buffs|here]] for formula </ref>
+
+===Ascension 2===
+* Requires Archaeology Level 100 and Highest Stage 150
+* Tier 4 Blocks now appear, Corruption Skill now available
+* Fragment Upgrades become 10x more expensive<ref name=asccost>Compared to Ascension 0</ref>
+* Gem Upgrades become 50x more expensive<ref name=asccost/>
+* Glimmering Geoduck fragment bonus capped at +75% (300 Mythic Chests)
+
+<references />
+
+==Mod Chances==
+You can see your mod chances and effects in the Stats popup in the Archaeology menu (separate from your other [[Stats|Stats menu]]). When a stage is created, each block rolls your mod chances. For each mod roll that succeeds it's icon appears above the block. When you destroy the block, all mods it has take effect.
+
+{|class="wikitable align-center-1"
+! colspan=2 |Mod
+!Effect
+|-
+|[[File:Archaeology Exp Mod Chance.png]] ||Exp Mod
+|3x to 5x Experience from this block
+|-
+|[[File:Archaeology Loot Mod Chance.png]] ||Loot Mod
+|2x to 5x Fragments from this block
+|-
+|[[File:Archaeology Speed Mod Chance.png]] ||Speed Mod
+| +10 to +110 Atk Speed x2
+|-
+|[[File:Archaeology Stamina Mod Chance.png]] ||Stamina Mod
+| +3 to +10 added stamina. (can't go over your max)
+|}
+
+==Crosshairs==
+===Regular Crosshair===
+[[File:Archaeology Crosshair.png|32x32px]] Sometimes when doing Archaeology the Crosshairs can randomly spawn with a 2.2% on top of any block. When that crosshair is tapped, the block that the crosshair was on top of will take damage of same amount as dealt by the miner normally. This also includes a chance to roll a critical hit on the block, same way it normally would for a miner's hit.
+
+===Gold Crosshair===
+[[File:Archaeology_Gold_Crosshair.png|32x32px]] Gold Crosshairs are enhanced version of regular Crosshair. They are initially unlocked via [[Archaeology#Luck|Luck skill]] and they greatly multiply the damage dealt by tapping them (base x3).
+
+===Crosshair Auto-Tap===
+[[File:Archaeology Crosshair Auto-Tap.png|32x32px]] [[File:Archaeology_Gold_Crosshair_Auto-Tap.png|32x32px]] Crosshair Auto-Taps require [[Archaeology#Ascension|Ascension]] 1 [[Archaeology#tabber-Ascension_1|upgrades]] to be unlocked and can occur in both regular and Gold variants. They show up for around 2 seconds and then disappear, automatically dealing the damage to the block in question in the same way as normal crosshairs would.
+
+===Crosshair Fairy===
+[[File:Archaeology_Crosshair_Fairy.png|32x32px]] Crosshair Fairies also require [[Archaeology#Ascension|Ascension]] 1 [[Archaeology#Ascension_1|upgrade]] to be unlocked. After unlocking they can show up randomly, flying around in the Archaeology window. When interacted with they cause Crosshairs to show up on all of the blocks on that stage.
+
+==Upgrades==
+{{See also|Archaeology/Costs}}
+<tabber class="sticky-header">
+|-|
+Ascension 0=
+{| class="wikitable text-align-center align-left-2 align-left-6 sticky-header"
+|+Ascension 0
+|-
+!colspan=2 | Upgrade
+!Bonus Per Lvl
+!Max level
+! style="width:5em" | Stage To Unlock
+!Fragment type cost
+|-
+| [[File:Archaeology_Max_Stamina.png]] || Max Stamina, Stamina Mod Chance
+| +2/+0.05%
+|50<ref name=gemScale>Cap is capped at Arch Level + 4</ref>
+|{{NA}}
+|{{Gems|}}
+|-
+| [[File:Archaeology_Exp_Gain.png]] || Archaeology Exp Gain, Exp Mod Chance
+| +5%/+0.05%
+|25<ref name=gemScale/>
+|{{NA}}
+|{{Gems|}}
+|-
+| [[File:Archaeology_Fragment_Gain.png]] ||Fragment Gain, Loot Mod Chance
+| +2%/+0.05%
+|25<ref name=gemScale/>
+|{{NA}}
+|{{Gems|}}
+|-
+| [[File:Archaeology_Ability_Enrage.png]] ||  Unlock New Ability
+| +1
+|3
+|{{NA}}
+|[[File:Common Fragment.png|20x20px]] Common,<br>[[File:Rare Fragment.png|20x20px]] Rare,<br>[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Flat_Damage.png]] || Flat Damage
+| +1
+|25
+|{{NA}}
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology_Armor_Penetration.png]] || Armor Penetration
+| +1
+|25
+|2
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology_Exp_Gain.png]] || Archaeology Exp Gain
+| +2%
+|25
+|3
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology_Crit_Damage.png]] || Crit Chance, Crit Damage
+| +0.25%/+1%
+|25
+|4
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology_Stamina_Mod_Chance.png]] || Max Stamina, Stamina Mod Chance
+| +2/+0.05%
+|20
+|5
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Flat_Damage.png]] || Flat Damage
+| +2
+|20
+|6
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Loot_Mod_Gain.png]] || Loot Mod Gain Multiplier
+| +0.30x
+|10
+|6
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Ability_Enrage.png]] || Enrage Damage/Crit Damage, Enrage Cooldown
+| +2%/-1s
+|15
+|7
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Super_Crit_Chance.png]] || Flat Damage, Super Crit Chance
+| +2/+0.35%
+|25
+|9
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Exp_and_Fragment_Gain.png]] || Archaeology Exp Gain, Fragment Gain
+| +3%/+2%
+|20
+|10
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Ability_Flurry.png]] || Flurry Stamina Gain, Flurry Cooldown
+| +1/-1s
+|10
+|11
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Stamina_Mod_Gain.png]] || Max Stamina, Stamina Mod Gain
+| +4/+1
+|5
+|12
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Strength.png]] || Strength Skill Buff: Flat Damage, Damage
+| +0.2/+0.1%
+|5
+|13
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology_Agility.png]] || Agility Skill Buff: Max Stamina, Mod Ch.
+| +1/+0.02%
+|5
+|15
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Exp_and_Stamina.png]] || Archaelogy Exp Gain, Maximum Stamina
+| +5%/+1%
+|15
+|17
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Armor_Penetration_Mult.png]] || Armor Penetration, Ability Cooldown
+| +2%/-1s
+|10
+|18
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Super_Crit_Damage.png]] || Crit Damage, Super Crit Damage
+| +2%/+2%
+|20
+|20
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Ability_Quake.png]] || Quake Attacks, Quake Cooldown
+| +1/-2s
+|10
+|20
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Perception.png]] || Perception Skill Buff: Mod Ch., Armor Pen
+| +0.01%/+1
+|5
+|22
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Intellect.png]] || Intellect Skill Buff: Exp Gain, Mod Ch.
+| +1%/+0.01%
+|5
+|24
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Damage_Mult.png]] || Damage, Armor Penetration
+| +2%/+3
+|20
+|26
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Archaeology_Ultra_Crit_Chance.png]] || Super / Ultra Crit Chance
+| +0.35%/+1%
+|20
+|28
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Archaeology_Exp_Mod_Chance.png]] || EXP Mod Gain/ Chance
+| +0.10x/0.10%
+|20
+|30
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Archaeology_Ability_Instacharge.png]] || Ability Instacharge/Max Stamina
+| +0.30%/+4
+|20
+|32
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Poly_Shard.png]] || Polychrome Archaeology Card Bonus
+| +15%
+|1
+|34
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+|[[File:Archaeology_Fragment_Gain.png]] || Fragment Gain
+|1.25x
+|1
+|36
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Stamina_Mod_Gain.png]] || Stamina Mod Gain
+| +2
+|1
+|38
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_All_Mod_Chance.png]] || All Mod Chances
+| +1.50%
+|1
+|40
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Exp_and_Stat_Cap.png]] || Exp Gain / All Stat Point Caps
+|2.00x / +5
+|1
+|42
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|}
+|-|
+Ascension 1=
+{| class="wikitable text-align-center text-align-center align-left-2 align-left-6 sticky-header"
+|+Ascension 1
+|-
+!colspan=2 | Upgrade
+!Bonus Per Lvl
+!Max level
+! style="width:5em" | Stage To Unlock
+!Fragment type cost
+|-
+| [[File:Archaeology_Extra_Stat_Point.png]] || Stat Points
+| +1
+|5
+|4
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Archaeology Crosshair Fairy Unlock.png]] || [Unlock Crosshair Fairies], Armor Penetration
+| +3
+|15
+|7
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_All_Mod_Chance.png]] || All Mod Chances
+| +0.02%
+|30
+|12
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Ability_Enrage.png]] ||  Flat Damage, Enrage Cooldown
+| +3, -1
+|5
+|21
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology_Ultra Crit_Damage.png]] || Ultra Crit Damage, Stamina Mod Chance 
+| +2%, +0.03%
+|20
+|33
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Archaeology_Strength Skill Buff.png]] || Strength Skill Buff: Damage, Crit Damage
+| +1%, +1%
+|1
+|50
+|[[File:Divine Fragment.png|20x20px]] Divine
+|-
+| [[File:Archaeology_Golden_Crosshair_Chance.png]] || Gold Crosshair Chance, Crosshair Auto-Tap Chance
+| +1%, +1%
+|5
+|55
+|[[File:Divine Fragment.png|20x20px]] Divine
+|-
+| [[File:Archaeology_Crit_Damage.png]] || Flat Damage, Ultra Crit Chance
+| +3, +0.50%
+|5
+|60
+|[[File:Divine Fragment.png|20x20px]] Divine
+|-
+| [[File:Archaeology Ability Instacharge.png]] || Ability Instacharge, Stamina Mod Chance
+| +0.10%, +0.10%
+|25
+|65
+|[[File:Divine Fragment.png|20x20px]] Divine
+|-
+| [[File:Archaeology Flat Damage.png]] || Damage, Archaeology Exp Gain
+| +10%, +10%
+|5
+|70
+|[[File:Divine Fragment.png|20x20px]] Divine
+|-
+| [[File:Archaeology_Super Crit_Damage.png]] || Super Crit Damage, Exp Mod Gain
+| +0.50%, +2%
+|40
+|85
+|[[File:Legendary Fragment.png|20x20px]] Legendary 
+|-
+| [[File:Archaeology_Max_Stamina.png]]  || Max Stamina, Crosshair Auto-Tap Ch.
+| +0.50%, +0.20%
+|50
+|90
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|}
+|-|
+Ascension 2=
+{| class="wikitable text-align-center text-align-center align-left-2 align-left-6"
+|+Ascension 2
+!colspan=2 | Upgrade
+!Bonus Per Lvl
+!Max level
+! style="width:5em" | Stage To Unlock
+!Fragment type cost
+|-
+| [[File:Archaeology_Gleaming_Floor_Chance.png]] || Gleaming Floor Chance<ref>Chance to apply the Gleaming Floor Multi to increase fragments gained from all blocks on the floor</ref>
+| +0.10%
+|30
+|8
+|[[File:Common Fragment.png|20x20px]] Common
+|-
+| [[File:Fairy Ability Unlock.png]] || [Unlock Ability Fairy], Loot Mod Gain
+| +0.05x
+|30
+|16
+|[[File:Rare Fragment.png|20x20px]] Rare
+|-
+| [[File:Archaeology_Buff Divinity.png]] || Buff Divinity: All Div Stats
+| +0.20
+|5
+|23
+|[[File:Epic Fragment.png|20x20px]] Epic
+|-
+| [[File:Archaeology_Gleaming_Floor_Chance.png]] || Gleaming Floor Multi
+| +3%
+|30
+|45
+|[[File:Legendary Fragment.png|20x20px]] Legendary
+|-
+| [[File:Archaeology Corruption Buff.png]] || Corruption buff: Damage, Speed Mod
+| +0.2%/+0.1%
+|10
+|72
+|[[File:Mythic Fragment.png|20x20px]] Mythic
+|-
+| [[File:Archaeology All Mod Multiplier.png]] || All Mod Multipliers
+| +2%
+| 10
+|92
+| [[File:Divine Fragment.png|20x20px]] Divine
+|}
+</tabber>
+<references/>
+
+== Idols ==
+Idols can be purchased with fragments you acquire and provide buffs to other areas of the game. Idol fragment costs cap out at 999.
+Any effects shown between "<code>[ ]</code>" are one time unlocks and not increased when buying more idols of the same type.
+
+Holding the Idol buy button will continuously buy idols, gradually speeding up. Dragging to another buy button will preserve the buying speed increase.
+
+=== Ascension 0 ===
+<tabber>
+|-|
+Common Idols=
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-7"
+|+Common Idols
+! colspan=2 | Idol
+!Bonus Per Idol
+!Cap
+! style="width:5em" |Idols To Unlock
+!Obelisk Level
+!Requirement
+|-
+|<div id="Athena"></div>[[File:Athena Idol.png]] || Athena || Apple gives +1% Exp; Primal Meat gives +0.05% Super Star Chance || 500 || {{NA}} || 30 || Complete 40+ [[Challenges#Challenge_tiers|Challenges]]
+|-
+|<div id="Cassandra"></div>[[File:Cassandra Idol.png]] || Cassandra || Rock Cake gives Bomb Super and Ultra Crit Chance +0.10% || 150 || 10 || 30 || Reach 1000+ [[Stats#tabber-Bomb_Capacity|Bomb Capacity]]
+|-
+|<div id="Demeter"></div>[[File:Demeter Idol.png]] || Demeter || Strawberries increase Golden Vein Multiplier by 2% || 100 || 25 || 30 || Unlock [[Construct#Vein_unlocks|Volcano Veins]]
+|-
+|<div id="Eros"></div>[[File:Eros Idol.png]] || Eros || Bread increases Lootbug Spawn Rate by +0.40% || 50 || 50 || 30 || Reach lvl 10 [[Stargazing#tabber-Aquarius|Aquarius]] Star 
+|-
+|<div id="Hera"></div>[[File:Hera Idol.png]] || Hera || Contract Upgrade Cap +1 || 3 || 90 || 35 || Complete 55+ [[Challenges#Challenge_tiers|Challenges]]
+|-
+|<div id="Astraeus"></div>[[File:Astraeus Idol.png]] || Astraeus || Star supernova multi +0.05%; Fishing double tick chance +0.03% || 500 || 400 || 46 || Own [[Cards#Card_Odds|Polychrome Cetus Star Card]]
+|}
+|-|
+Rare Idols=
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-7"
+|+Rare Idols
+! colspan=2 | Idol
+!Bonus Per Idol
+!Cap
+! style="width:5em" |Idols To Unlock
+!Obelisk Level
+!Requirement
+|-
+|<div id="Apollo"></div>[[File:Apollo Idol.png]] || Apollo || Transmuter Bomb Multi +0.20x || 500 || {{NA}} || 30 || Reach [[Obelisk|Obelisk]] Level 31+ 
+|-
+|<div id="Iris"></div>[[File:Iris Idol.png]] || Iris || Eye of Newt gives +0.25% Golden Floor Multi || 100 || 10 || 30 || Level 10  [[Pets#tabber-Penguin_3|Penguin Pet]]
+|-
+|<div id="Minos"></div>[[File:Minos Idol.png]] || Minos || Gem Upgrade Cap +1 || 5 || 25 || 30 || Level 8 [[Pets#tabber-Whale_3|Whale Pet]]
+|-
+|<div id="Leto"></div>[[File:Leto Idol.png]] || Leto || Pet Skin Level Up Chance +1% || 10 || 50 || 30 || Own [[Pets#tabber-Leprechaun_Skin|Leprechaun Skin]]
+|-
+|<div id="Poseidon"></div>[[File:Poseidon Idol.png]] || Poseidon || Pike Gives +0.25 Base Fishing Drone Power || 20 || 85 || 37 || Own  [[Cards#Fish_card_odds|Polychrome Guppy Card]]
+|-
+|<div id="Chione"></div>[[File:Chione Idol.png]] || Chione || Ice Cream gives +0.10% vein income multiplier || 300 || 250 || 48 || Own  [[Cards#Card_Odds|Polychrome Neon Vein Card]]
+|}
+|-|
+Epic Idols=
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-7"
+|+Epic Idols
+! colspan=2 | Idol
+!Bonus Per Idol
+!Cap
+! style="width:5em" |Idols To Unlock
+!Obelisk Level
+!Requirement
+|-
+|<div id="Pandora"></div>[[File:Pandora Idol.png]] || Pandora || Star Supernova Multi +0.50% || 500 || {{NA}} || 30 || Level 12 [[Stargazing#tabber-Upgrade_Telescope|Telescope]]
+|-
+|<div id="Cephalus"></div>[[File:Cephalus Idol.png]] || Cephalus || Banana Coffee gives +0.10% Game Speed || 100 || 15 || 30 || Use 100k Items
+|-
+|<div id="Dionysus"></div>[[File:Dionysus Idol.png]] || Dionysus || Coal Upgrade Cap +1; Drone Grade Cap +1 || 5 || 60 || 37 || [[Drones#tabber-Void|Grade 15]] Void Drone
+|-
+|<div id="Talos"></div>[[File:Talos Idol.png]] || Talos || Drone experience gain +0.05%; Coal capacity +50 || 750 || 250 || 50 || Level 22 [[Drones#Generator|Fuel Generator]]
+|}
+|-|
+Legendary Idols=
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-7"
+|+Legendary Idols
+! colspan=2 | Idol
+!Bonus Per Idol
+!Cap
+! style="width:5em" |Idols To Unlock
+!Obelisk Level
+!Requirement
+|-
+|<div id="Andromeda"></div>[[File:Andromeda Idol.png]] || Andromeda || Polychrome Bar Cards give +0.05x Bar Bonus || 300 || {{NA}} || 30 || Own [[Cards#Card_Odds|Polychrome Pinnaclite Bar Card]]
+|-
+|<div id="Nyx"></div>[[File:Nyx Idol.png]] || Nyx || Void Drone Grade Cap +1 || 20 || 25 || 35 || Level 20 [[Drones#Generator|Fuel Generator]]
+|-
+|<div id="Castor"></div>[[File:Castor Idol.png]] || Castor || Aqua Star Cap +2; Cancer Star Cap +2 || 5 || 70 || 35 || Build World 3 [[Construct#Monuments|Monument]]
+|-
+|<div id="Aphrodite"></div>[[File:Aphrodite Idol.png]] || Aphrodite || Rainbow Lollipop Effect 1.002x || 500 || 200 || 52 || Eat  [[Stats#tabber-Pizzas_Eaten|50]] [[Items#Tier_2_items|Yummy Pizzas]] 
+|}
+|-|
+Mythic Idols=
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-7"
+|+Mythic Idols
+! colspan=2 | Idol
+!Bonus Per Idol
+!Cap
+! style="width:5em" |Idols To Unlock
+!Obelisk Level
+!Requirement
+|-
+|<div id="Zeus"></div>[[File:Zeus Idol.png]] || Zeus || Legendary Vein and Star, Mythic Pet and Supernova Relic Caps +1 || 150 || {{NA}} || 30 || Complete 50+ [[Challenges#Challenge_tiers|Challenges]]
+|-
+|<div id="Atlas"></div>[[File:Atlas Idol.png]] || Atlas || Orion Star Cap +1; Hercules Star Cap +1 || 10 || 20 || 42 || Own  [[Cards#Card_Odds|Polychrome Orion Card]]
+|-
+|<div id="Xanthe"></div>[[File:Xanthe Idol.png]] || Xanthe || Starfish Pet Cap +1; Dino Pet Cap +1 || 5 || 40 || 42 || Complete 75+ [[Challenges#Challenge_tiers|Challenges]]
+|-
+|<div id="Tethys"></div>[[File:Tethys Idol.png]] || Tethys || Tier 2 dock power +0.05%; Drone power multi +0.05%; Super shiny multi +0.05% || 500 || 100 || 54 || Own Gilded [[Fishing#Legendary_Fish|Rainbow Trout]] Card 
+|}
+</tabber>
+
+=== Ascension 1 ===
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-8"
+|+Ascension 1 Idols
+! colspan=2 | Idol
+! Rarity
+! Bonus Per Idol
+! Cap
+! style="width:5em" | Idols To Unlock
+! Archaeology Level
+! [[File:Arch Idol Quest Complete.png]] Quest Requirement
+|-
+| <div id="Hestia"></div>[[File:Hestia_Idol.png]] || Hestia || Common || [Unlock Infernal Misc Cards]; Fragment Gain +0.01% || 3000 || 20 || 10 || Level 30 [[Drones#Generator|Fuel Generator]]
+|-
+| <div id="Ares"></div>[[File:Ares_Idol.png]] || Ares || Rare || [Fishing Drones +50]; Fishing Drone Power +0.010% || 5000 || 20 || 30 || Catch [[Fishing#Legendary Fish|Blackened Basker Legendary Fish]]
+|-
+| <div id="Hephaestus"></div>[[File:Hephaestus_Idol.png]] || Hephaestus || Epic || [Fuel Coal Cost -10]; Drone juice gives Coal Production +0.015% || 3000 || 20 || 50 || Level 31 [[Drones#Generator|Fuel Generator]]
+|-
+| <div id="Hyperion"></div>[[File:Hyperion_Idol.png]] || Hyperion || Legendary || [Draco Star Cap +10]; Star Supergiant Multi +0.015% || 2500 || 20 || 65 || [[Stargazing#Black Hole|Level 18 Black Hole]]
+|-
+| <div id="Cronus"></div>[[File:Cronus_Idol.png]] || Cronus || Mythic || [Rainbow Void Portal Multi +20%]; Rainbow Void Portal Chance +0.005% || 2000 || 20 || 75 || [[Cards#tabber-Drones|Infernal Void Drone Card]]
+|-
+| <div id="Hades"></div>[[File:Hades_Idol.png]] || Hades || Divine || [Unlock Infernal Arch Cards]; Infernal Card Bonus + 0.0045% || 6666 || {{NA}} || 85 || [[Fishing#Legendary Fish|Melting Gibbous or Blackened Basker Tribute 2]]
+|}
+
+=== Ascension 2 ===
+{| class="wikitable text-align-center align-left-2 align-left-3 align-left-8"
+|+Ascension 2 Idols
+! colspan=2 | Idol
+! Rarity
+! Bonus Per Idol
+! Cap
+! style="width:5em" | Idols To Unlock
+! Archaeology Level
+! Requirement
+|-
+| <div id="Hermes"></div>[[File:Hermes_Idol.png]] || Hermes || Common || [Contract Upgrade Cap Increase +1]; 10x Contract Chance +0.005% || 1000 || 20 || 20 || [[Cards#tabber-Misc|Infernal Frozenara Card]]
+|-
+| <div id="Theseus"></div>[[File:Theseus_Idol.png]] || Theseus || Rare || [Banked Lootbug Cap +15]; Lootbug Loot Multiplier +0.01% || 3000 || 20 || 40 || Unlock [[Items#Golden_Items|Golden Lootbug Lantern]]
+|-
+| <div id="Mnemosyne"></div>[[File:Mnemosyne_Idol.png]] || Mnemosyne || Epic || [Prism Drone Grade Cap +5]; Prismatic Galactic Multi +0.01% || 5000 || 20 || 60 || [[Drones#tabber-Prism|Grade 35]] Prism Drone
+|-
+| <div id="Themis"></div>[[File:Themis_Idol.png]] || Themis || Legendary || [Void Portal Chance +10%]; Golden Void Portal Multi +0.01% || 5000 || 20 || 65 || [[Drones#tabber-Void|Grade 100]] Void Drone
+|-
+| <div id="Charon"></div>[[File:Charon_Idol.png]] || Charon || Mythic || [Ultra Stonks Chance +1%]; Super Stonks Multi +0.01% || 3000 || 20 || 75 || Complete [[Challenges#tabber-Divine|Divine Challenge 15]]
+|-
+| <div id="Prometheus"></div>[[File:Prometheus_Idol.png]] || Prometheus || Divine || [All Radiant Star Chances +3%]; All Radiant Star Multi +0.125% || 1000 || 20 || 80 || Build 9 [[Construct#World_4_Bonuses|World 4 Statues]]
+|-
+| <div id="Sisyphus"></div>[[File:Sisyphus_Idol.png]] || Sisyphus || Divine || [Big Lootfrog Chance +1%]; Big Lootfrog Multi +0.04%; Galactic Floor Chance +0.003%; Ultra Stonks Chance +0.0002% || 7777 || 777 || 90 || Rank 7 [[Pets#tabber-Butterfly_4|Butterfly Quest]]
+|}
+
+===[[File:Idol Token.png]] Idol Token===
+Idol Tokens give you a random Idol, without increasing the cost of Idols. If you don't have any Idols available in a tier, you won't be able to get an Idol from that tier. For example: if all Idols except Divine are maxed, and Divine Idols have been unlocked by ascending, Divine Idols will always roll. You can get Idol Tokens from [[Store#Gifts|gifts]] or a [[Store#Value Packs|Value Pack]].
+{|class="wikitable align-center-2"
+!Tier !!Chance
+|-
+| [[File:Common Fragment.png|20x20px]] Common ||29%
+|-
+| [[File:Rare Fragment.png|20x20px]] Rare ||23%
+|-
+| [[File:Epic Fragment.png|20x20px]] Epic ||18%
+|-
+| [[File:Legendary Fragment.png|20x20px]] Legendary ||14%
+|-
+| [[File:Mythic Fragment.png|20x20px]] Mythic ||9%
+|-
+| [[File:Divine Fragment.png|20x20px]] Divine||7%
+|}
+
+==Block Stats==
+<tabber>
+|-|
+Dirt=
+{| class="wikitable sortable text-align-center"
+|+Dirt
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Dirt.png]] || 1 || 1 || 100 || {{NA}} || 0.05 || {{NA}}
+|-
+|[[File:Archaeology Tier 2 Dirt.png]] || 2 || 12 || 300 || {{NA}} || 0.15 || {{NA}}
+|-
+|[[File:Archaeology Tier 3 Dirt.png]] || 3 || 24 || 900 || {{NA}} || 0.45 || {{NA}}
+|-
+|[[File:Archaeology Tier 4 Dirt.png]] || 4<ref name=tier4>Tier 4 blocks are unlocked at Ascension 2</ref> || 81 || 2700 || {{NA}} || 1.35 || {{NA}}
+|}
+|-|
+Common=
+{| class="wikitable sortable text-align-center"
+|+Common
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Common.png]] || 1 || 1 || 250 || 5 || 0.15 || 0.01 [[File:Common Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Common.png]] || 2 || 18 || 750 || 8.25 || 0.45 || 0.02 [[File:Common Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Common.png]] || 3 || 30 || 2250 || 13.61 || 1.35 || 0.04 [[File:Common Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Common.png]] || 4<ref name=tier4/> || 96 || 6780 || 22.46 || 4.05 || 0.08 [[File:Common Fragment.png|20x20px]]
+|}
+|-|
+Rare=
+{| class="wikitable sortable text-align-center"
+|+Rare
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Rare.png]] || 1 || 3 || 550 || 12 || 0.35 || 0.01 [[File:Rare Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Rare.png]] || 2 || 26 || 1650 || 19.8 || 1.05 || 0.02 [[File:Rare Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Rare.png]] || 3 || 36 || 4950 || 32.67 || 3.15 || 0.04 [[File:Rare Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Rare.png]] || 4<ref name=tier4/> || 111 || 14850 || 53.91 || 9.45 || 0.08 [[File:Rare Fragment.png|20x20px]]
+|}
+|-|
+Epic=
+{| class="wikitable sortable text-align-center"
+|+Epic
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Epic.png]] || 1 || 6 || 1150 || 25 || 1 || 0.01 [[File:Epic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Epic.png]] || 2 || 30 || 3450 || 41.25 || 3 || 0.02 [[File:Epic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Epic.png]] || 3 || 42 || 10350 || 68.06 || 9 || 0.04 [[File:Epic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Epic.png]] || 4<ref name=tier4/> || 126 || 31050 || 112.3 || 27 || 0.08 [[File:Epic Fragment.png|20x20px]]
+|}
+|-|
+Legn=
+{| class="wikitable sortable text-align-center"
+|+Legn
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Legendary.png]] || 1 || 12 || 1950 || 50 || 3.5 || 0.01 [[File:Legendary Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Legendary.png]] || 2 || 32 || 5850 || 82.5 || 10.5 || 0.02 [[File:Legendary Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Legendary.png]] || 3 || 45 || 17550 || 136.12 || 31.5 || 0.04 [[File:Legendary Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Legendary.png]] || 4<ref name=tier4/> || 136 || 52650 || 224.61 || 94.5 || 0.08 [[File:Legendary Fragment.png|20x20px]]
+|}
+|-|
+Mythic=
+{| class="wikitable sortable text-align-center"
+|+Mythic
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Mythic.png]] || 1 || 20 || 3500 || 150 || 7.5 || 0.01 [[File:Mythic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Mythic.png]] || 2 || 35 || 10500 || 247.5 || 22.5 || 0.02 [[File:Mythic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Mythic.png]] || 3 || 50 || 31500 || 408.37 || 67.5 || 0.04 [[File:Mythic Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Mythic.png]] || 4<ref name=tier4/> || 141 || 94500 || 673.82 || 202.5 || 0.08 [[File:Mythic Fragment.png|20x20px]]
+|}
+|-|
+Divine=
+{| class="wikitable sortable text-align-center"
+|+Divine<ref name=divine>Divine Blocks are unlocked at Ascension 1</ref>
+!Picture
+!Tier
+!Tier wave
+!HP
+!Armor
+!Xp
+!Fragments
+|-
+|[[File:Archaeology Tier 1 Divine.png]] || 1 || 50 || 25000 || 300 || 20 || 0.01 [[File:Divine Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 2 Divine.png]] || 2 || 75 || 75000 || 495 || 60 || 0.02 [[File:Divine Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 3 Divine.png]] || 3 || 100 || 225000 || 816.75 || 180 || 0.04 [[File:Divine Fragment.png|20x20px]]
+|-
+|[[File:Archaeology Tier 4 Divine.png]] || 4<ref name=tier4/> || 150 || 675000 || 1347.64 || 540 || 0.08 [[File:Divine Fragment.png|20x20px]]
+|}
+</tabber>
+<references/>
+{{See also|Archaeology/Stats|l1=Block stats}}
+
+==Navigation==
+{{Menu}}

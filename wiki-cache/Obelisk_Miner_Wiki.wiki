@@ -1,0 +1,39 @@
+<!--Search engine tags, do not change/remove! -->
+{{#seo:
+|title=Idle Obelisk Miner Wiki
+|site_name=Idle Obelisk Miner Wiki
+|description=We are the official Idle Obelisk Miner encyclopaedia, written and maintained by the players. This wiki was founded in May of 2025, by forking away from Fandom to allow for more customization, better content and desire to have less ads on website.
+|image=https://static.wikitide.net/shminerwiki/e/ee/Obelisk_Wiki_Logo.png
+|keywords=Idle Obelisk Miner, Idle Obelisk Miner wiki, Idle Obelisk Miner guide, Idle Obelisk Miner tips, Idle Obelisk Miner iOS, Idle Obelisk Miner Android, Idle Obelisk Miner mobile game, IOM wiki, IOM guide, IOM tips, incremental games wiki, idle games wiki, mobile idle games, mining idle games}}
+{{#description2: We are the official Idle Obelisk Miner encyclopaedia, written and maintained by the players. This wiki was founded in May of 2025, by forking away from Fandom to allow for more customization, better content and desire to have less ads on website.}}
+
+<div style="padding: 0.3em 0.5em;"><div style="text-align: center; font-size: x-large;padding:0.5em">'''Welcome to the official {{SITENAME}} wiki!'''</div>
+
+==Idle Obelisk Miner Wiki==
+<div class="homepage-intro"style="display:flex;  justify-content: center; align-items :flex-start; gap:1rem;">
+<div style="flex:0 0 auto;">[[File:Obelisk Wiki Logo.png|150px|left]]</div>
+<span style="flex:1 1 auto;font-size:105%;"> We are the '''official Idle Obelisk Miner wiki''', written and maintained by the players. Wiki was founded in May of 2025, by forking away from Fandom to allow for more customization, better content and desire to have less ads on a website. All contributions to the wiki are welcome, and we encourage you to create an account to interact with our wiki community. We also have a dedicated [https://discord.gg/d7Qs3664wv wiki discord] server where you can chat with other editors or ask wiki related questions.</span></div></div>
+
+{{Clear|left}}
+
+== What is Idle Obelisk Miner? ==
+<div class="homepage-intro" style="padding:0.5em;">[[File:Game Icon.png|200px|right]]</div>
+<div class="homepage-intro">'''Idle Obelisk Miner''' is a game developed by Checkbox Entertainment. It is an idle / incremental / clicker game about mining rocks, crafting bars and progressing through vast upgrade trees to progress further into the mines.
+
+You can engage in both active and idle gameplay, and there's a focus on prestige mechanics to further advance. The game's core involves collecting resources, defeating the Obelisk for rewards, and unlocking new content.  
+
+It has offline progression and offers in-app purchases for boosts.</div>
+
+[https://apps.apple.com/us/app/idle-obelisk-miner/id6448125670  Download on the App Store]<br>
+[https://play.google.com/store/apps/details?id=com.checkbox.minershminer  Get it on Google Play]<br>
+[https://discord.com/invite/t6Y6QRa  Join us on the Official Discord!]
+
+{{Clear|left}}
+
+==Recent Updates==
+{{Template:RecentUpdates}}
+
+==Content==
+<div dir="ltr">{{Template:MainMenuContent}}</div>
+
+[[Category:{{SITENAME}}]]

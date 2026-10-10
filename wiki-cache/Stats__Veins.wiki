@@ -1,0 +1,155 @@
+<tabber>
+Vein Spawn Rate Multiplier=
+{{Stat|Vein Spawn Rate Multiplier|
+The multiplier that is determined by a Vein's rarity to determine the chance that an Ore becomes a Vein.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T4_VeinSpawnRateMultiplier|Tier 4 Artifact]]
+| '''Drones''' |
+The [[Drones#veinseekerDrone|Veinseeker Suit]]<math>\times</math>
+<br>The [[Drones#Drone_Suit_Upgrades|Veinseeker Suit Upgrade]]<math>\times</math>
+<br>An [[Drones#ElixirDroneBuffs_3xVeinSpawnRate|Elixir Drone Buff]] (Also from [[Lootbugs#Buffs|Lootbugs]] and the [[Founder#Founder_Supply_Drop|Founder Supply Drop]])
+| '''Store''' |
+The [[File:Petbooster vp.png|16px]] [[Store#PetTrainerBundle|Pet Trainer Bundle]]<math>\times</math>
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Totem Icon.png}}[[Cards#CardEffects_Pets_Totem|Totem Pet Card]]
+| '''Pets''' |
+The [[File:Totem_Default.png|16px]] [[Pets#tabber-Totem_2|Totem Pet]]
+| '''Construct''' |
+[[File:8 Statue Randomness Normal.png|16px]] [[Construct#Jolly|World 1: Statue of Randomness]]
+| '''Stargazing''' |
+The [[File:Aries.png|16px]] [[Stargazing#Aries|Aries]]
+}}
+|-|
+Vein Income Multiplier=
+{{Stat|Vein Income Multiplier|A multiplier that is applied to all Vein gains.
+| '''Items''' |
+[[File:Ice Cream.png|16px]] [[Items#IceCream|Ice Cream]] (Requires the [[File:Chione Idol.png|16px]]  [[Archaeology#Chione|Chione]] Idol)
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#LegendaryRelic_VeinIncomeMultiplier|Legendary Vein Income Multiplier Relic]]
+| '''Store''' |
+The [[File:progressionbundle vp.png|16px]] [[Store#ProgressionBoosterBundle|Progression Booster Bundle]]<math>\times</math>
+<br>The [[File:veinextractor vp.png|16px]] [[Store#VeinExtractorBundle|Vein Extractor Bundle]]<math>\times</math>
+| '''Skill-Tree''' |
+The [[File:leprechaun's Legacy.png|16px]] [[Skill-Tree#LeprechaunsLegacy|Leprechaun's Legacy]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Tellacon.png}}[[Cards#CardEffects_Misc_Tellacon|Tellacon Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Drone Veinseeker Icon.png}}[[Cards#CardEffects_Drones_VeinseekerDrone|Infernal Veinseeker Drone Card]]
+<br>{{Card|cardType=Infernal|cardImage=Duck Icon.png}}[[Cards#CardEffects_Pets_Duck|Infernal Duck Pet Card]]
+| '''Pets''' |
+The [[File:Duck_Quest.png|16px]] [[Pets#tabber-Duck_2|Duck Pet Quest]]
+|  '''Construct''' |
+The [[File:1 Statue Rhythm Normal.png|16px]] [[Construct#Xanz|World 1: Statue of Rhythm]]
+| '''Upgrades''' |
+The {{Sprite|Teatimium Bar|Upgrades#Upgrades_W4_VeinIncomeMultiplier||Teatimium Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_VeinIncomeMultiplier|World 2: Vein Income Multiplier]]
+| '''Floors''' |
+The [[File:Pirate Vein.png|16px]] [[Floors#WQ10|10th World Quest]]
+| '''Misc''' |
+An [[Offline#Offline_Penalties|Offline Penalty]]
+}}
+|-|
+Golden Vein Chance=
+{{Stat|Golden Vein Chance|
+The chance for a Vein to roll as a Golden Vein.
+| '''Store'''<math>+</math> |
+<br>The [[File:veinextractor vp.png|16px]] [[Store#VeinExtractorBundle|Vein Extractor Bundle]]
+| '''Pets'''<math>+</math> |
+The [[File:Totem_Default.png|16px]] [[Pets#tabber-Totem_2|Totem Pet]]
+| '''Construct'''<math>+</math> |
+[[File:8 Statue Randomness Normal.png|16px]] [[Construct#Jolly|World 1: Statue of Randomness]]
+| '''Stargazing'''<math>+</math> |
+The [[File:Aries Full.png|16px]] [[Stargazing#Aries|Aries]] Star
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Glacialite Bar|Upgrades#Upgrades_W2_GoldenVeinChance||Glacialite Bar Upgrade}}
+| '''Contracts'''<math>+</math> |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_GoldenVeinChance|World 2: Golden Vein Chance]]
+}}
+|-|
+Golden Vein Multiplier=
+{{Stat|Golden Vein Multiplier|
+The multiplier to Veins gained when a Vein rolls as a Golden Vein. (Base: 5x)
+| '''Drones''' |
+The [[Drones#Drone_Suit_Buffs|Fueled Veinseeker Suit]]
+| '''Items''' |
+[[File:Strawberries.png|16px]] [[Items#Strawberries|Strawberries]] (requires the [[File:Demeter Idol.png|16px]] [[Archaeology#Demeter|Demeter]] Idol)
+| '''Store''' |
+The [[File:veinextractor vp.png|16px]] [[Store#VeinExtractorBundle|Vein Extractor Bundle]]
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_GoldenVeinMulti|Golden Vein Multi]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Golden Vein.png}}[[Cards#CardEffects_Misc_GoldenVein|Golden Vein Misc Card]]
+| '''Pets''' |
+The [[File:Duck_Quest.png|16px]] [[Pets#tabber-Duck_2|Duck Pet Quest]]<math>\times</math>
+<br>The [[File:Totem_Default.png|16px]] [[Pets#tabber-Totem_2|Totem Pet]]
+| '''Construct''' |
+[[File:11 Statue Propulsion Normal.png|16px]] [[Construct#GuardGilded|World 3: Gilded and Platinized Statue of Propulsion]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_GoldenVeinMultiplier|Tier 1 Notice: Golden Vein Multiplier]]
+| '''Upgrades''' |
+The {{Sprite|Phalanxite Bar|Upgrades#Upgrades_W3_GoldenVeinMulti||Phalanxite Bar Upgrade}}
+}}
+|-|
+Rainbow Vein Chance=
+{{Stat|Rainbow Vein Chance|
+The chance for a Golden Vein to roll as a Rainbow Vein.
+| '''Store'''<math>+</math> |
+The [[File:veinextractor vp.png|16px]] [[Store#VeinExtractorBundle|Vein Extractor Bundle]]
+| '''Pets'''<math>+</math> |
+The [[File:Totem_Skin.png|16px]] [[Pets#tabber-Totem_2|Totem Pet Skin]]
+| '''Construct'''<math>+</math> |
+[[File:8 Statue Randomness Platinized.png|16px]] [[Construct#JollyPlatinized|World 1: Platinized Statue of Randomness]]<math>+</math>
+<br>[[File:22 Statue Nature Normal.png|16px]] [[Construct#Fanq|World 4: Statue of Nature]]
+| '''Stargazing'''<math>+</math> |
+A [[File:Super Star.png|16px]] [[Stargazing#RainbowVeinChance_SSUpgrade|Super Star Upgrade]]
+| '''Arcanist'''<math>+</math> |
+The [[File:Veinboyant.png|16px]] [[Arcanist#Veinboyant|Veinboyant]] spell's Active Effect
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Cyrogem Bar|Upgrades#Upgrades_W2_RainbowVeinChance||Cyrogem Bar Upgrade}}
+| '''Floors'''<math>+</math> |
+The [[File:Arabian Vein.png|16px]] [[Floors#WQ16|16th World Quest Reward]]}}
+|-|
+Rainbow Vein Multiplier=
+{{Stat|Rainbow Vein Multiplier|
+The multiplier applied to Golden Veins when they roll as Rainbow Veins. (Base: 20x)
+| '''Skill-Tree''' |
+The [[File:Insane In The Vein Gain.png|16px]] [[Skill-Tree#InsaneInTheVeinGain|Insane In The Vein Gain]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Rainbow Vein.png}}[[Cards#CardEffects_Misc_RainbowVein|Rainbow Vein Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Tundra_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_GlacialShellstealer|Glacial Shellstealer Legendary Fish Card]]
+<br>{{Card|cardType=Infernal|cardImage=Totem Icon.png}}[[Cards#CardEffects_Pets_Totem|Infernal Totem Pet Card]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_RainbowVeinMultiplier|Tier 1 Notice: Rainbow Vein Multiplier]]
+| '''Arcanist'''<math>+</math> |
+The [[File:Veinboyant.png|16px]] [[Arcanist#Veinboyant|Veinboyant]] spell's Passive Effect
+| '''Upgrades''' |
+The {{Sprite|Rationium Bar|Upgrades#Upgrades_W3_RainbowVeinMulti||Rationium Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W4_RainbowVeinMultiplier|World 4: Rainbow Vein Multiplier]]
+}}
+|-|
+Gleaming Vein Chance=
+{{Stat|Gleaming Vein Chance|
+The chance for a Vein to roll as a Gleaming Vein.
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Infernal|cardImage=Dino Icon.png}}[[Cards#CardEffects_Pets_Dino|Infernal Dino Pet Card]]
+| '''Stargazing'''<math>+</math> |
+The [[File:BlackHole.png|16px]] [[Stargazing#BH14|14th Black Hole Bonus]]
+| '''Fishing'''<math>+</math> |
+The [[File:Tundra_Legendary_Fish.png|16px]] [[Fishing#tabber-Glacial_Shellstealer|Glacial Shellstealer]] [[File:Tribute Rank 1.png|16px]] First Tribute
+| '''Arcanist'''<math>+</math> |
+The [[File:Party Fever.png|16px]] [[Arcanist#PartyFever|Party Fever]] spell's Active Effect
+<br>The [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_GleamingVeinChance|Gleaming Vein Chance]] Exchange Upgrade
+}}
+|-|
+Gleaming Vein Multiplier=
+{{Stat|Gleaming Vein Multiplier|
+The multiplier to Veins gained applied to Gleaming Veins. (Base: 5x)
+| '''Drones''' |
+A [[Drones#CoalUpgrades_GleamingVeinMultiplier|Coal Upgrade]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Gleaming Vein.png}}[[Cards#CardEffects_Misc_GleamingVein|Gleaming Vein Misc Card]]
+| '''Fishing''' |
+The [[File:Tundra_Legendary_Fish.png|16px]] [[Fishing#tabber-Glacial_Shellstealer|Glacial Shellstealer]] [[File:Tribute Rank 2.png|16px]] Second Tribute (Adds to base 5x)
+}}
+</tabber>

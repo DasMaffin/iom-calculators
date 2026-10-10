@@ -1,0 +1,6 @@
+{{Disambiguation}}
+'''Ultra crit chance''' may refer to:
+* [[Stats#tabber-Pickaxe_Ultra_Crit_Chance|Pickaxe Ultra Crit Chance]]
+* [[Stats#tabber-Bomb_Ultra_Crit_Chance|Bomb Ultra Crit Chance]]
+* [[Archaeology#Upgrades|Archaeology Ultra Crit Chance]]
+* [[Arcanist#Essence_Upgrades|Arcanist Ultra Crit Chance]]

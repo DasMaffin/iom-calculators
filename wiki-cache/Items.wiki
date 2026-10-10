@@ -1,0 +1,221 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomItemImage}}<!--do not remove, pageImage for search--> </span>
+<div style="display:flex">{{FakeMenuButton|image={{RandomItemImage|size=72x72px}}|size=72px|buttonSize=114px}}
+<div style="margin:0 5px">Items offer a vast array of different buffs which help with progressing through the game. There are currently 3 tiers of items based on where and how they can be obtained. Certain items can also be obtained from additional sources like opening [[File:Gift.png|x20px]] [[Store#Gifts|Gifts]], using [[Codes#Reward_Codes|Redeem Codes]] or [[Events#List_of_rewards|Event rewards]].</div></div>
+
+==Item Effects==
+<tabber class="sticky-header">
+Tier 1 items=
+Tier 1 items are obtained from [[Chests#Item_Chests|Item Chests]] with the exception of Skill Bits which are obtained via [[Store#Freebie_Pack|Freebie packs]].
+{| class="wikitable sticky-header align-center-1 align-center-4 align-center-5"
+! colspan=2 | Name || Effect || Base Duration<ref name="base">Base duration not including Item Duration Multi or Game Speed</ref> || Obtain Chance<ref name="rounded">Chance of obtaining specific item from item chest, rounded up</ref>
+|-
+| <div id="Apple"></div>[[File:Apple.png|32x32px]] || Apple || Pickaxe Crit chance +10% || 1:30 || 16%
+|-
+| <div id="Bread"></div>[[File:Bread.png|32x32px]] || Bread || Pickaxe radius 1.25x || 1:30 || 16%
+|-
+| <div id="DroneJuice"></div>[[File:Drone Juice.png|32x32px]] || Drone Juice || Drone Radius +50%<br>Drone Movespeed +50% || 1:30 || 16%
+|-
+| <div id="BananaCoffee"></div>[[File:Banana Coffee.png|32x32px]] || Banana Coffee || Mining Speed 1.20x || 2:00 || 10%
+|-
+| <div id="Pike"></div>[[File:Pike.png|32x32px]] || Pike || Pickaxe Crit Damage +30% || 2:00 || 10%
+|-
+| <div id="EyeOfNewt"></div>[[File:Eye of Newt.png|32x32px]] || Eye of Newt || Triple Rock Chance +25% || 2:00 || 10%
+|-
+| <div id="RockCake"></div>[[File:Rock Cake.png|32x32px]] || Rock Cake || Pickaxe Damage +30% || 2:30 || 4.6%
+|-
+| <div id="JuicyPlums"></div>[[File:Juicy Plums.png|32x32px]] || Juicy Plums || Pickaxe Crit Chance +25%<br>Pickaxe Crit Damage +25% || 2:30 || 4.6%
+|-
+| <div id="ChaosTotem"></div>[[File:Chaos Totem.png|32x32px]] || Chaos Totem || Bomb Damage 3.00x<br>Bomb Recharge Rate 2.00x || 2:30 || 4.6%
+|-
+| <div id="PrimalMeat"></div>[[File:Primal Meat.png|32x32px]] || Primal Meat || Pickaxe Damage +100% || 3:00 || 2.6%
+|-
+| <div id="Strawberries"></div>[[File:Strawberries.png|32x32px]] || Strawberries || Exp Gain 3.00x || 3:00 || 2.6%
+|-
+| <div id="ChargeMagnet"></div>[[File:Charge Magnet.png|32x32px]] || Charge Magnet || Refill Up To 20 Bomb Charges On Each Bomb || 0:01 (not relevant) || 2.6%
+|-
+| <div id="SkillBit"></div>[[File:Skill Bit.png|32x32px]] || Skill Bit || Combine 10 into a skill point || 0:01 (not relevant) || {{NA}}<ref name="skillshard">Not obtainable from chests. See [[Skill-Tree]] for sources of Skill Bits and Skill Points.</ref>
+|-
+| <div id="BlueCow"></div>[[File:Blue Cow.png|32x32px]] || Blue Cow || 2x Game Speed || 10:00 || 0.2%
+|-
+|}
+<references />
+|-|
+Tier 2 items=
+Tier 2 items are mostly obtained from [[Fishing]] when completing [[Fishing#Notices|Notices]]. They can also be obtained from looting [[Lootfrogs]].
+{| class="wikitable align-center-1 align-center-4"
+! colspan=2 | Name !! Effect<ref name="upgrades">The lower end of each range is the base effect. See ways to increase the effect [[Items#tabber-Tier_2_Items|below]].</ref> !! Base Duration<ref name="base">Base duration not including Item Duration Multi or Game Speed</ref>
+|-
+| <div id="Starfruit"></div>[[File:Starfruit.png|32x32px]] || Starfruit || All Star Multi +30-56%<br>Star Supernova Chance +10% || 13:20
+|-
+| <div id="Sushi"></div>[[File:Sushi.png|32x32px]] || Sushi || Gain 90-179 Fishing Ticks || 0:01 (not relevant)
+|-
+| <div id="Lasagna"></div>[[File:Lasagna.png|32x32px]] || Lasagna || Golden Ore Chance +10%<br>Golden Ore Multi 2.00-6.50x || 13:20
+|-
+| <div id="IceCream"></div>[[File:Ice Cream.png|32x32px]] || Ice Cream || Super Star Spawn Rate 2.5x<br>Vein Income Multiplier +0-90% || 13:20
+|-
+| <div id="RainbowLollipop"></div>[[File:Rainbow Lollipop.png|32x32px]] || Rainbow Lollipop || Rainbow Floor Chance +3.00-8.16%<br>Rainbow Floor Multi 3.00-8.16x || 25:00
+|-
+| <div id="Hamburger"></div>[[File:Hamburger.png|32x32px]] || Hamburger || Pickaxe Damage 3.00-8.64x<br>Bomb Damage 3.00-8.64x || 10:00
+|-
+| <div id="YummyPizza"></div>[[File:Yummy Pizza.png|32x32px]] || Yummy Pizza || Golden Floor Multi 1.15x<br>All Floor Multi +1% (Permanent)<ref name=pizza>Caps at +200% multiplier</ref> || 13:20
+|}
+<references />
+|-|
+Tier 3 items=
+Tier 3 items (except Time-Turners) are obtained by looting [[Lootfrogs]].
+{| class="wikitable align-center-1 align-center-4"
+! colspan=2 | Name !! Effect !! Base Duration<ref name="base">Base duration before upgrades</ref>
+|-
+| <div id="LootbugLantern"></div>[[File:Lootbug Lantern.png|32x32px]] || Lootbug Lantern || Lootbug Spawn Rate 3.00x<br>Lootbug Banked Cap +1 (Permanent)<ref name="lootbugLanternCap">Caps at +25 Banked Cap</ref>|| 15:00
+|-
+| <div id="Frogspawn"></div>[[File:Frogspawn.png|32x32px]] || Frogspawn || Spawn Max Capacity Lootfrogs!<ref name="frogspawnBase">Base amount of Lootfrogs is 5</ref> || 0:01 (not relevant)
+|-
+| <div id="TimeTurner"></div>[[File:Time-Turner.png|32x32px]] || Time-Turner || Give 5 gifts. <ref>Before Update [[Update:V2.2.29|V2.2.29]]: Gain 1 Hour of Offline Time (Requires Internet Connection)</ref> || 0:01 (not relevant)
+|- 
+| <div id="Frogurt"></div>[[File:Frogurt.png|32x32px]] || Frogurt || Replenish up to 300 Mana<br>Gain +15 Free Spell Casts!<ref name="Frogurt">If obtained before Obelisk 70, it instead reads: "The Frogurt whispers.. 'Save me until Obelisk Level 70'". Using the item before Obelisk 70 will result in the item being used up with no effect along with the message "The frogurt jumps out of your hand and runs away".</ref>|| 0:02 (not relevant)
+|}
+<references />
+|-|
+Tier 4 items=
+Tier 4 items are obtained from [[Gifts]].
+{| class="wikitable align-center-1 align-center-4"
+! colspan=2 | Name !! Effect !! Base Duration<ref name="base">Base duration before upgrades</ref>
+|-
+| <div id="ForbiddenSushi"></div>[[File:Forbidden Sushi.png|32x32px]] || Forbidden Sushi || Gain 25,000 Fishing Ticks
+Sushi Fishing Ticks +1 (Permanent)<ref>Caps at 10 ticks</ref>
+| 0:03 (not relevant)
+|-
+| <div id="GoldFlakeSteak"></div>[[File:Gold Flake Steak.png|32x32px]] || Gold Flake Steak || Golden Ore Multi 3.00x<br>Golden Ore Multi +0.10% (Permanent)<ref name=steak>Caps at +50% multiplier</ref> || 8:20
+|-
+| <div id="CosmicCandy"></div>[[File:Cosmic Candy.png|32x32px]] || Cosmic Candy || All Star Multi 3.00x<br>All Star Multi +0.10% (Permanent)<ref name=candy>Caps at +25% multiplier</ref> || 20:00
+|-
+| <div id="ButteryLobster"></div>[[File:Buttery Lobster.png|32x32px]] || Buttery Lobster || Fill Freebie Pack To Max Capacity! || 0:01 (not relevant)
+|}
+<references />
+</tabber>
+
+==Item Upgrades==
+===Additional Effects & Increased Base Effects===
+Certain items gain additional effects or have their existing effects improved through various upgrades:
+<tabber class="sticky-header">
+
+
+Tier 1 Items=
+{| class="wikitable text-align-left align-center-1 align-center-5 sticky-header"
+|+Tier 1 Items
+! colspan = 2 | Item !! Upgrade Source !! Upgrade Effect !! Effect Cap
+|-
+| [[File:Apple.png|32x32px]] || Apple || The {{Sprite|Athena Idol|Archaeology#tabber-Common_Idols|x20|Athena Idol}} || +1% EXP Gain || +500%
+|-
+| [[File:Bread.png|32x32px]] || Bread || The {{Sprite|Eros Idol|Archaeology#tabber-Common_Idols|x20|Eros Idol}} || +0.40% Lootbug Spawn Rate || +20%
+|-
+| [[File:Banana Coffee.png|32x32px]] || Banana Coffee || The {{Sprite|Cephalus Idol|Archaeology#tabber-Epic_Idols|x20|Cephalus Idol}} || +0.10%  Game Speed || +10%
+|-
+| [[File:Pike.png|32x32px]] || Pike || The {{Sprite|Poseidon Idol|Archaeology#tabber-Rare_Idols|x20|Poseidon Idol}} || +0.25 Base Fishing Drone Power || +5
+|-
+| [[File:Eye of Newt.png|32x32px]] || Eye of Newt || The {{Sprite|Iris Idol|Archaeology#tabber-Rare_Idols|x20|Iris Idol}} || +0.25% Golden Floor Multi || +25%
+|-
+| [[File:Rock Cake.png|32x32px]] || Rock Cake || The {{Sprite|Cassandra Idol|Archaeology#tabber-Common_Idols|x20|Cassandra Idol}} || +0.10% Bomb Super and Ultra Crit Chance || +15%
+|-
+| [[File:Primal Meat.png|32x32px]] || Primal Meat || The {{Sprite|Athena Idol|Archaeology#tabber-Common_Idols|x20|Athena Idol}} || +0.05% Super Star Chance || +25%
+|-
+| [[File:Strawberries.png|32x32px]] || Strawberries || The {{Sprite|Demeter Idol|Archaeology#tabber-Common_Idols|x20|Demeter Idol}} || +2% Golden Vein Multi || +200%
+|-
+| [[File:Drone Juice.png|32x32px]] || Drone Juice || The {{Sprite|Hephaestus Idol|Archaeology#tabber-Epic_Idols_2|x20|Hephaestus Idol}} || +0.015% Coal Production || +45%
+|}
+
+|-|
+Tier 2 Items=
+{| class="wikitable text-align-left align-center-1 align-center-5 sticky-header"
+|+Tier 2 Items
+! colspan = 2 | Item !! Upgrade Source !! Upgrade Effect !! Effect Cap
+|-
+| [[File:Hamburger.png|32x32px]] || Hamburger || [[Workshop#World_3_Upgrades|A World 3 Workshop Upgrade]] || Damage Multi +0.12x || +5.64x
+|-
+| rowspan=3 | [[File:Sushi.png|32x32px]] ||  rowspan=3 | Sushi || [[Workshop#World_3_Upgrades|A World 3 Workshop Upgrade]] || Sushi Ticks +1 || +42
+|-
+| style="text-align:left;" | The [[Cards#tabber-Misc|Sushi Misc Card]] || Sushi Ticks +5/10/20/37 || style="text-align:center;" | +37
+|-
+| style="text-align:left;" | [[Items#Tier_4_items|Forbidden Sushi]] || Sushi Ticks +1 || style="text-align:center;" | +10
+|-
+| [[File:Lasagna.png|32x32px]] || Lasagna || [[Fishing#tabber-Tier_2_Notice_Upgrades|A Tier 2 Notice Upgrade]] || Golden Ore Multi +0.15x || +4.5x
+|-
+| [[File:Ice Cream.png|32x32px]] || Ice Cream || The {{Sprite|Chione Idol|Archaeology#tabber-Rare_Idols|x20|Chione Idol}} || Vein Income Multi +0.10% || +30%
+|-
+| [[File:Rainbow Lollipop.png|32x32px]] || Rainbow Lollipop || The {{Sprite|Aphrodite Idol|Archaeology#tabber-Legendary_Idols|x20|Aphrodite Idol}} || Rainbow Lollipop Effect +0.002x || +1.66x
+|-
+| [[File:Starfruit.png|32x32px]] || Starfruit || [[Workshop#World_4_Upgrades|A World 4 Workshop Upgrade]] || All Star Multi +0.5% || +26%
+|}
+
+</tabber>
+
+===Golden Items===
+Some items have Golden variants which can be unlocked through various menus and replace that item in your item bag. They further boost the effects of an item:
+{| class="wikitable lighttable align-center-1 sticky-header"
+|+Golden Items
+! colspan = 2 | Golden Item !! Golden Variant Source !! Golden Variant Effect
+|-
+| <div id="GoldenBread"></div> [[File:Bread Golden.png|32x32px]] || Golden Bread || [[Floors#WQ30|World Quest 30]] || Pickaxe Radius 1.50x<br>Lootbug Spawn Rate +40%
+|-
+| <div id="GoldenEyeOfNewt"></div>[[File:Eye of Newt Golden.png|32x32px]] || Golden Eye of Newt || [[Fishing#tabber-Storm_Serpent|Tier 2 Storm Serpent Tribute]] || Triple Rock Chance +50%<br>Golden Floor Multi +50%
+|-
+| <div id="GoldenChaosTotem"></div>[[File:Chaos Totem Golden.png|32x32px]] || Golden Chaos Totem || [[Skins#SkinReward22|Miner Skin Rewards]] || Bomb Damage 9.00x<br>Bomb Recharge Rate 2.30x
+|-
+| <div id="GoldenPrimalMeat"></div>[[File:Primal Meat Golden.png|32x32px]] || Golden Primal Meat || [[Stargazing#BH13|Black Hole 13]] || Pickaxe Damage +200%<br>Super Star Spawn Rate +50%
+|-
+| <div id="GoldenStrawberries"></div>[[File:Strawberries Golden.png|32x32px]] || Golden Strawberries || [[Stargazing#BH4|Black Hole 4]] || EXP Gain 6x<br>Golden Vein Multi +400%
+|-
+| <div id="GoldenHamburger"></div>[[File:Hamburger Golden.png|32x32px]] || Golden Hamburger || [[Fishing#tabber-Blackened_Basker|Tier 1 Blackened Basker Tribute]] ||  Pickaxe Damage 6-17.28x<br>Bomb Damage 6-17.28x
+|-
+| <div id="GoldenStarfruit"></div>[[File:Starfruit Golden.png|32x32px]] || Golden Starfruit || [[Challenges#DivineReward_UnlockGoldenStarfruit|Divine Challenges reward]] || All Star Multi +60-112%<br>Star Supernova Chance +20%
+|-
+| <div id="GoldenLasagna"></div>[[File:Golden Lasagna.png|32x32px]] || Golden Lasagna || [[Stargazing#BH23|Black Hole 23]] || Golden Ore Chance +20%<br>Golden Ore Multi 4-13.00x
+|-
+| <div id="GoldenLollipop"></div>[[File:Rainbow Lollipop Golden.png|32x32px]] || Golden Lollipop || [[Stargazing#BH18|Black Hole 18]] || Rainbow Floor Chance +6-16.32%<br>Rainbow Floor Multi 6-16.32x 
+|-
+| <div id="GoldenYummyPizza"></div>[[File:Yummy Pizza Golden.png|32x32px]] || Golden Yummy Pizza || [[Floors#WQ14|World Quest 14]] || Golden Floor Multi 1.30x<br>All Floor Multi +1% (Permanent)<ref name=pizza>Caps at +250% multiplier</ref>
+|-
+| <div id="GoldenLootbugLantern"></div>[[File:Lootbug Lantern Golden.png|32x32px]] || Golden Lootbug Lantern || [[Fishing#tabber-Melting_Gibbous|Tier 2 Melting Gibbous Tribute]] || Lootbug Spawn Rate 6.00x<br>Lootbug Banked Cap +1 (Permanent)<ref name="lootbugLanternCap">Caps at +50 Banked Cap</ref>
+|-
+| <div id="GoldenCosmicCandy"></div>[[File:Cosmic Candy Golden.png|32x32px]] || Golden Cosmic Candy || [[Floors#WQ20|World Quest 20]] || All Star Multi 5.00x<br>All Star Multi +0.10% (Permanent)<ref name=candy>Caps at +50% multiplier</ref> 
+|}
+<references />
+
+==Items from Gifts==
+{{See also|Store#Gifts}}
+Certain items can also be obtained from opening [[File:Gift.png|x20px]] [[Store#Gifts|Gifts]]. Quality and type of those items depends on game progression. These items are:
+* [[File:Buttery Lobster.png|x20px]] Buttery Lobster
+* [[File:Frogspawn.png|x20px]] Frogspawn
+* [[File:Forbidden Sushi.png|x20px]] Forbidden Sushi
+* [[File:Gold Flake Steak.png|x20px]] Gold Flake Steak
+* [[File:Cosmic Candy.png|x20px]] Cosmic Candy
+* [[File:Blue Cow.png|x20px]] Blue Cow (replaced by Tier 2 Items after unlocking Fishing)
+* [[File:Primal Meat.png|x20px]] Primal Meat (replaced by Sushi after unlocking Fishing)
+* [[File:Chaos Totem.png|x20px]] Chaos Totem
+* [[File:Charge Magnet.png|x20px]] Charge Magnet (replaced by 5x Fishing Tick Chance +25% after unlocking Fishing)
+* [[File:Sushi.png|x20px]] Sushi (requires Obelisk 37+)
+* [[File:Skill Bit.png|x20px]] Skill Bits
+
+==Items from Redeem Codes==
+{{See also|Codes#Reward_Codes}}
+Few items can also be obtained by typing in [[Codes]]. Currently these items are:
+* [[File:Blue Cow.png|x20px]] Blue Cow
+* [[File:Charge Magnet.png|x20px]] Charge Magnet
+* [[File:Time-Turner.png|x20px]] Time-Turner
+* [[File:Sushi.png|x20px]] Sushi (requires Obelisk 37+)
+
+==Items from Events==
+{{See also|Events#List_of_rewards}}
+Additionally, some of the items can also be obtained or bought during the [[Events|Event]]. These items are:
+* [[File:Blue Cow.png|x20px]] Blue Cow
+* [[File:Primal Meat.png|x20px]] Primal Meat
+* [[File:Charge Magnet.png|x20px]] Charge Magnet
+* [[File:Skill Bit.png|x20px]] Skill Bits
+* [[File:Time-Turner.png|x20px]] Time-Turner (requires Obelisk 35+)
+* [[File:Sushi.png|x20px]] Sushi (requires Obelisk 37+)
+<!-- uncomment this if there are any other noteable sources of items
+==Other sources==
+-->
+==Navigation==
+{{Menu}}

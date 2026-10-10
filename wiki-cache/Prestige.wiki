@@ -1,0 +1,268 @@
+{{Version|2.2.25}}
+
+[[File:Prestige Button.png|frameless|left]]
+Prestiging provides [[File:Prestige Point.png|16x16px]] Prestige Points which can be used to buy and upgrade Artifacts, as well as gilding [[Cards]].
+
+A minimum of level 20 is required to Prestige. Prestiging '''<u>resets</u>''' player level, gold, ores, bars, [[Contracts|contract]] completions and points, and all [[upgrades]], but in return provides [[File:Prestige Point.png|16x16px]] Prestige Points.
+
+Certain upgrades and resources are permanent and are not lost on Prestige, including [[Chests#Relic chests|relics]], [[Prestige#Artifacts|artifacts]], [[Construct#Veins|veins]], [[Drones|drone points]], [[bombs|bomb]] charges, [[Challenges|challenge]] progress, or [[Chests#List of items|items]]. Tip: before you Prestige, change your temporary assets to permanent ones by selling all your ore and buying as many drone points as you can.
+
+Unlocking [[Prestige#Artifacts|Artifacts]] costs Prestige Points. The cost for the next unlock within a tier doubles with each [[Prestige#Artifacts|Artifact]] unlocked. The first [[Prestige#Artifacts|Artifact]] unlocked in each tier is always Pickaxe Damage. [[Prestige#Artifacts|Artifacts]] and their upgrades are permanent.
+
+{{clear|left}}
+==Prestige Points==
+The amount of Prestige Points earned depends on the player's current level and [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]]. 
+
+Below level 200 prestige points are calculated using this formula:
+
+<math>\text{Prestige Points} = 12 \times 1.084^{(\text{level} - 10)} \times \text{PP Gain Multiplier}</math>
+
+Above level 200 the formula changes to:
+
+<math>\text{Prestige Points} = 12\times1.084^{(\text{level}-10)}\times (1+0.05\times(\text{level}-200))\times\text{PP Gain Multiplier}</math>
+
+The  [[Resource pack|Resource Packs]] in the store give Prestige Points equal to <math>0.7\times</math> (for small) <math>2.1\times</math> (for Large) the player's Highest Ever Level reached, multiplied by their '''current''' Prestige Point Multiplier.
+
+===Prestige Points Calculator===
+{{Calculator:PrestigePoints}}
+
+===Auto-Prestige===
+Once the "[[Skill-Tree#TakeItBackNowYall|Take It Back Now Yall]]" Skill has been unlocked, the player can enable automatic Prestiging at set time intervals between 10 seconds and 10 minutes of real time. This may be useful for tasks that require numerous low-investment Prestiges like [[Challenges]] or leveling [[Pets#tabber-Happy-Bot_2|Happy Bot]].
+
+Interval options:
+{| class="wikitable sticky-header text-align-center"
+! Interval !! Interval
+|-
+| 10s || 60s
+|-
+| 15s || 90s
+|-
+| 20s || 120s
+|-
+| 25s || 180s
+|-
+| 30s || 240s
+|-
+| 35s || 300s
+|-
+| 40s || 360s
+|-
+| 45s || 420s
+|-
+| 50s || 600s
+|-
+| 55s || {{NA}}
+|}
+
+==Experience==
+{{See also|Ores}}
+Experience (exp or XP) is gained by destroying ore nodes. Gaining enough experience increases the player's level, which grants more Prestige Points upon prestiging and unlocks [[Upgrades]]. Experience gain is affected by the player's [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]], but not by ore gain -- Floor mods, ore mods, Bomb Of Plenty, and [[Drones#Void_Drone_Mechanics|Void Portals]] do not increase experience gain.
+
+===Level Cap===
+The player's level is initially capped at 30, and increases by 5 for each [[Obelisk]] defeated. For example, a player who has defeated [[Obelisk]] 20 would have a level cap of 130. Experience gained after the player has reached their level cap within a prestige does nothing.
+{| class="wikitable sticky-header text-align-center"
+! Obelisk !! Level Cap !! Obelisk !! Level Cap !! Obelisk !! Level Cap
+|-
+| 0 || 30 || 26 || 160 || 52 || 290
+|-
+| 1 || 35 || 27 || 165 || 53 || 295
+|-
+| 2 || 40 || 28 || 170 || 54 || 300
+|-
+| 3 || 45 || 29 || 175 || 55 || 305
+|-
+| 4 || 50 || 30 || 180 || 56 || 310
+|-
+| 5 || 55 || 31 || 185 || 57 || 315
+|-
+| 6 || 60 || 32 || 190 || 58 || 320
+|-
+| 7 || 65 || 33 || 195 || 59 || 325
+|-
+| 8 || 70 || 34 || 200 || 60 || 330
+|-
+| 9 || 75 || 35 || 205 || 61 || 335
+|-
+| 10 || 80 || 36 || 210 || 62 || 340
+|-
+| 11 || 85 || 37 || 215 || 63 || 345
+|-
+| 12 || 90 || 38 || 220 || 64 || 350
+|-
+| 13 || 95 || 39 || 225 || 65 || 355
+|-
+| 14 || 100 || 40 || 230 || 66 || 360
+|-
+| 15 || 105 || 41 || 235 || 67 || 365
+|-
+| 16 || 110 || 42 || 240 || 68 || 370
+|-
+| 17 || 115 || 43 || 245 || 69 || 375
+|-
+| 18 || 120 || 44 || 250 || 70 || 380
+|-
+| 19 || 125 || 45 || 255 || 71 || 385
+|-
+| 20 || 130 || 46 || 260 || 72 || 390
+|-
+| 21 || 135 || 47 || 265 || 73 || 395
+|-
+| 22 || 140 || 48 || 270 || 74 || 400
+|-
+| 23 || 145 || 49 || 275 || 75 || 405
+|-
+| 24 || 150 || 50 || 280 || {{NA|colspan=2}}
+|-
+| 25 || 155 || 51 || 285 || {{NA|colspan=2}}
+|}
+
+==Required Exp Calculator==
+The formula for the amount of experience required to advance to the next level is given by
+<math>(1.2^{(\text{Current Level -1})} - 1)\times 250</math>.
+{{Calculator:LevelExp}}
+
+==Artifacts==
+Artifacts provide powerful bonuses which are purchased for [[File:Prestige Point.png|16x16px]] Prestige Points. Currently there are 4 tiers of artifacts:
+* Tier 1 unlocks in the tutorial
+* Tier 2 unlocks at [[Obelisk]] Level 8
+* Tier 3 unlocks at Obelisk Level 14
+* Tier 4 unlocks at Obelisk Level 19
+
+The unlock order of Artifacts in a Tier is random, except for Pickaxe Damage, which is always the first Artifact in any Tier.
+Each artifact has a maximum level cap, which can be increased by [[Stats#tabber-Artifact_Upgrade_Cap_Increase|Artifact Upgrade Cap Increase]], as well as [[Stats#tabber-Artifact_Tier_4_Cap_Increase|Artifact Tier 4 Cap Increase]].
+
+{{See also|Prestige/Costs}}
+<tabber>
+Tier 1=
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name 
+! Bonus per level
+! Max Level
+|-
+|<div id="Artifacts_T1_PickaxeDamage"/>[[File:Pickaxe Damage.png|32x32px|link=Prestige/Costs#Pickaxe Damage]] || [[Prestige/Costs#Pickaxe Damage|Pickaxe Damage]]
+| +10%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T1_PickaxeCost"/>[[File:Pickaxe Cost.png|32x32px|link=Prestige/Costs#Pickaxe Cost]] || [[Prestige/Costs#Pickaxe Cost|Pickaxe Cost]]
+| -3 bars
+| {{GetArtifactCap|5}}
+|-
+|<div id="Artifacts_T1_ExperienceGainMultiplier"/>[[File:Experience Gain Multiplier.png|32x32px|link=Prestige/Costs#Experience Gain Multiplier]] || [[Prestige/Costs#Experience Gain Multiplier|Experience Gain Multiplier]]
+| +10%
+| {{GetArtifactCap|20}}
+|-
+|<div id="Artifacts_T1_FreeCraftChance"/>[[File:Free Craft Chance.png|32x32px|link=Prestige/Costs#Free Craft Chance]] || [[Prestige/Costs#Free Craft Chance|Free Craft Chance]]
+| +2%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T1_TripleCraftChance"/>[[File:Triple Craft Chance.png|32x32px|link=Prestige/Costs#Triple Craft Chance]] || [[Prestige/Costs#Triple Craft Chance|Triple Craft Chance]]
+| +2%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T1_PickaxeRadius"/>[[File:Pickaxe Radius.png|32x32px|link=Prestige/Costs#Pickaxe Radius]] || [[Prestige/Costs#Pickaxe Radius|Pickaxe Radius]]
+| +12%
+| {{GetArtifactCap|5}}
+|-
+|<div id="Artifacts_T1_OreSellPriceMultiplier"/>[[File:Ore Sell Price Multiplier.png|32x32px|link=Prestige/Costs#Ore Sell Price Multiplier]] || [[Prestige/Costs#Ore Sell Price Multiplier|Ore Sell Price Multiplier]]
+| +12%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T1_ItemDurationMultiplier"/>[[File:Item Duration Multiplier.png|32x32px|link=Prestige/Costs#Item Duration Multiplier]] || [[Prestige/Costs#Item Duration Multiplier|Item Duration Multiplier]]
+| +6%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T1_BombDamage"/>[[File:Bomb Damage.png|32x32px|link=Prestige/Costs#Bomb Damage]] || [[Prestige/Costs#Bomb Damage|Bomb Damage]]
+| +30%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T1_ObeliskCooldown"/>[[File:Obelisk Cooldown.png|32x32px|link=Prestige/Costs#Obelisk Cooldown]] || [[Prestige/Costs#Obelisk Cooldown|Obelisk Cooldown]]
+| -3%
+| {{GetArtifactCap|10}}
+|}
+|-|
+Tier 2=
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name 
+! Bonus per level
+! Max Level
+|-
+|<div id="Artifacts_T2_PickaxeDamage"/>[[File:Pickaxe Damage.png|32x32px|link=Prestige/Costs#Pickaxe Damage_2]] || [[Prestige/Costs#Pickaxe Damage_2|Pickaxe Damage]]
+| +25%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T2_BombDamage"/>[[File:Bomb Damage.png|32x32px|link=Prestige/Costs#Bomb Damage_2]] || [[Prestige/Costs#Bomb Damage_2|Bomb Damage]]
+| +50%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T2_PrestigePointGainMultiplier"/>[[File:Prestige Point Gain Multiplier.png|32x32px|link=Prestige/Costs#Prestige Point Gain Multiplier]] || [[Prestige/Costs#Prestige Point Gain Multiplier|Prestige Point Gain Multiplier]]
+| +5%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T2_PickaxeSuperCritChance"/>[[File:Pickaxe Super Crit Chance.png|32x32px|link=Prestige/Costs#Pickaxe Super Crit Chance]] || [[Prestige/Costs#Pickaxe Super Crit Chance|Pickaxe Super Crit Chance]]
+| +1%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T2_FloorClearRequirement"/> [[File:Floor Clear Requirement.png|32x32px|link=Prestige/Costs#Floor Clear Requirement]] || [[Prestige/Costs#Floor Clear Requirement|Floor Clear Requirement]]
+| -5%
+| {{GetArtifactCap|10}}
+|}
+|-|
+Tier 3=
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name 
+! Bonus per level
+! Max level
+|-
+|<div id="Artifacts_T3_PickaxeDamage"/>[[File:Pickaxe Damage.png|32x32px|link=Prestige/Costs#Pickaxe Damage_3]] || [[Prestige/Costs#Pickaxe Damage_3|Pickaxe Damage]]
+| +60%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T3_BombDamage"/>[[File:Bomb Damage.png|32x32px|link=Prestige/Costs#Bomb Damage_3]] || [[Prestige/Costs#Bomb Damage_3|Bomb Damage]]
+| +80%
+| {{GetArtifactCap|25}}
+|-
+|<div id="Artifacts_T3_BombSuperCritChance"/>[[File:Bomb Super Crit Chance.png|32x32px|link=Prestige/Costs#Bomb Super Crit Chance]] || [[Prestige/Costs#Bomb Super Crit Chance|Bomb Super Crit Chance]]
+| +2%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T3_ObeliskArmorReduction"/>[[File:Obelisk Armor Reduction.png|32x32px|link=Prestige/Costs#Obelisk Armor Reduction]] || [[Prestige/Costs#Obelisk Armor Reduction|Obelisk Armor Reduction]]
+| -2%
+| {{GetArtifactCap|10}}
+|-
+|<div id="Artifacts_T3_BombCapacity"/>[[File:Bomb Capacity.png|32x32px|link=Prestige/Costs#Bomb Capacity]] || [[Prestige/Costs#Bomb Capacity|Bomb Capacity]]
+| +3
+| {{GetArtifactCap|10}}
+|}
+|-|
+Tier 4=
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name 
+! Bonus per level
+! Max level
+|-
+|<div id="Artifacts_T4_PickaxeDamagePerStatueOwned"/>[[File:Pickaxe Damage Per Statue Owned.png|32x32px|link=Prestige/Costs#Pickaxe Damage Per Statue Owned]] || [[Prestige/Costs#Pickaxe Damage Per Statue Owned|Pickaxe Damage Per Statue Owned]]<ref name="StatueCount">Gilded Statues count as 2, Platinum Statues as 3.</ref>
+| +10%
+| {{GetTier4ArtifactCap|25}}
+|-
+|<div id="Artifacts_T4_BombDamagePerStatueOwned"/>[[File:Bomb Damage Per Statue Owned.png|32x32px|link=Prestige/Costs#Bomb Damage Per Statue Owned]] || [[Prestige/Costs#Bomb Damage Per Statue Owned|Bomb Damage Per Statue Owned]]<ref name="StatueCount"/>
+| +15%
+| {{GetTier4ArtifactCap|25}}
+|-
+|<div id="Artifacts_T4_PickaxeOmegaCritChance"/>[[File:Pickaxe Omega Crit Chance.png|32x32px|link=Prestige/Costs#Pickaxe Omega Crit Chance]] || [[Prestige/Costs#Pickaxe Omega Crit Chance|Pickaxe Omega Crit Chance]]
+| +1%
+| {{GetTier4ArtifactCap|10}}
+|-
+|<div id="Artifacts_T4_BarOutputMultiplier"/>[[File:Bar Output Multiplier.png|32x32px|link=Prestige/Costs#Bar Output Multiplier]] || [[Prestige/Costs#Bar Output Multiplier|Bar Output Multiplier]]
+| +0.40%
+| {{GetTier4ArtifactCap|10}}
+|-
+|<div id="Artifacts_T4_VeinSpawnRateMultiplier"/>[[File:Vein Spawn Rate Multiplier.png|32x32px|link=Prestige/Costs#Vein Spawn Rate Multiplier]] || [[Prestige/Costs#Vein Spawn Rate Multiplier|Vein Spawn Rate Multiplier]]
+| +4%
+| {{GetTier4ArtifactCap|10}}
+|-
+|}
+</tabber>
+<references/>
+
+==Navigation==
+{{Menu}}

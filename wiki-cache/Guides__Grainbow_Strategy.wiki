@@ -1,0 +1,45 @@
+Otherwise known as  ''how to make Bars online (fast)''
+
+This Strategy can be used to farm a lot of bars in the early game (World 1 and World 2), usually for building [[Construct#Statues|Statues]] or maxing [[Workshop]].<br>
+It can also be used to farm gold for [[Drones#Drone_Points|Drone Points]] (you can skip Transmuter Bomb then, as Bars do not give any gold).
+
+Before starting make sure your [[Bombs#tabber-Transmuter_Bomb|Transmuter Bomb]] is maxed in Workshop (requires '''Obelisk Level 18''', before that this Strategy is not nearly as efficient).
+If it is not maxed yet, you can also use this Strategy to farm for the Workshop Upgrades before using it for Statues.
+# Go to [[Options]], enable "Make Transmuter Bomb Do No Damage" and disable "Chain Bomb Ignores Floor Pauses"
+# Put a bit of fuel into the [[Drones#Drone_Buffs|Chain Drone]]. (requires '''Obelisk Level 18''', if you do not have OB18, you can still do this strategy, just ignore everything regarding Chain Drone)
+# Set the game to auto pause on Golden Rainbow Floor (''not'' normal Rainbow!) and put your phone down.
+# Disable Autobomb (Autobomb does not stop on the auto pause)
+# '''Check the game every few minutes while doing chores or stuff'''
+
+Whenever you hit a Golden Rainbow Floor:
+* Use one Transmuter Bomb and one Bomb of Plenty (bop).
+* If the Bomb of Plenty does not destroy all ores on screen, use any method you like to clean up - more Bomb of Plenty, some other Bomb, manual clear with Pickaxe, does not matter.
+This should net you a good amount of Bars (more than 30-60 mins of offline farm) per Golden Rainbow Floor, if you have the Transmuter Bomb maxed in Workshop.
+
+=== FUEL in Chain Drone ===
+Fuel costs 5 gems each, but makes you gain +50% golden floor multiplier, plus an additional 10% per Chain Drone Grade.
+There are two strategies:
+
+'''A)''' Put fuel into Chain Drone and leave it running whenever you need bars and/or are doing Grainbow Strat.
+Benefits:
+* Chain Drone increases in Grade, making future Bar farming easier. This is good preparation for gilding statues.
+* You gain progress for Challenge 40
+Disadvantage: 
+* A slight Gem cost
+'''B)''' Put only a small amount of Fuel into Chain Drone and only activate<ref>A drone suit is considered active if it is on on your screen, no matter if drones are currently paused or not. To disable a drone suit, go to Drone → Suits Menu and deselect it (or select a different suit instead).</ref> it after using the Transmuter Bomb on the Golden Rainbow Floor, but before throwing the Bomb of Plenty. Then disable chain drone directly after.
+Benefit:
+* Saves a few Gems
+Disadvantages: 
+* Lower Bar income in the long run, due to the lower Chain Drone Grade. This will most likely get annoying when gilding Statues.
+* Stuck on Challenge 40
+
+Strategy A) is the recommended one, at least until challenge 40 is done.
+
+If you have any questions, feel free to use the talk page or ask in the #ob0-23 Chat on the official Discord.
+
+<references/>
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

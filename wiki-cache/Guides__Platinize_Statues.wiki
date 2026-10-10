@@ -1,0 +1,212 @@
+{{Hatnote|Prefer a visual walkthrough? Watch the video guide available below. [[Guides/Platinize_Statues#Video Tutorial]]}}
+
+The Plat Strat is a structured set of recommendations and procedures designed to efficiently acquire the bars required to Platinize World 1 Statues.
+
+This strategy allows you to farm '''all''' required ores simultaneously within a reasonable timeframe. By comparing your current bar totals with the [[Construct#tabber-World_1_Platinized_Statue_Cost|World 1 Platinized Statue Cost]]; or utilizing the [[Guides/Platinize Statues#Complete Resource Checklist|checklist]] below, you can progressively move up to earlier floors for increased efficiency. For example once you have sufficient bars for Statues 7, 8, and 9, you could move back as far as Floor 42.
+
+Any leftover bars generated through this process are highly valuable and can be redirected toward pushing Contract levels.
+
+=== Preparation Before Starting ===
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2"
+! # !! Category !! Requirement / Action !! Notes
+|-
+| 1 || Drones || Void drone || Preferably level 10. High grade is nice but not strictly necessary to start the strat
+|-
+| 2 || Skills || Unlock Polychrome Cards ([[Skill-Tree#ThisIsGonnaTakeAWhile|This Is Gonna Take A While..]]) ||  Using this strat you will get most of the cards polychromed. The polychromed cards will also help immensely. 2x -> 4x multiplier with polychrome.
+|-
+| 3 || Skills || Unlock 3rd drone ([[Skill-Tree#ThreesACrowd|Three's A Crowd]]) || You want to be able to run elixir, chain, and void at the same time. 
+|-
+| 4 || Cards || Gild all ore and bar cards up to floor 60 || You need to have the cards gilded in order to receive polychrome shards. The total cost of this is 17,860 gems (8,930 each for ore and bar)
+|-
+| 5 || Pet || Leprechaun || Leprechaun gives you base game speed, golden floor multi and rainbow chance further increasing gains
+|-
+| 6 || Optional || Gild misc cards which increase ore and bar gain || See the [[Guides/Platinize_Statues#Other_Feasible_Sources_of_Ore_and_Bar_Multipliers|table]] below for feasible options
+|-
+|7
+|Optional
+|Increase fuel duration (Axolotl skin, Fuel misc card)
+|Axolotl skin provides +10% to fuel duration, while gilding the Fuel misc card increases the fuel duration bonus from +2% to +5%, which becomes +10% when polychromed. This will reduce the gem cost of keeping your drones fueled throughout.
+|-
+| 8 || Optional || Save >10k gems || Do this to build multiple platinized statues shortly after each other. The total cost for all statues is 32.5k gems. Decide how many to save before starting based on your gem income minus fuel costs and how long you expect the process to take.
+|}
+
+=== Start with the Plat Strategy ===
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2"
+! # !! Category !! Action !! Notes
+|-
+| 1 || Contracts || Do a lot of contracts. || Focus points into everything that gives you more bars, like 3x, 10x craft and golden, rainbow floor multis and gamespeed. After you are done with the contracts, turn off auto contract completion.
+<nowiki>*</nowiki>Optional - Finish the Triple Contract Chance upgrade in the Jungle Zone before completing any contracts
+|-
+| 2 || Drones || Equip and fuel Void, Chain, and Elixir simultaneously || Core Plat strat setup, '''Pausing''' Drones so the Bomb of Plenty hits
+|-
+| 3 || Lootbugs || Buy the 2x ore buff from lootbugs. || For even more bars.
+|-
+|4
+|Items
+|Use items that boost ore and bar gain
+|If you have unlocked the Iris Idol, use Eye of Newt for extra golden floor multi
+At your discretion you can use rarer items as well: Lasagna, Rainbow Lollipop, Yummy Pizza and Time Turners.
+|-
+| 5 || Floor || Start on floor 60 with bomb of plenty on autofire. || You can check the cost of each [[Construct#tabber-World_1_Platinized_Statue_Cost|platinized statue.]] After you have gained enough bars for the last statue (ignoring the tin), you can move on to earlier floors. This increases the probability of getting the bars you need. 
+|-
+| 6 || Bars || Craft bars regularly || Crafting bars regularly gives you polychrome shards, which increase your gains
+|-
+|7
+|Statue of Hygiene
+|Complete new Workshop upgrades
+|When Statue of Hygiene gets platinized it adds another 2 level cap to the workshop, immediately go complete the upgrades for Bomb of Plenty Ore Multi and Transmuter Bar Multi
+|-
+| 8 || Last statue || Move on to floor 1 || The last statue needs 10q tin bars.
+|}
+
+=== Other Feasible Sources of Ore and Bar Multipliers ===
+There are other sources of effects that may be desirable to achieve prior to beginning. These are all completely optional and not considered a part of typical preparation. How feasible these sources are depends on your progress in the game and how quickly you value platinizing taking vs the time spent delaying to prep. The following should all be feasible in the time prior to World 3 when preparing to platinize statues.
+
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2 align-center-3"
+! # !! Category !! Name / Action !! Effect
+|-
+| 1 || Cards || Void Misc Card || Standard: Void Portal Multiplier 1.05x<br>Gilded: 1.10x<br>Polychrome: 1.20x
+|-
+| 2 || Cards || World 1 Misc Card || Standard: Golden Floor Multiplier 1.06x<br>Gilded: 1.12x<br>Polychrome: 1.24x
+|-
+| 3 || Cards || World 2 Misc Card || Standard: Rainbow Floor Multiplier 1.06x<br>Gilded: 1.12x<br>Polychrome: 1.24x
+|-
+|4||Cards||Penguin Pet Card||Standard: Golden Floor Multi +1x<br>Gilded: +2x<br>Polychrome: +4x
+|-
+|5||Cards||Axolotl Pet Card||Standard: Bar Craft Cost -3%<br>Gilded: -6%<br>Polychrome: -10%
+|-
+|6||Cards||Leprechaun Pet Card||Standard: Rainbow Floor Multiplier +10%<br>Gilded: +20%<br>Polychrome: +30%
+|-
+|7
+|Cards
+|Yummy Pizza Misc Card
+|Standard: All floor multis +1%
+Gilded: +2%
+Polychrome: +3%
+|-
+| 8 || Archaeology - Rare Idol || Apollo || Transmuter Bomb Multi +0.20x per idol owned
+|-
+| 9 || Archaeology - Rare Idol || Iris || Eye of Newt gives +0.25% Golden Floor Multi per idol owned
+|-
+| 10 || Pets || Penguin || Golden Floor Multi +0.05x per level
+|-
+| 11 || Pets || Axolotl || Double Craft Chance +2% per level<br>Bar Craft Cost -1% per level
+|-
+| 12 || Pets || Leprechaun || Base Game Speed +1.5% per level<br>Golden Floor Multi +1.25% per level<br>Rainbow Floor Chance +0.25% per level
+|-
+| 13 || Pet Skins || Leprechaun Skin || Rainbow Floor Chance +1%
+|-
+| 14 || Pet Quests || Crab Quest || Plenty Bomb Multiplier +0.5x per Rank<br>Exp Bomb Multiplies +0.5x per Rank
+|-
+| 15 || Pet Quests || Penguin Quest || Golden Floor Multiplier +2% per Rank<br>Rainbow Floor Chance +0.25% per Rank
+|}
+
+=== Complete Resource Checklist ===
+This is a checklist all of the resources needed to upgrade all statues in one sitting. For a per statue breakdown, see this [[Construct#tabber-World 1 Platinized Statue Cost|table]]. It is not recommended to hoard all resources before you start to platinize statues as upgrading along the way will increase gem gain, damage and multipliers.
+{| class="wikitable lighttable"
+! Veins
+|-
+| 100.00k {{Sprite|Stone Vein||x20|Stone Veins}}
+|-
+| 150.00k {{Sprite|Magma Vein||x20|Magma Veins}}
+|-
+|200.00k {{Sprite|Virtual Vein||x20|Virtual Veins}}
+|-
+|250.00k {{Sprite|Space Vein||x20|Space Veins}}
+|-
+|325.00k {{Sprite|Cloud Vein||x20|Cloud Veins}}
+|-
+|400.00k {{Sprite|Atomic Vein||x20|Atomic Veins}}
+|-
+|500.00k {{Sprite|Deepsea Vein||x20|Deepsea Veins}}
+|- 
+|650.00k {{Sprite|Beach Vein||x20|Beach Veins}}
+|-
+|850.00k {{Sprite|Valley Vein||x20|Valley Veins}}
+|-
+! Bars
+|-
+| 10.018q {{Sprite|Tin Bar||x20|Tin Bars}}
+|- 
+| 10.80t {{Sprite|Copper Bar||x20|Copper Bars}}
+|-
+|7.20t {{Sprite|Mithril Bar||x20|Mithril Bars}}
+|-
+|6.30t {{Sprite|Adamant Bar||x20|Adamant Bars}}
+|-
+|7.80t {{Sprite|Amethyst Bar||x20|Amethyst Bars}}
+|-
+|6.17t {{Sprite|Topaz Bar||x20|Topaz Bars}}
+|-
+|5.65t {{Sprite|Obsidian Bar||x20|Obsidian Bars}}
+|-
+|4.50t {{Sprite|Demonite Bar||x20|Demonite Bars}}
+|-
+|6.80t {{Sprite|VR-Tin Bar||x20|VR-Tin Bars}}
+|-
+|5.76t {{Sprite|VR-Amethyst Bar||x20|VR-Amethyst Bars}}
+|-
+|4.91t {{Sprite|VR-Demonite Bar||x20|VR-Demonite Bars}}
+|-
+|3.86t {{Sprite|VR-ERROR Bar||x20|VR-ERROR Bars}}
+|-
+|8.22t {{Sprite|Lunarium Bar||x20|Lunarium Bars}}
+|-
+|6.97t {{Sprite|Earth-C-137 Bar||x20|Earth-C-137 Bars}}
+|-
+|6t {{Sprite|Meteorite Bar||x20|Meteorite Bars}}
+|-
+|5.22t {{Sprite|Singularity Bar||x20|Singularity Bars}}
+|-
+|6.36t {{Sprite|Halium Bar||x20|Halium Bars}}
+|-
+|5.47t {{Sprite|Blasphemite Bar||x20|Blasphemite Bars}}
+|-
+|4.92t {{Sprite|Angelite Bar||x20|Angelite Bars}}
+|-
+|4.46t {{Sprite|Elysium Bar||x20|Elysium Bars}}
+|-
+|4.90t {{Sprite|Enemite Bar||x20|Enemite Bars}}
+|-
+|4.09t {{Sprite|Beepboopium Bar||x20|Beepboopium Bars}}
+|-
+|3.50t {{Sprite|Radion-73 Bar||x20|Radion-73 Bars}}
+|-
+|3.02t {{Sprite|Cranium Bar||x20|Cranium Bars}}
+|-
+|3.60t {{Sprite|Lapis Bar||x20|Lapis Bars}}
+|-
+|3.19t {{Sprite|Quartz Bar||x20|Quartz Bars}}
+|-
+|2.85t {{Sprite|Glacialite Bar||x20|Glacialite Bars}}
+|-
+|2.58t {{Sprite|Twinklestone Bar||x20|Twinklestone Bars}}
+|-
+|3.18t {{Sprite|Sandcasium Bar||x20|Sandcasium Bars}}
+|-
+|2.92t {{Sprite|Clamite Bar||x20|Clamite Bars}}
+|-
+|2.66t {{Sprite|Thunderstone Bar||x20|Thunderstone Bars}}
+|-
+|2.48t {{Sprite|Crabrock Bar||x20|Crabrock Bars}}
+|-
+|3.47t {{Sprite|Frostbite Bar||x20|Frostbite Bars}}
+|-
+|3.33t {{Sprite|Icebloom Bar||x20|Icebloom Bars}}
+|-
+| 3.08t {{Sprite|Pinguinus Bar||x20|Pinguinus Bars}}
+|-
+! Other
+|-
+| {{Gems|31500}}
+|}
+
+
+== Video Tutorial ==
+<youtube width="400">JvId-gnNC-c</youtube>
+
+== Navigation ==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

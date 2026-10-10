@@ -1,0 +1,1552 @@
+{
+	"defaults": {
+		"image": "File:$name.png",
+		"cap": 1,
+		"recommended": false,
+		"wikirecommended": false,
+		"stats": {
+			"*": {
+				"multiplicative": false
+			}
+		}
+	},
+	"buckets": {
+		"skills": [
+			"name",
+			"image",
+			"cost",
+			"cap",
+			"obeliskreq",
+			"parent",
+			"recommended",
+			"wikirecommended"
+		],
+		"statsource": [
+			{
+				"source_id": "name"
+			},
+			"image",
+			{
+				"base_cap": "cap"
+			},
+			"stats.stat",
+			"stats.gain",
+			"stats.unit",
+			"stats.multiplicative",
+			"stats.per",
+			"stats.per_amt"
+		]
+	},
+	"data": [
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Crit Chance",
+					"gain": 5,
+					"unit": "%"
+				},
+				{
+					"stat": "Pickaxe Crit Damage",
+					"gain": 15,
+					"unit": "%"
+				}
+			],
+			"name": "Lucky Strikes",
+			"cost": 1,
+			"parent": "Lucky Strikes",
+			"column": 5,
+			"row": 1,
+			"id": 0
+		},
+		{
+			"stats": [
+				{
+					"stat": "Bomb Damage",
+					"gain": 25,
+					"unit": "%"
+				}
+			],
+			"name": "Bigger Blasts",
+			"cost": 1,
+			"parent": "Lucky Strikes",
+			"column": 3,
+			"row": 2,
+			"id": 1
+		},
+		{
+			"stats": [
+				{
+					"stat": "Double Craft Chance",
+					"gain": 5,
+					"unit": "%"
+				}
+			],
+			"name": "Ore Efficiency",
+			"cost": 1,
+			"parent": "Lucky Strikes",
+			"column": 7,
+			"row": 2,
+			"id": 2
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 20,
+					"unit": "%"
+				}
+			],
+			"name": "Swing Harder",
+			"cost": 1,
+			"parent": "Bigger Blasts",
+			"column": 3,
+			"row": 4,
+			"id": 3
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Bar Cost",
+					"gain": -10
+				}
+			],
+			"name": "Ingot Intuition",
+			"cost": 1,
+			"parent": "Ore Efficiency",
+			"column": 7,
+			"row": 4,
+			"id": 4
+		},
+		{
+			"stats": [
+				{
+					"stat": "Bomb Damage",
+					"gain": 40,
+					"unit": "%"
+				},
+				{
+					"stat": "Bomb Recharge Rate",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Bomb Crit Chance",
+					"gain": 5,
+					"unit": "%"
+				}
+			],
+			"name": "All-Round Bomber",
+			"cost": 3,
+			"parent": "Swing Harder",
+			"column": 2,
+			"row": 6,
+			"id": 5
+		},
+		{
+			"stats": [
+				{
+					"stat": "Increase Bomb Capacity",
+					"gain": 10
+				},
+				{
+					"stat": "Bomb Damage",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Free Bomb Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Arsenal Adancement",
+			"image": "File:Arsenal Advancement.png",
+			"cost": 2,
+			"recommended": true,
+			"parent": "Swing Harder",
+			"column": 4,
+			"row": 6,
+			"id": 6
+		},
+		{
+			"stats": [
+				{
+					"stat": "Floor Clear Requirement",
+					"gain": -10,
+					"unit": "%"
+				},
+				{
+					"stat": "Prestige Point Gain",
+					"gain": 0.2,
+					"multiplicative": true
+				},
+				{
+					"stat": "Ore Sell Price",
+					"gain": 0.2,
+					"multiplicative": true
+				}
+			],
+			"name": "Easy Progressor",
+			"cost": 2,
+			"recommended": true,
+			"parent": "Ingot Intuition",
+			"column": 6,
+			"row": 6,
+			"id": 7
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Super Crit Chance",
+					"gain": 10,
+					"unit": "%"
+				}
+			],
+			"name": "Wait my Crits can Crit?",
+			"image": "File:Wait My Crits Can Crit.png",
+			"cost": 3,
+			"recommended": true,
+			"parent": "Ingot Intuition",
+			"column": 8,
+			"row": 6,
+			"id": 8
+		},
+		{
+			"stats": [
+				{
+					"stat": "Prestige Point Gain",
+					"gain": 25,
+					"unit": "%"
+				},
+				{
+					"stat": "Exp Gain",
+					"gain": 25,
+					"unit": "%"
+				}
+			],
+			"name": "PP Go Up",
+			"cost": 2,
+			"parent": "All-Round Bomber",
+			"column": 2,
+			"row": 8,
+			"id": 9
+		},
+		{
+			"stats": [
+				{
+					"stat": "Gems from Freebie",
+					"gain": 1
+				},
+				{
+					"stat": "Freebie Relic Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Gems \u0026 Chests",
+			"cost": 2,
+			"recommended": true,
+			"parent": "Wait my Crits can Crit?",
+			"column": 8,
+			"row": 8,
+			"id": 10
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 40,
+					"unit": "%"
+				},
+				{
+					"stat": "Pickaxe Crit Damage",
+					"gain": 20,
+					"unit": "%"
+				},
+				{
+					"stat": "Pickaxe Radius",
+					"gain": 15,
+					"unit": "%"
+				}
+			],
+			"name": "Super Damage",
+			"cost": 4,
+			"parent": "PP Go Up",
+			"column": 2,
+			"row": 10,
+			"id": 11
+		},
+		{
+			"stats": [
+				{
+					"stat": "Freebie Timer",
+					"gain": -60,
+					"unit": "s"
+				}
+			],
+			"name": "Just Wait Faster",
+			"cost": 3,
+			"parent": "Gems \u0026 Chests",
+			"column": 8,
+			"row": 10,
+			"id": 12
+		},
+		{
+			"stats": [
+				{
+					"stat": "Triple Craft Chance",
+					"gain": 5,
+					"unit": "%"
+				},
+				{
+					"stat": "10x Craft Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Hefty Hammers",
+			"cost": 3,
+			"parent": "PP Go Up",
+			"column": 3,
+			"row": 12,
+			"id": 13
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 0.1,
+					"unit": "%",
+					"per": "Relic Chest Opened"
+				}
+			],
+			"name": "Relic Rampage",
+			"cost": 4,
+			"parent": "Gems \u0026 Chests",
+			"column": 7,
+			"row": 12,
+			"id": 14
+		},
+		{
+			"stats": [
+				{
+					"stat": "Offline Items And Relics",
+					"gain": 1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Banked Freebie Cap",
+					"gain": 1
+				},
+				{
+					"stat": "Bomb Capacity",
+					"gain": 10
+				}
+			],
+			"name": "Chronokeeper",
+			"cost": 5,
+			"recommended": true,
+			"parent": "Hefty Hammers",
+			"column": 3,
+			"row": 15,
+			"id": 15
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlock Gem Bomb"
+				}
+			],
+			"name": "Gem Bomb",
+			"cost": 5,
+			"recommended": true,
+			"wikirecommended": true,
+			"parent": "Relic Rampage",
+			"column": 7,
+			"row": 15,
+			"id": 16
+		},
+		{
+			"stats": [
+				{
+					"stat": "Drone Upgrade Level Cap",
+					"gain": 3
+				}
+			],
+			"name": "Mechanical Evolution",
+			"cost": 7,
+			"recommended": true,
+			"parent": "Hefty Hammers",
+			"column": 2,
+			"row": 17,
+			"id": 17
+		},
+		{
+			"stats": [
+				{
+					"stat": "Freebie Relic Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Freebie Relic Chance",
+					"gain": 1,
+					"unit": "%",
+					"per": "Relics Opened",
+					"per_amt": 250
+				}
+			],
+			"name": "Treasue Hunter",
+			"image": "File:Treasure Hunter.png",
+			"cost": 7,
+			"recommended": true,
+			"parent": "Relic Rampage",
+			"column": 8,
+			"row": 17,
+			"id": 18
+		},
+		{
+			"stats": [
+				{
+					"stat": "Bomb Crit Damage",
+					"gain": 0.5,
+					"unit": "%",
+					"per": "Bomb Crit Chance"
+				},
+				{
+					"stat": "Bomb Super Crit Chance",
+					"gain": 20,
+					"unit": "%"
+				},
+				{
+					"stat": "Free Bomb Chance",
+					"gain": 3,
+					"unit": "%"
+				}
+			],
+			"name": "Demolition Expert",
+			"cost": 5,
+			"parent": "Chronokeeper",
+			"column": 3,
+			"row": 19,
+			"id": 19
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Ultra Crit Chance",
+					"gain": 20,
+					"unit": "%"
+				}
+			],
+			"name": "Wait My Super Crits Can Crit?",
+			"image": "File:Wait My Super Crits Can Crit.png",
+			"cost": 5,
+			"parent": "Gem Bomb",
+			"column": 7,
+			"row": 19,
+			"id": 20
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlock Auto-Bomber"
+				}
+			],
+			"name": "Auto-Bomber",
+			"cost": 10,
+			"recommended": true,
+			"wikirecommended": true,
+			"parent": "Demolition Expert",
+			"column": 3,
+			"row": 22,
+			"id": 21
+		},
+		{
+			"stats": [
+				{
+					"stat": "Golden Floor Ore Multiplier",
+					"gain": 2,
+					"unit": "x"
+				}
+			],
+			"name": "Perfect Gold",
+			"cost": 10,
+			"parent": "Wait My Super Crits Can Crit?",
+			"column": 7,
+			"row": 22,
+			"id": 22
+		},
+		{
+			"stats": [
+				{
+					"stat": "Bomb Damage",
+					"gain": 150,
+					"unit": "%"
+				},
+				{
+					"stat": "Bomb Ultra Crit Chance",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Bomb Capacity",
+					"gain": 5
+				}
+			],
+			"name": "Flamboyant Bombs",
+			"cost": 12,
+			"parent": "Auto-Bomber",
+			"column": 2,
+			"row": 25,
+			"id": 23
+		},
+		{
+			"stats": [
+				{
+					"stat": "Ores Per Floor",
+					"gain": 2
+				},
+				{
+					"stat": "Bar Craft Cost",
+					"gain": -10,
+					"unit": "%"
+				}
+			],
+			"name": "More Ore More Problems",
+			"cost": 12,
+			"parent": "Perfect Gold",
+			"column": 8,
+			"row": 25,
+			"id": 24
+		},
+		{
+			"stats": [
+				{
+					"stat": "Freebie Timer",
+					"gain": -60,
+					"unit": "s"
+				},
+				{
+					"stat": "Freebie Relic Chance",
+					"gain": 2,
+					"unit": "%"
+				},
+				{
+					"stat": "Freebie Refresh Chance",
+					"gain": 5,
+					"unit": "%"
+				}
+			],
+			"name": "Free? That's A Great Price!",
+			"image": "File:Free That's a Great Price!.png",
+			"cost": 12,
+			"recommended": true,
+			"wikirecommended": true,
+			"parent": "Flamboyant Bombs",
+			"column": 1,
+			"row": 28,
+			"id": 25
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 200,
+					"unit": "%"
+				},
+				{
+					"stat": "Pickaxe Omega Crit Chance",
+					"gain": 10,
+					"unit": "%"
+				}
+			],
+			"name": "Wait My Ultra Crits Can Crit?",
+			"image": "File:Wait My Ultra Crits Can Crit.png",
+			"cost": 12,
+			"parent": "More Ore More Problems",
+			"column": 9,
+			"row": 28,
+			"id": 26
+		},
+		{
+			"stats": [
+				{
+					"stat": "All Artifact Caps",
+					"gain": 1
+				},
+				{
+					"stat": "All Workshop Upgrade Caps",
+					"gain": 1
+				}
+			],
+			"name": "Do These Upgrades Ever End",
+			"cost": 18,
+			"parent": "Free? That's A Great Price!",
+			"column": 3,
+			"row": 31,
+			"id": 27
+		},
+		{
+			"stats": [
+				{
+					"stat": "Rainbow Floor Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Optical Phenomenon",
+			"cost": 18,
+			"parent": "Wait My Ultra Crits Can Crit?",
+			"column": 7,
+			"row": 31,
+			"id": 28
+		},
+		{
+			"stats": [
+				{
+					"stat": "All Pets level up chance",
+					"gain": 15,
+					"unit": "%"
+				},
+				{
+					"stat": "Chest Meter Fill Rate",
+					"gain": 14,
+					"multiplicative": true
+				}
+			],
+			"name": "Have You Tried Getting Luckier?",
+			"image": "File:Have You Tried Getting Luckier.png",
+			"cost": 22,
+			"obeliskreq": 17,
+			"parent": "Do These Upgrades Ever End",
+			"column": 3,
+			"row": 34,
+			"id": 29
+		},
+		{
+			"stats": [
+				{
+					"stat": "Stonks Chance: 200 Gems",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Stonks Chance: 20 Item Chests",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Stonks Chance: 10 Relic Chests",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Stonks",
+			"cost": 22,
+			"obeliskreq": 17,
+			"recommended": true,
+			"wikirecommended": true,
+			"parent": "Optical Phenomenon",
+			"column": 7,
+			"row": 34,
+			"id": 30
+		},
+		{
+			"stats": [
+				{
+					"stat": "Fuel Duration",
+					"gain": 20,
+					"unit": "%"
+				},
+				{
+					"stat": "Coal Production",
+					"gain": -10,
+					"unit": "s"
+				},
+				{
+					"stat": "Coal Capacity",
+					"gain": 25,
+					"unit": "%"
+				}
+			],
+			"name": "Gasoline Guzzler",
+			"cost": 25,
+			"obeliskreq": 18,
+			"parent": "Have You Tried Getting Luckier?",
+			"column": 1,
+			"row": 36,
+			"id": 31
+		},
+		{
+			"stats": [
+				{
+					"stat": "Ore Sell Price",
+					"gain": 1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Golden Floor Multiplier",
+					"gain": 0.2,
+					"multiplicative": true
+				}
+			],
+			"name": "I Have Wares, If You Have Coin",
+			"cost": 25,
+			"obeliskreq": 18,
+			"parent": "Stonks",
+			"column": 9,
+			"row": 36,
+			"id": 32
+		},
+		{
+			"stats": [
+				{
+					"stat": "Contract Points Earned",
+					"gain": 2
+				},
+				{
+					"stat": "Triple Contract Chance",
+					"gain": 8,
+					"unit": "%"
+				},
+				{
+					"stat": "Contract Upgrade Refunds Per Prestige",
+					"gain": 1
+				}
+			],
+			"name": "Who's Asking For All These Bars?",
+			"image": "File:Who's Asking For All These Bars.png",
+			"cost": 32,
+			"obeliskreq": 20,
+			"parent": "Y'all Got Any More Of Them Veins?",
+			"column": 3,
+			"row": 37,
+			"id": 35
+		},
+		{
+			"stats": [
+				{
+					"stat": "Rainbow Floor Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "10x Craft Chance",
+					"gain": 2,
+					"unit": "%"
+				},
+				{
+					"stat": "Bar Craft Cost",
+					"gain": -10,
+					"unit": "%"
+				}
+			],
+			"name": "I'm Running Out Of Creative Names",
+			"cost": 32,
+			"obeliskreq": 20,
+			"parent": "Saving for a Rainy Day",
+			"column": 7,
+			"row": 37,
+			"id": 36
+		},
+		{
+			"stats": [
+				{
+					"stat": "Veinmorpher Bomb Unlock"
+				}
+			],
+			"name": "Y'all Got Any More Of Them Veins?",
+			"image": "File:Y'all Got Any More Of Them Veins.png",
+			"cost": 28,
+			"obeliskreq": 19,
+			"recommended": true,
+			"parent": "Gasoline Guzzler",
+			"column": 2,
+			"row": 40,
+			"id": 33
+		},
+		{
+			"stats": [
+				{
+					"stat": "Banked Freebie Cap",
+					"gain": 2
+				},
+				{
+					"stat": "Banked Lootbug Cap",
+					"gain": 2
+				},
+				{
+					"stat": "Lootbug Gem Cost",
+					"gain": -1
+				}
+			],
+			"name": "Saving for a Rainy Day",
+			"image": "File:Saving For A Rainy Day.png",
+			"cost": 28,
+			"obeliskreq": 19,
+			"recommended": true,
+			"parent": "I Have Wares, If You Have Coin",
+			"column": 8,
+			"row": 40,
+			"id": 34
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Pickaxe Ultra Crit Chance",
+					"gain": 15,
+					"unit": "%"
+				},
+				{
+					"stat": "Experience Gain",
+					"gain": 100,
+					"unit": "%"
+				}
+			],
+			"name": "Tons Of Damage",
+			"cost": 36,
+			"obeliskreq": 23,
+			"parent": "Who's Asking For All These Bars?",
+			"column": 4,
+			"row": 42,
+			"id": 37
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlocks ability to follow Stars"
+				},
+				{
+					"stat": "Star Supernova Multi",
+					"gain": 20,
+					"unit": "%"
+				},
+				{
+					"stat": "Super Star Supernova Multi",
+					"gain": 20,
+					"unit": "%"
+				}
+			],
+			"name": "Ctrl+F 'Stars'",
+			"cost": 36,
+			"obeliskreq": 23,
+			"parent": "I'm Running Out Of Creative Names",
+			"column": 6,
+			"row": 42,
+			"id": 38
+		},
+		{
+			"stats": [
+				{
+					"stat": "Damage",
+					"gain": 1,
+					"unit": "%",
+					"per": "Highest Stage"
+				},
+				{
+					"stat": "Max Stamina",
+					"gain": 1,
+					"unit": "%",
+					"per": "Highest Stage"
+				},
+				{
+					"stat": "Speed Mod Gain",
+					"gain": 15
+				}
+			],
+			"name": "Block Bonker",
+			"cost": 50,
+			"obeliskreq": 30,
+			"parent": "Tons Of Damage",
+			"column": 4,
+			"row": 44,
+			"id": 46
+		},
+		{
+			"stats": [
+				{
+					"stat": "Ability Duration",
+					"gain": 5
+				},
+				{
+					"stat": "Ability Cooldown",
+					"gain": -10,
+					"unit": "s"
+				},
+				{
+					"stat": "Ability Instacharge Chance",
+					"gain": 3,
+					"unit": "%"
+				}
+			],
+			"name": "Avada Keda-'",
+			"image": "File:Avada Keda-.png",
+			"cost": 50,
+			"obeliskreq": 30,
+			"parent": "Ctrl+F 'Stars'",
+			"column": 6,
+			"row": 44,
+			"id": 47
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlock Polychrome Cards"
+				}
+			],
+			"name": "This Is Gonna Take A While..",
+			"image": "File:This Is Gonna Take A While.png",
+			"cost": 40,
+			"obeliskreq": 26,
+			"recommended": true,
+			"parent": "Tons Of Damage",
+			"column": 3,
+			"row": 46,
+			"id": 41
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlock +1 Drone"
+				}
+			],
+			"name": "Three's A Crowd",
+			"cost": 40,
+			"obeliskreq": 26,
+			"recommended": true,
+			"parent": "Ctrl+F 'Stars'",
+			"column": 7,
+			"row": 46,
+			"id": 40
+		},
+		{
+			"stats": [
+				{
+					"stat": "Fishing Drones",
+					"gain": 5
+				},
+				{
+					"stat": "Fishing Drone Power",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Fish Multiplier",
+					"gain": 3,
+					"unit": "%"
+				}
+			],
+			"name": "Fishing with Friends",
+			"image": "File:Fishing With Friends.png",
+			"cost": 40,
+			"cap": 3,
+			"obeliskreq": 37,
+			"parent": "Gasoline Guzzler",
+			"column": 1,
+			"row": 48,
+			"id": 42
+		},
+		{
+			"stats": [
+				{
+					"stat": "Tick Speed",
+					"gain": -2,
+					"unit": "s"
+				},
+				{
+					"stat": "Double Tick Chance",
+					"gain": 2,
+					"unit": "%"
+				},
+				{
+					"stat": "Triple Tick Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Let's Pick Up The Pace",
+			"cost": 40,
+			"cap": 3,
+			"obeliskreq": 37,
+			"parent": "I Have Wares, If You Have Coin",
+			"column": 9,
+			"row": 48,
+			"id": 44
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlock Auto Prestige"
+				}
+			],
+			"name": "Take it back now y'all",
+			"image": "File:Take It Back Now Yall.png",
+			"cost": 65,
+			"obeliskreq": 30,
+			"recommended": true,
+			"parent": "This Is Gonna Take A While..",
+			"column": 3,
+			"row": 49,
+			"id": 63
+		},
+		{
+			"stats": [
+				{
+					"stat": "Tier 2 Items From Expert Notices",
+					"gain": 2
+				},
+				{
+					"stat": "Item Duration",
+					"gain": 15,
+					"unit": "%"
+				},
+				{
+					"stat": "Notice Fish Req",
+					"gain": -10,
+					"unit": "%"
+				}
+			],
+			"name": "Friendship Ended With Tier 1 Items",
+			"cost": 50,
+			"cap": 3,
+			"obeliskreq": 37,
+			"parent": "Fishing with Friends",
+			"column": 1,
+			"row": 50,
+			"id": 43
+		},
+		{
+			"stats": [
+				{
+					"stat": "Fish Multiplier",
+					"gain": 1,
+					"unit": "%",
+					"per": "Fish Card"
+				},
+				{
+					"stat": "Shiny Fish Chance",
+					"gain": 0.1,
+					"unit": "%",
+					"per": "Fish Card"
+				}
+			],
+			"name": "With This Fish I Summon Two More Fish",
+			"cost": 50,
+			"cap": 3,
+			"obeliskreq": 37,
+			"parent": "Let's Pick Up The Pace",
+			"column": 9,
+			"row": 50,
+			"id": 45
+		},
+		{
+			"stats": [
+				{
+					"stat": "All Star Multi",
+					"gain": 0.1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Vein Income Multi",
+					"gain": 0.1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Golden Floor Multi",
+					"gain": 0.1,
+					"multiplicative": true
+				},
+				{
+					"stat": "Bomb Recharge Rate",
+					"gain": 0.1,
+					"multiplicative": true
+				}
+			],
+			"name": "Leprechaun's Legacy",
+			"cost": 45,
+			"obeliskreq": 26,
+			"parent": "Polychrome Power",
+			"column": 7,
+			"row": 51,
+			"id": 55
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 0.03,
+					"unit": "x",
+					"per": "Poly Card"
+				},
+				{
+					"stat": "Ore Sell Price",
+					"gain": 0.03,
+					"unit": "x",
+					"per": "Poly Card"
+				},
+				{
+					"stat": "Exp Gain",
+					"gain": 0.03,
+					"unit": "x",
+					"per": "Poly Card"
+				}
+			],
+			"name": "Polychrome Power",
+			"cost": 50,
+			"obeliskreq": 26,
+			"recommended": true,
+			"parent": "This Is Gonna Take A While..",
+			"column": 5,
+			"row": 52,
+			"id": 39
+		},
+		{
+			"stats": [
+				{
+					"stat": "Tier 2 Dock Power",
+					"gain": 3,
+					"unit": "%",
+					"per": "Legendary Fish Caught"
+				},
+				{
+					"stat": "Fishing Drone Power",
+					"gain": 2,
+					"unit": "%",
+					"per": "Legendary Fish Caught"
+				},
+				{
+					"stat": "Super Shiny Fish Chance",
+					"gain": 1,
+					"unit": "%",
+					"per": "Legendary Fish Caught"
+				}
+			],
+			"name": "Completionist Gatekeeper",
+			"cost": 100,
+			"cap": 3,
+			"obeliskreq": 50,
+			"parent": "With This Fish I Summon Two More Fish",
+			"column": 9,
+			"row": 53,
+			"id": 52
+		},
+		{
+			"stats": [
+				{
+					"stat": "Rod Multiplier",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Abyss Dock Tick Req",
+					"gain": -2
+				},
+				{
+					"stat": "Tier 2 Dock Tick Req",
+					"gain": -1
+				},
+				{
+					"stat": "Fishing Drones",
+					"gain": 5
+				}
+			],
+			"name": "Motley School",
+			"cost": 100,
+			"cap": 3,
+			"obeliskreq": 50,
+			"parent": "Friendship Ended With Tier 1 Items",
+			"column": 1,
+			"row": 53,
+			"id": 51
+		},
+		{
+			"stats": [
+				{
+					"stat": "Contract Upgrade Refunds Per Prestige",
+					"gain": 1
+				},
+				{
+					"stat": "10x Contract Point Chance",
+					"gain": 0.25,
+					"unit": "%"
+				}
+			],
+			"name": "Please Sir Don't Make Me Prestige Again",
+			"cost": 65,
+			"cap": 3,
+			"obeliskreq": 43,
+			"parent": "Polychrome Power",
+			"column": 3,
+			"row": 55,
+			"id": 48
+		},
+		{
+			"stats": [
+				{
+					"stat": "Vein Polychrome Card Bonus",
+					"gain": 1,
+					"unit": "x"
+				},
+				{
+					"stat": "Rainbow Vein Multi",
+					"gain": 6,
+					"unit": "%"
+				}
+			],
+			"name": "Insane In The Vein Gain",
+			"cost": 70,
+			"cap": 3,
+			"obeliskreq": 44,
+			"parent": "Please Sir Don't Make Me Prestige Again",
+			"column": 5,
+			"row": 55,
+			"id": 49
+		},
+		{
+			"stats": [
+				{
+					"stat": "Orion Star Cap",
+					"gain": 2
+				},
+				{
+					"stat": "Star Supernova Multi",
+					"gain": 6,
+					"unit": "%"
+				},
+				{
+					"stat": "Super Star 10x Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Ctrl+C Ctrl+V Stars",
+			"cost": 75,
+			"cap": 3,
+			"obeliskreq": 45,
+			"parent": "Insane In The Vein Gain",
+			"column": 7,
+			"row": 55,
+			"id": 50
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlocks Infernal Vein Cards"
+				}
+			],
+			"name": "Flaming Veins",
+			"cost": 500,
+			"obeliskreq": 60,
+			"recommended": true,
+			"parent": "Insane In The Vein Gain",
+			"column": 5,
+			"row": 57,
+			"id": 53
+		},
+		{
+			"stats": [
+				{
+					"stat": "Unlocks Infernal Star Cards"
+				}
+			],
+			"name": "Astral Forge",
+			"cost": 500,
+			"obeliskreq": 60,
+			"recommended": true,
+			"parent": "Ctrl+C Ctrl+V Stars",
+			"column": 7,
+			"row": 57,
+			"id": 54
+		},
+		{
+			"stats": [
+				{
+					"stat": "Banked Lootbug Cap",
+					"gain": 3
+				},
+				{
+					"stat": "Lootbug Loot Multi",
+					"gain": 4,
+					"unit": "%"
+				}
+			],
+			"name": "Anyone Up Lootin' They Bugs",
+			"cost": 225,
+			"cap": 3,
+			"obeliskreq": 60,
+			"parent": "Please Sir Don't Make Me Prestige Again",
+			"column": 3,
+			"row": 59,
+			"id": 56
+		},
+		{
+			"stats": [
+				{
+					"stat": "Void Portal Multi",
+					"gain": 5,
+					"unit": "%"
+				},
+				{
+					"stat": "Void Drone Grade Cap",
+					"gain": 4
+				}
+			],
+			"name": "Call Of The Void",
+			"cost": 250,
+			"cap": 3,
+			"obeliskreq": 60,
+			"parent": "Anyone Up Lootin' They Bugs",
+			"column": 5,
+			"row": 59,
+			"id": 57
+		},
+		{
+			"stats": [
+				{
+					"stat": "Golden Frog Multiplier",
+					"gain": 0.001,
+					"unit": "x",
+					"per": "Golden Frog Caught"
+				}
+			],
+			"name": "Pond Yield",
+			"cost": 750,
+			"obeliskreq": 60,
+			"parent": "Call Of The Void",
+			"column": 7,
+			"row": 59,
+			"id": 58
+		},
+		{
+			"stats": [
+				{
+					"stat": "Novagiant Combo Multi",
+					"gain": 5,
+					"unit": "%"
+				},
+				{
+					"stat": "Star Supergiant Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Capricorn Cap",
+					"gain": 3
+				},
+				{
+					"stat": "Gemini Cap",
+					"gain": 2
+				}
+			],
+			"name": "Why Are There Stars In My Mining Game",
+			"cost": 750,
+			"cap": 3,
+			"obeliskreq": 62,
+			"parent": "Frog Frenzy",
+			"column": 3,
+			"row": 61,
+			"id": 61
+		},
+		{
+			"stats": [
+				{
+					"stat": "Frogger Drone Grade Cap",
+					"gain": 2
+				},
+				{
+					"stat": "Triple Lootfrog Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Frog Capacity",
+					"gain": 1
+				}
+			],
+			"name": "Frog Frenzy",
+			"cost": 950,
+			"cap": 3,
+			"obeliskreq": 64,
+			"parent": "Call Of The Void",
+			"column": 5,
+			"row": 61,
+			"id": 59
+		},
+		{
+			"stats": [
+				{
+					"stat": "Golden Void Portal Chance",
+					"gain": 2,
+					"unit": "%"
+				},
+				{
+					"stat": "Galactic Floor Chance",
+					"gain": 2,
+					"unit": "%"
+				},
+				{
+					"stat": "Golden Ore Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Chain Drone Grade Cap",
+					"gain": 5
+				}
+			],
+			"name": "I Buried It Here (55.251920, -6.483423)",
+			"image": "File:I Buried It Here.png",
+			"cost": 950,
+			"cap": 3,
+			"obeliskreq": 64,
+			"parent": "Frog Frenzy",
+			"column": 7,
+			"row": 61,
+			"id": 62
+		},
+		{
+			"stats": [
+				{
+					"stat": "Pickaxe Damage",
+					"gain": 1.5,
+					"multiplicative": true
+				},
+				{
+					"stat": "Scorpio Cap",
+					"gain": 5
+				},
+				{
+					"stat": "Contract Upgrade Cap",
+					"gain": 2
+				},
+				{
+					"stat": "Workshop Upgrade Cap",
+					"gain": 1
+				}
+			],
+			"name": "Idle Obelisk Mincer",
+			"cost": 2000,
+			"obeliskreq": 64,
+			"recommended": true,
+			"parent": "Frog Frenzy",
+			"column": 5,
+			"row": 63,
+			"id": 60
+		},
+		{
+			"stats": [
+				{
+					"stat": "Galactic Portal Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Void Portal Chance",
+					"gain": 5,
+					"unit": "%"
+				},
+				{
+					"stat": "Void Drone Grade Cap",
+					"gain": 20
+				}
+			],
+			"name": "Portal Schmortal",
+			"cost": 12345,
+			"obeliskreq": 70,
+			"recommended": true,
+			"parent": "Why Are There Stars In My Mining Game",
+			"column": 3,
+			"row": 64,
+			"id": 64
+		},
+		{
+			"stats": [
+				{
+					"stat": "Minotaur Drone Grade Cap",
+					"gain": 3
+				},
+				{
+					"stat": "Galactic Portal Multi",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Prismatic Floor Chance",
+					"gain": 3,
+					"unit": "%"
+				}
+			],
+			"name": "Mess With The Bull",
+			"cost": 23456,
+			"obeliskreq": 70,
+			"recommended": true,
+			"parent": "I Buried It Here (55.251920, -6.483423)",
+			"column": 7,
+			"row": 64,
+			"id": 65
+		},
+		{
+			"stats": [
+				{
+					"stat": "Arcanist Mana Regen",
+					"gain": 10,
+					"unit": "%"
+				},
+				{
+					"stat": "Essence Shiny Chance",
+					"gain": 1,
+					"unit": "%"
+				},
+				{
+					"stat": "Essence Brittle Chance",
+					"gain": 1,
+					"unit": "%"
+				}
+			],
+			"name": "Straight Outta Yanille",
+			"cost": 34567,
+			"obeliskreq": 71,
+			"parent": "Idle Obelisk Mincer",
+			"column": 5,
+			"row": 65,
+			"id": 66
+		},
+		{
+			"stats": [
+				{
+					"stat": "Massive Lootfrog Chance",
+					"gain": 2,
+					"unit": "%"
+				}
+			],
+			"name": "Fronks",
+			"cost": 99999,
+			"obeliskreq": 72,
+			"parent": "Straight Outta Yanille",
+			"column": 5,
+			"row": 67,
+			"note": "Requires Successful Big Frog Roll!",
+			"id": 67
+		},
+		{
+			"id": 68,
+			"stats": [
+				{
+					"stat": "Unlocks the ability to Wish for a Star, allowing to choose and lock a Star floor location in place"
+				}
+			],
+			"name": "Ctrl+S Stars",
+			"cost": 100,
+			"obeliskreq": 55,
+			"parent": "Please Sir Don't Make Me Prestige Again",
+			"column": 1,
+			"row": 57
+		}
+	]
+}

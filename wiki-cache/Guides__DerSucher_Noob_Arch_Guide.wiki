@@ -1,0 +1,31 @@
+== Ascension 1 ==
+
+* Start with '''Divinity''' for Raw Damage. After your '''2/5 Strength''' upgrade, swap to '''Strength'''. At Lv. 60–70, return to '''Divinity''' because '''Crit''' scales higher.
+* Every 2 levels: '''Max Luck''' with '''Divinity / Strength''' for full push and more Lootbug Arch ticks. '''No AGI.'''
+* Swap back to '''Frag build''': '''Max Luck / Max Divinity / Max Perception / rest Strength'''
+* '''T3 Legendary Arch Infernal''' is your most important card — it saves you a lot of upgrades in A2.
+* '''T1–T3 Div Poly''' is nice, but not required.
+
+== Ascension 2 ==
+
+* Same progression as A1.
+* '''Frag build''': '''Max Luck & Max Corruption''' (if Corruption is leveled or you still achieve Stage +100) '''/ Max Perception / rest Strength'''
+* After/while upgrading the '''Corruption''' upgrade, invest into it. Aim for '''Stage +100''' (range for T4 Blocks), preferably '''+150'''. '''150 is a hard breakpoint — don’t overshoot; you need Infernals.'''
+* Don’t max '''Gleaming Floor Multi, Loot Mod Gain, Super Crit Damage,''' or '''Maximum Stamina'''. '''15''' should be more than enough.
+
+== FAQ ==
+
+;Do I need XY maxed to ascend?
+:No. Check your '''Infernals''' — if they’re close and progressing quickly, keep pushing. If not, ascend.
+
+;How many Hestia do I need?
+:As many as you have when you’re ready to ascend. 1500 was relevant pre-Patch 2.2 and is no longer as necessary.
+
+;Should I wait for Ascension 2?
+:I recommend going immediately after getting your '''T3 Legendary Card'''. This will happen way sooner than meeting the requirements you need.
+
+;What about Gems?
+:'''A1:''' Gems aren’t needed. I don’t recommend spending them here; there are more important things to focus on.
+:'''A2:''' Gems are required, but you can spend them in steps. Since 2.2, it’s also cheaper.
+
+'''P.S.''' Don’t overcomplicate Arch with some stupid "non official" spreadsheets. Focus on '''real player experience'''.

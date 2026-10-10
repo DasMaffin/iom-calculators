@@ -1,0 +1,164 @@
+{{WIP}}
+
+== Strategy ==
+
+===Gem Spending===
+Gems can be spent in different places to affect Archaeology, in order of priority:
+# [[Skill-Tree#BlockBonker|Block Bonker]] Skill
+# Gilding Archaeology Cards
+# Buying Gem Upgrades
+# [[Skill-Tree#AvadaKeda|Avada Keda-]] Skill
+
+It is '''not recommended''' to spend gems when starting out with archaeology.
+Instead, focus on getting your gem income up and wait until you are done with [[Guides/Platinize Statues|Plat Strat]] before spending Gems on Archaeology.
+Once you are nearing the end of World 2 and have finished platinizing statues, is a good moment to start spending Gems here.
+
+=== Starting out: 1-hit-KO ===
+The first goal is to destroy dirt blocks with as few hits as possible. They have 100 hp, or 90 when you have the card. 
+
+At first, put all your skill points into Strength. For upgrades, buy abilities first, then focus mainly on upgrades that give Damage until you hit 90-100 damage. Feel free to buy other upgrades if they seem good for the cost. After you can 1 hit dirt, start putting points into Luck until you get to 25, make sure you stay at the 90-100 damage threshold.
+
+After getting to 25 luck put equal points into Strength and Agility, making sure you stay at the 90-100 damage threshold.
+
+{| class="wikitable"
+|+Dirt damage thresholds
+!
+!Without Card
+!With Card
+|-
+|4 hits
+|25
+|23
+|-
+|3 hits
+|34
+|30
+|-
+|2 hits
+|50
+|45
+|-
+|1 hit
+|100
+|90
+|}
+
+=== Level 35+ ===
+For progressing further, there are 2 builds you should alternate between. At this point it is recommended to use one of the [[External Resources#Archaeology Simulators|archaeology simulators]] to find what's best with your current setup.
+{| class="wikitable"
+|+Relevant Builds
+!
+!Luck Setup
+!Agility Setup
+|-
+|Purpose
+|Farm Fragments & Experience
+|Reach higher stages and fragment types
+|-
+|Description
+|Max your luck and put all other points into Strength
+|Put enough points into Strength to 1-hit dirt, the rest into Agility
+|-
+|Benefits
+|Earns significantly more lower rarity fragments
+
+Earns slightly more experience 
+|Reaches higher stages (+2-4)
+
+Earns higher fragment types
+|}
+A good approach is to farm fragments with the Luck setup for a bit, then reach higher stages with the Agility setup. This becomes especially relevant once you unlock the [[Skill-Tree#Skills|Block Bonker skill]].
+
+=== Level 50+ ===
+At this point, you'll have so many other sources of Stamina that a pure Agility setup is no longer the best approach for pushing to higher stages. Instead, use a modified Luck setup: Max Luck, then some points into Strength and Agility. a half/half split will work well. Exact values will differ based on your current upgrades and cards (you really should have the relevant archaeology skills by now), use the [[External Resources#Archaeology Simulators|archaeology simulators]]. This setup produces slightly less common and rare fragments than a pure Luck/Strength setup, but can net you more higher fragments while also allowing you to reach higher stages.
+
+==== Level 55-ish: Break Time! ====
+Once you've maxed all except the last rare or epic fragment upgrade, it is very beneficial to farm fragments for a bit and buy rare and epic idols. The goal is to max [[Archaeology#Idols|Minos and Dionysus]] as they will greatly accelerate your general game progression.
+
+=== Max Stage 100 ===
+After achieving max stage 100: Max Luck and Perception, and put remaining points into Strength. This stops you from going above stage 100 too often, where Block stats increase but rewards (including [[Skill-Tree#Skills|Block Bonker skill]] scaling) do not.
+
+Max [[Archaeology#Upgrades|Upgrades]] before buying [[Archaeology#Idols|Idols]]! [[Archaeology#Idols|Idol]] effects are incremental and maxing [[Archaeology#Upgrades|Upgrades]] is better in the long run.
+
+== Ascension 1 Strategy ==
+
+Ascension unlocks at Obelisk 66. The first ascension requires Archaeology Level 90 and Highest Stage 115.
+
+=== '''Important''' ===
+When farming frags you want as little stamina as possible, as you will be getting to specific stages with the aim not to go past them. More stamina means runs take longer and most of the extra time is wasted on blocks with a LOT of HP.
+
+Archaeology is a game mechanic designed for user experimentation, don't shy away from making your own arch builds and running your own tests, these builds are guides to help ease progress, but there's a lot of fine tuning that can be done!
+{| class="wikitable"
+|+ Lost on Ascension 
+|-
+| Archaeology Upgrades (5x more expensive)
+|-
+| Archaeology Gem Upgrades (5x more expensive? and no max cost)
+|-
+| Banked Archaeology Seconds
+|-
+| Archaeology Level, Highest Stage (Everything except Idols and Idol Tokens)
+|-
+| Glimmering Geoduck Fragment Bonus capped at +50% (200 Mythic Chests)
+|}
+
+<!-- Section about what to do before you ascend -->
+
+
+=== '''Starting Out''' ===
+You want to break blocks in as few hits as possible, investing into '''Divinity''' is a good way to gain damage early. 
+
+Once you have upgrades to '''Strength''' move all skill points from '''Divinity''' to strength
+
+'''Luck''' is generally a good skill to invest into as it provides everything you want for progress
+
+Once you hit around level 65 and have upgrades to your super and ultra crits damage and multi '''Divinity''' becomes stronger than '''Strength''' for overall damage again (provided you have ~30 points in '''Strength'''), get '''Strength''' to ~30 and put any additional points into '''Divinity'''
+
+=== '''Max Stage Build''' ===
+Max '''Divinity''', '''Luck''', and then '''Strength'''. In this order. Put leftover skill points into '''Perception'''
+
+=== Frag Farming Build ===
+Maximising frags per second is the goal for this build. We don't want runs to last long. More stamina means Longer runs, it is bad as it equates to lower frags per second.
+
+This build will get you to around stage 100. Going past is better for Divine fragment gain.
+
+'''Strength''' to 30, max '''Luck''', then '''Perception'''. Put leftover points into '''Strength''' or '''Divinity''' for slightly more frags, or '''Intellect''' for slightly more experience.
+
+=== Experience Build ===
+'''Strength''' to 30, max '''luck''', '''Intellect''' in this order. put leftover points into '''Perception''' for slightly more frags.
+
+=== Ascension 2 checklist ===
+
+{| class="wikitable lighttable"
+! Infernal Cards
+|-
+| Tier 3 Dirt
+|-
+| Tier 3 Rare
+|-
+| Tier 3 Legendary
+|- 
+! Polychrome Cards
+|-
+| Tier 1 Divine
+|- 
+| Tier 2 Divine
+|-
+| Tier 3 Divine
+|-
+! Idols
+|-
+| At least 1500 Hestia
+|}
+
+[https://discord.com/channels/496455472581312512/1015349554436124743/1488328029318152363 See Also: General Arch Skill Distribution Advice for Ascension 1 (OB66) on Discord]<!-- Add section about potential to farm idols if you have a substantial number of mythic chests -->
+
+<!-- Section outlining various builds and their uses: Early game, highest stage 100, fragment farming, exp farming, push stages -->
+
+<!-- Figure out formula for lootbug archaeology seconds (add to main arch page instead?) (mention that you can keep pushing highest stage past 100 to improve your arch progress -->
+
+==Navigation==
+{{GuidesNav}}
+{{Menu}}
+
+[[Category:Guides]]

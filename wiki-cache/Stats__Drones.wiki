@@ -1,0 +1,250 @@
+<tabber>
+Number Of Drones=
+{{Stat|Number Of Drones|Gives extra drones.
+| '''Drones'''<math>+</math> |A [[Drones#Upgrades|Drone Upgrade]]
+| '''Store'''<math>+</math> | A {{Sprite|Misc Store|Store#Gem Unlocks|16x16|Gem Unlock}} or the {{Sprite|permadrone vp|Store#PermanentDroneBundle|16x16|Permanent Drone Bundle}}
+| '''Skill-Tree'''<math>+</math> | The {{Sprite|Three's A Crowd|Skill-Tree#ThreesACrowd|16x16|Three's A Crowd}} Skill
+| '''Fishing'''<math>+</math> | The {{Sprite|Abyss Legendary Fish|Fishing#tabber-Cthulhu|16x16|Cthulhu}} {{Sprite|Tribute Rank 2||16x16|Second Tribute}}<math>+</math><br>The {{Sprite|Galaxy Legendary Fish|Fishing#tabber-Blackened_Basker|16x16|Blackened Basker}} {{Sprite|Tribute Rank 2||16x16|Second Tribute}}
+}}
+|-|
+Drone Damage=
+{{Stat|Drone Damage|Multiplies {{Sprite|Pickaxe Damage|Stats#tabber-Pickaxe_Damage|16}} to determine the damage drones do.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]}}
+|-|
+Drone Radius=
+{{Stat|Drone Radius|Increases the area your drones can deal damage in.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]
+| '''Items''' |The [[File:Drone Juice.png|16px]] [[Items#DroneJuice|Drone Juice]] Item
+}}
+|-|
+Drone Movespeed=
+{{Stat|Drone Movespeed|Increases the move speed of your drones.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]
+| '''Items''' |The [[File:Drone Juice.png|16px]] [[Items#DroneJuice|Drone Juice]] Item
+}}
+|-|
+Drone Attack Speed=
+{{Stat|Drone Attack Speed|Increases the attack speed of your drones. The Base attack speed is 1.25 times per second.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]}}
+|-|
+Drone Triple Damage=
+{{Stat|Drone Triple Damage|The chance for your drones to deal triple damage.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]}}
+|-|
+Drone Rapid Fire Chance=
+{{Stat|Drone Rapid Fire Chance|The chance for your drones to attack 5 times instantly.
+| '''Drones''' |A [[Drones#Upgrades|Drone Upgrade]]}}
+|-|
+Drone Suit Upgrade Cap=
+{{Stat|Drone Suit Upgrade Cap|The cap of your drone suit upgrades.
+| '''Base''' |
+5
+| '''Drones'''<math>+</math> |
+A [[Drones#CoalUpgrades_DroneSuitUpgradeCap|Coal Upgrade]]
+| '''Skill-Tree'''<math>+</math> |
+The {{Sprite|Mechanical Evolution|Skill-Tree#MechanicalEvolution|16x16|Mechanical Evolution}} Skill
+}}
+|-|
+Coal Generation Time=
+{{Stat|Coal Generation Time|The time it takes your generator to produce coal.
+| '''Base''' |
+90 Seconds (Affected by game speed).
+| '''Drones'''<math>+</math> |
+A [[Drones#CoalUpgrades_CoalProduction|Coal Upgrade]]<math>+</math>
+<br>An {{Sprite|Drone Elixir|Drones#ElixirDroneBuffs_3xCoalProductionSpeed|16x16|Elixir Drone Buff}}
+| '''Skill-Tree'''<math>+</math> |
+The {{Sprite|Gasoline Guzzler|Skill-Tree#GasolineGuzzler|16x16|Gasoline Guzzler}} Skill
+}}
+|-|
+Drone Fuel Duration Multiplier=
+{{Stat|Drone Fuel Duration Multiplier|Multiplies your drone fuel duration.
+| '''Drones''' |A [[Drones#CoalUpgrades_FuelDuration|Coal Upgrade]]
+| '''Relics''' |{{Sprite|Relic Chest|Chests#RareRelic_DroneFuelDuration|16x16|Rare Drone Fuel Duration Relic}}
+| '''Store''' |
+The {{Sprite|Dronecatalyst vp|Store#DroneCatalystBundle|16x16|Drone Catalyst Bundle}}<math>\times</math>
+<br>The {{Sprite|Voidoverdrive vp|Store#VoidOverdriveBundle|16x16|Void Overdrive Bundle}}<math>\times</math>
+| '''Skill-Tree''' | The {{Sprite|Gasoline Guzzler|Skill-Tree#GasolineGuzzler|16x16|Gasoline Guzzler}} Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Fuel.png}}[[Cards#CardEffects_Misc_Fuel|Fuel Misc Card]]
+| '''Pets''' | The {{Sprite|Axolotl Skin|Pets#tabber-Axolotl_Skin|16x16|Axolotl Pet Skin}}
+| '''Construct''' |{{Sprite|4 Statue Appetite Platinized|Construct#FrozenAraPlatinized|16x16|World 1: Platinized Statue of Appetite}}
+| '''Upgrades''' | The {{Sprite|Genevium Bar|Upgrades#Upgrades_W3_FuelDuration|16x16|Genevium Bar Upgrade}}
+| '''Misc''' | Floors 115-118 with [[File:Djinnium Ore.png|16px]] [[Ores#Djinnium|Djinnium Ore]]
+}}
+|-|
+Coal Capacity Multiplier=
+{{Stat|Coal Capacity Multiplier|Multiplies your coal capacity.
+| '''Drones''' | A [[Drones#Coal Upgrades|Coal Upgrade]]
+| '''Skill-Tree''' | The {{Sprite|Gasoline Guzzler|Skill-Tree#GasolineGuzzler|16x16|Gasoline Guzzler}} Skill
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Drone Midas Icon.png}}[[Cards#CardEffects_Drones_MidasDrone|Infernal Midas Drone Card]]
+<br>{{Card|cardType=Standard|cardImage=Misc Vydn.png}}[[Cards#CardEffects_Misc_Vydn|Vydn Misc Card]]
+| '''Archaeology'''|
+The [[File:Talos Idol.png|16px]] [[Archaeology#Talos|Talos]] Idol<ref name="talosCoal">The increase from Talos is added at the end of the calculation after all other bonuses are applied. Meaning Talos is a direct addition to Coal Capacity.</ref>
+}}
+<references />
+|-|
+Fuel Save Chance=
+{{Stat|Fuel Save Chance|The chance to save fuel when fueling drones.
+| '''Drones'''<math>+</math> |
+A [[Drones#CoalUpgrades_FuelSaveChance|Coal Upgrade]]
+| '''Upgrades'''<math>+</math> |
+The [[File:Infernite Bar.png|16px]] [[Upgrades#Upgrades_W2_FuelSaveChance|Infernite Bar Upgrade]]
+}}
+|-|
+Drone Exp Gain Multiplier=
+{{Stat|Drone Exp Gain Multiplier|Multiplies your drone experience.
+| '''Drones''' |A [[Drones#CoalUpgrades_DroneExpGain|Coal Upgrade]]
+| '''Store''' |The {{Sprite|Dronecatalyst vp|Store#DroneCatalystBundle|16x16|Drone Catalyst Bundle}}
+| '''Cards''' |{{Card|cardType=Standard|cardImage=Misc Blue Cow.png}}[[Cards#CardEffects_Misc_BlueCow|Blue Cow Misc Card]]
+| '''Pets''' |The {{Sprite|Totem Quest|Pets#tabber-Totem_4|16x16|Totem Pet Quest Skin}}
+| '''Stargazing''' |The {{Sprite|BlackHole|Stargazing#BH24|16x16|24th Black Hole Bonus}}
+| '''Archaeology''' | The {{Sprite|Talos Idol|Archaeology#Talos|16x16|Talos}} Idol
+| '''Arcanist''' | The {{Sprite|Runic Surge|Arcanist#RunicSurge|16x16|Runic Surge}} spell's Active effect
+| '''Skins''' | The [[Skins#SkinReward16|16th Skin Reward]]
+}}
+|-|
+Void Portal Chance=
+{{Stat|Void Portal Chance|The chance for an ore node to be replaced by a void portal.
+| '''Drones'''<math>+</math> |
+The {{Sprite|Drone Void|Drones#voidDrone|24x24|Void Drone}}
+The {{Sprite|Drone Void|Drones#Drone_Suits|24x24|Void Drone Suit Upgrade}}
+| '''Skill-Tree'''<math>+</math> | The {{Sprite|Portal Schmortal|Skill-Tree#PortalSchmortal|16x16|Portal Schmortal}} Skill
+| '''Stargazing'''<math>+</math> | The {{Sprite|BlackHole|Stargazing#BH25|16x16|25th Black Hole Bonus}}
+| '''Archaeology'''<math>+</math> |The {{Sprite|Themis Idol|Archaeology#Themis|16x16|Themis}} Idol
+| '''Arcanist'''<math>+</math> | The {{Sprite|Rainbow Rift|Arcanist#RainbowRift|16x16|Rainbow Rift}} spell's Passive effect
+| '''Upgrades'''<math>+</math> | The {{Sprite|Slipperite Bar|Upgrades#Upgrades_W4_VoidPortalChance|16x16|Slipperite Bar Upgrade}}
+| '''Misc''' |
+Floors 103-106 with [[File:Hattium Ore.png|16px]] [[Ores#Hattium|Hattium Ore]]
+<br>Floors 129-132 with [[File:Mintium Ore.png|16px]] [[Ores#Mintium|Mintium Ore]]
+}}
+|-|
+Void Portal Base Multiplier=
+{{Stat|Void Portal Base Multiplier|Multiplies the Void Drone portal multiplier.
+| '''Drones''' |A [[Drones#CoalUpgrades_VoidPortalBaseMulti|Coal Upgrade]]
+| '''Store''' |The {{Sprite|Voidoverdrive vp|Store#VoidOverdriveBundle|16x16|Void Overdrive Bundle}}
+| '''Skill-Tree''' | {{Sprite|Call Of The Void|Skill-Tree#CallOfTheVoid|16x16|Call Of The Void}}
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Void.png}}[[Cards#CardEffects_Misc_VoidPortal|Void Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Drone Void Icon.png}}[[Cards#CardEffects_Drones_VoidDrone|Infernal Void Drone Card]]
+}}
+|-|
+Golden Void Portal Chance=
+{{Stat|Golden Void Portal Chance|The chance for a void portal to be golden.
+| '''Store'''<math>+</math> |
+The {{Sprite|Omniportal VP|Store#OmniportalBundle|16x16|Omniportal Bundle}}
+<br>The {{Sprite|Voidoverdrive vp|Store#VoidOverdriveBundle|16x16|Void Overdrive Bundle}}
+| '''Workshop'''<math>+</math> |
+{{Sprite|Workshop Button|Workshop#Upgrades_W4_GoldenVoidPortalChance|16x16|World 4: Golden Void Portal Chance}}
+| '''Skill-Tree'''<math>+</math> |
+The {{Sprite|I Buried It Here|Skill-Tree#IBuriedItHere|16x16|I Buried It Here}} (55.251920, -6.483423)
+| '''Challenges'''<math>+</math> |
+[[File:Divine Challenge Coin.png|16px]] [[Challenges#DivineReward_GoldenVoidPortalChance|Golden Void Portal Chance]]
+| '''Pets'''<math>+</math> | The {{Sprite|Nagini Quest|Pets#tabber-Nagini_Quest_Skin|16x16|Nagini Pet Quest}}
+| '''Stargazing'''<math>+</math> | [[File:Corvus Full.png|16px]] [[Stargazing#Corvus|Corvus]]
+| '''Fishing'''<math>+</math> |
+The {{Sprite|Desert Legendary Fish|Fishing#tabber-Dune's_Eelworm|16x16|Dune's Eelworm}} {{Sprite|Tribute Rank 1||16x16|First Tribute}}
+| '''Arcanist'''<math>+</math> |
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_GoldenPortalChance|Exchange Upgrade]]
+| '''Upgrades'''<math>+</math> |
+The {{Sprite|Djinnium Bar|Upgrades#Upgrades_W4_GoldenVoidPortalChance|16x16|Djinnium Bar Upgrade}}
+| '''Contracts'''<math>+</math> |
+{{Sprite|Contract Point|Contracts#Upgrades_W4_GoldenVoidPortalChance|16x16|World 4: Golden Void Portal Chance}}
+}}
+|-|
+Golden Void Portal Multi=
+{{Stat|Golden Void Portal Multi|The additional multiplier to resources in a Void Portal when a Golden Void Portal triggers. (Base: 5x)
+| '''Store''' |
+The {{Sprite|Voidoverdrive vp|Store#VoidOverdriveBundle|16x16|Void Overdrive Bundle}}
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Golden Void.png}}[[Cards#CardEffects_Misc_GoldenVoidPortal|Golden Void Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Desert_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_DunesEelworm|Dune's Eelworm Card]]
+| '''Pets''' |
+The {{Sprite|Nagini Quest|Pets#tabber-Nagini_Quest_Skin|16x16|Nagini Pet Quest}}
+| '''Archaeology''' |
+The [[File:Themis_Idol.png|16px]] [[Archaeology#Themis|Themis]] Idol
+| '''Fishing''' |
+The {{Sprite|Desert Legendary Fish|Fishing#tabber-Dune's_Eelworm|16x16|Dune's Eelworm}} {{Sprite|Tribute Rank 2||16x16|Second Tribute}}
+}}
+|-|
+Rainbow Void Portal Chance=
+{{Stat|Rainbow Void Portal Chance|The chance for a Golden Void Portal to spawn as a Rainbow Void Portal.
+| '''Relics'''<math>+</math> |{{Sprite|Divine Chest|Chests#DivineRelic_RainbowPortalChance|16x16|Divine Rainbow Portal Chance Relic}}
+| '''Store'''<math>+</math> |The {{Sprite|Omniportal VP|Store#OmniportalBundle|16x16|Omniportal Bundle}}
+| '''Pets'''<math>+</math> | {{Sprite|Butterfly Default|Pets#tabber-Butterfly_2|16x16|Butterfly Pet}}
+| '''Construct'''<math>+</math> | The {{Sprite|23 Statue Semblance Normal|Construct#Vak|16x16|World 4: Statue of Semblance}} Per World 4 Statue owned
+| '''Stargazing'''<math>+</math> | The {{Sprite|BlackHole|Stargazing#BH11|16x16|11th Black Hole Bonus}}
+| '''Archaeology'''<math>+</math> | The {{Sprite|Cronus Idol|Archaeology#Cronus|16x16|Cronus}} Idol
+| '''Fishing'''<math>+</math> |
+The {{Sprite|Solaris Legendary Fish Head|Fishing#tabber-Melting_Gibbous|16x16|Melting Gibbous}} {{Sprite|Tribute Rank 1||16x16|First Tribute}}
+| '''Arcanist'''<math>+</math> |
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_RainbowPortalChance|Exchange Upgrade]]
+| '''Floors'''<math>+</math> | The {{Sprite|Statue Icon|Floors#WQ6|16x16|6th World 4 Quest}}
+}}
+|-|
+Rainbow Void Portal Multi=
+{{Stat|Rainbow Void Portal Multiplier|The additional multiplier to resources in a Golden Void Portal when it rolls as a Rainbow Void Portal.
+| '''Base''' | 5x
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Rainbow Void Portal.png}}[[Cards#CardEffects_Misc_RainbowVoidPortal|Rainbow Void Portal Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Butterfly Icon.png}}[[Cards#CardEffects_Pets_Butterfly|Butterfly Pet Card]]
+| '''Archaeology''' | The {{Sprite|Cronus Idol|Archaeology#Cronus|16x16|Cronus}} Idol
+| '''Arcanist''' | The {{Sprite|Rainbow Rift|Arcanist#RainbowRift|16x16|Rainbow Rift}} spell's Active effect
+| '''Upgrades''' |The {{Sprite|Anchorium Bar|Upgrades#Upgrades_W4_RainbowPortalMulti|16x16|Anchorium Bar Upgrade}}
+}}
+|-|
+Galactic Void Portal Chance=
+{{Stat|Galactic Void Portal Chance|The chance for a Rainbow Void Portal to spawn as a Galactic Void Portal.
+| '''Skill-Tree'''<math>+</math> |  The {{Sprite|Portal Schmortal|Skill-Tree#PortalSchmortal|16x16|Portal Schmortal}} skill
+| '''Construct'''<math>+</math> | {{Sprite|24 Statue Crochet Gilded|Construct#KrippGilded|16x16|World 4: Gilded Statue of Crochet}} Per World 4 G.Statue owned
+| '''Stargazing'''<math>+</math> |
+The {{Sprite|Vulpecula Full|Stargazing#Vulpecula|16x16|Vulpecula}} Star
+<br>The {{Sprite|BlackHole|Stargazing#BH20|16x16|20th Black Hole Bonus}}
+| '''Arcanist''' |
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_GalacticPortalChance|Exchange Upgrade]]
+}}
+|-|
+Galactic Void Portal Multi=
+{{Stat|Galactic Void Portal Multi|The additional multiplier to resources in a Rainbow Void Portal when it rolls as a Galactic Void Portal.
+| '''Base''' | 5x
+ | '''Skill-Tree''' |
+ The {{Sprite|Mess With The Bull|Skill-Tree#MessWithTheBull|16x16|Mess With The Bull}} skill
+ | '''Challenges''' |
+ {{Sprite|Divine Challenge Coin|Challenges#DivineReward_GalacticPortalMultiplier|16x16|Galactic Portal Multiplier}}
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Galactic Void Portal.png}}[[Cards#CardEffects_Misc_GalacticVoidPortal|Galactic Void Portal Misc Card]]
+<br>{{Card|cardType=Infernal|cardImage=Drone Minotaur Icon.png}}[[Cards#CardEffects_Drones_MinotaurDrone|Infernal Minotaur Drone Card]]
+| '''Stargazing''' |
+The {{Sprite|Vulpecula Full|Stargazing#Vulpecula|16x16|Vulpecula}} Star
+<br>A [[File:Super Star.png|16px]] [[Stars#GalacticPortalMulti_SSUpgrade|Super Star Upgrade]]
+}}
+|-|
+All Void Portal Multipliers=
+{{Stat|All Void Portal Multis|The additional multiplier to every Void Portal.
+| '''Drones''' |
+The [[File:Drone Minotaur.png|24px]] [[Drones#Drone_Suit_Buffs|Fueled Minotaur Drone]]
+<br>A [[Drones#CoalUpgrades_AllVoidPortalMultiplier|Coal Upgrade]]
+| '''Store''' |
+The [[File:omniportal VP.png|16px]] [[Store#OmniportalBundle|Omniportal Bundle]]
+| '''Stargazing''' |
+The [[File:Hydra Full.png|16px]] [[Stargazing#Hydra|Hydra]] Star
+| '''Arcanist''' |
+An [[File:White Orb.png|16px]] [[Arcanist#ExchangeUpgrade_AllPortalMulti|Exchange Upgrade]]
+| '''Upgrades''' |
+The {{Sprite|Neopolium Bar|Upgrades#Upgrades_W4_AllVoidPortalMultis|16x16|Neopolium Bar Upgrade}}
+| '''Contracts''' |
+{{Sprite|Contract Point|Contracts#Upgrades_W4_AllPortalMulti|16x16|World 4: All Portal Multi}}
+}}
+|-|
+Elixir Crit Chance=
+{{Stat|Elixir Crit Chance|The chance for the elixir drone to crit.
+| '''Fishing'''<math>+</math> |
+The {{Sprite|Desert Legendary Fish|Fishing#tabber-Dune's_Eelworm|16x16|Dune's Eelworm}} {{Sprite|Tribute Rank 2||16x16|Second Tribute}}
+}}
+|-|
+Elixir Crit Multi=
+{{Stat|Elixir Crit Multi|The duration multiplier applied to buffs when the elixir drone crits. (Base 3x)
+| '''Cards''' |
+{{Card|cardType=Infernal|cardImage=Drone Elixir Icon.png}}[[Cards#CardEffects_Drones_MinotaurDrone|Infernal Elixir Drone Card]]
+}}
+</tabber>

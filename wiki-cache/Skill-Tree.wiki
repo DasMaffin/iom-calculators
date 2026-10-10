@@ -1,0 +1,443 @@
+{{Version|2.2.23}}
+[[File:Skill-Tree Button.png|frameless|left]]
+The Skill Tree is unlocked at Obelisk Level 4. The Skill Tree contains several permanent upgrades that carry over after you [[Prestige]]. A Skill can be acquired with skill points. Skill points can be obtained by combining 10 skill bits (which can be obtained from [[Store#Freebie Pack|Freebies]], in [[Store#Gifts|Gifts]], or from [[Events]]) in the item bag, from the [[Store]] for 125 gems, and from some [[Codes]].
+
+{{Clear|left}}
+==Strategy==
+Below is a recommended Skill order mentioning the S-Tier skills for the early game.
+
+* [[#GemsAndChests|Gems & Chests]] (Right Side)
+* [[#EasyProgressor|Easy Progressor]] (Right Side)
+* [[#JustWaitFaster|Just wait faster]] (Right Side)
+* [[#Chronokeeper|Chronokeeper]] (Left Side)
+* [[#AutoBomb|Auto-Bomber]] (Left Side)
+* [[#FreeThatsAGreatPrice|Free? That's a great price]] (Left Side)
+* [[#GemBomb|Gem Bomb]] (Right Side)
+* [[#Stonks|Stonks]] (Right Side)
+
+==Skills==
+{| class="wikitable text-align-center centered borderless compact" style="font-size:0.85em"
+|+ <big>List of skills</big>
+! style="width:200px;visibility: hidden" | <!--DO NOT REMOVE, those are needed to set width-->
+! style="width:5px;visibility: hidden" | 
+! style="width:200px;visibility: hidden" | 
+! style="width:5px;visibility: hidden" | 
+! style="width:200px;visibility: hidden" | 
+! style="width:5px;visibility: hidden" | 
+! style="width:200px;visibility: hidden" | 
+|-
+|
+|
+| colspan=3 class="skillTree" | <div id="LuckyStrikes"></div> {{SkillNode|image=Lucky Strikes.png|skill=Lucky Strikes|bonus=Pickaxe Crit Chance + 5%<br>Pickaxe Crit Damage +15%|cost=1}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="BiggerBlasts"></div> {{SkillNode|image=Bigger Blasts.png|skill=Bigger Blasts|bonus=Bomb Damage +25%|cost=1}}
+|
+| class="skillTree" | <div id="OreEfficiency"></div> {{SkillNode|image=Ore Efficiency.png|skill=Ore Efficiency|bonus=Double [[Craft#Craft_Chance|Craft Chance]]+5%|cost=1}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="SwingHarder"></div> {{SkillNode|image=Swing Harder.png|skill=Swing Harder|bonus=Pickaxe Damage +20%|cost=1}}
+|
+| class="skillTree" | <div id="IngotIntuition"></div> {{SkillNode|image=Ingot Intuition.png|skill=Ingot Intuition|bonus=Pickaxe Bar Cost -10|cost=1}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upleft}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|-
+| class="skillTree" | <div id="ArsenalAdvancement"></div> {{SkillNode|image=Arsenal Advancement.png|skill=Arsenal Advancement|bonus=Increase Bomb Capacity +10<br>Bomb Damage +10%<br>Free Bomb Chance +1%|cost=3}}
+|
+| class="skillTree" | <div id="AllRoundBomber"></div> {{SkillNode|image=All-Round Bomber.png|skill=All-Round Bomber|bonus=Bomb Damage +40%<br> Bomb Recharge Speed +10%<br>Bomb Crit Chance +5%|cost=2}}
+|
+| class="skillTree" | <div id="WaitMyCritsCanCrit"></div> {{SkillNode|image=Wait My Crits Can Crit.png|skill=Wait My Crits Can Crit?|bonus=Pickaxe Super Crit Chance +10%|cost=2}}
+|
+| class="skillTree" | <div id="EasyProgressor"></div> {{SkillNode|image=Easy Progressor.png|skill=Easy Progressor|bonus=Floor Clear Requirement -10%<br>Prestige Point Gain 1.2x<br>Ore Sell Price 1.2x|cost=3}}
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="PPGoUp"></div> {{SkillNode|image=PP Go Up.png|skill=PP Go Up|bonus=Prestige Point Gain +25%<br>Exp Gain +25%|cost=2}}
+|
+| class="skillTree" | <div id="GemsAndChests"></div> {{SkillNode|image=Gems & Chests.png|skill=Gems & Chests|bonus=Freebie Pack Gives +1 Gem<br>+1% chance for a Relic Chest|cost=2}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upleft}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|-
+| class="skillTree" | <div id="SuperDamage"></div> {{SkillNode|image=Super Damage.png|skill=Super Damage|bonus=Pickaxe Damage +40%<br>Pickaxe Crit Damage +20%<br>Pickaxe Radius +15%|cost=4}}
+|
+| class="skillTree" | <div id="HeftyHammers"></div> {{SkillNode|image=Hefty Hammers.png|skill=Hefty Hammers|bonus=Triple [[Craft#Craft_Chance|Craft Chance]] +5%<br>10x [[Craft#Craft_Chance|Craft Chance]] +1%|cost=3}}
+|
+| class="skillTree" | <div id="RelicRampage"></div> {{SkillNode|image=Relic Rampage.png|skill=Relic Rampage|bonus=+0.1% Pickaxe Damage Per Relic Chest Opened|cost=3}}
+|
+| class="skillTree" | <div id="JustWaitFaster"></div> {{SkillNode|image=Just Wait Faster.png|skill=Just Wait Faster|bonus=Freebie Pack Timer -60s|cost=4}}
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upleft}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|-
+| class="skillTree" | <div id="MechanicalEvolution"></div> {{SkillNode|image=Mechanical Evolution.png|skill=Mechanical Evolution|bonus=Drone Suit Upgrade Cap +3|cost=7}}
+|
+| class="skillTree" | <div id="Chronokeeper"></div>{{SkillNode|image=Chronokeeper.png|skill=Chronokeeper|bonus=Offline Items And Relics Doubled<br>Banked Freebie Cap +1<br>Bomb Capacity +10|cost=5}}
+|
+| class="skillTree" | <div id="GemBomb"></div> {{SkillNode|image=Gem Bomb.png|skill=Gem Bomb|bonus=Deals damage based on gems owned<br>3% chance to give a gem|cost=5}}
+|
+| class="skillTree" | <div id="TreasureHunter"></div> {{SkillNode|image=Treasure Hunter.png|skill=Treasure Hunter|bonus=Freebie Pack Relic Chest Chance +1%<br>Freebie Relic Chance Per 250 Relics Opened +1%|cost=7}}
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="DemolitionExpert"></div> {{SkillNode|image=Demolition Expert.png|skill=Demolition Expert|bonus=+0.5% Bomb Crit Damage per Bomb Crit Chance<br>+20% Bomb Super Crit Chance<br>+3% Free Bomb Chance|cost=5}}
+|
+| class="skillTree" | <div id="WaitMySuperCritsCanCrit"></div> {{SkillNode|image=Wait My Super Crits Can Crit.png|skill=Wait My Super Crits Can Crit?|bonus=Pickaxe Ultra Crit Chance +20%|cost=5}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="AutoBomb"></div>{{SkillNode|image=Auto-Bomber.png|skill=Auto-Bomber|bonus=Select any bomb to automatically fire every 1.25 seconds|cost=10}}
+|
+| class="skillTree" | <div id="PerfectGold"></div> {{SkillNode|image=Perfect Gold.png|skill=Perfect Gold|bonus=Golden Floor Ore Multiplier +2x|cost=10}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="FlamboyantBombs"></div> {{SkillNode|image=Flamboyant Bombs.png|skill=Flamboyant Bombs|bonus=+150% Bomb Damage<br>+10% Bomb Ultra Crit Chance<br>+5 Bomb Capacity|cost=12}}
+|
+| class="skillTree" | <div id="MoreOreMoreProblems"></div> {{SkillNode|image=More Ore More Problems.png|skill=More Ore More Problems|bonus=+2 Ores Appear Per Screen<br>-10% Bar Craft Costs|cost=12}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="FreeThatsAGreatPrice"></div> {{SkillNode|image=Free That's a Great Price!.png|skill=Free? That's A Great Price!|bonus=-60s Freebie Pack Timer<br>+2% Freebie Relic Chance<br>5% for Freebie timer to instantly refresh after looting|cost=12}}
+|
+| class="skillTree" | <div id="WaitMyUltraCritsCanCrit"></div> {{SkillNode|image=Wait My Ultra Crits Can Crit.png|skill=Wait My Ultra Crits Can Crit?|bonus=+200% Pickaxe Damage<br>+10% Pickaxe Omega Crit Chance|cost=12}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="DoTheseUpgradesEverEnd"></div>{{SkillNode|image=Do These Upgrades Ever End.png|skill=Do These Upgrades Ever End|bonus=+1 Cap to all Artifacts Upgrades<br>+1 Cap to all Workshop Upgrades|cost=18}}
+|
+| class="skillTree" | <div id="OpticalPhenomenon"></div> {{SkillNode|image=Optical Phenomenon.png|skill=Optical Phenomenon|bonus=+1% Rainbow Floor Chance (Gives 50x Ores)|cost=18}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="HaveYouTriedGettingLuckier"></div> {{SkillNode|image=Have You Tried Getting Luckier.png|skill=Have You Tried Getting Luckier?|obeliskLevel=17|bonus=All Pets level up chance +15%<br>Chest Meter Fill Rate 15x|cost=22}}
+|
+| class="skillTree" | <div id = "Stonks"></div>{{SkillNode|image=Stonks.png|skill=Stonks|obeliskLevel=17|bonus=1% for +200 Gems from freebie<br>1% for +20 Items from freebie<br>1% for +10 Relics from freebie|cost=22}}
+|
+|
+|-
+|
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+|
+|-
+|
+|
+| class="skillTree" | <div id="GasolineGuzzler"></div> {{SkillNode|image=Gasoline Guzzler.png|skill=Gasoline Guzzler|obeliskLevel=18|bonus=Fuel Duration +20%<br>Coal Production -10s<br>Coal Capacity +25%|cost=25}}
+|
+| class="skillTree" | <div id="IHaveWaresIfYouHaveCoin"></div> {{SkillNode|image=I Have Wares, If You Have Coin.png|skill=I Have Wares, If You Have Coin|obeliskLevel=18|bonus=Ore Sell Price 2.00x<br>Golden Floor Multiplier +20%|cost=25}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upleft}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|-
+| class="skillTree" | <div id="FishingWithFriends"></div> {{SkillNode|image=Fishing With Friends.png|skill=Fishing With Friends|obeliskLevel=37|bonus=Fishing Drones +5<br>Fishing Drone Power +10%<br>Fish Multiplier +3%|cost=40, 50, 63}}
+|
+| class="skillTree" | <div id="VeinmorpherBomb"></div> {{SkillNode|image=Veinmorpher Bomb.png|skill=Y'all Got Any More Of Them Veins?|obeliskLevel=19|bonus=Unlocks the Veinmorpher Bomb - Can turn ores into veins<br>veins into golden veins|cost=28}}
+|
+| class="skillTree" | <div id="SavingForARainyDay"></div> {{SkillNode|image=Saving For A Rainy Day.png|skill=Saving For A Rainy Day|obeliskLevel=19|bonus=Banked Freebie Cap +2<br>Banked Lootbug Cap +2<br>Lootbug Gem cost -1|cost=28}}
+|
+| class="skillTree" | <div id="LetsPickUpThePace"></div> {{SkillNode|image=Let's Pick Up The Pace.png|skill=Let's Pick Up The Pace|obeliskLevel=37|bonus=Fishing Tick Speed -2s<br>Fishing Double Tick Chance +2%<br>Fishing Triple Tick Chance +1%|cost=40, 50, 63}}
+|-
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|-
+| class="skillTree" | <div id="FriendshipEndedWithTier1Items"></div> {{SkillNode|image=Friendship Ended With Tier 1 Items.png|skill=Friendship Ended With Tier 1 Items|obeliskLevel=37|bonus=Tier 2 Items From Expert Notices +2<br>Item Duration +15%<br>Notice Fish Req -10%|cost=50, 63, 78}}
+|
+| class="skillTree" | <div id="WhosAskingForAllTheseBars"></div> {{SkillNode|image=Who's Asking For All These Bars.png|skill=Who's Asking For All These Bars?|obeliskLevel=20|bonus=Contract Points Earned +2<br>Triple Contract Point Chance +8%<br>+1 Contract Upgrade Refund per Prestige|cost=32}}
+|
+| class="skillTree" | <div id="ImRunningOutOfCreativeNames"></div> {{SkillNode|image=I'm Running Out Of Creative Names.png|skill=I'm Running Out Of Creative Names|obeliskLevel=20|bonus=Rainbow Floor Chance +1%<br>10x [[Craft#Craft_Chance|Craft Chance]] +2%<br>Bar Craft Cost -10%|cost=32}}
+|
+| class="skillTree" | <div id="WithThisFishISummonTwoMoreFish"></div> {{SkillNode|image=With This Fish I Summon Two More Fish.png|skill=With This Fish I Summon Two More Fish|obeliskLevel=37|bonus=+1% Fish Multiplier Per Fish Card<br>+0.1% Shiny Fish Chance Per Fish Card<br>(Gilded = 2 Cards, Poly = 3 Cards)|cost=50, 63, 78}}
+|-
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:0.8;" | |
+|
+| style="font-size:2em;line-height:0.8;"| |
+|-
+| class="skillTree" | <div id="MotleySchool"></div> {{SkillNode|image=Motley School.png|skill=Motley School|obeliskLevel=50|bonus=Rod Multiplier +10%<br>Abyss Dock Tick Req -2<br>Tier 2 Dock Tick Req -1<br>Fishing Drones +5|cost=100, 125, 156}}
+|
+| class="skillTree" | <div id="TonsOfDamage"></div> {{SkillNode|image=Tons Of Damage.png|skill=Tons Of Damage|obeliskLevel=23|bonus=Pickaxe Damage x2.00<br>Pickaxe Ultra Crit Chance +15%<br>Experience Gain +100%|cost=36}}
+|
+| class="skillTree" | <div id="CtrlF"></div> {{SkillNode|image=Ctrl+F 'Stars'.png|skill=Ctrl+F 'Stars'|obeliskLevel=23|bonus=Unlocks ability to follow Stars<br>Star Supernova Multi +20%<br>Super Star Supernova Multi +20%|cost=36}}
+|
+| class="skillTree" | <div id="CompletionistGatekeeper"></div> {{SkillNode|image=Completionist Gatekeeper.png|skill=Completionist Gatekeeper|obeliskLevel=50|bonus=Per Legendary Fish Found<br>Tier 2 Dock Power +3%<br>Fishing Drone Power +2%<br>Super Shiny Fish Chance +1%|cost=100, 125, 156}}
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upleft}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|-
+| class="skillTree" | <div id="Polychrome "></div>{{SkillNode|image=This Is Gonna Take A While.png|skill=This Is Gonna Take A While..|obeliskLevel=26|bonus=Unlocks the abilty to earn Polychrome Cards|cost=40}}
+|
+| class="skillTree" | <div id="BlockBonker"></div> {{SkillNode|image=Block Bonker.png|skill=Block Bonker|obeliskLevel=30|bonus=Damage per Highest Stage +1%<br>Max Stamina per Highest Stage +1%<br>Speed Mod Gain +15<br>(Currently capped at Stage 100)|cost=50}}
+|
+| class="skillTree" | <div id="AvadaKeda"></div> {{SkillNode|image=Avada Keda-.png|skill=Avada Keda-'|obeliskLevel=30|bonus=Ability Duration +5s<br>Ability Cooldown -10s<br>Ability Instacharge Chance +3%|cost=50}}
+|
+| class="skillTree" | <div id="ThreesACrowd"></div>{{SkillNode|image=Three's A Crowd.png|skill=Three's A Crowd|obeliskLevel=26|bonus=+1 Drone|cost=40}}
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+|
+|
+|
+|-
+| class="skillTree" | <div id="PolychromePower"></div> {{SkillNode|image=Polychrome Power.png|skill=Polychrome Power|obeliskLevel=26|bonus=Pickaxe Damage per Poly Card +0.03x<br>Ore Sell Price per Poly Card +0.03x<br>Exp Gain per Poly Card +0.03x|cost=50}}
+|
+| class="skillTree" | <div id="TakeItBackNowYall"></div> {{SkillNode|image=Take It Back Now Yall.png|skill=Take it back now y'all|obeliskLevel=30|bonus=Unlocks the Auto-Prestige system<br>(Managed in the Prestige menu, does not function offline)|cost=65}}
+|
+|
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+|
+|
+|
+|-
+| class="skillTree" | <div id="PleaseSirDontMakeMePrestigeAgain"></div> {{SkillNode|image=Please Sir Don't Make Me Prestige Again.png|skill=Please Sir Don't Make Me Prestige Again|obeliskLevel=43|bonus=Contract Upgrade Refunds per Prestige +1<br>10x Contract Point Chance +0.25%|cost=65, 81, 102}}
+|
+| class="skillTree" | <div id="LeprechaunsLegacy"></div> {{SkillNode|image=Leprechaun's Legacy.png|skill=Leprechaun's Legacy|obeliskLevel=26|bonus=x1.10 All Stars Multi<br>x1.10 Vein Income Multi<br>x1.10 Golden Floor Multi<br>x1.10 Bomb Recharge Rate|cost=45}}
+|
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|nottop}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+|
+|-
+| class="skillTree" | <div id="AnyoneUpLootinTheyBugs"></div> {{SkillNode|image=Anyone Up Lootin' They Bugs.png|skill=Anyone Up Lootin' They Bugs|obeliskLevel=60|bonus=Banked Lootbug Cap +3 per level<br>Lootbug Loot Multi +4% per level|cost=225, 281, 352}}
+|
+| class="skillTree" | <div id="InsaneInTheVeinGain"></div> {{SkillNode|image=Insane In The Vein Gain.png|skill=Insane In The Vein Gain|obeliskLevel=44|bonus=Vein Polychrome Card Bonus +1x<br>Rainbow Vein Multi +6%|cost=70, 88, 109}}
+|
+| class="skillTree" | <div id="CtrlsStars"></div> {{SkillNode|image=telescope.png|skill=Ctrl+S Stars|obeliskLevel=55|bonus=Unlocks the ability to Wish for a Star, allowing to choose and lock a Star floor location in place<ref>Automatically follows the Star, preventing an accidental 0.2× gain.</ref>|cost=100}}
+|
+|
+|-
+| style="font-size:2em;line-height:0.8;"| |
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+|
+|-
+| class="skillTree" | <div id="CallOfTheVoid"></div> {{SkillNode|image=Call Of The Void.png|skill=Call Of The Void|obeliskLevel=60|bonus=Void Portal Multi +5% per level<br>Void Drone Grade Cap +4 per level|cost=250, 313, 391}}
+|
+| class="skillTree" |  <div id="FlamingVeins"></div> {{SkillNode|image=Flaming Veins.png|skill=Flaming Veins|obeliskLevel=60|bonus=Unlocks Infernal [[Construct#Veins|Vein]] [[Cards|Cards]]|cost=500}}
+|
+| class="skillTree" | <div id="CtrlCCtrlV"></div> {{SkillNode|image=Ctrl+C Ctrl+V Stars.png|skill=Ctrl+C Ctrl+V Stars|obeliskLevel=45|bonus=Orion Star Cap +2<br>Star Supernova Multi +6%<br>Super Star 10x Chance +1%|cost=75, 94, 117}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|upright}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+| style="font-size:2em;line-height:0.8;"| |
+|
+|
+|-
+| class="skillTree" | <div id="PondYield"></div> {{SkillNode|image=Pond Yield.png|skill=Pond Yield|obeliskLevel=60|bonus=Golden Frog Multiplier +0.001x per Golden Frog Caught<ref>Capped at 5000 Golden Frogs</ref>|cost=750}}
+|
+| class="skillTree" | <div id="FrogFrenzy"></div> {{SkillNode|image=Frog Frenzy.png|skill=Frog Frenzy|obeliskLevel=62|bonus=Frogger Drone Grade Cap +2<br>Triple Lootfrog Chance +1%<br>Frog Capacity +1|cost=750, 938, 1172}}
+|
+| class="skillTree" |  <div id="AstralForge"></div> {{SkillNode|image=Astral Forge.png|skill=Astral Forge|obeliskLevel=60|bonus=Unlocks Infernal [[Stargazing|Star]] [[Cards|Cards]]|cost=500}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|left}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|both}}
+|
+| style="font-size:2em;line-height:1;" | {{SkillTreeArrow|right}}
+|
+|
+|-
+| class="skillTree" | <div id="WhyAreThereStarsInMyMiningGame"></div> {{SkillNode|image=Why Are There Stars In My Mining Game.png|skill=Why Are There Stars In My Mining Game|obeliskLevel=64|bonus=Novagiant Combo Multi +5%<br>Star Supergiant Chance +1%<br>Capricorn Cap +3<br>Gemini Cap +2|cost=950, 1188, 1484}}
+|
+| class="skillTree" |<div id="IdleObeliskMincer"></div>{{SkillNode|image=Idle Obelisk Mincer.png|skill=Idle Obelisk Mincer|obeliskLevel=64|bonus=Pickaxe Damage 2.50x<br>Scorpio Star Cap +5<br>Contract Upgrade Cap +2<br>Workshop Upgrade Cap +1|cost=2000}}
+|
+| class="skillTree" | <div id="IBuriedItHere"></div> {{SkillNode|image=I Buried It Here.png|skill=I Buried It Here (55.251920, -6.483423)|obeliskLevel=64|bonus=Golden Void Portal Chance +2%<br>Galactic Floor Chance +2%<br>Golden Ore Chance +1%<br>Chain Drone Cap +5|cost=950, 1188, 1484}}
+|
+|
+|-
+| style="font-size:2em;line-height:1;" | |
+|
+| style="font-size:2em;line-height:1;" | |
+|
+| style="font-size:2em;line-height:1;" | |
+|
+|
+|-
+| class="skillTree" | <div id="PortalSchmortal"></div> {{SkillNode|image=Portal Schmortal.png|skill=Portal Schmortal|obeliskLevel=70|bonus=Galactic Portal Chance +1%<br>Void Portal Chance +5%<br>Void Drone Grade Cap +20|cost=12345}}
+|
+| class="skillTree" |<div id="StraightOuttaYanille"></div>{{SkillNode|image=Straight Outta Yanille.png|skill=Straight Outta Yanille|obeliskLevel=71|bonus=Arcanist Mana Regen +10%<br>Essence Shiny Chance +1%<br>Essence Brittle Chance +1%|cost=34567}}
+|
+| class="skillTree" | <div id="MessWithTheBull"></div> {{SkillNode|image=Mess With The Bull.png|skill=Mess With The Bull|obeliskLevel=70|bonus=Minotaur Drone Grade Cap +3<br>Galactic Portal Multi +10%<br>Prismatic Floor Chance +3%|cost=23456}}
+|
+|
+|-
+| 
+|
+| style="font-size:2em;line-height:1;" | |
+|
+| 
+|
+|
+|-
+|
+|
+| class="skillTree" |<div id="Fronks"></div>{{SkillNode|image=Fronks.png|skill=Fronks|obeliskLevel=72|bonus=Massive Lootfrog Chance +2%<br>(Requires Successful Big Frog Roll!)|cost=99999}}
+|
+|
+|
+|
+|-
+|}
+<references />
+
+==Trivia==
+* Before the '''Arsenal Advancement''' got upgraded to have more upgrades, there was the '''Bomb Bag+''' which '''Increase Bomb Capacity +1'''.
+* Currently, a grand total of '''189081 skill points''' is required to unlock all skills. However, if ''Portal Schmortal'', ''Straight Outta Yanille'', ''Mess With The Bull'' and ''Fronks'' were excluded, a total would be only 18714 skill points.
+* Until [[Update:1.8.90]], [[#EasyProgressor|Easy Progressor]] was a Must-Have "S-Tier" skill, because it used to unlock the "Auto-Floor" button. As most beginners weren't looking for skills, it was removed to be more accessible. In more recent version, the Auto-Floor is automatically unlocked at the start of the game.
+
+==Navigation==
+{{Menu}}

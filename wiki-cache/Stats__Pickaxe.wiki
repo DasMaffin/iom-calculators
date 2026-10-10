@@ -1,0 +1,181 @@
+<tabber>
+Pickaxe Damage=
+{{Stat|Pickaxe Damage|How much damage you do when holding the screen. It's the only way to deal damage to Obelisks. Obelisk Armor is subtracted from your Pickaxe Damage before crits are calculated. If you have less Pickaxe Damage than the Obelisk has Armor, you will always do 0 damage regardless of crits. {{Sprite|Drone Damage|Stats#tabber-Drone_Damage|16}} is based on Pickaxe Damage.
+| '''Prestige''' | 
+[[File:Misc Prestige.png|18x18px]] [[Prestige#tabber-Tier_1|Tier 1-4 Artifact #1]]
+| '''Drones''' | 
+[[File:Drone Minotaur.png|34x34px]] [[Drones#minotaurDrone|Minotaur Suit]]
+<br>[[File:Drone Minotaur.png|34x34px]] [[Drones#Drone_Suit_Upgrades|Minotaur Drone Suit Upgrade]]
+|'''Items''' | 
+[[File:Rock Cake.png|18x18px]] [[Items#RockCake|Rock Cake]] 
+<br>[[File:Primal Meat.png|18x18px]] [[Items#PrimalMeat|Primal Meat]] 
+<br>[[File:Hamburger.png|18x18px]] [[Items#Hamburger|Hamburger]]<math>+</math>
+|'''Relics''' | 
+[[File:Relic Chest.png|16x16px]] [[Chests#CommonRelic_PickaxeDamage|Common Pickaxe Damage Relic]] 
+<br>[[File:Relic Chest.png|16x16px]] [[Chests#EpicRelic_PickaxeDamage|Epic Pickaxe Damage Relic]]
+|'''Store''' | 
+[[File:Misc Store.png|16x16px]] [[Store#Gem Upgrades|Pickaxe Damage Gem Upgrade]] 
+<br>[[File:FounderIcon.png|16x16px]] [[Store#Founders_Bundle|Founder Bundle]]
+|'''Workshop''' | 
+[[File:Workshop Button.png|16x16px]] [[Workshop#Upgrades_W1_PickaxeDamage|World 1 Pickaxe Damage]] 
+<br> [[File:Workshop Button.png|16x16px]] [[Workshop#Upgrades_W3_PickaxeDamage|World 3 Pickaxe Damage]]
+<br>[[File:Workshop Button.png|18x18px]] [[Workshop#Upgrades_W3_HamburgerBonus|World 3 Hamburger Bonus]]
+<br> [[File:Workshop Button.png|16x16px]] [[Workshop#Upgrades_W4_PickaxeAndBombDamage|World 4 Pickaxe & Bomb Damage]]
+| '''Skill-Tree''' | 
+[[File:Swing Harder.png|16x16px]] [[Skill-Tree#SwingHarder|Swing Harder]]
+<br> [[File:Super Damage.png|16x16px]] [[Skill-Tree#SuperDamage|Super Damage]]
+<br> [[File:Relic Rampage.png|16x16px]] [[Skill-Tree#RelicRampage|Relic Rampage]] 
+<br> [[File:Wait My Ultra Crits Can Crit.png|16x16px]] [[Skill-Tree#WaitMyUltraCritsCanCrit|Wait My Ultra Crits Can Crit?]]
+<br> [[File:Tons Of Damage.png|16x16px]] [[Skill-Tree#TonsOfDamage|Tons of Damage]] 
+<br> [[File:Polychrome Power.png|16x16px]] [[Skill-Tree#PolychromePower|Polychrome Power]] 
+<br> [[File:Idle Obelisk Mincer.png|16x16px]] [[Skill-Tree#IdleObeliskMincer|Idle Obelisk Mincer]] 
+| '''Challenges''' | 
+[[File:Challenge Coin.png|16x16px]] [[Challenges#RegularReward_PickaxeDamagePerChallengeComplete|Pickaxe Damage Per Challenge Completed]]
+<br> [[File:Challenge Coin.png|16x16px]] [[Challenges#RegularReward_PickaxeDamagePerSkillTreeNodeUnlocked|Pickaxe Damage Per Skill-Tree Node Unlocked]] 
+<br> [[File:Extreme Challenge Coin.png|16x16px]] [[Challenges#ExtremeReward_PickaxeDamagePerObeliskLevel|Pickaxe Damage per Obelisk Level]] 
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Alex.png}}[[Cards#CardEffects_Misc_Alex| Alex misc. Card]]
+<br> {{Card|cardType=Infernal|cardImage=Dwarf Icon.png}}[[Cards#CardEffects_Pets_Dwarf| Infernal Dwarf Pet Card]] 
+<br> {{Card|cardType=Infernal|cardImage=Drone Bear.png}}[[Cards#CardEffects_Drones_BearDrone| Infernal Bear Drone Card]] 
+| '''Pets''' |
+[[File:Dwarf Default.png|16x16px]] [[Pets#tabber-Dwarf_2|Dwarf Pet]]
+<br> [[File:Dwarf Skin.png|16x16px]] [[Pets#tabber-Dwarf_2|Dwarf Pet Skin]]
+<br> [[File:Whale Default.png|16x16px]] [[Pets#tabber-Whale_2|Whale Pet]]
+<br> [[File:Dino Default.png|16x16px]] [[Pets#tabber-Dino_2|Dino Pet]]
+<br> [[File:Rhino Default.png|16x16px]] [[Pets#tabber-Rhino_2|Rhino Pet]]
+| '''Construct''' | 
+[[File:1 Statue Rhythm Normal.png|16x16px]] [[Construct#Xanz|World 1: Statue of Rhythm]]
+<br> [[File:10 Statue Craftmanship Normal.png|16x16px]] [[Construct#Vydn|World 3: Statue of Craftmanship]]
+<br> [[File:19 Statue Comfort Normal.png|16x16px]] [[Construct#Lute|World 4: Statue of Comfort]]
+<br> [[File:27 Statue Rodentia Normal.png|16x16px]] [[Construct#Kromak|World 4: Statue of Rodentia]]
+| '''Stargazing'''| 
+[[File:Taurus.png|16x16px]] [[Stargazing#Taurus|Taurus]]
+<br> [[File:Scorpio.png|16x16px]] [[Stargazing#Scorpio|Scorpio]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16x16px]] [[Fishing#Upgrades_T1_PickaxeAndBombDamage|Tier 1 Notice: Pickaxe & Bomb Damage ]] 
+| '''Arcanist''' | 
+[[File:Diggy Diggy Hole.png|16x16px]]  [[Arcanist#DiggyDiggyHole|Diggy Diggy Hole]] spell's Active component
+| '''Upgrades''' | 
+[[File:Pickaxe Damage.png|16x16px]] [[Upgrades#Upgrades_W1_UpgradePickaxe|Upgrade Pickaxe]]
+<br> [[File:Runite Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamage_1|Runite Damage Upgrade]]
+<br> [[File:Amethyst Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamage_2|Amethyst Damage Upgrade]]
+<br> [[File:Demonite Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamage_3|Demonite Damage Upgrade]]
+<br> [[File:Earth-C-137 Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamage_4|Earth-C-137 Damage Upgrade]]
+<br> [[File:Blasphemite Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamage_5|Blasphemite Damage Upgrade]]
+<br> [[File:Cranium Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeDamagePerCardOwned|Cranium Pickaxe Damage Per Card Owned]]
+<br> [[File:Twinklestone Bar.png|16x16px]] [[Upgrades#Upgrades_W2_PickaxeDamagePerStatueOwned_1|Twinklestone Pickaxe Damage Per Statue Owned]]
+<br> [[File:Icebloom Bar.png|16x16px]] [[Upgrades#Upgrades_W2_PickaxeDamagePerStatueOwned_2|Icebloom Pickaxe Damage Per Statue Owned]]
+<br> [[File:Macawrock Bar.png|16x16px]] [[Upgrades#Upgrades_W2_PickaxeDamage|Macawrock Damage Upgrade]]
+<br> [[File:Blood-Onyx Bar.png|16x16px]] [[Upgrades#Upgrades_W2_PickaxeDamagePerPolyCard|Blood-Onyx Per Poly Card Damage Upgrade]]
+<br> [[File:Omeletite Bar.png|16x16px]] [[Upgrades#Upgrades_W3_PickaxeDamage|Omeletite Damage Upgrade]]
+<br> [[File:Cognite Bar.png|16x16px]] [[Upgrades#Upgrades_W3_PickaxeAndBombDamage|Cognite Pickaxe & Bomb Damage Upgrade]]
+<br> [[File:Chronite Bar.png|16x16px]] [[Upgrades#Upgrades_W4_PickaxeDamage|Chronite Damage Upgrade]]
+<br> [[File:Carpetite Bar.png|16x16px]] [[Upgrades#Upgrades_W4_PickaxeAndBombDamage_1|Carpetite Pickaxe & Bomb Damage Upgrade]]
+<br> [[File:Carriagum Bar.png|16x16px]] [[Upgrades#Upgrades_W4_PickaxeAndBombDamage_2|Carriagum Pickaxe & Bomb Damage Upgrade]]
+| '''Contracts''' | 
+[[File:Contract Point.png|16x16px]] [[Contracts#Upgrades_W1_PickaxeDamagePerContractComplete|World 1: Pickaxe Damage Per Contract Complete]] 
+<br> [[File:Contract Point.png|16x16px]] [[Contracts#Upgrades_W1_PickaxeDamage|World 1: Pickaxe Damage]]
+<br> [[File:Contract Point.png|16x16px]] [[Contracts#Upgrades_W3_PickaxeAndBombDamage|World 3: Pickaxe And Bomb Damage]]
+}}
+|-|
+Pickaxe Attack Speed=
+{{Stat|Pickaxe Attack Speed|How many times per second you deal pickaxe damage while holding.
+|'''Items'''| [[File:Banana Coffee.png|16x16px]] [[Items#BananaCoffee|Banana Coffee]]
+|'''Upgrades'''|The [[File:Gold Coin.png|16x16px]] [[Upgrades#World_1_Upgrades|Gold Attack Speed Upgrade]] 
+<math>+</math>The [[File:VR-ERROR Bar.png|16x16px]] [[Upgrades#World_1_Upgrades|VR-ERROR Attack Speed Upgrade]]
+}}
+|-|
+Pickaxe Radius=
+{{Stat|Pickaxe Radius|Multiplies the area you can deal damage in. It appears to be a circle, but it's actually a square.
+| '''Prestige''' | [[File:Misc Prestige.png|18x18px]] [[Prestige#Artifacts_T1_PickaxeRadius|Tier 1 Artifact]] <math>\times</math> <code>+12%</code> (12 Cap)
+| '''Items'''| [[File:Bread.png|18x18px]] [[Items#Bread|Bread]] <code>+25%</code> 
+| '''Skill-Tree'''|The [[File:Super Damage.png|16x16px]] [[Skill-Tree#SuperDamage|Super Damage]] Skill <code>+15%</code>
+| '''Upgrades''' | The [[File:Gold Coin.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeRadius|Gold Coin Pickaxe Radius Upgrade]] <math>\times</math> <code>+8%</code>
+}}
+|-|
+Pickaxe Crit Chance=
+{{Stat|Pickaxe Crit Chance|The chance to multiply your damage by Pickaxe Crit Damage.
+| '''Items''' | [[File:Apple.png|18x18px]] [[Items#Apple|Apple]] <code>+10%</code> 
+<math>+</math> [[File:Juicy Plums.png|18x18px]] [[Items#Juicy_Plums|Juicy Plums]] <code>+25%</code> 
+| '''Skill-Tree''' | The [[File:Lucky Strikes.png|16x16px]] [[Skill-Tree#LuckyStrikes|Lucky Strikes]] Skill  <code>+5%</code>
+| '''Upgrades''' |
+The [[File:Pickaxe Crit Chance.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeCritChance_1|Copper + Tin Upgrade]] <math>\times</math> <code>+2%</code>
+<br><math>+</math>The [[File:Gold Coin.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeCritChance_2|Gold Coin Upgrade]] <math>\times</math> <code>+2%</code>
+<br><math>+</math> The [[File:Halium Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeCritChance_3|Halium Bar Upgrade]] <math>\times</math> <code>+2%</code>
+}}
+|-|
+Pickaxe Crit Damage=
+{{Stat|Pickaxe Crit Damage|The amount to multiply your damage by when Pickaxe Crit Chance triggers.
+| '''Items''' |
+[[File:Pike.png|18x18px]] [[Items#Pike|Pike]] <code>+30%</code> 
+<math>+</math> [[File:Juicy Plums.png|18x18px]] [[Items#Juicy_Plums|Juicy Plums]] <code>+25%</code> 
+| '''Skill-Tree''' |
+The [[File:Lucky Strikes.png|16x16px]] [[Skill-Tree#LuckyStrikes|Lucky Strikes]] Skill  <code>+15%</code>
+<br>The [[File:Super Damage.png|16x16px]] [[Skill-Tree#SuperDamage|Super Damage]] Skill <code>+20%</code>
+| '''Upgrades''' | The [[File:Gold Coin.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeCritDamage_1|Gold Coin Pickaxe Damage Upgrade]] <math>\times</math> <code>+5%</code>
+<math>+</math> The [[File:Topaz Bar.png|16x16px]] [[Upgrades#Upgrades_W1_PickaxeCritDamage_2|Topaz Bar Upgrade]] <math>\times</math> <code>+6%</code>
+| '''Contracts''' | The [[File:Contract Point.png|16x16px]] [[Contracts#Upgrades_W1_PickaxeCritDamage|Pickaxe Crit Damage Upgrade]] <math>\times</math> <code>+10%</code> 
+}}
+|-|
+Pickaxe Super Crit Chance=
+{{Stat|Pickaxe Super Crit Chance|The chance to multiply your damage by Pickaxe Super Crit Damage. Only rolls when Pickaxe Crit Chance activates.
+| '''Prestige''' | 
+[[File:Misc Prestige.png|18x18px]] [[Prestige#Artifacts_T2_PickaxeSuperCritChance |Tier 2 Artifact]]
+| '''Skills''' |
+[[File:Wait My Crits Can Crit.png|16x16px]] [[Skill-Tree#WaitMyCritsCanCrit| Wait My Crits Can Crit? ]]
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_PickaxeSuperCritChance| Pickaxe Super Crit Chance]]
+<br>[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_PickaxeandBombSuperCritChance| Pickaxe And Bomb Super Crit Chance]]
+| '''Cards'''|
+{{Card|cardType=Standard|cardImage=Dwarf Icon.png}}[[Cards#CardEffects_Pets_Dwarf|Dwarf Pet Card]]
+| '''Upgrades'''|
+[[File:VR-Demonite Bar.png|16px]] [[Upgrades#Upgrades_W1_PickaxeSuperCritChance|VR-Demonite Bar Upgrade]]
+<br>[[File:Quartz_Bar.png|16px]] [[Upgrades#Upgrades_W2_PickaxeSuperCritChance|Quartz Bar Upgrade]]
+| '''Contracts'''|
+[[File:Contract Point.png|16px]] [[Contracts#tabber-World_1 |World 1: Pickaxe Super Crit Chance]]
+}}
+|-|
+Pickaxe Super Crit Damage=
+{{Stat|Pickaxe Super Crit Damage|The amount to multiply your damage by when Super Crit Chance triggers.
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_PickaxeSuperCritDamage|Pickaxe Super Crit Damage]]
+| '''Upgrades'''|
+[[File:Singularity Bar.png|16px]] [[Upgrades#Upgrades_W1_PickaxeSuperCritDamage| Singularity Bar Upgrade ]]
+}}
+|-|
+Pickaxe Ultra Crit Chance=
+{{Stat|Pickaxe Ultra Crit Chance|The chance to multiply your damage by Pickaxe Ultra Crit Damage. Only rolls when Pickaxe Super Crit Chance activates.
+| '''Skills''' |
+[[File:Wait My Super Crits Can Crit.png|16px]] [[Skill-Tree#WaitMySuperCritsCanCrit|Wait My Super Crits Can Crit?]]
+<br>[[File:Tons Of Damage.png|16px]] [[Skill-Tree#TonsOfDamage|Tons Of Damage]]
+| '''Cards'''|
+{{Card|cardType=Standard|cardImage=Dwarf Icon.png}}[[Cards#CardEffects_Pets_Dwarf|Dwarf Pet Card]]
+| '''Pets'''|
+[[File:Dwarf Default.png|16px]] [[Pets#tabber-Dwarf|Dwarf]]
+| '''Upgrades'''|
+[[File:Elysium Bar.png|16px]] [[Upgrades#Upgrades_W1_PickaxeUltraCritChance| Elysium Bar Upgrade ]]
+<br>[[File:Clamite_Bar.png|16px]] [[Upgrades#Upgrades_W2_PickaxeUltraCritChance|Clamite Bar Upgrade]]
+| '''Contracts'''|
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W2_PickaxeAndBombUltraCritChance|Pickaxe And Bomb Ultra Crit Chance]]
+}}
+|-|
+Pickaxe Ultra Crit Damage=
+{{Stat|Pickaxe Ultra Crit Damage|The amount to multiply your damage by when Pickaxe Ultra Crit Chance triggers. (Base: 3x)
+}}
+|-|
+Pickaxe Omega Crit Chance=
+{{Stat|Pickaxe Omega Crit Chance|The chance to multiply your damage by Pickaxe Omega Crit Damage. Only rolls when Pickaxe Ultra Crit Chance activates.
+| '''Prestige''' | 
+[[File:Pickaxe Omega Crit Chance.png|16px]] [[Prestige#Artifacts_T4_PickaxeOmegaCritChance|Tier 4 Artifact]]
+| '''Skills''' |
+[[File:Wait My Ultra Crits Can Crit.png|16px]] [[Skill-Tree#WaitMyUltraCritsCanCrit|Wait My Ultra Crits Can Crit?]]
+| '''Upgrades'''|
+[[File:Crabrock_Bar.png|16px]] [[Upgrades#Upgrades_W2_OmegaCritChance|Crabrock Bar Upgrade ]]
+| '''Contracts'''|
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W3_PickaxeAndBombOmegaCritChance|Pickaxe And Bomb Omega Crit Chance]]
+}}
+|-|
+Pickaxe Omega Crit Damage=
+{{Stat|Pickaxe Omega Crit Damage|The amount to multiply your damage by when Pickaxe Omega Crit Chance triggers. (Base: 3x)
+}}
+</tabber>

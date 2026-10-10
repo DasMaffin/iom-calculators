@@ -1,0 +1,426 @@
+{{Version|2.2.23}}
+[[File:Drones Button.png|frameless|left]]
+Drones are unlocked during the tutorial. They automatically gather ores, even while in offline mode. Coins can be used to purchase Drone Points, which are used to purchase various upgrades that enhance Drone performance. Drones do damage based on Pickaxe Damage. They also use Pickaxe crit chances and multipliers.
+
+{{clear|left}}
+== Unlocking Drones==
+Currently, 5 mining drones can be unlocked and operating at the same time.
+# After [[Obelisk]] Level 2, purchased in the Drones menu
+# Unlocked in {{Sprite|Misc Store|Store#Gem_Unlocks|16|Store}} for {{Gems|200}}
+# After [[Obelisk]] Level 26 via the {{Sprite|Three's A Crowd|Skill-Tree#ThreesACrowd|16|Three's A Crowd}} skill, for 40 {{Sprite|Skill Point|Skills|16|Skill Points}}
+# [[Fishing#tabber-Cthulhu|Cthulhu]] rank 2 fishing tribute {{Sprite|Abyss_Legendary_Fish|Fishing#tabber-Cthulhu|16|Tribute D6T2}}
+# [[Fishing#tabber-Blackened_Basker|Blackened Basker]] rank 2 fishing tribute {{Sprite|Galaxy Legendary Fish|Fishing#tabber-Blackened_Basker|16|Tribute D11T2}}
+
+== Drone Points==
+{{Sprite|Drone Point||16|Drone Points}} are the currency used for buying various [[#Upgrades|Drone upgrades]], unlocking the [[#Drone_Suits|Drone Suits]], as well as [[#Drone_Suit_Upgrades|upgrading Drone Suits]]. They can be purchased with {{Sprite|Gold Coin||16x16|Gold Coins}}, with the cost increasing by 1 gold for every two points you buy.
+
+== Drone Point Calculator==
+{{Calculator:DronePoints}}
+
+== Upgrades==
+{| class="wikitable align-center-1 align-center-3 align-center-4"
+! colspan=2 |  Upgrade !!  Bonus per level !!  Max level 
+|-
+| [[File:Number Of Drones.png]] ||  Unlock Drone ||  Unlock first drone || 1
+|-
+| [[File:Drone Damage.png]] ||  Drone Damage (Pickaxe %) || 20% || 10
+|-
+| [[File:Drone Radius.png]] ||  Drone Radius || 12% || 10
+|-
+| [[File:Drone Movespeed.png]] ||  Drone Movespeed || 10% || 10
+|-
+| [[File:Drone Attack Speed.png]] ||  Drone Attack Speed || 10% || 10
+|-
+| [[File:Drone Triple Damage.png]] ||  Drone Triple Damage Chance || 2% || 15
+|-
+| [[File:Drone Rapid Fire Chance.png]] ||  Drone Rapid Fire Chance || 2% || 15
+|}
+Unlocking "Drone Triple Damage Chance" requires Obelisk Level 1. Unlocking "Drone Rapid Fire Chance" requires Obelisk Level 2.
+{{See also|Drones/Costs#Base_Drone_Upgrade_Costs}}
+
+== Drone Suits==
+Drone suits are unlocked based on the number of obelisks defeated.
+{| class="wikitable sticky-header align-center-1 align-center-4 align-center-5 align-center-6" style="font-size:0.9em"
+! colspan=2 | Suit !! Drone ability !! Obelisk level !! Drone Point Cost
+|-
+| [[File:Drone Default.png|50x50px]] || Basic Suit || No Bonus || {{NA}} || {{NA}}
+|-
+| <div id="bearDrone"></div>[[File:Drone Bear.png|50x50px]] || Bomb Bear Suit || Automatically fires a basic bomb if at max capacity || 2 || 100
+|-
+| <div id="chainDrone"></div>[[File:Drone Chain.png|50x50px]] || Chain Bomber Suit || Automatically fires a chain bomb if at max capacity || 4 || 250
+|-
+| <div id="midasDrone"></div>[[File:Drone Midas.png|50x50px]] || Midas Suit || Gain 10% of an ores value in gold when destroyed || 6 || 500
+|-
+| <div id="froggerDrone"></div>[[File:Drone Frogger.png|50x50px]] || Frogger Suit || Fires a random<ref>Rolls a random bomb, even from bombs you don't have unlocked. Rerolls if you don't have that bomb unlocked or it has 0 charges. If no valid bomb is rolled after 30 rolls, it fires no bombs.</ref> bomb every 30 seconds || 8 || 1k
+|-
+| <div id="veinseekerDrone"></div>[[File:Drone Veinseeker.png|50x50px]] || Veinseeker Suit || Increases Vein Spawn Rate by 10% || 19 || 1m
+|-
+| <div id="starburstDrone"></div>[[File:Drone Starburst.png|50x50px]] || Starburst Suit || Increases Triple Star Chance by 6% || 23 || 2.5m
+|-
+| <div id="elixirDrone"></div>[[File:Drone Elixir.png|50x50px]] || Elixir Suit || Activates a random [[Drones#Elixir_Drone_Buffs|buff]] every 360 seconds || 23 || 5m
+|-
+| <div id="voidDrone"></div>[[File:Drone Void.png|50x50px]] || Void Suit || [[Drones#Void_Drone_Mechanics|Ore Portal]] Chance 10% || 23 || 10m
+|-
+| <div id="anglerDrone"></div>[[File:Drone Angler.png|50x50px]] || Angler Suit || Gives 2 Fishing Ticks every 1140 seconds || 37 || 5b
+|-
+| <div id="prismDrone"></div>[[File:Drone Prism.png|50x50px]] || Prism Suit || Galactic Floor Chance +0.25% || 64 || 15qi
+|-
+| <div id="minotaurDrone"></div>[[File:Drone Minotaur.png|50x50px]] || Minotaur Suit || Pickaxe and Bomb Damage +30% || 70 || 5sp
+|}
+<references/>
+
+=== Drone Suit Upgrades ===
+Drone suits can be upgraded to improve their abilities.
+By default, the maximum upgrade level is 5. This max can be raised by 3 by unlocking Mechanical Evolution within the [[Skill-Tree|Skill Tree]], and by another +7 through [[Drones#Coal Upgrades|Coal Upgrades]] (+2 from standard [[Drones#Coal Upgrades|Coal Upgrades]] & +5 from increased [[Drones#Coal Upgrades|Coal Upgrades]] cap granted by the [[Archaeology#tabber-Epic Idols|Dionysus Idol]]) for a max level of 15.
+
+{{See also|Drones/Costs#Drone_Suit_Upgrade_Costs}}
+{| class="wikitable align-center-1 align-center-4"
+! colspan=2 | Upgrade !! Bonus per level !! Base Max level
+|-
+| [[File:Drone Bear.png|50x50px|link=Drones/Costs#Bomb_Bear_Upgrade]] || [[Drones/Costs#Bomb_Bear_Upgrade|Bomb Bear Upgrade]] || Bomb Damage When Equipped +15% || 5
+|-
+| [[File:Drone Chain.png|50x50px|link=Drones/Costs#Chain_Bomber_Upgrade]] || [[Drones/Costs#Chain_Bomber_Upgrade|Chain Bomber Upgrade]] || Chance For 2x Chain Size +4% || 5
+|-
+| [[File:Drone Midas.png|50x50px|link=Drones/Costs#Midas_Upgrade]] || [[Drones/Costs#Midas_Upgrade|Midas Upgrade]] || Ore Value Gained +1% || 5
+|-
+| [[File:Drone Frogger.png|50x50px|link=Drones/Costs#Frogger_Upgrade]] || [[Drones/Costs#Frogger_Upgrade|Frogger Upgrade]] || Time Between Autofires -1.5s || 5
+|-
+| [[File:Drone Veinseeker.png|50x50px|link=Drones/Costs#Veinseeker_Upgrade]] || [[Drones/Costs#Veinseeker_Upgrade|Veinseeker Upgrade]] || Vein Spawn Rate +2% || 5
+|-
+| [[File:Drone Starburst.png|50x50px|link=Drones/Costs#Starburst_Upgrade]] || [[Drones/Costs#Starburst_Upgrade|Starburst Upgrade]] || Triple Star Chance +1% || 5
+|-
+| [[File:Drone Elixir.png|50x50px|link=Drones/Costs#Elixir_Upgrade]] || [[Drones/Costs#Elixir_Upgrade|Elixir Upgrade]] || Time Between Buffs -15s || 5
+|-
+| [[File:Drone Void.png|50x50px|link=Drones/Costs#Void_Upgrade]] || [[Drones/Costs#Void_Upgrade|Void Upgrade]] || Portal Ore Chance +2% || 5
+|-
+| [[File:Drone Angler.png|50x50px|link=Drones/Costs#Angler_Upgrade]] || [[Drones/Costs#Angler_Upgrade|Angler Upgrade]] || Time Between Fishing Ticks -40s || 5
+|-
+| [[File:Drone Prism.png|50x50px|link=Drones/Costs#Prism_Upgrade]] || [[Drones/Costs#Prism_Upgrade|Prism Upgrade]] || Galactic Floor Chance +0.25% || 5
+|-
+| [[File:Drone Minotaur.png|50x50px|link=Drones/Costs#Minotaur_Upgrade]] || [[Drones/Costs#Minotaur_Upgrade|Minotaur Upgrade]] || Pickaxe and Bomb Damage +30% || 5
+|}
+
+== Drone Fuel==
+Drone Fuel is unlocked at Obelisk Level 18. Drone Fuel can be used to upgrade your generator level, or to fuel a specific drone suit for a duration. While fueled, a drone suit receives an additional buff.
+
+Drone Fuel can be obtained by:
+* Purchasing 1 fuel for 50 coal and {{Gems|5}}
+* Opening {{Sprite|Gift|Store#Gifts|16|Gifts}}
+* Opening {{Sprite|Supply Drop|Founder|16|Founder Supply Drops}}
+* Later in the game, by claiming {{Sprite|Lootfrog|Lootfrogs|16|Lootfrogs}}
+
+=== Drone Suit Buffs===
+{{#vardefine:bombBearCap|40}}{{#vardefine:chainBomberCap|257}}{{#vardefine:midasCap|100}}{{#vardefine:froggerCap|54}}{{#vardefine:veinseekerCap|166}}{{#vardefine:starburstCap|60}}{{#vardefine:elixirCap|45}}{{#vardefine:voidCap|157}}{{#vardefine:anglerCap|42}}{{#vardefine:prismCap|50}}{{#vardefine:minotaurCap|45}}
+{| class="wikitable text-align-center align-left-2 align-left-3"
+! colspan=2 | Drone Suit !! Buff(s) and Fuel Duration at Grade 0 !! Increase per Grade !! Max Bonus at Highest Grade !! Max Grade Cap
+|-
+| [[File:Drone Bear.png|50x50px]] || Bomb Bear
+| [[File:Lootbug Spawn Rate Multiplier.png|20x20px]] +30% Lootbug Spawn Rate<br>[[File:Fuel.png|20x20px]] 4:00 
+| [[File:Lootbug Spawn Rate Multiplier.png|20x20px]] +3%<br>[[File:Fuel.png|20x20px]] +0:12
+| [[File:Lootbug Spawn Rate Multiplier.png|20x20px]] +{{#expr: 30 + (3 * {{#var:bombBearCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((4 * 60) + (12 * {{#var:bombBearCap}})) / 60) }}:{{padleft:{{#expr: ((4 * 60) + (12 * {{#var:bombBearCap}})) mod 60 }}|2|0}}
+| {{#var:bombBearCap}}
+|-
+| [[File:Drone Chain.png|50x50px]] || Chain Bomber 
+| [[File:Golden Floor Multiplier.png|20x20px]] +50% Golden Floor Multi<br>[[File:Fuel.png|20x20px]] 3:40 
+| [[File:Golden Floor Multiplier.png|20x20px]] +10%<br>[[File:Fuel.png|20x20px]] +0:11 
+| [[File:Golden Floor Multiplier.png|20x20px]] +{{#expr: 50 + (10 * {{#var:chainBomberCap}}) }}% <br>[[File:Fuel.png|20x20px]] {{#expr: floor(((3 * 60 + 40) + (11 * {{#var:chainBomberCap}})) / 60) }}:{{padleft:{{#expr: ((3 * 60 + 40) + (11 * {{#var:chainBomberCap}})) mod 60 }}|2|0}}
+| {{#var:chainBomberCap}}
+|-
+| [[File:Drone Midas.png|50x50px]] || Midas 
+| [[File:Gold Coin.png|20x20px]] +120% gold value when ore destroyed<br>[[File:Fuel.png|20x20px]] 3:20<br><hr>Enhancement: [[File:All Star Multiplier.png|20x20px]] +0.5% All Star Multi<ref>Midas Enhancement unlocked via [[Fishing#Tier_2_Notice_Upgrades|Tier 2 Notice Upgrade]]</ref> 
+| [[File:Gold Coin.png|20x20px]] +18%<br>[[File:Fuel.png|20x20px]] +0:10<br><hr>[[File:All Star Multiplier.png|20x20px]] +0.5% 
+| [[File:Gold Coin.png|20x20px]] +{{#expr: 120 + (18 * {{#var:midasCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((3 * 60 + 20) + (10 * {{#var:midasCap}})) / 60) }}:{{padleft:{{#expr: ((3 * 60 + 20) + (10 * {{#var:midasCap}})) mod 60 }}|2|0}}<br><hr>[[File:All Star Multiplier.png|20x20px]] +{{#expr: 0.5 + (0.5 * {{#var:midasCap}}) }}%
+| {{#var:midasCap}}
+|-
+| [[File:Drone Frogger.png|50x50px]] || Frogger 
+| [[File:Basic Bomb.png|20x20px]] Fire 5 Bombs without consuming charges<br>[[File:Fuel.png|20x20px]] 3:00<br><hr>Enhancement: [[File:Lootfrog.png|20x20px]] 0% Chance To Spawn A Frog<ref name="FroggerUpgrade">Frogger Enhancement unlocked via [[Stargazing#Black_Hole|Black hole]]</ref> 
+| [[File:Basic Bomb.png|20x20px]] +1<br>[[File:Fuel.png|20x20px]] +0:09<br><hr>[[File:Lootfrog.png|20x20px]] +0.003% 
+| [[File:Basic Bomb.png|20x20px]] 10-{{#expr: 5 + {{#var:froggerCap}} }} Bombs<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((3 * 60) + (9 * {{#var:froggerCap}})) / 60) }}:{{padleft:{{#expr: ((3 * 60) + (9 * {{#var:froggerCap}})) mod 60 }}|2|0}}<br><hr>[[File:Lootfrog.png|20x20px]] {{#expr: 0.003 * {{#var:froggerCap}} }}%
+| {{#var:froggerCap}}
+|-
+| [[File:Drone Veinseeker.png|50x50px]] || Veinseeker 
+| [[File:Golden Vein Multiplier.png|20x20px]] +50% Golden Vein Multi<br>[[File:Fuel.png|20x20px]] 2:40 
+| [[File:Golden Vein Multiplier.png|20x20px]] +10%<br>[[File:Fuel.png|20x20px]] +0:08 
+| [[File:Golden Vein Multiplier.png|20x20px]] +{{#expr: 50 + (10 * {{#var:veinseekerCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((2 * 60 + 40) + (8 * {{#var:veinseekerCap}})) / 60) }}:{{padleft:{{#expr: ((2 * 60 + 40) + (8 * {{#var:veinseekerCap}})) mod 60 }}|2|0}}
+| {{#var:veinseekerCap}}
+|-
+| [[File:Drone Starburst.png|50x50px]] || Starburst 
+| [[File:Auto-Catch Chance.png|20x20px]] +100% Auto-catch<br>[[File:Star Spawn Rate Multiplier.png|20x20px]] +15% Star Spawn Rate<br>[[File:Fuel.png|20x20px]] 2:20 
+| [[File:Star Spawn Rate Multiplier.png|20x20px]] +3%<br>[[File:Fuel.png|20x20px]] +0:07 
+| [[File:Star Spawn Rate Multiplier.png|20x20px]] +{{#expr: 15 + (3 * {{#var:starburstCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((2 * 60 + 20) + (7 * {{#var:starburstCap}})) / 60) }}:{{padleft:{{#expr: ((2 * 60 + 20) + (7 * {{#var:starburstCap}})) mod 60 }}|2|0}}
+| {{#var:starburstCap}}
+|-
+| [[File:Drone Elixir.png|50x50px]] || Elixir 
+| [[File:Time-Turner.png|20x20px]] +60% Buff Duration<br>[[File:Fuel.png|20x20px]] 3:30 
+| [[File:Time-Turner.png|20x20px]] +6%<br>[[File:Fuel.png|20x20px]] +0:10.5 
+| [[File:Time-Turner.png|20x20px]] +{{#expr: 60 + (6 * {{#var:elixirCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((3 * 60 + 30) + (10.5 * {{#var:elixirCap}})) / 60) }}:{{padleft:{{#expr: ((3 * 60 + 30) + (10.5 * {{#var:elixirCap}})) mod 60 }}|2|0}}
+| {{#var:elixirCap}}
+|-
+| [[File:Drone Void.png|50x50px]] || Void 
+| [[File:Void Portal Base Multiplier.png|20x20px]] +3x Portal Resource Multi<br>[[File:Fuel.png|20x20px]] 3:00 
+| [[File:Void Portal Base Multiplier.png|20x20px]] +1x<br>[[File:Fuel.png|20x20px]] +0:09 
+| [[File:Void Portal Base Multiplier.png|20x20px]] +{{#expr: 3 + (1 * {{#var:voidCap}}) }}x<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((3 * 60) + (9 * {{#var:voidCap}})) / 60) }}:{{padleft:{{#expr: ((3 * 60) + (9 * {{#var:voidCap}})) mod 60 }}|2|0}}
+| {{#var:voidCap}}
+|-
+| [[File:Drone Angler.png|50x50px]] || Angler 
+| [[File:Fishing Tick Reduction.png|20x20px]] 1% Chance +6 ticks<br>[[File:Lake Legendary Fish.png|20x20px]] +2% Legendary Fish Chance<br>[[File:Fuel.png|20x20px]] 2:00 
+| [[File:Fishing Tick Reduction.png|20x20px]] +6 ticks<br>[[File:Lake Legendary Fish.png|20x20px]] +2%<br>[[File:Fuel.png|20x20px]] +0:06 
+| [[File:Fishing Tick Reduction.png|20x20px]] 1% Chance +{{#expr: 6 + (6 * {{#var:anglerCap}}) }} ticks<br>[[File:Lake Legendary Fish.png|20x20px]] +{{#expr: 2 + (2 * {{#var:anglerCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((2 * 60) + (6 * {{#var:anglerCap}})) / 60) }}:{{padleft:{{#expr: ((2 * 60) + (6 * {{#var:anglerCap}})) mod 60 }}|2|0}}
+| {{#var:anglerCap}}
+|-
+| [[File:Drone Prism.png|50x50px]] || Prism 
+| [[File:Prismatic Galactic Floor Chance.png|20x20px]] Prismatic Floor Chance +0.35%<br>[[File:Prismatic Galactic Floor Multi.png|20x20px]] Prismatic Floor Multi +5%<br>[[File:Fuel.png|20x20px]] 1:10 
+| [[File:Prismatic Galactic Floor Chance.png|20x20px]] +0.35%<br>[[File:Prismatic Galactic Floor Multi.png|20x20px]] +5%<br>[[File:Fuel.png|20x20px]] +0:035 
+| [[File:Prismatic Galactic Floor Chance.png|20x20px]] {{#expr: 0.35 + (0.35 * {{#var:prismCap}}) }}%<br>[[File:Prismatic Galactic Floor Multi.png|20x20px]] +{{#expr: 5 + (5 * {{#var:prismCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((1 * 60 + 10) + (3.5 * {{#var:prismCap}})) / 60) }}:{{padleft:{{#expr: ((1 * 60 + 10) + (3.5 * {{#var:prismCap}})) mod 60 }}|2|0}}
+| {{#var:prismCap}}
+|-
+| [[File:Drone Minotaur.png|50x50px]] || Minotaur 
+| [[File:All_Void_Portal_Multis.png|20x20px]] All Portal Multi +0.25%<br>[[File:Bomb_Recharge_Speed.png|20x20px]] Bomb Recharge Rate +0.25%<br>[[File:Fuel.png|20x20px]] 1:05 
+| [[File:All_Void_Portal_Multis.png|20x20px]] +0.25%<br>[[File:Bomb_Recharge_Speed.png|20x20px]] +0.25%<br>[[File:Fuel.png|20x20px]] +0:0325 
+| [[File:All_Void_Portal_Multis.png|20x20px]] +{{#expr: 0.25 + (0.25 * {{#var:minotaurCap}}) }}%<br>[[File:Bomb_Recharge_Speed.png|20x20px]] +{{#expr: 0.25 + (0.25 * {{#var:minotaurCap}}) }}%<br>[[File:Fuel.png|20x20px]] {{#expr: floor(((1 * 60 + 5) + (3.25 * {{#var:minotaurCap}})) / 60) }}:{{padleft:{{#expr: ((1 * 60 + 5) + (3.25 * {{#var:minotaurCap}})) mod 60 }}|2|0}}
+| {{#var:minotaurCap}}
+|}
+<references/>
+
+===Drone Suit Upgrade Caps===
+<tabber>
+Bomb Bear=
+{{Stat|Bomb Bear|{{#var:bombBearCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Stargazing'''|[[Stargazing#Black Hole|Black Hole Level 9]]: 10
+|imageSize=50x50px|spriteOverride=Drone Bear|descriptionName=Maximum Grade}}
+|-|
+Chain Bomber=
+{{Stat|Chain Bomber|{{#var:chainBomberCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Construct'''|[[Construct#tabber-World 4 Statues|Statue of Rodentia]]: 108
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Pets'''|[[Pets#tabber-Totem Quest Skin|Totem Pet Quest Skin]]: 24 <br> [[Pets#tabber-Rhino|Rhino Pet]]: 60
+|'''Skill-Tree'''|[[Skill-Tree#Skills|I Buried It Here Skill]]: 15
+|'''Stargazing'''|[[Stargazing#Stars|Phoenix]]: 20
+|imageSize=50x50px|spriteOverride=Drone Chain|descriptionName=Maximum Grade}}
+|-|
+Midas=
+{{Stat|Midas|{{#var:midasCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Construct'''|[[Construct#tabber-World 3 Platinized Statues|Platinized Statue of Warmth]]: 25
+|'''Fishing'''|[[Fishing#tabber-Tier 2 Notice Upgrades|Tier 2 Notice Upgrade]]: 25<br>[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Stargazing'''|[[Stargazing#Stars|Phoenix]]: 20
+|imageSize=50x50px|spriteOverride=Drone Midas|descriptionName=Maximum Grade}}
+|-|
+Frogger=
+{{Stat|Frogger|{{#var:froggerCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Construct'''|[[Construct#tabber-World 4 Statues|Statue of Antagonism]]: 18
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Skill-Tree'''|[[Skill-Tree#Skills|Frog Frenzy Skill]]: 6
+|imageSize=50x50px|spriteOverride=Drone Frogger|descriptionName=Maximum Grade}}
+|-|
+Veinseeker=
+{{Stat|Veinseeker|{{#var:veinseekerCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Construct'''|[[Construct#tabber-World 4 Statues|Statue of Fallacy]]: 54
+|'''Fishing'''|[[Fishing#tabber-Tier 2 Notice Upgrades|Tier 2 Notice Upgrade]]: 30<br>[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Stargazing'''|[[Stargazing#Stars|Phoenix]]: 20
+|'''Workshop'''|[[Workshop#World_4_Upgrades|World 4 Workshop Upgrade]]: 32
+|imageSize=50x50px|spriteOverride=Drone Veinseeker|descriptionName=Maximum Grade}}
+|-|
+Starburst=
+{{Stat|Starburst|{{#var:starburstCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Drones'''|[[Drones#Coal_Upgrades|Starburst Drone Grade Cap +1]]: 10
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5| '''Stargazing'''|[[Stargazing#Stars|Phoenix]]: 20
+|imageSize=50x50px|spriteOverride=Drone Starburst|descriptionName=Maximum Grade}}
+|-|
+Elixir=
+{{Stat|Elixir|{{#var:elixirCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Floors'''|[[Floors#World Quests|World Quest]]: 5
+|'''Stargazing'''|[[Stargazing#Super Stars|Super Star Upgrade]]: 10
+|imageSize=50x50px|spriteOverride=Drone Elixir|descriptionName=Maximum Grade}}
+|-|
+Void=
+{{Stat|Void|{{#var:voidCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5<br>[[Archaeology#tabber-Legendary Idols|Nyx]]: 20
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Construct'''|[[Construct#tabber-World 4 Statues|Statue of Semblance]]: 30
+|'''Drones'''|[[Drones#Coal_Upgrades|Void Drone Grade Cap +1]]: 20
+|'''Fishing'''|[[Fishing#Legendary Fish|Glacial Shellstealer Tier 2 Tribute]]: 15<br>[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Skill-Tree'''|[[Skill-Tree#Skills|Call Of The Void Skill]]: 12 <br> [[Skill-Tree#Skills|Portal Schmortal Skill]]: 20
+|'''Stargazing'''|[[Stargazing#Super Stars|Super Star Upgrade]]: 10
+|imageSize=50x50px|spriteOverride=Drone Void|descriptionName=Maximum Grade}}
+|-|
+Angler=
+{{Stat|Angler|{{#var:anglerCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+| '''Pets'''|[[Pets#tabber-Mr Nibbles Quest Skin|Mr Nibbles Pet Quest Skin]]: 12
+|imageSize=50x50px|spriteOverride=Drone Angler|descriptionName=Maximum Grade}}
+|-|
+Prism=
+{{Stat|Prism|{{#var:prismCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5<br>[[Archaeology#tabber-Epic_Idols_3|Mnemosyne]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Challenges'''|[[Challenges#tabber-Divine 2|Divine Challenge Reward]]: 5
+|'''Construct'''|[[Construct#tabber-World 4 Statues|Statue of Semblance]]: 10
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|imageSize=50x50px|spriteOverride=Drone Prism|descriptionName=Maximum Grade}}
+|-|
+Minotaur=
+{{Stat|Minotaur|{{#var:minotaurCap}}
+|'''Base'''|10
+|'''Archaeology'''| [[Archaeology#tabber-Epic Idols|Dionysus]]: 5
+|'''Cards'''|[[Cards#tabber-Drones|Card]]: 10
+|'''Challenges'''|[[Challenges#tabber-Divine 2|Divine Challenge Reward]]: 3
+|'''Construct'''|[[Construct#tabber-World 4 Gilded Statues|Gilded Statue of Semblance]]: 9
+|'''Fishing'''|[[Fishing#Legendary Fish|Blackened Basker Tier 1 Tribute]]: 5
+|'''Skill-Tree'''|[[Skill-Tree#Skills|Mess With The Bull Skill]]: 3
+|imageSize=50x50px|spriteOverride=Drone Minotaur|descriptionName=Maximum Grade}}
+</tabber>
+
+===Drone Suit Grade Calculator===
+{{:Calculator:DroneGrade}}
+
+== Generator==
+{{Template:Coal Full}} Coal is produced over time by your Generator. Coal can be used directly for [[Drones#Coal Upgrades|coal upgrades]] or to purchase drone fuel. At generator level 16, along with the {{Sprite|Gasoline Guzzler|Skill-Tree#GasolineGuzzler|16|Gasoline Guzzler}} from the {{Sprite|Skill Point|Skills|16|Skill Tree}}, the maximum coal capacity is high enough to purchase all early game [[Drones#Coal Upgrades|coal upgrades]]. The generator initially produces coal at a rate of 1 coal per 90 seconds. The amount of coal produced is equal to the level of the generator. The  production time can be decreased from 90 seconds to 55 seconds per production cycle through coal upgrades and the Gasoline Guzzler skill. Production time is further affected by game speed and by a [[Drones#Elixir Drone Buffs|buff granted by the Elixir drone]]. 
+
+Coal Capacity for the Generator is calculated as <math>\text{Generator Level}\times 1000 \times \text{Coal Capacity Multiplier} + \text{Talos Idols} \times 50 </math> .
+
+There is technically no max generator level, but the cost quickly scales to unreasonable amounts. The highest amount required for an upgrade is level 34. 
+
+The generator's level is the unlock condition of several things in the game, including the {{Sprite|Nyx Idol|Archaeology#tabber-Legendary_Idols|16|Nyx}} Archaeology idol, which requires level 20, and the {{Sprite|Hephaestus Idol|Archaeology#tabber-Epic_Idols_2|16|Hephaestus Idol}}, which requires level 31.
+
+{{See also|Drones/Costs#Generator_Level_Costs}}
+
+=== Coal Upgrades === 
+{{See also|Drones/Costs#Coal_Upgrade_Costs}}
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Buff !! Max level !! Generator level
+|-
+|<div id="CoalUpgrades_CoalProduction"></div>[[File:Coal Production.png|link=Drones/Costs#Coal_Production]] || [[Drones/Costs#Coal_Production|Coal Production -1s / per lvl]] || 25 || {{NA}}
+|-
+|<div id="CoalUpgrades_FuelDuration"></div>[[File:Drone Fuel Duration Multiplier.png|link=Drones/Costs#Fuel_Duration]] || [[Drones/Costs#Fuel_Duration|Fuel Duration +1% / per lvl]] || 25 || 3
+|-
+|<div id="CoalUpgrades_CoalCapacity"></div>[[File:Coal Capacity Multiplier.png|link=Drones/Costs#Coal_Capacity]] || [[Drones/Costs#Coal_Capacity|Coal Capacity +10% / per lvl]] || 25 || 5
+|-
+|<div id="CoalUpgrades_FuelSaveChance"></div>[[File:Fuel Save Chance.png|link=Drones/Costs#Fuel_Save_Chance]] || [[Drones/Costs#Fuel_Save_Chance|Fuel Save Chance +1% / per lvl]] || 25 || 8
+|-
+|<div id="CoalUpgrades_DroneExpGain"></div>[[File:Drone Exp Gain Multiplier.png|link=Drones/Costs#Drone_Experience_Gain]] || [[Drones/Costs#Drone_Experience_Gain|Drone Exp Gain +5% / per lvl]] || 25 || 12
+|-
+|<div id="CoalUpgrades_DroneSuitUpgradeCap"></div>[[File:Drone Suit Upgrade Cap.png|link=Drones/Costs#Drone_Suit_Upgrade_Cap]] || [[Drones/Costs#Drone_Suit_Upgrade_Cap|Drone Suit Upgrade Cap +1 / per lvl]] || 7 || 15
+|-
+|<div id="CoalUpgrades_StarburstDroneGradeCap"></div>[[File:Starburst Drone Grade Cap.png|link=Drones/Costs#Starburst_Drone_Grade_Cap]] || [[Drones/Costs#Starburst_Drone_Grade_Cap|Starburst Drone Grade Cap +1]] || 10 || 22
+|-
+|<div id="CoalUpgrades_VoidPortalBaseMulti"></div>[[File:Void Portal Base Multiplier.png|link=Drones/Costs#Void_Portal_Base_Multi]] || [[Drones/Costs#Void_Portal_Base_Multi|Void Portal Base Multi +1%]] || 20 || 24
+|-
+|<div id="CoalUpgrades_GleamingVeinMultiplier"></div>[[File:Gleaming Vein Multiplier.png|link=Drones/Costs#Gleaming_Veins_Multiplier]] || [[Drones/Costs#Gleaming_Veins_Multiplier|Gleaming Veins Multiplier +6%]] || 20 || 28
+|-
+|<div id="CoalUpgrades_Lootfrog10xSpawnChance"></div>[[File:Lootfrog 10x Spawn Chance.png|link=Drones/Costs#Lootfrog_10x_Spawn_Chance]] || [[Drones/Costs#Lootfrog_10x_Spawn_Chance|Lootfrog 10x Spawn Chance +0.05%]] || 20 || 29
+|-
+|<div id="CoalUpgrades_UnlockDroneInfernalCards"></div>[[File:Unlock Drone Infernal Cards.png|link=Drones/Costs#Unlock_Drone_Infernal_Cards]] || [[Drones/Costs#Unlock_Drone_Infernal_Cards|Unlock Drone Infernal Cards]] || 1 || 30
+|-
+|<div id="CoalUpgrades_VoidDroneGradeCap"></div>[[File:Drone Grade Cap.png]] || [[Drones/Costs#Void Drone Grade Cap|Void Drone Grade Cap +1]] || 20 || 32
+|-
+|<div id="CoalUpgrades_AllVoidPortalMultiplier"></div>[[File:All Void Portal Multis.png]] || [[Drones/Costs#All Void Portal Multis|All Void Portal Multis +0.50%]] || 20 || 33
+|-
+|<div id="CoalUpgrades_GemsFromLootfrogs"></div>[[File:Gems from Lootfrogs.png]] || [[Drones/Costs#Gems from Lootfrogs|Gems from Lootfrogs +10%]] || 20 || 33
+|-
+|<div id="CoalUpgrades_LootbugLootMultiplier"></div>[[File:Lootbug Loot Multi.png]] || [[Drones/Costs#Lootbug Loot Multi|Lootbug Loot Multi +0.75%]] || 20 || 34
+|-
+|<div id="CoalUpgrades_UnlockSpellBugMagnet"></div>[[File:Bug Magnet.png]] || [[Drones/Costs#Unlock Spell Bug Magnet|Unlock Spell: Bug Magnet]] || 1 || 34
+|}
+
+== Elixir Drone Buffs==
+When using the {{Sprite|Drone Elixir|Drones#Drone_Suits|16|Elixir drone suit}}, Elixir Drone buffs are activated every 360 seconds (reduced by [[Drones#Drone Suit Upgrades|Upgrade Level]]. Elixir Drone buffs can have a critical multiplier applied to their duration, once the pre-requisite {{Sprite|Desert Legendary Fish|Fishing|16|Fishing}} {{Sprite|Tribute Rank 2|Fishing#Tributes|16|Tribute}} has been completed. The base is 3x duration, but can be further improved via the [[Cards#tabber-Drones|Infernal Elixir Drone Card]]
+
+A random buff will be selected from the list below with all possibilities having an equal outcome if the requirements are met.
+{| class="wikitable sortable align-center-1"
+! colspan=2 |  Buff
+!  Duration 
+|-
+|<div id="ElixirDroneBuffs_2xGameSpeed"></div>[[File:Game Speed Multiplier.png]] ||  2x Game Speed || <code>2 minutes</code><ref> Duration decreases by half your game speed. 2x Game Speed buff doesn't affect its own duration.</ref>
+|-
+|<div id="ElixirDroneBuffs_10xBombRecharge"></div>[[File:Bomb Recharge Speed 10x Buff.png]] || 10x Bomb Recharge || <code>1 minute</code>
+|-
+|<div id="ElixirDroneBuffs_3xCoalProductionSpeed"></div>[[File:3x Coal Production Speed Buff.png]] ||  3x Coal Production Speed ||  <code>4 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_2xOre"></div>[[File:2x Ore Income Buff.png]] ||  2x Ore ||  <code>3 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_3xVeinSpawnRate"></div>[[File:3x Vein Spawn Rate Buff.png]] ||  3x Vein Spawn Rate ||  <code>3 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_100PercentStarAutocatch"></div>[[File:Auto-Catch Chance.png]] ||  100% Star Auto-Catch<ref> Replaced with another chance to get 3x Experience when 75% Auto-Catch is reached without buffs.</ref> ||  <code>5 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_2xStarSpawnRate"></div>[[File:2x Spawn Rate Buff.png]] || 2x Star Spawn Rate ||  <code>3 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_3xExperience"></div>[[File:3x Experience Buff.png]] ||  3x Experience || <code>4 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_3xSuperStarSpawnRate"></div>[[File:Triple Super Star Chance Buff.png]] || 3x Super Star Spawn Rate || <code>3 minutes</code>
+|-
+|<div id="ElixirDroneBuffs_3xFishingTickSpeed"></div>[[File:Triple_Fish_Tick_Chance.png]] || 3x Fishing Tick Speed<ref>Unlocked at Obelisk 37</ref> || <code>2 Real-World Minutes</code><ref> Duration decreases according to real time only, it is not affected by Game Speed.</ref>
+|}
+<references/>
+== Void Drone Mechanics==
+Void Drone is a useful drone when you want to gather multiple ores or veins at the same time, or farm a single ore more quickly. This is useful for completing [[contracts]] or the [[Obelisk:FAQ#Q:_What_is_the_"Plat_Strat"?|Plat Strat]].  When fueled, the resource multiplier applies to both ores and veins.
+
+# Ores spawn according to the floor's normal ore ratio.<br>
+# Each ore has a chance of becoming a portal, based on your Void Drone's suit level.
+# The portal changes the ore, turning it into anything from Tin to the ore it started as. (That is, a portaled Mithril can become Tin, Copper, or stay as Mithril.)
+# Your ore (and bar, and vein) income for that ore is multipled by the VP Base Multi, mostly based on your Void Drone's grade.
+
+===Single-Ore Farming===
+While the "obvious" use of Void Drone is to let you conveniently farm many ores/veins at once (rather than manually moving between floors), as your Void Portal Chance and Multi go up, Void Drone actually becomes better at farming ''individual'' ores than going without (and the additional ores/veins from previous floors are just a bonus!)
+
+For example, if you want to farm Mithril, the third ore, you would normally sit on floor 5 where it has an 80% chance of spawning, along with a 20% chance of Adamant, the fourth ore. If you use Void Drone, a portaled Mithril has a 1/3 chance of remaining Mithril, but with its ore multiplied by the VP Multi, while a portaled Adamant has a 1/4 chance of becoming a Mithril, again with its ore multiplied by the VP Multi. As long as your VP Multi is at least 4x (which you'll get from Grade 1, before other multipliers), running Void Drone will actually increase your Mithril gain (and give you Tin and Copper, and not hurt your Adamant gain either). Meanwhile, if you're farming Radion-73, the 25th ore, you need a VP multi of at least 25x for it to be positive on floor 41. (Once you unlock Golden Portals, the combined effective multiplier is virtually always enough to make Void Drone useful, so you can avoid doing any math.)
+
+You ''almost always'' want to do single-ore farming on the floor where your target ore shows up 80% of the time, and the 20% ore is the next ore (which can still portal into your target ore). The only exception is if that floor has bad modifiers, in which case you might want to farm at a later floor with better mods.
+
+If you're farming the ''last'' ore in a zone, though, that floor doesn't exist. Instead, whether it's better to farm on that ore's 50% floor (where half the ores are a ''previous'' ore, which can't portal into your target ore) or the first floor of the ''next'' zone (where you ''only'' get your target ore from portals, but all of the ores ''can'' portal into your target) depends on the ore and your portal stats. There are calculators in [[External_Resources#Decision-Making_Calculators]], but you can also simply test both of them for a few minutes offline and see which gives you better ores/hour.
+
+===Veins===
+A portaled ore has a chance to become a vein, as normal for that ore type (not the floor you're actually on). That is, a Cranium ore on floor 42 that is portaled into a Tin ore will become a Stone Vein, using the Stone Vein rarity (rather than the Atomic Vein rarity). Vein income is multiplied by the portal in the same way as ores.
+
+Note: Runite is the only ore that exists in two different zones, both Stone and Magma. While a ''natural'' Runite ore will become a Stone or Magma vein depending on which zone you're actually in, a ''portaled in'' Runite ore will always become a Stone vein. (Even if it ''started'' as a natural Runite on floor 9 in the Magma Zone!)
+
+Because there are much fewer veins to choose from than ores, Void Drone is ''virtually always'' effective when vein farming, with its power maximized on the last floor of that zone. For example, if you want Atomic veins, sitting on floor 42 gives you a 50% chance of Radion-73 ore and 50% of Cranium ore. The Radion-73 ore can portal into 25 different ores, 3 of which will still generate an Atomic vein, for a 3/25 (12%) chance of getting a Portal-boosted Atomic vein, while the Cranium ore can become 26 ores, 4 of which will generate an Atomic vein, for a 4/26 (~15%) chance of getting a Portal-boosting Atomic vein. This means that a Portal multiplier of just 8x (a '''grade 5''' Void Drone, before any other multipliers) will cause Void Drone to increase your Atomic vein gain, ''while also'' giving you all preceding veins as well.
+
+===Modifiers===
+Some ore modifiers do not apply when an ore appears in a portal. If an ore modifier changes your stats (For example: Golden floor = 50%, Game Speed -30%, Bomb recharge 0.40x), it has no effect when portaled in. If the modifier applies only to the ore, it applies as usual. (For example: Super crit+ only, Health +300%.)
+
+===Golden Void Portal===
+{{See also|Stats#tabber-Golden_Void_Portal_Multi}}
+If an ore successfully rolls a Void Portal, it then has a chance to upgrade that into a Golden Void Portal based on the [[Stats#tabber-Golden_Void_Portal_Chance|Golden Void Portal Chance]], providing an additional multiplier on top of your base VP Multi. This additional multiplier starts at x5 and can be increased in numerous ways.
+
+===Rainbow Void Portal===
+{{See also|Stats#tabber-Rainbow_Void_Portal_Multi}}
+If a Void Portal successfully upgrades into a Golden Void Portal, it then has a chance to ''further'' upgrade into a Rainbow Void Portal based on the [[Stats#tabber-Rainbow_Void_Portal_Chance|Rainbow Void Portal Chance]], providing ''even more'' multiplier on top of the base and golden multi. This additional multiplier also starts at x5 (so x25 compared to a regular Void Portal), which can also be increased even further in numerous ways.
+
+===Galactic Void Portal===
+{{See also|Stats#tabber-Galactic_Void_Portal_Multi}}
+If a Golden Void Portal successfully upgrades into a Rainbow Void Portal, it then has a chance to ''further'' upgrade into a Galactic Void Portal based on the [[Stats#tabber-Galactic_Void_Portal_Chance|Galactic Void Portal Chance]], providing ''even more'' multiplier on top of the base, golden, and rainbow multi. This additional multiplier also starts at x5 (so x125 compared to a regular Void Portal), which can also be increased even further in numerous ways.
+
+==Trivia==
+* Before the drone got upgraded to seek out ores, the drone just swayed from left and right making it harder to destroy an ore.
+* There are two upgrades that got nerfed after an update which is the Drone Radius (+20%) and Drone Movespeed (+15%).
+
+==Navigation==
+{{Menu}}

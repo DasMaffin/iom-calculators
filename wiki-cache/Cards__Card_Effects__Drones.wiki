@@ -1,0 +1,26 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref><ref name=InfernalEffectDrones>Drone Cards +0.30x/+0.002x</ref>
+
+|-
+|<div id="CardEffects_Drones_BearDrone"></div>{{CardShowcase|card=Drone Bear Icon}} || Bear Drone || Grade Cap for Bear Drone +2 || +5 || +10 || Pickaxe/Bomb Damage +45%
+|-
+|<div id="CardEffects_Drones_ChainDrone"></div>{{CardShowcase|card=Drone Chain Icon}} || Chain Drone || Grade Cap for Chain Drone +2 || +5 || +10 || Golden Floor Multi +14%
+|-
+|<div id="CardEffects_Drones_MidasDrone"></div>{{CardShowcase|card=Drone Midas Icon}} || Midas Drone || Grade Cap for Midas Drone +2 || +5 || +10 || Coal Capacity +6%
+|-
+|<div id="CardEffects_Drones_FroggerDrone"></div>{{CardShowcase|card=Drone Frogger Icon}} || Frogger Drone || Grade Cap for Frogger Drone +2 || +5 || +10 || Lootfrog Loot Multi +10%
+|-
+|<div id="CardEffects_Drones_VeinseekerDrone"></div>{{CardShowcase|card=Drone Veinseeker Icon}} || Veinseeker Drone || Grade Cap for Veinseeker Drone +2 || +5 || +10 || Vein Income Multi +11%
+|-
+|<div id="CardEffects_Drones_StarburstDrone"></div>{{CardShowcase|card=Drone Starburst Icon}} || Starburst Drone || Grade Cap for Starburst Drone +2 || +5 || +10 || Star Supergiant Multi +9%
+|-
+|<div id="CardEffects_Drones_ElixirDrone"></div>{{CardShowcase|card=Drone Elixir Icon}} || Elixir Drone || Grade Cap for Elixir Drone +2 || +5 || +10 || Elixir Crit Multi +7%
+|-
+|<div id="CardEffects_Drones_VoidDrone"></div>{{CardShowcase|card=Drone Void Icon}} || Void Drone || Grade Cap for Void Drone +2 || +5 || +10 || Void Portal Base Multi +9%
+|-
+|<div id="CardEffects_Drones_AnglerDrone"></div>{{CardShowcase|card=Drone Angler Icon}} || Angler Drone || Grade Cap for Angler Drone +2 || +5 || +10 || Tier 2 Dock Power +11%
+|-
+|<div id="CardEffects_Drones_PrismDrone"></div>{{CardShowcase|card=Drone Prism Icon}} || Prism Drone || Grade Cap for Prism Drone +2 || +5 || +10 || Prismatic Floor Chance +1%
+|-
+|<div id="CardEffects_Drones_MinotaurDrone"></div>{{CardShowcase|card=Drone Minotaur Icon}} || Minotaur Drone || Grade Cap for Minotaur Drone +2 || +5 || +10 || Galactic Portal Multi 15% 
+|}

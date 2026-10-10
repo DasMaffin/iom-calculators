@@ -1,0 +1,75 @@
+{{WIP}}
+===Exchange Wizards===
+{{CostTable|Exchange Wizards|3|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2500|Ash Rune|Ash Runes|overrideCostType=2=Brine Rune,3=Chasm Rune|rounding=round}}
+===Exchange Timer -2 Minutes===
+{{CostTable|Exchange Timer -2 Minutes|30|500|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|linear|500|Blue Cow|Blue Cows|rounding=round}}
+===Essence Damage +1 Per Arcanist Card Tier Owned===
+{{CostTable|Essence Damage +1 Per Arcanist Card Tier Owned|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10t|Scorpio|Scorpio|rounding=round}}
+===Rainbow Floor Multi===
+{{CostTable|Rainbow Floor Multi|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|250|Ash Rune|Ash Runes|rounding=round}}
+===Lootbug Banked Cap===
+{{CostTable|Lootbug Banked Cap|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|10sp|Prestige Point|Prestige Points|rounding=round}}
+===Golden Portal Chance===
+{{CostTable|Golden Portal Chance|25|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|175|Brine Rune|Brine Rune|rounding=round}}
+===Star Supergiant Multi===
+{{CostTable|Star Supergiant Multi|25|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|25t|Lynx|Lynx|rounding=floor}}
+===Wizard Loot Multi===
+{{CostTable|Wizard Loot Multi|10|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|750|Soft Essence|Soft Essence|rounding=round}}
+===Gemini Star Cap===
+{{CostTable|Gemini Star Cap|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|500m|Super Star|Super Star|rounding=round}}
+===Unlock Spell: Veinboyant===
+{{CostTable|Veinboyant|1|1.2|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|50sx|Stone Vein|Stone Veins|rounding=round}}
+===Prismatic Floor Chance===
+{{CostTable|Prismatic Floor Chance|15|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|500|Chasm Rune|Chasm Runes|rounding=round}}
+===Shiny Fish Multiplier===
+{{CostTable|Shiny Fish Multiplier|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|100t|Aquarius|Aquarius|rounding=round}}
+===Rune Craft Multi===
+{{CostTable|Rune Craft Multi|15|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|500|Dense Essence|Dense Essence|rounding=round}}
+
+===All Portal Multi===
+{{CostTable|All Portal Multi|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|20k|Charge Magnet|Charge Magnets|rounding=round}}
+===Aphrodite Idol Cap===
+{{CostTable|Aphrodite Idol Cap|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|20k|Divine Fragment|Divine Fragments|rounding=round}}
+===Gleaming Vein Chance===
+{{CostTable|Gleaming Vein Chance|1|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|60k|Ash Rune|Ash Runes|rounding=round}}
+===Tier 1 Notice Upgrade Cap===
+{{CostTable|Tier 1 Notice Upgrade Cap|5|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|15m|Tier 1 Notice Token|Tier 1 Notice Tokens|rounding=round}}
+===Unlock Spell: Diggy Diggy Hole===
+{{CostTable|Unlock Spell: Diggy Diggy Hole|1|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2qadc|Tricerastone Bar|Tricerastone Bars|rounding=round}}
+===Mana Cap / Mana Regen===
+{{CostTable|Mana Cap / Mana Regen|15|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|450|Jagged Essence|Jagged Essence|rounding=round}}
+===Party Wizard Multi===
+{{CostTable|Party Wizard Multi|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|550udc|Ransomite Ore|Ransomite Ore|rounding=round}}
+===All Floor Multi===
+{{CostTable|All Floor Multi|15|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1000|Drift Rune|Drift Runes|rounding=round}}
+===Virgo Star Cap===
+{{CostTable|Virgo Star Cap|15|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2.5sx|Wonderland Vein|Wonderland Veins|rounding=round}}
+===All Star Multi===
+{{CostTable|All Star Multi|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5000|Ash Rune|Ash Runes|rounding=round}}
+===Freebie Banked Cap===
+{{CostTable|Freebie Banked Cap|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|30k|Item Chest|Item Chests|rounding=round}}
+===Unlock Spell: Bomb's Blessing===
+{{CostTable|Unlock Spell: Bomb's Blessing|1|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1000|Necrotic Essence|Necrotic Essence|rounding=round}}
+===Disco Wizard Chance===
+{{CostTable|Disco Wizard Chance|15|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|12qadc|Vaporium Bar|Vaporium Bars|rounding=round}}
+===Rainbow Portal Chance===
+{{CostTable|Rainbow Portal Chance|20|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|4500|Brine Rune|Brine Runes|rounding=round}}
+===Arcanist Spell Power===
+{{CostTable|Arcanist Spell Power|15|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|3000|Soft Essence|Soft Essence|rounding=round}}
+===Veinmorpher Morph Chance===
+{{CostTable|Veinmorpher Morph Chance|1|1|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5oc|Drone Point|Drone Points|rounding=round}}
+===Infernal Card Multi===
+{{CostTable|Infernal Card Multi|12|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|5000|Echo Rune|Echo Runes|rounding=round}}
+===Poly Orb Card Multi===
+{{CostTable|Poly Orb Card Multi|10|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|2500|Skill Point|Skill Points|rounding=round}}
+===Bomb Recharge Speed===
+{{CostTable|Bomb Recharge Speed|25|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|850t|Hercules|Hercules|rounding=round}}
+===Midas Drone Grade Cap===
+{{CostTable|Midas Drone Grade Cap|25|1.18|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|1750|Dense Essence|Dense Essence|rounding=round}}
+
+===Galactic Portal Chance===
+{{CostTable|Galactic Portal Chance|25|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|50sx|Candyland Vein|Candyland Veins|rounding=round}}
+===Flashbang Wizard Chance===
+{{CostTable|Flashbang Wizard Chance|15|1.3|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|750ddc|Dynamite Ore|Dynamite Ore|rounding=round}}
+===Poly Rune Multi===
+{{CostTable|Poly Rune Multi|20|1.25|class{{=}}"wikitable lighttable multi-column-lighttable text-align-center"|exponential|750|Necrotic Essence|Necrotic Essence|rounding=round}}

@@ -1,0 +1,247 @@
+{{Version|2.2.23}}
+<span style="display:none">{{RandomObeliskImage}}</span><!--do not remove, pageImage for search-->
+<div style="display:flex">{{RandomObeliskImage|size=114px|frameless}}
+<div style="margin:0 5px">The Obelisk is the game's "boss" as beating it is required to progress. 
+Each level will grant access to more features, new upgrades, additional game mechanics, and entire worlds. [[Drones]] are disabled during the fight and [[Bombs]] deal no damage to the Obelisk.</div></div>
+
+{{clear|left}}
+== Obelisk Stats ==
+[[File:Obelisk Health Icon.png]] Hp: The number of hit points that the Obelisk has. Has to reach 0 in order to defeat that Obelisk tier. Increases with each Obelisk killed.
+
+[[File:Obelisk Armor Icon.png]] Armor: Armor reduces the base damage dealt to the Obelisk by that value. This reduction applies before crits. If the base damage is less than the Armor value, the Obelisk cannot be damaged, even if critical damage would deal enough to overcome the armor. Increases with each Obelisk killed, and can be lowered with [[Upgrades]] and [[Prestige#Tier 3 Artifacts|Artifacts]].
+
+[[File:Obelisk Fight Duration Icon.png]] Fight Duration: Allotted time to damage the Obelisk in a single fight. Starts at 30 seconds, but can be increased with a legendary [[Chests#List of relics|Relic]]. Any damage dealt is saved across all attempts, so there is no need to defeat an Obelisk in one try.
+
+[[File:Obelisk_Cooldown.png]] Cooldown: Initially there is a 20 minutes wait period between each attempt. This cooldown can be reduced with an [[Prestige#Tier 1 Artifacts|Artifact]].
+
+== Fighting The Obelisk ==
+Once the base damage is high enough to overcome the Obelisk's armor ([[Chests#List of items|Rock Cake]] and [[Chests#List of items|Primal meat]] can help), activate all damage-boosting items, including those that boost crit chance, mining speed, and damage ([[Chests#List of items|Apple]], [[Chests#List of items|Banana Coffee]], [[Chests#List of items|Pike]], [[Chests#List of items|Rock Cake]], [[Chests#List of items|Juicy Plums]], [[Chests#List of items|Primal meat]]) and deal as much damage as possible.
+
+There is no limit to how many times an Obelisk can be fought; every attempt adds up, and finally beating the Obelisk may be the product of many battles.
+
+== Obelisk Rewards ==
+The following rewards are gained after defeating an Obelisk:
+
+* Obelisk level +1
+* [[Prestige#Level_Cap|Level cap]] +5
+* {{Sprite|Gem||16|Gems}} equal to <math>[40 + (10\times{\text{Obelisk Level}})]</math> up to Obelisk Level 60. After Obelisk Level 60 it increases to <math>[({\text{Obelisk Level}} - 60)\times25,000]</math>{{Sprite|Gem||16|Gems}} .
+
+The following rewards may also be obtained:
+* A new feature at specific Obelisk Levels
+* Access to the next Obelisk if not at the max Obelisk Level
+
+==Unlocks==
+Most normal [[Upgrades]] require a specific [[Prestige#Experience|experience level]]. As every Obelisk increases the maximum player level, most Obelisks indirectly unlock new [[Upgrades]].
+{| class="wikitable sticky-header align-center-1 align-center-4"
+! Obelisk !! Menu !! Workshop !! Artifacts !! Drones
+|-
+| <div id="OB1"></div>1
+| [[Workshop]] || {{NA}} || {{NA}} || Triple Damage Chance
+|-
+| <div id="OB2"></div>2
+| [[Drones]] || Experience Bomb<br>Chain Bombs Fired || {{NA}} || Rapid Fire Chance<br>[[Drones#bearDrone|Bomb Bear Suit]]
+|-
+| <div id="OB3"></div>3
+| {{NA}} || Infinity Bomb<br>Bomb Of Plenty Ore Multi || {{NA}} || {{NA}}
+|-
+| <div id="OB4"></div>4
+| [[Skill-Tree]] || {{NA}} || {{NA}} || [[Drones#chainDrone|Chain Bomber Suit]]
+|-
+| <div id="OB5"></div>5
+| {{NA}} || Cherry Bomb || {{NA}} || {{NA}}
+|-
+| <div id="OB6"></div>6
+| {{NA}} || Pickaxe Damage || {{NA}} || [[Drones#midasDrone|Midas Suit]]
+|-
+| <div id="OB7"></div>7
+| {{NA}} || D20 Bomb || {{NA}} || {{NA}}
+|-
+| <div id="OB8"></div>8
+| {{NA}} || Exp Bomb Bonus || Tier 2 || [[Drones#froggerDrone|Frogger Suit]]
+|-
+| <div id="OB9"></div>9
+| {{NA}} || Megabomb Damage || {{NA}} || {{NA}}
+|-
+| <div id="OB10"></div>10
+| [[Challenges]] || D20 Max Charges || {{NA}} || {{NA}}
+|-
+| <div id="OB12"></div>12
+| [[Contracts]]  || Chance for 3x Cherry Charges || {{NA}} || {{NA}}
+|-
+| <div id="OB14"></div>14
+| {{NA}} || Infinity Scaling || Tier 3 || {{NA}}
+|-
+| <div id="OB15"></div>15
+| [[Cards]] || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB17"></div>17
+| [[Pets]] || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB18"></div>18
+| [[Drones#Drone_Fuel|Drone Fuel]] || Transmuter Bar Multi || {{NA}} || {{NA}}
+|-
+| <div id="OB19"></div>19
+| [[Construct]] || {{NA}} || Tier 4 || [[Drones#veinseekerDrone|Veinseeker Suit]]
+|-
+| <div id="OB23"></div>23
+| [[Stargazing]] || {{NA}} || {{NA}} || [[Drones#starburstDrone|Starburst Suit]]<br>[[Drones#elixirDrone|Elixir Suit]]<br>[[Drones#voidDrone|Void Suit]]
+|-
+| <div id="OB30"></div>30
+| [[Archaeology]] || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB35"></div>35
+| [[Construct#tabber-World_1_Normal_Statue_Cost|Platinized Statues]] || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB37"></div>37
+| [[Fishing]] || {{NA}} || {{NA}} || [[Drones#anglerDrone|Angler Suit]]
+|-
+| <div id="OB42"></div>42
+| [[Construct#Monuments|World 3 Monument]] || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB62"></div>62
+| {{NA}} || Pickaxe & Bomb Damage<ref name="W4">This upgrade requires W4 bars, meaning it requires World 4 Monument, and as such it requires OB64 or above</ref> || {{NA}} || {{NA}}
+|-
+| <div id="OB63"></div>63
+| {{NA}} || Starfruit: All Star Multi<ref name="W4"/> || {{NA}} || {{NA}}
+|-
+| <div id="OB64"></div>64
+| [[Construct#Monuments|World 4 Monument]] || Bomb of Plenty Multi || {{NA}} || [[Drones#prismDrone|Prism Suit]]
+|-
+| <div id="OB65"></div>65
+| {{NA}} || Bomb Recharge Rate || {{NA}} || {{NA}}
+|-
+| <div id="OB66"></div>66
+| [[Archaeology#Ascension|Archaeology Ascension]] || Lootfrog Loot Multi || {{NA}} || {{NA}}
+|-
+| <div id="OB70"></div>70
+| [[Arcanist]] || Wizard Loot Multi<br>Veinseeker Drone Grade Cap || {{NA}} || [[Drones#minotaurDrone|Minotaur Suit]]
+|-
+| <div id="OB71"></div>71
+| {{NA}} || Transmuter Bar Multi || {{NA}} || {{NA}}
+|-
+| <div id="OB72"></div>72
+| {{NA}} || Golden Void Portal Chance || {{NA}} || {{NA}}
+|-
+| <div id="OB73"></div>73
+| {{NA}} || Unlock Spell: Rainbow Road<br>Spell Level Up Chance || {{NA}} || {{NA}}
+|-
+| <div id="OB74"></div>74
+| {{NA}} || {{NA}} || {{NA}} || {{NA}}
+|-
+| <div id="OB75"></div>75
+| {{NA}} || {{NA}} || {{NA}} || {{NA}}
+|}
+
+==Obelisk Base Armor==
+Obelisk Armor reduces the amount of damage dealt to the Obelisk. If the current Pickaxe damage (base damage, ignores crit multipliers) is smaller than the current Obelisk Armor, it will not be possible to damage it. Armor can be reduced by a various upgrades like [[Prestige#Tier 3 Artifacts|Tier 3 Artifacts]], [[Upgrades#World 1 Upgrades|upgrades]], [[Pets#tabber-Duck Skin|Duck pet skin]], and a regular [[Challenges#tabber-Regular 2|Challenge upgrade]].
+{{CostTable|Obelisk Base Armor|75|2.8|class{{=}}"wikitable text-align-center"|exponential|5|Obelisk Armor Icon|Armor|showTotalCost=false|overrideLevel=2=28,61=64.2oc|overrideScaling=61=9.5}}
+
+===Obelisk Base Armor Calculation===
+From OB1 to OB61, the armor increases by x2.8 each level (except that OB1 is half its expected value). From Ob61 onward, the armor increases by x9.5 every level. (At Ob61, both factors apply, making for an extra-large x26.6 jump.)
+
+In other words, for OB60 and below the armor is:
+
+<math>\text{Base Armor}=\operatorname{round}\left(10\times2.8^{(\text{Level}-1)}\right)</math>
+
+For OB61 and above the formula changes to: 
+<math>\text{Base Armor}=\operatorname{round}\left(10\times2.8^{60}\times9.5^{(\text{Level}-60)}\right)</math>
+
+==Obelisk Health==
+Obelisk Health is the total amount of damage required to defeat the Obelisk. This damage accumulates across multiple attempts. Before dealing any damage to the Obelisk, the pickaxe damage must exceed the current armor value. Currently there is no way to decrease the base amount of Obelisk Health.
+{{CostTable|Obelisk Base Health|75|2.8|class{{=}}"wikitable text-align-center"|exponential|100000|Obelisk Health Icon|Health|showTotalCost=false|overrideLevel=61=2.026dc|overrideScaling=61=30}}
+
+===Obelisk Health Calculation===
+From OB1 to OB61, the health increases by x2.8 each level. From Ob61 onward, the health increases by x30 every level. (At Ob61, both factors apply, making for an extra-large x84 jump.)
+
+In other words, for OB60 and below the health is:
+
+<math>\text{Base Health}=\operatorname{round}\left(100k\times2.8^{(\text{Level}-1)}\right)</math>
+
+For OB61 and above the formula changes to: 
+<math>\text{Base Health}=\operatorname{round}\left(100k\times2.8^{60}\times30^{(\text{Level}-60)}\right)</math>
+
+==Gallery==
+<tabber>
+Obelisk=
+<gallery mode="packed" heights="56px">
+Obelisk Level 1.png|Level 1
+Obelisk Level 2.png|Level 2
+Obelisk Level 3.png|Level 3
+Obelisk Level 4.png|Level 4
+Obelisk Level 5.png|Level 5
+Obelisk Level 6.png|Level 6
+Obelisk Level 7.png|Level 7
+Obelisk Level 8.png|Level 8
+Obelisk Level 9.png|Level 9
+Obelisk Level 10.png|Level 10
+Obelisk Level 11.png|Level 11
+Obelisk Level 12.png|Level 12
+Obelisk Level 13.png|Level 13
+Obelisk Level 14.png|Level 14
+Obelisk Level 15.png|Level 15
+</gallery>
+|-|
+Icon=
+<gallery mode="packed" heights="48px">
+Obelisk Level 1 Icon.png|Level 1
+Obelisk Level 2 Icon.png|Level 2
+Obelisk Level 3 Icon.png|Level 3
+Obelisk Level 4 Icon.png|Level 4
+Obelisk Level 5 Icon.png|Level 5
+Obelisk Level 6 Icon.png|Level 6
+Obelisk Level 7 Icon.png|Level 7
+Obelisk Level 8 Icon.png|Level 8
+Obelisk Level 9 Icon.png|Level 9
+Obelisk Level 10 Icon.png|Level 10
+Obelisk Level 11 Icon.png|Level 11
+Obelisk Level 12 Icon.png|Level 12
+Obelisk Level 13 Icon.png|Level 13
+Obelisk Level 14 Icon.png|Level 14
+Obelisk Level 15 Icon.png|Level 15
+</gallery>
+|-|
+Health=
+<gallery mode="packed" heights="40px">
+Obelisk Level 1 Health Icon.png|Level 1
+Obelisk Level 2 Health Icon.png|Level 2
+Obelisk Level 3 Health Icon.png|Level 3
+Obelisk Level 4 Health Icon.png|Level 4
+Obelisk Level 5 Health Icon.png|Level 5
+Obelisk Level 6 Health Icon.png|Level 6
+Obelisk Level 7 Health Icon.png|Level 7
+Obelisk Level 8 Health Icon.png|Level 8
+Obelisk Level 9 Health Icon.png|Level 9
+Obelisk Level 10 Health Icon.png|Level 10
+Obelisk Level 11 Health Icon.png|Level 11
+Obelisk Level 12 Health Icon.png|Level 12
+Obelisk Level 13 Health Icon.png|Level 13
+Obelisk Level 14 Health Icon.png|Level 14
+Obelisk Level 15 Health Icon.png|Level 15
+</gallery>
+|-|
+Armor=
+<gallery mode="packed" heights="40px">
+Obelisk Level 1 Armor Icon.png|Level 1
+Obelisk Level 2 Armor Icon.png|Level 2
+Obelisk Level 3 Armor Icon.png|Level 3
+Obelisk Level 4 Armor Icon.png|Level 4
+Obelisk Level 5 Armor Icon.png|Level 5
+Obelisk Level 6 Armor Icon.png|Level 6
+Obelisk Level 7 Armor Icon.png|Level 7
+Obelisk Level 8 Armor Icon.png|Level 8
+Obelisk Level 9 Armor Icon.png|Level 9
+Obelisk Level 10 Armor Icon.png|Level 10
+Obelisk Level 11 Armor Icon.png|Level 11
+Obelisk Level 12 Armor Icon.png|Level 12
+Obelisk Level 13 Armor Icon.png|Level 13
+Obelisk Level 14 Armor Icon.png|Level 14
+Obelisk Level 15 Armor Icon.png|Level 15
+</gallery>
+</tabber>
+
+==Trivia==
+* There are only 15 different Obelisk designs. Obelisk 16+ will loop back to design one.
+* Use the code OB to view Obelisk art at any time. Alternatively, going to the profile found in the stats page and switching the Obelisk that is visible behind the player by tapping it is also an option.
+
+==Navigation==
+{{Menu}}

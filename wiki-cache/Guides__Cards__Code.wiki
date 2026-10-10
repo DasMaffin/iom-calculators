@@ -1,0 +1,15 @@
+<div style="display: flex; gap: 20px; align-items: flex-start;flex-wrap: wrap;flex-direction: row-reverse;justify-content: flex-end;">
+<div style="flex: 1">Prerequisites: Unlock the cards menu at Obelisk 15
+# Tap the 4 dots
+# Tap Options
+# Tap Enter Code
+# Tap the letters to enter CODE
+# Tap Submit
+## If you don't get it, restart your game and try again
+## If you still don't get it, ask for help on the [https://discord.com/invite/t6Y6QRa Discord]
+</div>
+<div style="flex: 0 0 auto;">[[File:Code Misc Card.mp4]]</div>
+</div>
+
+[[Category:Cards]]
+[[Category:Video Guides]]

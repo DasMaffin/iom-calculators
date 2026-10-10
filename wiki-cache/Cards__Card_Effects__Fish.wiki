@@ -1,0 +1,91 @@
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome<ref name="PolyPotency" /><ref name="FishUpg">With a [[Fishing#Upgrades|Tier 2 Fishing Upgrade]]</ref><ref name="FishEnh">With a [[Fishing#Enhancements|Tier 2 Fishing Enhancement]]</ref> || Infernal<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Guppy}} || Guppy || Guppy Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Bass}} || Bass || Bass Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Catfish}} || Catfish || Catfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Golden Trout}} || Golden Trout || Golden Trout Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Sandscale Carp}} || Sandscale Carp || Sandscale Carp Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Armored Roller}} || Armored Roller || Armored Roller Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Spiny Puffer}} || Spiny Puffer || Spiny Puffer Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Scarabshoe Crab}} || Scarabshoe Crab || Scarabshoe Crab Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Snow-bellied Swarmer}} || Snow-bellied Swarmer || Snow-bellied Swarmer Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Frostshell Crab}} || Frostshell Crab || Frostshell Crab Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Frostdrip Spearfish}} || Frostdrip Spearfish || Frostdrip Spearfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Auroreel}} || Auroreel || Auroreel Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Coralstar}} || Coralstar || Coralstar Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Anchorfin Stingray}} || Anchorfin Stingray || Anchorfin Stingray Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Pearlescent Tetra}} || Pearlescent Tetra || Pearlescent Tetra Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Gem Whale}} || Gem Whale || Gem Whale Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Ionizing Eel}} || Ionizing Eel || Ionizing Eel Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Gammangler Fish}} || Gammangler Fish || Gammangler Fish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Elephant's Blob}} || Elephant's Blob || Elephant's Blob Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Wastefish}} || Wastefish || Wastefish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Hadal Crusher}} || Hadal Crusher || Hadal Crusher Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Live Sea Mine}} || Live Sea Mine || Live Sea Mine Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Ventilator Remora}} || Ventilator Remora || Ventilator Remora Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Wreckshell Pilferer}} || Wreckshell Pilferer || Wreckshell Pilferer Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Stonescale Carp}} || Stonescale Carp || Stonescale Carp Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Sturgem}} || Sturgem || Sturgem Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Conductive Eel}} || Conductive Eel || Conductive Eel Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Arapaim-al}} || Arapaim-al || Arapaim-al Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Molten Archerfish}} || Molten Archerfish || Molten Archerfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Lava Snail}} || Lava Snail || Lava Snail Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Obsidian-Tooth Barracuda}} || Obsidian-Tooth Barracuda || Obsidian-Tooth Barracuda Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Basalturtle}} || Basalturtle || Basalturtle Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Sunglazed Flying Fish}} || Sunglazed Flying Fish || Sunglazed Flying Fish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Cloudcutter Manta}} || Cloudcutter Manta || Cloudcutter Manta Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Shocksailfish}} || Shocksailfish || Shocksailfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Lunar Sunfish}} || Lunar Sunfish || Lunar Sunfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Lanternfish Comet}} || Lanternfish Comet || Lanternfish Comet Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=UFO}} || UFO || UFO Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Sub-Solar Squid}} || Sub-Solar Squid || Sub-Solar Squid Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Planetary Jellyfish}} || Planetary Jellyfish || Planetary Jellyfish Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Heliocentric Clam}} || Heliocentric Clam || Heliocentric Clam Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Gamma Rayburst Shrimp}} || Gamma Rayburst Shrimp || Gamma Rayburst Shrimp Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Galaxia Whale}} || Galaxia Whale || Galaxia Whale Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|-
+| {{CardShowcase|card=Dark Matter Blackdragon}} || Dark Matter Blackdragon || Dark Matter Blackdragon Fish Gain 1.50x || 2x || 4x-9.2x || +0.08x/+0.005x
+|}

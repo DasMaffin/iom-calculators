@@ -1,0 +1,90 @@
+<tabber>
+Contract Cost Reduction=
+{{Stat|Contract Cost Reduction|Reduces the amount of bars required to complete Contracts. Functions by increasing the denominator of the multiplier, e.g. a 50% reduction is a <math>\frac{100\%}{100\%+50\%}</math> multiplier on the requirement.
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#RareRelic_ContractCostReduction|Rare Contract Bar Reduction Relic]]
+}}
+|-|
+Double Contract Point Chance=
+{{Stat|Double Contract Point Chance|
+The chance to be awarded 2x Contract Points upon completing a Contract.
+| '''Stargazing'''<math>+</math>|
+The [[File:Cancer Full.png|16px]] [[Stargazing#Cancer|Cancer]] Star<math>+</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#DoubleContractPointChance_SSUpgrade|Super Star upgrade]]
+}}
+|-|
+Triple Contract Point Chance=
+{{Stat|Triple Contract Point Chance|
+The chance to be awarded 3x Contract Points upon completing a Contract.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Who's Asking For All These Bars.png|16px]] [[Skill-Tree#WhosAskingForAllTheseBars|Who's Asking For All These Bars?]] Skill
+| '''Construct'''<math>+</math> |
+[[File:16 Statue Affluence Normal.png|16px]] [[Construct#Kohanu|World 3: Statue of Affluence]]
+| '''Fishing'''<math>+</math> |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_TripleContractPointChance|Tier 1 Notice: Triple Contract Chance]] (Level 175) 
+| '''Upgrades'''<math>+</math> |
+The [[File:Rafflenium_Bar.png|16px]] [[Upgrades#Upgrades_W2_TripleContractChance|Rafflenium Bar Upgrade]] (Level 175) 
+| '''Skins'''<math>+</math> |
+The [[Skins#SkinReward9|9th Miner Skin Reward]]
+}}
+|-|
+5x Contract Point Chance=
+{{Stat|5x Contract Point Chance|
+The chance to be awarded 5x Contract Points upon completing a Contract.
+| '''Pets'''<math>+</math> |
+The [[File:Rabbit_Quest.png|16px]] [[Pets#Rabbit_Quest|Rabbit Pet Quest]]
+}}
+|-|
+10x Contract Point Chance=
+{{Stat|10x Contract Point Chance|
+The chance to be awarded 10x Contract Points upon completing a Contract.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Please Sir Don't Make Me Prestige Again.png|16px]] [[Skill-Tree#PleaseSirDontMakeMePrestigeAgain|"Please Sir Don't Make Me Prestige Again"]] Skill
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Misc FrozenAra.png}}[[Cards#CardEffects_Misc_FrozenAra|FrozenAra Misc Card]]
+| '''Construct'''<math>+</math> |
+[[File:16 Statue Affluence Normal.png|16px]] [[Construct#Kohanu|World 3: Statue of Affluence]]
+| '''Archaeology'''<math>+</math> |
+The [[File:Hermes_Idol.png|16px]] [[Archaeology#Hermes|Hermes]] Idol
+| '''Fishing'''<math>+</math> |
+[[File:Tier 2 Notice Token.png|16px]]  [[Fishing#Upgrades_T2_10xContractPointChance|Tier 2 Notice: 10x Contract Chance]]
+}}
+|-|
+Contract Points Rewarded=
+{{Stat|Contract Points Rewarded|
+The base amount of Contract Points awarded upon completing a Contract. Starts at 10.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Who's Asking For All These Bars.png|16px]] [[Skill-Tree#WhosAskingForAllTheseBars|Who's Asking For All These Bars?]] Skill
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Misc Contract.png}}[[Cards#CardEffects_Misc_Contract|Contract Misc Card]]
+| '''Pets'''<math>+</math> |
+The [[File:Rabbit_Skin.png|16px]] [[Pets#tabber-Rabbit_2|Rabbit Pet Skin]]
+}}
+|-|
+Contract Upgrade Cap Increase=
+{{Stat|Contract Upgrade Cap Increase|
+The increase to the maximum level of Contract Upgrades.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Idle Obelisk Mincer.png|16px]] [[Skill-Tree#IdleObeliskMincer|Idle Obelisk Mincer]] Skill
+| '''Pets'''<math>+</math> |
+The [[File:Happybot_Skin.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy Bot Skin]]
+| '''Construct'''<math>+</math> |
+[[File:9 Statue Childhood Normal.png|16px]] [[Construct#Salutem|World 1: Statue of Childhood]]<math>+</math>
+<br>[[File:16 Statue Affluence Normal.png|16px]] [[Construct#Kohanu|World 3: Statue of Affluence]]
+| '''Archaeology'''<math>+</math>|
+The [[File:Hera_Idol.png|16px]] [[Archaeology#Hera Idols|Hera]] Idol<math>+</math>
+<br>The [[File:Hermes_Idol.png|16px]] [[Archaeology#Hermes|Hermes]] Idol
+}}
+|-|
+Contract Upgrade Cost Reduction=
+{{Stat|Contract Upgrade Cost Reduction|
+The amount by which Contract Upgrade costs are multiplied.
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Rabbit Icon.png}}[[Cards#CardEffects_Pets_Rabbit|Rabbit Pet Card]]
+| '''Pets''' |
+The [[File:Rabbit_Default.png|16px]] [[Pets#tabber-Rabbit_2|Rabbit Pet]]<math>+</math>
+<br>The [[File:Rabbit_Quest.png|16px]] [[Pets#tabber-Rabbit_2|Rabbit Pet Quest]]
+| '''Stargazing''' |
+The [[File:Cancer Full.png|16px]] [[Stargazing#Cancer|Cancer]] Star
+}}
+</tabber>

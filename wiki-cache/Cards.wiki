@@ -1,0 +1,1551 @@
+{{Version|2.2.23}}
+
+[[File:Cards_Button.png|frameless|left]]
+Cards are unlocked at Obelisk Level 15 and give perks according to the type of card.
+
+There is a card for every [[Ores|ore]], [[Craft#Crafting_Bars|bar]], [[Bombs#Bombs|bomb]], [[Drones|drone]], [[Pets|pet]], [[Construct#Veins|vein]], and [[Stargazing|star]] in the game, as well as misc cards and cards for [[Archaeology|archaeology]], [[Fishing|fishing]], and [[Arcanist|arcanist]].
+{{Clear|left}}
+
+==How to get cards== 
+Cards for resources (ores, bars, veins, stars, fish) are obtained by collecting the resource. For example, ore cards are obtained by mining ores, and star cards are obtained by catching stars. Other cards are obtained generally by interacting with the thing the card is for: Bomb cards are obtained by firing [[bombs]], Drone cards are obtained when the drone consumes [[Drones#Drone Fuel|drone fuel]] time, Pet cards are obtained by leveling [[pets]], and Archaeology block cards are obtained by breaking those blocks. Bar cards can be obtained either by crafting bars, or by getting them via the [[Bombs#tabber-Transmuter_Bomb|Transmuter Bomb]]. Legendary Fish cards are guaranteed upon catching the [[Fishing#Legendary_Fish|Legendary Fish]]. Misc cards are obtained by performing miscellaneous actions. See [[Cards#Misc card odds|below]].
+
+Card odds are additive within a single action. That is, if one action should roll for a card multiple times, the probability is added as many time as necessary. For example, if an ore has a 1/5,000,000 chance to give a card when mined, and you gain 50 ore from mining a single rock (due to multis such as a rainbow floor, etc.), you roll a 50/5,000,000 chance to get the card, rather than rolling a 1/5,000,000 chance 50 separate times. Returning from offline causes a single roll for a given card/shard with additive odds for every action done during the time spent offline. This means offline can be used to achieve a 100% chance, but offline also cannot roll for shards more than once meaning achieving 150% odds for example will only ever result in one shard, see [[Offline#Offline_Drop_Threshold_Behavior|Offline Drop Behavior]].
+
+===Gilded Cards===
+As soon as you unlock a standard card, you can gild it to increase its effect. Gilding costs Prestige Points, Gold and Gems. See [[Cards#Gilded Card Costs]] for specific prices. Gilded Cards count as a new card in the [[Stats|Stats]] menu and for bonuses based on the number of Cards owned.
+
+===Polychrome Cards===
+You can Polychrome your Cards after buying "[[Skill-Tree#Skills|This Is Gonna Take A While..]]" for 40 skill points in the [[Skill-Tree]] and then collecting 10 Polychrome Shards. Polychrome Shards are earned the same way as Cards. To earn Polychrome Shards for a Card, the Card needs to be Gilded first. Polychromed Cards also count as a new Card in the [[Stats|Stats]] menu and for bonuses based on number of Cards owned. The table shows base bonuses and maximally upgraded bonuses where applicable.
+
+===Infernal Cards===
+You can Ignite your Cards into Infernal Cards. You have to unlock each set individually. Once a set is unlocked, similar to Polychrome Cards, you must collect 10 Infernal Shards. Infernal cards also count as a new Card in the [[Stats|Stats]] menu and for bonuses based on the number of Cards owned. Certain card sets require [[Skill-Tree|specific skills]] to unlock like [[Skill-Tree#FlamingVeins|Flaming Veins]] to unlock Infernal Vein Cards or [[Skill-Tree#AstralForge|Astral Forge]] to unlock Infernal Star Cards. Infernal Card effects scale based on the total number of Infernal Cards owned and the number of Infernal Cards owned in the same set.
+
+{| class="wikitable text-align-center align-left-5"
+|+Infernal Card Set Unlocks
+! colspan="2" | Card Category || Source || Set Bonus || All Bonus || Version Added
+|-
+! [[File: Tin Ore.png|x24px]]
+| '''Ore'''|| {{Sprite|Volcano Legendary Fish Head|Fishing#tabber-Laviathan|16x16|Laviathan}} {{Sprite|Tribute Rank 1||16x16|Tribute 1}} || +0.12x || +0.02x || 1.8.78
+|-
+! [[File:Tin Bar.png|x24px]] 
+| '''Bar''' || {{Sprite|Volcano Legendary Fish Head|Fishing#tabber-Laviathan|16x16|Laviathan}} {{Sprite|Tribute Rank 1||16x16|Tribute 1}} || +0.12x || +0.02x || 1.8.78
+|-
+! [[File:Basic Bomb.png|x24px]] 
+| '''Bomb''' || {{NA|colspan=4}}
+|-
+! [[File:Misc Super Star.png|x24px]] 
+| '''Misc''' || The {{Sprite|Hestia Idol|Archaeology#tabber-Common_Idols|16x16|Hestia Common Idol}} || +0.02x || +0.00x || 2.1
+|-
+! [[File:Drone Bear Icon.png|x24px]] 
+| '''Drone''' || The {{Sprite|Unlock Drone Infernal Cards|Drones#Coal_Upgrades|16x16|Infernal Cards Coal Upgrade}} || +0.30x || +0.002x || 2.0
+|-
+! [[File:Crab Default.png|x24px]] 
+| '''Pet'''  || The {{Sprite|Butterfly Skin|Pets#tabber-Butterfly_Skin|16x16|Scorchwing Butterfly Skin}} || +0.50x || +0.002x || 2.0
+|-
+! [[File:Stone Vein.png|x24px]] 
+| '''Vein''' || The {{Sprite|Flaming Veins|Skill-Tree#Skills|16x16|Flaming Veins}} Skill || +0.15x || +0.01x || 1.8.78
+|-
+! [[FIle:Aries.png|x24px]] 
+| '''Star''' || The {{Sprite|Astral Forge|Skill-Tree#Skills|16x16|Astral Forge}} Skill || +0.20x || +0.01x || 1.8.78
+|-
+! [[File:Archaeology Tier 1 Dirt.png|x24px]] 
+| '''Arch'''  || The {{Sprite|Hades Idol|Archaeology#tabber-Divine_Idols|16x16|Hades Divine Idol}} || +0.04x || +0.002x || 2.1
+|-
+! [[File:Guppy.png|x24px]] 
+| '''Fish''' || {{Sprite|Volcano Legendary Fish Head|Fishing#tabber-Laviathan|16x16|Laviathan}} {{Sprite|Tribute Rank 2||16x16|Tribute 2}} || +0.08x || +0.005x || 1.8.78
+|-
+! [[File:Lake Legendary Fish Head.png|x24px]] 
+| '''Legend Fish''' || {{Sprite|Volcano Legendary Fish Head|Fishing#tabber-Laviathan|16x16|Laviathan}} {{Sprite|Tribute Rank 2||16x16|Tribute  2}} || +0.20x || +0.001x || 1.8.78
+|-
+! [[File: Soft Essence.png|x24px]] 
+| '''Essence''' || {{NA|colspan=4|rowspan=4}}
+|-
+! [[File:Ash Rune.png|x24px]] 
+|  '''Rune''' 
+|-
+! [[File:Runic Surge.png|x24px]] 
+| '''Spell'''
+|-
+! [[File:White Orb.png|x24px]] 
+| '''Orb'''
+|}
+
+====Infernal Cards Multiplier====
+The Infernal card multiplier (with the exception of legendary fish cards) is calculated by the following formula:
+
+<math>\text{Total Multiplier} = 1 + [(\text{PolyBonus} - 1) \times \text{InfernalBonus}]</math><ref name=PolyBonus>If the card's infernal effect is not the same as its poly effect, use the base bonus found [[Cards#Card_Effects|here]] in place of the poly bonus </ref>
+
+For Legendary Fish the formula is instead <math>\text{Total Multiplier} = \text{PolyBonus} \times \text{InfernalBonus}</math>
+
+For example: If a card's polychrome bonus is 1.25x and the infernal multiplier for that card category is 10x, then the Total Multiplier is 3.5x.
+
+The card category infernal multiplier can be worked out with the following formula:
+
+<math>\text{Total Bonus} = [1 + (\text{Inf Card Type Amount} \times \text{Inf Card Type Bonus})</math><math>+</math><math>(\text{All Inf Cards Amount}  \times \text{All Inf Bonus})]\times \text{Other Sources}</math>
+
+For example, having 86 Ore inf cards owned, a total of 356 inf cards owned, and an Other Source bonus of 1.6878x, the formula would be:
+<math>\text{Total Bonus} = [1 + (\text{86} \times \text{0.12}) + (\text{356}  \times \text{0.02})]\times \text{1.6878} = \text{31.12x}</math>
+
+<references />
+
+==Card Effects==
+{{See also|Cards/Card Effects}}
+To see the full card showcase please check out the [[Cards/Card Effects]] page.
+
+<tabber class="sticky-header">
+General=
+Same effect applies for all cards of that particular type, meaning that all of the Ore Cards share the same effect.
+{| class="wikitable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+! colspan="2" | Card !! Standard || Gilded || Polychrome || Infernal
+|-
+| {{CardShowcase|card=Runite Ore}} || Ore Cards || Ore Gain 1.50x || 2x || 4x-20.95x<br/><ref name="Cetus">With the [[Stargazing#Stars|Cetus Star]]</ref><ref name="PalmiteUpg">With the {{Sprite|Palmite Bar|Upgrades#World_3_Upgrades||Palmite Bar Upgrade}}</ref><ref name="HappyBotQuest">With the [[Pets#tabber-Happy-Bot 3|Happy Bot Pet Quest]]</ref><ref name="PolyPotency">With the "[[Store#Value Packs|Polychrome Potency Bundle!]]" Value Pack</ref><ref name="Geoduck">With the [[Fishing#Legendary Fish|Geoduck Legendary Tribute]]</ref> || +0.12x/+0.02x<ref name=InfernalEffect>Refers to Set Infernals and Total Infernals bonus</ref>
+|-
+| {{CardShowcase|card=Citrine Bar}} || Bar Cards || Bar Gain 1.50x || 2x || 4x-19x<ref name="Andromeda">With the [[Archaeology#tabber-Legendary Idols|Andromeda]] Idol</ref> || +0.12x/+0.02x <ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Bomb of Plenty}} || Bomb Cards || On Recharge: 50% to Gain 2x Bomb || 2x || 3x || {{NA}} 
+|-
+| {{CardShowcase|card=Stone Vein}} || Vein Cards || Vein Gain 1.50x || 2x || 4x-12.48x<br/><ref name="HappyBotQuest" /><ref name="PolyPotency" /><ref name="InsaneVein">With the "[[Skill-Tree#Skills|Insane In The Vein Gain]]" Skill</ref><ref name="mythicrelic">With the last [[Chests#List_of_relics|Mythic Relic]]</ref> || +0.15x/+0.01x<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Aquarius}} || Star Cards || Star Gain 1.50x || 2x || 4x-7.84x<br/><ref name="HappyBotQuest" /><ref name="PolyPotency" /><ref name="Geoduck">With the [[Fishing#Legendary Fish|Geoduck Legendary Tribute]]</ref> || +0.20x/+0.01x <ref name=InfernalEffect /><ref name="ThreeQuarter">With the [[Store#Value Packs|Three Quarter Bundle]]</ref>
+|-
+| {{CardShowcase|card=Golden Trout}} || Fish Cards || Fish Gain 1.50x || 2x || 4x-9.2x<br/><ref name="PolyPotency" /><ref name="FishUpg">With a [[Fishing#Upgrades|Tier 2 Fishing Upgrade]]</ref><ref name="FishEnh">With a [[Fishing#Enhancements|Tier 2 Fishing Enhancement]]</ref> || +0.08x/+0.005x<ref name=InfernalEffect />
+|-
+| {{CardShowcase|card=Soft Essence}} || Essence Cards || Essence Max Loot +1 || +2 || +4 || {{NA}} 
+|-
+| {{CardShowcase|card=Ash Rune}} || Rune Cards || Rune Craft Multiplier +15% || 30% || 50% || {{NA}} 
+|-
+| {{CardShowcase|card=Runic Surge}} || Spell Cards || Spell Effect +10% || 20% || 35% || {{NA}} 
+|-
+| {{CardShowcase|card=White Orb}} || Orb Cards || Orb Trade Multiplier +15% || 30% || 50% || {{NA}} 
+|}
+|-|
+Misc=
+{{:Cards/Card_Effects/Misc}}
+|-|
+Drones=
+{{:Cards/Card Effects/Drones}}
+|-|
+Pets=
+{{:Cards/Card Effects/Pets}}
+|-|
+Archaeology=
+{{:Cards/Card_Effects/Archaeology}}
+|-|
+Legendary Fish=
+{{:Cards/Card_Effects/Legendary_Fish}}
+</tabber>
+<references />
+
+==Gilded Card Costs==
+<tabber class="sticky-header">
+Ore=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Tin Ore.png|cardName=Tin Ore|goldCost=25m|prestigePointCost=250000|gemCost=50}}
+|-
+{{GildedCardCost|cardImage=Copper Ore.png|cardName=Copper Ore|goldCost=25m|prestigePointCost=250000|gemCost=60}}
+|-
+{{GildedCardCost|cardImage=Mithril Ore.png|cardName=Mithril Ore|goldCost=25m|prestigePointCost=250000|gemCost=70}}
+|-
+{{GildedCardCost|cardImage=Adamant Ore.png|cardName=Adamant Ore|goldCost=25m|prestigePointCost=250000|gemCost=80}}
+|-
+{{GildedCardCost|cardImage=Runite Ore.png|cardName=Runite Ore|goldCost=25m|prestigePointCost=250000|gemCost=90}}
+|-
+{{GildedCardCost|cardImage=Citrine Ore.png|cardName=Citrine Ore|goldCost=25m|prestigePointCost=250000|gemCost=100}}
+|-
+{{GildedCardCost|cardImage=Amethyst Ore.png|cardName=Amethyst Ore|goldCost=25m|prestigePointCost=250000|gemCost=110}}
+|-
+{{GildedCardCost|cardImage=Topaz Ore.png|cardName=Topaz Ore|goldCost=25m|prestigePointCost=250000|gemCost=120}}
+|-
+{{GildedCardCost|cardImage=Obsidian Ore.png|cardName=Obsidian Ore|goldCost=25m|prestigePointCost=250000|gemCost=130}}
+|-
+{{GildedCardCost|cardImage=Demonite Ore.png|cardName=Demonite Ore|goldCost=25m|prestigePointCost=250000|gemCost=140}}
+|-
+{{GildedCardCost|cardImage=VR-Tin Ore.png|cardName=VR-Tin Ore|goldCost=25m|prestigePointCost=250000|gemCost=150}}
+|-
+{{GildedCardCost|cardImage=VR-Amethyst Ore.png|cardName=VR-Amethyst Ore|goldCost=25m|prestigePointCost=250000|gemCost=160}}
+|-
+{{GildedCardCost|cardImage=VR-Demonite Ore.png|cardName=VR-Demonite Ore|goldCost=25m|prestigePointCost=250000|gemCost=170}}
+|-
+{{GildedCardCost|cardImage=VR-ERROR Ore.png|cardName=VR-ERROR Ore|goldCost=25m|prestigePointCost=250000|gemCost=180}}
+|-
+{{GildedCardCost|cardImage=Lunarium Ore.png|cardName=Lunarium Ore|goldCost=25m|prestigePointCost=250000|gemCost=190}}
+|-
+{{GildedCardCost|cardImage=Earth-C-137 Ore.png|cardName=Earth-C-137 Ore|goldCost=25m|prestigePointCost=250000|gemCost=200}}
+|-
+{{GildedCardCost|cardImage=Meteorite Ore.png|cardName=Meteorite Ore|goldCost=25m|prestigePointCost=250000|gemCost=210}}
+|-
+{{GildedCardCost|cardImage=Singularity Ore.png|cardName=Singularity Ore|goldCost=25m|prestigePointCost=250000|gemCost=220}}
+|-
+{{GildedCardCost|cardImage=Halium Ore.png|cardName=Halium Ore|goldCost=25m|prestigePointCost=250000|gemCost=230}}
+|-
+{{GildedCardCost|cardImage=Blasphemite Ore.png|cardName=Blasphemite Ore|goldCost=25m|prestigePointCost=250000|gemCost=240}}
+|-
+{{GildedCardCost|cardImage=Angelite Ore.png|cardName=Angelite Ore|goldCost=25m|prestigePointCost=250000|gemCost=250}}
+|-
+{{GildedCardCost|cardImage=Elysium Ore.png|cardName=Elysium Ore|goldCost=25m|prestigePointCost=250000|gemCost=260}}
+|-
+{{GildedCardCost|cardImage=Enemite Ore.png|cardName=Enemite Ore|goldCost=25m|prestigePointCost=250000|gemCost=270}}
+|-
+{{GildedCardCost|cardImage=Beepboopium Ore.png|cardName=Beepboopium Ore|goldCost=25m|prestigePointCost=250000|gemCost=280}}
+|-
+{{GildedCardCost|cardImage=Radion-73 Ore.png|cardName=Radion-73 Ore|goldCost=25m|prestigePointCost=250000|gemCost=290}}
+|-
+{{GildedCardCost|cardImage=Cranium Ore.png|cardName=Cranium Ore|goldCost=25m|prestigePointCost=250000|gemCost=300}}
+|-
+{{GildedCardCost|cardImage=Lapis Ore.png|cardName=Lapis Ore|goldCost=25m|prestigePointCost=250000|gemCost=310}}
+|-
+{{GildedCardCost|cardImage=Quartz Ore.png|cardName=Quartz Ore|goldCost=25m|prestigePointCost=250000|gemCost=320}}
+|-
+{{GildedCardCost|cardImage=Glacialite Ore.png|cardName=Glacialite Ore|goldCost=25m|prestigePointCost=250000|gemCost=330}}
+|-
+{{GildedCardCost|cardImage=Twinklestone Ore.png|cardName=Twinklestone Ore|goldCost=25m|prestigePointCost=250000|gemCost=340}}
+|-
+{{GildedCardCost|cardImage=Sandcasium Ore.png|cardName=Sandcasium Ore|goldCost=25m|prestigePointCost=250000|gemCost=350}}
+|-
+{{GildedCardCost|cardImage=Clamite Ore.png|cardName=Clamite Ore|goldCost=25m|prestigePointCost=250000|gemCost=360}}
+|-
+{{GildedCardCost|cardImage=Thunderstone Ore.png|cardName=Thunderstone Ore|goldCost=25m|prestigePointCost=250000|gemCost=370}}
+|-
+{{GildedCardCost|cardImage=Crabrock Ore.png|cardName=Crabrock Ore|goldCost=25m|prestigePointCost=250000|gemCost=380}}
+|-
+{{GildedCardCost|cardImage=Hailstone Ore.png|cardName=Hailstone Ore|goldCost=25m|prestigePointCost=250000|gemCost=390}}
+|-
+{{GildedCardCost|cardImage=Frostbite Ore.png|cardName=Frostbite Ore|goldCost=25m|prestigePointCost=250000|gemCost=400}}
+|-
+{{GildedCardCost|cardImage=Icebloom Ore.png|cardName=Icebloom Ore|goldCost=25m|prestigePointCost=250000|gemCost=410}}
+|-
+{{GildedCardCost|cardImage=Pinguinus Ore.png|cardName=Pinguinus Ore|goldCost=25m|prestigePointCost=250000|gemCost=420}}
+|-
+{{GildedCardCost|cardImage=Macawrock Ore.png|cardName=Macawrock Ore|goldCost=25m|prestigePointCost=250000|gemCost=430}}
+|-
+{{GildedCardCost|cardImage=Cocore Ore.png|cardName=Cocore Ore|goldCost=25m|prestigePointCost=250000|gemCost=440}}
+|-
+{{GildedCardCost|cardImage=Rafflenium Ore.png|cardName=Rafflenium Ore|goldCost=25m|prestigePointCost=250000|gemCost=450}}
+|-
+{{GildedCardCost|cardImage=Carnivorian Ore.png|cardName=Carnivorian Ore|goldCost=25m|prestigePointCost=250000|gemCost=460}}
+|-
+{{GildedCardCost|cardImage=Infernite Ore.png|cardName=Infernite Ore|goldCost=25m|prestigePointCost=250000|gemCost=470}}
+|-
+{{GildedCardCost|cardImage=Blood-Onyx Ore.png|cardName=Blood-Onyx Ore|goldCost=25m|prestigePointCost=250000|gemCost=480}}
+|-
+{{GildedCardCost|cardImage=Cyrogem Ore.png|cardName=Cyrogem Ore|goldCost=25m|prestigePointCost=250000|gemCost=490}}
+|-
+{{GildedCardCost|cardImage=Pinnaclite Ore.png|cardName=Pinnaclite Ore|goldCost=25m|prestigePointCost=250000|gemCost=500}}
+|-
+{{GildedCardCost|cardImage=Omeletite Ore.png|cardName=Omeletite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Resinite Ore.png|cardName=Resinite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Impactium Ore.png|cardName=Impactium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Tricerastone Ore.png|cardName=Tricerastone Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Duelysium Ore.png|cardName=Duelysium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Arcusite Ore.png|cardName=Arcusite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Phalanxite Ore.png|cardName=Phalanxite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Guardium Ore.png|cardName=Guardium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Cognite Ore.png|cardName=Cognite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Telophite Ore.png|cardName=Telophite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Steamstone Ore.png|cardName=Steamstone Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Equinine Ore.png|cardName=Equinine Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Dynamite Ore.png|cardName=Dynamite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Genevium Ore.png|cardName=Genevium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Manhattite Ore.png|cardName=Manhattite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Rationium Ore.png|cardName=Rationium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Vaporium Ore.png|cardName=Vaporium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Palmite Ore.png|cardName=Palmite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Ransomite Ore.png|cardName=Ransomite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=MVPD-1988 Ore.png|cardName=MVPD-1988 Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Chronite Ore.png|cardName=Chronite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Hattium Ore.png|cardName=Hattium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Pishalvite Ore.png|cardName=Pishalvite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Teatimium Ore.png|cardName=Teatimium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Rumium Ore.png|cardName=Rumium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Anchorium Ore.png|cardName=Anchorium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Mateyum Ore.png|cardName=Mateyum Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Hookite Ore.png|cardName=Hookite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Carpetite Ore.png|cardName=Carpetite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Djinnium Ore.png|cardName=Djinnium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Sinbadium Ore.png|cardName=Sinbadium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Turbanite Ore.png|cardName=Turbanite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Carriagum Ore.png|cardName=Carriagum Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Crystal-Rose Ore.png|cardName=Crystal-Rose Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Frogstone Ore.png|cardName=Frogstone Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Slipperite Ore.png|cardName=Slipperite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Jellystone Ore.png|cardName=Jellystone Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Lollipopite Ore.png|cardName=Lollipopite Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Mintium Ore.png|cardName=Mintium Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Neopolium Ore.png|cardName=Neopolium  Ore|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|}
+
+|-|
+Bars=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Tin Bar.png|cardName=Tin Bar|goldCost=25m|prestigePointCost=250000|gemCost=50}}
+|-
+{{GildedCardCost|cardImage=Copper Bar.png|cardName=Copper Bar|goldCost=25m|prestigePointCost=250000|gemCost=60}}
+|-
+{{GildedCardCost|cardImage=Mithril Bar.png|cardName=Mithril Bar|goldCost=25m|prestigePointCost=250000|gemCost=70}}
+|-
+{{GildedCardCost|cardImage=Adamant Bar.png|cardName=Adamant Bar|goldCost=25m|prestigePointCost=250000|gemCost=80}}
+|-
+{{GildedCardCost|cardImage=Runite Bar.png|cardName=Runite Bar|goldCost=25m|prestigePointCost=250000|gemCost=90}}
+|-
+{{GildedCardCost|cardImage=Citrine Bar.png|cardName=Citrine Bar|goldCost=25m|prestigePointCost=250000|gemCost=100}}
+|-
+{{GildedCardCost|cardImage=Amethyst Bar.png|cardName=Amethyst Bar|goldCost=25m|prestigePointCost=250000|gemCost=110}}
+|-
+{{GildedCardCost|cardImage=Topaz Bar.png|cardName=Topaz Bar|goldCost=25m|prestigePointCost=250000|gemCost=120}}
+|-
+{{GildedCardCost|cardImage=Obsidian Bar.png|cardName=Obsidian Bar|goldCost=25m|prestigePointCost=250000|gemCost=130}}
+|-
+{{GildedCardCost|cardImage=Demonite Bar.png|cardName=Demonite Bar|goldCost=25m|prestigePointCost=250000|gemCost=140}}
+|-
+{{GildedCardCost|cardImage=VR-Tin Bar.png|cardName=VR-Tin Bar|goldCost=25m|prestigePointCost=250000|gemCost=150}}
+|-
+{{GildedCardCost|cardImage=VR-Amethyst Bar.png|cardName=VR-Amethyst Bar|goldCost=25m|prestigePointCost=250000|gemCost=160}}
+|-
+{{GildedCardCost|cardImage=VR-Demonite Bar.png|cardName=VR-Demonite Bar|goldCost=25m|prestigePointCost=250000|gemCost=170}}
+|-
+{{GildedCardCost|cardImage=VR-ERROR Bar.png|cardName=VR-ERROR Bar|goldCost=25m|prestigePointCost=250000|gemCost=180}}
+|-
+{{GildedCardCost|cardImage=Lunarium Bar.png|cardName=Lunarium Bar|goldCost=25m|prestigePointCost=250000|gemCost=190}}
+|-
+{{GildedCardCost|cardImage=Earth-C-137 Bar.png|cardName=Earth-C-137 Bar|goldCost=25m|prestigePointCost=250000|gemCost=200}}
+|-
+{{GildedCardCost|cardImage=Meteorite Bar.png|cardName=Meteorite Bar|goldCost=25m|prestigePointCost=250000|gemCost=210}}
+|-
+{{GildedCardCost|cardImage=Singularity Bar.png|cardName=Singularity Bar|goldCost=25m|prestigePointCost=250000|gemCost=220}}
+|-
+{{GildedCardCost|cardImage=Halium Bar.png|cardName=Halium Bar|goldCost=25m|prestigePointCost=250000|gemCost=230}}
+|-
+{{GildedCardCost|cardImage=Blasphemite Bar.png|cardName=Blasphemite Bar|goldCost=25m|prestigePointCost=250000|gemCost=240}}
+|-
+{{GildedCardCost|cardImage=Angelite Bar.png|cardName=Angelite Bar|goldCost=25m|prestigePointCost=250000|gemCost=250}}
+|-
+{{GildedCardCost|cardImage=Elysium Bar.png|cardName=Elysium Bar|goldCost=25m|prestigePointCost=250000|gemCost=260}}
+|-
+{{GildedCardCost|cardImage=Enemite Bar.png|cardName=Enemite Bar|goldCost=25m|prestigePointCost=250000|gemCost=270}}
+|-
+{{GildedCardCost|cardImage=Beepboopium Bar.png|cardName=Beepboopium Bar|goldCost=25m|prestigePointCost=250000|gemCost=280}}
+|-
+{{GildedCardCost|cardImage=Radion-73 Bar.png|cardName=Radion-73 Bar|goldCost=25m|prestigePointCost=250000|gemCost=290}}
+|-
+{{GildedCardCost|cardImage=Cranium Bar.png|cardName=Cranium Bar|goldCost=25m|prestigePointCost=250000|gemCost=300}}
+|-
+{{GildedCardCost|cardImage=Lapis Bar.png|cardName=Lapis Bar|goldCost=25m|prestigePointCost=250000|gemCost=310}}
+|-
+{{GildedCardCost|cardImage=Quartz Bar.png|cardName=Quartz Bar|goldCost=25m|prestigePointCost=250000|gemCost=320}}
+|-
+{{GildedCardCost|cardImage=Glacialite Bar.png|cardName=Glacialite Bar|goldCost=25m|prestigePointCost=250000|gemCost=330}}
+|-
+{{GildedCardCost|cardImage=Twinklestone Bar.png|cardName=Twinklestone Bar|goldCost=25m|prestigePointCost=250000|gemCost=340}}
+|-
+{{GildedCardCost|cardImage=Sandcasium Bar.png|cardName=Sandcasium Bar|goldCost=25m|prestigePointCost=250000|gemCost=350}}
+|-
+{{GildedCardCost|cardImage=Clamite Bar.png|cardName=Clamite Bar|goldCost=25m|prestigePointCost=250000|gemCost=360}}
+|-
+{{GildedCardCost|cardImage=Thunderstone Bar.png|cardName=Thunderstone Bar|goldCost=25m|prestigePointCost=250000|gemCost=370}}
+|-
+{{GildedCardCost|cardImage=Crabrock Bar.png|cardName=Crabrock Bar|goldCost=25m|prestigePointCost=250000|gemCost=380}}
+|-
+{{GildedCardCost|cardImage=Hailstone Bar.png|cardName=Hailstone Bar|goldCost=25m|prestigePointCost=250000|gemCost=390}}
+|-
+{{GildedCardCost|cardImage=Frostbite Bar.png|cardName=Frostbite Bar|goldCost=25m|prestigePointCost=250000|gemCost=400}}
+|-
+{{GildedCardCost|cardImage=Icebloom Bar.png|cardName=Icebloom Bar|goldCost=25m|prestigePointCost=250000|gemCost=410}}
+|-
+{{GildedCardCost|cardImage=Pinguinus Bar.png|cardName=Pinguinus Bar|goldCost=25m|prestigePointCost=250000|gemCost=420}}
+|-
+{{GildedCardCost|cardImage=Macawrock Bar.png|cardName=Macawrock Bar|goldCost=25m|prestigePointCost=250000|gemCost=430}}
+|-
+{{GildedCardCost|cardImage=Cocore Bar.png|cardName=Cocore Bar|goldCost=25m|prestigePointCost=250000|gemCost=440}}
+|-
+{{GildedCardCost|cardImage=Rafflenium Bar.png|cardName=Rafflenium Bar|goldCost=25m|prestigePointCost=250000|gemCost=450}}
+|-
+{{GildedCardCost|cardImage=Carnivorian Bar.png|cardName=Carnivorian Bar|goldCost=25m|prestigePointCost=250000|gemCost=460}}
+|-
+{{GildedCardCost|cardImage=Infernite Bar.png|cardName=Infernite Bar|goldCost=25m|prestigePointCost=250000|gemCost=470}}
+|-
+{{GildedCardCost|cardImage=Blood-Onyx Bar.png|cardName=Blood-Onyx Bar|goldCost=25m|prestigePointCost=250000|gemCost=480}}
+|-
+{{GildedCardCost|cardImage=Cyrogem Bar.png|cardName=Cyrogem Bar|goldCost=25m|prestigePointCost=250000|gemCost=490}}
+|-
+{{GildedCardCost|cardImage=Pinnaclite Bar.png|cardName=Pinnaclite Bar|goldCost=25m|prestigePointCost=250000|gemCost=500}}
+|-
+{{GildedCardCost|cardImage=Omeletite Bar.png|cardName=Omeletite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Resinite Bar.png|cardName=Resinite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Impactium Bar.png|cardName=Impactium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Tricerastone Bar.png|cardName=Tricerastone Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Duelysium Bar.png|cardName=Duelysium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Arcusite Bar.png|cardName=Arcusite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Phalanxite Bar.png|cardName=Phalanxite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Guardium Bar.png|cardName=Guardium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Cognite Bar.png|cardName=Cognite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Telophite Bar.png|cardName=Telophite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Steamstone Bar.png|cardName=Steamstone Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Equinine Bar.png|cardName=Equinine Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Dynamite Bar.png|cardName=Dynamite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Genevium Bar.png|cardName=Genevium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Manhattite Bar.png|cardName=Manhattite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Rationium Bar.png|cardName=Rationium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Vaporium Bar.png|cardName=Vaporium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Palmite Bar.png|cardName=Palmite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Ransomite Bar.png|cardName=Ransomite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=MVPD-1988 Bar.png|cardName=MVPD-1988 Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Chronite Bar.png|cardName=Chronite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Hattium Bar.png|cardName=Hattium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Pishalvite Bar.png|cardName=Pishalvite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Teatimium Bar.png|cardName=Teatimium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Rumium Bar.png|cardName=Rumium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Anchorium Bar.png|cardName=Anchorium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Mateyum Bar.png|cardName=Mateyum Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Hookite Bar.png|cardName=Hookite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Carpetite Bar.png|cardName=Carpetite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Djinnium Bar.png|cardName=Djinnium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Sinbadium Bar.png|cardName=Sinbadium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Turbanite Bar.png|cardName=Turbanite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Carriagum Bar.png|cardName=Carriagum Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Crystal-Rose Bar.png|cardName=Crystal-Rose Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Frogstone Bar.png|cardName=Frogstone Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Slipperite Bar.png|cardName=Slipperite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Jellystone Bar.png|cardName=Jellystone Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Lollipopite Bar.png|cardName=Lollipopite Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Mintium Bar.png|cardName=Mintium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|-
+{{GildedCardCost|cardImage=Neopolium Bar.png|cardName=Neopolium Bar|goldCost=25m|prestigePointCost=2.5t|gemCost=1.25m}}
+|}
+
+|-|
+Bombs=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Basic Bomb.png|cardName=Basic Bomb|goldCost=25m|prestigePointCost=250000|gemCost=100}}
+|-
+{{GildedCardCost|cardImage=Chain Bomb.png|cardName=Chain Bomb|goldCost=25m|prestigePointCost=250000|gemCost=125}}
+|-
+{{GildedCardCost|cardImage=Bomb of Plenty.png|cardName=Bomb of Plenty|goldCost=25m|prestigePointCost=250000|gemCost=150}}
+|-
+{{GildedCardCost|cardImage=Exp Bomb.png|cardName=Exp Bomb|goldCost=25m|prestigePointCost=250000|gemCost=175}}
+|-
+{{GildedCardCost|cardImage=MEGABOMB.png|cardName=MEGABOMB|goldCost=25m|prestigePointCost=250000|gemCost=200}}
+|-
+{{GildedCardCost|cardImage=Infinity Bomb.png|cardName=Infinity Bomb|goldCost=25m|prestigePointCost=250000|gemCost=225}}
+|-
+{{GildedCardCost|cardImage=Transmuter Bomb.png|cardName=Transmuter Bomb|goldCost=25m|prestigePointCost=250000|gemCost=250}}
+|-
+{{GildedCardCost|cardImage=Gem Bomb.png|cardName=Gem Bomb|goldCost=25m|prestigePointCost=250000|gemCost=275}}
+|-
+{{GildedCardCost|cardImage=Cherry Bomb.png|cardName=Cherry Bomb|goldCost=25m|prestigePointCost=250000|gemCost=300}}
+|-
+{{GildedCardCost|cardImage=Battery Bomb.png|cardName=Battery Bomb|goldCost=25m|prestigePointCost=250000|gemCost=325}}
+|-
+{{GildedCardCost|cardImage=D20 Bomb.png|cardName=D20 Bomb|goldCost=25m|prestigePointCost=250000|gemCost=350}}
+|-
+{{GildedCardCost|cardImage=Founders Bomb.png|cardName=Founders Bomb|goldCost=25m|prestigePointCost=250000|gemCost=375}}
+|-
+{{GildedCardCost|cardImage=Veinmorpher Bomb.png|cardName=Veinmorpher Bomb|goldCost=25m|prestigePointCost=250000|gemCost=400}}
+|}
+
+|-|
+Misc=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Misc Super Star.png|cardName=Super Star|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Novagiant Combo.png|cardName=Novagiant Combo|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Miner Name.png|cardName=Miner Name|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Lootbug.png|cardName=Lootbug|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Golden Lootbug.png|cardName=Golden Lootbug|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Prestige.png|cardName=Prestige|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Freebie.png|cardName=Freebie|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Stonks.png|cardName=Stonks|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Super Stonks.png|cardName=Super Stonks|goldCost=25m|prestigePointCost=250000|gemCost=1500}} 
+|-
+{{GildedCardCost|cardImage=Misc Ultra Stonks.png|cardName=Ultra Stonks|goldCost=25m|prestigePointCost=250000|gemCost=1500}} 
+|-
+{{GildedCardCost|cardImage=Misc Contract.png|cardName=Contract|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Void.png|cardName=Void Portal|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Golden Void.png|cardName=Golden Void Portal|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Rainbow Void.png|cardName=Rainbow Void Portal|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Galactic Void Portal.png|cardName=Galactic Void Portal|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc World 1.png|cardName=World 1|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc World 2.png|cardName=World 2|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc World 3.png|cardName=World 3|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc World 4.png|cardName=World 4|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Golden Ore.png|cardName=Golden Ore|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Rainbow Ore.png|cardName=Rainbow Ore|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Sushi.png|cardName=Sushi|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Arch Ability.png|cardName=Arch Ability|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Golden Vein.png|cardName=Golden Vein|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Rainbow Vein.png|cardName=Rainbow Vein|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Gleaming Vein.png|cardName=Gleaming Vein|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Fuel.png|cardName=Fuel|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Blue Cow.png|cardName=Blue Cow|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Alex.png|cardName=Alex|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc FrozenAra.png|cardName=FrozenAra|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Celio's Hat.png|cardName=Celio's Hat|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Vydn.png|cardName=Vydn|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Lute.png|cardName=Lute|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Julk.png|cardName=Julk|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Tellacon.png|cardName=Tellacon|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Buns.png|cardName=Buns|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Fishing Rod.png|cardName=Fishing Rod|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Code.png|cardName=Code|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Yummy Pizza.png|cardName=Yummy Pizza|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Lootfrog.png|cardName=Lootfrog|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Golden Lootfrog.png|cardName=Golden Lootfrog|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Big Frog.png|cardName=Big Lootfrog|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Massive Frog.png|cardName=Massive Lootfrog|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Floor 73.png|cardName=Floor 73|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Relic.png|cardName=Relic|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Bone.png|cardName=Bone|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Store.png|cardName=Store|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Cookie Clicker.png|cardName=Cookie Clicker|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Misc Mana.png|cardName=Mana|goldCost=25m|prestigePointCost=250000|gemCost=1500}}
+|}
+
+|-|
+Drones=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Drone Bear Icon.png|cardName=Bomb Bear Drone|goldCost=25m|prestigePointCost=2m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Chain Icon.png|cardName=Chain Drone|goldCost=25m|prestigePointCost=2250000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Midas Icon.png|cardName=Midas Drone|goldCost=25m|prestigePointCost=2.5m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Frogger Icon.png|cardName=Frogger Drone|goldCost=25m|prestigePointCost=2750000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Veinseeker Icon.png|cardName=Veinseeker Drone|goldCost=25m|prestigePointCost=3000000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Starburst Icon.png|cardName=Starburst Drone|goldCost=25m|prestigePointCost=3250000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Elixir Icon.png|cardName=Elixir Drone|goldCost=25m|prestigePointCost=3500000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Void Icon.png|cardName=Void Drone|goldCost=25m|prestigePointCost=3750000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Angler Icon.png|cardName=Angler Drone|goldCost=25m|prestigePointCost=4000000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Drone Prism Icon.png|cardName=Prism Drone|goldCost=25m|prestigePointCost=4250000|gemCost=250000}}
+|-
+{{GildedCardCost|cardImage=Drone Minotaur Icon.png|cardName=Minotaur Drone|goldCost=25m|prestigePointCost=4500000|gemCost=250000}}
+|}
+
+<section begin="pet-gild-cost" />
+|-|
+Pets=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Crab Default.png|cardName=Crab|goldCost=25m|prestigePointCost=3.5m|gemCost=750}}
+|-
+{{GildedCardCost|cardImage=Dwarf Default.png|cardName=Dwarf|goldCost=25m|prestigePointCost=4.25m|gemCost=900}}
+|-
+{{GildedCardCost|cardImage=Duck Default.png|cardName=Duck|goldCost=25m|prestigePointCost=5m|gemCost=1050}}
+|-
+{{GildedCardCost|cardImage=Rabbit Default.png|cardName=Rabbit|goldCost=25m|prestigePointCost=5.75m|gemCost=1200}}
+|-
+{{GildedCardCost|cardImage=Penguin Default.png|cardName=Penguin|goldCost=25m|prestigePointCost=6.5m|gemCost=1350}}
+|-
+{{GildedCardCost|cardImage=Axolotl Default.png|cardName=Axolotl|goldCost=25m|prestigePointCost=7.25m|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Whale Default.png|cardName=Whale|goldCost=25m|prestigePointCost=8m|gemCost=1650}}
+|-
+{{GildedCardCost|cardImage=Totem Default.png|cardName=Totem|goldCost=25m|prestigePointCost=8.75m|gemCost=1800}}
+|-
+{{GildedCardCost|cardImage=Happybot Default.png|cardName=Happybot|goldCost=25m|prestigePointCost=9.5m|gemCost=1950}}
+|-
+{{GildedCardCost|cardImage=Leprechaun Default.png|cardName=Leprechaun|goldCost=25m|prestigePointCost=10.25m|gemCost=2100}}
+|-
+{{GildedCardCost|cardImage=Starfish Default.png|cardName=Starfish|goldCost=25m|prestigePointCost=11m|gemCost=2250}}
+|-
+{{GildedCardCost|cardImage=Dino Default.png|cardName=Dino|goldCost=25m|prestigePointCost=11.75m|gemCost=2300}}
+|-
+{{GildedCardCost|cardImage=Mr Nibbles Default.png|cardName=Mr Nibbles|goldCost=25m|prestigePointCost=12.5m|gemCost=2550}}
+|-
+{{GildedCardCost|cardImage=Nagini Default.png|cardName=Nagini|goldCost=25m|prestigePointCost=13.25m|gemCost=2700}}
+|-
+{{GildedCardCost|cardImage=Butterfly Default.png|cardName=Butterfly|goldCost=25m|prestigePointCost=14m|gemCost=125000}}
+|-
+{{GildedCardCost|cardImage=Rhino Default.png|cardName=Rhino|goldCost=25m|prestigePointCost=14.75m|gemCost=125k}}
+|}
+<section end="pet-gild-cost" />
+
+|-|
+Veins=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Stone Vein.png|cardName=Stone Vein|goldCost=25m|prestigePointCost=2.5m|gemCost=500}}
+|-
+{{GildedCardCost|cardImage=Magma Vein.png|cardName=Magma Vein|goldCost=25m|prestigePointCost=3m|gemCost=600}}
+|-
+{{GildedCardCost|cardImage=Virtual Vein.png|cardName=Virtual Vein|goldCost=25m|prestigePointCost=3.5m|gemCost=700}}
+|-
+{{GildedCardCost|cardImage=Space Vein.png|cardName=Space Vein|goldCost=25m|prestigePointCost=4m|gemCost=800}}
+|-
+{{GildedCardCost|cardImage=Cloud Vein.png|cardName=Cloud Vein|goldCost=25m|prestigePointCost=4.5m|gemCost=900}}
+|-
+{{GildedCardCost|cardImage=Atomic Vein.png|cardName=Atomic Vein|goldCost=25m|prestigePointCost=5m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Deepsea Vein.png|cardName=Deepsea Vein|goldCost=25m|prestigePointCost=5.5m|gemCost=1100}}
+|-
+{{GildedCardCost|cardImage=Beach Vein.png|cardName=Beach Vein|goldCost=25m|prestigePointCost=6m|gemCost=1200}}
+|-
+{{GildedCardCost|cardImage=Valley Vein.png|cardName=Valley Vein|goldCost=25m|prestigePointCost=6.5m|gemCost=1300}}
+|-
+{{GildedCardCost|cardImage=Jungle Vein.png|cardName=Jungle Vein|goldCost=25m|prestigePointCost=7m|gemCost=1400}}
+|-
+{{GildedCardCost|cardImage=Volcano Vein.png|cardName=Volcano Vein|goldCost=25m|prestigePointCost=7.5m|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Jurassic Vein.png|cardName=Jurassic Vein|goldCost=25m|prestigePointCost=8m|gemCost=1600}}
+|-
+{{GildedCardCost|cardImage=Roman Vein.png|cardName=Roman Vein|goldCost=25m|prestigePointCost=8.5m|gemCost=1700}}
+|-
+{{GildedCardCost|cardImage=Industrial Vein.png|cardName=Industrial Vein|goldCost=25m|prestigePointCost=9m|gemCost=1800}}
+|-
+{{GildedCardCost|cardImage=Warfront Vein.png|cardName=Warfront Vein|goldCost=25m|prestigePointCost=9.5m|gemCost=1900}}
+|-
+{{GildedCardCost|cardImage=Neon Vein.png|cardName=Neon Vein|goldCost=25m|prestigePointCost=10m|gemCost=2000}}
+|-
+{{GildedCardCost|cardImage=Wonderland Vein.png|cardName=Wonderland Vein|goldCost=25m|prestigePointCost=10.5m|gemCost=250000}}
+|-
+{{GildedCardCost|cardImage=Pirate Vein.png|cardName=Pirate Vein|goldCost=25m|prestigePointCost=11m|gemCost=250000}}
+|-
+{{GildedCardCost|cardImage=Arabian Vein.png|cardName=Arabian Vein|goldCost=25m|prestigePointCost=11.5m|gemCost=250000}}
+|-
+{{GildedCardCost|cardImage=Enchanted Vein.png|cardName=Enchanted Vein|goldCost=25m|prestigePointCost=12m|gemCost=1m}}
+|-
+{{GildedCardCost|cardImage=Candyland Vein.png|cardName=Candyland Vein|goldCost=25m|prestigePointCost=12.5m|gemCost=2.5m}}
+|}
+
+|-|
+Stars=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Aries.png|cardName=Aries|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Taurus.png|cardName=Taurus|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Gemini.png|cardName=Gemini|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Cancer.png|cardName=Cancer|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Leo.png|cardName=Leo|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Virgo.png|cardName=Virgo|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Libra.png|cardName=Libra|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Scorpio.png|cardName=Scorpio|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Sagittarius.png|cardName=Sagittarius|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Capricorn.png|cardName=Capricorn|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Aquarius.png|cardName=Aquarius|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Pisces.png|cardName=Pisces|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Ophiuchus.png|cardName=Ophiuchus|goldCost=25m|prestigePointCost=100m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Orion.png|cardName=Orion|goldCost=25m|prestigePointCost=5.50t|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Hercules.png|cardName=Hercules|goldCost=25m|prestigePointCost=5.50t|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Draco.png|cardName=Draco|goldCost=25m|prestigePointCost=5.50t|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Cetus.png|cardName=Cetus|goldCost=25m|prestigePointCost=5.50t|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Phoenix.png|cardName=Phoenix|goldCost=25m|prestigePointCost=5.50t|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Eridanus.png|cardName=Eridanus|goldCost=25m|prestigePointCost=5.50t|gemCost=250000}}
+|-
+{{GildedCardCost|cardImage=Lynx.png|cardName=Lynx|goldCost=25m|prestigePointCost=5.50t|gemCost=1m}}
+|-
+{{GildedCardCost|cardImage=Vulpecula.png|cardName=Vulpecula|goldCost=25m|prestigePointCost=5.50t|gemCost=2.5m}}
+|-
+{{GildedCardCost|cardImage=Corvus.png|cardName=Corvus|goldCost=25m|prestigePointCost=5.50t|gemCost=2.5m}}
+|}
+
+|-|
+Archaeology=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Dirt.png|cardName=Tier 1 Dirt|goldCost=25m|prestigePointCost=500m|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Dirt.png|cardName=Tier 2 Dirt|goldCost=25m|prestigePointCost=500m|gemCost=1125}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Dirt.png|cardName=Tier 3 Dirt|goldCost=25m|prestigePointCost=500m|gemCost=1250}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Dirt.png|cardName=Tier 4 Dirt|goldCost=25m|prestigePointCost=500m|gemCost=3625}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Common.png|cardName=Tier 1 Common|goldCost=25m|prestigePointCost=500m|gemCost=1375}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Common.png|cardName=Tier 2 Common|goldCost=25m|prestigePointCost=500m|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Common.png|cardName=Tier 3 Common|goldCost=25m|prestigePointCost=500m|gemCost=1625}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Common.png|cardName=Tier 4 Common|goldCost=25m|prestigePointCost=500m|gemCost=3750}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Rare.png|cardName=Tier 1 Rare|goldCost=25m|prestigePointCost=500m|gemCost=1750}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Rare.png|cardName=Tier 2 Rare|goldCost=25m|prestigePointCost=500m|gemCost=1875}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Rare.png|cardName=Tier 3 Rare|goldCost=25m|prestigePointCost=500m|gemCost=2000}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Rare.png|cardName=Tier 4 Rare|goldCost=25m|prestigePointCost=500m|gemCost=3875}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Epic.png|cardName=Tier 1 Epic|goldCost=25m|prestigePointCost=500m|gemCost=2125}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Epic.png|cardName=Tier 2 Epic|goldCost=25m|prestigePointCost=500m|gemCost=2250}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Epic.png|cardName=Tier 3 Epic|goldCost=25m|prestigePointCost=500m|gemCost=2375}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Epic.png|cardName=Tier 4 Epic|goldCost=25m|prestigePointCost=500m|gemCost=4000}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Legendary.png|cardName=Tier 1 Legendary|goldCost=25m|prestigePointCost=500m|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Legendary.png|cardName=Tier 2 Legendary|goldCost=25m|prestigePointCost=500m|gemCost=2625}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Legendary.png|cardName=Tier 3 Legendary|goldCost=25m|prestigePointCost=500m|gemCost=2750}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Legendary.png|cardName=Tier 4 Legendary|goldCost=25m|prestigePointCost=500m|gemCost=4125}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Mythic.png|cardName=Tier 1 Mythic|goldCost=25m|prestigePointCost=500m|gemCost=2875}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Mythic.png|cardName=Tier 2 Mythic|goldCost=25m|prestigePointCost=500m|gemCost=3000}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Mythic.png|cardName=Tier 3 Mythic|goldCost=25m|prestigePointCost=500m|gemCost=3125}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Mythic.png|cardName=Tier 4 Mythic|goldCost=25m|prestigePointCost=500m|gemCost=4250}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 1 Divine.png|cardName=Tier 1 Divine|goldCost=25m|prestigePointCost=500m|gemCost=3250}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 2 Divine.png|cardName=Tier 2 Divine|goldCost=25m|prestigePointCost=500m|gemCost=3375}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 3 Divine.png|cardName=Tier 3 Divine|goldCost=25m|prestigePointCost=500m|gemCost=3500}}
+|-
+{{GildedCardCost|cardImage=Archaeology Tier 4 Divine.png|cardName=Tier 4 Divine|goldCost=25m|prestigePointCost=500m|gemCost=4375}}
+|}
+
+|-|
+Fish=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Guppy.png|cardName=Guppy|goldCost=25000000|prestigePointCost=1000000000|gemCost=1000}}
+|-
+{{GildedCardCost|cardImage=Bass.png|cardName=Bass|goldCost=25000000|prestigePointCost=1250000000|gemCost=1250}}
+|-
+{{GildedCardCost|cardImage=Catfish.png|cardName=Catfish|goldCost=25000000|prestigePointCost=1500000000|gemCost=1500}}
+|-
+{{GildedCardCost|cardImage=Golden Trout.png|cardName=Golden Trout|goldCost=25000000|prestigePointCost=1750000000|gemCost=1750}}
+|-
+{{GildedCardCost|cardImage=Sandscale Carp.png|cardName=Sandscale Carp|goldCost=25000000|prestigePointCost=2000000000|gemCost=2000}}
+|-
+{{GildedCardCost|cardImage=Armored Roller.png|cardName=Armored Roller|goldCost=25000000|prestigePointCost=2250000000|gemCost=2250}}
+|-
+{{GildedCardCost|cardImage=Spiny Puffer.png|cardName=Spiny Puffer|goldCost=25000000|prestigePointCost=2500000000|gemCost=2500}}
+|-
+{{GildedCardCost|cardImage=Scarabshoe Crab.png|cardName=Scarabshoe Crab|goldCost=25000000|prestigePointCost=2750000000|gemCost=2750}}
+|-
+{{GildedCardCost|cardImage=Snow-bellied Swarmer.png|cardName=Snow-bellied Swarmer|goldCost=25000000|prestigePointCost=3000000000|gemCost=3000}}
+|-
+{{GildedCardCost|cardImage=Frostshell Crab.png|cardName=Frostshell Crab|goldCost=25000000|prestigePointCost=3250000000|gemCost=3250}}
+|-
+{{GildedCardCost|cardImage=Frostdrip Spearfish.png|cardName=Frostdrip Spearfish|goldCost=25000000|prestigePointCost=3500000000|gemCost=3500}}
+|-
+{{GildedCardCost|cardImage=Auroreel.png|cardName=Auroreel|goldCost=25000000|prestigePointCost=3750000000|gemCost=3750}}
+|-
+{{GildedCardCost|cardImage=Coralstar.png|cardName=Coralstar|goldCost=25000000|prestigePointCost=4000000000|gemCost=4000}}
+|-
+{{GildedCardCost|cardImage=Anchorfin Stingray.png|cardName=Anchorfin Stingray|goldCost=25000000|prestigePointCost=4250000000|gemCost=4250}}
+|-
+{{GildedCardCost|cardImage=Pearlescent Tetra.png|cardName=Pearlescent Tetra|goldCost=25000000|prestigePointCost=4500000000|gemCost=4500}}
+|-
+{{GildedCardCost|cardImage=Gem Whale.png|cardName=Gem Whale|goldCost=25000000|prestigePointCost=4750000000|gemCost=4750}}
+|-
+{{GildedCardCost|cardImage=Ionizing Eel.png|cardName=Ionizing Eel|goldCost=25000000|prestigePointCost=5000000000|gemCost=5000}}
+|-
+{{GildedCardCost|cardImage=Gammangler Fish.png|cardName=Gammangler Fish|goldCost=25000000|prestigePointCost=5250000000|gemCost=5250}}
+|-
+{{GildedCardCost|cardImage=Elephant's Blob.png|cardName=Elephant's Blob|goldCost=25000000|prestigePointCost=5500000000|gemCost=5500}}
+|-
+{{GildedCardCost|cardImage=Wastefish.png|cardName=Wastefish|goldCost=25000000|prestigePointCost=5750000000|gemCost=5750}}
+|-
+{{GildedCardCost|cardImage=Hadal Crusher.png|cardName=Hadal Crusher|goldCost=25000000|prestigePointCost=6000000000|gemCost=6000}}
+|-
+{{GildedCardCost|cardImage=Live Sea Mine.png|cardName=Live Sea Mine|goldCost=25000000|prestigePointCost=6250000000|gemCost=6250}}
+|-
+{{GildedCardCost|cardImage=Ventilator Remora.png|cardName=Ventilator Remora|goldCost=25000000|prestigePointCost=6500000000|gemCost=6500}}
+|-
+{{GildedCardCost|cardImage=Wreckshell Pilferer.png|cardName=Wreckshell Pilferer|goldCost=25000000|prestigePointCost=6750000000|gemCost=6750}}
+|-
+{{GildedCardCost|cardImage=Stonescale Carp.png|cardName=Stonescale Carp|goldCost=25000000|prestigePointCost=7000000000|gemCost=7000}}
+|-
+{{GildedCardCost|cardImage=Sturgem.png|cardName=Sturgem|goldCost=25000000|prestigePointCost=7250000000|gemCost=7250}}
+|-
+{{GildedCardCost|cardImage=Conductive Eel.png|cardName=Conductive Eel|goldCost=25000000|prestigePointCost=7500000000|gemCost=7500}}
+|-
+{{GildedCardCost|cardImage=Arapaim-al.png|cardName=Arapaim-al|goldCost=25000000|prestigePointCost=7750000000|gemCost=7750}}
+|-
+{{GildedCardCost|cardImage=Molten Archerfish.png|cardName=Molten Archerfish|goldCost=25000000|prestigePointCost=8000000000|gemCost=8000}}
+|-
+{{GildedCardCost|cardImage=Lava Snail.png|cardName=Lava Snail|goldCost=25000000|prestigePointCost=8250000000|gemCost=8250}}
+|-
+{{GildedCardCost|cardImage=Obsidian-Tooth Barracuda.png|cardName=Obsidian-Tooth Barracuda|goldCost=25000000|prestigePointCost=8500000000|gemCost=8500}}
+|-
+{{GildedCardCost|cardImage=Basalturtle.png|cardName=Basalturtle|goldCost=25000000|prestigePointCost=8750000000|gemCost=8750}}
+|-
+{{GildedCardCost|cardImage=Sunglazed Flying Fish.png|cardName=Sunglazed Flying Fish|goldCost=25000000|prestigePointCost=9000000000|gemCost=9000}}
+|-
+{{GildedCardCost|cardImage=Cloudcutter Manta.png|cardName=Cloudcutter Manta|goldCost=25000000|prestigePointCost=9250000000|gemCost=9250}}
+|-
+{{GildedCardCost|cardImage=Shocksailfish.png|cardName=Shocksailfish|goldCost=25000000|prestigePointCost=9500000000|gemCost=9500}}
+|-
+{{GildedCardCost|cardImage=Lunar Sunfish.png|cardName=Lunar Sunfish|goldCost=25000000|prestigePointCost=9750000000|gemCost=9750}}
+|-
+{{GildedCardCost|cardImage=Lanternfish Comet.png|cardName=Lanternfish Comet|goldCost=25000000|prestigePointCost=10000000000|gemCost=10000}}
+|-
+{{GildedCardCost|cardImage=UFO.png|cardName=UFO|goldCost=25000000|prestigePointCost=10250000000|gemCost=10250}}
+|-
+{{GildedCardCost|cardImage=Sub-Solar Squid.png|cardName=Sub-Solar Squid|goldCost=25000000|prestigePointCost=10500000000|gemCost=10500}}
+|-
+{{GildedCardCost|cardImage=Planetary Jellyfish.png|cardName=Planetary Jellyfish|goldCost=25000000|prestigePointCost=10750000000|gemCost=10750}}
+|-
+{{GildedCardCost|cardImage=Heliocentric Clam.png|cardName=Heliocentric Clam|goldCost=25000000|prestigePointCost=11000000000|gemCost=11000}}
+|-
+{{GildedCardCost|cardImage=Gamma Rayburst Shrimp.png|cardName=Gamma Rayburst Shrimp|goldCost=25000000|prestigePointCost=11250000000|gemCost=11250}}
+|-
+{{GildedCardCost|cardImage=Galaxia Whale.png|cardName=Galaxia Whale|goldCost=25000000|prestigePointCost=11500000000|gemCost=11500}}
+|-
+{{GildedCardCost|cardImage=Dark Matter Blackdragon.png|cardName=Dark Matter Blackdragon|goldCost=25000000|prestigePointCost=11750000000|gemCost=11750}}
+|}
+
+|-|
+Legendary Fish=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Lake Legendary Fish.png|cardName=Rainbow Trout|goldCost=25m|prestigePointCost=100q|gemCost=30000}}
+|-
+{{GildedCardCost|cardImage=Desert Legendary Fish.png|cardName=Dune's Eelworm|goldCost=25m|prestigePointCost=200q|gemCost=60000}}
+|-
+{{GildedCardCost|cardImage=Tundra Legendary Fish.png|cardName=Glacial Shellstealer|goldCost=25m|prestigePointCost=300q|gemCost=90000}}
+|-
+{{GildedCardCost|cardImage=Ocean Legendary Fish.png|cardName=Megalodon|goldCost=25m|prestigePointCost=400q|gemCost=120000}}
+|-
+{{GildedCardCost|cardImage=Nuclear Legendary Fish.png|cardName=Radioactive Slug|goldCost=25m|prestigePointCost=500q|gemCost=150000}}
+|-
+{{GildedCardCost|cardImage=Abyss Legendary Fish.png|cardName=Cthulhu|goldCost=25m|prestigePointCost=600q|gemCost=180000}}
+|-
+{{GildedCardCost|cardImage=Cave Legendary Fish.png|cardName=Glimmering Geoduck|goldCost=25m|prestigePointCost=700q|gemCost=210000}}
+|-
+{{GildedCardCost|cardImage=Volcano Legendary Fish.png|cardName=Laviathan|goldCost=25m|prestigePointCost=800q|gemCost=240000}}
+|-
+{{GildedCardCost|cardImage=Sky Legendary Fish.png|cardName=Storm Serpent|goldCost=25m|prestigePointCost=900q|gemCost=270000}}
+|-
+{{GildedCardCost|cardImage=Solaris Legendary Fish.png|cardName=Melting Gibbous|goldCost=25m|prestigePointCost=1.00qi|gemCost=300000}}
+|-
+{{GildedCardCost|cardImage=Galaxy Legendary Fish.png|cardName=Blackened Basker|goldCost=25m|prestigePointCost=1.10qi|gemCost=330000}}
+|}
+
+|-|
+Essences=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Soft Essence.png|cardName=Soft Essence|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Dense Essence.png|cardName=Dense Essence|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Jagged Essence.png|cardName=Jagged Essence|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Necrotic Essence.png|cardName=Necrotic Essence|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|}
+
+|-|
+Runes=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Ash Rune.png|cardName=Ash Rune|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Brine Rune.png|cardName=Brine Rune|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Chasm Rune.png|cardName=Chasm Rune|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Drift Rune.png|cardName=Drift Rune|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}
+|-
+{{GildedCardCost|cardImage=Echo Rune.png|cardName=Echo Rune|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|}
+
+|-|
+Spells=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=Runic Surge.png|cardName=Runic Surge|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Rainbow Rift.png|cardName=Rainbow Rift|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Manaflow.png|cardName=Manaflow|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Radiancy.png|cardName=Radiancy|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Prismism.png|cardName=Prismism|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Veinboyant.png|cardName=Veinboyant|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Diggy Diggy Hole.png|cardName=Diggy Diggy Hole|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Blue Giant.png|cardName=Blue Giant|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Draconic Hoard.png|cardName=Draconic Hoard|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Rainbow Road.png|cardName=Rainbow Road|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Party Fever.png|cardName=Party Fever|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Bomb's Blessing.png|cardName=Bomb's Blessing|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Bug Magnet.png|cardName=Bug Magnet|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|}
+
+|-|
+Orbs=
+{| class="wikitable text-align-center align-left-2 sticky-header"
+! colspan="2" | Card !! Gold [[File:Gold Coin.png|16px]] !! PP [[File:Prestige Point.png|16px]] !! Gems [[File:Gem.png|16px]]
+|-
+{{GildedCardCost|cardImage=White Orb.png|cardName=White Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Green Orb.png|cardName=Green Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Purple Orb.png|cardName=Purple Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Orange Orb.png|cardName=Orange Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Red Orb.png|cardName=Red Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|-
+{{GildedCardCost|cardImage=Yellow Orb.png|cardName=Yellow Orb|goldCost=25m|prestigePointCost=100m|gemCost=1.5m}}
+|}
+</tabber>
+
+==Card Odds==
+{| class="wikitable text-align-center sticky-header"
+|-
+! colspan="2" | Source !! Standard<br /><small>1 in …</small> !! Polychrome<br /><small>1 in …</small> !! Infernal<br /><small>1 in …</small>
+|-
+! colspan="5" | Ore
+|-
+| colspan="2" | World 1 || 5m || 5b || 20sp
+|-
+| colspan="2" | World 2 || 20m || 20b || 60sp
+|-
+| colspan="2" | World 3 || 500b || 5t || 100sp
+|-
+| rowspan="2" | World 4 || [[File:ZoneBanner Wonderland.png|64x212px]] || 200sp || 5oc || 500no
+|-
+| [[File:ZoneBanner Enchanted.png|64x212px]] || 20dc || 25dc || 25ddc
+|-
+! colspan="5" | Bars
+|-
+| colspan="2" | World 1 || 2.5m || 50b || 20no
+|-
+| colspan="2" | World 2 || 10m || 200b || 60no
+|-
+| colspan="2" | World 3 || 50t || 150t || 100no
+|-
+| rowspan="2" | World 4 || [[File:ZoneBanner Wonderland.png|64x212px]] || 1no || 25no || 500dc
+|-
+| [[File:ZoneBanner Enchanted.png|64x212px]] || 500udc || 2.5ddc || 50tdc
+|-
+! colspan="5" | Veins
+|-
+| colspan="2" | World 1 || 5k || 500k || 15t
+|-
+| colspan="2" | World 2 || 20k || 2m || 30t
+|-
+| colspan="2" | World 3 || 25m || 50m || 45t
+|-
+| rowspan="2" | World 4 || [[File:ZoneBanner Wonderland.png|64x212px]] || 350t || 2.5q || 25q
+|-
+| [[File:ZoneBanner Enchanted.png|64x212px]] || 3.5q || 250q || 5qi
+|-
+! colspan="5" | Bombs
+|-
+| colspan="2" | Base || 5k || 100k || {{NA}}
+|-
+! colspan="5" | Stars
+|-
+| colspan="2" | {{Sprite|Aries||16x16}} – {{Sprite|Ophiuchus||16x16}} <small>1–13</small> || 12,345 || 34,567 || 1b
+|-
+| colspan="2" | {{Sprite|Orion||16x16}} – {{Sprite|Phoenix||16x16}} <small>14–18</small> || 500k || 1m || 3b
+|-
+| colspan="2" | {{Sprite|Eridanus||16x16}} <small>19</small> || 250b || 500b || 5t
+|-
+| colspan="2" | {{Sprite|Lynx||16x16}} <small>20</small> || 2t || 4t || 25t
+|-
+| colspan="2" | {{Sprite|Vulpecula||16x16}} <small>21</small> || 4t || 6t || 35t
+|-
+| colspan="2" | {{Sprite|Corvus||16x16}} <small>22</small> || 8t  || 16t || 100t
+|-
+| colspan="2" | {{Sprite|Hydra||16x16}} <small>23</small> || 16t || 32t || 200t
+|-
+! colspan="5" | Drones<ref name=drone-tick>1 tick/second while fueled, 2/second on fuel depletion floors</ref>
+|-
+| colspan="2" | Base || 86,400 || 65,535 || rowspan="3" | round(98765 × (5 + n<ref name=drone-id>where Bear Drone is 0, Chain Drone is 1, etc</ref> ÷ 2))<ref name=drone-cost>Bear: 493,825 Chain: 543,208 Midas: 592,590 Frogger: 641,973 Veinseeker: 691,355 Starburst: 740,738 Elixir: 790,120 Void: 839,503 Angler: 888,885 Prism: 938,268 Minotaur: 987,650</ref>
+|-
+| colspan="2" | Prism Drone || 518,400 || 196,605
+|-
+| colspan="2" | Minotaur Drone || 864,000 || 393,216
+|-
+! colspan="5" | Archaeology Blocks<ref name=arch>per block</ref>
+|-
+| colspan="2" | Tier 1–3 || 1.5k || 7.5k || 75k
+|-
+| colspan="2" | Tier 4 || 5k || 35k || 75k
+|-
+! colspan="5" | Fish<ref name=fish>odds depend on fish number</ref>
+|-
+| colspan="2" | Tier 1 || <math>1500 \times 1.1^n</math><ref name=n>where Guppy is 0, Bass is 1, Catfish is 2 and so forth</ref> || <math>15000 \times 1.1^n</math><ref name=n/> || 100b
+|-
+| colspan="2" | Tier 2 || <math>150000 \times 1.1^n</math><ref name=n2>where Stonescale Carp is 24, Sturgem is 25, Conductive Eel is 26 and so forth</ref> || <math>1500000 \times 1.1^n</math><ref name=n2/> || 200b
+|-
+! colspan="5" | Legendary Fish
+|-
+| colspan="2" | Base || 1 || 1 || 3
+|-
+! colspan="5" | Arcanist
+|-
+| colspan="2" | Essence || 1.5k || 5k || {{NA}}
+|-
+| colspan="2" | Rune || 10k || 15k || {{NA}}
+|-
+| colspan="2" | Spell || 250 || 500 || {{NA}}
+|-
+| colspan="2" | Orb || 100 || 50 || {{NA}}
+|}
+
+<references />
+
+==Drone card odds==
+All drone cards have a chance to drop for every second they are fueled.<ref>Game speed affects this - with a game speed of 2.00, the card has a chance to drop every 0.5 seconds.</ref><ref>on fuel depletion floors in World 4, the chance doubles to two, as fuel is consumed at twice the speed.</ref>
+{| class="wikitable sticky-header text-align-center align-left-2"
+! colspan=2 | Drone !! Standard !! Polychrome !! Infernal
+|-
+| [[File:Drone Bear.png|x32px]] || Bomb Bear || 1 in 86,400 || 1 in 65,535 || 1 in 493,825
+|-
+| [[File:Drone Chain.png|x32px]] || Chain Bomber || 1 in 86,400 || 1 in 65,535 || 1 in 543,208
+|-
+| [[File:Drone Midas.png|x32px]] || Midas || 1 in 86,400 || 1 in 65,535 || 1 in 592,590
+|-
+| [[File:Drone Frogger.png|x32px]] || Frogger || 1 in 86,400 || 1 in 65,535 || 1 in 641,973
+|-
+| [[File:Drone Veinseeker.png|x32px]] || Veinseeker || 1 in 86,400 || 1 in 65,535 || 1 in 691,355
+|-
+| [[File:Drone Starburst.png|x32px]] || Starburst || 1 in 86,400 || 1 in 65,535 || 1 in 740,738
+|-
+| [[File:Drone Elixir.png|x32px]] || Elixir || 1 in 86,400 || 1 in 65,535 || 1 in 790,120
+|-
+| [[File:Drone Void.png|x32px]] || Void || 1 in 86,400 || 1 in 65,535 || 1 in 839,503
+|-
+| [[File:Drone Angler.png|x32px]] || Angler || 1 in 86,400 || 1 in 65,535 || 1 in 888,885
+|-
+| [[File:Drone Prism.png|x32px]] || Prismatic || 1 in 518,400 || 1 in 196,605 || 1 in 938,268
+|-
+| [[File:Drone Minotaur.png|x32px]] || Minotaur || 1 in 864,000 || 1 in 393,216  || 1 in 987,650
+|}
+<references/>
+
+==Pet card odds==
+<section begin="pet-odds-text" />
+Pet cards are rolled for when the pet levels up. There is a <math>1/(12-\text{petLevel})</math> chance to get the card. If the pet reaches the max level before you get the card, you continue to roll for the card at the chance for the pet's next level. You can see this chance on the pet in the Pets menu. The chance to get a Polychrome Shard when a pet levels is 100%, however Infernal Shards are rolled completely separately to levels and levelling does not give an Infernal Shard. Refer to [[Pets#Leveling|Levelling section of the Pets page]] for pet level chances.<section end="pet-odds-text" />
+<section begin="pet-odds-table" />
+{| class="wikitable sticky-header text-align-center align-left-2"
+! colspan=2 | Pet !! 🔥 Infernal Base Chance 🔥
+|-
+| [[File:Crab_Default.png|x32px]] || Crab || 1 in 75m
+|-
+| [[File:Dwarf_Default.png|x32px]] || Dwarf || 1 in 4k
+|-
+| [[File:Duck_Default.png|x32px]] || Duck || 1 in 25m
+|-
+| [[File:Rabbit_Default.png|x32px]] || Rabbit || 1 in 120k
+|-
+| [[File:Penguin_Default.png|x32px]] || Penguin || 1 in 8m
+|-
+| [[File:Axolotl_Default.png|x32px]] || Axolotl || 1 in 1dc
+|-
+| [[File:Whale_Default.png|x32px]] || Whale || 1 in 6.67m <ref name="whaleOdds">Actual odds are 1 in 6.666.666 but rounded for wiki display purposes</ref>
+|-
+| [[File:Totem_Default.png|x32px]] || Totem || 1 in 20m 
+|-
+| [[File:Happybot_Default.png|x32px]] || Happy-Bot || 1 in 150k
+|-
+| [[File:Leprechaun_Default.png|x32px]] || Leprechaun || 1 in 7m
+|-
+| [[File:Starfish_Default.png|x32px]] || Starfish || 1 in 325m
+|-
+| [[File:Dino_Default.png|x32px]] || Dino || 1 in 205q
+|-
+| [[File:Mr_Nibbles_Default.png|x32px]] || Mr Nibbles || 1 in 4m
+|-
+| [[File:Nagini_Default.png|x32px]] || Nagini || 1 in 16.5m
+|-
+| [[File:Butterfly_Default.png|x32px]] || Butterfly || 1 in 3k
+|-
+| [[File:Rhino_Default.png|x32px]] || Rhino || 1 in 1500
+|-
+|}
+<references/>
+<section end="pet-odds-table" />
+
+==Misc card odds==
+{{See also|Guides/Cards}}
+Misc cards are unlocked randomly by performing specific action(s) or meeting specific condition(s). Note that, except the CODE card/Polychrome shards and RELIC Polychrome shards, none of the misc cards are guaranteed to be unlocked as obtaining them is chance based. Some [[Cards#tabber-Infernal|infernal Misc cards]] have a different unlocking method for infernal shards compared to their Standard and Polychrome variants. These cards are denoted by a 🔥.
+
+<tabber class="sticky-header">General=
+{| class="wikitable lighttable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.80em"
+|+ Misc Cards
+! colspan=2| Card !! Unlocking !! Req. !! Standard Odds !! Polychrome Odds 
+|-
+|<div id="CardOdds_Misc_General_SuperStar"></div>[[File:Misc Super Star.png|24x24px]] || Super Star || Gain Super Stars || Obelisk 23 || 1 in 37373 || 1 in 73737 
+|-
+|<div id="CardOdds_Misc_General_NovagiantCombo"></div>[[File:Misc Novagiant Combo.png|24x24px]] || Novagiant Combo  || Collect Supernova Supergiant Stars || [[Stats#tabber-Star_Supernova_Chance|Star Supernova Chance]]<br>[[Stats#tabber-Star_Supergiant_Chance|Star Supergiant Chance]] || 1 in 350,000 || 1 in 350,000 
+|-
+|<div id="CardOdds_Misc_General_MinerName"></div>[[File:Misc Miner Name.png|24x24px]] || Miner Name || Reroll Names || {{NA}} || 1 in 300 || 1 in 100 
+|-
+|<div id="CardOdds_Misc_General_Lootbug"></div>[[File:Misc Lootbug.png|24x24px]] || Lootbug || Collect Lootbugs || {{NA}} || 1 in 2500 || 1 in 2500 
+|-
+|<div id="CardOdds_Misc_General_GoldenLootbug"></div>[[File:Misc Golden Lootbug.png|24x24px]] || Golden Lootbug || Collect golden Lootbugs || Aquarius star || 1 in 10,000 || 1 in 10,000
+|-
+|<div id="CardOdds_Misc_General_Prestige"></div>[[File:Misc Prestige.png|24x24px]] || Prestige || Prestige || {{NA}} || 1 in 175 || 1 in 150 
+|-
+|<div id="CardOdds_Misc_General_Freebie"></div>[[File:Misc Freebie.png|24x24px]] || Freebie || Claim Freebies || {{NA}} || 1 in 1750 || 1 in 4000 
+|-
+|<div id="CardOdds_Misc_General_Stonks"></div>[[File:Misc Stonks.png|24x24px]] || Stonks || Roll Stonks on Freebie Claim || [[Skill-Tree#Stonks|"Stonks" Skill]] || 1 in 125 || 1 in 250 
+|-
+|<div id="CardOdds_Misc_General_SuperStonks"></div>[[File:Misc Super Stonks.png|24x24px]] || Super Stonks || Roll Super Stonks on Freebie Claim || [[Stats#tabber-Super_Stonks_Chance|Super Stonks Chance]] || 1 in 50 || 1 in 20 
+|-
+|<div id="CardOdds_Misc_General_UltraStonks"></div>[[File:Misc Ultra Stonks.png|24x24px]] || Ultra Stonks || Roll Ultra Stonks on Freebie Claim || [[Stats#tabber-Ultra_Stonks_Chance|Ultra Stonks Chance]] || 1 in 3 || Guaranteed 
+|-
+|<div id="CardOdds_Misc_General_Contract"></div>[[File:Misc Contract.png|24x24px]] || Contract || Complete Contracts || Obelisk 12 || 1 in 5000 || 1 in 15,000
+|-
+|<div id="CardOdds_Misc_General_VoidPortal"></div>[[File:Misc Void.png|24x24px]] || Void Portal || Deplete ores in Void Portals || [[Drones#Drone_Suits|Void Drone]] || 1 in 500,000 || 1 in 1,000,000 
+|-
+|<div id="CardOdds_Misc_General_GoldenVoidPortal"></div>[[File:Misc Golden Void.png|24x24px]] || Golden Void Portal || Deplete ores in Golden Void Portals || [[Stats#tabber-Golden_Void_Portal_Chance|Golden Void Portal Chance]] || 1 in 500,000 || 1 in 500,000 
+|-
+|<div id="CardOdds_Misc_General_RainbowVoidPortal"></div>[[File:Misc Rainbow Void.png|24x24px]] || Rainbow Void Portal || Deplete ores in Rainbow Void Portals || [[Stats#tabber-Rainbow_Void_Portal_Chance|Rainbow Void Portal Chance]] || 1 in 200,000 || 1 in 200,000 
+|-
+|<div id="CardOdds_Misc_General_GalacticVoidPortal"></div>[[File:Misc Galactic Void Portal.png|24x24px]] || Galactic Void Portal || Deplete ores in Galactic Void Portals || [[Stats#tabber-Galactic_Void_Portal_Chance|Galactic Void Portal Chance]] || 1 in 100,000 || 1 in 100,000
+|-
+|<div id="CardOdds_Misc_General_World1"></div>[[File:Misc World 1.png|24x24px]] || World 1 || Clear World 1 Floors || {{NA}} || 1 in 100,000 || 1 in 200,000 
+|-
+|<div id="CardOdds_Misc_General_World2"></div>[[File:Misc World 2.png|24x24px]] || World 2 || Clear World 2 Floors || [[Construct#Monuments|World 2 Monument]] || 1 in 200,000 || 1 in 200,000 
+|-
+|<div id="CardOdds_Misc_General_World3"></div>[[File:Misc World 3.png|24x24px]] || World 3 || Clear World 3 Floors || [[Construct#Monuments|World 3 Monument]] || 1 in 250,000 || 1 in 250,000 
+|-
+|<div id="CardOdds_Misc_General_World4"></div>[[File:Misc World 4.png|24x24px]] || World 4 || Clear World 4 Floors || [[Construct#Monuments|World 4 Monument]] || 1 in 250,000 || 1 in 250,000 
+|-
+|<div id="CardOdds_Misc_General_GoldenOre"></div>[[File:Misc Golden Ore.png|24x24px]] || Golden Ore || Deplete Golden Ores || [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]] || 1 in 500,000 || 1 in 1,500,000 
+|-
+|<div id="CardOdds_Misc_General_RainbowOre"></div>[[File:Misc Rainbow Ore.png|24x24px]] || Rainbow Ore || Deplete Rainbow Ores || [[Stats#tabber-Rainbow_Ore_Chance|Rainbow Ore Chance]] || 1 in 350k || 1 in 1,000,000
+|-
+|<div id="CardOdds_Misc_General_Sushi"></div>[[File:Misc Sushi.png|24x24px]] || Sushi || Use Sushi || Obelisk 37 || 1 in 150<ref name=individualRoll/> || 1 in 300<ref name=individualRoll/> 
+|-
+|<div id="CardOdds_Misc_General_ArchAbility"></div>[[File:Misc Arch Ability.png|24x24px]] || Arch Ability || Use Arch Abilities || Obelisk 30 || 1 in 25,000 || 1 in 20,000 
+|-
+|<div id="CardOdds_Misc_General_GoldenVein"></div>[[File:Misc Golden Vein.png|24x24px]] || Golden Vein || Deplete Golden Veins || [[Stats#tabber-Golden_Vein_Chance|Golden Vein Chance]] || 1 in 250,000 || 1 in 500,000 
+|-
+|<div id="CardOdds_Misc_General_RainbowVein"></div>[[File:Misc Rainbow Vein.png|24x24px]] || Rainbow Vein || Deplete Rainbow Veins || [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]] || 1 in 250,000 || 1 in 500,000 
+|-
+|<div id="CardOdds_Misc_General_GleamingVein"></div>[[File:Misc Gleaming Vein.png|24x24px]] || Gleaming Vein || Deplete Gleaming Veins || [[Stats#tabber-Gleaming_Vein_Chance|Gleaming Vein Chance]] || 1 in 500,000 || 1 in 100,000 
+|-
+|<div id="CardOdds_Misc_General_Fuel"></div>[[File:Misc Fuel.png|24x24px]] || Fuel || Buy Fuel || Obelisk 18 || 1 in 2000 || 1 in 3000 
+|-
+|<div id="CardOdds_Misc_General_BlueCow"></div>[[File:Misc Blue Cow.png|24x24px]] || Blue Cow || Use Blue Cows || {{NA}} || 1 in 100<ref name="individualRoll">Rolled individually, even if multiple are used at once.</ref> || 1 in 250<ref name="individualRoll"/> 
+|-
+|<div id="CardOdds_Misc_General_Alex"></div>[[File:Misc Alex.png|24x24px]] || [[Guides/Cards/Alex|Alex ▶️]] || Click Alex (Character) in Credits  || {{NA}} || 1 in 169 || 1 in 69 
+|-
+|<div id="CardOdds_Misc_General_FrozenAra"></div>[[File:Misc FrozenAra.png|24x24px]] || [[Guides/Cards/FrozenAra|FrozenAra ▶️]] || Open Relic Menu via Relic Chest Meter while being on Cloud Zone || {{NA}} || 1 in 100 || 1 in 35 
+|-
+|<div id="CardOdds_Misc_General_CeliosHat"></div>[[File:Misc Celio's Hat.png|24x24px]] || [[Guides/Cards/Celios Hat|Celio's Hat ▶️]] || Click the Hat in Atomic Zone || {{NA}} || 1 in 100 || 1 in 50 
+|-
+|<div id="CardOdds_Misc_General_Vydn"></div>[[File:Misc Vydn.png|24x24px]] || [[Guides/Cards/Vydn|Vydn ▶️]] || Select the Statue of Craftmanship.<ref name="Vydn Misc">The statue does not have to be built.</ref> Leave the construct menu open. || [[Construct#Monuments|World 3 Monument]] || 1 in 200<ref name="Vydn Misc Odds">Odds are rolled once every 5 seconds before Game Speed. Increasing Game Speed reduces the waiting time.</ref>|| 1 in 200<ref name="Vydn Misc Odds"/> 
+|-
+|<div id="CardOdds_Misc_General_Lute"></div>[[File:Misc Lute.png|24x24px]] || Lute || Click the Bunny in Wonderland Zone(Floor 103-108) || [[Construct#Monuments|World 4 Monument]] || 1 in 250 || 1 in 100 
+|-
+|<div id="CardOdds_Misc_General_Julk"></div>[[File:Misc Julk.png|24x24px]] || [[Guides/Cards/Julk|Julk ▶️]] || Click "Hide Maxed" Button in Card Menu || {{NA}} || 1 in 250 || 1 in 100 
+|-
+|<div id="CardOdds_Misc_General_Tellacon"></div>[[File:Misc Tellacon.png|24x24px]] || [[Guides/Cards/Tellacon|Tellacon ▶️]] || Click "Stats" Menu Button {{CollapsedDescription|Pin the "Stats" Menu and click from there instead}}  || {{NA}} || 1 in 150 || 1 in 150 
+|-
+|<div id="CardOdds_Misc_General_Buns"></div>[[File:Misc Buns.png|24x24px]] || Buns || Open Stargazing Menu, click the info icon at the top-left, then inside the info box repeatedly click the transparent rainbow star at the bottom-right. || [[Stargazing]] || 1 in 50 || 1 in 50
+|-
+|<div id="CardOdds_Misc_General_FishingRod"></div>[[File:Misc Fishing Rod.png|24x24px]] || [[Guides/Cards/Fishing Rod|Fishing Rod ▶️]] || Assign Fisher
+| Obelisk 37 & Dock 2 || 1 in 150 || 1 in 35 
+|-
+|<div id="CardOdds_Misc_General_Code"></div>[[File:Misc Code.png|24x24px]] || [[Guides/Cards/Code|Code ▶️]] || Enter Code CODE 
+| {{NA}} || Guaranteed || Guaranteed 
+|-
+|<div id="CardOdds_Misc_General_YummyPizza"></div>[[File:Misc Yummy Pizza.png|24x24px]] || [[Guides/Cards/Yummy Pizza|Yummy Pizza ▶️]] || Tap on Blue Cow card in the Card List || Blue Cow Card || 1 in 250 || 1 in 100 
+|-
+|<div id="CardOdds_Misc_General_Lootfrog"></div>[[File:Misc Lootfrog.png|24x24px]] || Lootfrog || Collect Lootfrogs || [[Stargazing#Black_Hole|Black Hole 1]] || 1 in 200 || 1 in 200<ref name="Lootfrog Card Hat">Clicking on a frog with a card hat is guaranteed to give a shard.</ref>
+|-
+|<div id="CardOdds_Misc_General_GoldenLootfrog"></div>[[File:Misc Golden Lootfrog.png|24x24px]]  || Golden Lootfrog || Collect Golden Lootfrog || [[Stats#tabber-Golden_Lootfrog_Chance|Golden Lootfrog Chance]] || 1 in 50 || 1 in 50 <ref name="GLootfrog Card Hat">Clicking on a golden frog with a card hat is guaranteed to give a Polychrome shard.</ref>
+|-
+|<div id="CardOdds_Misc_General_BigLootfrog"></div>[[File:Misc Big Frog.png|24x24px]] || Big Lootfrog || Collect Big Lootfrogs || [[Stats#tabber-Big_Lootfrog_Chance|Big Lootfrog Chance]] || 1 in 10 || 1 in 10 
+|-
+|<div id="CardOdds_Misc_General_MassiveLootfrog"></div>[[File:Misc Massive Frog.png|24x24px]] || Massive Lootfrog || Collect Massive Lootfrogs || [[Stats#tabber-Massive_Lootfrog_Chance|Massive Lootfrog Chance]] || Guaranteed  || Guaranteed 
+|-
+|<div id="CardOdds_Misc_General_Floor73"></div>[[File:Misc Floor 73.png|24x24px]] || [[Guides/Cards/Floor 73|Floor 73 ▶️]] || Click Floor 73 on the floor select screen || [[Construct#Monuments|World 3 Monument]] || 1 in 73 || 1 in 7 
+|-
+|<div id="CardOdds_Misc_General_Relic"></div>[[File:Misc Relic.png|frameless|24x24px]]|| [[Guides/Cards/Relic|Relic ▶️]] || Open exactly 69 Relic Chests<ref>Mythic or Divine Chests do not count</ref> at the same time using open all button || {{NA}} || Guaranteed || Guaranteed 
+|-
+|<div id="CardOdds_Misc_General_Bone"></div>[[File:Misc Bone.png|24x24px]] || [[Guides/Cards/Bone|Bone ▶️]] || Click on the Bone in Jurassic Zone  || [[Construct#Monuments|World 3 Monument]] || 1 in 100 || 1 in 50 
+|-
+|<div id="CardOdds_Misc_General_Store"></div>[[File:Misc Store.png|24x24px]] || [[Guides/Cards/Store|Store ▶️]] || Pin the store menu to the bottom left bar, without having any other pins. Click to open the store menu via pin. || {{NA}} || 1 in 125 || 1 in 10 
+|-
+|<div id="CardOdds_Misc_General_CookieClicker"></div>[[File:Misc Cookie Clicker.png|24x24px]] || Cookie Clicker || Click on the "IOM" Cookie beside the Relic Chest Bar in Candyland Zone || [[Construct#Monuments|World 4 Monument]] || 1 in 50 || 1 in 50
+|-
+|<div id="CardOdds_Misc_General_Mana"></div>[[File:Misc Mana.png|24x24px]] || Mana || Cast any spells in the Arcanist Menu || [[Arcanist#|Arcanist Menu]] || 1 in 2,500 || 1 in 2,500
+|}
+<references />
+|-|
+Infernal=
+{| class="wikitable lighttable text-align-center align-left-2 align-left-3 sticky-header" style="font-size:0.9em"
+|+ Misc Cards
+! colspan=2| Card !! 🔥 Infernal Unlocking !! Infernal Odds
+|-
+|<div id="CardOdds_Misc_Infernal_SuperStar"></div>[[File:Misc Super Star.png|24x24px]] || Super Star || Gain Super Stars || 1 in 5,000,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_NovagiantCombo"></div>[[File:Misc Novagiant Combo.png|24x24px]] || Novagiant Combo || Collect Supernova Supergiant Stars || 1 in 700,000
+|-
+|<div id="CardOdds_Misc_Infernal_MinerName"></div>[[File:Misc Miner Name.png|24x24px]] || Miner Name || 🔥 Reroll names and get a 3-letter name. Must have exactly 3 stat points allocated to Luck in [[Archaeology]] <ref name="MinerInfernal">Refreshing Wizard trades with 3 stat points in luck also rolls for Miner Name Misc Infernal shards.</ref>|| Guaranteed 
+|-
+|<div id="CardOdds_Misc_Infernal_Lootbug"></div>[[File:Misc Lootbug.png|24x24px]] || Lootbug || Collect Lootbugs || 1 in 10,000
+|-
+|<div id="CardOdds_Misc_Infernal_GoldenLootbug"></div>[[File:Misc Golden Lootbug.png|24x24px]] || Golden Lootbug || Collect golden Lootbugs|| 1 in 10,000
+|-
+|<div id="CardOdds_Misc_Infernal_Prestige"></div>[[File:Misc Prestige.png|24x24px]] || Prestige || 🔥 Reach miner level 300+, prestige on F# for the next required shard. E.g. first shard prestige Floor 1, second shard prestige Floor 2 and so on. || Guaranteed
+|-
+|<div id="CardOdds_Misc_Infernal_Freebie"></div>[[File:Misc Freebie.png|24x24px]] || Freebie || Claim Freebies || 1 in 10,000
+|-
+|<div id="CardOdds_Misc_Infernal_Stonks"></div>[[File:Misc Stonks.png|24x24px]] || Stonks || Roll Stonks on Freebie Claim|| 1 in 250
+|-
+|<div id="CardOdds_Misc_Infernal_SuperStonks"></div>[[File:Super Stonks.png|24x24px]] || Super Stonks || Roll Super Stonks on Freebie Claim|| 1 in 30
+|-
+|<div id="CardOdds_Misc_Infernal_UltraStonks"></div>[[File:Misc Ultra Stonks.png|24x24px]] || Ultra Stonks || Roll Ultra Stonks on Freebie Claim|| 1 in 3
+|-
+|<div id="CardOdds_Misc_Infernal_Contract"></div>[[File:Misc Contract.png|24x24px]] || Contract || 🔥 Complete Contracts above 2500 || 1 in 15,000
+|-
+|<div id="CardOdds_Misc_Infernal_VoidPortal"></div>[[File:Misc Void.png|24x24px]] || Void Portal || Deplete ores in Void Portals|| 1 in 5,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_GoldenVoidPortal"></div>[[File:Misc Golden Void.png|24x24px]] || Golden Void Portal || Deplete ores in Golden Void Portals|| 1 in 1,500,000
+|-
+|<div id="CardOdds_Misc_Infernal_RainbowVoidPortal"></div>[[File:Misc Rainbow Void.png|24x24px]] || Rainbow Void Portal || Deplete ores in Rainbow Void Portals|| 1 in 500,000
+|-
+|<div id="CardOdds_Misc_Infernal_GalacticVoidPortal"></div>[[File:Misc Galactic Void Portal.png|24x24px]] || Galactic Void Portal || Deplete ores in Galactic Void Portals|| 1 in 200,000
+|-
+|<div id="CardOdds_Misc_Infernal_World1"></div>[[File:Misc World 1.png|24x24px]] || World 1 || Clear World 1 Floors|| 1 in 200,000
+|-
+|<div id="CardOdds_Misc_Infernal_World2"></div>[[File:Misc World 2.png|24x24px]] || World 2 || Clear World 2 Floors|| 1 in 200,000
+|-
+|<div id="CardOdds_Misc_Infernal_World3"></div>[[File:Misc World 3.png|24x24px]] || World 3 || Clear World 3 Floors|| 1 in 250,000
+|-
+|<div id="CardOdds_Misc_Infernal_World4"></div>[[File:Misc World 4.png|24x24px]] || World 4 || Clear World 4 Floors || 1 in 250,000
+|-
+|<div id="CardOdds_Misc_Infernal_GoldenOre"></div>[[File:Misc Golden Ore.png|24x24px]] || Golden Ore || Deplete Golden Ores|| 1 in 15,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_RainbowOre"></div>[[File:Misc Rainbow Ore.png|24x24px]] || Rainbow Ore || Deplete Rainbow Ores|| 1 in 5,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_Sushi"></div>[[File:Misc Sushi.png|24x24px]] || Sushi || 🔥Assign fisher and all drones to Dock 5 (Nuclear) and use Sushi || 1 in 300<ref name=individualRoll/>
+|-
+|<div id="CardOdds_Misc_Infernal_ArchAbility"></div>[[File:Misc Arch Ability.png|24x24px]] || Arch Ability || Use Arch Abilities|| 1 in 50,000
+|-
+|<div id="CardOdds_Misc_Infernal_GoldenVein"></div>[[File:Misc Golden Vein.png|24x24px]] || Golden Vein || Deplete Golden Veins|| 1 in 5,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_RainbowVein"></div>[[File:Misc Rainbow Vein.png|24x24px]] || Rainbow Vein || Deplete Rainbow Veins|| 1 in 5,000,000
+|-
+|<div id="CardOdds_Misc_Infernal_GleamingVein"></div>[[File:Misc Gleaming Vein.png|24x24px]] || Gleaming Vein || Deplete Gleaming Veins|| 1 in 2,500,000
+|-
+|<div id="CardOdds_Misc_Infernal_Fuel"></div>[[File:Misc Fuel.png|24x24px]] || Fuel|| Buy Fuel || 1 in 25,000
+|-
+|<div id="CardOdds_Misc_Infernal_BlueCow"></div>[[File:Misc Blue Cow.png|24x24px]] || Blue Cow || 🔥 Use Blue Cows on Floor 23 || 1 in 1,000<ref name="individualRoll">Rolled individually, even if multiple are used at once.</ref>
+|-
+|<div id="CardOdds_Misc_Infernal_Alex"></div>[[File:Misc Alex.png|24x24px]] || [[Guides/Cards/AlexInfernal|Alex ▶️]] || 🔥 Select Blue Cow [[File:Misc Blue Cow.png|16x16px]] from the item bag, be in Atomic Zone, and then click Alex in credits. || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_FrozenAra"></div>[[File:Misc FrozenAra.png|24x24px]] || [[Guides/Cards/FrozenAraInfernal|FrozenAra ▶️]] || 🔥 Click "Setup Pins", then spam clicks, where the Cloud icon would be. || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_CeliosHat"></div>[[File:Misc Celio's Hat.png|24x24px]] || Celio's Hat || 🔥 Click the middle crab skin in the [[Pets#Pet Skins|skin select]] menu. Must have pets visible || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Vydn"></div>[[File:Misc Vydn.png|24x24px]] || Vydn || 🔥 Pin only [[Fishing]] menu and click the {{Sprite|Dark_Matter_Blackdragon||16|Dark Matter Blackdragon}} in the [[Fishing#tabber-Tier_2_Docks|Aquarium]] || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Lute"></div>[[File:Misc Lute.png|24x24px]] || Lute || 🔥 Click {{Sprite|Apple||16|Apple}}, then {{Sprite|Strawberries||16|Strawberries}} in the Item bag. Then click the Bunny in the Wonderland Zone repeatedly (W4) || 1 in 5
+|-
+|<div id="CardOdds_Misc_Infernal_Julk"></div>[[File:Misc Julk.png|24x24px]] || Julk || 🔥 Pin only contracts and click Julk figure in Credits || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Tellacon"></div>[[File:Misc Tellacon.png|x24px]] || Tellacon || 🔥 Open top right corner Stats Overlay while in proper Stats Menu || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Buns"></div>[[File:Misc Buns.png|24x24px]] || Buns || 🔥 Have the Capybara skin ([[Pets#tabber-Rhino_2|Rhino's]] Quest Skin) equipped. Open Stargazing Menu, click the info icon at the top-left, then inside the info box repeatedly click the transparent rainbow star at the bottom-right. || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_FishingRod"></div>[[File:Misc Fishing Rod.png|24x24px]] || [[Guides/Cards/Fishing RodInfernal|Fishing Rod ▶️]] || 🔥 Assign 24 drones on a dock, assign fisher there. Can be sped up by having two docks with 24 drones assigned to each. || 1 in 30
+|-
+|<div id="CardOdds_Misc_Infernal_Code"></div>[[File:Misc Code.png|24x24px]] || Code || 🔥 Enter following Codes in order:<br>INFERNALSHARDONE - INFERNALSHARDDEUX - INFERNALSHARDDREI - INFERNALSHARDCUATRO - INFERNALSHARDCINQUE - INFERNALSHARDKUUSI - INFERNALSHARDZEVEN - INFERNALSHARDOKTO - INFERNALSHARDDZIEWIEC - INFERNALSHARDZECE|| Guaranteed
+|-
+|<div id="CardOdds_Misc_Infernal_YummyPizza"></div>[[File:Misc Yummy Pizza.png|24x24px]] || Yummy Pizza || 🔥 Alternate clicking between {{Sprite|Primal Meat||16}} and {{Sprite|Yummy Pizza||16}} in the item bag || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Lootfrog"></div>[[File:Misc Lootfrog.png|24x24px]] || Lootfrog || 🔥 Collect Lootfrogs that have flame hat on|| Guaranteed <ref name="Lootfrog on Fire">Chance is 1 to 100 to be on fire</ref>
+|-
+|<div id="CardOdds_Misc_Infernal_GoldenLootfrog"></div>[[File:Misc Golden Lootfrog.png|24x24px]]  || Golden Lootfrog || 🔥 Collect Golden Lootfrog that have flame hat on|| Guaranteed <ref name="Lootfrog on Fire">Chance is 1 to 100 to be on fire</ref>
+|-
+|<div id="CardOdds_Misc_Infernal_BigLootfrog"></div>[[File:Misc Big Frog.png|24x24px]] || Big Lootfrog || 🔥 Collect Big Lootfrogs that have flame hat on|| Guaranteed <ref name="Lootfrog on Fire">Chance is 1 to 100 to be on fire</ref>
+|-
+|<div id="CardOdds_Misc_Infernal_MassiveLootfrog"></div>[[File:Misc Massive Frog.png|24x24px]] || Massive Lootfrog || Collect Massive Lootfrogs|| 1 in 2
+|-
+|<div id="CardOdds_Misc_Infernal_Floor73"></div>[[File:Misc Floor 73.png|24x24px]] || Floor 73 || 🔥 Have 73 cherry charges<ref name="cherry">Cherry charges are the green number gained from firing cherry bombs, not the number of currently available cherry bombs.</ref> and 73 freebies banked<ref name="freebieclaim">Disabling the setting "One Click Claim all Banked Freebies" can help with having exactly 73 banked freebies.</ref>. Click the Floor 73 button on the floor select screen || 1 in 3
+|-
+|<div id="CardOdds_Misc_Infernal_Relic"></div>[[File:Misc Relic.png|frameless|24x24px]]|| [[Guides/Cards/RelicInfernal|Relic ▶️]]|| 🔥 Have 69 cherry charges<ref name="cherry"/> and be on Floor 69. Open exactly 69 Relic Chests<ref>Mythic or Divine Chests do not count</ref> at the same time using open all button || 1 in 3
+|-
+|<div id="CardOdds_Misc_Infernal_Bone"></div>[[File:Misc Bone.png|24x24px]] || Bone || 🔥 Click on the Bone in Jurassic Zone with exactly 36 stat points allocated in [[Archaeology]] || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Store"></div>[[File:Misc Store.png|24x24px]] || [[Guides/Cards/StoreInfernal|Store ▶️]]|| 🔥 Open the store menu and scroll from top to bottom, back and forth. {{CollapsedDescription|Ticking the "Hide Maxed Upgrades" checkbox at the bottom and buying packs makes the store menu shorter to scroll}} || 1 in 25
+|-
+|<div id="CardOdds_Misc_Infernal_CookieClicker"></div>[[File:Misc Cookie Clicker.png|24x24px]] || Cookie Clicker|| 🔥 Click on the "IOM" Cookie beside the Relic Chest Bar in Candyland Zone at exactly 33 minutes past the hour (xx:33) || 1 in 50
+|-
+|<div id="CardOdds_Misc_Infernal_Mana"></div>[[File:Misc Mana.png|24x24px]] || Mana || Cast any spells in the Arcanist Menu || 1 in 2,500
+|}
+<references /></tabber>
+
+==Fish card odds==
+<tabber class="sticky-header">Tier 1 Docks=
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+Tier 1 Docks
+! colspan=2 | Fish !! Normal !! Polychrome !! Infernal
+|-
+| [[File:Guppy.png]] || Guppy || 1 in 1,500 || 1 in 15,000 || rowspan=24 | 1 in 100b 
+|-
+| [[File:Bass.png]] || Bass || 1 in 1,650 || 1 in 16,500
+|-
+| [[File:Catfish.png]] || Catfish || 1 in 1,815 || 1 in 18,150
+|-
+| [[File:Golden Trout.png]] || Golden Trout || 1 in 1,996 || 1 in 19,965
+|-
+| [[File:Sandscale Carp.png]] || Sandscale Carp || 1 in 2,196 || 1 in 21,961
+|-
+| [[File:Armored Roller.png]] || Armored Roller || 1 in 2,415 || 1 in 24,157
+|-
+| [[File:Spiny Puffer.png]] || Spiny Puffer || 1 in 2,657 || 1 in 26,573
+|-
+| [[File:Scarabshoe Crab.png]] || Scarabshoe Crab || 1 in 2,923 || 1 in 29,230
+|-
+| [[File:Snow-bellied Swarmer.png]] || Snow-bellied Swarmer || 1 in 3,215 || 1 in 32,153
+|-
+| [[File:Frostshell Crab.png]] || Frostshell Crab || 1 in 3,536 || 1 in 35,369
+|-
+| [[File:Frostdrip Spearfish.png]] || Frostdrip Spearfish || 1 in 3,890 || 1 in 38,906
+|-
+| [[File:Auroreel.png]] || Auroreel || 1 in 4,279 || 1 in 42,796
+|-
+| [[File:Coralstar.png]] || Coralstar || 1 in 4,707 || 1 in 47,076
+|-
+| [[File:Anchorfin Stingray.png]] || Anchorfin Stingray || 1 in 5,178 || 1 in 51,784
+|-
+| [[File:Pearlescent Tetra.png]] || Pearlescent Tetra || 1 in 5,696 || 1 in 56,962
+|-
+| [[File:Gem Whale.png]] || Gem Whale || 1 in 6,265 || 1 in 62,658
+|-
+| [[File:Ionizing Eel.png]] || Ionizing Eel || 1 in 6,892 || 1 in 68,924
+|-
+| [[File:Gammangler Fish.png]] || Gammangler Fish || 1 in 7,581 || 1 in 75,817
+|-
+| [[File:Elephant's Blob.png]] || Elephant's Blob || 1 in 8,339 || 1 in 83,398
+|-
+| [[File:Wastefish.png]] || Wastefish || 1 in 9,173 || 1 in 91,738
+|-
+| [[File:Hadal Crusher.png]] || Hadal Crusher || 1 in 10,091 || 1 in 100,912
+|-
+| [[File:Live Sea Mine.png]] || Live Sea Mine || 1 in 11,100 || 1 in 111,003
+|-
+| [[File:Ventilator Remora.png]] || Ventilator Remora || 1 in 12,210 || 1 in 122,104
+|-
+| [[File:Wreckshell Pilferer.png]] || Wreckshell Pilferer || 1 in 13,431 || 1 in 134,314
+|}
+|-|
+Tier 2 Docks=
+{| class="wikitable sticky-header text-align-center align-left-2"
+|+Tier 2 Docks
+! colspan=2 | Fish !! Normal !! Polychrome !! Infernal
+|-
+| [[File:Stonescale Carp.png]] || Stonescale Carp || 1 in 1,477,459 || 1 in 14,774,599 ||rowspan=20|1 in 200b
+|-
+| [[File:Sturgem.png]] || Sturgem || 1 in 1,625,205 || 1 in 16,252,058
+|-
+| [[File:Conductive Eel.png]] || Conductive Eel || 1 in 1,787,726 || 1 in 17,877,264
+|-
+| [[File:Arapaim-al.png]] || Arapaim-al || 1 in 1,966,499 || 1 in 19,664,991
+|-
+| [[File:Molten Archerfish.png]] || Molten Archerfish || 1 in 2,163,149 || 1 in 21,631,490
+|-
+| [[File:Lava Snail.png]] || Lava Snail || 1 in 2,379,463 || 1 in 23,794,639
+|-
+| [[File:Obsidian-Tooth Barracuda.png]] || Obsidian-Tooth Barracuda || 1 in 2,617,410 || 1 in 26,174,103
+|-
+| [[File:Basalturtle.png]] || Basalturtle || 1 in 2,879,151 || 1 in 28,791,513
+|-
+| [[File:Sunglazed Flying Fish.png]] || Sunglazed Flying Fish || 1 in 3,167,066 || 1 in 31,670,665
+|-
+| [[File:Cloudcutter Manta.png]] || Cloudcutter Manta || 1 in 3,483,773 || 1 in 34,837,731
+|-
+| [[File:Shocksailfish.png]] || Shocksailfish || 1 in 3,832,150 || 1 in 38,321,504
+|-
+| [[File:Lunar Sunfish.png]] || Lunar Sunfish || 1 in 4,215,365 || 1 in 42,153,655
+|-
+| [[File:Lanternfish Comet.png]] || Lanternfish Comet || 1 in 4,636,902 || 1 in 46,369,020
+|-
+| [[File:UFO.png]] || UFO || 1 in 5,100,592 || 1 in 51,005,922
+|-
+| [[File:Sub-Solar Squid.png]] || Sub-Solar Squid || 1 in 5,610,651 || 1 in 56,106,515
+|-
+| [[File:Planetary Jellyfish.png]] || Planetary Jellyfish || 1 in 6,171,716 || 1 in 61,717,166
+|-
+| [[File:Heliocentric Clam.png]] || Heliocentric Clam || 1 in 6,788,888 || 1 in 67,888,883
+|-
+| [[File:Gamma Rayburst Shrimp.png]] || Gamma Rayburst Shrimp || 1 in 7,467,777 || 1 in 74,677,771
+|-
+| [[File:Galaxia Whale.png]] || Galaxia Whale || 1 in 8,214,554 || 1 in 82,145,548
+|-
+| [[File:Dark Matter Blackdragon.png]] || Dark Matter Blackdragon || 1 in 9,036,010 || 1 in 90,360,103
+|}</tabber>
+
+==Navigation==
+{{Menu}}

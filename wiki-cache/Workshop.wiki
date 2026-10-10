@@ -1,0 +1,136 @@
+{{Version|2.2.23}}
+[[File:Workshop Button.png|frameless|left]]
+The '''Workshop''' menu unlocks stat upgrades, new bomb types, bomb improvements, and more. These upgrades don't disappear after a prestige. 
+
+{{clear|left}}
+==Workshop Upgrades==
+{{See also|Workshop/Costs}}
+
+<tabber class="sticky-header">
+World 1 Upgrades=
+{|class="wikitable align-left-2 text-align-center sticky-header"
+!colspan=2 | Upgrade !! Perk !! Per level !! Max level !! Obelisk
+|-
+|<div id="Upgrades_W1_BombOfPlentyUnlocked"></div>[[File:Bomb of Plenty.png|link=Workshop/Costs#Bomb_of_Plenty!]] || [[Workshop/Costs#Bomb_of_Plenty!|Bomb of Plenty Unlocked!]] || Unlock new Bomb: Marks Rocks to give 2x ores || {{NA}} || 1 || Level 1
+|-
+|<div id="Upgrades_W1_BasicAndChainDamage"></div>{{OverlayImages|height=34px|image1=[[File:Basic Bomb.png|link=Workshop/Costs#Basic_&_Chain_Damage]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Basic_&_Chain_Damage]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Basic_&_Chain_Damage|Basic & Chain Damage]] || Upgrades damage of Basic and Chain Bomb. || +0.5x || 30 || Level 1
+|-
+|<div id="Upgrades_W1_ExperienceBombUnlocked"></div>[[File:Exp Bomb.png|link=Workshop/Costs#Experience_Bomb!]] || [[Workshop/Costs#Experience_Bomb!|Experience Bomb Unlocked!]] || Unlock new Bomb: Marks Rocks to give 2x Experience || {{NA}} || 1 || Level 2<ref name="unlockNextBomb">The previous bomb has to be unlocked first, e.g. the Experience Bomb cannot be bought if the Bomb of Plenty is not bought.</ref>
+|-
+|<div id="Upgrades_W1_ChainBombAmount"></div>{{OverlayImages|height=34px|image1=[[File:Chain Bomb.png|link=Workshop/Costs#Chain_Bombs_Fired]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Chain_Bombs_Fired]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Chain_Bombs_Fired|Chain Bomb Amount]] || Increase the number of chain bomb fired || +1 || 26 || Level 2
+|-
+|<div id="Upgrades_W1_InfinityBombUnlocked"></div>[[File:Infinity Bomb.png|link=Workshop/Costs#Infinity_Bomb_Unlocked!]] || [[Workshop/Costs#Infinity_Bomb_Unlocked!|Infinity Bomb Unlocked!]] || Unlock new Bomb: Damage Multiplier +0.010 per Infinity Bomb Fired || {{NA}} || 1 || Level 3<ref name="unlockNextBomb" />
+|-
+|<div id="Upgrades_W1_BombOfPlentyOreMulti"></div>{{OverlayImages|height=34px|image1=[[File:Bomb of Plenty.png|link=Workshop/Costs#Bomb_of_Plenty_Ore_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Bomb_of_Plenty_Ore_Multi]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Bomb_of_Plenty_Ore_Multi|Bomb of Plenty Ore Multi]] || Increase the number of Ores given by the Bomb of Plenty || +1x || 25 || Level 3
+|-
+|<div id="Upgrades_W1_CherryBombUnlocked"></div>[[File:Cherry Bomb.png|link=Workshop/Costs#Cherry_Bomb_Unlocked!]] || [[Workshop/Costs#Cherry_Bomb_Unlocked!|Cherry Bomb Unlocked!]] || Unlock new Bomb: The next bomb you fire won't consume a charge || {{NA}} || 1 || Level 5<ref name="unlockNextBomb" />
+|-
+|<div id="Upgrades_W1_PickaxeDamage"></div>{{OverlayImages|height=34px|image1=[[File:Pickaxe Damage.png|link=Workshop/Costs#Pickaxe_Damage]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Pickaxe_Damage]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Pickaxe_Damage|Pickaxe Damage]] || Increase pickaxe damage || +3% || 42 || Level 6
+|-
+|<div id="Upgrades_W1_D20BombUnlocked"></div>[[File:D20 Bomb.png|link=Workshop/Costs#D20_Bomb_Unlocked!]] || [[Workshop/Costs#D20_Bomb_Unlocked!|D20 Bomb Unlocked!]] || 5% chance to refill 20 other bomb charges. || {{NA}} || 1 || Level 7<ref name="unlockNextBomb" />
+|-
+|<div id="Upgrades_W1_ExpBombBonus"></div>{{OverlayImages|height=34px|image1=[[File:Exp Bomb.png|link=Workshop/Costs#Exp_Bomb_Bonus]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Exp_Bomb_Bonus]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Exp_Bomb_Bonus|Exp Bomb Bonus]] || Increase the experience bonus. || +0.5x || 28 || Level 8
+|-
+|<div id="Upgrades_W1_MegaBombDamage"></div>{{OverlayImages|height=34px|image1=[[File:MEGABOMB.png|link=Workshop/Costs#Megabomb_Damage]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Megabomb_Damage]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Megabomb_Damage|Megabomb Damage]] || Increase the damage multiplier. || +5x || 32 || Level 9
+|-
+|<div id="Upgrades_W1_D20MaxCharges"></div>{{OverlayImages|height=34px|image1=[[File:D20 Bomb.png|link=Workshop/Costs#D20_Charges]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#D20_Charges]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#D20_Charges|D20 Max Charges]] || Increases the number of bomb charges refilled. || +1x || 42 || Level 10
+|-
+|<div id="Upgrades_W1_ChanceFor3xCharges"></div>{{OverlayImages|height=34px|image1=[[File:Cherry Bomb.png|link=Workshop/Costs#Chance_for_3x_Charges]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Chance_for_3x_Charges]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Chance_for_3x_Charges|Chance for 3x Charges]] || Increase the Chance for 3x charges for the Cherry Bomb || +0.5% || 32 || Level 12
+|-
+|<div id="Upgrades_W1_InfinityScaling"></div>{{OverlayImages|height=34px|image1=[[File:Infinity Bomb.png|link=Workshop/Costs#Infinity_Scaling]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Infinity_Scaling]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Infinity_Scaling|Infinity Scaling]] || Increase the damage scaling for the Infinity Bomb. || +0.001 || 32 || Level 14
+|-
+|<div id="Upgrades_W1_TransmuterBarMulti"></div>{{OverlayImages|height=34px|image1=[[File:Transmuter Bomb.png|link=Workshop/Costs#Transmuter_Bar_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Transmuter_Bar_Multi]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Transmuter_Bar_Multi|Transmuter Bar Multi]] || Increase the bar gain for the Transmuter Bomb || +1x || 27 || Level 18
+|}
+|-|
+World 2 Upgrades=
+{|class="wikitable align-left-2 text-align-center sticky-header"
+!colspan=2 | Upgrade !! Perk !! Per level !! Max level !! Obelisk
+|-
+|<div id="Upgrades_W2_BombDamage"></div>{{OverlayImages|height=34px|image1=[[File:Bomb Damage.png|link=Workshop/Costs#Bomb_Damage]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Bomb_Damage]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Bomb_Damage|Bomb Damage]] || Increase bomb damage || 35% || 42 || Level 19
+|-
+|<div id="Upgrades_W2_MegabombDamageMark"></div>{{OverlayImages|height=34px|image1=[[File:MEGABOMB.png|link=Workshop/Costs#Megabomb_Damage_Mark]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Megabomb_Damage_Mark]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Megabomb_Damage_Mark|Megabomb Damage Mark]] || Increase bomb damage || +1x || 25 || Level 20
+|-
+|<div id="Upgrades_W2_TransmuterGivesBoPChance"></div>[[File:Transmuter Bomb.png|link=Workshop/Costs#Transmuter_gives_BoP_chance]] || [[Workshop/Costs#Transmuter_gives_BoP_chance|Transmuter gives BoP chance]] || Chance for Transmuter to apply the Bomb of Plenty effect +25% || {{NA}} || 1 || Level 21
+|}
+|-|
+World 3 Upgrades=
+{|class="wikitable align-left-2 text-align-center sticky-header"
+!colspan=2 | Upgrade !! Perk !! Per level !! Max level !! Obelisk
+|-
+|<div id="Upgrades_W3_BombDamage"></div>{{OverlayImages|height=34px|image1=[[File:Bomb Damage.png|link=Workshop/Costs#Bomb_Damage_2]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Bomb_Damage_2]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Bomb_Damage_2|Bomb Damage]] || Increase bomb damage || 0.15x || 42 || Level 40
+|-
+|<div id="Upgrades_W3_MorphChance"></div>{{OverlayImages|height=34px|image1=[[File:Veinmorpher Bomb.png|link=Workshop/Costs#Morph_Chance]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Morph_Chance]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Morph_Chance|Morph Chance]] || Increases the Veinmorpher bomb morph chance || 0.1% || 47 || Level 40
+|-
+|<div id="Upgrades_W3_PickaxeDamage"></div>{{OverlayImages|height=34px|image1=[[File:Pickaxe Damage.png|link=Workshop/Costs#Pickaxe_Damage_2]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Pickaxe_Damage_2]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Pickaxe_Damage_2|Pickaxe Damage]] || Increases pickaxe damage || 0.08x || 47 || Level 42
+|-
+|<div id="Upgrades_W3_TurnsOresGold"></div>{{OverlayImages|height=34px|image1=[[File:Bomb of Plenty.png|link=Workshop/Costs#Turns_Ores_Gold]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Turns_Ores_Gold]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Turns_Ores_Gold|Turns Ores Gold]] || Plenty Bomb has a chance to convert ores into gold ores || 0.15% || 47 || Level 44
+|-
+|<div id="Upgrades_W3_HamburgerBonus"></div>{{OverlayImages|height=34px|image1=[[File:Hamburger.png|link=Workshop/Costs#Hamburger_Bonus]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Hamburger_Bonus]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Hamburger_Bonus|Hamburger Bonus]] || Increases Hamburger multis || 0.12x || 47 || Level 45
+|-
+|<div id="Upgrades_W3_BombOfPlentyMulti"></div>{{OverlayImages|height=34px|image1=[[File:Bomb of Plenty.png|link=Workshop/Costs#Plenty_Bomb_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Plenty_Bomb_Multi]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Plenty_Bomb_Multi|Plenty Bomb Multi]] || Increase the ore gain for the Bomb of Plenty || 0.50x || 47 || Level 48
+|-
+|<div id="Upgrades_W3_SushiFishingTicks"></div>{{OverlayImages|height=34px|image1=[[File:Sushi.png|link=Workshop/Costs#Sushi_Fishing_Ticks]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Sushi_Fishing_Ticks]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Sushi_Fishing_Ticks|Sushi Fishing Ticks]] || Increases the amount of Fishing Ticks Sushi gives || +1 || 42 || Level 55
+|-
+|<div id="Upgrades_W3_FishingDronePower"></div>{{OverlayImages|height=34px|image1=[[File:Drone Power Multiplier.png|link=Workshop/Costs#Fishing_Drone_Power]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Fishing_Drone_Power]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Fishing_Drone_Power|Fishing Drone Power]] || Increase Fishing Drone Power || +0.02x || 52 || Level 60
+|}
+|-|
+World 4 Upgrades=
+{|class="wikitable align-left-2 text-align-center sticky-header"
+!colspan=2 | Upgrade !! Perk !! Per level !! Max level !! Obelisk
+|-
+|<div id="Upgrades_W4_PickaxeAndBombDamage"></div>{{OverlayImages|height=34px|image1=[[File:Pickaxe and Bomb Damage.png|link=Workshop/Costs#Pickaxe_&_Bomb_Damage]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Pickaxe_&_Bomb_Damage]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Pickaxe_&_Bomb_Damage|Pickaxe & Bomb Damage]] || Increase pickaxe and bomb damage || 0.10x || 52 || Level 62
+|-
+|<div id="Upgrades_W4_StarFruitAllStarMulti"></div>{{OverlayImages|height=34px|image1=[[File:Starfruit.png|link=Workshop/Costs#Starfruit:_All_Star_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Starfruit:_All_Star_Multi]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Starfruit:_All_Star_Multi|Starfruit: All Star Multi]] || Increases Starfruit's all star multi || 0.5% || 52 || Level 63
+|-
+|<div id="Upgrades_W4_BombOfPlentyMulti"></div>{{OverlayImages|height=34px|image1=[[File:Bomb of Plenty.png|link=Workshop/Costs#Bomb_of_Plenty_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Bomb_of_Plenty_Multi]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Bomb_of_Plenty_Multi|Bomb of Plenty Multi]] || Increase the ore gain for the Bomb of Plenty || 1x || 52 || Level 64
+|-
+|<div id="Upgrades_W4_BombRechargeRate"></div>{{OverlayImages|height=34px|image1=[[File:Bomb Recharge Speed.png|link=Workshop/Costs#Bomb_Recharge_Rate]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Bomb_Recharge_Rate]]|top2=15px|left2=14px}} 
+| [[Workshop/Costs#Bomb_Recharge_Rate|Bomb Recharge Rate]] || Increases Bomb Recharge Rate || 0.25% || 52 || Level 65
+|-
+|<div id="Upgrades_W4_LootfrogLootMulti"></div>{{OverlayImages|height=34px|image1=[[File:Lootfrog Loot Multiplier.png|link=Workshop/Costs#Lootfrog_Loot_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Lootfrog_Loot_Multi]]|top2=15px|left2=15px}} 
+| [[Workshop/Costs#Lootfrog_Loot_Multi|Lootfrog Loot Multi]] || Increase the loot you get from lootfrogs || 0.50% || 52 || Level 66
+|-
+|<div id="Upgrades_W4_WizardLootMulti"></div>{{OverlayImages|height=34px|image1=[[File:Wizard Loot Multi.png|link=Workshop/Costs#Wizard_Loot_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Wizard_Loot_Multi]]|top2=15px|left2=15px}} 
+| [[Workshop/Costs#Wizard_Loot_Multi|Wizard Loot Multi]] || Increase the loot you get from Wizards|| 0.50% || 32 ||Level 70
+|-
+|<div id="Upgrades_W4_VeinseekerDroneGradeCap"></div>{{OverlayImages|height=34px|image1=[[File:Drone_Suit_Upgrade_Cap.png|link=Workshop/Costs#Veinseeker_Drone_Grade_Cap]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Veinseeker_Drone_Grade_Cap]]|top2=15px|left2=15px}} 
+| [[Workshop/Costs#Veinseeker_Drone_Grade_Cap|Veinseeker Drone Grade Cap]] || Increase the Veinseeker Drone Grade Cap|| 1 || 32 ||Level 70
+|-
+|<div id="Upgrades_W4_TransmuterBarMulti"></div>{{OverlayImages|height=34px|image1=[[File:Transmuter_Bomb.png|link=Workshop/Costs#Transmuter_Bar_Multi]]|image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Transmuter_Bar_Multi]]|top2=15px|left2=15px}} 
+| [[Workshop/Costs#Transmuter_Bar_Multi|Transmuter Bar Multi]] || Increase the Transmuter Bar Multi || 1x || 32 ||Level 71
+|-
+|<div id="Upgrades_W4_GoldenVoidPortalChance"></div>{{OverlayImages|height=34px|image1=[[File:Golden Void Portal Chance.png| link=Workshop/Costs#Golden_Void_Portal_Chance]]| image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Golden_Void_Portal_Chance]]|top2=15px|left2=15px}} 
+| [[Workshop/Costs#Golden_Void_Portal_Chance|Golden Void Portal Chance]] || Increase the Golden Void Portal Chance|| 0.15% || 42 || Level 72
+|-
+|<div id="Upgrades_W4_RainbowRoadSpell"></div>[[File:Rainbow Road.png| link=Workshop/Costs#Rainbow_Road_Spell]]|| Unlock Spell: Rainbow Road|| Unlocks the Rainbow Road Spell || {{NA}} || 1 || Level 73
+|-
+|<div id="Upgrades_W4_SpellLevelUpChance"></div>{{OverlayImages|height=34px|image1=[[File:Spell Unlock.png| link=Workshop/Costs#Spell_Level_Up_Chance]]| image2=[[File:GreenArrowUp.png|link=Workshop/Costs#Spell_Level_Up_Chance]]|top2=15px|left2=15px}} || Spell Level Up Chance|| Increases odds for a spell to level up || 0.75% || 42 || Level 73
+|}
+</tabber>
+<references />
+
+==Navigation==
+{{Menu}}

@@ -1,0 +1,361 @@
+{{Version|2.2.23}}
+<div style="display:flex">{{RandomChallengeCoinImage}}
+<div style="margin: 0 5px;">Challenges are initially unlocked at Obelisk Level 10 and they are tasks that can be completed to earn Coins which then can be spent on permanent upgrades. There are currently three challenge tiers—'''Regular''', '''Extreme''', and '''Divine'''—each with its own currency and rewards table. The next challenge tier is unlocked by finishing '''<u>all</u>''' challenges from the previous tier.</div></div>
+{{Clear|left}}
+
+==Challenge Tiers==
+<tabber class="sync sticky-header">Regular=
+Regular Challenges are the first Challenges to be unlocked after defeating [[Obelisk|Obelisk]] level 10. Completing a Regular Challenge earns 10 {{Sprites|Challenge Coin||16}}.
+{| class="wikitable lighttable sticky-header align-center-1"
+! Number !! Challenge
+|-
+|<div id="RegularTier_1"></div>1 || Reach Magma Zone Within 5m30s Of A [[Prestige|Prestige]]
+|-
+|<div id="RegularTier_2"></div>2 || Reach a 250 {{Sprite|Chain Bomb|Bombs#tabber-Chain_Bomb|x20}} Stack<br>(Hint: You can pause these to stack them up!)
+|-
+|<div id="RegularTier_3"></div>3 || Enter Code 'OSRS' <br>([[Options|Option Menu]] > [[Codes|Enter Code]])
+|-
+|<div id="RegularTier_4"></div>4 || Craft 10k {{Sprites|Tin Bar||x20}}
+|-
+|<div id="RegularTier_5"></div>5 || Reach Magma Zone Within 4m30s Of A [[Prestige|Prestige]] {{CollapsedDescription|This can be made easier using Bombs and with [[Stats#tabber-Floor_Clear_Requirement|Floor Clear Requirement]] reductions}}
+|-
+|<div id="RegularTier_6"></div>6 || Fire the {{Sprite|MEGABOMB|Bombs#tabber-MEGABOMB|x20}} 666 times<br>(Unlock bomb via Store for {{Gems|500}})
+|-
+|<div id="RegularTier_7"></div>7 || Earn 30k [[Prestige|Prestige]] Points {{CollapsedDescription|See sources of [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]]}}
+|-
+|<div id="RegularTier_8"></div>8 || Reach Floor 20 With No [[Upgrades|Upgrades]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_9"></div>9 || [[Craft|Craft]] 20k {{Sprites|Copper Bar||x20}}
+|-
+|<div id="RegularTier_10"></div>10 || Reach Level 5 in the Pickaxe Damage 1.20x [[Store#Gem Upgrades|Gem Upgrade]]
+|-
+|<div id="RegularTier_11"></div>11 || Have 1m {{Sprite|Gold_Coin||x20|Gold}} at once {{CollapsedDescription|See sources of [[Stats#tabber-Ore_Sell_Price_Multiplier|Sell Price Multiplier]]}}
+|-
+|<div id="RegularTier_12"></div>12 || Complete 100 [[Contracts]] in one Prestige<br>(Every Contract done gives Pickaxe damage!)
+|-
+|<div id="RegularTier_13"></div>13 || Reach 2.5m [[Stats#tabber-Pickaxe_Damage|Pickaxe Damage]]
+|-
+|<div id="RegularTier_14"></div>14 || Reach Floor 24 With No [[Upgrades|Upgrades]]<br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_15"></div>15 || Make 5k {{Sprites|Mithril Bar||x20}} via the {{Sprite|Transmuter Bomb|Bombs#tabber-Transmuter_Bomb|x20}}<br>(Unlock bomb via Store for {{Gems|750}})
+|-
+|<div id="RegularTier_16"></div>16 || Reach VR Zone Within 11 Minutes Of A [[Prestige|Prestige]] {{CollapsedDescription|This can be made easier using Bombs and with [[Stats#tabber-Floor_Clear_Requirement|Floor Clear Requirement]] reductions}}
+|-
+|<div id="RegularTier_17"></div>17 || Reach a 1k {{Sprite|Chain Bomb|Bombs#tabber-Chain_Bomb|x20}} Stack<br>(Hint: You can pause these to stack them up!)
+|-
+|<div id="RegularTier_18"></div>18 || Have 10m {{Sprite|Gold_Coin||x20|Gold}} at once {{CollapsedDescription|See sources of [[Stats#tabber-Ore_Sell_Price_Multiplier|Sell Price Multiplier]]}}
+|-
+|<div id="RegularTier_19"></div>19 || [[Prestige]] Within 15 Seconds Of A Prestige
+|-
+|<div id="RegularTier_20"></div>20 || Level up [[Pets#tabber-Crab_3|Crab Pet]] to level 3 <br>(Pets unlock at Obelisk 17!)
+|-
+|<div id="RegularTier_21"></div>21 || Earn 3.00m [[Prestige|Prestige]] Points {{CollapsedDescription|See sources of [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]]}}
+|-
+|<div id="RegularTier_22"></div>22 || Do 100 [[Contracts|Contracts]] With No Regular [[Upgrades|Upgrades]] In One [[Prestige|Prestige]] <br>(Contract Upgrades Are Allowed!) {{CollapsedDescription|You can reroll a contract for 5 Gems, or wait until you have enough bomb upgrades to do it without spending Gems on rerolls.}}
+|-
+|<div id="RegularTier_23"></div>23 || Put 10 [[Drones#Drone_Fuel|Fuel]] into the [[Drones#midasDrone|Midas Drone]] <br>(Drone Fuel unlocks at [[Obelisk#OB18|Obelisk 18]])
+|-
+|<div id="RegularTier_24"></div>24 || Fire 2.5k {{Sprites|Battery Bomb|Bombs#tabber-Battery_Bomb|x20}}<br>(Unlock bomb via Store for {{Gems|1000}})
+|-
+|<div id="RegularTier_25"></div>25 || Reach Floor 31 With No [[Upgrades|Upgrades]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_26"></div>26 || Reach Level 50 Without Leaving Floor 1 {{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]]}}
+|-
+|<div id="RegularTier_27"></div>27 || Reach a 10k {{Sprite|Chain Bomb|Bombs#tabber-Chain_Bomb|x20}} Stack<br>(Hint: You can pause these to stack them up!)
+|-
+|<div id="RegularTier_28"></div>28 || Have 250m {{Sprite|Gold_Coin||x20|Gold}} at once {{CollapsedDescription|See sources of [[Stats#tabber-Ore_Sell_Price_Multiplier|Sell Price Multiplier]]}}
+|-
+|<div id="RegularTier_29"></div>29 || Earn 10.00m [[Prestige|Prestige]] Points {{CollapsedDescription|See sources of [[Stats#tabber-Prestige_Point_Gain_Multiplier|Prestige Point Gain Multiplier]]}}
+|-
+|<div id="RegularTier_30"></div>30 || [[Craft|Craft]] 666.666k {{Sprites|Demonite Bar||x20}}
+|-
+|<div id="RegularTier_31"></div>31 || Reach Level 55 Without Leaving Floor 1 {{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]]}}
+|-
+|<div id="RegularTier_32"></div>32 || [[Prestige|Prestige]] 5 times at or above level 115{{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]].}}
+|-
+|<div id="RegularTier_33"></div>33 || Roll a new Miner name 50 times <br>([[Stats|Stats]] menu > New Name)
+|-
+|<div id="RegularTier_34"></div>34 || Do 150 [[Contracts|Contracts]] With No Regular [[Upgrades|Upgrades]] In One [[Prestige|Prestige]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_35"></div>35 || Fire 35k {{Sprites|Basic Bomb|Bombs#tabber-Basic_Bomb|x20}}
+|-
+|<div id="RegularTier_36"></div>36 || [[Craft|Craft]] 1m {{Sprites|Cranium Bar||x20}}
+|-
+|<div id="RegularTier_37"></div>37 || Level up your [[Pets#tabber-Dwarf_2|Dwarf Pet]] to Level 4
+|-
+|<div id="RegularTier_38"></div>38 || Reach Level 60 Without Leaving Floor 1 {{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]]}}
+|-
+|<div id="RegularTier_39"></div>39 || Reach Floor 37 With No [[Upgrades|Upgrades]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_40"></div>40 || Reach [[Drones#Drone Suits|Chain Drone]] [[Drones#Drone Fuel|Grade]] Level 5 <br>(Drone Menu - Fuel Submenu)
+|-
+|<div id="RegularTier_41"></div>41 || Mine 1k {{Sprites|Stone Vein|Construct#Veins|x20}} Without Leaving Floor 1
+|-
+|<div id="RegularTier_42"></div>42 || Fire 20k {{Sprites|D20 Bomb|Bombs#tabber-D20_Bomb|x20}} {{CollapsedDescription|The {{Sprites|D20 Bomb|Bombs#tabber-D20_Bomb|x20}} can be unlocked in the [[Workshop#World_1_Upgrades|Workshop]]}}
+|-
+|<div id="RegularTier_43"></div>43 || Reach Floor 40 With No [[Upgrades|Upgrades]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_44"></div>44 || Do 200 [[Contracts|Contracts]] With No Regular [[Upgrades|Upgrades]] In One [[Prestige|Prestige]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="RegularTier_45"></div>45 || Build The [[Construct#Monuments|World 2 Monument]]
+|-
+|<div id="RegularTier_46"></div>46 || Mine 5m {{Sprite|Sandcasium Ore||x20}}
+|-
+|<div id="RegularTier_47"></div>47 || Gain 25 Bomb Capacity Increases via {{Sprite|Battery Bomb|Bombs#tabber-Battery_Bomb|x20}} {{CollapsedDescription|The {{Sprite|Battery Bomb|Bombs#tabber-Battery_Bomb|x20}} can be unlocked in the [[Store#Gem_Unlocks|Store]] with Gems}}
+|-
+|<div id="RegularTier_48"></div>48 || [[Craft|Craft]] 10m {{Sprites|Twinklestone Bar||x20}}
+|-
+|<div id="RegularTier_49"></div>49 || Mine 10k {{Sprites|Deepsea Vein|Construct#Veins|x20}}
+|}
+|-|
+Extreme=
+Extreme Challenges are unlocked when you finish all regular challenges. Completing an Extreme Challenge earns 10 {{Sprites|Extreme Challenge Coin||16}}.
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2"
+! EC Number !! Stats Number !! Challenge
+|-
+|<div id="ExtremeTier_1"></div>1 || 50 || Reach Floor 46 With No [[Upgrades|Upgrades]] <br>(Contract Upgrades Are Allowed!)
+|-
+|<div id="ExtremeTier_2"></div>2 || 51 || Mine 666m {{Sprite|Demonite Ore||x20}}
+|-
+|<div id="ExtremeTier_3"></div>3 || 52 || [[Prestige|Prestige]] 5 times at or above level 125{{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]].}}
+|-
+|<div id="ExtremeTier_4"></div>4 || 53 || Have 5t {{Sprite|Gold_Coin||x20|Gold}} at once {{CollapsedDescription|See sources of [[Stats#tabber-Ore_Sell_Price_Multiplier|Ore Sell Price Multiplier]]}}
+|-
+|<div id="ExtremeTier_5"></div>5 || 54 || Gild 15 Ore and 15 Bar [[Cards|Cards]] {{CollapsedDescription|This challenge requires spending at least {{Gems|3600}} to complete.}}
+|-
+|<div id="ExtremeTier_6"></div>6 || 55 || Own 9 [[Construct#tabber-World_1_Gilded_Statues|Gilded Statues]]{{CollapsedDescription|As challenges reflects the progress wanted by the Devs, you are supposed to have done the previous challenge before pushing [[Construct#tabber-World_1_Gilded_Statues|Gilded Statues]]}}
+|-
+|<div id="ExtremeTier_7"></div>7 || 56 || Earn 100t {{Sprite|Gold_Coin||x20|Gold}} via the [[Drones#Drone Suits|Midas Drone]] {{CollapsedDescription|The Midas Drone is affected by all sell price and ore gain multipliers. See sources on the [[Stats]] page.}}
+|-
+|<div id="ExtremeTier_8"></div>8 || 57 || Gain 1t {{Sprites|Tin Bar||x20}} via the {{Sprite|Transmuter Bomb|Bombs#tabber-Transmuter_Bomb|x20}} {{CollapsedDescription|The Transmuter bomb is affected by all ore and bar gain multipliers, including [[Cards]]. See other sources on the [[Stats]] page.}}
+|-
+|<div id="ExtremeTier_9"></div>9 || 58 || Reach Level 15 {{Sprite|Taurus|Stargazing#Stars|x20}} And {{Sprite|Gemini|Stargazing#Stars|x20}}
+|-
+|<div id="ExtremeTier_10"></div>10 || 59 || Reach [[Drones#Drone Suits|Starburst Drone]] [[Drones#Drone Fuel|Grade]] Level 10 <br>(Drone Menu - Fuel Submenu)
+|-
+|<div id="ExtremeTier_11"></div>11 || 60 || Use 350k {{Sprite|Cherry Bomb|Bombs#tabber-Cherry_Bomb|x20}} Charges on the {{Sprite|Battery Bomb|Bombs#tabber-Battery_Bomb|x20}}
+|-
+|<div id="ExtremeTier_12"></div>12 || 61 || Mine 25b {{Sprite|Adamant Ore||x20}} while in the Jungle Zone<br>(Hint: Use [[Drones#Drone_Suits|Void Drone!]])
+|-
+|<div id="ExtremeTier_13"></div>13 || 62 || Auto-Catch 1k {{Sprites|Super Star|Stargazing#Super Stars|x20}} {{CollapsedDescription|If you have 100% auto-catch rate, clicking a super star will still contribute to this challenge.}}
+|-
+|<div id="ExtremeTier_14"></div>14 || 63 || Own 8 Gilded Star [[Cards|Cards]]
+|-
+|<div id="ExtremeTier_15"></div>15 || 64 || Mine 6.66m {{Sprites|Magma Vein|Construct#Veins|x20}} while in the Deepsea Zone{{CollapsedDescription|This challenge requires using the [[Drones#Drone_Suits|Void Drone]].}}
+|-
+|<div id="ExtremeTier_16"></div>16 || 65 || Polychrome 46 Ore [[Cards|Cards]]
+|-
+|<div id="ExtremeTier_17"></div>17 || 66 || Reach 5k Bomb Capacity
+|-
+|<div id="ExtremeTier_18"></div>18 || 67 || Mine 6.66t {{Sprite|VR-Demonite Ore||x20}}
+|-
+|<div id="ExtremeTier_19"></div>19 || 68 || [[Prestige|Prestige]] 10 times at or above level 200{{CollapsedDescription|See sources of [[Stats#tabber-Experience_Gain_Multiplier|Experience Gain Multiplier]].}}
+|-
+|<div id="ExtremeTier_20"></div>20 || 69 || Deplete 75k Rainbow {{Sprites|Volcano Vein|Construct#Veins|x20}}{{CollapsedDescription|See sources of [[Stats#tabber-Rainbow_Vein_Chance|Rainbow Vein Chance]].}}
+|-
+|<div id="ExtremeTier_21"></div>21 || 70 || Build The [[Construct#Monuments|World 3 Monument]]{{CollapsedDescription|As challenges reflects the progress wanted by the Devs, you are supposed to have done the previous challenge before pushing [[Construct#Monuments|World 3 Monument]]}}
+|-
+|<div id="ExtremeTier_22"></div>22 || 71 || Mine 222.22k Golden Ores{{CollapsedDescription|See sources of [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]].}}
+|-
+|<div id="ExtremeTier_23"></div>23 || 72 || Mine 150.00m {{Sprites|Stone Vein|Construct#Veins|x20}} while in World 3{{CollapsedDescription|This challenge requires using the [[Drones#Drone_Suits|Void Drone]].}}
+|-
+|<div id="ExtremeTier_24"></div>24 || 73 || Catch 2k Supergiant [[Stargazing|Stars]]{{CollapsedDescription|See sources of [[Stats#tabber-Star_Supergiant_Chance|Supergiant Star Chance]].}}
+|-
+|<div id="ExtremeTier_25"></div>25 || 74 || Mine 5k Galactic Rainbow Floors{{CollapsedDescription|See sources of [[Stats#tabber-Galactic_Rainbow_Floor_Chance|Galactic Rainbow Floor Chance]].}}
+|-
+|<div id="ExtremeTier_26"></div>26 || 75 || Build 9 [[Construct#tabber-World_3_Statues|World 3 Statues]]{{CollapsedDescription|As challenges reflects the progress wanted by the Devs, you are supposed to have done the previous challenge before pushing [[Construct#tabber-World_3_Statues|World 3 Statues]]}}
+|}
+|-|
+Divine=
+Divine Challenges are unlocked when you finish all extreme challenges. Completing a Divine Challenge earns 10 {{Sprites|Divine Challenge Coin||16}}.
+{| class="wikitable lighttable sticky-header align-center-1 align-center-2"
+! DC Number !! Stats Number !! Challenge
+|-
+|<div id="DivineTier_1"></div>1 || 76 || Complete 888 [[Contracts|Contracts]] in one [[Prestige|Prestige]] without leaving Floor 1 and 2{{CollapsedDescription|This challenge requires skipping contracts. Skipped contracts do not count as completions. This generally takes {{Gems|40k-60k}}, but can take in excess of {{Gems|100k}}.}}
+|-
+|<div id="DivineTier_2"></div>2 || 77 || Catch 14,144 Supernova Supergiant [[Stargazing|Stars]]{{CollapsedDescription|See sources of [[Stats#tabber-Star_Supernova_Chance|Star Supernova Chance]] and [[Stats#tabber-Star_Supergiant_Chance|Star Supergiant Chance]].}}
+|-
+|<div id="DivineTier_3"></div>3 || 78 || Mine 3,773 Golden {{Sprites|Crabrock Ore||x20}} while on a Galaxy Rainbow Floor{{CollapsedDescription|See sources of [[Stats#tabber-Golden_Ore_Chance|Golden Ore Chance]] and [[Stats#tabber-Galactic_Rainbow_Floor_Chance|Galactic Rainbow Floor Chance]].}}
+|-
+|<div id="DivineTier_4"></div>4 || 79 || [[Prestige|Prestige]] on Floor 102, 12 times{{CollapsedDescription|You don't need to prestige while on Floor 102, you just need to have reached it for challenge progress to count.}}
+|-
+|<div id="DivineTier_5"></div>5 || 80 || Have 100 days of [[Drones#Drone Suits|Elixir Drone]] [[Drones#Drone Fuel|Fuel]] at once{{CollapsedDescription|With [[Stats#tabber-Drone_Fuel_Duration_Multiplier|fuel duration]] multipliers and [[Stats#tabber-Fuel_Save_Chance|fuel save]] chance, the requirement typically drops to around 3,000–4,000 [[File:Fuel.png]] fuel.
+<ref name=DivineChallenge5>Without any upgrades to [[Stats#tabber-Drone_Fuel_Duration_Multiplier|fuel duration]] or [[Stats#tabber-Fuel_Save_Chance|fuel save]] this challenge requires 41,143 [[File:Fuel.png]] Fuel, which is {{Gems|205715}} if bought directly.</ref>}}
+|-
+|<div id="DivineTier_6"></div>6 || 81 || Use 16.66m {{Sprite|Cherry Bomb|Bombs#tabber-Cherry_Bomb|x20}} Charges on the {{Sprite|Gem Bomb|Bombs#tabber-Gem_Bomb|x20}}
+|-
+|<div id="DivineTier_7"></div>7 || 82 || Catch 15 [[Lootfrogs|Golden Frogs]] {{CollapsedDescription|Unlocked via [[Stargazing#Black_Hole|Black hole]] upgrades}}
+|-
+|<div id="DivineTier_8"></div>8 || 83 || Prestige 33 times at or above level 330
+|-
+|<div id="DivineTier_9"></div>9 || 84 || Deplete 2.5k Rainbow Veins in Rainbow Void Portals on Rainbow Floors
+|-
+|<div id="DivineTier_10"></div>10 || 85 || Earn 5k [[Chests#Relic_Chests|Relic chests]] via Any [[Skill-Tree#Stonks|Stonks]] Procs
+|-
+|<div id="DivineTier_11"></div>11 || 86 || Clear 1k Golden Prismatic Galactic Rainbow Floors in World 4{{CollapsedDescription|See sources of [[Stats#tabber-Prismatic_Galactic_Rainbow_Floor_Chance|Prismatic Galactic Rainbow Floor Chance]].}}
+|-
+|<div id="DivineTier_12"></div>12 || 87 || Prestige on Floor 120, eight times
+|-
+|<div id="DivineTier_13"></div>13 || 88 || Catch 12.5k Radiant Supernova Supergiant [[Stargazing#Stars|Eridanus Stars]]{{CollapsedDescription|See sources of [[Stats#tabber-Star_Radiant_Chance|Star Radiant Chance]], [[Stats#tabber-Star_Supernova_Chance|Star Supernova Chance]], and [[Stats#tabber-Star_Supergiant_Chance|Star Supergiant Chance]].}}
+|-
+|<div id="DivineTier_14"></div>14 || 89 || Get 5 [[Stats#tabber-Ultra_Stonks_Chance|Ultra Stonks]] Procs
+|-
+|<div id="DivineTier_15"></div>15 || 90 || Catch a [[Stats#tabber-Golden_Lootfrog_Chance|Golden]] [[Stats#tabber-Big_Lootfrog_Chance|Big]] Frog
+|-
+|<div id="DivineTier_16"></div>16 || 91 || Destroy 50 Shiny Essence Blocks (Arcanist)
+|-
+|<div id="DivineTier_17"></div>17 || 92 || Deplete 1000 Enchanted Zone Veins inside [[Stats#tabber-Galactic_Void_Portal_Chance|Galactic]] Rainbow Portals
+|-
+|<div id="DivineTier_18"></div>18 || 93 || Reach Fishing Enhance Upgrade "Fish Multiplier" Level 255
+|-
+|<div id="DivineTier_19"></div>19 || 94 || Own 38 Infernal Misc Cards
+|-
+|<div id="DivineTier_20"></div>20 || 95 || Gather 20q Vulpecula Stars
+|-
+|<div id="DivineTier_21"></div>21 || 96 || Receive 2000 Orbs from Wizards
+|-
+|<div id="DivineTier_22"></div>22 || 97 || Mine 2m Rainbow Ores on Prismatic Floors
+|-
+|<div id="DivineTier_23"></div>23 || 98 || Catch 2000 Radiant Supernova Supergiant Super Stars
+|-
+|<div id="DivineTier_24"></div>24 || 99 || Spend 50000 Mana
+|-
+|<div id="DivineTier_25"></div>25 || 100 || Break 67 Ultra Shiny Necrotic Essence Blocks
+|}</tabber>
+<references/>
+==Challenge Rewards==
+<tabber class="sync sticky-header">Regular=
+{| class="wikitable lighttable sticky-header text-align-center align-left-2" 
+! colspan=2 | Name
+! Bonus per level
+! Max level
+! [[File:Challenge Coin.png|16px]] Coins Cost
+! Min. Challenges<ref name="MinChall">This is the minimum number of Challenges of the corresponding tier that you need to complete to get one level in this upgrade.</ref>
+|-
+|<div id="RegularReward_BarUpgradeCosts"></div>[[File:Bar Cost Reduction.png]] || Bar Upgrade Costs || -5% || 3 || 10 [[File:Challenge Coin.png|16px]] || 1
+|-
+|<div id="RegularReward_ChainBombAmount"></div>[[File:Chain Bomb.png]] || Chain Bomb Amount || +1 || 3 || 10 [[File:Challenge Coin.png|16px]] || 2
+|-
+|<div id="RegularReward_PickaxeSuperCritDamage"></div>[[File:Pickaxe Super Crit Damage.png]] || Pickaxe Super Crit Damage || +10% || 3 || 10 [[File:Challenge Coin.png|16px]] || 3
+|-
+|<div id="RegularReward_ExpAndPPGain"></div>[[File:Prestige Point Gain Multiplier.png]] || Exp Gain & PP Gain || +10% || 3 || 10 [[File:Challenge Coin.png|16px]] || 4
+|-
+|<div id="RegularReward_BombCapacity"></div>[[File:Bomb Capacity.png]] || Bomb Capacity ||  +3 || 1 || 20 [[File:Challenge Coin.png|16px]] || 6
+|-
+|<div id="RegularReward_BombCritDamage"></div>[[File:Bomb Crit Damage.png]] || Bomb Crit Damage || +20% || 3 || 10 [[File:Challenge Coin.png|16px]] || 7
+|-
+|<div id="RegularReward_PickaxeDamagePerChallengeComplete"></div>[[File:Pickaxe Damage.png]] || Pickaxe Damage Per Challenge Complete || +1% || 3 || 10 [[File:Challenge Coin.png|16px]] || 8
+|-
+|<div id="RegularReward_SkillBitChance"></div>[[File:Skill Bit.png|32px]] || Skill Bit Chance || +1% || 1 || 20 [[File:Challenge Coin.png|16px]] || 10
+|-
+|<div id="RegularReward_OreSellPrice"></div>[[File:Ore Sell Price Multiplier.png]] || Ore Sell Price || +15% || 3 || 10 [[File:Challenge Coin.png|16px]] || 11
+|-
+|<div id="RegularReward_DoubleCraftChance"></div>[[File:Double Craft Chance.png]] || Double [[Craft#Craft_Chance|Craft Chance]] || +3%  || 3 || 10 [[File:Challenge Coin.png|16px]] || 12
+|-
+|<div id="RegularReward_BombSuperCritAndUltraCritChance"></div>[[File:Bomb Ultra Crit Chance.png]] || Bomb Super Crit Chance<br />Bomb Ultra Crit Chance || +25%<br />+5% || 1 || 30 [[File:Challenge Coin.png|16px]] || 15
+|-
+|<div id="RegularReward_PickaxeDamagePerSkillTreeNodeUnlocked"></div>[[File:Pickaxe Damage.png]] || Pickaxe Damage Per Skill-Tree Node Unlocked  || +1% || 3 || 10 [[File:Challenge Coin.png|16px]] || 16
+|-
+|<div id="RegularReward_PickaxeSuperCritChance"></div>[[File:Pickaxe Super Crit Chance.png]] || Pickaxe Super Crit Chance ||  +2% || 3 || 10 [[File:Challenge Coin.png|16px]] || 17
+|-
+|<div id="RegularReward_ObeliskArmor"></div>[[File:Obelisk Armor Reduction.png]] || Obelisk Armor || -12% || 1 || 30 [[File:Challenge Coin.png|16px]] || 20
+|-
+|<div id="RegularReward_GoldenVeinMulti"></div>[[File:Golden_Vein_Multiplier.png]] || Golden Vein Multi || +5%  || 3 || 10 [[File:Challenge Coin.png|16px]] || 21
+|-
+|<div id="RegularReward_PickaxeandBombSuperCritChance"></div>[[File:Pickaxe and Bomb Super Crit Chance.png]] || Pickaxe and Bomb Super Crit Chance || +2% || 3 || 10 [[File:Challenge Coin.png|16px]] || 22
+|-
+|<div id="RegularReward_BarCraftCosts"></div>[[File:Bar Craft Cost.png]] || Bar Craft Costs || -5% || 2 || 10 [[File:Challenge Coin.png|16px]] || 23
+|-
+|<div id="RegularReward_GemsfromFreebiePack"></div>[[File:Bonus Gems From Freebie Pack.png]] || Gems from Freebie Pack || +1 || 1 || 10 [[File:Challenge Coin.png|16px]] || 24
+|}
+|-|
+Extreme=
+{| class="wikitable lighttable sticky-header text-align-center align-left-2" 
+! colspan=2 | Name
+! Bonus per Level
+! Max level
+! [[File:Extreme Challenge Coin.png|16px]] Coins Cost
+! Min. Challenges<ref name="MinChall"/>
+|-
+|<div id="ExtremeReward_PickaxeDamagePerObeliskLevel"></div>[[File:Pickaxe Damage per Obelisk Level.png]] || Pickaxe Damage per Obelisk Level || +2% || 3  || 10 [[File:Extreme Challenge Coin.png|16px]] || 1
+|-
+|<div id="ExtremeReward_GoldenFloorMultiplier"></div>[[File:Golden Floor Multiplier.png]] || Golden Floor Multiplier || +1x || 2 || 10 [[File:Extreme Challenge Coin.png|16px]] || 2
+|-
+|<div id="ExtremeReward_LootbugSpawnRate"></div>[[File:Lootbug Spawn Rate Multiplier.png]] || Lootbug Spawn Rate || +10% || 1  || 30 [[File:Extreme Challenge Coin.png|16px]] || 5
+|-
+|<div id="ExtremeReward_BankedFreebieCap"></div>[[File:Banked Freebie Cap.png]] || Banked Freebie Cap || +1 || 1 || 30 [[File:Extreme Challenge Coin.png|16px]] || 8
+|-
+|<div id="ExtremeReward_SuperStarSpawnRate"></div>[[File:Super Star Spawn Rate Multiplier.png]] || Super Star Spawn Rate || +10% || 1 || 30 [[File:Extreme Challenge Coin.png|16px]] || 11
+|-
+|<div id="ExtremeReward_PetLevelCap"></div>[[File:Pet Level Cap.png]] || Pet Level Cap || +1 || 1 || 30 [[File:Extreme Challenge Coin.png|16px]] || 14
+|-
+|<div id="ExtremeReward_RainbowFloorMultiplier"></div>[[File:Rainbow Floor Multiplier.png]] || Rainbow Floor Multiplier || +5% || 3 || 10 [[File:Extreme Challenge Coin.png|16px]] || 15
+|-
+|<div id="ExtremeReward_BombUltraCritChance"></div>[[File:Bomb Ultra Crit Chance.png]] || Bomb Ultra Crit Chance || +4% || 3 || 10 [[File:Extreme Challenge Coin.png|16px]] || 16
+|-
+|<div id="ExtremeReward_GalacticRainbowChance"></div>[[File:Galactic Rainbow Floor Chance.png]] || Galactic Rainbow Chance || +2% || 1 || 30 [[File:Extreme Challenge Coin.png|16px]] || 19
+|}
+|-|
+Divine=
+{| class="wikitable lighttable sticky-header text-align-center align-left-2" 
+! colspan=2 | Name
+! Bonus
+! Max level
+! [[File:Divine Challenge Coin.png|16px]] Coins Cost
+! Min. Challenges<ref name="MinChall"/>
+|-
+|<div id="DivineReward_SuperStarSupergiantChance"></div>[[File:Super Star Supergiant Chance.png]] || Super Star Supergiant Chance || +1.50% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 1
+|-
+|<div id="DivineReward_ShinyFishMultiplier"></div>[[File:Shiny Multiplier.png]] || Shiny Fish Multiplier || +10% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 2
+|-
+|<div id="DivineReward_GoldenOreChance"></div>[[File:Golden Ore Chance.png]] || Golden Ore Chance || +1% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 3
+|-
+|<div id="DivineReward_StarSupergiantChance"></div>[[File:Star Supergiant Chance.png]] || Star Supergiant Chance || +2% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 4
+|-
+|<div id="DivineReward_StarSpawnRate"></div>[[File:Star_Spawn_Rate_Multiplier.png]] || Star Spawn Rate || +10% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 5
+|-
+|<div id="DivineReward_GoldenFrogChance"></div>[[File:Golden_Lootfrog_Chance.png]] || Golden Frog Chance || +1% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 6
+|-
+|<div id="DivineReward_SuperStonksChance"></div>[[File:Super_Stonks_Chance.png]] || Super Stonks Chance || +1% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 7
+|- 
+|<div id="DivineReward_NovagiantComboMulti"></div>[[File:Novagiant Combo Multiplier.png]] || Novagiant Combo Multi || +20% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 8
+|- 
+||<div id="DivineReward_DivineRelicCaps"></div>[[File:Divine Relic Cap.png]] || Divine Relic Caps || +2 || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 9
+|- 
+|<div id="DivineReward_UnlockGoldenStarfruit"></div>[[File:Starfruit_Golden.png]] || Unlock Item: Golden Starfruit || {{NA}} || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 10
+|- 
+|<div id="DivineReward_BigLootfrogChance"></div>[[File:Big Lootfrog Chance.png]] || Big Lootfrog Chance || +0.50% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 11
+|- 
+|<div id="DivineReward_AllStonksMultiplier"></div>[[File:All Stonks Multi.png]] || All Stonks Multiplier || 1.15x || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 12
+|- 
+|<div id="DivineReward_DwarfAndPrismDroneGradeCap"></div>[[File:Pet Level Cap.png]] || Dwarf Pet Cap <br>Prism Drone Grade Cap || +5/+5 || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 13
+|- 
+|<div id="DivineReward_ArchaeologyFragmentGain"></div>[[File:Archaeology_Fragment_Gain.png]] || Archaeology Fragment Gain || +10% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 14
+|- 
+|<div id="DivineReward_GalacticPortalMultiplier"></div>[[File:Galactic Void Portal Multi.png]] || Galactic Portal Multiplier || +15% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 15
+|- 
+|<div id="DivineReward_RadiantStarMultiplier"></div>[[File:Star Radiant Multi.png]] || Radiant Star Multiplier || +12% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 16
+|- 
+|<div id="DivineReward_InfernalCardMultiplier"></div>[[File:Infernal Card Multi.png]] || Infernal Card Multiplier || +5% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 17
+|- 
+|<div id="DivineReward_MinotaurDroneGradeCap"></div>[[File:Drone_Minotaur_Icon.png]] || Minotaur Drone Grade Cap || +3 || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 18
+|- 
+|<div id="DivineReward_BlindWizardChance"></div>[[File:Blind Wizard Chance.png]] || Blind Wizard Chance || +1% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 19
+|- 
+|<div id="DivineReward_GoldenVoidPortalChance"></div>[[File:Golden Void Portal Chance.png]] || Golden Void Portal Chance || +10% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 20
+|-
+|<div id="DivineReward_DraconicHoard"></div>[[File:Draconic Hoard.png]] || Unlock Spell: Draconic Hoard || {{NA}} || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 21
+|-
+| <div id="DivineReward_RainbowOreMulti"></div>[[File:Rainbow Ore Multi.png]] || Rainbow Ore Multi  || +12.5% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 22
+|-
+| <div id="DivineReward_SuperStarSupergiantMulti"></div>[[File:Super Star Supergiant Multiplier.png]] || Super Star Supergiant Multi || +7.5% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 23
+|-
+| <div id="DivineReward_ArcanistSpellPower"></div>[[File:Spell_Unlock.png]] || Arcanist Spell Power || +4% || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 24
+|-
+| <div id="DivineReward_AllShinyEssenceLoot"></div>[[File:All_Shiny_Essence_Loot.png]] || All Shiny Essence Loot|| +2 || 1 || 10 [[File:Divine Challenge Coin.png|16px]] || 25
+|}
+</tabber>
+<references/>
+
+==Navigation==
+{{Menu}}

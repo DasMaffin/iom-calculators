@@ -1,0 +1,109 @@
+<tabber>
+Xp Level Cap=
+{{Stat|Xp Level Cap|The maximum level you can reach with EXP.
+| '''Obelisk''' |
+Defeating [[Obelisk|Obelisks]]
+}}
+|-|
+Prestige Point Gain Multiplier=
+{{Stat|Prestige Point Gain Multiplier|The multiplier on the number of Prestige Points gained.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T2_PrestigePointGainMultiplier|Tier 2 Artifact]]
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#LegendaryRelic_PrestigePointGain|Legendary Prestige Point GainRelic]]
+| '''Store''' |
+A [[Store#Perks|Perk]] or [[Store#Perk_Bundles|Perk Bundke]]
+| '''Skill-Tree''' |
+The [[File:PP Go Up.png|16px]] [[Skill-Tree#PPGoUp|PP Go Up]] Skill<math>+</math>
+<br>The [[File:Easy Progressor.png|16px]] [[Skill-Tree#EasyProgressor|Easy Progressor]] Skill
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_ExpAndPPGain|Exp Gain & PP Gain]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Celio's Hat.png}}[[Cards#CardEffects_Misc_CeliosHat|Celio's Hat Misc Card]]
+| '''Pets''' |
+The [[File:Dwarf_Quest.png|16px]] [[Pets#tabber-Dwarf_2|Dwarf Pet Quest]]
+| '''Construct''' |
+[[File:3 Statue Slaying Normal.png|16px]] [[Construct#Dark|World 1: Statue of Slaying]]
+| '''Stargazing''' |
+[[File:Libra Full.png|16px]] [[Stargazing#Libra|Libra]]
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_PrestigePointGain|World 1: Prestige Points Gain]]
+| '''Skins''' |
+The [[Skins#SkinReward2|2nd Skin Reward]]
+}}
+|-|
+Experience Gain Multiplier=
+{{Stat|Experience Gain Multiplier|The multiplier on Experience gained.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T1_ExperienceGainMultiplier|Tier 1 Artifact]]
+| '''Drones''' |
+An [[Drones#Elixir_Drone_Buffs|Elixir Drone Buff]] (Also from the [[Store#Founder Supply Drop|Founder Supply Drop]])
+| '''Items''' |
+[[File:Apple.png|16px]] [[Items#Apple|Apple]] (Requires the [[File:Athena Idol.png|16px]] [[Archaeology#Athena|Athena]] Idol)<math>\times</math>
+<br>[[File:Strawberries.png|16px]] [[Items#Strawberries|Strawberries]]
+| '''Relics''' |
+[[File:Relic Chest.png|16px]] [[Chests#CommonRelic_ExperienceGain|Common Experience Gain Relic]]<math>+</math>
+<br>[[File:Relic Chest.png|16px]] [[Relics#RareRelic_ExperienceGain|Rare Experience Gain Relic]]
+| '''Store''' |
+The [[File:petbooster vp.png|16px]] [[Store#PetTrainerBundle|Pet Trainer Bundle]]
+<br>The [[File:FounderIcon.png|16px]] [[Store#Founders Bundle|Founders Bundle]]
+| '''Skill-Tree''' |
+(The [[File:PP Go Up.png|16px]] [[Skill-Tree#PPGoUp|PP Go Up]] Skill<math>+</math>
+<br>The [[File:tons Of Damage.png|16px]] [[Skill-Tree#TonsOfDamage|Tons Of Damage]] Skill)<math>\times</math>
+<br>The [[File:polychrome Power.png|16px]] [[Skill-Tree#PolychromePower|Polychrome Power]] Skill
+| '''Challenges''' |
+[[File:Challenge Coin.png|16px]] [[Challenges#RegularReward_ExpAndPPGain|Exp Gain & PP Gain]]
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Miner Name.png}}[[Cards#CardEffects_Misc_MinerName|Miner Name Misc Card]]
+<br>{{Card|cardType=Standard|cardImage=Dino Icon.png}}[[Cards#CardEffects_Pets_Dino|Dino Pet Card]]
+<br>{{Card|cardType=Standard|cardImage=Nuclear_Legendary_Fish_Head.png}}[[Cards#CardEffects_LegFish_RadioactiveSlug|Radioactive Slug Legendary Fish Card]]
+| '''Pets''' |
+The [[File:Duck_Default.png|16px]] [[Pets#tabber-Duck_2|Duck Pet]]
+| '''Construct''' |
+[[File:17 Statue Eastwood Gilded.png|16px]] [[Construct#MLNWGilded|World 3: Gilded and Platinized Statue of Eastwood]]
+| '''Stargazing''' |
+[[File:Capricorn Full.png|16px]] [[Stargazing#Capricorn|Capricorn]]<math>+</math>
+<br>A [[File:Super Star.png|16px]] [[Stargazing#Experience_SSUpgrade|Super Star Upgrade]]
+| '''Fishing''' |
+[[File:Tier 1 Notice Token.png|16px]] [[Fishing#Upgrades_T1_ExperienceGainMultiplier|Tier 1 Notice: Experience Gain]]
+| '''Upgrades''' |
+The {{Sprite|Sandcasium Bar|Upgrades#Upgrades_W2_ExperienceGain||Sandcasium Bar Upgrade}}
+| '''Contracts''' |
+[[File:Contract Point.png|16px]] [[Contracts#Upgrades_W1_EXPGain|World 1: EXP Gain]]
+| '''Skins''' |
+The [[Skins#SkinReward3|3rd Skin Reward]]
+}}
+|-|
+Floor Clear Requirement=
+{{Stat|Floor Clear Requirement|The multiplier on the number of times a floor must be cleared to move on to the next floor.
+| '''Prestige''' |
+A [[Prestige#Artifacts_T2_FloorClearRequirement|Tier 2 Artifact]]
+| '''Skill-Tree''' |
+The [[File:Easy Progressor.png|16px]] [[Skill-Tree#EasyProgressor|Easy Progressor]] Skill
+| '''Cards''' |
+{{Card|cardType=Standard|cardImage=Misc Prestige.png}}[[Cards#CardEffects_Misc_Prestige|Prestige Misc Card]]
+The [[Cards#Misc Cards|Prestige Misc Card]]<ref></ref>
+| '''Pets''' |
+The [[File:Dwarf_Quest.png|16px]] [[Pets#tabber-Dwarf_2|Dwarf Pet Quest]]
+| '''Construct''' |
+[[File:1 Statue Rhythm Platinized.png|16px]] [[Construct#XanzPlatinized|World 1: Platinized Statue of Rhythm]]
+| '''Skins''' |
+The [[Skins#SkinReward4|4th Skin Reward]]
+}}
+|-|
+Artifact Upgrade Cap Increase=
+{{Stat|Artifact Upgrade Cap Increase|The increase to the max upgrade level of Artifacts.
+| '''Skill-Tree'''<math>+</math> |
+The [[File:Do These Upgrades Ever End.png|16px]] [[Skill-Tree#DoTheseUpgradesEverEnd|Do These Upgrades Ever End?]] Skill
+| '''Cards'''<math>+</math> |
+{{Card|cardType=Standard|cardImage=Happybot Icon.png}}[[Cards#CardEffects_Pets_Happybot|Happy Bot Pet Card]]
+| '''Construct'''<math>+</math> |
+[[File:3 Statue Slaying Normal.png|16px]] [[Construct#Dark|World 1: Statue of Slaying]]
+}}
+|-|
+Artifact Tier 4 Cap Increase=
+{{Stat|Artifact Tier 4 Cap Increase|The increase to the max upgrade level of Tier 4 Artifacts.
+| '''Pets'''<math>+</math> |
+The [[File:Happybot_Default.png|16px]] [[Pets#tabber-Happy-Bot_2|Happy Bot Pet]]
+}}
+</tabber>

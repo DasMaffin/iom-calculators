@@ -1,0 +1,482 @@
+{{Version|2.2.23|0.9|
+*Potentially missing details on exchange cost scaling, special types of exchange (Party, blind, flashbang, disco)}}
+
+[[File:Arcanist Button.png|frameless|left]]
+Arcanist unlocks at Obelisk 70. You damage Essence Blocks to collect Essence, run Altars to convert Essence into Runes, cast spells to gain boosts for the main game or within Arcanist, and Exchange resources with wizards for Orbs.
+
+{{Clear|left}}
+==In-game description==
+<div style="margin:auto;font-size:0.9em">
+{{Quote
+|quote = 
+Arcanist is still in development! Things may be inaccessible and a bunch more upgrades are WIP!
+
+Essence - Battle with Essence blocks to farm.. Essence! Essence can be made into Runes, used to buy Upgrades and traded to Wizards for Orbs!
+
+Shiny Blocks give Bonus Essence! Brittle Blocks spawn with lower Health!
+
+Altar - Altars are used to Craft Essence into Runes! Runes are used to Cast Spells and buy Upgrades!
+
+Spells - Use Mana and Runes to cast Spells! Spells can level up to be stronger, rank up their Potency to make them ever stronger!
+
+Every Spell Level and Potency Rank increases the Spell effect by 5%, multiplicative with each other!
+
+Spells can be unlocked from various systems throughout the game! Spell Duration depletes in real time!
+
+Exchange - The Wizards are willing to exchange Orbs for your Currencies!
+
+Reaching Orb Trading Milestones will allow new Wizards to appear!
+}}</div>
+
+==Arcanist Stats==
+{{:Stats/Arcanist}}
+<!-- If you're here to edit stats, do it on that page -->
+
+==Essence==
+
+The arcanist menu revolves around attacking Essence Blocks to generate Essence which is then converted into runes by your runners.
+
+Each of the Essence blocks has it's own values for armour and HP, progressively scaling the later the essence. New Essences also add new debuffs to the player.
+
+{| class="wikitable"
+|+ Essence Blocks
+|-
+! Block || colspan=4 | Stats 
+|-
+|rowspan=5 | [[File: Soft Essence Block.png]]<br/> {{Sprite|Soft Essence}}
+! HP
+| colspan=3 | 1000
+|-
+! Armor
+| colspan=3 | 3 
+|-
+! Regeneration
+| colspan=3 | 5hp
+|-
+! Respawn Timer
+| colspan=3 | 10
+|-
+! Debuffs
+| {{NA|colspan=3}}
+|-
+|rowspan=6 | [[File: Dense Essence Block.png]]<br/> {{Sprite|Dense Essence}}
+! HP
+| colspan=3 | 2000
+|-
+! Armor
+| colspan=3 | 5
+|-
+! Regeneration
+| colspan=3 | 7hp
+|-
+! Respawn Timer 
+| colspan=3 | 12s
+|-
+! rowspan=2 | Debuffs 
+| rowspan=2 | Stun 
+! Chance
+| 5%
+|-
+! Duration
+| 2s
+|-
+|rowspan=8 | [[File: Jagged Essence Block.png]]<br/> {{Sprite|Jagged Essence}}
+! HP
+| colspan=3 | 5000
+|-
+! Armor
+| colspan=3 | 10
+|-
+! Regeneration
+| colspan=3 | 10hp
+|-
+! Respawn Timer 
+| colspan=3 | 15s
+|-
+! rowspan=4 | Debuffs 
+| rowspan=2 | Stun 
+! Chance
+| 6%
+|-
+! Duration
+|3s
+|- 
+| rowspan=2 | Weaken 
+! Chance
+| 2%
+|-
+! Duration
+| 8s
+|-
+|rowspan=10 | [[File: Necrotic Essence Block.png]]<br/> {{Sprite|Necrotic Essence}}
+! HP
+| colspan=3 | 7500
+|-
+! Armor
+| colspan=3 | 15 
+|-
+! Regeneration
+| colspan=3 | 20hp
+|-
+! Respawn Timer
+| colspan=3 | 20s
+|-
+! rowspan=4 | Debuffs 
+| rowspan=2 | Stun 
+! Chance
+| 8%
+|-
+! Duration
+|4s
+|- 
+| rowspan=2 | Weaken 
+! Chance
+| 4%
+|-
+! Duration
+| 10s
+|-
+|}
+
+On this tab of the menu your miner battles Essence Blocks to collect Essence. You can view Player Stats and Essence Stats.  Essence Blocks have their own card. 
+
+Upgrades are on this tab typically affect the Player Stats and Essence Stats meaning you can damage Essence Blocks more effectively.
+===Essence Upgrades=== 
+{| class="wikitable text-align-center align-left-2"
+! colspan=2 | Name !! Effect !! Max Level !! style="width:4em" | Unlock Level <ref name=LevelsToUnlock>Relates to amount of levels needed in previous upgrade to unlock next one</ref>
+|-
+|<div id="EssenceUpgrade_UnlockNextEssenceMine"></div>[[File:Essence.png|32px]] || Unlock Next Essence Mine
+| Dense/Jagged/
+Necrotic/Chromatic
+| 4 || {{NA}}
+|-
+|<div id="EssenceUpgrade_FlatDamage_1"></div>[[File:Pickaxe_Damage.png|32px]] || Flat Damage
+| +1 || 25 || {{NA}}
+|-
+|<div id="EssenceUpgrade_SoftEssenceMaxLoot"></div>[[File:Soft Essence Multi.png|32px]] || Soft Essence Max Loot 
+| +1 || 3 || 3
+|-
+|<div id="EssenceUpgrade_ShinyChance"></div>[[File:Shiny Essence Chance.png|32px]] || Shiny Chance 
+| +0.3% || 25 || 1
+|-
+|<div id="EssenceUpgrade_CritChanceAndCritDamage"></div>[[File:Pickaxe_Crit_Chance.png|32px]] || Crit Chance/Crit Damage 
+| +0.25%/+1% || 25 || 3
+|-
+|<div id="EssenceUpgrade_FlatDamageAndBrittleChance_1"></div>[[File:Brittle Essence Chance.png|32px]] || Flat Damage/Brittle Chance
+| +1/+0.15% || 25 || 5
+|-
+|<div id="EssenceUpgrade_DenseEssenceMaxLoot"></div>[[File:Dense Essence Multi.png|32px]] || Dense Essence Max Loot
+| +1 || 3 || 5
+|-
+|<div id="EssenceUpgrade_EssenceArmorPenAndAttackSpeed"></div>[[File:Obelisk_Armor_Reduction.png|32px]] || Essence Armor Pen/Attack Speed
+| +1/+1% || 5 || 1
+|-
+|<div id="EssenceUpgrade_SuperCritChanceAndSuperCritDamage"></div>[[File:Archaeology Super Crit Chance.png|32px]] || Super Crit Chance/Super Crit Damage
+| +0.5%/+1% || 20 || 3
+|-
+|<div id="EssenceUpgrade_FlatDamageAndStunNegateChance"></div>[[File:Stun Block Chance.png|32px]] || Flat Damage/Stun Negate Chance
+| +1/+2% || 10 || 2
+|-
+|<div id="EssenceUpgrade_FlatDamage_2"></div>[[File:Archaeology Damage Mult.png|32px]] || Flat Damage
+| +2% || 20 || 2
+|-
+|<div id="EssenceUpgrade_ShinyEssenceLoot"></div>[[File:Shiny Essence Multi.png|32px]] || Shiny Essence Loot
+| +1 || 3 || 5
+|-
+|<div id="EssenceUpgrade_ShinyChanceAndBrittleChance"></div>[[File:Shiny Essence Chance.png|32px]] || Shiny Chance/Brittle Chance
+| +1%/+1% || 3 || 1
+|-
+|<div id="EssenceUpgrade_CritChanceAndSuperCritChance"></div>[[File:Archaeology Crit Chance.png|32px]] || Crit Chance/Super Crit Chance
+| +0.35%/+0.25% || 20 || 1
+|-
+|<div id="EssenceUpgrade_JaggedEssenceMinAndMaxLoot"></div>[[File:Jagged Essence Multi.png|32px]] || Jagged Essence Min Loot/Jagged Essence Max Loot
+| +1/+1 || 2 || 3
+|-
+|<div id="EssenceUpgrade_RegenerationAndEssenceRespawnTimer"></div>[[File:Essence Regeneration Reduction.png]] || Regeneration & Essence Respawn Timer
+| -1/-1s || 3 || 1
+|-
+|<div id="EssenceUpgrade_SuperShinyChance"></div>[[File: Shiny Essence Chance.png|32px]] || Super Shiny Chance
+| +0.30% || 25 || 1
+|-
+|<div id="EssenceUpgrade_FlatDamageAndWeakenNegateChance"></div>[[File: Weaken Negate Chance.png|32px]] || Flat Damage, Weaken Negate Chance
+| +1/+2% || 10 || 5
+|-
+|<div id="EssenceUpgrade_AllEssenceMaxLoot"></div>[[File: All Essence Max Loot.png]] || All Essence Max Loot 
+| +1 || 2 || 3
+|-
+|<div id="EssenceUpgrade_FlatDamageAndBrittleChance_2"></div>[[File:Brittle Essence Chance.png]] || Flat Damage, Brittle Chance
+| +1.50%/+0.15% || 15 || 1
+|-
+|<div id="EssenceUpgrade_SuperShinyEssenceLoot"></div>[[File: Super Shiny Essence Multi.png]] || Super Shiny Essence Loot
+| +2 || 2 || 5
+|-
+|<div id="EssenceUpgrade_CritChanceAndUltraCritChance"></div>[[File: Pickaxe Ultra Crit Chance.png]] || Crit Chance, Ultra Crit Chance
+| +0.35%/+0.25% || 20 || 1
+|-
+|<div id="EssenceUpgrade_CritDamageAndAttackSpeed"></div>[[File: Pickaxe Crit Damage.png]] || Crit Damage, Attack Speed
+| +2%/+0.50% || 10 || 5
+|-
+|<div id="EssenceUpgrade_AllEssenceMinLoot"></div>[[File: All Essence Min Loot.png]] || All Essence Min Loot
+| +1 || 2 || 3
+|-
+|<div id="EssenceUpgrade_FlatDamageAndAllDebuffNegateChance"></div>[[File:All Debuff Negate Chance.png]] || Flat Damage, All Debuff Negate Chance
+| +2/+0.35% || 15 || 1
+|-
+|<div id="EssenceUpgrade_CritChanceAndEssenceRespawnTimer"></div>[[File: Pickaxe Crit Chance.png]] || Crit Chance, Essence Respawn Timer
+| +4%/-1s || 2 || 5
+|-
+|<div id="EssenceUpgrade_SuperCritDamageAndDazeNegateChance"></div>[[File: Dazed Negate Chance.png]] || Super Crit Damage, Daze Negate Chance
+| +3%/+2% || 10 || 1
+|-
+|<div id="EssenceUpgrade_ShinyChanceAndUltraShinyChance"></div>[[File: Shiny Essence Chance.png]] || Shiny Chance, Ultra Shiny Chance
+| +0.30%/+0.40% || 20 || 3
+|-
+|<div id="EssenceUpgrade_AllShinyEssenceLoot"></div>[[File: All Shiny Essence Loot.png]] || All Shiny Essence Loot
+| +1 || 3 || 5
+|-
+|<div id="EssenceUpgrade_FlatDamageAndEssenceArmorPen"></div>[[File: Obelisk Armor Reduction.png]] || Flat Damage, Essence Armor Pen
+| +3%/+2 || 5 || 1
+|-
+|<div id="EssenceUpgrade_SuperCritDamageAndStunNegateChance"></div>[[File:Stun Negate Chance.png]] || Super Crit Damage, Stun Negate Chance
+| +4%/+1.50% || 15 || 2
+|-
+|<div id="EssenceUpgrade_FlatDamageAndSuperCritChance"></div>[[File: Pickaxe Super Crit Chance.png]] || Flat Damage, Super Crit Chance
+| +4/+2% || 5 || 5
+|-
+|<div id="EssenceUpgrade_CritDamageAndUltraCritChance"></div>[[File: Pickaxe Ultra Crit Chance.png]] || Crit Damage, Ultra Crit Chance
+| +2.50%/+0.25% || 20 || 2
+|-
+|<div id="EssenceUpgrade_SuperShinyChanceAndAttackSpeed"></div>[[File: Super Shiny Essence Chance.png]] || Super Shiny Chance, Attack Speed
+| +0.40%/+0.20% || 20 || 5
+|}
+====Essence Upgrade Costs====
+{{See also|Arcanist/Essence_Upgrade_Costs}}
+<references />
+
+==Altars==
+On this tab you run Altars to convert Essence into Runes. Unlocking new Altars requires runes from the previous Altar. You can use Orbs to upgrade Altars to get more Runes. Altars can be paused at any time in order to preserve Essence. Altars have their own card.
+
+The first Altar is unlocked right away, but must be unpaused before it does anything.
+
+{| class="wikitable sticky-header align-center-1 align-center-4 align-center-5"
+! Name !! Essence !! Unlock Cost
+|-
+| {{Sprite|Ash Rune||16x16|Ash Rune}} || {{Sprite|Soft Essence||16x16|Soft Essence}} || {{NA}}
+|-
+| {{Sprite|Brine Rune||16x16|Brine Rune}} || {{Sprite|Soft Essence||16x16|Soft Essence}} || 1,000 {{Sprite|Ash Rune||16x16|Ash Rune}} 
+|-
+| {{Sprite|Chasm Rune||16x16|Chasm Rune}} || {{Sprite|Dense Essence||16x16|Dense Essence}} || 5,000 {{Sprite|Ash Rune||16x16|Ash Rune}} & 2,500 {{Sprite|Brine Rune||16x16|Brine Rune}}
+|-
+| {{Sprite|Drift Rune||16x16|Drift Rune}} || {{Sprite|Dense Essence||16x16|Dense Essence}} || 20,000 {{Sprite|Ash Rune||16x16|Ash Rune}} & 15,000 {{Sprite|Brine Rune||16x16|Brine Rune}} & 10,000 {{Sprite|Chasm Rune||16x16|Chasm Rune}}
+|-
+|{{Sprite|Echo Rune||16x16|Echo Rune}} || {{Sprite|Jagged Essence||16x16|Jagged Essence}} || 100,000 {{Sprite|Brine Rune||16x16|Brine Rune}} & 75,000 {{Sprite|Chasm Rune||16x16|Chasm Rune}} & 25,000 {{Sprite|Drift Rune||16x16|Drift Rune}}
+
+|}
+
+===Altar Costs===
+{{:Arcanist/Altar_Costs}}
+
+==Spells==
+On this tab you cast spells, which give a passive and active effect to the main game and/or Arcanist. Spells are ranked up using Runes, and cost resources to cast. Spells have their own card. 
+
+Increasing a spell's Potency Rank improves its Passive, Active, Duration, and Level Chance by the formula 1 + PotencyLevel * 5%.
+
+A spell's level chance may be calculated as 1 in (Spell Level + 1) * 50 / Potency Effect / Spell Level Up Mult.
+
+Increasing a spell's Spell Level increases its Passive and Active effects by the formula 1 + SpellLevel * 5%.
+
+The Passive and Active effects from Potency Levels and Spell Levels multiply with each other.
+
+{| class="wikitable sticky-header align-center-1 align-center-3 align-center-4 align-center-5 align-center-6"
+! colspan=2 | Name !! Active<ref name="base">Refers to the base value prior to any sources of spell-specific buffs (potency, level, card) or Arcanist Spell Power</ref>  !! Passive<ref name="base" /> || Duration<ref name="base" /> || Max Level || Unlock Method
+|-
+| <div id="RunicSurge"></div>[[File:Runic Surge Spell.png|x32px]] || Runic Surge || Drone Experience +15% || Essence Shiny Chance +1% || 300s || 50 || {{NA}}
+|-
+| <div id="RainbowRift"></div>[[File:Rainbow Rift Spell.png|x32px]] || Rainbow Rift || Rainbow Portal Multi +20% || Void Portal Chance +1% || 300s || 50 || {{NA}}
+|-
+| <div id="Manaflow"></div>[[File:Manaflow Spell.png|x32px]] || Manaflow || Mana Regeneration +40% || Mana Capacity +10% || 480s || 50 || {{NA}}
+|-
+| <div id="Radiancy"></div>[[File:Radiancy Spell.png|x32px]] || Radiancy || Star Radiant Chance +3% || Star Radiant Multi +10% || 360s || 50 || [[Stargazing#Black Hole|Black Hole Level 19]]
+|-
+| <div id="Prismism"></div>[[File:Prismism Spell.png|x32px]] || Prismism || Prismatic Floor Chance +7% || Rune Craft Multi +15% || 400s || 50 || [[Stargazing#Black Hole|Black Hole Level 22]]
+|-
+| <div id="Veinboyant"></div>[[File:Veinboyant Spell.png|x32px]] || Veinboyant || Rainbow Vein Chance +5% || Rainbow Vein Multi +15% || 360s || 50 || [[Arcanist#Exchange|Exchange Upgrade Level 10]]
+|-
+| <div id="DiggyDiggyHole"></div>[[File:Diggy Diggy Hole Spell.png|x32px]] || Diggy Diggy Hole || Pickaxe Damage +120% || Arch Fragment Gain +15% || 200s || 50 || [[Arcanist#Exchange|Exchange Upgrade Level 18]]
+|-
+| <div id="BlueGiant"></div>[[File:Blue Giant Spell.png|x32px]] || Blue Giant || Super Star Supergiant Chance +3% || All Supergiant Multi +10% || 220s || 50 || [[Stargazing#Super_Stars| A Super Star Upgrade]]
+|-
+| <div id="DraconicHoard"></div>[[File:Draconic Hoard Spell.png|x32px]] || Draconic Hoard || Golden Ore Multi +25% || Gems from Freebie +5% || 180s || 50 || [[Challenges#DivineReward_DraconicHoard| Divine Challenge 21]]
+|-
+| <div id="RainbowRoad"></div>[[File:Rainbow Road Spell.png|x32px]] || Rainbow Road || Rainbow Ore Multi +12% || Rainbow Ore Chance +6% || 240s || 50 || [[Workshop#Upgrades_W4_RainbowRoadSpell|A Workshop Upgrade]]
+|-
+| <div id="PartyFever"></div>[[File:Party Fever Spell.png|x32px]] || Party Fever || Gleaming Vein Chance +5% || Party Wizard Multi +3% ||200s || 50 || [[Stargazing#Black Hole|Black Hole Level 28]]
+|-
+| <div id="BombsBlessing"></div>[[File:Bomb's Blessing Spell.png|x32px]] || Bomb's Blessing || All Floor Multi +2.5% || Bomb Recharge Speed +3% || 160s || 50 || [[Arcanist#Exchange|Exchange Upgrade Level 22]]
+|-
+| <div id="BugMagnet"></div>[[File:Bug Magnet Spell.png|x32px]] || Bug Magnet || Coal Production +9% || Banked Lootbug Cap +10% || 280s || 50 || [[Drones/Costs#Unlock Spell Bug Magnet| A Generator Coal Upgrade]]
+|}
+
+===Spell Casting Costs===
+{| class="wikitable sticky-header align-center-1 align-center-3 align-center-4 align-center-5"
+! colspan=2 | Name !! Mana !! Rune 1 || Rune 2
+|-
+| <div id="RunicSurgeCastingCost"></div>[[File:Runic Surge Spell.png|x32px]] || Runic Surge || 1 {{Sprite|Mana||16x16|Mana}} || 5 {{Sprite|Ash Rune||16x16|Ash Runes}} || 1 {{Sprite|Brine Rune||16x16|Brine Rune}}
+|-
+| <div id="RainbowRiftCastingCost"></div>[[File:Rainbow Rift Spell.png|x32px]] || Rainbow Rift || 3 {{Sprite|Mana||16x16|Mana}} || 16 {{Sprite|Ash Rune||16x16|Ash Runes}} || 8 {{Sprite|Brine Rune||16x16|Brine Runes}}
+|-
+| <div id="ManaflowCastingCost"></div>[[File:Manaflow Spell.png|x32px]] || Manaflow || 4 {{Sprite|Mana||16x16|Mana}} || 15 {{Sprite|Brine Rune||16x16|Brine Runes}} || 5 {{Sprite|Chasm Rune||16x16|Chasm Runes}}
+|-
+| <div id="RadiancyCastingCost"></div>[[File:Radiancy Spell.png|x32px]] || Radiancy || 4 {{Sprite|Mana||16x16|Mana}} || 25 {{Sprite|Ash Rune||16x16|Ash Runes}} || 10 {{Sprite|Brine Rune||16x16|Brine Runes}}
+|-
+| <div id="PrismismCastingCost"></div>[[File:Prismism Spell.png|x32px]] || Prismism || 3 {{Sprite|Mana||16x16|Mana}} || 12 {{Sprite|Ash Rune||16x16|Ash Runes}} || 12 {{Sprite|Brine Rune||16x16|Brine Runes}}
+|-
+| <div id="VeinboyantCastingCost"></div>[[File:Veinboyant Spell.png|x32px]] || Veinboyant || 3 {{Sprite|Mana||16x16|Mana}} || 20 {{Sprite|Ash Rune||16x16|Ash Runes}} || 10 {{Sprite|Brine Rune||16x16|Brine Runes}}
+|-
+| <div id="DiggyDiggyHoleCastingCost"></div>[[File:Diggy Diggy Hole Spell.png|x32px]] || Diggy Diggy Hole || 4 {{Sprite|Mana||16x16|Mana}} || 15 {{Sprite|Brine Rune||16x16|Brine Runes}} || 10 {{Sprite|Chasm Rune||16x16|Chasm Runes}}
+|-
+| <div id="BlueGiantCastingCost"></div>[[File:Blue Giant Spell.png|x32px]] || Blue Giant || 5 {{Sprite|Mana||16x16|Mana}} || 30 {{Sprite|Chasm Rune||16x16|Chasm Runes}} || 5 {{Sprite|Drift Rune||16x16|Drift Runes}}
+|-
+| <div id="DraconicHoardCastingCost"></div>[[File:Draconic Hoard Spell.png|x32px]] || Draconic Hoard || 7 {{Sprite|Mana||16x16|Mana}} || 80 {{Sprite|Ash Rune||16x16|Ash Runes}} || 20 {{Sprite|Drift Rune||16x16|Drift Runes}}
+|-
+| <div id="RainbowRoadCastingCost"></div>[[File:Rainbow Road Spell.png|x32px]] || Rainbow Road || 5 {{Sprite|Mana||16x16|Mana}} || 20 {{Sprite|Drift Rune||16x16|Drift Runes}} || 15 {{Sprite|Echo Rune||16x16|Echo Runes}}
+|-
+| <div id="PartyFeverCastingCost"></div>[[File:Party Fever Spell.png|x32px]] || Party Fever || 6 {{Sprite|Mana||16x16|Mana}} || 75 {{Sprite|Brine Rune||16x16|Brine Runes}} || 15 {{Sprite|Echo Rune||16x16|Echo Runes}}
+|-
+| <div id="BombsBlessingCastingCost"></div>[[File:Bomb's Blessing Spell.png|x32px]] || Bomb's Blessing || 7 {{Sprite|Mana||16x16|Mana}} || 40 {{Sprite|Chasm Rune||16x16|Chasm Runes}} || 25 {{Sprite|Drift Rune||16x16|Drift Runes}}
+|-
+| <div id="BugMagnetCastingCost"></div>[[File:Bug Magnet Spell.png|x32px]] || Bug Magnet || 3 {{Sprite|Mana||16x16|Mana}} || 40 {{Sprite|Brine Rune||16x16|Brine Runes}} || 10 {{Sprite|Drift Rune||16x16|Drift Runes}}
+|}
+
+<references />
+
+===Spell Potency Costs===
+{{:Arcanist/Spell_Potency_Costs}}
+
+==Exchange==
+On this tab you can exchange resources with Wizards to trade for Orbs. These resources can come from Arcanist like Essence and Runes, or any aspect of the main game like items, prestige points, gems, bars, veins, stars, fish, archaeology fragments. Starting out there are 6 wizards offering Exchanges, and you can refresh them every 2 hours. Refreshes must be done manually, and they will bank with a cap of 15 banked refreshes.
+
+Exchange Upgrades can boost Exchanges, other tabs of Arcanist, or the main game.
+===Exchange Upgrades=== 
+{| class="wikitable sticky-header text-align-center align-left-2 align-left-6"
+! colspan=2 | Name !! Effect !! Max Level !! style="width:4em" | Unlock Level <ref name=LevelsToUnlock>Relates to amount of levels needed in the '''previous''' upgrade to unlock this one.</ref> !! Next Unlock Cost <ref name=UnlockCost>Shows '''the total''' of what needs to be spent on this upgrade before the '''next''' upgrade unlocks.</ref>
+|-
+|<div id="ExchangeUpgrade_ExchangeWizards"></div>[[File:Exchange.png|32px]] || Exchange Wizards
+| +1 || 3 || {{NA|colspan=2}}
+|-
+|<div id="ExchangeUpgrade_ExchangeTimer"></div>[[File:Hourglass.png|32px]] || Exchange Timer -2 Minutes
+| -2 || 30 || {{NA}} || 3000 [[File:Blue Cow.png|20x16px]] Blue Cow
+|-
+|<div id="ExchangeUpgrade_EssenceDamagePerArcanistCardTierOwned"></div>[[File:Archaeology Flat Damage.png|32px]] || Essence Damage +1 Per Arcanist Card Tier Owned 
+| +1 || 1 || 3 || {{FormatNumber|10000000000000}} [[File:Scorpio.png|20px]] Scorpio
+|-
+|<div id="ExchangeUpgrade_RainbowFloorMulti"></div>[[File:Rainbow_Floor_Multiplier.png|32px]] || Rainbow Floor Multi 
+| +2% || 20 || 1 || 2261 [[File:Ash Rune.png|20px]] Ash Rune
+|-
+|<div id="ExchangeUpgrade_LootbugBankedCap"></div>[[File:Banked_Lootbug_Cap.png|32px]] || Lootbug Banked Cap
+| +1 || 10 || 5 || {{FormatNumber|39900000000000000000000000}} [[File:Prestige Point.png|20px]] PP
+|-
+|<div id="ExchangeUpgrade_GoldenPortalChance"></div>[[File:Golden_Void_Portal_Chance.png|32px]] || Golden Portal Chance
+| +0.2% || 25 || 3 || 699 [[File:Brine Rune.png|20px]] Brine Rune
+|-
+|<div id="ExchangeUpgrade_StarSupergiantMulti"></div>[[File:Star_Supergiant_Multiplier.png|32px]] || Star Supergiant Multi
+| +1% || 25|| 5 || {{FormatNumber|99900000000000}}  [[File: Lynx.png|20px]] Lynx
+|-
+|<div id="ExchangeUpgrade_WizardLootMulti"></div>[[File:Wizard_Loot_Multi.png|32px]] || Wizard Loot Multi
+| +3% || 10 || 3 || 2,860  [[File:Soft Essence.png|16x16px]] Soft Essence
+|-
+|<div id="ExchangeUpgrade_GeminiStarCap"></div>[[File:Star_Specific_Cap.png|32px]] || Gemini Star Cap
+| +2 || 10 || 3  || 4.52b [[File:Super Star.png|16x16px]] Super Star
+|-
+|<div id="ExchangeUpgrade_UnlockSpellVeinboyant"></div>[[File:Veinboyant.png|32px]] || Unlock Spell: Veinboyant
+| {{NA}}|| 1|| 5 || {{FormatNumber|50000000000000000000000}}  [[File:Stone Vein.png|16x16px]] Stone Vein
+|-
+|<div id="ExchangeUpgrade_PrismaticFloorChance"></div>[[File:Prismatic_Galactic_Floor_Chance.png|32px]] || Prismatic Floor Chance
+| +0.5% || 15 || 1 || 4,522 [[File:Chasm Rune.png|16x16px]] Chasm Rune
+|-
+|<div id="ExchangeUpgrade_ShinyFishMultiplier"></div>[[File:Shiny_Multiplier.png|32px]] || Shiny Fish Multiplier
+| +2% || 20|| 5 || {{FormatNumber|904000000000000}}  [[File:Aquarius.png|16x16px]] Aquarius
+|-
+|<div id="ExchangeUpgrade_RuneCraftMulti"></div>[[File:Rune Craft Multi.png|32px]] || Rune Craft Multi
+| +1% || 15 || 5 || 4,104 [[File:Dense Essence.png|20px]] Dense Essence
+|-
+|<div id="ExchangeUpgrade_AllPortalMulti"></div>[[File:All Void Portal Multis.png]] || All Portal Multi
+| +0.5% || 10 || 5 || 20,000  [[File:Charge Magnet.png|16x16px]] Charge Magnet
+|-
+|<div id="ExchangeUpgrade_AphroditeIdolCap"></div>[[File:Arch Idol.png]] || Aphrodite Idol Cap
+| +100 || 10 || 1 || 79,800  [[File:Divine Fragment.png|16x16px]] Divine Fragment
+|-
+|<div id="ExchangeUpgrade_GleamingVeinChance"></div>[[File:Gleaming Vein Chance.png]] || Gleaming Vein Chance
+| +7.5% || 1 || 1 || 60,000 [[File:Ash Rune.png|16x16px]] Ash Rune
+|-
+|<div id="ExchangeUpgrade_Tier1NoticeUpgradeCap"></div>[[File:Tier 1 Notice Token.png]] || Tier 1 Notice Upgrade Cap 
+| +1 || 5 || 1 || 34.5m [[File:Tier 1 Notice Token.png|16x16px]] Tier 1 Notice Token
+|-
+|<div id="ExchangeUpgrade_UnlockSpellDiggyDiggyHole"></div>[[File:Diggy Diggy Hole.png]] || Unlock Spell: Diggy Diggy Hole
+| {{NA}} || 1 || 2 || 2.00qadc [[File:Tricerastone Bar.png|16x16px]] Tricerastone Bar
+|-
+|<div id="ExchangeUpgrade_ManaCapManaRegen"></div>[[File:Mana.png]] || Mana Cap / Mana Regen
+| +6 & +1% || 15 || 1 || 1,716 [[File:Jagged Essence.png|16x16px]] Jagged Essence
+|-
+|<div id="ExchangeUpgrade_PartyWizardMulti"></div>[[File:Party Wizard Multi.png]] || Party Wizard Multi
+| +3% || 20 || 3 || 4.975ddc [[File:Ransomite Ore.png|16x16px]] Ransomite Ore
+|-
+|<div id="ExchangeUpgrade_AllFloorMulti"></div>[[File:All Floor Multis (Gold,Rainbow,Galactic).png]] || All Floor Multi
+| +1.50% || 15 || 5 || 3,990 [[File:Drift Rune.png|16x16px]] Drift Rune
+|-
+|<div id="ExchangeUpgrade_VirgoStarCap"></div>[[File:Virgo.png]] || Virgo Star Cap
+| +1 ||15 || 3 || 22.61sx [[File:Wonderland Vein.png|16x16px]] Wonderland Vein
+|-
+|<div id="ExchangeUpgrade_AllStarMulti"></div>[[File:All Star Multiplier.png]] || All Star Multi
+| +1% || 20 || 5 || 45,216 [[File:Ash Rune.png|16x16px]] Ash Rune
+|-
+|<div id="ExchangeUpgrade_FreebieBankedCap"></div>[[File:Freebie Pack.png|32px]] || Freebie Banked Cap
+| +1 || 10 || 5 || 30,000 [[File:Item Chest.png|16x16px]] Item Chest
+|-
+|<div id="ExchangeUpgrade_UnlockSpellBombsBlessing"></div>[[File:Bomb's Blessing.png]] || Unlock Spell: Bomb's Blessing
+| {{NA}} || 1 || 1 || 1,000 [[File:Necrotic Essence.png|16x16px]] Necrotic Essence
+|-
+|<div id="ExchangeUpgrade_DiscoWizardChance"></div>[[File:Disco Wizard Chance.png]] || Disco Wizard Chance 
+| +0.05% || 15 || 1 || 108.6qadc [[File:Vaporium Bar.png|16x16px]] Vaporium Bar
+|-
+|<div id="ExchangeUpgrade_RainbowPortalChance"></div>[[File:Rainbow Void Portal Chance.png]] || Rainbow Portal Chance
+| +0.3% || 20 || 5 || 40,694 [[File:Brine Rune.png|16x16px]] Brine Rune
+|-
+|<div id="ExchangeUpgrade_ArcanistSpellPower"></div>[[File:Spell Unlock.png]] || Arcanist Spell Power 
+| +0.5% || 15 || 5 || 11,438 [[File:Soft Essence.png|16x16px]] Soft Essence
+|-
+|<div id="ExchangeUpgrade_VeinmorpherMorphChance"></div>[[File:Veinmorpher Bomb.png]] || Veinmorpher Morph Chance
+| +5% || 1 || 3 || 5.00oc [[File:Drone Point.png|16x16px]] Drone Point
+|-
+|<div id="ExchangeUpgrade_InfernalCardMulti"></div>[[File:Infernal Card Multi.png]] || Infernal Card Multi
+| +0.555% || 12 || 1 || 19,950 [[File:Echo Rune.png|16x16px]] Echo Rune
+|-
+|<div id="ExchangeUpgrade_PolyOrbCardMulti"></div>[[File: White Orb.png]] || Poly Orb Card Multi
+| +2.50% || 10 || 3 || 9,975 [[File:Skill Point.png|16x16px]] Skill Point
+|-
+|<div id="ExchangeUpgrade_BombRechargeSpeed"></div>[[File: Bomb Recharge Speed.png]] || Bomb Recharge Speed
+| +0.5% || 25 || 3 || 7.69q [[File:Hercules.png|16x16px]] Hercules
+|-
+|<div id="ExchangeUpgrade_MidasDroneGradeCap"></div>[[File:Drone Midas Icon.png]] || Midas Drone Grade Cap
+| +2 || 25 || 5 || 12,520 [[File:Dense Essence.png|16x16px]] Dense Essence
+|-
+|<div id="ExchangeUpgrade_GalacticPortalChance"></div>[[File:Galactic Void Portal Chance.png]] || Galactic Portal Chance
+| +0.4% || 25 || 5 || 452.5sx [[File:Candyland Vein.png|16x16px]] Candyland Vein
+|-
+|<div id="ExchangeUpgrade_FlashbangWizardChance"></div>[[File:Flashbang Wizard Chance.png]] || Flashbang Wizard Chance
+| +0.05% || 15 || 5 || 2.995tdc [[File:Dynamite Ore.png|16x16px]] Dynamite Ore
+|-
+|<div id="ExchangeUpgrade_PolyRuneMulti"></div>[[File: Rune Craft Multi.png]] || Poly Rune Multi
+| +2% || 20 || 3 || {{NA}}
+|-
+|}
+<references />
+====Exchange Upgrade Costs====
+{{See also|Arcanist/Exchange_Upgrade_Costs}}
+
+==Satchel==
+The Satchel will show the amount of all Essence, Runes, and Orbs owned. The Satchel can be opened while on any tab of Arcanist and does not require being held to stay open. This makes the satchel a useful way to see all currencies when making decisions on buying upgrades.
+<references />
+
+==Navigation==
+{{Menu}}

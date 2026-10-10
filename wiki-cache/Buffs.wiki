@@ -1,0 +1,6 @@
+{{Disambiguation}}
+'''Buffs''' may refer to:
+* [[Lootbugs#Buffs|Lootbug buffs]]
+* [[Drones#Elixir_Drone_Buffs|Elixir drone buffs]]
+* [[Drones#Drone_Buffs|Drone fuel buffs]]
+* [[Arcanist#Spells|Arcanist spell buffs]]

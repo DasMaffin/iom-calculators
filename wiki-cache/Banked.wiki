@@ -1,0 +1,5 @@
+{{Disambiguation}}
+'''Banked''' may refer to:
+* [[Stats#tabber-Banked_Lootbug_Cap|Banked Lootbug Cap]]
+* [[Stats#tabber-Banked_Freebie_Cap|Banked Freebie Cap]]
+* [[Arcanist#Exchange|Banked Exchange Refreshes]]
