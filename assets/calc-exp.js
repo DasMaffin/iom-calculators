@@ -106,6 +106,11 @@
     const list = IOM.ORES.filter(o => floor >= o.min && floor <= o.max);
     return list.map(o => Object.assign({ w: 1 / list.length }, o));
   }
+  // True when floor f and f+1 share the same two ores (the first floor of a pair).
+  function firstOfPair(f) {
+    const a = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f], b = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f + 1];
+    return !!(a && b && a[0][0] === b[0][0] && a[1][0] === b[1][0]);
+  }
   function pickOre(list, rand) {
     let r = rand();
     for (const o of list) { if ((r -= o.w) <= 0) return o; }
@@ -436,7 +441,11 @@
       rows.push(e);
       const xpm = e.blocked ? 0 : e.xpm;
       if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
-      else if (xpm <= best.xpm * (1 - LOWER_BY)) { if (++sinceBest >= 3) break; }
+      else if (xpm <= best.xpm * (1 - LOWER_BY)) {
+        // Never stop on the first floor of a pair: the next floor has the same ores, with more of the
+        // better one, so it's usually at least as good.
+        if (++sinceBest >= 3 && !firstOfPair(f)) break;
+      }
       else sinceBest = 0;   // about as good as the best: not "lower", keep looking
     }
     rows.reverse();   // highest floor on top
