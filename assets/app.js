@@ -107,10 +107,11 @@
 
   function load(obj, { persist = true, quiet = false } = {}) {
     // A downloaded file carries the marked cards too; restore them, but keep them out of the stats data.
-    const { iom_cards: cards, ...exported } = obj;
+    const { iom_cards: cards, iom_bombs: bombs, ...exported } = obj;
     data = exported;
     if (IOM.cardsUI) {
       if (cards) IOM.cardsUI.setState(cards);
+      if (bombs && IOM.bombSetup) { IOM.bombSetup.setState(bombs); IOM.saves.update({ bombs }); }
       IOM.cardsUI.syncFromExport(data.stats);
     }
     if (persist) saveData();
@@ -219,6 +220,7 @@
   }
 
   function render() {
+    if (IOM.bombSetup) IOM.bombSetup.setFallback(data && data.stats ? data.stats.bomb_additional_multiplier : null);
     $("#dashboard").hidden = !data;
     showView();
     if (!data) return;
@@ -426,6 +428,7 @@
   function exportText() {
     const out = Object.assign({}, data);
     if (IOM.cardsUI) out.iom_cards = IOM.cardsUI.getState();
+    if (IOM.bombSetup) out.iom_bombs = IOM.bombSetup.getState();
     return JSON.stringify(out, null, 2);
   }
 
@@ -535,6 +538,7 @@
   // Show a save's contents (called by saves.js on start-up and when switching saves).
   IOM.saves.init(function applySave(save) {
     if (IOM.cardsUI) IOM.cardsUI.setState(save.cards || {});
+    if (IOM.bombSetup) IOM.bombSetup.setState(save.bombs || {});
     $("#jsonInput").value = "";
     if (save.data) {
       try {

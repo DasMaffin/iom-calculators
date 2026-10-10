@@ -7,7 +7,7 @@
   <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
   <meta name="theme-color" content="#14161c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
-  <link rel="stylesheet" href="assets/style.css?v=20261010m">
+  <link rel="stylesheet" href="assets/style.css?v=20261010n">
 </head>
 <body>
   <header class="topbar">
@@ -97,6 +97,17 @@
       <div id="cardCategories"></div>
       </div>
     </details>
+
+    <details class="card fold bombs" id="bombsCard" data-fold="bombsCard">
+      <summary class="card-head fold-head">
+        <h2>💣 Bomb setup</h2>
+        <span class="badge" id="bombSummary"></span>
+      </summary>
+      <div class="fold-body">
+        <p class="muted small">Each bomb's damage multiplier: the “×” number shown next to the bomb in game (e.g. 98×). The export only includes the shared part, so enter the real values here. Empty fields use the export's shared multiplier. Saved with this save.</p>
+        <div class="field-grid" id="bombGrid"></div>
+      </div>
+    </details>
     </div>
 
     <div class="view" data-view-panel="stats" hidden>
@@ -147,14 +158,15 @@
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
-  <script src="assets/game-version.js?v=20261010m"></script>
-  <script src="assets/stat-catalog.js?v=20261010m"></script>
-  <script src="assets/array-labels.js?v=20261010m"></script>
-  <script src="assets/cards.js?v=20261010m"></script>
-  <script src="assets/cards-ui.js?v=20261010m"></script>
-  <script src="assets/ores.js?v=20261010m"></script>
-  <script src="assets/calc-exp.js?v=20261010m"></script>
-  <script src="assets/saves.js?v=20261010m"></script>
-  <script src="assets/app.js?v=20261010m"></script>
+  <script src="assets/game-version.js?v=20261010n"></script>
+  <script src="assets/stat-catalog.js?v=20261010n"></script>
+  <script src="assets/array-labels.js?v=20261010n"></script>
+  <script src="assets/cards.js?v=20261010n"></script>
+  <script src="assets/cards-ui.js?v=20261010n"></script>
+  <script src="assets/ores.js?v=20261010n"></script>
+  <script src="assets/calc-exp.js?v=20261010n"></script>
+  <script src="assets/bombs-ui.js?v=20261010n"></script>
+  <script src="assets/saves.js?v=20261010n"></script>
+  <script src="assets/app.js?v=20261010n"></script>
 </body>
 </html>

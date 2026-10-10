@@ -49,7 +49,7 @@
   function create(name, contents = {}) {
     const id = newId();
     const now = Date.now();
-    db.saves[id] = { name: name || "My save", created: now, updated: now, data: null, cards: {}, ...contents };
+    db.saves[id] = { name: name || "My save", created: now, updated: now, data: null, cards: {}, bombs: {}, ...contents };
     db.activeId = id;
     return db.saves[id];
   }
@@ -156,7 +156,7 @@
       if (!cur) return;
       const name = prompt("Name for the copy:", uniqueName(cur.name + " copy"));
       if (name == null) return;
-      create(uniqueName(name.trim() || cur.name + " copy"), JSON.parse(JSON.stringify({ data: cur.data, cards: cur.cards })));
+      create(uniqueName(name.trim() || cur.name + " copy"), JSON.parse(JSON.stringify({ data: cur.data, cards: cur.cards, bombs: cur.bombs || {} })));
       persist();
       show(active());
     });
