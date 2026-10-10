@@ -364,19 +364,28 @@
       );
     }
 
+    // Walk down from your floor; stop once exp/min has dropped three floors in a row.
     const rows = [];
-    for (let f = 1; f <= floor; f++) {
+    let drops = 0, stoppedAt = null, prev = null;
+    for (let f = floor; f >= 1; f--) {
       const e = f === floor ? r : simulate(f, stats, { raw: rawStats, duration: 600, minDuration: 60, minFloors: 60 });
-      if (e && !e.blocked) rows.push(e);
+      if (!e || e.blocked) continue;
+      rows.push(e);
+      if (prev) {
+        drops = e.xpm < prev.xpm ? drops + 1 : 0;
+        if (drops >= 3) { stoppedAt = f; break; }
+      }
+      prev = e;
     }
     const best = rows.reduce((a, b) => (b.xpm > (a ? a.xpm : -1) ? b : a), null);
     $("#ce-table").replaceChildren(
-      el("h3", { text: "All floors up to yours" }),
-      best ? el("p", { class: "small", text: `Best floor for exp with this setup: ${best.floor} (${fmt(best.xpm)} exp/min).` }) : el("p", { class: "small", text: "No floor can be cleared with this setup." }),
+      el("h3", { text: "Floors from yours downward" }),
+      best ? el("p", { class: "small", text: `Best floor for exp with this setup: ${best.floor} (${fmt(best.xpm)} exp/min).` +
+        (stoppedAt ? ` Stopped at floor ${stoppedAt}: exp/min dropped three floors in a row, so lower floors aren't checked.` : "") }) : el("p", { class: "small", text: "No floor can be cleared with this setup." }),
       el("div", { class: "table-wrap" },
         el("table", { class: "calc-table" },
           el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
-          el("tbody", {}, ...rows.slice().reverse().map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") },
+          el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") },
             el("td", { text: String(e.floor) }),
             el("td", { text: e.floorOres.map(o => o.name).join(", ") }),
             el("td", { text: fmt(e.expPerFloor) }),
