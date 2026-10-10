@@ -482,9 +482,9 @@
   function planContracts(cont) {
     const run = ++runId;
     const C = IOM.CONTRACTS || [];
-    const box = $("#ce-plan");
-    const status = el("p", { class: "muted small" });
-    box.replaceChildren(status);
+    if (!cont || !pane || !pane.root.isConnected) buildPane();
+    const status = pane.status;
+    status.hidden = false;
     const rounds = cont ? cont.extraRounds : Math.max(1, Math.round(prefs.planRounds || 1));
     const key = prefs.planBy === "perPoint" ? "perPoint" : "gain";
     let levels = cont ? cont.levels : savedLevels();
@@ -539,7 +539,10 @@
           results.sort((x, y) => y[key] - x[key]);
           const top = results[0];
           if (!top || top[key] <= 0) return false;
-          plan.push({ p: top.p, gain: top.gain, xpm: top.xpm, levelFrom: levels[top.p.target], base: b });
+          const item = { p: top.p, gain: top.gain, xpm: top.xpm, levelFrom: levels[top.p.target], base: b };
+          plan.push(item);
+          pane.list.append(planItem(item));   // show it right away; later rounds keep calculating
+          refreshPane(plan, startXpm, true);
           // Assume it's bought: new levels, new stats, and its result is the next round's starting point.
           levels = levels.slice();
           for (const step of top.p.steps) levels[step.i] += 1;
@@ -549,33 +552,62 @@
       });
     };
 
+    refreshPane(plan, startXpm, true);
     round(1).then(() => {
       lastPlan = { plan, levels, st, baseXpm, startXpm, settings: planSettings() };
+      status.hidden = true;
       if (!plan.length) {
-        box.replaceChildren(el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." }));
+        $("#ce-plan").replaceChildren(el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." }));
+        pane = null;
         return;
       }
-      const pct = (g, base) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
-      const totalCost = plan.reduce((sum, x) => sum + x.p.cost, 0);
-      const last = plan[plan.length - 1];
-      box.replaceChildren(el("div", { class: "plan-pick" },
-        el("p", {}, plan.length > 1 ? `👉 Buy in this order (${plan.length} upgrades, ${totalCost.toLocaleString()} contract points):` : "👉 Buy next:"),
-        el("ol", { class: "plan-list" }, ...plan.map(x => {
-          const needs = x.p.steps.slice(0, -1).map(st2 => C[st2.i].name);
-          return el("li", {},
-            el("b", { text: `${C[x.p.target].name} ${x.levelFrom} → ${x.levelFrom + 1}` }),
-            ` · ${x.p.cost.toLocaleString()} points · +${fmt(x.gain)} exp/min${pct(x.gain, x.base)}`,
-            needs.length ? el("details", { class: "small" },
-              el("summary", { text: `also buys the ${needs.length} upgrade${needs.length === 1 ? "" : "s"} it needs first (1 level each)` }),
-              el("p", { class: "muted", text: needs.join(", ") })) : null);
-        })),
-        el("p", { class: "muted small", text: `Now: ${fmt(startXpm)} exp/min → after ${plan.length > 1 ? "all of them" : "it"}: ${fmt(last.xpm)} exp/min${pct(last.xpm - startXpm, startXpm)}.` }),
-        el("div", { class: "plan-buttons" },
-          el("button", { type: "button", class: "btn small primary", text: plan.length > 1 ? "✓ Bought the first" : "✓ Bought",
-            title: "Write it into the save; the rest of the list stays and one new upgrade is planned at the end", onclick: () => markBought(plan[0].p, "first") }),
-          plan.length > 1 ? el("button", { type: "button", class: "btn small", text: `✓ Bought all ${plan.length}`,
-            title: "Write all of them into the save and plan the next ones", onclick: () => markBought(plan.map(x => x.p), "all") }) : null)));
+      refreshPane(plan, startXpm, false);
     }, () => {});
+  }
+
+  // The plan's pane stays on screen between rounds and purchases: rows are added and removed in place.
+  let pane = null;
+  const planPct = (g, base) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
+  function buildPane() {
+    const C = IOM.CONTRACTS || [];
+    pane = {
+      head: el("p", {}),
+      list: el("ol", { class: "plan-list" }),
+      summary: el("p", { class: "muted small" }),
+      status: el("p", { class: "muted small plan-status" }),
+      first: el("button", { type: "button", class: "btn small primary", text: "✓ Bought the first",
+        title: "Write it into the save; the rest of the list stays and one new upgrade is planned at the end",
+        onclick: () => { const lp = lastPlan; if (lp && lp.plan.length) { pane.list.firstElementChild && pane.list.firstElementChild.remove(); markBought(lp.plan[0].p, "first"); } } }),
+      all: el("button", { type: "button", class: "btn small",
+        title: "Write all of them into the save and plan the next ones",
+        onclick: () => { const lp = lastPlan; if (lp && lp.plan.length) { pane.list.replaceChildren(); markBought(lp.plan.map(x => x.p), "all"); } } })
+    };
+    pane.root = el("div", { class: "plan-pick" }, pane.head, pane.list, pane.status, pane.summary, el("div", { class: "plan-buttons" }, pane.first, pane.all));
+    $("#ce-plan").replaceChildren(pane.root);
+  }
+  function planItem(x) {
+    const C = IOM.CONTRACTS || [];
+    const needs = x.p.steps.slice(0, -1).map(st2 => C[st2.i].name);
+    return el("li", {},
+      el("b", { text: `${C[x.p.target].name} ${x.levelFrom} → ${x.levelFrom + 1}` }),
+      ` · ${x.p.cost.toLocaleString()} points · +${fmt(x.gain)} exp/min${planPct(x.gain, x.base)}`,
+      needs.length ? el("details", { class: "small" },
+        el("summary", { text: `also buys the ${needs.length} upgrade${needs.length === 1 ? "" : "s"} it needs first (1 level each)` }),
+        el("p", { class: "muted", text: needs.join(", ") })) : null);
+  }
+  function refreshPane(plan, startXpm, busy) {
+    if (!pane) return;
+    const total = plan.reduce((sum, x) => sum + x.p.cost, 0);
+    const last = plan[plan.length - 1];
+    pane.head.textContent = plan.length > 1 ? `👉 Buy in this order (${plan.length} upgrades, ${total.toLocaleString()} contract points):`
+                          : plan.length ? "👉 Buy next:" : "👉 Working out what to buy…";
+    pane.summary.textContent = last && startXpm != null
+      ? `Now: ${fmt(startXpm)} exp/min → after ${plan.length > 1 ? "all of them" : "it"}: ${fmt(last.xpm)} exp/min${planPct(last.xpm - startXpm, startXpm)}.` : "";
+    pane.first.textContent = plan.length > 1 ? "✓ Bought the first" : "✓ Bought";
+    pane.all.textContent = `✓ Bought all ${plan.length}`;
+    pane.all.hidden = plan.length < 2;
+    pane.first.hidden = !plan.length;
+    pane.first.disabled = pane.all.disabled = busy;   // wait until the plan is complete
   }
 
   let currentData = null;
