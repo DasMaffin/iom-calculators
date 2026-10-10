@@ -213,10 +213,10 @@ def wiki_file_url(file_name):
     return f"https://static.wikitide.net/shminerwiki/{h[0]}/{h[:2]}/{quote(name)}"
 
 
-CARD_PAGES = [  # in-game tab order
-    ("ores", "Ores"), ("bars", "Bars"), ("veins", "Veins"), ("stars", "Stars"), ("fish", "Fish"),
-    ("legendary_fish", "Legendary Fish"), ("pets", "Pets"), ("drones", "Drones"), ("bombs", "Bombs"),
-    ("misc", "Misc"), ("archaeology", "Archaeology"), ("essences", "Essences"), ("orbs", "Orbs"),
+CARD_PAGES = [  # in-game tab order; tabs after Archaeology are not confirmed yet
+    ("ores", "Ores"), ("bars", "Bars"), ("bombs", "Bombs"), ("misc", "Misc"), ("drones", "Drones"),
+    ("pets", "Pets"), ("veins", "Veins"), ("stars", "Stars"), ("archaeology", "Archaeology"),
+    ("fish", "Fish"), ("legendary_fish", "Legendary Fish"), ("essences", "Essences"), ("orbs", "Orbs"),
     ("runes", "Runes"), ("spells", "Spells"),
 ]
 cards = []
