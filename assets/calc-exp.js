@@ -25,7 +25,7 @@
     hareBomb: "",
     fps: 30,                  // game frame rate: 30 on phones, 60 on PC
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
-    measuredFpm: ""
+
   };
   const GENERAL = [
     ["current_floor", "Floor", 1], ["experience_multi", "Exp multi"], ["game_speed_multi", "Game speed"],
@@ -253,9 +253,7 @@
     }
 
     const realMinutes = t / scale / 60;
-    let fpm = floors / realMinutes, xpm = expTotal / realMinutes;
-    const measured = parseFloat(prefs.measuredFpm);
-    if (measured > 0 && floor === Math.round(s.current_floor) && floors > 0) { xpm = xpm / fpm * measured; fpm = measured; }
+    const fpm = floors / realMinutes, xpm = expTotal / realMinutes;
     return {
       floor, floorOres, count, speed, floors, fpm, xpm,
       expPerFloor: floors ? expTotal / floors : 0,
@@ -273,7 +271,7 @@
   }
   function prefNumber(key, label, attrs = {}) {
     const input = el("input", Object.assign({ type: "number", step: "any", value: prefs[key], id: "ce-p-" + key }, attrs));
-    input.addEventListener("input", () => { prefs[key] = key === "measuredFpm" ? input.value : (parseFloat(input.value) || 0); savePrefs(); schedule(); });
+    input.addEventListener("input", () => { prefs[key] = parseFloat(input.value) || 0; savePrefs(); schedule(); });
     return el("label", { class: "field", for: "ce-p-" + key }, el("span", { text: label }), input);
   }
   function checkbox(key, label, onChange) {
@@ -343,9 +341,7 @@
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
       group("Timing",
-        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 s later. Bombs hit the moment they're fired (the 0.25 s on the wiki is the bomb animation). Game speed speeds all of it up equally." }),
-        el("div", { class: "field-grid" },
-          prefNumber("measuredFpm", "Floors/min you measured in game (optional, replaces the estimate)", { min: 0, step: 0.1, placeholder: "e.g. 52" })))
+        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 game second later. Bombs hit the moment they're fired; hare even on the frame a floor appears. Auto-Bomber and Fire Slow fire every 1.25 s, so a new floor can wait up to 0.25 s for their next shot. Game speed speeds all of it up equally." }))
     );
   }
 
@@ -376,8 +372,7 @@
           hasExpBomb ? tile("Floors hit by Exp Bomb", Math.round(r.expBombShare * 100) + "%", `${fmt(r.exp.mult)}× exp on those`) : null),
         el("p", { class: "muted small", text:
           `Floor ${floor}: ${r.floorOres.map(o => `${o.name} (${fmt(o.xp)} exp${o.mod ? ", " + o.mod + (o.amt != null ? " " + o.amt + "%" : "") : ""})`).join(", ")}. ` +
-          `Each is assumed equally likely to spawn. Effective game speed ${fmt(r.speed)}. Simulated ${r.floors} floors.` +
-          (parseFloat(prefs.measuredFpm) > 0 ? " Floors/min is your measured value." : "") })
+          `Each is assumed equally likely to spawn. Effective game speed ${fmt(r.speed)}. Simulated ${r.floors} floors.` })
       );
     }
 
