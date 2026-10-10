@@ -500,13 +500,15 @@
       }
       box.replaceChildren(
         pick,
-        el("p", { class: "muted small", text: `Each row: one more level of that upgrade, plus any earlier upgrades it needs. Now: ${fmt(base)} exp/min.` }),
+        el("h3", { text: "All options right now, best first" }),
+        el("p", { class: "muted small", text: `Each row is one alternative you could buy instead: one more level of that upgrade (plus any locked upgrades before it), and the exp/min you'd get. It's not a buying order: after you buy one, the rest change, so press ✓ Bought to re-rank. Now: ${fmt(base)} exp/min.` }),
         el("div", { class: "table-wrap" },
           el("table", { class: "calc-table" },
-            el("thead", {}, el("tr", {}, ...["Upgrade", "Needs first", "Points", "Exp/min", "Gain", "Gain/point"].map(h => el("th", { text: h })))),
-            el("tbody", {}, ...rows.map(r => {
+            el("thead", {}, el("tr", {}, ...["#", "If you buy", "Needs first", "Points", "Exp/min after", "Gain", "Gain/point"].map(h => el("th", { text: h })))),
+            el("tbody", {}, ...rows.map((r, idx) => {
               const needs = needsOf(r.p);
               return el("tr", { class: r === top && r[key] > 0 ? "best" : "" },
+                el("td", { text: String(idx + 1) }),
                 el("td", { text: `${C[r.p.target].name} ${levelText(r.p)}` }),
                 el("td", { text: needs.length ? `${needs.length} upgrade${needs.length === 1 ? "" : "s"}` : "—", title: needs.length ? needs.join(", ") : null, class: needs.length ? "has-tip" : null }),
                 el("td", { text: r.p.cost.toLocaleString() }),
