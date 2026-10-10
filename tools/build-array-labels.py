@@ -271,7 +271,7 @@ for row in ore_json["data"]:
     if name not in ore_table:
         raise SystemExit(f"ores: {name} has no health/exp row on the Ores page")
     hp, xp = ore_table[name]
-    ores.append({"name": name, "min": lo, "max": hi, "hp": hp, "xp": xp,
+    ores.append({"name": name, "min": lo, "max": hi, "hp": hp, "xp": xp, "img": wiki_file_url(f"{name} Ore.png"),
                  "mod": rest[0].strip().lower() if rest else None, "amt": rest[1] if len(rest) > 1 else None})
 # Base bomb cooldowns (seconds, before Bomb Recharge Speed) from the Bombs page.
 bombs_page = page("Bombs")

@@ -146,6 +146,10 @@ main { padding-top: 16px; padding-bottom: 24px; min-width: 0; }
 .calc-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
 .calc-table th, .calc-table td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
 .calc-table td:nth-child(2) { white-space: normal; }
+.ore-cell { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ore-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; cursor: help; }
+.ore-icon img { width: 32px; height: 32px; object-fit: contain; image-rendering: pixelated; }
+.ore-icon.noimg { width: auto; height: auto; padding: 2px 6px; border: 1px solid var(--border); border-radius: 6px; font-size: .8rem; }
 .calc-table th { color: var(--muted); font-weight: 600; }
 .calc-table tr.best td { background: color-mix(in srgb, var(--good) 14%, transparent); }
 .calc-table tr.current td:first-child { box-shadow: inset 3px 0 0 var(--accent); font-weight: 700; }

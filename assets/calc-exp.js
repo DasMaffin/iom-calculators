@@ -264,6 +264,17 @@
   }
 
   // ---------- rendering ----------
+  // Ore picture from the wiki; the name shows on hover, or as text if the picture can't load.
+  function oreIcon(o) {
+    const label = `${o.name} Ore · ${fmt(o.xp)} exp${o.mod ? " · " + o.mod + (o.amt != null ? " " + o.amt + "%" : "") : ""}`;
+    const wrap = el("span", { class: "ore-icon", title: label });
+    if (o.img) {
+      const img = el("img", { src: o.img, alt: o.name, loading: "lazy" });
+      img.addEventListener("error", () => { img.remove(); wrap.textContent = o.name; wrap.classList.add("noimg"); }, { once: true });
+      wrap.append(img);
+    } else { wrap.textContent = o.name; wrap.classList.add("noimg"); }
+    return wrap;
+  }
   function numberInput(key, label, step) {
     const input = el("input", { type: "number", inputmode: "decimal", step: step || "any", value: tidy(stats[key] ?? 0), id: "ce-" + key });
     input.addEventListener("input", () => { const v = parseFloat(input.value); if (isFinite(v)) { stats[key] = v; schedule(); } });
@@ -369,10 +380,8 @@
           tile("Floors / minute", fmt(r.fpm), `${fmt(60 / r.fpm)} s per floor`),
           tile("Exp per floor", fmt(r.expPerFloor), hasExpBomb ? "includes Exp Bomb marks" : `${r.count} ores × your exp multi`),
           tile("Time to clear", fmt(r.clearTime) + " s", "game seconds, before the respawn wait"),
-          hasExpBomb ? tile("Floors hit by Exp Bomb", Math.round(r.expBombShare * 100) + "%", `${fmt(r.exp.mult)}× exp on those`) : null),
-        el("p", { class: "muted small", text:
-          `Floor ${floor}: ${r.floorOres.map(o => `${o.name} (${fmt(o.xp)} exp${o.mod ? ", " + o.mod + (o.amt != null ? " " + o.amt + "%" : "") : ""})`).join(", ")}. ` +
-          `Each is assumed equally likely to spawn. Effective game speed ${fmt(r.speed)}. Simulated ${r.floors} floors.` })
+          hasExpBomb ? tile("Floors hit by Exp Bomb", Math.round(r.expBombShare * 100) + "%", `${fmt(r.exp.mult)}× exp on those`) : null)
+
       );
     }
 
@@ -399,7 +408,7 @@
           el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
           el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") },
             el("td", { text: String(e.floor) }),
-            el("td", { text: e.floorOres.map(o => o.name).join(", ") }),
+            el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
             el("td", { text: fmt(e.expPerFloor) }),
             el("td", { text: fmt(e.fpm) }),
             el("td", { text: fmt(e.xpm) })))))));
