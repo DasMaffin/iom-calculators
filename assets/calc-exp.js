@@ -11,10 +11,11 @@
   const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
   const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
   const DT = 0.02;                    // simulation step, game seconds
-  // The game checks once per second whether the floor is cleared and bombs take 0.25 s to explode (wiki).
-  // Its 48 floors/min bomb cap = 1 / (0.25 s + 1 s), so the 1 s wait starts after the floor is cleared.
+  // The next floor spawns about 1 s after the last ore breaks (wiki: the game checks once per second;
+  // players see the same). Bombs hit the moment they're fired (seen in game; the wiki's 0.25 s
+  // detonation delay doesn't match that).
   const RESPAWN_WAIT = 1;
-  const BOMB_DELAY = 0.25;
+  const BOMB_DELAY = 0;
   const DEFAULTS = {
     usePickaxe: false,
     useDrones: true,
@@ -323,7 +324,7 @@
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
       group("Timing",
-        el("p", { class: "muted small", text: "From the wiki: after a floor is cleared the next one spawns 1 s later, and bombs explode 0.25 s after firing. Game speed speeds all of it up equally." }),
+        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 s later. Bombs hit the moment they're fired. Game speed speeds all of it up equally." }),
         el("div", { class: "field-grid" },
           prefNumber("measuredFpm", "Floors/min you measured in game (optional, replaces the estimate)", { min: 0, step: 0.1, placeholder: "e.g. 52" })))
     );
