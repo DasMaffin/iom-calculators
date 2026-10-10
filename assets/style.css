@@ -158,6 +158,10 @@ main { padding-top: 16px; padding-bottom: 24px; min-width: 0; }
 #ce-form { display: grid; gap: 10px; }
 #ce-form p { margin: 0; }
 #ce-results, #ce-table, #ce-planner, #ce-plan { display: grid; gap: 10px; }
+.plan-pick p { margin: 0; }
+.plan-pick details { margin-top: 6px; }
+.plan-pick summary { cursor: pointer; color: var(--muted); }
+.calc-table td.has-tip { cursor: help; text-decoration: underline dotted; }
 .plan-controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; }
 .plan-controls .field { max-width: 300px; flex: 1 1 220px; }
 .planner:empty, #ce-plan:empty { display: none; }

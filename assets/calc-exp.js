@@ -8,16 +8,6 @@
   "use strict";
 
   const PREF_KEY = "iom.calc.exp.v2";
-  const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
-  // Fire / hare fires once per rendered frame (measured in game), including the frame a floor appears.
-  // Frame rate only matters when a floor needs several hare hits; assume a 30 fps phone (the slower case).
-  const HARE_FPS = 30;
-  const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
-  // The next floor spawns about 1 s after the last ore breaks (wiki: the game checks once per second;
-  // players see the same). Bombs hit the moment they're fired (seen in game; the wiki's 0.25 s
-  // detonation delay doesn't match that).
-  const RESPAWN_WAIT = 1;
-  const BOMB_DELAY = 0;
   const DEFAULTS = {
     usePickaxe: false,
     useDrones: true,
@@ -88,64 +78,17 @@
     return (n / Math.pow(1000, tier)).toFixed(2).replace(/\.?0+$/, "") + SUFFIXES[tier];
   }
   const tidy = (n) => typeof n === "number" ? Number(n.toPrecision(12)) : n;
-  function rng(seed) {
-    return function () {
-      seed |= 0; seed = seed + 0x6D2B79F5 | 0;
-      let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
-      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
-      return ((t ^ t >>> 14) >>> 0) / 4294967296;
-    };
-  }
-  const pct = (v) => Math.min(Math.max((v || 0) / 100, 0), 1);
 
-  // ---------- model ----------
-  // Ores on a floor with their spawn share (wiki: 80%/20% on the first floor of a pair, 50%/50% on the next).
-  function oresOnFloor(floor) {
-    const split = IOM.FLOOR_ORES && IOM.FLOOR_ORES[floor];
-    if (split) return split.map(([name, w]) => Object.assign({ w }, IOM.ORES.find(o => o.name === name))).filter(o => o.name);
-    const list = IOM.ORES.filter(o => floor >= o.min && floor <= o.max);
-    return list.map(o => Object.assign({ w: 1 / list.length }, o));
-  }
+  // ---------- model (the simulation itself is in sim-core.js) ----------
   // True when floor f and f+1 share the same two ores (the first floor of a pair).
   function firstOfPair(f) {
     const a = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f], b = IOM.FLOOR_ORES && IOM.FLOOR_ORES[f + 1];
     return !!(a && b && a[0][0] === b[0][0] && a[1][0] === b[1][0]);
   }
-  function pickOre(list, rand) {
-    let r = rand();
-    for (const o of list) { if ((r -= o.w) <= 0) return o; }
-    return list[list.length - 1];
-  }
-  const bombByName = (name) => (IOM.BOMBS || []).find(b => b.name === name) || null;
-  const bombMult = (name) => IOM.bombSetup ? IOM.bombSetup.get(name) : { mult: (rawStats && rawStats.bomb_additional_multiplier) || 1, set: false };
-  // Ore positions with "Consistent ore position" (pixels, measured from in-game screenshots): two rows of
-  // five slanting down to the right, then two more bottom-left. Drone range was measured on the same
-  // screenshot: a ~168 px circle at +120% radius, so the base is 168 / 2.2 ≈ 76 px.
-  const ORE_LAYOUT = [
-    [220, 175], [292, 210], [362, 245], [437, 285], [510, 322],
-    [217, 360], [292, 400], [365, 438], [437, 478], [510, 515],
-    [220, 555], [297, 590]
-  ];
-  const DRONE_BASE_RADIUS = 168 / 2.2;
-  const dist = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]);
   // Last floor of each world (wiki: Floors / Data-JSON-Zones).
   const WORLD_LAST_FLOOR = [0, 42, 72, 102, 132];
-  const IMMUNITY = { "super crit+ only": 2, "ultra crit+ only": 3, "omega crit+ only": 4 };
 
-  // Crit chain as cumulative tiers: [chance to reach tier, damage multiplier at tier].
-  function critChain(s, prefix) {
-    const c = [pct(s[prefix + "crit_chance"]), pct(s[prefix + "super_crit_chance"]), pct(s[prefix + "ultra_crit_chance"]), pct(s[prefix + "omega_crit_chance"])];
-    const d = [s[prefix + "crit_damage"] || 1, s[prefix + "super_crit_damage"] || 1, s[prefix + "ultra_crit_damage"] || 1, s[prefix + "omega_crit_damage"] || 1];
-    return { c, d };
-  }
-  // Roll one hit: returns the damage multiplier and leaves the crit tier reached in lastTier.
-  let lastTier = 0;
-  function roll(chain, rand) {
-    let tier = 0, mult = 1;
-    while (tier < 4 && rand() < chain.c[tier]) { mult *= chain.d[tier]; tier++; }
-    lastTier = tier;
-    return mult;
-  }
+  const bombMult = (name) => IOM.bombSetup ? IOM.bombSetup.get(name) : { mult: (rawStats && rawStats.bomb_additional_multiplier) || 1, set: false };
 
   // Exp Bomb: 2x, +0.5x per Workshop "Exp Bomb Bonus" level (workshop_array[9]); golden (Storm Serpent
   // tribute 1, i.e. tribute level >= 2) triples it. All from the wiki.
@@ -155,162 +98,50 @@
     return { mult: (2 + 0.5 * lvl) * (golden ? 3 : 1), golden, lvl };
   }
 
-  // Plays out prefs.simFloors floors on one floor level, jumping from event to event (pickaxe swing,
-  // drone attack, bomb, respawn), and returns the averages.
-  function simulate(floor, s, opts) {
-    const floorOres = oresOnFloor(floor);
-    if (!floorOres.length) return null;
-    const rand = rng(1000 + floor * 97);
-    const count = Math.max(1, Math.min(Math.round(s.ores_per_screen || 1), ORE_LAYOUT.length));
-    const expMulti = s.experience_multi || 1;   // triple rocks give 3x ores (wiki), not more exp
-
-    let speed = s.game_speed_multi || 1;
-    for (const o of floorOres) if (o.mod === "game speed" && o.amt) speed *= 1 + o.amt / 100;
-
-    // Damage sources
-    const pick = prefs.usePickaxe && (s.pickaxe_attack_speed_per_second || 0) > 0
-      ? { period: 1 / s.pickaxe_attack_speed_per_second, dmg: s.pickaxe_damage || 0, chain: critChain(s, "pickaxe_"), next: 0 } : null;
-    const droneN = prefs.useDrones ? Math.max(0, Math.round(s.drone_count || 0)) : 0;
-    const droneAps = DRONE_BASE_APS * (1 + (s.drone_attack_speed_percent || 0) / 100);   // shown in game as "+100%"
-    const drone = droneN && droneAps > 0 ? {
-      period: 1 / droneAps,
-      dmg: (s.pickaxe_damage || 0) * (s.drone_damage_percent || 0) / 100,
-      triple: pct(s.drone_triple_damage_chance), rapid: pct(s.drone_rapid_fire_chance),
-      chain: critChain(s, "pickaxe_"),  // drones crit with the pickaxe's crit chances and damages
-      radius: DRONE_BASE_RADIUS * (1 + (s.drone_radius_percent || 0) / 100)   // shown in game as "+120%"
-    } : null;
-    // Which ore positions each position's drone reaches (fixed layout, so worked out once).
-    const reach = drone ? ORE_LAYOUT.slice(0, count).map(c => ORE_LAYOUT.slice(0, count).map((p, k) => dist(c, p) <= drone.radius ? k : -1).filter(k => k >= 0)) : null;
-    const bombChain = critChain(s, "bomb_");
-    const exp = expBombInfo(opts.raw);
-    const frameGame = speed / HARE_FPS;    // one rendered frame, in game seconds
-    const hare = prefs.manualBomb && prefs.manualMode === "hare";
-    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], [hare ? "hare" : "slow", prefs.manualBomb, hare ? frameGame : FIRE_INTERVAL],
-                   ["chain", prefs.chainActive ? "Chain Bomb" : "", FIRE_INTERVAL]]
-      .map(([slot, name, interval]) => ({ slot, bomb: bombByName(name), interval }))
-      .filter(x => x.bomb)
-      .map(x => ({
-        slot: x.slot, interval: x.interval, isExp: x.bomb.name === "Exp Bomb",
-        queued: x.slot === "chain",   // an active chain keeps exploding regardless of charges
-        dmg: (s.bomb_damage || 0) * bombMult(x.bomb.name).mult,
-        rechargeTime: x.bomb.cd / Math.max(s.bomb_recharge_speed || 1, 1e-9),
-        next: 0, charge: 0, lastT: 0
-      }));
-    const free = pct(s.bomb_free_chance);
-
-    if (!pick && !drone && !slots.length) return { floor, floorOres, blocked: "Nothing is breaking ores: turn on the pickaxe, drones, or pick a bomb." };
-
-    const target = Math.max(1, Math.round(opts.floors || prefs.simFloors || 1000));
-    const STUCK = 600;   // game seconds without a clear = this setup can't clear the floor
-    // Very slow floors would take ages to simulate thousands of times; stop after this much work and
-    // average over the floors done so far (the row then says how many).
-    const MAX_EVENTS = 400000;
-    let events = 0;
-    let t = 0, floors = 0, expTotal = 0, expBombFloors = 0, clearTimeSum = 0;
-    let ores = [], alive = 0, spawnAt = -1, floorStart = 0, floorMarked = false, lastClear = 0;
-    // Drones start where they sit in game: the first and last ore, extra drones spread in between.
-    const drones = Array.from({ length: droneN }, (_, i) => ({
-      next: 0, target: -1, home: droneN === 1 ? 0 : Math.round(i * (count - 1) / (droneN - 1))
-    }));
-
-    function spawn() {
-      ores.length = 0;
-      for (let k = 0; k < count; k++) {
-        const o = pickOre(floorOres, rand);
-        ores.push({
-          hp: o.mod === "health" && o.amt ? o.hp * (1 + o.amt / 100) : o.hp,
-          xp: o.xp, marked: false, alive: true,
-          dmgMod: o.mod === "damage" && o.amt ? Math.max(0, 1 + o.amt / 100) : 1,
-          bombMod: o.mod === "bomb damage" && o.amt ? Math.max(0, 1 + o.amt / 100) : 1,
-          minTier: IMMUNITY[o.mod] || 0
-        });
-      }
-      alive = count; spawnAt = -1; floorStart = t; floorMarked = false;
-      for (const d of drones) d.target = -1;
-      // Hare fires every frame, including the frame a floor appears (measured in game).
-      for (const b of slots) if (b.slot === "hare") b.next = t;
-    }
-    function hit(o, amount, tier) {
-      if (!o.alive || tier < o.minTier || amount <= 0) return;
-      o.hp -= amount;
-      if (o.hp <= 0) {
-        o.alive = false; alive--;
-        expTotal += o.xp * expMulti * (o.marked ? exp.mult : 1);
-      }
-    }
-    // While waiting for the next floor, attacks hit nothing: skip ahead keeping the same rhythm.
-    const skipTo = (src, at) => { if (src.next < at) src.next += Math.max(1, Math.ceil((at - src.next) / src.period - 1e-9)) * src.period; };
-
-    spawn();
-    while (floors < target && events++ < MAX_EVENTS) {
-      // Next event
-      let nt = spawnAt >= 0 ? spawnAt : Infinity, kind = "spawn", which = null;
-      if (pick && pick.next < nt) { nt = pick.next; kind = "pick"; }
-      if (drone) for (const d of drones) if (d.next < nt) { nt = d.next; kind = "drone"; which = d; }
-      for (const b of slots) if (b.next < nt) { nt = b.next; kind = "bomb"; which = b; }
-      t = nt;
-      if (t - lastClear > STUCK) break;
-
-      if (kind === "spawn") { spawn(); continue; }
-      const mining = spawnAt < 0;
-      if (kind === "pick") {
-        if (!mining) { skipTo(pick, spawnAt); continue; }
-        pick.next += pick.period;
-        for (const o of ores) if (o.alive) { const m = roll(pick.chain, rand); hit(o, pick.dmg * m * o.dmgMod, lastTier); }
-      } else if (kind === "drone") {
-        const d = which;
-        if (!mining) { d.period = drone.period; skipTo(d, spawnAt); continue; }
-        d.next += drone.period;
-        // A drone sits on an ore and hits every alive ore within its radius; when that ore breaks it
-        // moves to the nearest alive ore (travel time ignored: the wiki has no move speed).
-        if (d.target < 0 || !ores[d.target].alive) {
-          const from = ORE_LAYOUT[d.target >= 0 ? d.target : d.home];
-          let bestI = -1, bestD = Infinity;
-          for (let k = 0; k < count; k++) if (ores[k].alive) { const dd = dist(from, ORE_LAYOUT[k]); if (dd < bestD) { bestD = dd; bestI = k; } }
-          d.target = bestI;
-        }
-        if (d.target >= 0) {
-          const shots = rand() < drone.rapid ? 5 : 1;
-          for (let n = 0; n < shots; n++) for (const k of reach[d.target]) {
-            const o = ores[k];
-            if (!o.alive) continue;
-            const m = roll(drone.chain, rand);
-            hit(o, drone.dmg * m * (rand() < drone.triple ? 3 : 1) * o.dmgMod, lastTier);
-          }
-        }
-      } else {
-        const b = which;
-        b.next += b.interval;
-        if (b.slot === "hare" && !mining) { b.next = spawnAt; continue; }   // next shot lands when the floor appears
-        let fires = true;
-        if (!prefs.fullBombs && !b.queued) {
-          b.charge = Math.min(b.charge + (t - b.lastT) / b.rechargeTime, 1); b.lastT = t;
-          if (b.charge >= 1) { if (rand() >= free) b.charge -= 1; } else fires = false;
-        }
-        // Bombs keep firing on their own clock; one fired while no floor is up is wasted.
-        if (fires && mining) {
-          for (const o of ores) {
-            if (!o.alive) continue;
-            if (b.isExp && !o.marked) { o.marked = true; floorMarked = true; }
-            const m = roll(bombChain, rand);
-            hit(o, b.dmg * m * o.bombMod, lastTier);
-          }
-        }
-      }
-      if (mining && alive === 0) {
-        floors++; clearTimeSum += t - floorStart; if (floorMarked) expBombFloors++;
-        lastClear = t; spawnAt = t + RESPAWN_WAIT;
-      }
-    }
-
-    if (floors === 0) return { floor, floorOres, count, speed, floors, blocked: "Not a single floor could be cleared: the ores here are too tough for your current setup." };
-    const realMinutes = t / speed / 60;   // game speed scales everything equally (2x speed = 2x result)
+  // What the simulation needs besides the stats (plain data, so it can be sent to a worker).
+  function simConfig() {
+    const bombMults = {};
+    for (const b of IOM.BOMBS || []) bombMults[b.name] = bombMult(b.name).mult;
     return {
-      floor, floorOres, count, speed, floors, events, simTime: t,
-      fpm: floors / realMinutes, xpm: expTotal / realMinutes, capped: floors < target,
-      expPerFloor: expTotal / floors, clearTime: clearTimeSum / floors,
-      expBombShare: expBombFloors / floors, exp, slots, blocked: null
+      usePickaxe: prefs.usePickaxe, useDrones: prefs.useDrones, autoBomb: prefs.autoBomb, manualBomb: prefs.manualBomb,
+      manualMode: prefs.manualMode, chainActive: prefs.chainActive, fullBombs: prefs.fullBombs, simFloors: prefs.simFloors,
+      bombMults, exp: expBombInfo(rawStats)
     };
+  }
+  const simulate = (floor, s) => IOMSim.simulate(floor, s, simConfig());   // on the page (tests, fallback)
+
+  // Worker pool: floors are independent, so several are simulated at once on different CPU cores.
+  const VERSION = ((document.querySelector('script[src*="calc-exp.js"]') || {}).src || "").split("v=")[1] || "";
+  let pool = null;
+  function getPool() {
+    if (pool !== null) return pool;
+    pool = false;
+    try {
+      const n = Math.max(1, Math.min(8, (navigator.hardwareConcurrency || 2) - 1));
+      const workers = [];
+      for (let i = 0; i < n; i++) workers.push(new Worker(`assets/sim-worker.js?v=${VERSION}`));
+      const pending = new Map();
+      let nextId = 1;
+      workers.forEach(w => {
+        w.onmessage = (e) => { const job = pending.get(e.data.id); if (!job) return; pending.delete(e.data.id); w.busy = false;
+          e.data.error ? job.reject(new Error(e.data.error)) : job.resolve(e.data.result); drain(); };
+        w.onerror = () => { pool = false; };
+      });
+      const queue = [];
+      function drain() {
+        for (const w of workers) {
+          if (w.busy || !queue.length) continue;
+          const job = queue.shift(); w.busy = true; pending.set(job.id, job);
+          w.postMessage({ id: job.id, floor: job.floor, stats: job.stats, cfg: job.cfg });
+        }
+      }
+      pool = {
+        size: n,
+        run(floor, stats, cfg) { return new Promise((resolve, reject) => { queue.push({ id: nextId++, floor, stats, cfg, resolve, reject }); drain(); }); },
+        clear() { queue.length = 0; }
+      };
+    } catch { pool = false; }
+    return pool;
   }
 
   // ---------- rendering ----------
@@ -491,32 +322,50 @@
     const LOWER_BY = 0.10;
     const worlds = Math.max(1, Math.min(4, Math.round((rawStats && rawStats.worlds_unlocked) || 1)));
     const lastFloor = WORLD_LAST_FLOOR[worlds];
+    const cfg = simConfig();
     const rows = [];
-    let best = null, sinceBest = 0, f = 1;
+    let best = null, sinceBest = 0, done = false;
+    // Feed one result at a time in floor order and apply the stopping rule.
+    function take(e, f) {
+      if (done || !e) return;
+      rows.push(e);
+      const xpm = e.blocked ? 0 : e.xpm;
+      if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
+      else if (xpm <= best.xpm * (1 - LOWER_BY)) {
+        // Never stop on the first floor of a pair: the next floor has the same ores, with more of the
+        // better one, so it's usually at least as good.
+        if (++sinceBest >= 3 && !firstOfPair(f)) done = true;
+      }
+      else sinceBest = 0;   // about as good as the best: not "lower", keep looking
+    }
+    const workers = getPool();
     return new Promise((resolve, reject) => {
-      function step() {
+      let f = 1;
+      if (workers) {
+        // Simulate a batch of floors in parallel, then apply them in order; repeat until the rule stops.
+        const batch = () => {
+          if (run !== runId) { workers.clear(); reject(new Error("cancelled")); return; }
+          if (done || f > lastFloor) { resolve({ rows, best }); return; }
+          const floors = [];
+          for (let k = 0; k < workers.size && f <= lastFloor; k++) floors.push(f++);
+          Promise.all(floors.map(fl => workers.run(fl, statsObj, cfg))).then(results => {
+            if (run !== runId) { reject(new Error("cancelled")); return; }
+            results.forEach((e, k) => take(e, floors[k]));
+            if (onProgress) onProgress(floors[floors.length - 1]);
+            batch();
+          }, reject);
+        };
+        batch();
+        return;
+      }
+      // No workers (e.g. the page was opened as a file): run here in small chunks.
+      const step = () => {
         if (run !== runId) { reject(new Error("cancelled")); return; }
         const started = performance.now();
-        let done = false;
-        while (!done && performance.now() - started < 40) {
-          if (f > lastFloor) { done = true; break; }
-          const e = simulate(f, statsObj, { raw: rawStats });
-          if (e) {
-            rows.push(e);
-            const xpm = e.blocked ? 0 : e.xpm;
-            if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
-            else if (xpm <= best.xpm * (1 - LOWER_BY)) {
-              // Never stop on the first floor of a pair: the next floor has the same ores, with more of the
-              // better one, so it's usually at least as good.
-              if (++sinceBest >= 3 && !firstOfPair(f)) done = true;
-            }
-            else sinceBest = 0;   // about as good as the best: not "lower", keep looking
-          }
-          f++;
-        }
-        if (done) resolve({ rows, best });
+        while (!done && f <= lastFloor && performance.now() - started < 40) { take(IOMSim.simulate(f, statsObj, cfg), f); f++; }
+        if (done || f > lastFloor) resolve({ rows, best });
         else { if (onProgress) onProgress(f - 1); setTimeout(step, 0); }
-      }
+      };
       step();
     });
   }
@@ -633,32 +482,39 @@
       rows.sort((a, b) => b[key] - a[key]);
       const top = rows[0];
       const pct = (g) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
-      const pkgLabel = (p) => {
-        const c = C[p.target];
-        const needs = p.steps.slice(0, -1).map(st => C[st.i].name);
-        return el("span", {}, `${c.name} ${levels[p.target]} → ${levels[p.target] + 1}`,
-          needs.length ? el("span", { class: "muted small", text: ` · first needs ${needs.join(", ")} (1 each)` }) : null);
-      };
+      const needsOf = (p) => p.steps.slice(0, -1).map(st => C[st.i].name);
+      const levelText = (p) => `${levels[p.target]} → ${levels[p.target] + 1}`;
       const noEffect = packages.filter(p => !p.affectsExp && p.steps.length === 1).map(p => C[p.target].name);
+      let pick;
+      if (top && top[key] > 0) {
+        const needs = needsOf(top.p);
+        pick = el("div", { class: "plan-pick" },
+          el("p", {}, "👉 Buy next: ", el("b", { text: `${C[top.p.target].name} ${levelText(top.p)}` }),
+            ` · ${top.p.cost.toLocaleString()} contract points · +${fmt(top.gain)} exp/min${pct(top.gain)} `,
+            el("button", { type: "button", class: "btn small primary", text: "✓ Bought", title: "Write these levels into the save and plan the next upgrade", onclick: () => markBought(top.p) })),
+          needs.length ? el("details", { class: "small" },
+            el("summary", { text: `Also buys the ${needs.length} upgrade${needs.length === 1 ? "" : "s"} it needs first (1 level each)` }),
+            el("p", { class: "muted", text: needs.join(", ") })) : null);
+      } else {
+        pick = el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." });
+      }
       box.replaceChildren(
-        top && top[key] > 0
-          ? el("p", { class: "plan-pick" }, "👉 Buy next: ", el("b", { text: C[top.p.target].name }),
-              top.p.steps.length > 1 ? ` (together with ${top.p.steps.slice(0, -1).map(st => C[st.i].name).join(", ")})` : "",
-              ` for ${top.p.cost.toLocaleString()} contract points: +${fmt(top.gain)} exp/min${pct(top.gain)}. `,
-              el("button", { type: "button", class: "btn small primary", text: "✓ Bought", title: "Write these levels into the save and plan the next upgrade", onclick: () => markBought(top.p) }))
-          : el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." }),
-        el("p", { class: "muted small", text: `Now: ${fmt(base)} exp/min on your best floor. Each option was simulated with ${prefs.simFloors.toLocaleString()} floors per floor level.` }),
+        pick,
+        el("p", { class: "muted small", text: `Each row: one more level of that upgrade, plus any earlier upgrades it needs. Now: ${fmt(base)} exp/min.` }),
         el("div", { class: "table-wrap" },
           el("table", { class: "calc-table" },
-            el("thead", {}, el("tr", {}, ...["Upgrade", "Contract points", "Best floor", "Exp/min", "Gain", "Gain per point"].map(h => el("th", { text: h })))),
-            el("tbody", {}, ...rows.map(r => el("tr", { class: r === top && r[key] > 0 ? "best" : "" },
-              el("td", {}, pkgLabel(r.p)),
-              el("td", { text: r.p.cost.toLocaleString() }),
-              el("td", { text: r.best ? String(r.best.floor) : "—" }),
-              el("td", { text: r.best ? fmt(r.best.xpm) : "0" }),
-              el("td", { text: r.gain > 0 ? "+" + fmt(r.gain) + pct(r.gain) : "≈ 0" }),
-              el("td", { text: r.gain > 0 ? fmt(r.perPoint) : "≈ 0" })))))),
-        noEffect.length ? el("p", { class: "muted small", text: `Also buyable, but no effect on exp: ${noEffect.join(", ")}.` }) : null
+            el("thead", {}, el("tr", {}, ...["Upgrade", "Needs first", "Points", "Exp/min", "Gain", "Gain/point"].map(h => el("th", { text: h })))),
+            el("tbody", {}, ...rows.map(r => {
+              const needs = needsOf(r.p);
+              return el("tr", { class: r === top && r[key] > 0 ? "best" : "" },
+                el("td", { text: `${C[r.p.target].name} ${levelText(r.p)}` }),
+                el("td", { text: needs.length ? `${needs.length} upgrade${needs.length === 1 ? "" : "s"}` : "—", title: needs.length ? needs.join(", ") : null, class: needs.length ? "has-tip" : null }),
+                el("td", { text: r.p.cost.toLocaleString() }),
+                el("td", { text: r.best ? fmt(r.best.xpm) : "0" }),
+                el("td", { text: r.gain > 0 ? "+" + fmt(r.gain) + pct(r.gain) : "≈ 0" }),
+                el("td", { text: r.gain > 0 ? fmt(r.perPoint) : "≈ 0" }));
+            })))),
+        noEffect.length ? el("p", { class: "muted small", text: `No effect on exp: ${noEffect.join(", ")}.` }) : null
       );
     }, () => {});
   }
@@ -666,7 +522,7 @@
   let currentData = null;
   const keyFor = (data) => JSON.stringify([data.time, data.version, data.stats.current_floor, data.stats.experience_multi, data.stats.pickaxe_damage, data.stats.game_speed_multi]);
   IOM.calcExp = {
-    simulate: (floor, overrides) => simulate(floor, Object.assign({}, stats, overrides), { raw: rawStats }),   // for testing
+    simulate: (floor, overrides) => simulate(floor, Object.assign({}, stats, overrides)),   // for testing
     // Forget every what-if value and assumption; the next render starts from the save again.
     reset() { sourceKey = null; prefs = Object.assign({}, DEFAULTS); },
     // Bomb setup changed on the Savefiles page.
