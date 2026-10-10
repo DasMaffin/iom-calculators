@@ -17,7 +17,7 @@
   const load = (k, fallback) => { try { return Object.assign(fallback, JSON.parse(store.get(k) || "{}")); } catch { return fallback; } };
 
   let levels = load(STORAGE_KEY, {});          // { categoryId: { cardName: level } }
-  const ui = load(UI_KEY, { open: {}, brush: 1 });
+  const ui = load(UI_KEY, { open: {}, brush: 1, labels: false });
   let synced = {};                              // categoryId -> true when filled from the export
   let anchor = null;                            // { cat, index } of the last clicked card
   let rangeMode = false;
@@ -71,23 +71,26 @@
     })));
   }
 
+  const BADGES = ["", "", "G", "P", "I"];
+
   function tile(cat, card, index) {
     const lvl = levelOf(cat.id, card.name);
+    const back = el("img", { class: "cback", src: IOM.CARD_BACKS[lvl || 1], alt: "", loading: "lazy", draggable: "false" });
     const icon = el("img", { class: "cicon", src: card.img, alt: "", loading: "lazy", draggable: "false" });
-    const name = el("span", { class: "cname", text: card.name });
+    const art = el("span", { class: "cart" }, back, icon, el("span", { class: "cfallback", text: card.name }),
+      el("span", { class: "cbadge", text: BADGES[lvl] }));
     const t = el("button", {
       type: "button",
       class: `ctile lvl-${lvl}`,
       title: tooltip(card, lvl),
       "aria-label": `${card.name}, ${LEVELS[lvl]}`,
+      "aria-pressed": String(lvl > 0),
       "data-index": index
-    },
-      el("img", { class: "cback", src: IOM.CARD_BACKS[lvl || 1], alt: "", loading: "lazy", draggable: "false" }),
-      icon, name);
+    }, art, el("span", { class: "cname", text: card.name }));
     // Tiles show a framed name until the artwork loads, so they still work if the wiki's images can't.
     icon.addEventListener("load", () => t.classList.add("hasimg"), { once: true });
     icon.addEventListener("error", () => icon.remove(), { once: true });
-    t.querySelector(".cback").addEventListener("error", e => e.target.remove(), { once: true });
+    back.addEventListener("error", () => back.remove(), { once: true });
     return t;
   }
 
@@ -158,6 +161,8 @@
           (anchor && anchor.cat === cat.id && anchor.index === Number(t.dataset.index) ? " anchor" : "");
         t.title = tooltip(card, lvl);
         t.setAttribute("aria-label", `${card.name}, ${LEVELS[lvl]}`);
+        t.setAttribute("aria-pressed", String(lvl > 0));
+        t.querySelector(".cbadge").textContent = BADGES[lvl];
         const back = t.querySelector(".cback");
         if (back) back.src = IOM.CARD_BACKS[lvl || 1];
       });
@@ -182,6 +187,12 @@
     refreshCategory(cat);
     if (prev) refreshCategory(prev);
   }
+
+  const labelsBox = root.querySelector("#cardLabels");
+  const applyLabels = () => root.classList.toggle("show-labels", !!ui.labels);
+  labelsBox.checked = !!ui.labels;
+  labelsBox.addEventListener("change", () => { ui.labels = labelsBox.checked; saveUi(); applyLabels(); });
+  applyLabels();
 
   rangeBtn.addEventListener("click", () => {
     rangeMode = !rangeMode;

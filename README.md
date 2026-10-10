@@ -65,6 +65,11 @@ changes a table's layout, the builder stops with an error instead of writing wro
 Card images are loaded straight from the wiki's image server (`static.wikitide.net`); nothing is
 downloaded into the repo. If an image can't load, the card shows its name instead.
 
+## Publishing changes
+
+`index.html` loads every file with a `?v=...` suffix so browsers pick up new versions. Bump that
+value whenever you change files in `assets/`.
+
 ## When the game updates
 
 Change `IOM.LATEST_GAME_VERSION` in `assets/game-version.js`. Players whose export is from an older
