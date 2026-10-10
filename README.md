@@ -42,6 +42,16 @@ python3 -m http.server 8000
 | `assets/stat-catalog.js` | Sorts export keys into sections, sets labels and display formats, lists not-yet-seen systems |
 | `assets/app.js` | Import, rendering, editing, filtering, export |
 | `examples/example-export.json` | Sample export (v2.2.30, Obelisk 31) |
+| `tools/fetch-wiki.mjs` | Downloads the wiki's raw page text into `wiki-cache/` for reference |
+
+## Refreshing wiki reference data
+
+The wiki is behind a Cloudflare bot check that blocks cloud servers. Run this from your own computer (needs Node 18+):
+
+```sh
+node tools/fetch-wiki.mjs
+git add wiki-cache && git commit -m "Update wiki cache" && git push
+```
 
 Stats the catalog doesn't recognise show up under **Other**, so newer game stats never get dropped.
 To file a new stat under a section, add a rule to `IOM.RULES` in `assets/stat-catalog.js`.
