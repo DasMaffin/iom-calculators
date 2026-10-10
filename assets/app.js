@@ -185,17 +185,20 @@
   }
 
   // ---------- pages (sidebar) ----------
-  const VIEWS = ["saves", "stats"];
+  const VIEWS = ["saves", "stats", "calc-exp"];
+  const NEEDS_DATA = new Set(["stats", "calc-exp"]);
   function currentView() {
     const v = location.hash.replace("#", "");
     return VIEWS.includes(v) ? v : "saves";
   }
   function showView() {
     let view = currentView();
-    if (view === "stats" && !data) view = "saves";   // Stats stays greyed out until something is imported
+    if (NEEDS_DATA.has(view) && !data) view = "saves";   // greyed out until something is imported
     document.querySelectorAll("[data-view-panel]").forEach(p => { p.hidden = p.dataset.viewPanel !== view; });
+    if (view === "calc-exp" && IOM.calcExp) IOM.calcExp.render(data);
     document.querySelectorAll(".nav-item").forEach(a => {
-      const disabled = a.dataset.view === "stats" && !data;
+      if (!a.dataset.view) return;
+      const disabled = NEEDS_DATA.has(a.dataset.view) && !data;
       a.classList.toggle("active", a.dataset.view === view);
       a.classList.toggle("disabled", disabled);
       a.setAttribute("aria-disabled", String(disabled));
@@ -203,6 +206,12 @@
       a.title = disabled ? "Import your stats first" : "";
     });
   }
+  // On phones the Calculators group is a dropdown: start closed and close it after picking one.
+  const phone = matchMedia("(max-width: 720px)");
+  document.querySelectorAll(".nav-group").forEach(g => {
+    if (phone.matches) g.open = false;
+    g.querySelectorAll(".nav-sub a").forEach(a => a.addEventListener("click", () => { if (phone.matches) g.open = false; }));
+  });
   window.addEventListener("hashchange", () => { showView(); window.scrollTo(0, 0); });
   function goTo(view) {
     if (location.hash !== "#" + view) location.hash = view;

@@ -7,7 +7,7 @@
   <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
   <meta name="theme-color" content="#14161c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
-  <link rel="stylesheet" href="assets/style.css?v=20261010k">
+  <link rel="stylesheet" href="assets/style.css?v=20261010m">
 </head>
 <body>
   <header class="topbar">
@@ -24,6 +24,12 @@
   <nav class="sidebar" aria-label="Pages">
     <a href="#saves" class="nav-item" data-view="saves">💾 <span>Savefiles</span></a>
     <a href="#stats" class="nav-item" data-view="stats" title="Import your stats first">📊 <span>Stats</span></a>
+    <details class="nav-group" open>
+      <summary class="nav-item">🧮 <span>Calculators</span></summary>
+      <div class="nav-sub">
+        <a href="#calc-exp" class="nav-item" data-view="calc-exp">⭐ <span>Experience</span></a>
+      </div>
+    </details>
   </nav>
   <main>
     <div class="view" data-view-panel="saves">
@@ -125,6 +131,15 @@
       </section>
     </section>
     </div>
+    <div class="view" data-view-panel="calc-exp" hidden>
+      <section class="card calc" id="calcExp">
+        <div class="card-head"><h1>⭐ Experience calculator</h1></div>
+        <p class="muted small">Statistical exp per minute from mining, using your imported stats. Ore exp, health, floors and modifiers come from the wiki's Ores page. Change the assumptions to match what you measure in game.</p>
+        <div id="ce-form"></div>
+        <div id="ce-results"></div>
+        <div id="ce-table"></div>
+      </section>
+    </div>
   </main>
   </div>
 
@@ -132,12 +147,14 @@
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
-  <script src="assets/game-version.js?v=20261010k"></script>
-  <script src="assets/stat-catalog.js?v=20261010k"></script>
-  <script src="assets/array-labels.js?v=20261010k"></script>
-  <script src="assets/cards.js?v=20261010k"></script>
-  <script src="assets/cards-ui.js?v=20261010k"></script>
-  <script src="assets/saves.js?v=20261010k"></script>
-  <script src="assets/app.js?v=20261010k"></script>
+  <script src="assets/game-version.js?v=20261010m"></script>
+  <script src="assets/stat-catalog.js?v=20261010m"></script>
+  <script src="assets/array-labels.js?v=20261010m"></script>
+  <script src="assets/cards.js?v=20261010m"></script>
+  <script src="assets/cards-ui.js?v=20261010m"></script>
+  <script src="assets/ores.js?v=20261010m"></script>
+  <script src="assets/calc-exp.js?v=20261010m"></script>
+  <script src="assets/saves.js?v=20261010m"></script>
+  <script src="assets/app.js?v=20261010m"></script>
 </body>
 </html>
