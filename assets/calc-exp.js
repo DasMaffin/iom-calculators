@@ -412,7 +412,6 @@
       if (!best || xpm > best.xpm) { best = e.blocked ? best : e; sinceBest = 0; }
       else if (++sinceBest >= 3) { stoppedAt = f; break; }
     }
-    const dash = "—";
     $("#ce-table").replaceChildren(
       el("h3", { text: "Exp per floor" }),
       el("p", { class: "small", text: best
@@ -425,9 +424,9 @@
           el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
             el("td", { text: String(e.floor) + (e.floor === floor ? " (yours)" : "") }),
             el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
-            el("td", { text: e.blocked ? dash : fmt(e.expPerFloor) }),
-            el("td", { text: e.blocked ? dash : fmt(e.fpm) }),
-            el("td", { text: e.blocked ? "can't clear" : fmt(e.xpm) })))))));
+            el("td", { text: e.blocked ? "0" : fmt(e.expPerFloor) }),
+            el("td", { text: e.blocked ? "0" : fmt(e.fpm) }),
+            el("td", { text: e.blocked ? "0" : fmt(e.xpm) })))))));
   }
 
   let currentData = null;
