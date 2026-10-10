@@ -10,6 +10,8 @@
   const PREF_KEY = "iom.calc.exp.v2";
   const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
   // Fire / hare fires once per rendered frame (measured in game), including the frame a floor appears.
+  // Frame rate only matters when a floor needs several hare hits; assume a 30 fps phone (the slower case).
+  const HARE_FPS = 30;
   const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
   let DT = 0.02;                      // simulation step, game seconds (smaller when hare fires every frame)
   // The next floor spawns about 1 s after the last ore breaks (wiki: the game checks once per second;
@@ -21,9 +23,9 @@
     usePickaxe: false,
     useDrones: true,
     autoBomb: "",
-    slowBomb: "",
-    hareBomb: "",
-    fps: 30,                  // game frame rate: 30 on phones, 60 on PC
+    manualBomb: "",
+    manualMode: "slow",       // "slow" = Fire Slow / turtle (every 1.25 s), "hare" = Fire held down (every frame)
+
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
 
   };
@@ -143,9 +145,10 @@
     } : null;
     const bombChain = critChain(s, "bomb_");
     const exp = expBombInfo(opts.raw);
-    const frameGame = speed / Math.max(prefs.fps || 30, 1);    // one rendered frame, in game seconds
-    DT = prefs.hareBomb ? Math.min(0.02, frameGame / 2) : 0.02;
-    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], ["slow", prefs.slowBomb, FIRE_INTERVAL], ["hare", prefs.hareBomb, frameGame]]
+    const frameGame = speed / HARE_FPS;    // one rendered frame, in game seconds
+    const hare = prefs.manualBomb && prefs.manualMode === "hare";
+    DT = hare ? Math.min(0.02, frameGame / 2) : 0.02;
+    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], [hare ? "hare" : "slow", prefs.manualBomb, hare ? frameGame : FIRE_INTERVAL]]
       .map(([slot, name, interval]) => ({ slot, bomb: bombByName(name), interval }))
       .filter(x => x.bomb)
       .map(x => ({
@@ -299,15 +302,8 @@
       el("summary", { class: "small", text: `${label || "Values from your save"} (${fields.length})` }),
       fieldGrid(fields));
   }
-  function fpsSelect() {
-    const select = el("select", { id: "ce-fps" },
-      el("option", { value: "30", text: "30 fps (phone)" }), el("option", { value: "60", text: "60 fps" }));
-    select.value = String(prefs.fps);
-    select.addEventListener("change", () => { prefs.fps = parseInt(select.value, 10); schedule(); });
-    return el("label", { class: "field bomb-slot", for: "ce-fps" }, el("span", { text: "Game frame rate (hare fires once per frame)" }), select);
-  }
-  function bombSlot(slot, label) {
-    const key = { auto: "autoBomb", slow: "slowBomb", hare: "hareBomb" }[slot];
+  function bombSlot(slot, label, extra) {
+    const key = { auto: "autoBomb", manual: "manualBomb" }[slot];
     const select = el("select", { id: "ce-" + key },
       el("option", { value: "", text: "None" }),
       ...(IOM.BOMBS || []).map(b => el("option", { value: b.name, text: `${b.name} (${b.cd}s base)` })));
@@ -324,7 +320,23 @@
     showNote();
     noteUpdaters.push(showNote);
     return el("div", { class: "bomb-slot" },
-      el("label", { class: "field", for: "ce-" + key }, el("span", { text: label }), select), note);
+      el("label", { class: "field", for: "ce-" + key }, el("span", { text: label }), select), extra || null, note);
+  }
+  // Turtle (Fire Slow, every 1.25 s) / hare (Fire held down, every frame) switch, like the in-game buttons.
+  function modeSwitch() {
+    const input = el("input", { type: "checkbox", role: "switch", id: "ce-hare", "aria-label": "Hare mode: fire every frame" });
+    input.checked = prefs.manualMode === "hare";
+    const caption = el("span", { class: "muted small" });
+    const sync = () => {
+      caption.textContent = input.checked ? "Fire, held down: a bomb every frame" : "Fire Slow: a bomb every 1.25 s";
+    };
+    input.addEventListener("change", () => { prefs.manualMode = input.checked ? "hare" : "slow"; sync(); schedule(); });
+    sync();
+    return el("div", { class: "mode-switch" },
+      el("span", { class: "mode-icon", title: "Fire Slow (turtle)", text: "🐢" }),
+      el("label", { class: "switch", for: "ce-hare" }, input, el("span", { class: "slider" })),
+      el("span", { class: "mode-icon", title: "Fire, held down (hare)", text: "🐇" }),
+      caption);
   }
 
   function buildForm(raw) {
@@ -345,9 +357,7 @@
         droneBox),
       group("Bombs",
         bombSlot("auto", "Auto-Bomber (fires every 1.25 s)"),
-        bombSlot("slow", "Fire Slow / turtle (fires every 1.25 s)"),
-        bombSlot("hare", "Fire / hare, held down (fires every frame)"),
-        fpsSelect(),
+        bombSlot("manual", "Manual fire", modeSwitch()),
         checkbox("fullBombs", "Assume full bombs (stored charges, so bombs fire every 1.25 s; off = only as fast as they recharge)"),
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
