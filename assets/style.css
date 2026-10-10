@@ -157,8 +157,10 @@ main { padding-top: 16px; padding-bottom: 24px; min-width: 0; }
 .calc > p { margin: 0; }
 #ce-form { display: grid; gap: 10px; }
 #ce-form p { margin: 0; }
-#ce-results, #ce-table { display: grid; gap: 10px; }
-#ce-results p, #ce-table p { margin: 0; }
+#ce-results, #ce-table, #ce-planner, #ce-plan { display: grid; gap: 10px; }
+.planner { border-top: 1px solid var(--border); padding-top: 14px; }
+.plan-pick { margin: 0; padding: 10px 14px; border-radius: var(--radius); background: color-mix(in srgb, var(--good) 14%, var(--surface)); border: 1px solid color-mix(in srgb, var(--good) 45%, var(--border)); }
+#ce-results p, #ce-table p, #ce-planner p { margin: 0; }
 .field-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
 .field { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); }
 .field.wide { grid-column: span 2; }

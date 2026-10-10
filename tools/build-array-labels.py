@@ -180,6 +180,23 @@ put("contracts_array",
      for w in [i.split("_")[1]]],
     "Contracts")
 
+# Contract upgrades for the planner: name, bonus, base max level and contract point cost per level.
+# Costs come from the page's CostTable entries (base and growth per level, listed in upgrade order).
+contracts_page = page("Contracts")
+contract_rows = table_rows(contracts_page, r"Upgrades_W\d_[A-Za-z0-9]+")
+cost_tables = []
+for line in contracts_page.splitlines():
+    if not line.startswith("{{CostTable|"):
+        continue
+    parts = line.replace("{{=}}", "=").split("|")   # label | levels | scale | class | type | base | ...
+    cost_tables.append((parts[3], parts[5], parts[6]))
+if len(contract_rows) != len(cost_tables):
+    raise SystemExit(f"contracts: {len(contract_rows)} upgrades but {len(cost_tables)} cost tables")
+contracts = []
+for (cid, cells), (scale, kind, base) in zip(contract_rows, cost_tables):
+    contracts.append({"name": cells[0], "bonus": cells[1], "max": int(cells[2]), "world": int(cid.split("_")[1][1]),
+                      "cost": {"type": kind, "base": float(base), "scale": float(scale)}})
+
 # Idols: wiki order minus the idols added in later updates; checked against max levels in a late-game
 # export and the Athena/Apollo counts in an early one. Slots after the 19 base idols are not idol counts
 # (values exceed every idol cap) and stay unlabelled.
@@ -301,7 +318,8 @@ ORES_OUT.write_text(
     "window.IOM = window.IOM || {};\n"
     f"window.IOM.ORES = {json.dumps(ores, separators=(',', ':'))};\n"
     f"window.IOM.BOMBS = {json.dumps(bombs, separators=(',', ':'))};\n"
-    f"window.IOM.FLOOR_ORES = {json.dumps(floor_ores, separators=(',', ':'))};\n",
+    f"window.IOM.FLOOR_ORES = {json.dumps(floor_ores, separators=(',', ':'))};\n"
+    f"window.IOM.CONTRACTS = {json.dumps(contracts, ensure_ascii=False, separators=(',', ':'))};\n",
     encoding="utf-8",
 )
 print("bombs: " + ", ".join(f"{b['name']} {b['cd']:g}s" for b in bombs))

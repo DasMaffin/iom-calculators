@@ -25,7 +25,8 @@
     manualBomb: "",
     manualMode: "slow",       // "slow" = Fire Slow / turtle (every 1.25 s), "hare" = Fire held down (every frame)
     chainActive: false,
-    simFloors: 1000,          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
+    simFloors: 1000,
+    planBy: "gain",           // contract planner ranking: "gain" (highest exp/min) or "perPoint"          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
 
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
 
@@ -429,6 +430,7 @@
         saveValues(BOMB, "Bomb values from your save")),
       simBar()
     );
+    buildPlanner();
   }
 
   // Settings changed: nothing recalculates until Simulate is pressed. Stop a running simulation and
@@ -440,6 +442,20 @@
     }
   }
 
+  function buildPlanner() {
+    const by = el("select", { id: "ce-planby" },
+      el("option", { value: "gain", text: "Highest exp/min" }),
+      el("option", { value: "perPoint", text: "Most exp/min per contract point" }));
+    by.value = prefs.planBy;
+    by.addEventListener("change", () => { prefs.planBy = by.value; });
+    $("#ce-planner").replaceChildren(
+      el("h3", { text: "📜 Contract upgrade planner" }),
+      el("p", { class: "muted small", text: "Simulates your setup above with each contract upgrade one level higher (same floors per level), and tells you which to buy next. Locked upgrades include the earlier upgrades they need, in both the cost and the simulation." }),
+      el("div", { class: "sim-bar" },
+        el("label", { class: "field", for: "ce-planby" }, el("span", { text: "Best means" }), by),
+        el("button", { type: "button", class: "btn primary", text: "▶ Plan contract upgrade", onclick: planContracts })),
+      el("div", { id: "ce-plan" }));
+  }
   function simBar() {
     const input = el("input", { type: "number", min: "100", step: "100", value: prefs.simFloors, id: "ce-simfloors", inputmode: "numeric" });
     input.addEventListener("input", () => { const v = parseInt(input.value, 10); if (v > 0) { prefs.simFloors = v; schedule(); } });
@@ -465,63 +481,187 @@
   }
 
   let runId = 0;
-  // Works through the floors one per tick so the page stays responsive; a newer run cancels this one.
-  function compute() {
-    const run = ++runId;
-    $("#ce-stale").hidden = true;
-    // Start at floor 1 and go up, tracking the best floor. Stop once three floors in a row are lower than
-    // the best (by at least 10%, so near-ties don't count), or at the last floor of the unlocked worlds.
+  // Finds the best floor for a set of stats: start at floor 1 and go up, tracking the best floor; stop once
+  // three floors in a row are lower than the best (by at least 10%, so near-ties don't count), or at the last
+  // floor of the unlocked worlds. Works in small chunks so the page stays responsive.
+  function searchFloors(statsObj, run, onProgress) {
     const LOWER_BY = 0.10;
     const worlds = Math.max(1, Math.min(4, Math.round((rawStats && rawStats.worlds_unlocked) || 1)));
     const lastFloor = WORLD_LAST_FLOOR[worlds];
     const rows = [];
     let best = null, sinceBest = 0, f = 1;
+    return new Promise((resolve, reject) => {
+      function step() {
+        if (run !== runId) { reject(new Error("cancelled")); return; }
+        const started = performance.now();
+        let done = false;
+        while (!done && performance.now() - started < 40) {
+          if (f > lastFloor) { done = true; break; }
+          const e = simulate(f, statsObj, { raw: rawStats });
+          if (e) {
+            rows.push(e);
+            const xpm = e.blocked ? 0 : e.xpm;
+            if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
+            else if (xpm <= best.xpm * (1 - LOWER_BY)) {
+              // Never stop on the first floor of a pair: the next floor has the same ores, with more of the
+              // better one, so it's usually at least as good.
+              if (++sinceBest >= 3 && !firstOfPair(f)) done = true;
+            }
+            else sinceBest = 0;   // about as good as the best: not "lower", keep looking
+          }
+          f++;
+        }
+        if (done) resolve({ rows, best });
+        else { if (onProgress) onProgress(f - 1); setTimeout(step, 0); }
+      }
+      step();
+    });
+  }
 
+  function compute() {
+    const run = ++runId;
+    $("#ce-stale").hidden = true;
     const status = el("p", { class: "muted small" });
     $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), status);
     $("#ce-table").replaceChildren();
-
-    function step() {
-      if (run !== runId) return;
-      const started = performance.now();
-      let done = false;
-      while (!done && performance.now() - started < 40) {
-        if (f > lastFloor) { done = true; break; }
-        const e = simulate(f, stats, { raw: rawStats });
-        if (e) {
-          rows.push(e);
-          const xpm = e.blocked ? 0 : e.xpm;
-          if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
-          else if (xpm <= best.xpm * (1 - LOWER_BY)) {
-            // Never stop on the first floor of a pair: the next floor has the same ores, with more of the
-            // better one, so it's usually at least as good.
-            if (++sinceBest >= 3 && !firstOfPair(f)) done = true;
-          }
-          else sinceBest = 0;   // about as good as the best: not "lower", keep looking
+    searchFloors(stats, run, f => { status.textContent = `Simulating ${prefs.simFloors.toLocaleString()} floors per floor level… floor ${f}`; })
+      .then(({ rows, best }) => {
+        const shown = rows.slice().reverse();   // highest floor on top
+        if (!best) {
+          const why = rows.find(e => e.blocked);
+          $("#ce-results").replaceChildren(el("p", { class: "warning", text: "⚠️ " + (why ? why.blocked : "No floor can be cleared with this setup.") }));
+        } else {
+          $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), floorTable([best], best));
         }
-        f++;
-      }
-      if (!done) {
-        status.textContent = `Simulating ${prefs.simFloors.toLocaleString()} floors per floor level… floor ${f - 1}`;
-        setTimeout(step, 0);
-        return;
-      }
-      const shown = rows.slice().reverse();   // highest floor on top
-      if (!best) {
-        const why = rows.find(e => e.blocked);
-        $("#ce-results").replaceChildren(el("p", { class: "warning", text: "⚠️ " + (why ? why.blocked : "No floor can be cleared with this setup.") }));
-      } else {
-        $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), floorTable([best], best));
-      }
-      $("#ce-table").replaceChildren(el("h3", { text: "All checked floors" }),
-        el("p", { class: "muted small", text: `Each row is the average of ${prefs.simFloors.toLocaleString()} simulated floors.` +
-          (rows.some(e => e.capped) ? " Floors marked * clear so slowly that fewer were simulated (hover for the number)." : "") }),
-        floorTable(shown, best));
+        $("#ce-table").replaceChildren(el("h3", { text: "All checked floors" }),
+          el("p", { class: "muted small", text: `Each row is the average of ${prefs.simFloors.toLocaleString()} simulated floors.` +
+            (rows.some(e => e.capped) ? " Floors marked * clear so slowly that fewer were simulated (hover for the number)." : "") }),
+          floorTable(shown, best));
+      }, () => {});
+  }
+
+  // ---------- contract upgrade planner ----------
+  // What one more level of a contract upgrade does to the stats the simulation uses. Bonuses within the
+  // contract menu add up, so going from level L to L+1 multiplies by (1 + b(L+1)) / (1 + bL).
+  const addPct = (b) => (s, key, L) => { s[key] = (s[key] || 0) * (1 + b * (L + 1)) / (1 + b * L); };
+  const CONTRACT_EFFECTS = {
+    2: (s) => { s.pickaxe_super_crit_chance = (s.pickaxe_super_crit_chance || 0) + 2; },
+    3: (s, L) => addPct(0.03)(s, "bomb_recharge_speed", L),
+    4: (s, L) => addPct(0.10)(s, "experience_multi", L),
+    5: (s, L) => addPct(0.08)(s, "pickaxe_crit_damage", L),
+    6: (s, L) => addPct(0.15)(s, "pickaxe_damage", L),
+    13: (s) => { s.pickaxe_ultra_crit_chance = (s.pickaxe_ultra_crit_chance || 0) + 1; s.bomb_ultra_crit_chance = (s.bomb_ultra_crit_chance || 0) + 1; },
+    17: (s, L) => addPct(0.01)(s, "game_speed_multi", L),
+    22: (s) => { s.pickaxe_omega_crit_chance = (s.pickaxe_omega_crit_chance || 0) + 2; s.bomb_omega_crit_chance = (s.bomb_omega_crit_chance || 0) + 2; },
+    23: (s) => { s.pickaxe_damage = (s.pickaxe_damage || 0) * 1.08; s.bomb_damage = (s.bomb_damage || 0) * 1.08; }
+  };
+  // Contract points for level n (1-based) of an upgrade, after the save's contract upgrade cost reduction.
+  function contractCost(c, n) {
+    const raw = c.cost.type === "linear" ? c.cost.base + c.cost.scale * (n - 1) : c.cost.base * Math.pow(c.cost.scale, n - 1);
+    const reduction = (rawStats && rawStats.contract_upgrade_cost_reduction) || 1;
+    return Math.max(1, Math.round(Math.round(raw) * reduction));
+  }
+  // Every upgrade one level higher; locked ones bring the earlier upgrades they need (each to level 1).
+  function contractPackages() {
+    const C = IOM.CONTRACTS || [];
+    const levels = C.map((_, i) => Math.round(((rawStats && rawStats.contracts_array) || [])[i] || 0));
+    const worlds = Math.round((rawStats && rawStats.worlds_unlocked) || 1);
+    const cap = Math.round((rawStats && rawStats.contract_cap_increase) || 0);
+    const out = [];
+    C.forEach((c, i) => {
+      if (c.world > worlds || levels[i] >= c.max + cap) return;
+      const steps = [];
+      for (let j = 0; j < i; j++) if (levels[j] === 0) steps.push({ i: j, from: 0 });
+      steps.push({ i, from: levels[i] });
+      out.push({
+        target: i, steps,
+        cost: steps.reduce((sum, st) => sum + contractCost(C[st.i], st.from + 1), 0),
+        affectsExp: steps.some(st => CONTRACT_EFFECTS[st.i])
+      });
+    });
+    return { packages: out, levels };
+  }
+
+  // The player bought a package: write the new levels into the save, apply their effects to the saved
+  // stats (so the next simulation starts from there), then plan the next upgrade.
+  function markBought(p) {
+    if (!currentData || !currentData.stats) return;
+    const raw = currentData.stats;
+    const arr = Array.isArray(raw.contracts_array) ? raw.contracts_array : (raw.contracts_array = []);
+    for (const step of p.steps) {
+      const eff = CONTRACT_EFFECTS[step.i];
+      if (eff) { eff(raw, step.from); eff(stats, step.from); }
+      arr[step.i] = (arr[step.i] || 0) + 1;
     }
-    step();
+    rawStats = raw;
+    sourceKey = keyFor(currentData);   // same save, just updated: keep the calculator's settings
+    if (IOM.saves) IOM.saves.update({ data: currentData });
+    planContracts();
+  }
+
+  function planContracts() {
+    const run = ++runId;
+    const C = IOM.CONTRACTS || [];
+    const box = $("#ce-plan");
+    const status = el("p", { class: "muted small" });
+    box.replaceChildren(status);
+    const { packages, levels } = contractPackages();
+    const sims = packages.filter(p => p.affectsExp);
+    const results = [];
+    let k = 0;
+    const next = () => {
+      if (k === 0) status.textContent = "Simulating your current setup…";
+      const p = k === 0 ? null : sims[k - 1];
+      const st = Object.assign({}, stats);
+      if (p) for (const step of p.steps) if (CONTRACT_EFFECTS[step.i]) CONTRACT_EFFECTS[step.i](st, step.from);
+      return searchFloors(st, run, f => {
+        status.textContent = (p ? `Simulating ${C[p.target].name} (${k} of ${sims.length})` : "Simulating your current setup") + `… floor ${f}`;
+      }).then(r => { results.push({ p, best: r.best }); k++; return k <= sims.length ? next() : null; });
+    };
+    next().then(() => {
+      const base = results[0].best ? results[0].best.xpm : 0;
+      const rows = results.slice(1).map(r => {
+        const xpm = r.best ? r.best.xpm : 0;
+        // Gains below zero are simulation noise (the upgrade changes nothing here): count them as 0.
+        const gain = Math.max(0, xpm - base);
+        return { p: r.p, best: r.best, gain, perPoint: gain / r.p.cost };
+      });
+      const key = prefs.planBy === "perPoint" ? "perPoint" : "gain";
+      rows.sort((a, b) => b[key] - a[key]);
+      const top = rows[0];
+      const pct = (g) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
+      const pkgLabel = (p) => {
+        const c = C[p.target];
+        const needs = p.steps.slice(0, -1).map(st => C[st.i].name);
+        return el("span", {}, `${c.name} ${levels[p.target]} → ${levels[p.target] + 1}`,
+          needs.length ? el("span", { class: "muted small", text: ` · first needs ${needs.join(", ")} (1 each)` }) : null);
+      };
+      const noEffect = packages.filter(p => !p.affectsExp && p.steps.length === 1).map(p => C[p.target].name);
+      box.replaceChildren(
+        top && top[key] > 0
+          ? el("p", { class: "plan-pick" }, "👉 Buy next: ", el("b", { text: C[top.p.target].name }),
+              top.p.steps.length > 1 ? ` (together with ${top.p.steps.slice(0, -1).map(st => C[st.i].name).join(", ")})` : "",
+              ` for ${top.p.cost.toLocaleString()} contract points: +${fmt(top.gain)} exp/min${pct(top.gain)}. `,
+              el("button", { type: "button", class: "btn small primary", text: "✓ Bought", title: "Write these levels into the save and plan the next upgrade", onclick: () => markBought(top.p) }))
+          : el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." }),
+        el("p", { class: "muted small", text: `Now: ${fmt(base)} exp/min on your best floor. Each option was simulated with ${prefs.simFloors.toLocaleString()} floors per floor level.` }),
+        el("div", { class: "table-wrap" },
+          el("table", { class: "calc-table" },
+            el("thead", {}, el("tr", {}, ...["Upgrade", "Contract points", "Best floor", "Exp/min", "Gain", "Gain per point"].map(h => el("th", { text: h })))),
+            el("tbody", {}, ...rows.map(r => el("tr", { class: r === top && r[key] > 0 ? "best" : "" },
+              el("td", {}, pkgLabel(r.p)),
+              el("td", { text: r.p.cost.toLocaleString() }),
+              el("td", { text: r.best ? String(r.best.floor) : "—" }),
+              el("td", { text: r.best ? fmt(r.best.xpm) : "0" }),
+              el("td", { text: r.gain > 0 ? "+" + fmt(r.gain) + pct(r.gain) : "≈ 0" }),
+              el("td", { text: r.gain > 0 ? fmt(r.perPoint) : "≈ 0" })))))),
+        noEffect.length ? el("p", { class: "muted small", text: `Also buyable, but no effect on exp: ${noEffect.join(", ")}.` }) : null
+      );
+    }, () => {});
   }
 
   let currentData = null;
+  const keyFor = (data) => JSON.stringify([data.time, data.version, data.stats.current_floor, data.stats.experience_multi, data.stats.pickaxe_damage, data.stats.game_speed_multi]);
   IOM.calcExp = {
     simulate: (floor, overrides) => simulate(floor, Object.assign({}, stats, overrides), { raw: rawStats }),   // for testing
     // Forget every what-if value and assumption; the next render starts from the save again.
@@ -531,7 +671,7 @@
     render(data) {
       currentData = data;
       if (!data || !data.stats) return;
-      const key = JSON.stringify([data.time, data.version, data.stats.current_floor, data.stats.experience_multi, data.stats.pickaxe_damage]);
+      const key = keyFor(data);
       if (key !== sourceKey) {
         sourceKey = key;
         rawStats = data.stats;
