@@ -320,7 +320,7 @@
     showNote();
     noteUpdaters.push(showNote);
     return el("div", { class: "bomb-slot" },
-      el("label", { class: "field", for: "ce-" + key }, el("span", { text: label }), select), extra || null, note);
+      extra || null, el("label", { class: "field", for: "ce-" + key }, el("span", { text: label }), select), note);
   }
   // Turtle (Fire Slow, every 1.25 s) / hare (Fire held down, every frame) switch, like the in-game buttons.
   function modeSwitch() {
@@ -333,9 +333,10 @@
     input.addEventListener("change", () => { prefs.manualMode = input.checked ? "hare" : "slow"; sync(); schedule(); });
     sync();
     return el("div", { class: "mode-switch" },
-      el("span", { class: "mode-icon", title: "Fire Slow (turtle)", text: "🐢" }),
-      el("label", { class: "switch", for: "ce-hare" }, input, el("span", { class: "slider" })),
-      el("span", { class: "mode-icon", title: "Fire, held down (hare)", text: "🐇" }),
+      el("label", { class: "switch icon-switch", for: "ce-hare", title: "Turtle: Fire Slow · Hare: Fire, held down" }, input,
+        el("span", { class: "slider" },
+          el("span", { class: "si si-left", text: "🐢" }),
+          el("span", { class: "si si-right", text: "🐇" }))),
       caption);
   }
 
