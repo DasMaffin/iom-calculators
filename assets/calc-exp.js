@@ -443,18 +443,20 @@
   }
 
   function buildPlanner() {
+    // The planner's answer appears under the Simulate row; its controls live in that row (see simBar).
+    $("#ce-planner").replaceChildren(el("div", { id: "ce-plan" }));
+  }
+  function planControls() {
     const by = el("select", { id: "ce-planby" },
       el("option", { value: "gain", text: "Highest exp/min" }),
       el("option", { value: "perPoint", text: "Most exp/min per contract point" }));
     by.value = prefs.planBy;
     by.addEventListener("change", () => { prefs.planBy = by.value; });
-    $("#ce-planner").replaceChildren(
-      el("h3", { text: "📜 Contract upgrade planner" }),
-      el("p", { class: "muted small", text: "Simulates your setup above with each contract upgrade one level higher (same floors per level), and tells you which to buy next. Locked upgrades include the earlier upgrades they need, in both the cost and the simulation." }),
-      el("div", { class: "sim-bar" },
-        el("label", { class: "field", for: "ce-planby" }, el("span", { text: "Best means" }), by),
-        el("button", { type: "button", class: "btn primary", text: "▶ Plan contract upgrade", onclick: planContracts })),
-      el("div", { id: "ce-plan" }));
+    return el("div", { class: "plan-controls" },
+      el("label", { class: "field", for: "ce-planby" }, el("span", { text: "Contract planner: best means" }), by),
+      el("button", { type: "button", class: "btn", text: "📜 Plan contract upgrade",
+        title: "Simulate each contract upgrade one level higher (with any earlier upgrades it needs) and suggest the best one",
+        onclick: planContracts }));
   }
   function simBar() {
     const input = el("input", { type: "number", min: "100", step: "100", value: prefs.simFloors, id: "ce-simfloors", inputmode: "numeric" });
@@ -462,6 +464,7 @@
     return el("div", { class: "sim-bar" },
       el("label", { class: "field", for: "ce-simfloors" }, el("span", { text: "Floors to simulate per floor level" }), input),
       el("button", { type: "button", class: "btn primary", text: "▶ Simulate", onclick: compute }),
+      planControls(),
       el("p", { class: "warning", id: "ce-stale", hidden: true, text: "Settings changed: press Simulate to update the results below." }));
   }
 
