@@ -16,7 +16,8 @@
     manualMode: "slow",       // "slow" = Fire Slow / turtle (every 1.25 s), "hare" = Fire held down (every frame)
     chainActive: false,
     simFloors: 1000,
-    planBy: "gain",           // contract planner ranking: "gain" (highest exp/min) or "perPoint"          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
+    planBy: "gain",
+    planRounds: 1,            // contract planner: how many upgrades to plan in a row           // contract planner ranking: "gain" (highest exp/min) or "perPoint"          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
 
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
 
@@ -285,6 +286,11 @@
     by.addEventListener("change", () => { prefs.planBy = by.value; });
     return el("div", { class: "plan-controls" },
       el("label", { class: "field", for: "ce-planby" }, el("span", { text: "Contract planner: best means" }), by),
+      (() => {
+        const input = el("input", { type: "number", min: "1", max: "50", step: "1", value: prefs.planRounds, id: "ce-planrounds", inputmode: "numeric" });
+        input.addEventListener("input", () => { const v = parseInt(input.value, 10); if (v > 0) prefs.planRounds = Math.min(v, 50); });
+        return el("label", { class: "field rounds", for: "ce-planrounds" }, el("span", { text: "Upgrade rounds" }), input);
+      })(),
       el("button", { type: "button", class: "btn", text: "📜 Plan contract upgrade",
         title: "Simulate each contract upgrade one level higher (with any earlier upgrades it needs) and suggest the best one",
         onclick: planContracts }));
@@ -414,9 +420,9 @@
     return Math.max(1, Math.round(Math.round(raw) * reduction));
   }
   // Every upgrade one level higher; locked ones bring the earlier upgrades they need (each to level 1).
-  function contractPackages() {
+  const savedLevels = () => (IOM.CONTRACTS || []).map((_, i) => Math.round(((rawStats && rawStats.contracts_array) || [])[i] || 0));
+  function contractPackages(levels) {
     const C = IOM.CONTRACTS || [];
-    const levels = C.map((_, i) => Math.round(((rawStats && rawStats.contracts_array) || [])[i] || 0));
     const worlds = Math.round((rawStats && rawStats.worlds_unlocked) || 1);
     const cap = Math.round((rawStats && rawStats.contract_cap_increase) || 0);
     const out = [];
@@ -436,11 +442,11 @@
 
   // The player bought a package: write the new levels into the save, apply their effects to the saved
   // stats (so the next simulation starts from there), then plan the next upgrade.
-  function markBought(p) {
+  function markBought(list) {
     if (!currentData || !currentData.stats) return;
     const raw = currentData.stats;
     const arr = Array.isArray(raw.contracts_array) ? raw.contracts_array : (raw.contracts_array = []);
-    for (const step of p.steps) {
+    for (const p of [].concat(list)) for (const step of p.steps) {
       const eff = CONTRACT_EFFECTS[step.i];
       if (eff) { eff(raw, step.from); eff(stats, step.from); }
       arr[step.i] = (arr[step.i] || 0) + 1;
@@ -451,56 +457,82 @@
     planContracts();
   }
 
+  // Plans prefs.planRounds upgrades in a row: simulate every option, pick the best, assume it's bought,
+  // and repeat from there. Nothing is written to the save until "Bought" is pressed.
   function planContracts() {
     const run = ++runId;
     const C = IOM.CONTRACTS || [];
     const box = $("#ce-plan");
     const status = el("p", { class: "muted small" });
     box.replaceChildren(status);
-    const { packages, levels } = contractPackages();
-    const sims = packages.filter(p => p.affectsExp);
-    const results = [];
-    let k = 0;
-    const next = () => {
-      if (k === 0) status.textContent = "Simulating your current setup…";
-      const p = k === 0 ? null : sims[k - 1];
-      const st = Object.assign({}, stats);
-      if (p) for (const step of p.steps) if (CONTRACT_EFFECTS[step.i]) CONTRACT_EFFECTS[step.i](st, step.from);
-      return searchFloors(st, run, f => {
-        status.textContent = (p ? `Simulating ${C[p.target].name} (${k} of ${sims.length})` : "Simulating your current setup") + `… floor ${f}`;
-      }).then(r => { results.push({ p, best: r.best }); k++; return k <= sims.length ? next() : null; });
-    };
-    next().then(() => {
-      const base = results[0].best ? results[0].best.xpm : 0;
-      const rows = results.slice(1).map(r => {
-        const xpm = r.best ? r.best.xpm : 0;
-        // Gains below zero are simulation noise (the upgrade changes nothing here): count them as 0.
-        const gain = Math.max(0, xpm - base);
-        return { p: r.p, best: r.best, gain, perPoint: gain / r.p.cost };
+    const rounds = Math.max(1, Math.round(prefs.planRounds || 1));
+    const key = prefs.planBy === "perPoint" ? "perPoint" : "gain";
+    let levels = savedLevels();
+    let st = Object.assign({}, stats);
+    const plan = [];   // { p, gain, xpm, levelFrom }
+    let startXpm = null, baseXpm = null;
+
+    const sim = (statsObj, label) => searchFloors(statsObj, run, f => { status.textContent = `${label}… floor ${f}`; })
+      .then(r => (r.best ? r.best.xpm : 0));
+
+    const round = (n) => {
+      const prefix = rounds > 1 ? `Round ${n} of ${rounds}: ` : "";
+      const base = baseXpm !== null ? Promise.resolve(baseXpm) : sim(st, prefix + "simulating your current setup");
+      return base.then(b => {
+        if (startXpm === null) startXpm = b;
+        baseXpm = b;
+        const options = contractPackages(levels).packages.filter(p => p.affectsExp);
+        const results = [];
+        const next = (k) => {
+          if (k >= options.length) return Promise.resolve();
+          const p = options[k];
+          const trial = Object.assign({}, st);
+          for (const step of p.steps) if (CONTRACT_EFFECTS[step.i]) CONTRACT_EFFECTS[step.i](trial, step.from);
+          return sim(trial, `${prefix}${C[p.target].name} (${k + 1} of ${options.length})`).then(xpm => {
+            const gain = Math.max(0, xpm - b);   // below zero is simulation noise: counts as 0
+            results.push({ p, xpm, gain, perPoint: gain / p.cost, trial });
+            return next(k + 1);
+          });
+        };
+        return next(0).then(() => {
+          results.sort((x, y) => y[key] - x[key]);
+          const top = results[0];
+          if (!top || top[key] <= 0) return false;
+          plan.push({ p: top.p, gain: top.gain, xpm: top.xpm, levelFrom: levels[top.p.target], base: b });
+          // Assume it's bought: new levels, new stats, and its result is the next round's starting point.
+          levels = levels.slice();
+          for (const step of top.p.steps) levels[step.i] += 1;
+          st = top.trial; baseXpm = top.xpm;
+          return n < rounds ? round(n + 1) : true;
+        });
       });
-      const key = prefs.planBy === "perPoint" ? "perPoint" : "gain";
-      rows.sort((a, b) => b[key] - a[key]);
-      const top = rows[0];
-      const pct = (g) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
-      const needsOf = (p) => p.steps.slice(0, -1).map(st => C[st.i].name);
-      const levelText = (p) => `${levels[p.target]} → ${levels[p.target] + 1}`;
-      let pick;
-      if (top && top[key] > 0) {
-        const needs = needsOf(top.p);
-        pick = el("div", { class: "plan-pick" },
-          el("p", {}, "👉 Buy next: ", el("b", { text: `${C[top.p.target].name} ${levelText(top.p)}` }),
-            ` · ${top.p.cost.toLocaleString()} contract points · +${fmt(top.gain)} exp/min${pct(top.gain)} `,
-            el("button", { type: "button", class: "btn small primary", text: "✓ Bought", title: "Write these levels into the save and plan the next upgrade", onclick: () => markBought(top.p) })),
-          needs.length ? el("details", { class: "small" },
-            el("summary", { text: `Also buys the ${needs.length} upgrade${needs.length === 1 ? "" : "s"} it needs first (1 level each)` }),
-            el("p", { class: "muted", text: needs.join(", ") })) : null);
-      } else {
-        pick = el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." });
+    };
+
+    round(1).then(() => {
+      if (!plan.length) {
+        box.replaceChildren(el("p", { class: "warning", text: "None of the available contract upgrades raises your exp/min with this setup." }));
+        return;
       }
-      box.replaceChildren(
-        pick,
-        el("p", { class: "muted small", text: `Now: ${fmt(base)} exp/min.` })
-      );
+      const pct = (g, base) => base > 0 ? ` (+${(g / base * 100).toFixed(1)}%)` : "";
+      const totalCost = plan.reduce((sum, x) => sum + x.p.cost, 0);
+      const last = plan[plan.length - 1];
+      box.replaceChildren(el("div", { class: "plan-pick" },
+        el("p", {}, plan.length > 1 ? `👉 Buy in this order (${plan.length} upgrades, ${totalCost.toLocaleString()} contract points):` : "👉 Buy next:"),
+        el("ol", { class: "plan-list" }, ...plan.map(x => {
+          const needs = x.p.steps.slice(0, -1).map(st2 => C[st2.i].name);
+          return el("li", {},
+            el("b", { text: `${C[x.p.target].name} ${x.levelFrom} → ${x.levelFrom + 1}` }),
+            ` · ${x.p.cost.toLocaleString()} points · +${fmt(x.gain)} exp/min${pct(x.gain, x.base)}`,
+            needs.length ? el("details", { class: "small" },
+              el("summary", { text: `also buys the ${needs.length} upgrade${needs.length === 1 ? "" : "s"} it needs first (1 level each)` }),
+              el("p", { class: "muted", text: needs.join(", ") })) : null);
+        })),
+        el("p", { class: "muted small", text: `Now: ${fmt(startXpm)} exp/min → after ${plan.length > 1 ? "all of them" : "it"}: ${fmt(last.xpm)} exp/min${pct(last.xpm - startXpm, startXpm)}.` }),
+        el("div", { class: "plan-buttons" },
+          el("button", { type: "button", class: "btn small primary", text: plan.length > 1 ? "✓ Bought the first" : "✓ Bought",
+            title: "Write it into the save and plan again", onclick: () => markBought(plan[0].p) }),
+          plan.length > 1 ? el("button", { type: "button", class: "btn small", text: `✓ Bought all ${plan.length}`,
+            title: "Write all of them into the save and plan again", onclick: () => markBought(plan.map(x => x.p)) }) : null)));
     }, () => {});
   }
 
