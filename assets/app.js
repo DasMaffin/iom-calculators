@@ -124,7 +124,7 @@
   }
 
   function importText(text) {
-    try { load(parseExport(text)); $("#overview").scrollIntoView({ behavior: "smooth", block: "start" }); }
+    try { load(parseExport(text)); goTo("stats"); }
     catch (e) { setMsg(e.message, "err"); }
   }
 
@@ -184,8 +184,34 @@
     $("#warnings").hidden = notes.length === 0;
   }
 
+  // ---------- pages (sidebar) ----------
+  const VIEWS = ["saves", "stats"];
+  function currentView() {
+    const v = location.hash.replace("#", "");
+    return VIEWS.includes(v) ? v : "saves";
+  }
+  function showView() {
+    let view = currentView();
+    if (view === "stats" && !data) view = "saves";   // Stats stays greyed out until something is imported
+    document.querySelectorAll("[data-view-panel]").forEach(p => { p.hidden = p.dataset.viewPanel !== view; });
+    document.querySelectorAll(".nav-item").forEach(a => {
+      const disabled = a.dataset.view === "stats" && !data;
+      a.classList.toggle("active", a.dataset.view === view);
+      a.classList.toggle("disabled", disabled);
+      a.setAttribute("aria-disabled", String(disabled));
+      a.setAttribute("aria-current", a.dataset.view === view ? "page" : "false");
+      a.title = disabled ? "Import your stats first" : "";
+    });
+  }
+  window.addEventListener("hashchange", () => { showView(); window.scrollTo(0, 0); });
+  function goTo(view) {
+    if (location.hash !== "#" + view) location.hash = view;
+    else showView();
+  }
+
   function render() {
     $("#dashboard").hidden = !data;
+    showView();
     if (!data) return;
     renderWarnings();
     renderOverview();

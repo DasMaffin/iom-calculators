@@ -84,10 +84,13 @@
     const list = Object.entries(db.saves).sort((a, b) => b[1].updated - a[1].updated);
     $("#saveList").replaceChildren(...list.map(([id, s]) => {
       const isActive = id === db.activeId;
-      return el("li", { class: "save-item" + (isActive ? " active" : "") },
+      return el("li", {
+        class: "save-item" + (isActive ? " active" : ""),
+        onclick: (e) => { if (!isActive && !e.target.closest("button")) switchTo(id); }
+      },
         el("div", { class: "save-info" },
           el("span", { class: "save-name", text: s.name }),
-          isActive ? el("span", { class: "badge", text: "active" }) : null,
+          isActive ? el("span", { class: "badge", text: "current" }) : null,
           el("span", { class: "muted small save-meta", text: describe(s) })
         ),
         el("div", { class: "save-actions" },

@@ -7,7 +7,7 @@
   <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
   <meta name="theme-color" content="#14161c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
-  <link rel="stylesheet" href="assets/style.css?v=20261010h">
+  <link rel="stylesheet" href="assets/style.css?v=20261010j">
 </head>
 <body>
   <header class="topbar">
@@ -20,29 +20,32 @@
     </div>
   </header>
 
-  <main class="wrap">
+  <div class="layout wrap">
+  <nav class="sidebar" aria-label="Pages">
+    <a href="#saves" class="nav-item" data-view="saves">💾 <span>Savefiles</span></a>
+    <a href="#stats" class="nav-item" data-view="stats" title="Import your stats first">📊 <span>Stats</span></a>
+  </nav>
+  <main>
+    <div class="view" data-view-panel="saves">
     <section class="card saves" id="savesCard">
       <div class="card-head">
-        <h2>💾 Saves</h2>
+        <h1>💾 Savefiles</h1>
         <span class="badge" id="saveCount"></span>
         <span class="muted small save-status" id="saveStatus"></span>
       </div>
+      <p class="muted small">Pick a save to work on. Everything autosaves in this browser: your imported stats and marked cards. Saves stay on this device; use <b>Download JSON</b> on the Stats page to move one to another device.</p>
+      <ul class="save-list" id="saveList" aria-label="Your saves"></ul>
       <div class="save-row">
-        <label class="save-label" for="saveName">Current save</label>
+        <label class="save-label" for="saveName">Name</label>
         <input type="text" id="saveName" maxlength="60" autocomplete="off" spellcheck="false">
-        <button class="btn small" id="saveNew" type="button">＋ New</button>
+        <button class="btn small" id="saveNew" type="button">＋ New save</button>
         <button class="btn small" id="saveCopy" type="button">⧉ Duplicate</button>
       </div>
-      <details class="save-list-wrap">
-        <summary class="small">All saves</summary>
-        <ul class="save-list" id="saveList"></ul>
-      </details>
-      <p class="muted small">Everything autosaves in this browser: your imported stats and marked cards. Saves stay on this device. Use <b>Download JSON</b> to move one to another device.</p>
     </section>
 
     <details class="card fold import" id="importCard" data-fold="importCard" open>
       <summary class="card-head fold-head">
-        <h1>Import your stats</h1>
+        <h2>📥 Import your stats</h2>
         <span class="badge" id="loadedBadge" hidden></span>
       </summary>
       <div class="fold-body">
@@ -88,7 +91,9 @@
       <div id="cardCategories"></div>
       </div>
     </details>
+    </div>
 
+    <div class="view" data-view-panel="stats" hidden>
     <section id="dashboard" hidden>
       <div class="warnings" id="warnings" hidden></div>
       <div class="overview" id="overview"></div>
@@ -119,18 +124,20 @@
         <ul class="notseen" id="notSeen"></ul>
       </section>
     </section>
+    </div>
   </main>
+  </div>
 
   <footer class="wrap footer muted small">
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
-  <script src="assets/game-version.js?v=20261010h"></script>
-  <script src="assets/stat-catalog.js?v=20261010h"></script>
-  <script src="assets/array-labels.js?v=20261010h"></script>
-  <script src="assets/cards.js?v=20261010h"></script>
-  <script src="assets/cards-ui.js?v=20261010h"></script>
-  <script src="assets/saves.js?v=20261010h"></script>
-  <script src="assets/app.js?v=20261010h"></script>
+  <script src="assets/game-version.js?v=20261010j"></script>
+  <script src="assets/stat-catalog.js?v=20261010j"></script>
+  <script src="assets/array-labels.js?v=20261010j"></script>
+  <script src="assets/cards.js?v=20261010j"></script>
+  <script src="assets/cards-ui.js?v=20261010j"></script>
+  <script src="assets/saves.js?v=20261010j"></script>
+  <script src="assets/app.js?v=20261010j"></script>
 </body>
 </html>
