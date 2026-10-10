@@ -9,7 +9,7 @@
 
   const PREF_KEY = "iom.calc.exp.v2";
   const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
-  // Fire / hare fires once per rendered frame (measured in game), so its rate depends on the frame rate.
+  // Fire / hare fires once per rendered frame (measured in game), including the frame a floor appears.
   const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
   let DT = 0.02;                      // simulation step, game seconds (smaller when hare fires every frame)
   // The next floor spawns about 1 s after the last ore breaks (wiki: the game checks once per second;
@@ -180,8 +180,9 @@
         });
       }
       floorStart = t; floorMarked = false;
-      // Hare fires once per frame, so its first shot at a new floor lands one frame after it spawns.
-      for (const b of slots) if (b.slot === "hare") b.timer = 0;
+      // Hare fires every frame, including the frame a floor appears (measured: the bomb lands on the
+      // spawn frame and floors come exactly 1 game second apart).
+      for (const b of slots) if (b.slot === "hare") b.timer = b.interval;
     }
     function hit(o, amount, tier) {
       if (!o.alive || tier < o.minTier || amount <= 0) return;
@@ -244,7 +245,7 @@
 
       if (waiting <= 0 && ores.every(o => !o.alive)) {
         floors++; clearTimeSum += t - floorStart; if (floorMarked) expBombFloors++;
-        waiting = RESPAWN_WAIT + DT;   // the countdown also ticks in this same step
+        waiting = RESPAWN_WAIT;
       }
       t += DT;
       if (waiting > 0) { waiting -= DT; if (waiting <= 0) spawn(); }
