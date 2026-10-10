@@ -51,6 +51,20 @@
       <p class="msg" id="importMsg" role="status" aria-live="polite"></p>
     </section>
 
+    <section class="card cards" id="cardsCard">
+      <div class="card-head">
+        <h2>🃏 Cards</h2>
+        <span class="badge" id="cardSummary"></span>
+      </div>
+      <p class="muted small">The stats export doesn't include your cards, so mark them here. Pick a level, then click cards to set them (click again to remove). <b>Shift+click</b> fills every card between your last click and this one. On a phone, turn on <b>Range</b>, tap the first card, then the last.</p>
+      <div class="toolbar-row card-tools">
+        <div class="brush-bar" id="cardBrush" role="group" aria-label="Card level to apply"></div>
+        <span class="spacer"></span>
+        <button class="btn small" id="cardRange" type="button" aria-pressed="false">↔ Range</button>
+      </div>
+      <div id="cardCategories"></div>
+    </section>
+
     <section id="dashboard" hidden>
       <div class="warnings" id="warnings" hidden></div>
       <div class="overview" id="overview"></div>
@@ -90,6 +104,8 @@
   <script src="assets/game-version.js"></script>
   <script src="assets/stat-catalog.js"></script>
   <script src="assets/array-labels.js"></script>
+  <script src="assets/cards.js"></script>
+  <script src="assets/cards-ui.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

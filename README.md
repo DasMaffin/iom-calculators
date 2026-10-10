@@ -42,10 +42,12 @@ python3 -m http.server 8000
 | `assets/stat-catalog.js` | Sorts export keys into sections, sets labels and display formats, lists not-yet-seen systems |
 | `assets/app.js` | Import, rendering, editing, filtering, export, version warnings |
 | `assets/array-labels.js` | Names for each array slot (generated, don't edit by hand) |
+| `assets/cards.js` | Card list per category with wiki image URLs (generated) |
+| `assets/cards-ui.js` | Card picker: click, Shift+click ranges, Range mode on touch |
 | `assets/game-version.js` | Latest known game version (bump on each game update) |
 | `examples/example-export.json` | Sample export (v2.2.30, Obelisk 31) |
 | `tools/fetch-wiki.mjs` | Downloads the wiki's raw page text into `wiki-cache/` for reference |
-| `tools/build-array-labels.py` | Builds `assets/array-labels.js` from `wiki-cache/` |
+| `tools/build-array-labels.py` | Builds `assets/array-labels.js` and `assets/cards.js` from `wiki-cache/` |
 
 ## Refreshing wiki reference data
 
@@ -54,11 +56,14 @@ The wiki is behind a Cloudflare bot check that blocks cloud servers. Run this fr
 ```sh
 node tools/fetch-wiki.mjs
 python3 tools/build-array-labels.py
-git add wiki-cache assets/array-labels.js && git commit -m "Update wiki cache" && git push
+git add wiki-cache assets/array-labels.js assets/cards.js && git commit -m "Update wiki cache" && git push
 ```
 
 The label builder only names arrays whose slot order was checked against real exports. If the wiki
 changes a table's layout, the builder stops with an error instead of writing wrong names.
+
+Card images are loaded straight from the wiki's image server (`static.wikitide.net`); nothing is
+downloaded into the repo. If an image can't load, the card shows its name instead.
 
 ## When the game updates
 

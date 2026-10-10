@@ -107,6 +107,10 @@
 
   function load(obj, { persist = true, quiet = false } = {}) {
     data = obj;
+    if (IOM.cardsUI) {
+      if (obj.iom_cards) IOM.cardsUI.setState(obj.iom_cards);
+      IOM.cardsUI.syncFromExport(obj.stats);
+    }
     if (persist) saveData();
     render();
     const n = Object.keys(data.stats).length;
@@ -381,7 +385,12 @@
   }
 
   // ---------- export ----------
-  function exportText() { return JSON.stringify(data, null, 2); }
+  // Game export plus the hand-marked cards, so a downloaded file restores both.
+  function exportText() {
+    const out = Object.assign({}, data);
+    if (IOM.cardsUI) out.iom_cards = IOM.cardsUI.getState();
+    return JSON.stringify(out, null, 2);
+  }
 
   function download() {
     const blob = new Blob([exportText()], { type: "application/json" });
