@@ -25,6 +25,7 @@
     autoBomb: "",
     manualBomb: "",
     manualMode: "slow",       // "slow" = Fire Slow / turtle (every 1.25 s), "hare" = Fire held down (every frame)
+    chainActive: false,       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
 
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
 
@@ -162,7 +163,8 @@
     const frameGame = speed / HARE_FPS;    // one rendered frame, in game seconds
     const hare = prefs.manualBomb && prefs.manualMode === "hare";
     DT = hare ? Math.min(0.02, frameGame / 2) : 0.02;
-    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], [hare ? "hare" : "slow", prefs.manualBomb, hare ? frameGame : FIRE_INTERVAL]]
+    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], [hare ? "hare" : "slow", prefs.manualBomb, hare ? frameGame : FIRE_INTERVAL],
+                   ["chain", prefs.chainActive ? "Chain Bomb" : "", FIRE_INTERVAL]]
       .map(([slot, name, interval]) => ({ slot, bomb: bombByName(name), interval }))
       .filter(x => x.bomb)
       .map(x => ({
@@ -241,12 +243,13 @@
       }
       // Bombs keep firing on their own clock, even while the next floor hasn't spawned (those are wasted).
       for (const b of slots) {
-        if (!prefs.fullBombs) b.charge = Math.min(b.charge + DT / b.rechargeTime, 1);
+        const queued = b.slot === "chain";   // an active chain keeps exploding regardless of charges
+        if (!prefs.fullBombs && !queued) b.charge = Math.min(b.charge + DT / b.rechargeTime, 1);
         b.timer += DT;
         if (b.timer >= b.interval) {
           b.timer -= b.interval;
-          if (prefs.fullBombs || b.charge >= 1) {
-            if (!prefs.fullBombs && rand() >= free) b.charge -= 1;
+          if (prefs.fullBombs || queued || b.charge >= 1) {
+            if (!prefs.fullBombs && !queued && rand() >= free) b.charge -= 1;
             pending.push({ at: t + BOMB_DELAY, dmg: b.dmg, isExp: b.isExp });
           }
         }
@@ -339,6 +342,21 @@
     return el("div", { class: "bomb-slot" },
       extra || null, el("label", { class: "field", for: "ce-" + key }, el("span", { text: label }), select), note);
   }
+  // Chain Bomb: while queued chain bombs remain, one explodes every 1.25 s on its own clock.
+  function chainToggle() {
+    const note = el("span", { class: "muted small bomb-mult-note" });
+    const showNote = () => {
+      if (!prefs.chainActive) { note.textContent = ""; return; }
+      const m = bombMult("Chain Bomb");
+      note.textContent = m.set ? `Multiplier ${fmt(m.mult)}× (from your bomb setup)`
+                               : `Multiplier ${fmt(m.mult)}× is the export's shared value. Enter the Chain Bomb's real “×” under Savefiles → Bomb setup.`;
+    };
+    noteUpdaters.push(showNote);
+    const box = el("div", { class: "bomb-slot" },
+      checkbox("chainActive", "Chain Bomb active (queued chain bombs explode one every 1.25 s)", showNote), note);
+    showNote();
+    return box;
+  }
   // Turtle (Fire Slow, every 1.25 s) / hare (Fire held down, every frame) switch, like the in-game buttons.
   function modeSwitch() {
     const input = el("input", { type: "checkbox", role: "switch", id: "ce-hare", "aria-label": "Hare mode: fire every frame" });
@@ -379,6 +397,7 @@
       group("Bombs",
         bombSlot("auto", "Auto-Bomber (fires every 1.25 s)"),
         bombSlot("manual", "Manual fire", modeSwitch()),
+        chainToggle(),
         checkbox("fullBombs", "Assume full bombs (stored charges, so bombs fire every 1.25 s; off = only as fast as they recharge)"),
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
