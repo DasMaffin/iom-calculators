@@ -11,21 +11,21 @@
   const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
   const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
   const DT = 0.02;                    // simulation step, game seconds
+  // The game checks once per second whether the floor is cleared and bombs take 0.25 s to explode (wiki).
+  // Its 48 floors/min bomb cap = 1 / (0.25 s + 1 s), so the 1 s wait starts after the floor is cleared.
+  const RESPAWN_WAIT = 1;
+  const BOMB_DELAY = 0.25;
   const DEFAULTS = {
     usePickaxe: false,
     useDrones: true,
     autoBomb: "",
     slowBomb: "",
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
-    respawnMode: "after",     // "after": wait starts when cleared (matches the wiki's 48 floors/min); "tick": fixed checks
-    respawnWait: 1,           // game seconds (wiki)
-    bombDelay: 0.25,          // game seconds from firing to explosion (wiki)
-    tripleExp: false,
     measuredFpm: ""
   };
   const GENERAL = [
     ["current_floor", "Floor", 1], ["experience_multi", "Exp multi"], ["game_speed_multi", "Game speed"],
-    ["ores_per_screen", "Ores on screen", 1], ["multi_rock_chance", "Triple rock chance %"]
+    ["ores_per_screen", "Ores on screen", 1]
   ];
   const PICK = [
     ["pickaxe_damage", "Damage"], ["pickaxe_attack_speed_per_second", "Attacks / sec"],
@@ -123,8 +123,7 @@
     if (!floorOres.length) return null;
     const rand = rng(1000 + floor * 97);
     const count = Math.max(1, Math.round(s.ores_per_screen || 1));
-    const tripleFactor = prefs.tripleExp ? 1 + 2 * pct(s.multi_rock_chance) : 1;
-    const expMulti = (s.experience_multi || 1) * tripleFactor;
+    const expMulti = s.experience_multi || 1;   // triple rocks give 3x ores (wiki), not more exp
 
     let speed = s.game_speed_multi || 1;
     for (const o of floorOres) if (o.mod === "game speed" && o.amt) speed *= 1 + o.amt / 100;
@@ -156,7 +155,7 @@
 
     const T = opts.duration;
     let t = 0, floors = 0, expTotal = 0, expBombFloors = 0, clearTimeSum = 0;
-    let ores = [], waiting = 0, nextTick = 0, floorStart = 0, floorMarked = false;
+    let ores = [], waiting = 0, floorStart = 0, floorMarked = false;
     const pending = [];   // bomb explosions: { at, dmg, isExp }
     const drones = Array.from({ length: droneN }, () => ({ timer: 0, target: -1 }));
 
@@ -217,7 +216,7 @@
           b.timer -= FIRE_INTERVAL;
           if (prefs.fullBombs || b.charge >= 1) {
             if (!prefs.fullBombs && rand() >= free) b.charge -= 1;
-            pending.push({ at: t + prefs.bombDelay, dmg: b.dmg, isExp: b.isExp });
+            pending.push({ at: t + BOMB_DELAY, dmg: b.dmg, isExp: b.isExp });
           }
         }
       }
@@ -235,8 +234,7 @@
 
       if (waiting <= 0 && ores.every(o => !o.alive)) {
         floors++; clearTimeSum += t - floorStart; if (floorMarked) expBombFloors++;
-        if (prefs.respawnMode === "tick") { nextTick = Math.ceil((t + 1e-9) / prefs.respawnWait) * prefs.respawnWait; waiting = Math.max(nextTick - t, DT); }
-        else waiting = Math.max(prefs.respawnWait, DT);
+        waiting = RESPAWN_WAIT;
       }
       t += DT;
       if (waiting > 0) { waiting -= DT; if (waiting <= 0) spawn(); }
@@ -307,11 +305,6 @@
     const exp = expBombInfo(raw);
     const pickBox = saveValues(PICK, "Pickaxe values from your save"); pickBox.hidden = !prefs.usePickaxe;
     const droneBox = saveValues(DRONE, "Drone values from your save"); droneBox.hidden = !prefs.useDrones;
-    const mode = el("select", { id: "ce-mode" },
-      el("option", { value: "after", text: "Wait starts after the floor is cleared" }),
-      el("option", { value: "tick", text: "Fixed check every interval (like a bus timetable)" }));
-    mode.value = prefs.respawnMode;
-    mode.addEventListener("change", () => { prefs.respawnMode = mode.value; savePrefs(); schedule(); });
 
     $("#ce-form").replaceChildren(
       el("div", { class: "calc-intro" },
@@ -330,12 +323,9 @@
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
       group("Timing",
+        el("p", { class: "muted small", text: "From the wiki: after a floor is cleared the next one spawns 1 s later, and bombs explode 0.25 s after firing. Game speed speeds all of it up equally." }),
         el("div", { class: "field-grid" },
-          el("label", { class: "field wide", for: "ce-mode" }, el("span", { text: "Respawn timing" }), mode),
-          prefNumber("respawnWait", "Respawn wait (game s)", { min: 0, step: 0.05 }),
-          prefNumber("bombDelay", "Bomb explosion delay (game s)", { min: 0, step: 0.05 }),
-          prefNumber("measuredFpm", "Measured floors/min (optional)", { min: 0, step: 0.1, placeholder: "e.g. 52" })),
-        checkbox("tripleExp", "Triple rocks give 3× exp (the wiki only says 3× ores)"))
+          prefNumber("measuredFpm", "Floors/min you measured in game (optional, replaces the estimate)", { min: 0, step: 0.1, placeholder: "e.g. 52" })))
     );
   }
 
