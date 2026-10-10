@@ -421,7 +421,7 @@
       el("div", { class: "table-wrap" },
         el("table", { class: "calc-table" },
           el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
-          el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
+          el("tbody", {}, ...rows.slice().reverse().map(e => el("tr", { class: (e === best ? "best" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
             el("td", { text: String(e.floor) }),
             el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
             el("td", { text: e.blocked ? "0" : fmt(e.expPerFloor) }),
