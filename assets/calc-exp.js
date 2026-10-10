@@ -9,8 +9,9 @@
 
   const PREF_KEY = "iom.calc.exp.v2";
   const FIRE_INTERVAL = 1.25;         // Auto-Bomber and Fire Slow (wiki)
+  // Fire / hare fires once per rendered frame (measured in game), so its rate depends on the frame rate.
   const DRONE_BASE_APS = 1.25;        // drone attacks per second at 100% (wiki)
-  const DT = 0.02;                    // simulation step, game seconds
+  let DT = 0.02;                      // simulation step, game seconds (smaller when hare fires every frame)
   // The next floor spawns about 1 s after the last ore breaks (wiki: the game checks once per second;
   // players see the same). Bombs hit the moment they're fired (seen in game; the wiki's 0.25 s
   // detonation delay doesn't match that).
@@ -21,6 +22,8 @@
     useDrones: true,
     autoBomb: "",
     slowBomb: "",
+    hareBomb: "",
+    fps: 30,                  // game frame rate: 30 on phones, 60 on PC
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
     measuredFpm: ""
   };
@@ -140,11 +143,15 @@
     } : null;
     const bombChain = critChain(s, "bomb_");
     const exp = expBombInfo(opts.raw);
-    const slots = [["auto", prefs.autoBomb], ["slow", prefs.slowBomb]]
-      .map(([slot, name]) => ({ slot, bomb: bombByName(name) }))
+    const frameGame = speed / Math.max(prefs.fps || 30, 1);    // one rendered frame, in game seconds
+    DT = prefs.hareBomb ? Math.min(0.02, frameGame / 2) : 0.02;
+    const slots = [["auto", prefs.autoBomb, FIRE_INTERVAL], ["slow", prefs.slowBomb, FIRE_INTERVAL], ["hare", prefs.hareBomb, frameGame]]
+      .map(([slot, name, interval]) => ({ slot, bomb: bombByName(name), interval }))
       .filter(x => x.bomb)
       .map(x => ({
         name: x.bomb.name,
+        slot: x.slot,
+        interval: x.interval,
         isExp: x.bomb.name === "Exp Bomb",
         dmg: (s.bomb_damage || 0) * bombMult(x.bomb.name).mult,
         rechargeTime: x.bomb.cd / Math.max(s.bomb_recharge_speed || 1, 1e-9),
@@ -173,6 +180,8 @@
         });
       }
       floorStart = t; floorMarked = false;
+      // Hare fires once per frame, so its first shot at a new floor lands one frame after it spawns.
+      for (const b of slots) if (b.slot === "hare") b.timer = 0;
     }
     function hit(o, amount, tier) {
       if (!o.alive || tier < o.minTier || amount <= 0) return;
@@ -213,8 +222,8 @@
       for (const b of slots) {
         if (!prefs.fullBombs) b.charge = Math.min(b.charge + DT / b.rechargeTime, 1);
         b.timer += DT;
-        if (b.timer >= FIRE_INTERVAL) {
-          b.timer -= FIRE_INTERVAL;
+        if (b.timer >= b.interval) {
+          b.timer -= b.interval;
           if (prefs.fullBombs || b.charge >= 1) {
             if (!prefs.fullBombs && rand() >= free) b.charge -= 1;
             pending.push({ at: t + BOMB_DELAY, dmg: b.dmg, isExp: b.isExp });
@@ -235,7 +244,7 @@
 
       if (waiting <= 0 && ores.every(o => !o.alive)) {
         floors++; clearTimeSum += t - floorStart; if (floorMarked) expBombFloors++;
-        waiting = RESPAWN_WAIT;
+        waiting = RESPAWN_WAIT + DT;   // the countdown also ticks in this same step
       }
       t += DT;
       if (waiting > 0) { waiting -= DT; if (waiting <= 0) spawn(); }
@@ -280,8 +289,15 @@
       el("summary", { class: "small", text: `${label || "Values from your save"} (${fields.length})` }),
       fieldGrid(fields));
   }
+  function fpsSelect() {
+    const select = el("select", { id: "ce-fps" },
+      el("option", { value: "30", text: "30 fps (phone)" }), el("option", { value: "60", text: "60 fps" }));
+    select.value = String(prefs.fps);
+    select.addEventListener("change", () => { prefs.fps = parseInt(select.value, 10); schedule(); });
+    return el("label", { class: "field bomb-slot", for: "ce-fps" }, el("span", { text: "Game frame rate (hare fires once per frame)" }), select);
+  }
   function bombSlot(slot, label) {
-    const key = slot === "auto" ? "autoBomb" : "slowBomb";
+    const key = { auto: "autoBomb", slow: "slowBomb", hare: "hareBomb" }[slot];
     const select = el("select", { id: "ce-" + key },
       el("option", { value: "", text: "None" }),
       ...(IOM.BOMBS || []).map(b => el("option", { value: b.name, text: `${b.name} (${b.cd}s base)` })));
@@ -320,11 +336,13 @@
       group("Bombs",
         bombSlot("auto", "Auto-Bomber (fires every 1.25 s)"),
         bombSlot("slow", "Fire Slow / turtle (fires every 1.25 s)"),
+        bombSlot("hare", "Fire / hare, held down (fires every frame)"),
+        fpsSelect(),
         checkbox("fullBombs", "Assume full bombs (stored charges, so bombs fire every 1.25 s; off = only as fast as they recharge)"),
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
       group("Timing",
-        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 s later. Bombs hit the moment they're fired. Game speed speeds all of it up equally." }),
+        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 s later. Bombs hit the moment they're fired (the 0.25 s on the wiki is the bomb animation). Game speed speeds all of it up equally." }),
         el("div", { class: "field-grid" },
           prefNumber("measuredFpm", "Floors/min you measured in game (optional, replaces the estimate)", { min: 0, step: 0.1, placeholder: "e.g. 52" })))
     );
