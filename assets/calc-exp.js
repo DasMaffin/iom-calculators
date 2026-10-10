@@ -30,7 +30,7 @@
 
   };
   const GENERAL = [
-    ["current_floor", "Floor", 1], ["experience_multi", "Exp multi"], ["game_speed_multi", "Game speed"],
+    ["experience_multi", "Exp multi"], ["game_speed_multi", "Game speed"],
     ["ores_per_screen", "Ores on screen", 1]
   ];
   const PICK = [
@@ -364,8 +364,7 @@
         checkbox("fullBombs", "Assume full bombs (stored charges, so bombs fire every 1.25 s; off = only as fast as they recharge)"),
         el("p", { class: "muted small", text: `Exp Bomb: marked ores give ${fmt(exp.mult)}× exp (2× + 0.5× per Workshop “Exp Bomb Bonus” level, you have ${exp.lvl}${exp.golden ? "; golden from Storm Serpent tribute: ×3" : ""}). Bombs hit every ore on screen.` }),
         saveValues(BOMB, "Bomb values from your save")),
-      group("Timing",
-        el("p", { class: "muted small", text: "After a floor is cleared the next one spawns 1 game second later. Bombs hit the moment they're fired; hare even on the frame a floor appears. Auto-Bomber and Fire Slow fire every 1.25 s, so a new floor can wait up to 0.25 s for their next shot. Game speed speeds all of it up equally." }))
+
     );
   }
 
@@ -374,59 +373,44 @@
 
   let rawStats = null;
   const noteUpdaters = [];
+  function floorTable(rows, best) {
+    return el("div", { class: "table-wrap" },
+      el("table", { class: "calc-table" },
+        el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
+        el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
+          el("td", { text: String(e.floor) }),
+          el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
+          el("td", { text: e.blocked ? "0" : fmt(e.expPerFloor) }),
+          el("td", { text: e.blocked ? "0" : fmt(e.fpm) }),
+          el("td", { text: e.blocked ? "0" : fmt(e.xpm) }))))));
+  }
+
   function compute() {
-    const floor = Math.round(stats.current_floor || 1);
-    const r = simulate(floor, stats, { raw: rawStats, duration: 3600, minDuration: 180, minFloors: 300 });
-    const out = $("#ce-results");
-    if (!r) { out.replaceChildren(el("p", { class: "warning", text: `No ore data for floor ${floor}.` })); $("#ce-table").replaceChildren(); return; }
-    const tile = (label, value, sub) => el("div", { class: "tile" },
-      el("div", { class: "t-label", text: label }), el("div", { class: "t-value", text: value }), sub ? el("div", { class: "t-sub", text: sub }) : null);
-
-    if (r.blocked) {
-      out.replaceChildren(el("p", { class: "warning", text: "⚠️ " + r.blocked }));
-    } else {
-      const hasExpBomb = r.slots.some(b => b.isExp);
-      out.replaceChildren(
-        el("div", { class: "overview" },
-          tile("Exp / minute", fmt(r.xpm)),
-          tile("Exp / hour", fmt(r.xpm * 60)),
-          tile("Floors / minute", fmt(r.fpm), `${fmt(60 / r.fpm)} s per floor`),
-          tile("Exp per floor", fmt(r.expPerFloor), hasExpBomb ? "includes Exp Bomb marks" : `${r.count} ores × your exp multi`),
-          tile("Time to clear", fmt(r.clearTime) + " s", "game seconds, before the respawn wait"),
-          hasExpBomb ? tile("Floors hit by Exp Bomb", Math.round(r.expBombShare * 100) + "%", `${fmt(r.exp.mult)}× exp on those`) : null)
-
-      );
-    }
-
-    // Start at floor 1 and go up, tracking the best floor. Stop once three floors in a row after the
-    // best weren't higher, or at the last floor of the unlocked worlds.
+    // Start at floor 1 and go up, tracking the best floor. Stop once three floors in a row are lower than
+    // the best (by at least 10%, so near-ties don't count), or at the last floor of the unlocked worlds.
+    const LOWER_BY = 0.10;
     const worlds = Math.max(1, Math.min(4, Math.round((rawStats && rawStats.worlds_unlocked) || 1)));
-    const lastFloor = Math.max(floor, WORLD_LAST_FLOOR[worlds]);
+    const lastFloor = WORLD_LAST_FLOOR[worlds];
     const rows = [];
-    let best = null, sinceBest = 0, stoppedAt = null;
+    let best = null, sinceBest = 0;
     for (let f = 1; f <= lastFloor; f++) {
-      const e = f === floor ? r : simulate(f, stats, { raw: rawStats, duration: 600, minDuration: 60, minFloors: 60 });
+      const e = simulate(f, stats, { raw: rawStats, duration: 600, minDuration: 60, minFloors: 60 });
       if (!e) continue;
       rows.push(e);
       const xpm = e.blocked ? 0 : e.xpm;
-      if (!best || xpm > best.xpm) { best = e.blocked ? best : e; sinceBest = 0; }
-      else if (++sinceBest >= 3) { stoppedAt = f; break; }
+      if (!best || xpm > best.xpm) { if (!e.blocked) best = e; sinceBest = 0; }
+      else if (xpm <= best.xpm * (1 - LOWER_BY)) { if (++sinceBest >= 3) break; }
+      else sinceBest = 0;   // about as good as the best: not "lower", keep looking
     }
-    $("#ce-table").replaceChildren(
-      el("h3", { text: "Exp per floor" }),
-      el("p", { class: "small", text: best
-        ? `Best floor for exp with this setup: ${best.floor} (${fmt(best.xpm)} exp/min).` +
-          (stoppedAt ? ` Checked up to floor ${stoppedAt}: none of the three floors after ${best.floor} was higher.` : ` Checked every floor up to ${lastFloor}, the last one in your unlocked worlds.`)
-        : "No floor can be cleared with this setup." }),
-      el("div", { class: "table-wrap" },
-        el("table", { class: "calc-table" },
-          el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
-          el("tbody", {}, ...rows.slice().reverse().map(e => el("tr", { class: (e === best ? "best" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
-            el("td", { text: String(e.floor) }),
-            el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
-            el("td", { text: e.blocked ? "0" : fmt(e.expPerFloor) }),
-            el("td", { text: e.blocked ? "0" : fmt(e.fpm) }),
-            el("td", { text: e.blocked ? "0" : fmt(e.xpm) })))))));
+    rows.reverse();   // highest floor on top
+
+    if (!best) {
+      const why = rows.find(e => e.blocked);
+      $("#ce-results").replaceChildren(el("p", { class: "warning", text: "⚠️ " + (why ? why.blocked : "No floor can be cleared with this setup.") }));
+    } else {
+      $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), floorTable([best], best));
+    }
+    $("#ce-table").replaceChildren(el("h3", { text: "All checked floors" }), floorTable(rows, best));
   }
 
   let currentData = null;
