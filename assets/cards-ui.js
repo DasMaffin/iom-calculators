@@ -25,6 +25,12 @@
   const root = document.getElementById("cardsCard");
   if (!root || !window.IOM || !IOM.CARDS) return;
 
+  // Size card boxes to the standard backing's real proportions; other backings (gilded has a sparkle
+  // that makes it wider) are fitted inside without stretching.
+  const probe = new Image();
+  probe.onload = () => { if (probe.naturalWidth) root.style.setProperty("--card-ar", `${probe.naturalWidth} / ${probe.naturalHeight}`); };
+  probe.src = IOM.CARD_BACKS[1];
+
   const save = () => store.set(STORAGE_KEY, JSON.stringify(levels));
   const saveUi = () => store.set(UI_KEY, JSON.stringify(ui));
   const levelOf = (cat, name) => (levels[cat] && levels[cat][name]) || 0;
