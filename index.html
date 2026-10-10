@@ -7,7 +7,7 @@
   <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
   <meta name="theme-color" content="#14161c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
-  <link rel="stylesheet" href="assets/style.css?v=20261013j">
+  <link rel="stylesheet" href="assets/style.css?v=20261014b">
 </head>
 <body>
   <header class="topbar">
@@ -28,6 +28,7 @@
       <summary class="nav-item">🧮 <span>Calculators</span></summary>
       <div class="nav-sub">
         <a href="#calc-exp" class="nav-item" data-view="calc-exp">⭐ <span>Experience</span></a>
+        <a href="#calc-pp" class="nav-item" data-view="calc-pp">🏆 <span>Prestige points</span></a>
       </div>
     </details>
   </nav>
@@ -142,12 +143,13 @@
       </section>
     </section>
     </div>
-    <div class="view" data-view-panel="calc-exp" hidden>
+    <div class="view" data-view-panel="calc-exp calc-pp" hidden>
       <section class="card calc" id="calcExp">
-        <div class="card-head"><h1>⭐ Experience calculator</h1></div>
-        <p class="muted small">Statistical exp per minute from mining, using your imported stats. Ore exp, health, floors and modifiers come from the wiki's Ores page.</p>
+        <div class="card-head"><h1 class="exp-only">⭐ Experience calculator</h1><h1 class="pp-only">🏆 Prestige point calculator</h1></div>
+        <p class="muted small exp-only">Statistical exp per minute from mining, using your imported stats. Ore exp, health, floors and modifiers come from the wiki's Ores page.</p>
+        <p class="muted small pp-only">Prestige points per minute for each level you could prestige at, using the simulated exp/min of your best floor.</p>
         <div id="ce-form"></div>
-        <div id="ce-planner" class="planner"></div>
+        <div id="ce-planner" class="planner exp-only"></div>
         <div id="ce-results"></div>
         <div id="ce-table"></div>
       </section>
@@ -159,16 +161,16 @@
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
-  <script src="assets/game-version.js?v=20261013j"></script>
-  <script src="assets/stat-catalog.js?v=20261013j"></script>
-  <script src="assets/array-labels.js?v=20261013j"></script>
-  <script src="assets/cards.js?v=20261013j"></script>
-  <script src="assets/cards-ui.js?v=20261013j"></script>
-  <script src="assets/ores.js?v=20261013j"></script>
-  <script src="assets/sim-core.js?v=20261013j"></script>
-  <script src="assets/calc-exp.js?v=20261013j"></script>
-  <script src="assets/bombs-ui.js?v=20261013j"></script>
-  <script src="assets/saves.js?v=20261013j"></script>
-  <script src="assets/app.js?v=20261013j"></script>
+  <script src="assets/game-version.js?v=20261014b"></script>
+  <script src="assets/stat-catalog.js?v=20261014b"></script>
+  <script src="assets/array-labels.js?v=20261014b"></script>
+  <script src="assets/cards.js?v=20261014b"></script>
+  <script src="assets/cards-ui.js?v=20261014b"></script>
+  <script src="assets/ores.js?v=20261014b"></script>
+  <script src="assets/sim-core.js?v=20261014b"></script>
+  <script src="assets/calc-exp.js?v=20261014b"></script>
+  <script src="assets/bombs-ui.js?v=20261014b"></script>
+  <script src="assets/saves.js?v=20261014b"></script>
+  <script src="assets/app.js?v=20261014b"></script>
 </body>
 </html>

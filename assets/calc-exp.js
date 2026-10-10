@@ -17,7 +17,8 @@
     chainActive: false,
     simFloors: 1000,
     planBy: "gain",
-    planRounds: 1,            // contract planner: how many upgrades to plan in a row           // contract planner ranking: "gain" (highest exp/min) or "perPoint"          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
+    planRounds: 1,
+    ppExtra: 60,              // prestige calculator: seconds per prestige spent grinding contracts/upgrades instead of exp            // contract planner: how many upgrades to plan in a row           // contract planner ranking: "gain" (highest exp/min) or "perPoint"          // floors simulated per floor level; more = steadier averages, slower       // queued chain bombs explode one every 1.25 s; the queue size only sets how long
 
     fullBombs: true,          // bombs fire every 1.25 s from stored charges; off = limited by recharge
 
@@ -270,9 +271,7 @@
   // mark any shown results as out of date.
   function schedule() {
     runId++;
-    if ($("#ce-table").querySelector("table")) {
-      $("#ce-stale").hidden = false;
-    }
+    if (lastResult) $("#ce-stale").hidden = false;
   }
 
   function buildPlanner() {
@@ -285,7 +284,7 @@
       el("option", { value: "perPoint", text: "Most exp/min per contract point" }));
     by.value = prefs.planBy;
     by.addEventListener("change", () => { prefs.planBy = by.value; });
-    return el("div", { class: "plan-controls" },
+    return el("div", { class: "plan-controls exp-only" },
       el("label", { class: "field", for: "ce-planby" }, el("span", { text: "Contract planner: best means" }), by),
       (() => {
         const input = el("input", { type: "number", min: "1", max: "50", step: "1", value: prefs.planRounds, id: "ce-planrounds", inputmode: "numeric" });
@@ -296,12 +295,20 @@
         title: "Simulate each contract upgrade one level higher (with any earlier upgrades it needs) and suggest the best one",
         onclick: () => planContracts() }));
   }
+  function ppControls() {
+    const input = el("input", { type: "number", min: "0", step: "1", value: prefs.ppExtra, id: "ce-ppextra", inputmode: "numeric" });
+    input.addEventListener("input", () => { const v = parseFloat(input.value); if (v >= 0) { prefs.ppExtra = v; if (mode === "pp") showResults(); } });
+    return el("label", { class: "field pp-only", for: "ce-ppextra",
+      title: "How long you think each prestige takes to get back to your current contracts and upgrades, before the exp/min above applies" },
+      el("span", { text: "Assumed time grinding for contracts/upgrades (s)" }), input);
+  }
   function simBar() {
     const input = el("input", { type: "number", min: "100", step: "100", value: prefs.simFloors, id: "ce-simfloors", inputmode: "numeric" });
     input.addEventListener("input", () => { const v = parseInt(input.value, 10); if (v > 0) { prefs.simFloors = v; schedule(); } });
     return el("div", { class: "sim-bar" },
       el("label", { class: "field", for: "ce-simfloors" }, el("span", { text: "Floors to simulate per floor level" }), input),
       el("button", { type: "button", class: "btn primary", text: "▶ Simulate", onclick: compute }),
+      ppControls(),
       planControls(),
       el("p", { class: "warning", id: "ce-stale", hidden: true, text: "Settings changed: press Simulate to update the results below." }));
   }
@@ -383,20 +390,113 @@
     const status = el("p", { class: "muted small" });
     $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), status);
     $("#ce-table").replaceChildren();
+    lastResult = null;
     searchFloors(stats, run, f => { status.textContent = `Simulating ${prefs.simFloors.toLocaleString()} floors per floor level… floor ${f}`; })
-      .then(({ rows, best }) => {
-        const shown = rows.slice().reverse();   // highest floor on top
-        if (!best) {
-          const why = rows.find(e => e.blocked);
-          $("#ce-results").replaceChildren(el("p", { class: "warning", text: "⚠️ " + (why ? why.blocked : "No floor can be cleared with this setup.") }));
-        } else {
-          $("#ce-results").replaceChildren(el("h3", { text: "Best floor" }), floorTable([best], best));
-        }
-        $("#ce-table").replaceChildren(el("h3", { text: "All checked floors" }),
-          el("p", { class: "muted small", text: `Each row is the average of ${prefs.simFloors.toLocaleString()} simulated floors.` +
-            (rows.some(e => e.capped) ? " Floors marked * clear so slowly that fewer were simulated (hover for the number)." : "") }),
-          floorTable(shown, best));
-      }, () => {});
+      .then(r => { lastResult = r; showResults(); }, () => {});
+  }
+
+  // The last simulation, shown as the floor table (Experience) or the PP chart (Prestige points).
+  let lastResult = null;
+  function showResults() {
+    if (!lastResult) {
+      $("#ce-results").replaceChildren(el("p", { class: "muted small", text: "Choose your setup, then press Simulate." }));
+      $("#ce-table").replaceChildren();
+      return;
+    }
+    const { rows, best } = lastResult;
+    if (!best) {
+      const why = rows.find(e => e.blocked);
+      $("#ce-results").replaceChildren(el("p", { class: "warning", text: "⚠️ " + (why ? why.blocked : "No floor can be cleared with this setup.") }));
+    } else {
+      $("#ce-results").replaceChildren(...(mode === "pp" ? ppChart(best) : [el("h3", { text: "Best floor" }), floorTable([best], best)]));
+    }
+    if (mode === "pp") { $("#ce-table").replaceChildren(); return; }
+    const shown = rows.slice().reverse();   // highest floor on top
+    $("#ce-table").replaceChildren(el("h3", { text: "All checked floors" }),
+      el("p", { class: "muted small", text: `Each row is the average of ${prefs.simFloors.toLocaleString()} simulated floors.` +
+        (rows.some(e => e.capped) ? " Floors marked * clear so slowly that fewer were simulated (hover for the number)." : "") }),
+      floorTable(shown, best));
+  }
+
+  // ---------- prestige points ----------
+  // For every level from 20 (the minimum to prestige) to the level cap: the time from prestige start to
+  // reach it (the assumed grinding time, then the exp from level 1 (wiki: (1.2^(level-1) - 1) × 250 per
+  // level) mined on the best floor, whole floors at a time) and the PP it pays (wiki: 12 × 1.084^(level-10) × PP multiplier, × (1 + 0.05 ×
+  // (level-200)) above 200).
+  function ppLevels(best) {
+    const raw = rawStats || {};
+    const mult = raw.prestige_point_multi || 1;
+    const cap = Math.round(raw.xp_level_cap || 30 + 5 * Math.round(raw.obelisk_level || 0));
+    const extra = Math.max(0, prefs.ppExtra || 0) / 60;
+    const out = [];
+    let need = 0;
+    for (let L = 1; L <= cap; L++) {
+      if (L >= 20) {
+        const min = Math.ceil(need / best.expPerFloor) / best.fpm + extra;
+        const pp = 12 * Math.pow(1.084, L - 10) * (L > 200 ? 1 + 0.05 * (L - 200) : 1) * mult;
+        out.push({ L, min, pp, rate: min > 0 ? pp / min : 0 });
+      }
+      need += 250 * (Math.pow(1.2, L - 1) - 1);
+    }
+    return out;
+  }
+  function fmtTime(min) {
+    const s = min * 60;
+    if (s < 90) return `${Math.round(s)} s`;
+    if (min < 90) return `${Math.round(min)} min`;
+    if (min < 48 * 60) return `${(min / 60).toFixed(1)} h`;
+    if (min < 365 * 1440) return `${(min / 1440).toFixed(1)} days`;
+    return `${fmt(min / 525600)} years`;
+  }
+  function ppChart(best) {
+    const d = ppLevels(best);
+    if (!d.length) return [el("p", { class: "warning", text: "Your level cap is below 20, the minimum level to prestige." })];
+    // Total PP/min: the PP of prestiging at that level over the whole time since the prestige started.
+    const top = d.reduce((a, b) => b.rate > a.rate ? b : a);
+    const NS = "http://www.w3.org/2000/svg";
+    const svgEl = (tag, attrs) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); return n; };
+    // Phones get bigger chart text (see style.css), so the y-axis labels need more room there.
+    const W = 800, H = 280, L0 = matchMedia("(max-width: 600px)").matches ? 120 : 80, T0 = 10, B0 = 22, plotH = H - T0 - B0;
+    const bw = (W - L0) / d.length;
+    const y = (v) => T0 + plotH * (1 - v / top.rate);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, class: "pp-chart", role: "img", "aria-label": "Prestige points per minute by level" });
+    for (let k = 0; k <= 4; k++) {
+      const v = top.rate * k / 4;
+      svg.append(svgEl("line", { x1: L0, x2: W, y1: y(v), y2: y(v), class: "grid" }));
+      const t = svgEl("text", { x: L0 - 6, y: y(v) + 4, "text-anchor": "end" }); t.textContent = fmt(v); svg.append(t);
+    }
+    const bars = d.map((e, i) => {
+      const h = Math.max(plotH * e.rate / top.rate, e.rate > 0 ? 1 : 0);
+      const r = svgEl("rect", { x: L0 + i * bw + bw * 0.1, width: Math.max(bw * 0.8, 0.6), y: T0 + plotH - h, height: h, class: "bar" });
+      svg.append(r);
+      if (e.L % 10 === 0) { const t = svgEl("text", { x: L0 + (i + 0.5) * bw, y: H - 6, "text-anchor": "middle", class: e.L % 20 ? "minor" : "" }); t.textContent = e.L; svg.append(t); }
+      return r;
+    });
+    const info = el("p", { class: "pp-info" });
+    let sel = null;
+    const show = (i) => {
+      const e = d[i];
+      if (sel) sel.classList.remove("sel");
+      sel = bars[i]; sel.classList.add("sel");
+      info.replaceChildren(el("b", { text: `Level ${e.L}` }),
+        ` · ${fmtTime(e.min)} after prestiging · ${fmt(e.pp)} PP · ${fmt(e.rate)} total PP/min`);
+    };
+    const pick = (ev) => {
+      const box = svg.getBoundingClientRect();
+      const x = (ev.clientX - box.left) / box.width * W;
+      const i = Math.floor((x - L0) / bw);
+      if (i >= 0 && i < d.length) show(i);
+    };
+    svg.addEventListener("pointermove", pick);
+    svg.addEventListener("pointerdown", pick);
+    show(d.indexOf(top));
+    return [
+      el("h3", { text: `Prestige at level ${top.L}` }),
+      el("p", { class: "muted small", text: `Total PP/min peaks there: ${fmt(top.pp)} PP after ${fmtTime(top.min)} = ${fmt(top.rate)} PP/min. ` +
+        `Each bar is the total PP/min since the prestige started, mining floor ${best.floor} (${fmt(best.xpm)} exp/min). Hover or tap a bar.` }),
+      el("div", { class: "pp-chart-wrap" }, svg),
+      info
+    ];
   }
 
   // ---------- contract upgrade planner ----------
@@ -611,6 +711,7 @@
   }
 
   let currentData = null;
+  let mode = "exp";   // "exp" = Experience calculator, "pp" = Prestige point calculator (same setup)
   const keyFor = (data) => JSON.stringify([data.time, data.version, data.stats.current_floor, data.stats.experience_multi, data.stats.pickaxe_damage, data.stats.game_speed_multi]);
   IOM.calcExp = {
     simulate: (floor, overrides) => simulate(floor, Object.assign({}, stats, overrides)),   // for testing
@@ -618,8 +719,12 @@
     reset() { sourceKey = null; prefs = Object.assign({}, DEFAULTS); },
     // Bomb setup changed on the Savefiles page.
     refresh() { if (stats) { noteUpdaters.forEach(f => f()); schedule(); } },
-    render(data) {
+    render(data, m) {
       currentData = data;
+      const newMode = m === "pp" ? "pp" : "exp";
+      const modeChanged = newMode !== mode;
+      mode = newMode;
+      root.classList.toggle("mode-pp", mode === "pp");
       if (!data || !data.stats) return;
       const key = keyFor(data);
       if (key !== sourceKey) {
@@ -629,9 +734,9 @@
         for (const [k] of [...GENERAL, ...PICK, ...BOMB, ...DRONE]) stats[k] = data.stats[k];
         buildForm(data.stats);
         runId++;
-        $("#ce-results").replaceChildren(el("p", { class: "muted small", text: "Choose your setup, then press Simulate." }));
-        $("#ce-table").replaceChildren();
-      }
+        lastResult = null;
+        showResults();
+      } else if (modeChanged && lastResult) showResults();
     }
   };
 })();

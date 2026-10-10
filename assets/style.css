@@ -493,3 +493,14 @@ textarea:focus, input:focus { outline: 2px solid var(--accent); outline-offset: 
   .section { scroll-margin-top: 64px; }
   .tile .t-value { font-size: 1.15rem; }
 }
+
+/* Experience and Prestige point calculators share one panel */
+#calcExp:not(.mode-pp) .pp-only, #calcExp.mode-pp .exp-only { display: none; }
+.pp-chart-wrap { min-width: 0; }
+.pp-chart { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.pp-chart text { fill: var(--muted); font-size: 12px; }
+.pp-chart .grid { stroke: var(--border); stroke-width: 1; }
+.pp-chart .bar { fill: color-mix(in srgb, var(--accent) 70%, transparent); }
+.pp-chart .bar.sel { fill: var(--accent); }
+.pp-info { margin: 0; min-height: 1.4em; }
+@media (max-width: 600px) { .pp-chart text { font-size: 24px; } .pp-chart text.minor { display: none; } }

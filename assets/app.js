@@ -186,8 +186,8 @@
   }
 
   // ---------- pages (sidebar) ----------
-  const VIEWS = ["saves", "stats", "calc-exp"];
-  const NEEDS_DATA = new Set(["stats", "calc-exp"]);
+  const VIEWS = ["saves", "stats", "calc-exp", "calc-pp"];
+  const NEEDS_DATA = new Set(["stats", "calc-exp", "calc-pp"]);
   function currentView() {
     const v = location.hash.replace("#", "");
     return VIEWS.includes(v) ? v : "saves";
@@ -195,9 +195,10 @@
   function showView() {
     let view = currentView();
     if (NEEDS_DATA.has(view) && !data) view = "saves";   // greyed out until something is imported
-    document.querySelectorAll("[data-view-panel]").forEach(p => { p.hidden = p.dataset.viewPanel !== view; });
+    document.querySelectorAll("[data-view-panel]").forEach(p => { p.hidden = !p.dataset.viewPanel.split(" ").includes(view); });
     if (IOM.calcExp) {
-      if (view === "calc-exp") IOM.calcExp.render(data);
+      // Both calculators share one setup: switching between them keeps it.
+      if (view === "calc-exp" || view === "calc-pp") IOM.calcExp.render(data, view === "calc-pp" ? "pp" : "exp");
       else IOM.calcExp.reset();          // what-if values never outlive the page
     }
     document.querySelectorAll(".nav-item").forEach(a => {
