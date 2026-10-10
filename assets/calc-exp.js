@@ -498,7 +498,7 @@
     const workers = getPool();
     function simMany(list, label) {
       let done = 0;
-      const tick = () => { status.textContent = `${label}… ${done} of ${list.length}`; };
+      const tick = () => { status.textContent = `${label}… ${done} of ${list.length} done`; };
       tick();
       if (workers) {
         return Promise.all(list.map(statsObj => workers.search(statsObj, cfg, lastFloor).then(r => { done++; tick(); return r.best ? r.best.xpm : 0; })))
@@ -527,7 +527,7 @@
       });
       // The current setup (first round only; later rounds start from the previous pick) and every option, all at once.
       const list = baseXpm === null ? [st, ...trials] : trials;
-      return simMany(list, `${prefix}simulating ${options.length} upgrade options`).then(xpms => {
+      return simMany(list, `${prefix}simulating the ${options.length} upgrade${options.length === 1 ? "" : "s"} that can change your exp/min`).then(xpms => {
         const b = baseXpm === null ? xpms.shift() : baseXpm;
         if (startXpm === null) startXpm = b;
         baseXpm = b;
