@@ -48,7 +48,7 @@
     ["bomb_omega_crit_chance", "Omega crit chance %"], ["bomb_omega_crit_damage", "Omega crit damage ×"]
   ];
   const DRONE = [
-    ["drone_count", "Drones", 1], ["drone_damage_percent", "Damage % of pickaxe"], ["drone_attack_speed_percent", "Attack speed %"],
+    ["drone_count", "Drones", 1], ["drone_damage_percent", "Damage % of pickaxe"], ["drone_attack_speed_percent", "Attack speed bonus % (+)"],
     ["drone_triple_damage_chance", "Triple damage chance %"], ["drone_rapid_fire_chance", "Rapid fire chance %"]
   ];
 
@@ -152,7 +152,7 @@
     const pick = prefs.usePickaxe ? { aps: s.pickaxe_attack_speed_per_second || 0, dmg: s.pickaxe_damage || 0, chain: critChain(s, "pickaxe_") } : null;
     const droneN = prefs.useDrones ? Math.max(0, Math.round(s.drone_count || 0)) : 0;
     const drone = droneN ? {
-      aps: DRONE_BASE_APS * (s.drone_attack_speed_percent || 0) / 100,
+      aps: DRONE_BASE_APS * (1 + (s.drone_attack_speed_percent || 0) / 100),   // shown in game as "+100%"
       dmg: (s.pickaxe_damage || 0) * (s.drone_damage_percent || 0) / 100,
       triple: pct(s.drone_triple_damage_chance), rapid: pct(s.drone_rapid_fire_chance),
       chain: critChain(s, "pickaxe_")   // drones crit with the pickaxe's crit chances and damages
