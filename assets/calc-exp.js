@@ -101,6 +101,8 @@
   const oresOnFloor = (floor) => IOM.ORES.filter(o => floor >= o.min && floor <= o.max);
   const bombByName = (name) => (IOM.BOMBS || []).find(b => b.name === name) || null;
   const bombMult = (name) => IOM.bombSetup ? IOM.bombSetup.get(name) : { mult: (rawStats && rawStats.bomb_additional_multiplier) || 1, set: false };
+  // Last floor of each world (wiki: Floors / Data-JSON-Zones).
+  const WORLD_LAST_FLOOR = [0, 42, 72, 102, 132];
   const IMMUNITY = { "super crit+ only": 2, "ultra crit+ only": 3, "omega crit+ only": 4 };
 
   // Crit chain as cumulative tiers: [chance to reach tier, damage multiplier at tier].
@@ -396,33 +398,36 @@
       );
     }
 
-    // Walk down from your floor; stop once exp/min has dropped three floors in a row.
+    // Start at floor 1 and go up, tracking the best floor. Stop once three floors in a row after the
+    // best weren't higher, or at the last floor of the unlocked worlds.
+    const worlds = Math.max(1, Math.min(4, Math.round((rawStats && rawStats.worlds_unlocked) || 1)));
+    const lastFloor = Math.max(floor, WORLD_LAST_FLOOR[worlds]);
     const rows = [];
-    let drops = 0, stoppedAt = null, prev = null;
-    for (let f = floor; f >= 1; f--) {
+    let best = null, sinceBest = 0, stoppedAt = null;
+    for (let f = 1; f <= lastFloor; f++) {
       const e = f === floor ? r : simulate(f, stats, { raw: rawStats, duration: 600, minDuration: 60, minFloors: 60 });
-      if (!e || e.blocked) continue;
+      if (!e) continue;
       rows.push(e);
-      if (prev) {
-        drops = e.xpm < prev.xpm ? drops + 1 : 0;
-        if (drops >= 3) { stoppedAt = f; break; }
-      }
-      prev = e;
+      const xpm = e.blocked ? 0 : e.xpm;
+      if (!best || xpm > best.xpm) { best = e.blocked ? best : e; sinceBest = 0; }
+      else if (++sinceBest >= 3) { stoppedAt = f; break; }
     }
-    const best = rows.reduce((a, b) => (b.xpm > (a ? a.xpm : -1) ? b : a), null);
+    const dash = "—";
     $("#ce-table").replaceChildren(
-      el("h3", { text: "Floors from yours downward" }),
-      best ? el("p", { class: "small", text: `Best floor for exp with this setup: ${best.floor} (${fmt(best.xpm)} exp/min).` +
-        (stoppedAt ? ` Stopped at floor ${stoppedAt}: exp/min dropped three floors in a row, so lower floors aren't checked.` : "") }) : el("p", { class: "small", text: "No floor can be cleared with this setup." }),
+      el("h3", { text: "Exp per floor" }),
+      el("p", { class: "small", text: best
+        ? `Best floor for exp with this setup: ${best.floor} (${fmt(best.xpm)} exp/min).` +
+          (stoppedAt ? ` Checked up to floor ${stoppedAt}: none of the three floors after ${best.floor} was higher.` : ` Checked every floor up to ${lastFloor}, the last one in your unlocked worlds.`)
+        : "No floor can be cleared with this setup." }),
       el("div", { class: "table-wrap" },
         el("table", { class: "calc-table" },
           el("thead", {}, el("tr", {}, ...["Floor", "Ores", "Exp/floor", "Floors/min", "Exp/min"].map(h => el("th", { text: h })))),
-          el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") },
-            el("td", { text: String(e.floor) }),
+          el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.floor === floor ? " current" : "") + (e.blocked ? " blocked" : ""), title: e.blocked || null },
+            el("td", { text: String(e.floor) + (e.floor === floor ? " (yours)" : "") }),
             el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
-            el("td", { text: fmt(e.expPerFloor) }),
-            el("td", { text: fmt(e.fpm) }),
-            el("td", { text: fmt(e.xpm) })))))));
+            el("td", { text: e.blocked ? dash : fmt(e.expPerFloor) }),
+            el("td", { text: e.blocked ? dash : fmt(e.fpm) }),
+            el("td", { text: e.blocked ? "can't clear" : fmt(e.xpm) })))))));
   }
 
   let currentData = null;
