@@ -171,6 +171,13 @@ put("gem_upgrades_array", names(page("Store")[page("Store").index("==Gem Upgrade
                                 r"PickaxeDamage|BombDamageAndBombCapacity|BankedFreebieCap|ChestMeterFillRate|ItemsContainedInChests|OreSellPrice"),
     "Store#Gem_Upgrades")
 
+# Contract upgrades: levels in wiki order. Checked by comparing two exports from the same player:
+# each newly bought level changed exactly the matching stat (e.g. #17 Base Game Speed lvl 8 -> x1.08).
+put("contracts_array",
+    [f"{w}: {cells[0]}" for (i, cells) in table_rows(page("Contracts"), r"Upgrades_W\d_[A-Za-z0-9]+")
+     for w in [i.split("_")[1]]],
+    "Contracts")
+
 # Idols: wiki order minus the idols added in later updates; checked against max levels in a late-game
 # export and the Athena/Apollo counts in an early one. Slots after the 19 base idols are not idol counts
 # (values exceed every idol cap) and stay unlabelled.

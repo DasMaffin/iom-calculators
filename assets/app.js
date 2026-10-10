@@ -164,6 +164,16 @@
         notes.push(`This export is ${Math.floor(days)} days old (${when.toLocaleDateString()}). Export again for your current stats.`);
       }
     }
+    // Positive values in this array are seconds left on an active buff (checked: 3x Vein active
+    // tripled vein_spawn_rate_multi; 10x Bomb Recharge expiring cut bomb_recharge_speed by 10x).
+    const buffs = data.stats.lootbug_and_elixir_uptime_array;
+    const names = (IOM.ARRAY_LABELS || {}).lootbug_and_elixir_uptime_array || [];
+    if (Array.isArray(buffs)) {
+      const active = buffs.map((v, i) => v > 0 ? `${names[i] || "Buff #" + i} (${formatDuration(v)} left)` : null).filter(Boolean);
+      if (active.length) {
+        notes.push(`Active buffs: ${active.join(", ")}. Your exported stats include these temporary boosts. Export again after they run out to see your base stats.`);
+      }
+    }
     $("#warnings").replaceChildren(...notes.map(t => el("p", { class: "warning", role: "alert" }, "⚠️ " + t)));
     $("#warnings").hidden = notes.length === 0;
   }
@@ -328,6 +338,9 @@
           saveData();
         });
         const name = names && names[i];
+        if (key === "lootbug_and_elixir_uptime_array") {
+          cell.title = val > 0 ? `Active, ${formatDuration(val)} left` : "Not active";
+        }
         cell.append(el("span", { title: name ? `${key}[${i}]` : null }, `#${i}`, name ? el("b", { text: " " + name }) : null), input);
         grid.append(cell);
       });

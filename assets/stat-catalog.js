@@ -77,8 +77,7 @@ IOM.LABELS = {
 IOM.NOT_YET_SEEN = [
   { name: "Arcanist", note: "Unlocks at Obelisk 70. Mana, spell power, spell duration, wizard chances and wizard loot multi.", wiki: "Arcanist" },
   { name: "Archaeology (partly)", note: "Idols are exported (see the Archaeology section). Your archaeology level, stage, stamina, skills, upgrades and fragments are not.", wiki: "Archaeology" },
-  { name: "Cards", note: "Your card collection isn't in the export, even if you own lots of cards. Only fishing cards and the Infernal card multi are. Card bonuses still count toward your stat totals.", wiki: "Cards" },
-  { name: "Contract slots", note: "contracts_array is exported, but the wiki doesn't document what each slot means yet.", wiki: "Guides/Working_With_ExportStats" }
+  { name: "Cards", note: "Your card collection isn't in the export, even if you own lots of cards. Only fishing cards and the Infernal card multi are. Card bonuses still count toward your stat totals.", wiki: "Cards" }
 ];
 
 IOM.sectionFor = function (key) {
