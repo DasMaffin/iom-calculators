@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>IOM Calculators</title>
+  <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
+  <meta name="theme-color" content="#14161c">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./">⛏️ <span>IOM Calculators</span></a>
+      <nav class="topnav">
+        <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Wiki ↗</a>
+        <button id="themeToggle" class="btn ghost small" type="button" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card import" id="importCard">
+      <div class="card-head">
+        <h1>Import your stats</h1>
+        <span class="badge" id="loadedBadge" hidden></span>
+      </div>
+
+      <details class="howto" open>
+        <summary>How do I export my stats?</summary>
+        <ol>
+          <li>In the game, open the <b>Stats</b> menu.</li>
+          <li>Scroll down <b>all the way</b> to the bottom.</li>
+          <li>Tap <b>Export</b>. Your stats are copied to the clipboard as JSON.</li>
+          <li>Paste them into the box below (or save them to a <code>.json</code> file and pick it).</li>
+        </ol>
+        <p class="muted small">Tip: unequip temporary buffs first if you want your base stats. The export reflects what is active at that moment.</p>
+      </details>
+
+      <label for="jsonInput" class="sr-only">Stats JSON</label>
+      <textarea id="jsonInput" spellcheck="false" autocomplete="off" placeholder='{ "time": …, "stats": { … }, "version": "v2.2.30" }'></textarea>
+
+      <div class="actions">
+        <button class="btn primary" id="importBtn" type="button">Import</button>
+        <label class="btn" for="fileInput">Choose file…</label>
+        <input type="file" id="fileInput" accept=".json,application/json,text/plain" hidden>
+        <button class="btn" id="pasteBtn" type="button">Paste from clipboard</button>
+        <button class="btn ghost" id="exampleBtn" type="button">Load example</button>
+      </div>
+      <p class="msg" id="importMsg" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="dashboard" hidden>
+      <div class="overview" id="overview"></div>
+
+      <div class="toolbar card">
+        <input type="search" id="filterInput" placeholder="Filter stats… (e.g. crit, golden, fuel)" aria-label="Filter stats">
+        <div class="toolbar-row">
+          <label class="check"><input type="checkbox" id="hideZero"> Hide zero / empty</label>
+          <span class="spacer"></span>
+          <button class="btn small" id="expandAll" type="button">Expand all</button>
+          <button class="btn small" id="collapseAll" type="button">Collapse all</button>
+        </div>
+        <div class="toolbar-row">
+          <button class="btn small" id="downloadBtn" type="button">⬇ Download JSON</button>
+          <button class="btn small" id="copyBtn" type="button">⧉ Copy JSON</button>
+          <span class="spacer"></span>
+          <button class="btn small danger" id="clearBtn" type="button">Clear</button>
+        </div>
+        <p class="muted small">Values are editable. Changes are saved in this browser only.</p>
+      </div>
+
+      <nav class="jump" id="jumpNav" aria-label="Sections"></nav>
+      <div id="sections"></div>
+
+      <section class="card">
+        <h2>Not in this export yet</h2>
+        <p class="muted small">The wiki documents these systems, but the reference export (v2.2.30) doesn't have stats for them yet. Once your export includes them they show up in their section, or under <b>Other</b> if they're new.</p>
+        <ul class="notseen" id="notSeen"></ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="wrap footer muted small">
+    Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
+  </footer>
+
+  <script src="assets/stat-catalog.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
