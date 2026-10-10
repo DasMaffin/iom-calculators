@@ -315,7 +315,7 @@
         el("tbody", {}, ...rows.map(e => el("tr", { class: (e === best ? "best" : "") + (e.blocked ? " blocked" : ""),
           title: e.blocked || (e.capped ? `Slow floor: averaged over ${e.floors.toLocaleString()} simulated floors` : null) },
           el("td", { text: String(e.floor) + (e.capped ? " *" : "") }),
-          el("td", { class: "ore-cell" }, ...e.floorOres.map(oreIcon)),
+          el("td", {}, el("div", { class: "ore-cell" }, ...e.floorOres.map(oreIcon))),
           el("td", { text: e.blocked ? "0" : fmt(e.expPerFloor) }),
           el("td", { text: e.blocked ? "0" : fmt(e.fpm) }),
           el("td", { text: e.blocked ? "0" : fmt(e.xpm) }))))));

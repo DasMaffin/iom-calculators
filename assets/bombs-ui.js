@@ -10,6 +10,8 @@
   let mults = {};          // { bombName: multiplier }
   let fallback = null;     // shared multiplier from the export, used when a bomb has no value
 
+  const has = (name) => typeof mults[name] === "number" && mults[name] >= 0;
+
   const el = (tag, attrs = {}, ...children) => {
     const n = document.createElement(tag);
     for (const [k, v] of Object.entries(attrs)) {
@@ -23,7 +25,7 @@
   };
 
   function summary() {
-    const set = IOM.BOMBS.filter(b => mults[b.name] > 0).length;
+    const set = IOM.BOMBS.filter(b => has(b.name)).length;
     root.querySelector("#bombSummary").textContent = `${set} of ${IOM.BOMBS.length} set`;
   }
 
@@ -34,11 +36,11 @@
       const input = el("input", {
         type: "number", inputmode: "decimal", min: "0", step: "any", id,
         placeholder: fallback ? String(Number(fallback.toPrecision(6))) : "",
-        value: mults[b.name] > 0 ? String(mults[b.name]) : ""
+        value: has(b.name) ? String(mults[b.name]) : ""
       });
       input.addEventListener("input", () => {
         const v = parseFloat(input.value);
-        if (v > 0) mults[b.name] = v; else delete mults[b.name];
+        if (input.value.trim() !== "" && v >= 0) mults[b.name] = v; else delete mults[b.name];   // 0 is 0, empty is unset
         IOM.saves && IOM.saves.update({ bombs: mults });
         summary();
         if (IOM.calcExp && IOM.calcExp.refresh) IOM.calcExp.refresh();
@@ -53,7 +55,7 @@
     getState() { return Object.assign({}, mults); },
     setFallback(v) { fallback = v > 0 ? v : null; render(); },
     // The multiplier to use for a bomb, and whether it came from the player or the export fallback.
-    get(name) { return mults[name] > 0 ? { mult: mults[name], set: true } : { mult: fallback || 1, set: false }; }
+    get(name) { return has(name) ? { mult: mults[name], set: true } : { mult: fallback || 1, set: false }; }
   };
   render();
 })();
