@@ -219,6 +219,13 @@ CARD_PAGES = [  # in-game tab order; tabs after Archaeology are not confirmed ye
     ("fish", "Fish"), ("legendary_fish", "Legendary Fish"), ("essences", "Essences"), ("orbs", "Orbs"),
     ("runes", "Runes"), ("spells", "Spells"),
 ]
+# Card art the wiki's card table points at, but which doesn't exist under that name.
+# Tried in order after the default; the stat icon is the last resort.
+CARD_IMAGE_FALLBACKS = {
+    "Misc Big Lootfrog": ["Misc Big Frog.png", "Big Lootfrog Multi.png"],
+    "Misc Massive Lootfrog": ["Misc Massive Frog.png"],
+}
+
 cards = []
 for cid, title in CARD_PAGES:
     t = page(f"Cards/Card Effects/{title}")
@@ -232,7 +239,7 @@ for cid, title in CARD_PAGES:
         infernal = len(effects) > 3 and effects[3] not in ("", "{{NA}}")
         entries.append({
             "name": name,
-            "img": wiki_file_url(m.group(1) + ".png"),
+            "img": [wiki_file_url(f) for f in [m.group(1) + ".png"] + CARD_IMAGE_FALLBACKS.get(m.group(1).strip(), [])],
             "fx": [e if e != "{{NA}}" else None for e in effects],
             "max": 4 if infernal else 3,
         })

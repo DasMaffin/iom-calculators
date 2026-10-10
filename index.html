@@ -7,7 +7,7 @@
   <meta name="description" content="Stat viewer and calculators for Idle Obelisk Miner. Import your in-game stats export (JSON).">
   <meta name="theme-color" content="#14161c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>">
-  <link rel="stylesheet" href="assets/style.css?v=20261010e">
+  <link rel="stylesheet" href="assets/style.css?v=20261010h">
 </head>
 <body>
   <header class="topbar">
@@ -21,11 +21,31 @@
   </header>
 
   <main class="wrap">
-    <section class="card import" id="importCard">
+    <section class="card saves" id="savesCard">
       <div class="card-head">
+        <h2>💾 Saves</h2>
+        <span class="badge" id="saveCount"></span>
+        <span class="muted small save-status" id="saveStatus"></span>
+      </div>
+      <div class="save-row">
+        <label class="save-label" for="saveName">Current save</label>
+        <input type="text" id="saveName" maxlength="60" autocomplete="off" spellcheck="false">
+        <button class="btn small" id="saveNew" type="button">＋ New</button>
+        <button class="btn small" id="saveCopy" type="button">⧉ Duplicate</button>
+      </div>
+      <details class="save-list-wrap">
+        <summary class="small">All saves</summary>
+        <ul class="save-list" id="saveList"></ul>
+      </details>
+      <p class="muted small">Everything autosaves in this browser: your imported stats and marked cards. Saves stay on this device. Use <b>Download JSON</b> to move one to another device.</p>
+    </section>
+
+    <details class="card fold import" id="importCard" data-fold="importCard" open>
+      <summary class="card-head fold-head">
         <h1>Import your stats</h1>
         <span class="badge" id="loadedBadge" hidden></span>
-      </div>
+      </summary>
+      <div class="fold-body">
 
       <details class="howto" open>
         <summary>How do I export my stats?</summary>
@@ -49,13 +69,15 @@
         <button class="btn ghost" id="exampleBtn" type="button">Load example</button>
       </div>
       <p class="msg" id="importMsg" role="status" aria-live="polite"></p>
-    </section>
+      </div>
+    </details>
 
-    <section class="card cards" id="cardsCard">
-      <div class="card-head">
+    <details class="card fold cards" id="cardsCard" data-fold="cardsCard">
+      <summary class="card-head fold-head">
         <h2>🃏 Cards</h2>
         <span class="badge" id="cardSummary"></span>
-      </div>
+      </summary>
+      <div class="fold-body">
       <p class="muted small">The stats export doesn't include your cards, so mark them here. Pick a level, then click cards to set them (click again to remove). <b>Shift+click</b> fills every card between your last click and this one. On a phone, turn on <b>Range</b>, tap the first card, then the last.</p>
       <div class="toolbar-row card-tools">
         <div class="brush-bar" id="cardBrush" role="group" aria-label="Card level to apply"></div>
@@ -64,7 +86,8 @@
         <button class="btn small" id="cardRange" type="button" aria-pressed="false">↔ Range</button>
       </div>
       <div id="cardCategories"></div>
-    </section>
+      </div>
+    </details>
 
     <section id="dashboard" hidden>
       <div class="warnings" id="warnings" hidden></div>
@@ -102,11 +125,12 @@
     Fan-made tool, not affiliated with the game's developers. Data: <a href="https://shminer.miraheze.org/wiki" target="_blank" rel="noopener">Idle Obelisk Miner Wiki</a>.
   </footer>
 
-  <script src="assets/game-version.js?v=20261010e"></script>
-  <script src="assets/stat-catalog.js?v=20261010e"></script>
-  <script src="assets/array-labels.js?v=20261010e"></script>
-  <script src="assets/cards.js?v=20261010e"></script>
-  <script src="assets/cards-ui.js?v=20261010e"></script>
-  <script src="assets/app.js?v=20261010e"></script>
+  <script src="assets/game-version.js?v=20261010h"></script>
+  <script src="assets/stat-catalog.js?v=20261010h"></script>
+  <script src="assets/array-labels.js?v=20261010h"></script>
+  <script src="assets/cards.js?v=20261010h"></script>
+  <script src="assets/cards-ui.js?v=20261010h"></script>
+  <script src="assets/saves.js?v=20261010h"></script>
+  <script src="assets/app.js?v=20261010h"></script>
 </body>
 </html>

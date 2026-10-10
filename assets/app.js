@@ -1,7 +1,6 @@
 (function () {
   "use strict";
 
-  const STORAGE_KEY = "iom.stats.v1";
   const THEME_KEY = "iom.theme";
   const UI_KEY = "iom.ui.v1";
 
@@ -79,7 +78,8 @@
 
   try { ui = Object.assign(ui, JSON.parse(store.get(UI_KEY) || "{}")); } catch { /* ignore */ }
   const saveUi = () => store.set(UI_KEY, JSON.stringify(ui));
-  const saveData = () => data && store.set(STORAGE_KEY, JSON.stringify(data));
+  // Every change autosaves into the active named save (see saves.js).
+  const saveData = () => IOM.saves.update({ data });
 
   // ---------- import ----------
   function parseExport(text) {
@@ -106,10 +106,12 @@
   }
 
   function load(obj, { persist = true, quiet = false } = {}) {
-    data = obj;
+    // A downloaded file carries the marked cards too; restore them, but keep them out of the stats data.
+    const { iom_cards: cards, ...exported } = obj;
+    data = exported;
     if (IOM.cardsUI) {
-      if (obj.iom_cards) IOM.cardsUI.setState(obj.iom_cards);
-      IOM.cardsUI.syncFromExport(obj.stats);
+      if (cards) IOM.cardsUI.setState(cards);
+      IOM.cardsUI.syncFromExport(data.stats);
     }
     if (persist) saveData();
     render();
@@ -394,7 +396,8 @@
 
   function download() {
     const blob = new Blob([exportText()], { type: "application/json" });
-    const a = el("a", { href: URL.createObjectURL(blob), download: `iom-stats-${data.version || "export"}.json` });
+    const safeName = IOM.saves.activeName().replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, "-") || "save";
+    const a = el("a", { href: URL.createObjectURL(blob), download: `iom-${safeName}.json` });
     document.body.append(a);
     a.click();
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
@@ -477,9 +480,9 @@
   $("#downloadBtn").addEventListener("click", download);
   $("#copyBtn").addEventListener("click", (e) => copy(e.currentTarget));
   $("#clearBtn").addEventListener("click", () => {
-    if (!confirm("Clear the imported stats from this browser?")) return;
+    if (!confirm("Remove the imported stats from this save? Your marked cards stay.")) return;
     data = null;
-    store.del(STORAGE_KEY);
+    IOM.saves.update({ data: null });
     $("#jsonInput").value = "";
     $("#loadedBadge").hidden = true;
     $("#importCard .howto").open = true;
@@ -487,10 +490,29 @@
     render();
   });
 
-  // Restore last import.
-  const saved = store.get(STORAGE_KEY);
-  if (saved) {
-    try { load(parseExport(saved), { persist: false, quiet: true }); setMsg("Loaded your last import from this browser.", "ok"); }
-    catch { store.del(STORAGE_KEY); }
-  }
+  // Foldable panels remember whether they're open (Import starts open, Cards closed).
+  document.querySelectorAll("details.fold[data-fold]").forEach(d => {
+    const key = d.dataset.fold;
+    if (key in (ui.folds || {})) d.open = ui.folds[key];
+    d.addEventListener("toggle", () => { ui.folds = Object.assign({}, ui.folds, { [key]: d.open }); saveUi(); });
+  });
+
+  // Show a save's contents (called by saves.js on start-up and when switching saves).
+  IOM.saves.init(function applySave(save) {
+    if (IOM.cardsUI) IOM.cardsUI.setState(save.cards || {});
+    $("#jsonInput").value = "";
+    if (save.data) {
+      try {
+        load(parseExport(JSON.stringify(save.data)), { persist: false, quiet: true });
+        setMsg(`Loaded "${save.name}".`, "ok");
+        return;
+      } catch { /* fall through to an empty save */ }
+    }
+    data = null;
+    if (IOM.cardsUI) IOM.cardsUI.syncFromExport(null);
+    $("#loadedBadge").hidden = true;
+    $("#importCard .howto").open = true;
+    setMsg(save.cards && Object.keys(save.cards).length ? `Loaded "${save.name}" (no stats imported yet).` : "", "");
+    render();
+  });
 })();

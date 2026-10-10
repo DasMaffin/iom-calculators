@@ -4,7 +4,6 @@
 (function () {
   "use strict";
 
-  const STORAGE_KEY = "iom.cards.v1";
   const UI_KEY = "iom.cards.ui.v1";
   const LEVELS = ["None", "Standard", "Gilded", "Polychrome", "Infernal"];
   // Categories the export does contain: these follow the import and can't be edited by hand.
@@ -16,7 +15,7 @@
   };
   const load = (k, fallback) => { try { return Object.assign(fallback, JSON.parse(store.get(k) || "{}")); } catch { return fallback; } };
 
-  let levels = load(STORAGE_KEY, {});          // { categoryId: { cardName: level } }
+  let levels = {};                              // { categoryId: { cardName: level } }, filled from the active save
   const ui = load(UI_KEY, { open: {}, brush: 1, labels: false });
   let synced = {};                              // categoryId -> true when filled from the export
   let anchor = null;                            // { cat, index } of the last clicked card
@@ -25,7 +24,7 @@
   const root = document.getElementById("cardsCard");
   if (!root || !window.IOM || !IOM.CARDS) return;
 
-  const save = () => store.set(STORAGE_KEY, JSON.stringify(levels));
+  const save = () => IOM.saves && IOM.saves.update({ cards: levels });
   const saveUi = () => store.set(UI_KEY, JSON.stringify(ui));
   const levelOf = (cat, name) => (levels[cat] && levels[cat][name]) || 0;
 
@@ -76,7 +75,8 @@
   function tile(cat, card, index) {
     const lvl = levelOf(cat.id, card.name);
     const back = el("img", { class: "cback", src: IOM.CARD_BACKS[lvl || 1], alt: "", loading: "lazy", draggable: "false" });
-    const icon = el("img", { class: "cicon", src: card.img, alt: "", loading: "lazy", draggable: "false" });
+    const srcs = [].concat(card.img);  // first choice, then fallbacks for files the wiki misnames
+    const icon = el("img", { class: "cicon", src: srcs[0], alt: "", loading: "lazy", draggable: "false" });
     const art = el("span", { class: "cart" }, back, icon, el("span", { class: "cfallback", text: card.name }),
       el("span", { class: "cbadge", text: BADGES[lvl] }));
     const t = el("button", {
@@ -89,7 +89,11 @@
     }, art, el("span", { class: "cname", text: card.name }));
     // Tiles show a framed name until the artwork loads, so they still work if the wiki's images can't.
     icon.addEventListener("load", () => t.classList.add("hasimg"), { once: true });
-    icon.addEventListener("error", () => icon.remove(), { once: true });
+    let attempt = 0;
+    icon.addEventListener("error", () => {
+      if (++attempt < srcs.length) icon.src = srcs[attempt];
+      else icon.remove();
+    });
     back.addEventListener("error", () => back.remove(), { once: true });
     return t;
   }
@@ -216,7 +220,7 @@
       render();
     },
     getState() { return JSON.parse(JSON.stringify(levels)); },
-    setState(s) { if (s && typeof s === "object") { levels = s; save(); render(); } }
+    setState(s) { levels = (s && typeof s === "object") ? JSON.parse(JSON.stringify(s)) : {}; anchor = null; save(); render(); }
   };
 
   render();
