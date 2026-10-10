@@ -20,7 +20,6 @@
     respawnMode: "after",     // "after": wait starts when cleared (matches the wiki's 48 floors/min); "tick": fixed checks
     respawnWait: 1,           // game seconds (wiki)
     bombDelay: 0.25,          // game seconds from firing to explosion (wiki)
-    scaleWithSpeed: true,
     tripleExp: false,
     measuredFpm: ""
   };
@@ -129,7 +128,7 @@
 
     let speed = s.game_speed_multi || 1;
     for (const o of floorOres) if (o.mod === "game speed" && o.amt) speed *= 1 + o.amt / 100;
-    const scale = prefs.scaleWithSpeed ? speed : 1;
+    const scale = speed;   // game speed scales everything equally (2x speed = 2x result)
 
     // Damage sources
     const pick = prefs.usePickaxe ? { aps: s.pickaxe_attack_speed_per_second || 0, dmg: s.pickaxe_damage || 0, chain: critChain(s, "pickaxe_") } : null;
@@ -330,7 +329,6 @@
           prefNumber("respawnWait", "Respawn wait (game s)", { min: 0, step: 0.05 }),
           prefNumber("bombDelay", "Bomb explosion delay (game s)", { min: 0, step: 0.05 }),
           prefNumber("measuredFpm", "Measured floors/min (optional)", { min: 0, step: 0.1, placeholder: "e.g. 52" })),
-        checkbox("scaleWithSpeed", "Game speed also speeds up attacks, bombs and the respawn wait"),
         checkbox("tripleExp", "Triple rocks give 3× exp (the wiki only says 3× ores)"))
     );
   }
